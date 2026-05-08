@@ -404,7 +404,7 @@ So $\Delta a$ increases **monotonically** with radius, and the increase accelera
 
 **Reference points**:
 
-| Counterweight Track Radius \(r\) (km) | Above GEO (km) | \(\Delta a\) (m/s²) | Multiple of GEO+200 km | Required Counterweight Mass (kg) |
+| Counterweight Track Radius $r$ (km) | Above GEO (km) | $\Delta a$ (m/s²) | Multiple of GEO+200 km | Required Counterweight Mass (kg) |
 |:--:|:--:|:--:|:--:|:--:|
 | 42,364 (current scheme) | 200 | 0.00315 | — | 6.7×10¹² |
 | 50,000 | 7,836 | 0.056 | 18 | 3.7×10¹¹ |

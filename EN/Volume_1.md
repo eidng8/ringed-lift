@@ -61,8 +61,8 @@ The position of a point P on the ring is uniquely determined by the angular coor
 
 For all subsequent calculations involving the gravitational field, Earth's gravity is modeled as:
 
-- Central term: \( V_0 = -\frac{GM_e}{r} \)
-- J₂ perturbation term: \( V_{J_2} = -\frac{GM_e}{r} J_2 (R_e/r)^2 \frac{3\sin^2\phi_{lat}-1}{2} \) (on the equatorial plane, \(\phi_{lat}=0\))
+- Central term: $ V_0 = -\frac{GM_e}{r} $
+- J₂ perturbation term: $ V_{J_2} = -\frac{GM_e}{r} J_2 (R_e/r)^2 \frac{3\sin^2\phi_{lat}-1}{2} $ (on the equatorial plane, $\phi_{lat}=0$)
 
 The Moon and Sun are treated as point mass gravitational sources.
 
@@ -73,8 +73,8 @@ The Moon and Sun are treated as point mass gravitational sources.
 
 Ignoring all perturbations, assuming Earth as a central gravitational field and the ring as a continuum. For an infinitesimal element on the ring (corresponding to angular coordinate dφ), the forces are:
 
-- **Gravity**: \( dF_g = -\frac{GM_e \lambda}{R_0} d\phi \hat{r} \)
-- **Tension**: The radial resultant of the tensions T at both ends is \( dF_T = T d\phi \hat{r} \) (positive toward the center)
+- **Gravity**: $ dF_g = -\frac{GM_e \lambda}{R_0} d\phi \hat{r} $
+- **Tension**: The radial resultant of the tensions T at both ends is $ dF_T = T d\phi \hat{r} $ (positive toward the center)
 
 Equilibrium equation:
 
@@ -96,7 +96,7 @@ $$
 a_c = \omega_e^2 R_0 = (7.2921\times10^{-5})^2 \times 4.2264\times10^7 \approx 0.2247\,\text{m/s}^2
 $$
 
-\( a_c > a_g \), difference ≈ 0.0009 m/s².
+$ a_c > a_g $, difference ≈ 0.0009 m/s².
 
 **Implication**: If the ring is only subject to gravity, its centripetal acceleration is only a_g, which is insufficient to maintain synchronous circular motion at radius R₀. The cable must provide additional centripetal tension to make up this difference, so that the net centripetal acceleration reaches a_c. The ring is thus in a state of permanent tension, storing elastic energy.
 
@@ -140,7 +140,7 @@ $$
 
 ### 1.4.4 Assessment Framework (for Volume VII)
 
-- **n=0 Mode Assessment Equation**: \( \ddot{A}_0 + (\omega_{n=0})^2 A_0 = 0 \) — If ω² > 0, stable; if < 0, exponentially divergent. The expression for ω² contains λ, to be numerically calculated in Volume VII.
+- **n=0 Mode Assessment Equation**: $ \ddot{A}_0 + (\omega_{n=0})^2 A_0 = 0 $ — If ω² > 0, stable; if < 0, exponentially divergent. The expression for ω² contains λ, to be numerically calculated in Volume VII.
 
 - **n≥2 Mode Dispersion Relation**: The squared natural frequency of the n-th order bending mode of an elastic ring under uniform tension T is [1.5]:
 

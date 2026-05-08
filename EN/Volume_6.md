@@ -135,7 +135,7 @@ $$
 F = 2 T_{\text{ring}} \sin\theta
 $$
 
-Under the small deformation assumption after construction (θ ≪ 1), \(\sin\theta \approx \theta\):
+Under the small deformation assumption after construction (θ ≪ 1), $\sin\theta \approx \theta$:
 
 $$
 F \approx 2 T_{\text{ring}} \theta \quad \Rightarrow \quad \theta \approx \frac{F}{2 T_{\text{ring}}}

@@ -1547,7 +1547,7 @@ $$
 
 With 10th-level headwind (upward), relative wind speed increases to 85.56 m/s, drag about 2.82×10⁵ N.
 
-During descent at constant speed, drive system must provide braking force \( F_{\text{brake}} = W = 1.962 \times 10^6 \, \text{N} \). Under headwind:
+During descent at constant speed, drive system must provide braking force $ F_{\text{brake}} = W = 1.962 \times 10^6 \, \text{N} $. Under headwind:
 
 $$
 \frac{F_{\text{drag,disc,head}}}{F_{\text{brake}}} = \frac{2.82 \times 10^5}{1.962 \times 10^6} \approx 14.4\%
