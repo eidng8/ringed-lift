@@ -113,7 +113,7 @@ $$
 
 ### 5.3.1 Spatial and Volumetric Baselines
 
-**Spatial Baseline**: The inner diameter of the mid-section living module should not be less than 4.2 m ($R_{in}$ = 2.1 m), as a non-negotiable minimum design constraint [5.1]. Reasons:
+**Spatial Baseline**: The inner diameter of the mid-section living module should not be less than 4.2 m ( $R_{in}$ = 2.1 m), as a non-negotiable minimum design constraint [5.1]. Reasons:
 
 - **Physiological Constraint**: In microgravity, the human spine elongates by 3–5 cm, arm span is about 2.0 m. An inner diameter of 4.2 m ensures no collision with the cabin wall during floating movement.
 - **Psychological Constraint**: In a 50-hour enclosed space, horizontal openness is key to preventing claustrophobia. 4.2 m is the minimum comfortable inner diameter validated by long-term on-orbit use of the ISS Harmony Node.
@@ -195,7 +195,7 @@ $$
 R_{\text{in}} = \sqrt{21.22} \approx 4.61 \, \text{m}
 $$
 
-Take inner diameter $D_{in}$ = 9.2 m ($R_{in}$ = 4.6 m). Internal volume check:
+Take inner diameter $D_{in}$ = 9.2 m ( $R_{in}$ = 4.6 m). Internal volume check:
 
 $$
 V_{\text{main}} = \pi \times (4.6)^2 \times 9 = 3.14159 \times 21.16 \times 9 \approx 598.5 \, \text{m}^3
@@ -254,7 +254,7 @@ Core constraints:
 
 **(1) Gravitational Potential Energy Component**
 
-Potential energy difference per unit mass from ground (r=Rₑ) to GEO (r=$R_{GEO}$):
+Potential energy difference per unit mass from ground (r=Rₑ) to GEO ( $r=R_{GEO}$ ):
 
 $$
 \Delta E_{\text{unit}} = GM_e \left( \frac{1}{R_e} - \frac{1}{R_{GEO}} \right)
@@ -332,7 +332,7 @@ Where m₀ is initial total mass (incl. propellant), $m_f$ is burnout mass (stru
 
 ### 5.4.4 Chemical Rocket Scheme
 
-For LH₂/LOX rocket ($I_{sp}$ ≈ 450 s), currently the most optimized chemical propulsion:
+For LH₂/LOX rocket ( $I_{sp}$ ≈ 450 s), currently the most optimized chemical propulsion:
 
 $$
 \frac{m_0}{m_f} = \exp\left(\frac{19,000}{450 \times 9.81}\right)
@@ -353,7 +353,7 @@ Propellant tank mass (about 8%–12% of propellant mass, take 10%) ≈ 1,462 t. 
 
 Clearly, a single run would require over 100,000 tons of chemical propellant, which is completely infeasible in terms of launch, refueling, cost, and safety.
 
-For LOX/methane ($I_{sp}$ ≈ 380 s):
+For LOX/methane ( $I_{sp}$ ≈ 380 s):
 
 $$
 \frac{m_0}{m_f} = \exp\left(\frac{19,000}{380 \times 9.81}\right) = \exp(5.10) \approx 164
@@ -363,7 +363,7 @@ Mass ratio is even more extreme.
 
 ### 5.4.5 Nuclear Thermal Rocket Scheme
 
-Nuclear thermal rocket ($I_{sp}$ ≈ 900 s, e.g., NERVA):
+Nuclear thermal rocket ( $I_{sp}$ ≈ 900 s, e.g., NERVA):
 
 $$
 \frac{m_0}{m_f} = \exp\left(\frac{19,000}{900 \times 9.81}\right)
@@ -376,7 +376,7 @@ $m_f$ = 200 t → $m_0$ ≈ 1,720 t, propellant about 1,520 t. Although much low
 
 ### 5.4.6 Electric Propulsion Scheme
 
-Xenon Hall thruster ($I_{sp}$ ≈ 3,000 s):
+Xenon Hall thruster ( $I_{sp}$ ≈ 3,000 s):
 
 $$
 \frac{m_0}{m_f} = \exp\left(\frac{19,000}{3,000 \times 9.81}\right)
@@ -413,7 +413,7 @@ Gravity variation with altitude as per Section 5.2.3.
 
 ### 5.5.2 Ideal Pure Acceleration/Deceleration Model (Kinematic Upper Bound Reference)
 
-Ignoring all engineering constraints (track sheath heat dissipation, rack speed limit, etc.), only considering kinematics and basic dynamics. Segment lengths: $L_{low}$=5,000 km, $L_{mid}$=9,000 km, $L_{high}$=28,164 km. Acceleration strictly maintained at a = 0.4905 m/s².
+Ignoring all engineering constraints (track sheath heat dissipation, rack speed limit, etc.), only considering kinematics and basic dynamics. Segment lengths: $L_{low}=5,000 km, L_{mid}=9,000 km, L_{high}=28,164 km$ . Acceleration strictly maintained at a = 0.4905 m/s².
 
 **(1) Ascent (Ground→GEO)**
 
@@ -454,7 +454,7 @@ $$
 
 **High Altitude Segment** (14,000 km→GEO, initial speed v₂≠0, final speed=0, asymmetric acceleration/deceleration):
 
-Let acceleration segment length s₁, deceleration segment length s₂, maximum speed $v_{max}$.
+Let acceleration segment length s₁, deceleration segment length s₂, maximum speed $v_{max}$ .
 
 Acceleration segment:
 $$
@@ -527,7 +527,7 @@ Under strict g₀±0.05g₀ comfort constraint, kinematics is fully symmetric to
 
 Maximum rack speed is determined by interface resonance constraints. The local natural frequency of the cabin/DM frame is about 30–100 Hz. To avoid periodic excitation from rack segment interfaces causing resonance, take a 1/3 safety margin, i.e., interface passing frequency ≤ 30/3 = 10 Hz. Conservatively, $f_{interface}$ ≤ 15 Hz.
 
-Rack segment length $L_{segment}$, gear passing interface frequency:
+Rack segment length $L_{segment}$ , gear passing interface frequency:
 
 $$
 f_{\text{interface}} = \frac{v}{L_{\text{segment}}}
@@ -549,7 +549,7 @@ $$
 
 Take $L_{segment}$ ≥ 100 m (achievable in lunar/space factories), speed limit about 5,400 km/h.
 
-**Conclusion**: Take **$v_{limit}$ = 1,500 km/h = 416.67 m/s** as the engineering recommended upper limit for the rack system—this value corresponds to a rack segment length ≥100 m, and retains about 3.6x resonance safety margin (1,500 vs 5,400 km/h).
+**Conclusion**: Take $v_{limit} = 1,500 km/h = 416.67 m/s$ as the engineering recommended upper limit for the rack system—this value corresponds to a rack segment length ≥100 m, and retains about 3.6x resonance safety margin (1,500 vs 5,400 km/h).
 
 
 ## 5.6 Scheme A—Drive Wheels Directly Clamping Main Cable
@@ -612,7 +612,7 @@ $$
 
 **(3) Tooth Surface Contact Stress**
 
-Gear tooth profile curvature radius at pitch circle ($D_p$=1.0 m):
+Gear tooth profile curvature radius at pitch circle ( $D_p=1.0 m$ ):
 
 $$
 \rho_1 = \frac{D_p}{2} \sin\alpha
@@ -1039,7 +1039,7 @@ Radial envelope (including gears, motors, liquid cooling pipes) about 3.5 m, out
 
 ### 5.10.3 Drive Force Feasibility Verification
 
-DM must generate sufficient traction/braking force through 40 pairs of gears. Single gear pair rated tangential force ($F_{design}$=4.12×10⁶ N, see 5.8.2):
+DM must generate sufficient traction/braking force through 40 pairs of gears. Single gear pair rated tangential force ( $F_{design}$ =4.12×10⁶ N, see 5.8.2):
 
 $$
 F_{\text{single pair}} = \frac{F_{\text{design}}}{N_{\text{pairs}}} = \frac{4.12\times10^6}{40} \approx 1.03\times10^5 \, \text{N}
@@ -1057,7 +1057,7 @@ $$
 \tau_{\text{motor}} = \frac{\tau_{\text{single pair}}}{i} = \frac{5.15\times10^4}{5} \approx 1.03\times10^4 \, N \cdotp m
 $$
 
-40 motors total mechanical power (200 km/h low altitude, $P_{low}$=114.4 MW, see 5.8.7):
+40 motors total mechanical power (200 km/h low altitude, $P_{low}$ =114.4 MW, see 5.8.7):
 
 $$
 P_{\text{total}} = \frac{P_{\text{low}}}{\eta_{\text{gear}}} = \frac{114.4}{0.98} \approx 116.7 \, \text{MW}
@@ -1090,7 +1090,7 @@ Full load total mass = 49.3 + 69.4 + ≤81.3 (payload) = 200 t.
 
 ### 5.10.5 DM Thermal Analysis—Full Range
 
-**Low Altitude (200 km/h)**: Heat generation ~8 MW (see 5.8.7 $P_{heat,low}$). Heat dissipation paths:
+**Low Altitude (200 km/h)**: Heat generation ~8 MW (see 5.8.7 $P_{heat,low}$ ). Heat dissipation paths:
 
 | Path | Capacity | Condition |
 |------|:--------:|-----------|
@@ -1102,7 +1102,7 @@ Full load total mass = 49.3 + 69.4 + ≤81.3 (payload) = 200 t.
 
 **Low altitude heat dissipation is fully controllable**.
 
-**Mid Altitude (1,500 km/h)**: Heat generation ~20.8 MW (see 5.8.7 $P_{heat,mid}$). Out of atmosphere, only radiation. 500 m² panel ≈0.62 MW, expand to 2,000 m² ≈2.5 MW, LiF buffer 500 MJ ≈24 s full power. Remaining ~17.7 MW must be handled by active liquid cooling + large radiator panels (≥3,000 m²) combined. **Mid altitude heat dissipation scheme to be determined in Volume 7.**
+**Mid Altitude (1,500 km/h)**: Heat generation ~20.8 MW (see 5.8.7 $P_{heat,mid}$ ). Out of atmosphere, only radiation. 500 m² panel ≈0.62 MW, expand to 2,000 m² ≈2.5 MW, LiF buffer 500 MJ ≈24 s full power. Remaining ~17.7 MW must be handled by active liquid cooling + large radiator panels (≥3,000 m²) combined. **Mid altitude heat dissipation scheme to be determined in Volume 7.**
 
 **High Altitude**: Heat generation ~6.3 MW (see 5.8.7), 1,000 m² radiator panel suffices.
 
@@ -1334,7 +1334,7 @@ Slightly above cabin power demand 114.4 MW, about 4% margin. **Ground laser powe
 
 Mid altitude power required (see 5.8.7): $P_{req}$ = 297.5 MW.
 
-Atmospheric attenuation negligible ($η_{atm}$ ≈ 1.0), optical and PV efficiency as above.
+Atmospheric attenuation negligible ( $η_{atm}$ ≈ 1.0), optical and PV efficiency as above.
 
 $$
 P_{\text{emit}} = \frac{297.5}{1.0 \times 0.80 \times 0.50} = \frac{297.5}{0.40} \approx 743.8 \, \text{MW}
@@ -1641,7 +1641,7 @@ Both negligible.
 Scheme E is fundamentally similar to traction elevators used in buildings. It separates load-bearing and drive functions: the main load-bearing cable only bears axial tension, the cabin is clamped to multiple index cables via pulley sets, and index cables are driven in a loop by ground and GEO end drive pulleys.
 
 **Basic Architecture**:
-- **Main Load-Bearing Cable**: A CNT braided cable bearing all self-weight tension ($T_{GEO}$≈2.09×10¹⁰ N, see Volume 4, 4.3.3). Serves only as a guide axis, cabin slides along track sheath outer surface via guide wheels, track sheath provides radial and lateral restraint. No extra drive interface (no rack) on main cable.
+- **Main Load-Bearing Cable**: A CNT braided cable bearing all self-weight tension ( $T_{GEO}$ ≈2.09×10¹⁰ N, see Volume 4, 4.3.3). Serves only as a guide axis, cabin slides along track sheath outer surface via guide wheels, track sheath provides radial and lateral restraint. No extra drive interface (no rack) on main cable.
 - **Index Cables**: Multiple thinner CNT braided cables, also extending from ground to GEO. Index cables form a closed loop via drive pulleys at ground and GEO ends, driven by motors. Each index cable operates independently, single cable failure does not affect overall system. Index cables loop by passing over GEO end return pulleys, with drive pulleys at both ends providing tension and motion.
 - **Cabin Interface**: Cabin equipped with multiple pulley sets clamped to index cables. When index cables are driven, the cabin moves up/down accordingly. Pulley sets on the cabin maintain constant clamping force via spring preload or hydraulic devices.
 
@@ -1683,15 +1683,12 @@ $$
 H_{\text{eq}} = \frac{1}{g_0} \int_0^{L} g(z) \mathrm{d}z = \frac{5.311\times10^7}{9.81} \approx 5.41\times10^6 \, \text{m}
 $$
 
-(Note: This $H_{eq}$≈5,410 km differs from the main cable characteristic height H≈2,091 km in Volume 4. The former is gravitational potential difference divided by surface gravity, used for uniform cross-section self-weight tension; the latter is the characteristic length for tapered cross-section, with different physical meaning.)
+(Note: This $H_{eq}$ ≈5,410 km differs from the main cable characteristic height H≈2,091 km in Volume 4. The former is gravitational potential difference divided by surface gravity, used for uniform cross-section self-weight tension; the latter is the characteristic length for tapered cross-section, with different physical meaning.)
 
 Self-weight stress:
 
 $$
-\sigma_{\text{self}} = \frac{T_{\text{self,max}}}{A} = \rho_{\text{eng}} g_0 H_{\text{eq}}
-$$
-$$
-= 390 \times 9.81 \times 5.41\times10^6 \approx 2.070\times10^{10} \, \text{Pa} = 20.70 \, \text{GPa}
+\sigma_{\text{self}} = \frac{T_{\text{self,max}}}{A} = \rho_{\text{eng}} g_0 H_{\text{eq}} = 390 \times 9.81 \times 5.41\times10^6 \approx 2.070\times10^{10} \, \text{Pa} = 20.70 \, \text{GPa}
 $$
 
 Strength condition requires self-weight stress not to exceed allowable stress:
@@ -1777,7 +1774,7 @@ Index cables are flexible (CNT braided), diameter determined by **pure self-weig
 
 If material bottleneck is solved, Scheme E's kinematics are determined by ground/GEO drive pulley linear speed. Drive pulleys can run at variable speed, upper limit constrained by:
 
-- CNT index cable bending stress at return pulleys ($D_{pulley}$/$D_{cable}$ ≥ 40)
+- CNT index cable bending stress at return pulleys ( $D_{pulley}/D_{cable}$ ≥ 40)
 - Drive motor power and heat dissipation
 - Cabin stable operation on guide track
 
@@ -1810,7 +1807,7 @@ LSM replaces the rack with electromagnetic coils (primary windings) along the ca
 
 ### 5.14.2 Traction Force Requirement
 
-LSM must provide required traction for cabin acceleration near GEO. For full load 200 t at GEO, comfort acceleration $a_{comfort}$=0.4905 m/s²:
+LSM must provide required traction for cabin acceleration near GEO. For full load 200 t at GEO, comfort acceleration $a_{comfort}$ =0.4905 m/s²:
 
 $$
 F_{\text{traction}} = m a_{\text{comfort}} = 2\times10^5 \times 0.4905 \approx 9.81\times10^4 \, \text{N}

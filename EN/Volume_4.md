@@ -31,7 +31,7 @@ Core tasks of this volume:
 | Allowable stress | $σ_{allow}$ | ~20 GPa (target) | Volume II, Section 2.3.4 |
 | Material density | $ρ_{mat}$ | ~1.3 g/cm³ | Volume II, Section 2.2.2 |
 | Cross-section fill factor | f | 0.06–0.6 | Volume II, Section 2.6.2 |
-| Engineering density | ρ | $ρ_{mat}$×f, take f=0.3, ρ≈390 kg/m³ | Value in this volume |
+| Engineering density | ρ | $ρ_{mat}$ ×f, take f=0.3, ρ≈390 kg/m³ | Value in this volume |
 | Elastic modulus | E | ≈1,000 GPa | Derived in Section 4.7.2 |
 | Safety factor (independent case) | S | ≥2.5 | Volume II, Section 2.7.1 |
 
@@ -52,7 +52,7 @@ Physical constants:
 
 Under independent conditions, the elevator cable is pulled upward by the GEO-end counterweight space station, anchored at the ground end and under tension at the GEO end. The cable is suspended, and the cross-sectional area at any height must ensure that the tensile capacity at that point is not less than the sum of the self-weight of all cable below and the effective load at that point.
 
-Let the radial distance from the Earth’s center r be the independent variable ($Rₑ ≤ r ≤ R_{GEO}$). At the GEO end (r=$R_{GEO}$), the cable bears the entire self-weight and effective load below, with maximum tension and thickest cross-section. At the ground end (r=Rₑ), it only bears the anchoring tension, with minimum tension and thinnest cross-section.
+Let the radial distance from the Earth’s center r be the independent variable ( $Rₑ ≤ r ≤ R_{GEO}$ ). At the GEO end ( $r=R_{GEO}$ ), the cable bears the entire self-weight and effective load below, with maximum tension and thickest cross-section. At the ground end (r=Rₑ), it only bears the anchoring tension, with minimum tension and thinnest cross-section.
 
 Infinitesimal self-weight:
 
@@ -92,7 +92,7 @@ $$
 \int_{A_0}^{A_{GEO}} \frac{\mathrm{d}A}{A} = \frac{\rho S GM_e}{\sigma_{\text{allow}}} \int_{R_e}^{R_{GEO}} \frac{\mathrm{d}r}{r^2}
 $$
 
-The left side is ln($A_{GEO}$/A₀). The right side integral is:
+The left side is ln( $A_{GEO}$ /A₀). The right side integral is:
 
 $$
 \int_{R_e}^{R_{GEO}} \frac{\mathrm{d}r}{r^2} = \frac{1}{R_e} - \frac{1}{R_{GEO}}
@@ -389,13 +389,13 @@ The counterweight track can be pushed outward, essentially using the centrifugal
 
 **(1) How net acceleration varies with radius**
 
-The net outward acceleration at the counterweight location, $\Delta a$, determines the required mass for the same tension:
+The net outward acceleration at the counterweight location, $\Delta a$ , determines the required mass for the same tension:
 
 $$
 \Delta a(r) = \omega_e^2 r - \frac{GM_e}{r^2}
 $$
 
-Take the derivative with respect to $r$:
+Take the derivative with respect to $r$ :
 $$
 \frac{d(\Delta a)}{dr} = \omega_e^2 + \frac{2GM_e}{r^3} > 0
 $$
@@ -426,7 +426,7 @@ The term in parentheses is positive above GEO (gravity-dominated), and becomes n
 
 Therefore, the total mass of the "cable + counterweight" system has an optimal solution, not simply the lower the counterweight mass, the better. Excessively distant counterweights, though lighter themselves, cause the cable mass to balloon.
 
-Preliminary order-of-magnitude estimate: with current parameters ($σ_{allow}$=20 GPa, S=2.5, ρ=390 kg/m³), the GEO cross-section is about 2.6 m². If the counterweight is placed at 100,000 km, the cable length increases by about 58,000 km, with additional cable mass of **10,000–30,000 tons**, negligible compared to the counterweight mass saved—since the savings are in the hundreds of millions of tons.
+Preliminary order-of-magnitude estimate: with current parameters ( $σ_{allow}$ =20 GPa, S=2.5, ρ=390 kg/m³), the GEO cross-section is about 2.6 m². If the counterweight is placed at 100,000 km, the cable length increases by about 58,000 km, with additional cable mass of **10,000–30,000 tons**, negligible compared to the counterweight mass saved—since the savings are in the hundreds of millions of tons.
 
 In other words, **in this parameter space, the benefit of "pushing the counterweight farther" completely outweighs the cost of increased cable mass.** The real limitation is not physical, but engineering and political.
 
@@ -610,9 +610,9 @@ $$
 L_{\text{seg}} \leq \frac{10\times10^6}{9,123.3} \approx 1,096 \text{ m}
 $$
 
-Take a conservative value, **$L_{seg}$ ≤ 800 m**.
+Take a conservative value, $L_{seg}$ ≤ 800 m.
 
-Based on the aluminum alloy layer’s compressive capacity ($H_{Al}$ ≈ 9.5 km), with the thrust ring rigidly connected to the middle layer, the segment length can be relaxed to several kilometers or more. The final determination of specific segment length will be given in subsequent comprehensive simulations considering overall cable mechanics and installation process optimization; this volume only provides a conservative upper limit of about 800 m based on the allowable compressive stress of UHMWPE.
+Based on the aluminum alloy layer’s compressive capacity ( $H_{Al}$ ≈ 9.5 km), with the thrust ring rigidly connected to the middle layer, the segment length can be relaxed to several kilometers or more. The final determination of specific segment length will be given in subsequent comprehensive simulations considering overall cable mechanics and installation process optimization; this volume only provides a conservative upper limit of about 800 m based on the allowable compressive stress of UHMWPE.
 
 
 ## 4.9 Thrust Ring and Segmentation Isolation
@@ -1180,11 +1180,11 @@ Vortex-induced vibration is limited to the low-altitude section (0–100 km); be
 | Parameter | Symbol | Value | Status | Receiving Volume |
 |------|------|------|------|------|
 | GEO-end maximum tension | $T_{GEO}$ | 2.09×10¹⁰ N | Locked | Volumes I, III, V |
-| Cross-section ratio | $A_{GEO}$/A₀ | 13.31 | Locked | Volume I |
+| Cross-section ratio | $A_{GEO}$ /A₀ | 13.31 | Locked | Volume I |
 | Counterweight mass | $M_{cw}$ | 8.0×10¹² kg | Locked | — |
 | Winch compensation stroke | $L_{winch}$ | ≥1,000 m | Locked | Volume V |
 | C/SiC connector diameter | $d_{conn}$ | 11.5 m | Locked | Volume V |
-| Node constraint stiffness | $K_R$, $K_Z$ | ≈10⁵ N/m | Order-of-magnitude estimate | Volume I |
+| Node constraint stiffness | $K_R$ , $K_Z$ | ≈10⁵ N/m | Order-of-magnitude estimate | Volume I |
 | Drive wheel direct clamping contact stress | $σ_H$ | ~600 MPa | Determined: Not feasible | — |
 | Track sleeve segment length | $L_{seg}$ | ≤800 m | Conservative upper limit | — |
 | UHMWPE contact stress (Scheme B) | $σ_{H_{UHMWPE}}$ | ~96 MPa | Exceeds yield by 4–5×, not feasible | — |
