@@ -1,13 +1,13 @@
 # Volume 12: Emergency Response, Redundancy, and Lifeline Engineering
 
-**Version**: 1.1  
-**Compilation Date**: May 2026  
+**Version**: 1.1
+**Compilation Date**: May 2026
 **Currency Unit**: Renminbi (Yuan), symbol: ¥
 
 
 ## 12.1 Preface
 
-This volume is positioned as the **survival assurance and system resilience design** for the Space Ring Elevator project, focusing on answering a core engineering question:
+This volume is positioned as the **survival assurance and system resilience design** for the Space Ringed-Elevation project, focusing on answering a core engineering question:
 
 > When the worst-case scenario occurs—be it large-scale debris impact, simultaneous multi-node failure, or fatal faults in the ground/space segment—what engineering measures can ensure that the main structure of the ring elevator does not undergo uncontrollable destruction? If partial damage occurs, how can the remaining system be used to quickly complete repairs?
 
@@ -84,4 +84,4 @@ Even in extreme disasters, as long as the ground anchors of the 6 elevators and 
 
 ## 12.6 Conclusion of Volume 12
 
-This volume establishes the principle of "survival above all," breaking it down into executable engineering solutions. Through physical firewalls, active risk avoidance, and the "lifeline" strategy for post-disaster reconstruction, the design of the space ring elevator is elevated from "pursuing permanence" to "ensuring survival." Its aim is to ensure that, regardless of the severity of an incident, the ring elevator can degrade into a survivable and repairable remnant system, and that its most valuable part—the vertical transport channel connecting the ground and GEO—has the greatest chance of being preserved or rapidly restored.
+This volume establishes the principle of "survival above all," breaking it down into executable engineering solutions. Through physical firewalls, active risk avoidance, and the "lifeline" strategy for post-disaster reconstruction, the design of the Space Ringed-Elevation is elevated from "pursuing permanence" to "ensuring survival." Its aim is to ensure that, regardless of the severity of an incident, the ring elevator can degrade into a survivable and repairable remnant system, and that its most valuable part—the vertical transport channel connecting the ground and GEO—has the greatest chance of being preserved or rapidly restored.

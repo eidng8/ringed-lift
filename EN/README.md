@@ -12,7 +12,7 @@ I hope experts who are interested and willing to discuss together, to participat
 
 ---
 
-## Literature and Background Review: The Evolution from "Orbital Ring" to "Space Ring Elevator"
+## Literature and Background Review: The Evolution from "Orbital Ring" to "Space Ringed-Elevation"
 
 ### 1. Early Concepts: Theoretical Foundations of the Space Elevator
 
@@ -40,7 +40,7 @@ Major countries and regions have successively launched research programs on spac
 - **U.S. Space Elevator Competitions and Edwards Proposal**: In the early 2000s, Edwards and other scholars, relying on NASA's Institute for Advanced Concepts, proposed a more mature "ribbon" design for the space elevator, advocating the use of ground-based lasers to power climbers, and conducted staged ground competitions [4].
 - **Japan Obayashi Corporation Proposal**: In 2012, Japanese construction company Obayashi Corporation proposed the ambitious "Space Elevator 2050" plan, intending to use carbon nanotube materials to build a cable 96,000 kilometers long, with a cabin speed of 200 km/h taking about 7 days for a one-way trip to geostationary orbit [5].
 - **China Chang'e Project and New Material Detection**: In 2026, a **Jilin University team** discovered natural single-walled carbon nanotubes in Chang'e-6 lunar soil samples, providing indirect evidence for "in-situ manufacturing on the lunar surface" [6].
-- **In-situ Resource Utilization and Asteroid Mining**: Concepts such as "lunar soil 3D printing," "space spider robots," and "asteroid capture" have been at the forefront of global aerospace exploration in recent years, all aiming to reduce transportation costs and achieve preliminary self-sufficiency for extraterrestrial bases. These technological approaches are integrated in the space ring elevator proposal.
+- **In-situ Resource Utilization and Asteroid Mining**: Concepts such as "lunar soil 3D printing," "space spider robots," and "asteroid capture" have been at the forefront of global aerospace exploration in recent years, all aiming to reduce transportation costs and achieve preliminary self-sufficiency for extraterrestrial bases. These technological approaches are integrated in the Space Ringed-Elevation proposal.
 
 ### 5. Summary and Positioning
 

@@ -1,19 +1,19 @@
 # Volume VI: Circumferential Structure Construction and On-Orbit Assembly
 
-**Version**: 3.2  
-**Compilation Date**: May 2026  
+**Version**: 3.2
+**Compilation Date**: May 2026
 **Currency Unit**: Renminbi (Yuan), symbol: ¥
 
 
 ## 6.1 Preface
 
-This volume focuses on the core construction phase of the space ring elevator project—how to manufacture segments of a closed-loop cable with a total length of approximately 265,000 km at the outer edge of the 42,264 km geosynchronous orbit, launch them into orbit, and use automated on-orbit systems to complete braiding, connection, and tensioning, ultimately forming a complete circumferential main structure.
+This volume focuses on the core construction phase of the Space Ringed-Elevation project—how to manufacture segments of a closed-loop cable with a total length of approximately 265,000 km at the outer edge of the 42,264 km geosynchronous orbit, launch them into orbit, and use automated on-orbit systems to complete braiding, connection, and tensioning, ultimately forming a complete circumferential main structure.
 
-This volume follows on from:  
-- **Volume I**: Orbital mechanics environment (perturbations, modes, thruster requirements)  
-- **Volume II**: Material parameters (CNT strength, lunar manufacturing schemes)  
-- **Volume III**: Six-point anchoring scheme  
-- **Volume IV**: Elevator cable cross-section design (tapered, cross-section ratio 13.31:1), sheath parameters, rack scheme, preliminary counterweight design  
+This volume follows on from:
+- **Volume I**: Orbital mechanics environment (perturbations, modes, thruster requirements)
+- **Volume II**: Material parameters (CNT strength, lunar manufacturing schemes)
+- **Volume III**: Six-point anchoring scheme
+- **Volume IV**: Elevator cable cross-section design (tapered, cross-section ratio 13.31:1), sheath parameters, rack scheme, preliminary counterweight design
 - **Volume V**: Car drive scheme (Scheme C rack drive + DM separation, full-section aluminum alloy rack)
 
 Core tasks of this volume:

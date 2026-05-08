@@ -7,7 +7,7 @@
 
 ## 3.1 Preface
 
-This volume is positioned as the **ground-to-orbit connection foundation** for the Space Ring Elevator project, focusing on answering the following core questions:
+This volume is positioned as the **ground-to-orbit connection foundation** for the Space Ringed-Elevation project, focusing on answering the following core questions:
 
 > **How are the 6 space elevators anchored to the Earth's surface? How is the mechanical connection between the nodes and the ring main body achieved?**
 

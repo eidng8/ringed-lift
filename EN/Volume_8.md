@@ -7,7 +7,7 @@
 
 ## 8.1 Preface
 
-This volume is positioned as the **transportation, logistics system, and global construction sequence planning** for the Space Ring Elevator Project, focusing on answering the following core questions:
+This volume is positioned as the **transportation, logistics system, and global construction sequence planning** for the Space Ringed-Elevation Project, focusing on answering the following core questions:
 
 > For the ring cable with a total mass of nearly 80 million tons, hundreds of millions of tons of counterweights, hundreds of space spiders, and the infrastructure of 6 elevator nodes, in what order should they be constructed? How should they be transported from the ground, the Moon, or asteroids to the GEO construction orbit? What types of carriers, launch cadence, and logistics networks are required?
 

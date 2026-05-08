@@ -7,7 +7,7 @@
 
 ## 7.1 Preface
 
-This volume is positioned as the **comprehensive physical validation and experimental verification plan** for the Space Ring Elevator project, focusing on answering the following core questions:
+This volume is positioned as the **comprehensive physical validation and experimental verification plan** for the Space Ringed-Elevation project, focusing on answering the following core questions:
 
 > To what extent can the design schemes, physical models, and engineering parameters proposed in the previous six volumes withstand the scrutiny of full-system coupled simulation and key experiments? What fatal uncertainties remain that must be resolved through experiments, simulations, or in-orbit trial and error?
 

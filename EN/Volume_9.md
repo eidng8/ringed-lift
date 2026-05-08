@@ -7,7 +7,7 @@
 
 ## 9.1 Preface
 
-This volume is positioned as the **energy supply and information transmission infrastructure planning** for the Space Ring Elevator project, focusing on answering the following core questions:
+This volume is positioned as the **energy supply and information transmission infrastructure planning** for the Space Ringed-Elevation project, focusing on answering the following core questions:
 
 > After the ring elevator is completed, where does the electricity come from for the operation of 6 elevators, thousands of devices on the ring, and hundreds of people living and working online simultaneously? How is the global communication backbone network of the ring elevator structured? How can solar energy from GEO orbit be transmitted back to the ground to form commercial power output?
 
@@ -37,7 +37,7 @@ Geostationary orbit (GEO) is the prime location for deploying space solar power 
 - **No weather impact**: Not affected by clouds, rain, sandstorms, or other meteorological conditions.
 - **Fixed geometry**: The ring is located at the outer edge of GEO, stationary relative to the ground, requiring no solar tracking mechanism (the cell array is fixed on the ring, automatically maintaining sun orientation with Earth's revolution).
 
-The closed-loop cable structure of the space ring elevator provides a unique platform advantage—the ring itself is a natural truss with a circumference of about 265,000 km, allowing the solar cell array to be directly mounted or suspended on the ring cable, eliminating the need for independent launch and assembly of giant truss structures.
+The closed-loop cable structure of the Space Ringed-Elevation provides a unique platform advantage—the ring itself is a natural truss with a circumference of about 265,000 km, allowing the solar cell array to be directly mounted or suspended on the ring cable, eliminating the need for independent launch and assembly of giant truss structures.
 
 ### 9.2.2 Load-Bearing Capacity of the Ring Cable for Additional Loads
 
@@ -359,7 +359,7 @@ Correction signals are broadcast via L1 (1575.42 MHz) and L5 (1176.45 MHz) dual 
 
 ## 9.8 Conclusion of Volume 9
 
-This volume completes the quantitative planning of the energy and communication infrastructure for the space ring elevator. Core conclusions:
+This volume completes the quantitative planning of the energy and communication infrastructure for the Space Ringed-Elevation. Core conclusions:
 
 1. **Space Solar Power Station**: 500 GW installed capacity requires about 960 km² of flexible film cell array, with an average distribution width of only about 3.6 m along the ring. **During the shadow period, the affected arc segment on the ring is only about 300 km (vernal equinox), with a storage demand of about 2.5 GWh**, significantly reduced from previous versions. Microwave power transmission end-to-end efficiency is about 48%, with a total ground power delivery of about 58 GW from 6 nodes.
 2. **On-Ring Power Distribution Network**: HVDC ±100 kV dual-redundant ring bus, resistance about 875 Ω, power is mainly consumed locally, on-ring self-use power about 1.4 GW.

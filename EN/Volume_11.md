@@ -7,9 +7,9 @@
 
 ## 11.1 Preface
 
-This volume is positioned as the **legal applicability analysis and international governance framework design** for the Space Ring Elevator project, focusing on answering the following core questions:
+This volume is positioned as the **legal applicability analysis and international governance framework design** for the Space Ringed-Elevation project, focusing on answering the following core questions:
 
-> The Space Ring Elevator, a closed-loop infrastructure spanning six continents along the equator and permanently occupying a 100 km orbit at the outer edge of GEO—who owns it? Who governs it? How is legal applicability defined during construction and operation? How do investing countries share costs and profits? How is liability allocated in the event of an accident?
+> The Space Ringed-Elevation, a closed-loop infrastructure spanning six continents along the equator and permanently occupying a 100 km orbit at the outer edge of GEO—who owns it? Who governs it? How is legal applicability defined during construction and operation? How do investing countries share costs and profits? How is liability allocated in the event of an accident?
 
 This volume follows:
 - **Overview**: Project vision and operational principles (UN unified operation, principal and interest settlement according to investment ratio)
@@ -19,8 +19,8 @@ This volume follows:
 
 Core tasks of this volume:
 
-1. Sort out all international legal frameworks involved in the Space Ring Elevator, identify the applicability, gaps, and potential conflicts of existing laws to this project.
-2. Draw on precedents such as the International Space Station (ISS), International Thermonuclear Experimental Reactor (ITER), and International Seabed Authority (ISA) to design the international governance framework for the Space Ring Elevator.
+1. Sort out all international legal frameworks involved in the Space Ringed-Elevation, identify the applicability, gaps, and potential conflicts of existing laws to this project.
+2. Draw on precedents such as the International Space Station (ISS), International Thermonuclear Experimental Reactor (ITER), and International Seabed Authority (ISA) to design the international governance framework for the Space Ringed-Elevation.
 3. Draft core articles of the UN operational model charter.
 4. Establish mechanisms for investment recognition, principal and interest settlement, and exit for investing countries.
 5. Construct a complete legal liability chain for debris removal, accident investigation, damage compensation, and dispute resolution.
@@ -31,9 +31,9 @@ Core tasks of this volume:
 
 ### 11.2.1 Involved International Legal Frameworks
 
-The physical form of the Space Ring Elevator—extending from the ground to the outer edge of GEO, crossing the territories of six sovereign states and the high seas, and permanently occupying specific orbital resources—subjects it to multiple constraints from **space law**, **maritime law**, **aviation law**, **international telecommunications law**, and **international environmental law**.
+The physical form of the Space Ringed-Elevation—extending from the ground to the outer edge of GEO, crossing the territories of six sovereign states and the high seas, and permanently occupying specific orbital resources—subjects it to multiple constraints from **space law**, **maritime law**, **aviation law**, **international telecommunications law**, and **international environmental law**.
 
-| International Treaty/Framework | Core Content | Applicability to Space Ring Elevator |
+| International Treaty/Framework | Core Content | Applicability to Space Ringed-Elevation |
 |-------------------------------|--------------|--------------------------------------|
 | **Outer Space Treaty (1967)** | Outer space is not subject to national appropriation; states bear international responsibility for their activities in outer space | **Applicable**. The GEO segment of the ring and elevator cable is in outer space; no state may claim sovereignty |
 | **Moon Agreement (1979)** | The Moon and its natural resources are the common heritage of mankind | **Partially applicable**. If lunar CNT manufacturing involves lunar resource extraction, the non-appropriation principle must be observed |
@@ -45,7 +45,7 @@ The physical form of the Space Ring Elevator—extending from the ground to the 
 
 ### 11.2.2 Three-Tiered Jurisdiction
 
-The physical structure of the Space Ring Elevator spans three legal spaces, each subject to different jurisdictional rules:
+The physical structure of the Space Ringed-Elevation spans three legal spaces, each subject to different jurisdictional rules:
 
 | Segment | Altitude Range | Legal Space | Jurisdiction |
 |---------|---------------|-------------|--------------|
@@ -55,7 +55,7 @@ The physical structure of the Space Ring Elevator spans three legal spaces, each
 
 ### 11.2.3 Key Gaps in Existing Law and Responses
 
-The current international space law system, established in the 1960s–70s, did not anticipate "permanently Earth-attached closed-loop space infrastructure" like the Space Ring Elevator. The following key legal gaps must be filled by new international agreements:
+The current international space law system, established in the 1960s–70s, did not anticipate "permanently Earth-attached closed-loop space infrastructure" like the Space Ringed-Elevation. The following key legal gaps must be filled by new international agreements:
 
 | Legal Gap | Physical Scenario | Response |
 |-----------|------------------|----------|
@@ -67,14 +67,14 @@ The current international space law system, established in the 1960s–70s, did 
 
 ### 11.2.4 Analogy with the International Seabed Authority (ISA)
 
-The International Seabed Authority (ISA), established to manage the "common heritage of mankind" (mineral resources in the international seabed area), provides a meaningful governance precedent. The GEO outer edge orbit occupied by the Space Ring Elevator is also a "global commons," and a portion of its operating income can be included in an **international public fund** to support developing countries' participation in space science and education.
+The International Seabed Authority (ISA), established to manage the "common heritage of mankind" (mineral resources in the international seabed area), provides a meaningful governance precedent. The GEO outer edge orbit occupied by the Space Ringed-Elevation is also a "global commons," and a portion of its operating income can be included in an **international public fund** to support developing countries' participation in space science and education.
 
 
 ## 11.3 International Governance Framework: United Nations Organization for the Ring Elevator (UNORE)
 
 ### 11.3.1 Framework Design Principles
 
-International governance of the Space Ring Elevator must adhere to the following principles:
+International governance of the Space Ringed-Elevation must adhere to the following principles:
 - **Benefit of All Mankind**: After investment costs are recovered, operating income should be used for global public purposes (scientific research, education, disaster reduction, etc.)
 - **Matching Investment and Decision-Making Power**: Investing countries have decision-making weight proportional to their investment, but the technical executive body holds veto power over operational safety and technical standards
 - **Open Participation**: Non-investing countries may participate and receive corresponding benefits by providing technology, personnel, or resources (such as lunar manufacturing materials)
@@ -139,7 +139,7 @@ According to the operational principles in the overview: **Before construction c
 
 ### 11.5.1 Allocation of Debris Removal Obligations
 
-As a giant space infrastructure, the Space Ring Elevator is both a potential victim of space debris (impacts) and a potential generator (micro-debris from cabin operation, construction).
+As a giant space infrastructure, the Space Ringed-Elevation is both a potential victim of space debris (impacts) and a potential generator (micro-debris from cabin operation, construction).
 
 | Scenario | Responsible Party | Removal Obligation |
 |----------|------------------|-------------------|
@@ -149,7 +149,7 @@ As a giant space infrastructure, the Space Ring Elevator is both a potential vic
 
 ### 11.5.2 Accident Investigation and Compensation Mechanism
 
-Accidents involving the Space Ring Elevator may involve multiple jurisdictions—occurring in outer space (global commons), but with consequences potentially affecting nationals or property of anchor states.
+Accidents involving the Space Ringed-Elevation may involve multiple jurisdictions—occurring in outer space (global commons), but with consequences potentially affecting nationals or property of anchor states.
 
 **Accident Classification**:
 
@@ -197,7 +197,7 @@ Microgravity laboratories, space telescopes, and gravitational wave detectors on
 The organization shall be named the United Nations Organization for the Ring Elevator (UNORE), a specialized agency under the United Nations, enjoying international legal personality.
 
 **Article 2: Purpose**
-(a) To construct, maintain, and operate the Space Ring Elevator, ensuring it serves the peaceful purposes of all mankind;
+(a) To construct, maintain, and operate the Space Ringed-Elevation, ensuring it serves the peaceful purposes of all mankind;
 (b) To reduce orbital access costs and promote participation of developing countries in space activities;
 (c) To promote global sharing of space science, technology, and clean energy.
 
@@ -221,11 +221,11 @@ Amendments to this charter require a three-quarters majority in the Council. Ter
 
 ## 11.8 Ten-Year Preparatory Roadmap
 
-Before construction of the Space Ring Elevator begins, the international governance framework must be established and legal texts signed. The following is the recommended ten-year preparatory period:
+Before construction of the Space Ringed-Elevation begins, the international governance framework must be established and legal texts signed. The following is the recommended ten-year preparatory period:
 
 | Time | Task | Participants |
 |------|------|--------------|
-| Years 1–2 | UN General Assembly passes resolution to "initiate international negotiations on the Space Ring Elevator" | All UN member states |
+| Years 1–2 | UN General Assembly passes resolution to "initiate international negotiations on the Space Ringed-Elevation" | All UN member states |
 | Years 2–4 | Establish UNORE Charter Drafting Committee; initiate bilateral site agreement negotiations with six anchor states | Six anchor states + major prospective investors |
 | Years 4–6 | ITU coordinates ring's GEO orbital occupancy and frequency allocation; sign anchor state site agreements | ITU + anchor states |
 | Years 6–8 | Formal signing of UNORE Charter; first batch of investing countries confirm investment obligations; Council established | Investing countries |
@@ -234,7 +234,7 @@ Before construction of the Space Ring Elevator begins, the international governa
 
 ## 11.9 Conclusion of Volume XI
 
-This volume has sorted out the complex international legal frameworks involved in the Space Ring Elevator project and proposed a multilateral governance structure centered on the **United Nations Organization for the Ring Elevator (UNORE)**. Key conclusions:
+This volume has sorted out the complex international legal frameworks involved in the Space Ringed-Elevation project and proposed a multilateral governance structure centered on the **United Nations Organization for the Ring Elevator (UNORE)**. Key conclusions:
 
 1. **Three-tiered jurisdiction for the ring elevator**: Anchor states have territorial jurisdiction over ground and airspace segments, while the outer space segment is under unified UNORE jurisdiction. There are key gaps in current space law (orbital occupancy rights, right of transit, high seas platform status) that must be filled by new international agreements.
 2. **Governance structure draws on the successful experiences of ITER, ISS, and ISA**: A three-tier structure of Council (investment-weighted voting), Technical Executive Committee (one-country-one-vote), and professional Operations Management Bureau balances investment fairness and technical safety.

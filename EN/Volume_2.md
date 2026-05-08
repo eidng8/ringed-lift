@@ -7,7 +7,7 @@
 
 ## 2.1 Preface
 
-This volume is positioned as the **materials foundation** for the Space Ring Elevator project, focusing on answering the following core questions:
+This volume is positioned as the **materials foundation** for the Space Ringed-Elevation project, focusing on answering the following core questions:
 
 > **What material should be used to build the ring elevator cable? Can this material be manufactured at the required yield and quality? What are the engineering performance parameters after braiding into a cable? What are the material requirements for other key parts of the ring elevator system?**
 

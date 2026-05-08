@@ -22,7 +22,7 @@
 
 ## 1.1 Preface
 
-This volume serves as the physical foundation for the Space Ring Elevator project, focusing on answering a fundamental question:
+This volume serves as the physical foundation for the Space Ringed-Elevation project, focusing on answering a fundamental question:
 
 > **Does a closed-loop cable with a radius of 42,264 km, considering only gravity and inertial forces, have a mechanical equilibrium solution? What is the nature of this equilibrium? What is the magnitude of external perturbations that must be countered to maintain equilibrium?**
 

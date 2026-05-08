@@ -7,9 +7,9 @@
 
 ## 10.1 Preface
 
-This volume is positioned as the **economic feasibility study and commercialization pathway planning** for the Space Ring Elevator Project, focusing on answering the following core questions:
+This volume is positioned as the **economic feasibility study and commercialization pathway planning** for the Space Ringed-Elevation Project, focusing on answering the following core questions:
 
-> How much capital investment is required for the Space Ring Elevator Project? How should funding sources and financing structures be designed? After completion, can it generate sufficient cash flow to cover costs and sustain profitability? What is the investment payback period?
+> How much capital investment is required for the Space Ringed-Elevation Project? How should funding sources and financing structures be designed? After completion, can it generate sufficient cash flow to cover costs and sustain profitability? What is the investment payback period?
 
 This volume follows:
 - **Overview**: Investment estimation framework (about ¥15 trillion, invested in four phases)
@@ -19,7 +19,7 @@ This volume follows:
 Core tasks of this volume:
 
 1. Integrate the investment estimates from the Overview and Volume 8 to establish a refined, phased discounted cash flow (DCF) model.
-2. Forecast market size and conduct pricing analysis for the core revenue sources of the Space Ring Elevator.
+2. Forecast market size and conduct pricing analysis for the core revenue sources of the Space Ringed-Elevation.
 3. Design a diversified financing structure, covering sovereign funds, multilateral development banks, private capital, and operational pre-sales.
 4. Evaluate investment return rates and cost recovery periods through multi-scenario analysis (optimistic/base/pessimistic).
 5. Propose a progressive commercial operation pathway, enabling the project to start generating cash flow during the construction period.
@@ -123,7 +123,7 @@ where $C_t$ is the net cash flow (income − expenditure) in year t, and T is th
 
 ### 10.3.1 Core Revenue Sources
 
-After completion, the main revenue sources for the Space Ring Elevator include:
+After completion, the main revenue sources for the Space Ringed-Elevation include:
 
 1. **Earth-Moon and Deep Space Transportation Services** (largest revenue source)
 2. **Global Communication and Data Relay Services**
@@ -186,7 +186,7 @@ The scheduled flight model of the space elevator gives it an irreplaceable advan
 
 ### 10.3.4 Cash Flow During Construction—Progressive Commercialization
 
-The construction period of the Space Ring Elevator is as long as 28 years, but some facilities can be gradually put into trial operation during construction, generating early cash flow and alleviating investment pressure.
+The construction period of the Space Ringed-Elevation is as long as 28 years, but some facilities can be gradually put into trial operation during construction, generating early cash flow and alleviating investment pressure.
 
 | Time Node | Operable Facilities | Estimated Annual Revenue (¥ trillion) |
 |-----------|--------------------|:-------------------------------------:|
@@ -198,7 +198,7 @@ The construction period of the Space Ring Elevator is as long as 28 years, but s
 
 Although early operational revenue is far from enough to cover the huge CAPEX during the same period, it can produce several key effects:
 - **Technical Verification**: Test the long-term reliability of the elevator through actual operation during ring construction
-- **Market Cultivation**: Allow potential customers to gradually adapt to and rely on the transportation and communication services of the Space Ring Elevator
+- **Market Cultivation**: Allow potential customers to gradually adapt to and rely on the transportation and communication services of the Space Ringed-Elevation
 - **Financing Credit Enhancement**: Stable cash flow from operating facilities can serve as collateral and credit endorsement for subsequent financing
 
 
@@ -206,7 +206,7 @@ Although early operational revenue is far from enough to cover the huge CAPEX du
 
 ### 10.4.1 Physical Logic of Financing
 
-The investment scale of the Space Ring Elevator (about ¥55–58 trillion, invested over 28 years) far exceeds the fiscal capacity of any single country or enterprise, and a multilateral, diversified financing structure must be established. The average annual investment is about ¥2 trillion (peak period), accounting for about 0.03% of current global GDP (about $100 trillion), or 0.16% of China's GDP (about $18 trillion).
+The investment scale of the Space Ringed-Elevation (about ¥55–58 trillion, invested over 28 years) far exceeds the fiscal capacity of any single country or enterprise, and a multilateral, diversified financing structure must be established. The average annual investment is about ¥2 trillion (peak period), accounting for about 0.03% of current global GDP (about $100 trillion), or 0.16% of China's GDP (about $18 trillion).
 
 ### 10.4.2 Financing Source Allocation (Base Scenario)
 
@@ -256,7 +256,7 @@ In the base scenario:
 - **Undiscounted Payback Period**: about 35 years (from full cable operation, i.e., year 63)
 - **Discounted Payback Period**: about 45 years (i.e., year 73)
 
-**Conclusion**: In the base scenario, the Space Ring Elevator is a "potentially profitable" ultra-long-term infrastructure project, but not a short-term windfall project. Its value lies more in strategic dividends (reducing orbital access costs for all humanity) and external benefits (clean energy, research, safety). If space solar power and communication revenues exceed expectations, the investment payback period can be significantly shortened.
+**Conclusion**: In the base scenario, the Space Ringed-Elevation is a "potentially profitable" ultra-long-term infrastructure project, but not a short-term windfall project. Its value lies more in strategic dividends (reducing orbital access costs for all humanity) and external benefits (clean energy, research, safety). If space solar power and communication revenues exceed expectations, the investment payback period can be significantly shortened.
 
 
 ## 10.6 Economic Risk and Sensitivity Analysis
@@ -294,7 +294,7 @@ In the base scenario:
 
 ## 10.8 Volume 10 Conclusion
 
-This volume completes the economic feasibility study and commercialization pathway planning for the Space Ring Elevator Project. Core conclusions:
+This volume completes the economic feasibility study and commercialization pathway planning for the Space Ringed-Elevation Project. Core conclusions:
 
 1. **Investment scale is significantly higher than previous estimates**: Based on the detailed construction parameters in Volume 8 and the first integration of all capital expenditures in this volume, the total project CAPEX is about ¥55–58 trillion (over 28 years), with an average annual investment of about ¥2 trillion. This scale is about 0.16% of China's GDP and is among the highest in global infrastructure investment history.
 2. **Project may be profitable in the base scenario**: Benefiting from the combined effect of transportation, space solar power, communication, and tourism revenues, the base scenario annual revenue is about ¥1.5 trillion (after full cable operation), with a discounted payback period of about 45 years.
