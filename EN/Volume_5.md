@@ -131,13 +131,13 @@ Volume allocation:
 
 ### 5.3.2 Spindle Shape (Streamlined, Long Axis Aligned with Cable Axis)
 
-**Physical Orientation**: The cabin's long axis is aligned with the main cable axis (vertical spindle), so the long axis is the direction of travel during ascent/descent. $C_d$ ≈ 0.05 [5.2], windward area is the frontal cross-section. This is the optimal aerodynamic configuration for the low-altitude segment.
+**Physical Orientation**: The cabin's long axis is aligned with the main cable axis (vertical spindle), so the long axis is the direction of travel during ascent/descent. $C_d ≈ 0.05$ [5.2], windward area is the frontal cross-section. This is the optimal aerodynamic configuration for the low-altitude segment.
 
 **Structural Form**: Three modules in series—front (command/cockpit) + mid (living module) + rear (equipment/cargo module).
 
 **Dimensional Derivation**:
 
-Mid-section cylinder (inner diameter 4.2 m, R = 2.1 m, length $H_{mid}$ = 37 m):
+Mid-section cylinder (inner diameter 4.2 m, R = 2.1 m, length $H_{mid} = 37 m$ ):
 
 $$
 V_{\text{mid}} = \pi R^2 H_{\text{mid}} = \pi \times (2.1)^2 \times 37
@@ -195,7 +195,7 @@ $$
 R_{\text{in}} = \sqrt{21.22} \approx 4.61 \, \text{m}
 $$
 
-Take inner diameter $D_{in}$ = 9.2 m ( $R_{in}$ = 4.6 m). Internal volume check:
+Take inner diameter $D_{in} = 9.2 m$ ( $R_{in} = 4.6 m$ ). Internal volume check:
 
 $$
 V_{\text{main}} = \pi \times (4.6)^2 \times 9 = 3.14159 \times 21.16 \times 9 \approx 598.5 \, \text{m}^3
@@ -254,7 +254,7 @@ Core constraints:
 
 **(1) Gravitational Potential Energy Component**
 
-Potential energy difference per unit mass from ground (r=Rₑ) to GEO ( $r=R_{GEO}$ ):
+Potential energy difference per unit mass from ground ( $r=R_e$ ) to GEO ( $r=R_{GEO}$ ):
 
 $$
 \Delta E_{\text{unit}} = GM_e \left( \frac{1}{R_e} - \frac{1}{R_{GEO}} \right)
@@ -328,7 +328,7 @@ $$
 \frac{m_0}{m_f} = \exp\left(\frac{\Delta v}{I_{sp} g_0}\right)
 $$
 
-Where m₀ is initial total mass (incl. propellant), $m_f$ is burnout mass (structure + payload), $I_{sp}$ is engine specific impulse.
+Where $m_0$ is initial total mass (incl. propellant), $m_f$ is burnout mass (structure + payload), $I_{sp}$ is engine specific impulse.
 
 ### 5.4.4 Chemical Rocket Scheme
 
@@ -341,7 +341,7 @@ $$
 = \exp\left(\frac{19,000}{4,414.5}\right) = \exp(4.305) \approx 74.1
 $$
 
-If burnout mass $m_f$ = 200 t (C2 full load), then initial total mass:
+If burnout mass $m_f = 200 t$ (C2 full load), then initial total mass:
 
 $$
 m_0 = 200 \times 74.1 \approx 14,820 \, \text{t}
@@ -363,7 +363,7 @@ Mass ratio is even more extreme.
 
 ### 5.4.5 Nuclear Thermal Rocket Scheme
 
-Nuclear thermal rocket ( $I_{sp}$ ≈ 900 s, e.g., NERVA):
+Nuclear thermal rocket ( $I_{sp} ≈ 900 s$ , e.g., NERVA):
 
 $$
 \frac{m_0}{m_f} = \exp\left(\frac{19,000}{900 \times 9.81}\right)
@@ -372,11 +372,11 @@ $$
 = \exp\left(\frac{19,000}{8,829}\right) = \exp(2.152) \approx 8.60
 $$
 
-$m_f$ = 200 t → $m_0$ ≈ 1,720 t, propellant about 1,520 t. Although much lower than chemical rockets, still requires kiloton-level propellant. Nuclear thermal rockets also face political and safety restrictions for ground launch, currently not feasible.
+$m_f = 200 t → m_0 ≈ 1,720 t$ , propellant about 1,520 t. Although much lower than chemical rockets, still requires kiloton-level propellant. Nuclear thermal rockets also face political and safety restrictions for ground launch, currently not feasible.
 
 ### 5.4.6 Electric Propulsion Scheme
 
-Xenon Hall thruster ( $I_{sp}$ ≈ 3,000 s):
+Xenon Hall thruster ( $I_{sp} ≈ 3,000 s$ ):
 
 $$
 \frac{m_0}{m_f} = \exp\left(\frac{19,000}{3,000 \times 9.81}\right)
@@ -385,7 +385,7 @@ $$
 = \exp\left(\frac{19,000}{29,430}\right) = \exp(0.646) \approx 1.91
 $$
 
-$m_f$ = 200 t → $m_0$ ≈ 382 t, propellant only 182 t. Propellant requirement is reasonable.
+$m_f = 200 t → m_0 ≈ 382 t$ , propellant only 182 t. Propellant requirement is reasonable.
 
 But the fatal weakness of electric propulsion is **thrust density**. The most powerful current electric propulsion systems have thrusts of only hundreds of mN to a few N. For example, NASA's AEPS (Advanced Electric Propulsion System, thrust about 0.6 N, power about 13 kW), to generate enough thrust to overcome cabin gravity (ground 1.96×10⁶ N):
 
@@ -407,17 +407,17 @@ Chemical rockets, due to extremely high Δv requirements, result in mass ratios 
 
 ### 5.5.1 Segment Lengths and Acceleration
 
-Perceived acceleration strictly ≤ $a_{comfort}$ = 0.05g₀ = 0.4905 m/s².
+Perceived acceleration strictly ≤ $a_{comfort} = 0.05g_0 = 0.4905 m/s²$ .
 
 Gravity variation with altitude as per Section 5.2.3.
 
 ### 5.5.2 Ideal Pure Acceleration/Deceleration Model (Kinematic Upper Bound Reference)
 
-Ignoring all engineering constraints (track sheath heat dissipation, rack speed limit, etc.), only considering kinematics and basic dynamics. Segment lengths: $L_{low}=5,000 km, L_{mid}=9,000 km, L_{high}=28,164 km$ . Acceleration strictly maintained at a = 0.4905 m/s².
+Ignoring all engineering constraints (track sheath heat dissipation, rack speed limit, etc.), only considering kinematics and basic dynamics. Segment lengths: $L_{low}=5,000 km, L_{mid}=9,000 km, L_{high}=28,164 km$ . Acceleration strictly maintained at $a = 0.4905 m/s²$ .
 
 **(1) Ascent (Ground→GEO)**
 
-During ascent, gravity does not affect acceleration value (only affects drive system output power). Acceleration in all segments is a = 0.4905 m/s².
+During ascent, gravity does not affect acceleration value (only affects drive system output power). Acceleration in all segments is $a = 0.4905 m/s²$ .
 
 **Low Altitude Segment** (initial speed=0→final speed v₁):
 
@@ -454,7 +454,7 @@ $$
 
 **High Altitude Segment** (14,000 km→GEO, initial speed v₂≠0, final speed=0, asymmetric acceleration/deceleration):
 
-Let acceleration segment length s₁, deceleration segment length s₂, maximum speed $v_{max}$ .
+Let acceleration segment length $s_1$ , deceleration segment length $s_2$ , maximum speed $v_{max}$ .
 
 Acceleration segment:
 $$
@@ -471,7 +471,7 @@ $$
 v_2^2 + 2a s_1 = 2a s_2 \Rightarrow s_2 = s_1 + v_2^2/(2a)
 $$
 
-Also s₁ + s₂ = $L_{high}$ = 2.8164×10⁷ m.
+Also $s_1 + s_2 = L_{high} = 2.8164×10^7 m$ .
 
 $$
 s_1 + s_1 + \frac{v_2^2}{2a} = L_{\text{high}}
@@ -519,13 +519,13 @@ $$
 
 Under strict g₀±0.05g₀ comfort constraint, kinematics is fully symmetric to ascent. Descent time also = **5.152 h**.
 
-> **Note on Gravity Direction**: The above "symmetry" refers to the mirror symmetry of the perceived acceleration profile for ascent and descent, corresponding to the same kinematic time. Actual drive system output during descent is affected by gravity direction: acceleration segment gravity assists (drive requirement reduced), braking segment gravity opposes braking (brake must provide $g_{local}$ + $a_{brake}$ total deceleration). In subsequent derivations for each scheme, local gravity effects are included for each segment.
+> **Note on Gravity Direction**: The above "symmetry" refers to the mirror symmetry of the perceived acceleration profile for ascent and descent, corresponding to the same kinematic time. Actual drive system output during descent is affected by gravity direction: acceleration segment gravity assists (drive requirement reduced), braking segment gravity opposes braking (brake must provide $g_{local} + a_{brake}$ total deceleration). In subsequent derivations for each scheme, local gravity effects are included for each segment.
 
 > The ideal model is only a kinematic upper bound reference. Actual cruising speed is limited by rack speed (1,500 km/h) and low-altitude heat/strength constraints, much lower than the above ideal values.
 
 ### 5.5.3 Rack Speed Limit Derivation
 
-Maximum rack speed is determined by interface resonance constraints. The local natural frequency of the cabin/DM frame is about 30–100 Hz. To avoid periodic excitation from rack segment interfaces causing resonance, take a 1/3 safety margin, i.e., interface passing frequency ≤ 30/3 = 10 Hz. Conservatively, $f_{interface}$ ≤ 15 Hz.
+Maximum rack speed is determined by interface resonance constraints. The local natural frequency of the cabin/DM frame is about 30–100 Hz. To avoid periodic excitation from rack segment interfaces causing resonance, take a 1/3 safety margin, i.e., interface passing frequency ≤ 30/3 = 10 Hz. Conservatively, $f_{interface} ≤ 15 Hz$ .
 
 Rack segment length $L_{segment}$ , gear passing interface frequency:
 
@@ -547,7 +547,7 @@ $$
 | 50 | 750 | 2,700 |
 | 100 | 1,500 | 5,400 |
 
-Take $L_{segment}$ ≥ 100 m (achievable in lunar/space factories), speed limit about 5,400 km/h.
+Take $L_{segment} ≥ 100 m$ (achievable in lunar/space factories), speed limit about 5,400 km/h.
 
 **Conclusion**: Take $v_{limit} = 1,500 km/h = 416.67 m/s$ as the engineering recommended upper limit for the rack system—this value corresponds to a rack segment length ≥100 m, and retains about 3.6x resonance safety margin (1,500 vs 5,400 km/h).
 
@@ -621,7 +621,7 @@ $$
 = 0.5 \times \sin 20^\circ = 0.5 \times 0.3420 \approx 0.171 \, \text{m}
 $$
 
-Rack tooth profile curvature radius ∞, equivalent curvature radius $ρ_{eq}$ = 0.171 m.
+Rack tooth profile curvature radius ∞, equivalent curvature radius $ρ_{eq} = 0.171 m$ .
 
 Equivalent elastic modulus (both aluminum alloy 7075-T6, E=70 GPa, ν=0.33):
 
@@ -659,7 +659,7 @@ $$
 = \frac{1.096\times10^5}{9.483\times10^{-4}} \approx 1.156\times10^8 \, \text{Pa} \approx 116 \, \text{MPa}
 $$
 
-**Contact Stress Check**: Aluminum alloy 7075-T6 after micro-arc oxidation (surface hardness ≥HV1000), contact fatigue limit conservatively 300 MPa. Safety factor $S_H$ = 1.5:
+**Contact Stress Check**: Aluminum alloy 7075-T6 after micro-arc oxidation (surface hardness ≥HV1000), contact fatigue limit conservatively 300 MPa. Safety factor $S_H = 1.5$ :
 
 $$
 \sigma_{H,\text{allow}} = \frac{300}{1.5} = 200 \, \text{MPa}
@@ -708,7 +708,7 @@ $$
 = \frac{2,466}{4.50\times10^{-5}} \approx 5.48\times10^7 \, \text{Pa} \approx 55 \, \text{MPa}
 $$
 
-**Bending Stress Check**: Aluminum alloy 7075-T6 bending fatigue limit about 115 MPa (10⁷ cycles, conservative, source [5.8]). Safety factor $S_F$ = 2.0:
+**Bending Stress Check**: Aluminum alloy 7075-T6 bending fatigue limit about 115 MPa (10⁷ cycles, conservative, source [5.8]). Safety factor $S_F = 2.0$ :
 
 $$
 \sigma_{F,\text{allow}} = \frac{115}{2.0} = 57.5 \, \text{MPa}
@@ -1039,7 +1039,7 @@ Radial envelope (including gears, motors, liquid cooling pipes) about 3.5 m, out
 
 ### 5.10.3 Drive Force Feasibility Verification
 
-DM must generate sufficient traction/braking force through 40 pairs of gears. Single gear pair rated tangential force ( $F_{design}$ =4.12×10⁶ N, see 5.8.2):
+DM must generate sufficient traction/braking force through 40 pairs of gears. Single gear pair rated tangential force ( $F_{design} =4.12×10⁶ N$ , see 5.8.2):
 
 $$
 F_{\text{single pair}} = \frac{F_{\text{design}}}{N_{\text{pairs}}} = \frac{4.12\times10^6}{40} \approx 1.03\times10^5 \, \text{N}
@@ -1057,7 +1057,7 @@ $$
 \tau_{\text{motor}} = \frac{\tau_{\text{single pair}}}{i} = \frac{5.15\times10^4}{5} \approx 1.03\times10^4 \, N \cdotp m
 $$
 
-40 motors total mechanical power (200 km/h low altitude, $P_{low}$ =114.4 MW, see 5.8.7):
+40 motors total mechanical power (200 km/h low altitude, $P_{low} =114.4 MW$ , see 5.8.7):
 
 $$
 P_{\text{total}} = \frac{P_{\text{low}}}{\eta_{\text{gear}}} = \frac{114.4}{0.98} \approx 116.7 \, \text{MW}
@@ -1166,9 +1166,9 @@ Conductive rail uses track sheath mid-layer aluminum (cross-section ~5,010 mm²)
 
 Power supply uses dual-rail system (aluminum layer divided into two poles by axial insulation grooves). Total round-trip length L = 200 km = 2×10⁵ m.
 
-Single pole effective cross-section $A_{single}$ ≈ 2,505 mm² = 2.505×10⁻³ m².
+Single pole effective cross-section $A_{single} ≈ 2,505 mm² = 2.505×10⁻³ m²$ .
 
-Aluminum alloy 7075-T6 resistivity $ρ_{Al}$ = 5.2×10⁻⁸ Ω·m [4.4].
+Aluminum alloy 7075-T6 resistivity $ρ_{Al} = 5.2×10⁻⁸ Ω·m$ [4.4].
 
 Single pole resistance:
 
@@ -1176,13 +1176,13 @@ $$
 R_{\text{single}} = \rho_{\text{Al}} \frac{L}{A_{\text{single}}} = \frac{5.2\times10^{-8} \times 2\times10^5}{2.505\times10^{-3}} \approx 4.15 \, \Omega
 $$
 
-Dual pole series total circuit resistance $R_{circuit}$ = 2 × 4.15 = **8.30 Ω**.
+Dual pole series total circuit resistance $R_{circuit} = 2 × 4.15 = 8.30 Ω$ .
 
 (If four-way parallel is used, circuit resistance can be reduced to about 2.08 Ω. This derivation uses dual-pole as a conservative baseline.)
 
 **(2) Supply Voltage and Current**
 
-Cabin low altitude power required (see 5.8.7): $P_{req}$ = 114.4 MW (200 km/h scheme).
+Cabin low altitude power required (see 5.8.7): $P_{req} = 114.4 MW$ (200 km/h scheme).
 
 Supply voltage U = 25 kV (AC, compatible with railway traction supply). Power factor cosφ = 0.85.
 
@@ -1296,7 +1296,7 @@ Efficiency factors:
 
 **(2) Emission Power**
 
-Low altitude ascent power required (see 5.8.7): $P_{req}$ = 114.4 MW.
+Low altitude ascent power required (see 5.8.7): $P_{req} = 114.4 MW$ .
 
 $$
 P_{\text{emit}} = \frac{P_{\text{req}}}{\eta_{\text{atm}} \times \eta_{\text{opt}} \times \eta_{\text{PV}}} = \frac{114.4}{0.85 \times 0.80 \times 0.50} = \frac{114.4}{0.34} \approx 336.5 \, \text{MW}
@@ -1332,9 +1332,9 @@ Slightly above cabin power demand 114.4 MW, about 4% margin. **Ground laser powe
 
 **(1) Power Demand**
 
-Mid altitude power required (see 5.8.7): $P_{req}$ = 297.5 MW.
+Mid altitude power required (see 5.8.7): $P_{req} = 297.5 MW$ .
 
-Atmospheric attenuation negligible ( $η_{atm}$ ≈ 1.0), optical and PV efficiency as above.
+Atmospheric attenuation negligible ( $η_{atm} ≈ 1.0$ ), optical and PV efficiency as above.
 
 $$
 P_{\text{emit}} = \frac{297.5}{1.0 \times 0.80 \times 0.50} = \frac{297.5}{0.40} \approx 743.8 \, \text{MW}
@@ -1344,7 +1344,7 @@ Round to **750 MW**.
 
 **(2) On-Orbit Laser Electrical Power Demand**
 
-Laser electrical-optical conversion efficiency $η_{laser}$ = 0.35 (fiber laser conservative) [4.9].
+Laser electrical-optical conversion efficiency $η_{laser} = 0.35$ (fiber laser conservative) [4.9].
 
 $$
 P_{\text{elec}} = \frac{P_{\text{emit}}}{\eta_{\text{laser}}} = \frac{750}{0.35} \approx 2,143 \, \text{MW}
@@ -1354,7 +1354,7 @@ Round to **2,200 MW**.
 
 **(3) On-Orbit PV Array Area**
 
-On-orbit AM0 solar irradiance S₀ = 1,361 W/m². PV efficiency $η_{sun_{PV}}$ = 0.45 (future multi-junction GaAs under AM0). Array fill factor 0.85.
+On-orbit AM0 solar irradiance $S_0 = 1,361 W/m²$ . PV efficiency $η_{sun_{PV}} = 0.45$ (future multi-junction GaAs under AM0). Array fill factor 0.85.
 
 $$
 A_{\text{PV}} = \frac{P_{\text{elec}}}{S_0 \times \eta_{{sun_{PV}}} \times \text{FF}} = \frac{2,200\times10^6}{1,361 \times 0.45 \times 0.85} = \frac{2,200\times10^6}{520.4} \approx 4.227\times10^6 \, \text{m}^2 \approx 4.23 \, \text{km}^2
@@ -1376,7 +1376,7 @@ On-orbit PV output: 2,200 × 10⁶ × 0.35 (laser efficiency) × 0.80 (optical) 
 
 **(1) Power Demand**
 
-High altitude power required (see 5.8.7): $P_{req}$ = 90 MW.
+High altitude power required (see 5.8.7): $P_{req} = 90 MW$ .
 
 $$
 P_{\text{emit}} = \frac{90}{1.0 \times 0.80 \times 0.50}
@@ -1451,7 +1451,7 @@ Crosswind refers to wind perpendicular to the cabin's direction of travel (i.e.,
 
 **(1) Spindle Crosswind**
 
-Side projection area, mid-section cylinder simplified $A_{side}$ ≈ 60×5×0.7 ≈ 210 m² (spindle taper factor 0.7), conservatively use 245 m² for check.
+Side projection area, mid-section cylinder simplified $A_{side} ≈ 60×5×0.7 ≈ 210 m²$ (spindle taper factor 0.7), conservatively use 245 m² for check.
 
 Side wind force:
 
@@ -1473,7 +1473,7 @@ $$
 
 **(2) Disc Crosswind**
 
-Side projection area $A_{side}$ ≈ 10×10 = 100 m² (disc as flat cylinder, windward as rectangle). Considering disc may have curved transition, conservatively use projection coefficient 0.8, effective area about 80 m².
+Side projection area $A_{side} ≈ 10×10 = 100 m²$ (disc as flat cylinder, windward as rectangle). Considering disc may have curved transition, conservatively use projection coefficient 0.8, effective area about 80 m².
 
 $$
 F_{\text{cross,disc}} = \frac{1}{2} \times 1.225 \times (30)^2 \times 80 \times 0.8
@@ -1547,7 +1547,7 @@ $$
 
 With 10th-level headwind (upward), relative wind speed increases to 85.56 m/s, drag about 2.82×10⁵ N.
 
-During descent at constant speed, drive system must provide braking force $ F_{\text{brake}} = W = 1.962 \times 10^6 \, \text{N} $. Under headwind:
+During descent at constant speed, drive system must provide braking force $F_{\text{brake}} = W = 1.962 \times 10^6 \, \text{N}$ . Under headwind:
 
 $$
 \frac{F_{\text{drag,disc,head}}}{F_{\text{brake}}} = \frac{2.82 \times 10^5}{1.962 \times 10^6} \approx 14.4\%
@@ -1641,7 +1641,7 @@ Both negligible.
 Scheme E is fundamentally similar to traction elevators used in buildings. It separates load-bearing and drive functions: the main load-bearing cable only bears axial tension, the cabin is clamped to multiple index cables via pulley sets, and index cables are driven in a loop by ground and GEO end drive pulleys.
 
 **Basic Architecture**:
-- **Main Load-Bearing Cable**: A CNT braided cable bearing all self-weight tension ( $T_{GEO}$ ≈2.09×10¹⁰ N, see Volume 4, 4.3.3). Serves only as a guide axis, cabin slides along track sheath outer surface via guide wheels, track sheath provides radial and lateral restraint. No extra drive interface (no rack) on main cable.
+- **Main Load-Bearing Cable**: A CNT braided cable bearing all self-weight tension ( $T_{GEO} ≈2.09×10^{10} N$ , see Volume 4, 4.3.3). Serves only as a guide axis, cabin slides along track sheath outer surface via guide wheels, track sheath provides radial and lateral restraint. No extra drive interface (no rack) on main cable.
 - **Index Cables**: Multiple thinner CNT braided cables, also extending from ground to GEO. Index cables form a closed loop via drive pulleys at ground and GEO ends, driven by motors. Each index cable operates independently, single cable failure does not affect overall system. Index cables loop by passing over GEO end return pulleys, with drive pulleys at both ends providing tension and motion.
 - **Cabin Interface**: Cabin equipped with multiple pulley sets clamped to index cables. When index cables are driven, the cabin moves up/down accordingly. Pulley sets on the cabin maintain constant clamping force via spring preload or hydraulic devices.
 
@@ -1659,13 +1659,13 @@ $$
 T(z) = \int_z^{L} \rho_{\text{eng}} A g(z') \mathrm{d}z'
 $$
 
-Where L = 42,164 km, $ρ_{\text{eng}}$ = 390 kg/m³ (see Volume 4, 4.2), g(z') is local gravity. At ground (z = 0), tension is maximum. Using gravitational potential difference, self-weight tension:
+Where L = 42,164 km, $ρ_{\text{eng}} = 390 kg/m³$ (see Volume 4, 4.2), g(z') is local gravity. At ground (z = 0), tension is maximum. Using gravitational potential difference, self-weight tension:
 
 $$
 T_{\text{self,max}} = \rho_{\text{eng}} A \int_0^{L} g(z) \mathrm{d}z = \rho_{\text{eng}} A \times GM_e \left( \frac{1}{R_e} - \frac{1}{R_{GEO}} \right)
 $$
 
-Substitute values: GMₑ = 3.986×10¹⁴ m³/s², Rₑ = 6.371×10⁶ m, $R_{GEO}$ = 4.2164×10⁷ m.
+Substitute values: $GM_e = 3.986×10^{14} m³/s², R_e = 6.371×10⁶ m, R_{GEO} = 4.2164×10⁷ m$ .
 
 $$
 \int_0^{L} g(z) \mathrm{d}z = 3.986\times10^{14} \times \left( \frac{1}{6.371\times10^6} - \frac{1}{4.2164\times10^7} \right)
@@ -1683,7 +1683,7 @@ $$
 H_{\text{eq}} = \frac{1}{g_0} \int_0^{L} g(z) \mathrm{d}z = \frac{5.311\times10^7}{9.81} \approx 5.41\times10^6 \, \text{m}
 $$
 
-(Note: This $H_{eq}$ ≈5,410 km differs from the main cable characteristic height H≈2,091 km in Volume 4. The former is gravitational potential difference divided by surface gravity, used for uniform cross-section self-weight tension; the latter is the characteristic length for tapered cross-section, with different physical meaning.)
+(Note: This $H_{eq}≈5,410 km$ differs from the main cable characteristic height $H≈2,091 km$ in Volume 4. The former is gravitational potential difference divided by surface gravity, used for uniform cross-section self-weight tension; the latter is the characteristic length for tapered cross-section, with different physical meaning.)
 
 Self-weight stress:
 
@@ -1697,7 +1697,7 @@ $$
 \sigma_{\text{self}} \leq \frac{\sigma_{\text{allow}}}{S}
 $$
 
-Where $σ_{allow}$ = 20 GPa (target, see Volume 2, 2.3.4), S = 2.5 (safety factor, see Volume 2, 2.7.1).
+Where $σ_{allow} = 20 GPa$ (target, see Volume 2, 2.3.4), S = 2.5 (safety factor, see Volume 2, 2.7.1).
 
 $$
 \sigma_{\text{self}} = 20.70 \, \text{GPa} > \frac{20}{2.5} = 8.00 \, \text{GPa}
@@ -1719,9 +1719,9 @@ During operation, the cabin is subject to lateral wind-induced overturning momen
 
 **Spindle Cabin (ø5 m × 60 m) Crosswind Condition** (Category 10 typhoon 30 m/s, see 5.12.2):
 
-Lateral wind force about 6.75×10⁴ N, overturning moment $M_{wind}$ ≈ 2.03×10⁶ N·m.
+Lateral wind force about 6.75×10⁴ N, overturning moment $M_{wind} ≈ 2.03×10⁶ N \cdotp m$ .
 
-Restoring moment from leeward index cables' tension increment. Let number of index cables n, each cable's attachment point evenly distributed around circumference. Full load 200 t, total weight W=1.962×10⁶ N, each index cable bears W/n. Cabin is pulled by ground/GEO motors via index cables, index cable rated tension $F_{single}$ = W × S / n, S=2.0 (includes friction loss and startup shock).
+Restoring moment from leeward index cables' tension increment. Let number of index cables n, each cable's attachment point evenly distributed around circumference. Full load 200 t, total weight W=1.962×10⁶ N, each index cable bears W/n. Cabin is pulled by ground/GEO motors via index cables, index cable rated tension $F_{single} = W \cdotp S / n$ , S=2.0 (includes friction loss and startup shock).
 
 For n=6 (3 leeward cables, single cable ~6.54×10⁵ N), moment arm spindle radius ~2.5 m (attachment at cabin outer wall):
 
@@ -1732,7 +1732,7 @@ $$
 M_{\text{restore,max}} \approx 3 \times (0.2 \times 6.54\times10^5) \times 2.5 \approx 9.81\times10^5 \, N \cdotp m
 $$
 
-$M_{restore}$ < $M_{wind}$ (9.81×10⁵ < 2.03×10⁶), not sufficient. Increase to 10 cables (5 leeward, single cable ~3.92×10⁵ N):
+$M_{restore} < M_{wind}$ (9.81×10⁵ < 2.03×10⁶), not sufficient. Increase to 10 cables (5 leeward, single cable ~3.92×10⁵ N):
 
 $$
 M_{\text{restore,max}} \approx 5 \times (0.2 \times 3.92\times10^5) \times 2.5 \approx 9.80\times10^5 \, N \cdotp m
@@ -1742,7 +1742,7 @@ Still not sufficient. Spindle's long moment arm (30 m) causes huge overturning m
 
 **Disc Cabin (ø10 m × 10 m) Crosswind Condition**:
 
-Lateral wind force about 3.53×10⁴ N, overturning moment $M_{wind}$ ≈ 1.76×10⁵ N·m (see 5.12.2).
+Lateral wind force about 3.53×10⁴ N, overturning moment $M_{wind} ≈ 1.76×10⁵ N \cdotp m$ (see 5.12.2).
 
 n=8 (4 leeward cables, single cable ~4.91×10⁵ N), moment arm disc radius 5 m:
 
@@ -1753,7 +1753,7 @@ $$
 M_{\text{restore,max}} \approx 4 \times (0.2 \times 4.905\times10^5) \times 5 \approx 1.962\times10^6 \, N \cdotp m
 $$
 
-$M_{restore}$ > $M_{wind}$ (1.962×10⁶ >> 1.76×10⁵), **disc with 8 index cables meets lateral stability with large margin (~11x)**.
+$M_{restore} > M_{wind}$ (1.962×10⁶ >> 1.76×10⁵), **disc with 8 index cables meets lateral stability with large margin (~11x)**.
 
 | Cabin Shape | Min Index Cables | Wind Overturning Moment (N·m) | Restoring Moment (N·m) | Judgment |
 |-------------|:---------------:|:-----------------------------:|:----------------------:|:--------:|
@@ -1774,7 +1774,7 @@ Index cables are flexible (CNT braided), diameter determined by **pure self-weig
 
 If material bottleneck is solved, Scheme E's kinematics are determined by ground/GEO drive pulley linear speed. Drive pulleys can run at variable speed, upper limit constrained by:
 
-- CNT index cable bending stress at return pulleys ( $D_{pulley}/D_{cable}$ ≥ 40)
+- CNT index cable bending stress at return pulleys ( $D_{pulley}/D_{cable} ≥ 40$ )
 - Drive motor power and heat dissipation
 - Cabin stable operation on guide track
 
@@ -1807,7 +1807,7 @@ LSM replaces the rack with electromagnetic coils (primary windings) along the ca
 
 ### 5.14.2 Traction Force Requirement
 
-LSM must provide required traction for cabin acceleration near GEO. For full load 200 t at GEO, comfort acceleration $a_{comfort}$ =0.4905 m/s²:
+LSM must provide required traction for cabin acceleration near GEO. For full load 200 t at GEO, comfort acceleration $a_{comfort} =0.4905 m/s²$ :
 
 $$
 F_{\text{traction}} = m a_{\text{comfort}} = 2\times10^5 \times 0.4905 \approx 9.81\times10^4 \, \text{N}
@@ -1827,7 +1827,7 @@ $$
 f = B I = B \times (J A_{\text{conductor}})
 $$
 
-Single conductor area $A_{conductor}$ = 10⁻³ m² (1000 mm²), current I = 5×10³ A, unit length force f = 5×10³ N/m.
+Single conductor area $A_{conductor} = 10⁻³ m²$ (1000 mm²), current $I = 5×10³ A$ , unit length force $f = 5×10³ N/m$ .
 
 To generate required traction 9.81×10⁴ N, number of conductors (parallel):
 
@@ -1839,7 +1839,7 @@ Each conductor area 1000 mm², 20 in parallel total area about 2×10⁻² m². F
 
 ### 5.14.4 Conductor Mass Estimate
 
-20 parallel copper conductors (1000 mm² each), copper density $ρ_{Cu}$ = 8,960 kg/m³. Along high altitude 28,164 km (2.8164×10⁷ m):
+20 parallel copper conductors (1000 mm² each), copper density $ρ_{Cu} = 8,960 kg/m³$ . Along high altitude 28,164 km (2.8164×10⁷ m):
 
 $$
 m_{\text{conductor}} = \rho_{\text{Cu}} \times N_{\text{conductor}} \times A_{\text{conductor}} \times L
@@ -1860,13 +1860,13 @@ $$
 
 ### 5.14.5 Ohmic Loss and Superconductivity Necessity
 
-Copper resistivity $ρ_{Cu}$ = 1.68×10⁻⁸ Ω·m (20°C). 20 parallel, each 28,164 km, single conductor resistance:
+Copper resistivity $ρ_{Cu} = 1.68×10⁻⁸ Ω·m$ (20°C). 20 parallel, each 28,164 km, single conductor resistance:
 
 $$
 R_{\text{single}} = \rho_{\text{Cu}} \frac{L}{A_{\text{conductor}}} = \frac{1.68\times10^{-8} \times 2.8164\times10^7}{10^{-3}} \approx 473 \, \Omega
 $$
 
-20 parallel total resistance $R_{parallel}$ ≈ 23.7 Ω. Single phase current $I_{phase}$ = 20 × 5,000 = 1×10⁵ A, ohmic loss:
+20 parallel total resistance $R_{parallel} ≈ 23.7 Ω$ . Single phase current $I_{phase} = 20 × 5,000 = 1×10⁵ A$ , ohmic loss:
 
 $$
 P_{\text{loss}} = I_{\text{phase}}^2 R_{\text{parallel}} = (10^5)^2 \times 23.7 \approx 2.37\times10^{11} \, \text{W} \approx 237 \, \text{GW}

@@ -44,7 +44,7 @@ $$
 T_{\text{GEO}} = \frac{\sigma_{\text{allow}} A_{\text{GEO}}}{S} = \frac{20 \times 10^9 \times 2.613}{2.5} \approx 2.09 \times 10^{10} \, \text{N}
 $$
 
-Where $A_{GEO}$ ≈ 2.613 m² is the cross-sectional area at the GEO end (Section 4.3.3 of Volume IV), $σ_{allow}$ = 20 GPa is the engineering strength target value for the CNT braided cable (Section 2.3.4 of Volume II).
+Where $A_{GEO} ≈ 2.613 m²$ is the cross-sectional area at the GEO end (Section 4.3.3 of Volume IV), $σ_{allow} = 20 GPa$ is the engineering strength target value for the CNT braided cable (Section 2.3.4 of Volume II).
 
 This tension must be fully borne by the GEO end counterweight system.
 
@@ -125,7 +125,7 @@ $$
 
 ### 6.3.3 Mechanical Response of the Ring Under Radial Concentrated Force
 
-The effect of the elevator cable on the ring is essentially the application of a radial outward concentrated force F (F = $T_{GEO}$ ≈ 2.09 × 10¹⁰ N). The deformation and bearing capacity of the ring under this force depend on its bending stiffness and circumferential tension. The following evaluates two extreme models.
+The effect of the elevator cable on the ring is essentially the application of a radial outward concentrated force F ( $F = T_{GEO} ≈ 2.09 × 10¹⁰ N$ ). The deformation and bearing capacity of the ring under this force depend on its bending stiffness and circumferential tension. The following evaluates two extreme models.
 
 **(1) Considering Only Circumferential Tension (No Bending Stiffness Model)**
 
@@ -170,7 +170,7 @@ $$
 \approx 7.20 \times 10^7 \, \text{m} = 72,000 \, \text{km}
 $$
 
-The required radial displacement is about 72,000 km, far exceeding the ring radius of 42,264 km. This result shows that under the small deformation assumption, θ ≈ $F/(2T_{ring})$ ≈ (2.09 × 10¹⁰)/(5.66 × 10⁹) ≈ 3.69 rad, much greater than 1, so the small deformation assumption itself is invalid. This means **the ring will be completely straightened, forming a sharp kink, and cannot provide effective radial support.**
+The required radial displacement is about 72,000 km, far exceeding the ring radius of 42,264 km. This result shows that under the small deformation assumption, $θ ≈ F/(2T_{ring}) ≈ (2.09 × 10¹⁰)/(5.66 × 10⁹) ≈ 3.69 rad$ , much greater than 1, so the small deformation assumption itself is invalid. This means **the ring will be completely straightened, forming a sharp kink, and cannot provide effective radial support.**
 
 **Physical conclusion: relying solely on circumferential tension, the ring cannot balance the outward pull of a single elevator cable.**
 
@@ -258,7 +258,7 @@ The choice of segment length $L_{segment}$ must comprehensively consider the fol
 | Packaging limitation | Rocket fairing envelope (ø8–9 m, length 20–30 m) |
 | Cable flexibility | Can be wound on large drums like a cable, minimum bending radius limited by microfilament damage |
 
-Considering the above, the recommended single segment length is $L_{segment}$ = 500 m.
+Considering the above, the recommended single segment length is $L_{segment} = 500 m$ .
 
 ### 6.4.2 Segment Parameter Table
 

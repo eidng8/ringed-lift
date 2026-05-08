@@ -31,7 +31,7 @@ Core tasks of this volume:
 | Allowable stress | $σ_{allow}$ | ~20 GPa (target) | Volume II, Section 2.3.4 |
 | Material density | $ρ_{mat}$ | ~1.3 g/cm³ | Volume II, Section 2.2.2 |
 | Cross-section fill factor | f | 0.06–0.6 | Volume II, Section 2.6.2 |
-| Engineering density | ρ | $ρ_{mat}$ ×f, take f=0.3, ρ≈390 kg/m³ | Value in this volume |
+| Engineering density | ρ | $f \cdotp ρ_{mat}$, take f=0.3, ρ≈390 kg/m³ | Value in this volume |
 | Elastic modulus | E | ≈1,000 GPa | Derived in Section 4.7.2 |
 | Safety factor (independent case) | S | ≥2.5 | Volume II, Section 2.7.1 |
 
@@ -92,7 +92,7 @@ $$
 \int_{A_0}^{A_{GEO}} \frac{\mathrm{d}A}{A} = \frac{\rho S GM_e}{\sigma_{\text{allow}}} \int_{R_e}^{R_{GEO}} \frac{\mathrm{d}r}{r^2}
 $$
 
-The left side is ln( $A_{GEO}$ /A₀). The right side integral is:
+The left side is $\ln(A_{GEO} / A_0)$ . The right side integral is:
 
 $$
 \int_{R_e}^{R_{GEO}} \frac{\mathrm{d}r}{r^2} = \frac{1}{R_e} - \frac{1}{R_{GEO}}
@@ -283,7 +283,7 @@ Take the envelope value, design total clamping force as **≥ 2.1×10⁷ N**.
 
 ### 4.4.3 Number of Drive Wheels and Load per Wheel
 
-Take number of drive wheels $N_{wheel}$ = 16, symmetrically distributed around the cable. Clamping force per wheel (normal force):
+Take number of drive wheels $N_{wheel} = 16$ , symmetrically distributed around the cable. Clamping force per wheel (normal force):
 
 $$
 F_{\text{per wheel}} = \frac{\Sigma F_{\text{clamp}}}{N_{\text{wheel}}} = \frac{2.1\times10^7}{16} \approx 1.31\times10^6 \text{ N}
@@ -291,7 +291,7 @@ $$
 
 ### 4.4.4 Hertzian Contact Stress—Drive Wheel and CNT Cable
 
-Drive wheel diameter $D_{wheel}$ = 1.0 m (radius $R_{wheel}$ = 0.5 m), wheel width b = 0.3 m. Main cable outer diameter d₀ = 0.5 m (ground end, radius $r_{cable}$ = 0.25 m).
+Drive wheel diameter $D_{wheel} = 1.0 m$ (radius $R_{wheel} = 0.5 m$ ), wheel width b = 0.3 m. Main cable outer diameter $d_0 = 0.5 m$ (ground end, radius $r_{cable} = 0.25 m$ ).
 
 The drive wheel and cable are two cylinders in crossed contact (axes perpendicular), equivalent curvature radius:
 
@@ -426,7 +426,7 @@ The term in parentheses is positive above GEO (gravity-dominated), and becomes n
 
 Therefore, the total mass of the "cable + counterweight" system has an optimal solution, not simply the lower the counterweight mass, the better. Excessively distant counterweights, though lighter themselves, cause the cable mass to balloon.
 
-Preliminary order-of-magnitude estimate: with current parameters ( $σ_{allow}$ =20 GPa, S=2.5, ρ=390 kg/m³), the GEO cross-section is about 2.6 m². If the counterweight is placed at 100,000 km, the cable length increases by about 58,000 km, with additional cable mass of **10,000–30,000 tons**, negligible compared to the counterweight mass saved—since the savings are in the hundreds of millions of tons.
+Preliminary order-of-magnitude estimate: with current parameters ( $σ_{allow} =20 GPa, S=2.5, ρ=390 kg/m³$ ), the GEO cross-section is about 2.6 m². If the counterweight is placed at 100,000 km, the cable length increases by about 58,000 km, with additional cable mass of **10,000–30,000 tons**, negligible compared to the counterweight mass saved—since the savings are in the hundreds of millions of tons.
 
 In other words, **in this parameter space, the benefit of "pushing the counterweight farther" completely outweighs the cost of increased cable mass.** The real limitation is not physical, but engineering and political.
 
@@ -460,7 +460,7 @@ Therefore, "expanding outward" fully meets the condition of not affecting track 
 
 ### 4.6.2 Order-of-Magnitude of Thermal Expansion/Contraction Displacement
 
-Composite cable overall coefficient of thermal expansion $α_{CTE}$ = 2×10⁻⁶ K⁻¹ [4.1], full cable length L = 4.2164×10⁷ m.
+Composite cable overall coefficient of thermal expansion $α_{CTE} = 2×10^{-6} K^{-1}$ [4.1], full cable length $L = 4.2164×10⁷ m$ .
 
 **Extreme condition definition**: No thermal control system, full sunlit side temperature up to 423 K, full shadow side down to 123 K, local instantaneous temperature difference about 300 K. Weighted average (low-altitude section about 50 K, high-altitude section about 200 K, accounting for CNT’s high axial thermal conductivity equalization effect), take a weighted average extreme temperature difference of 110 K for the full cable. Under normal thermal control, temperature difference ≤10 K.
 
@@ -476,13 +476,13 @@ $$
 
 ### 4.6.3 Order-of-Magnitude of Elastic Deformation Displacement
 
-**This is a conservative upper bound estimate based on maximum stress at the GEO end**: full-section stress is approximately constant at $σ_{design}$ = 20×10⁹/2.5 = 8×10⁹ Pa. Elastic modulus E ≈ 1,000 GPa, strain ε = 8×10⁻³.
+**This is a conservative upper bound estimate based on maximum stress at the GEO end**: full-section stress is approximately constant at $σ_{design} = 20×10⁹/2.5 = 8×10⁹ Pa$ . Elastic modulus $E ≈ 1,000 GPa$ , strain $ε = 8×10^{-3}$ .
 
 $$
 \Delta L_{\text{elastic}} = 8\times10^{-3} \times 4.2164\times10^7 \approx 337 \text{ km}
 $$
 
-Accurate elastic elongation requires integrating `dΔL = T(z)dz / (E·A(z))`. However, since the winch design stroke (≥1,000 km) far exceeds this estimate (337 km), the order-of-magnitude is still safe, and the precise value can be left for subsequent detailed design calculations.
+Accurate elastic elongation requires integrating $\mathrm d ΔL = T(z)dz / (E·A(z))$ . However, since the winch design stroke (≥1,000 km) far exceeds this estimate (337 km), the order-of-magnitude is still safe, and the precise value can be left for subsequent detailed design calculations.
 
 ### 4.6.4 Compensation Requirement Summary
 
@@ -507,7 +507,7 @@ $$
 
 Rounded to 5.23×10¹⁰ N.
 
-C/SiC composite allowable stress $σ_{allow_{C/SiC}}$ = 500 MPa = 5×10⁸ Pa [4.3].
+C/SiC composite allowable stress $σ_{allow_{C/SiC}} = 500 MPa = 5×10⁸ Pa$ [4.3].
 
 Required cross-sectional area:
 
@@ -574,7 +574,7 @@ The track sleeve is a segmented rigid ring structure, installed section by secti
 
 ### 4.8.3 Characteristic Height of Each Layer Material
 
-Define characteristic height $H_{sleeve}$ as the ultimate length at which a structure with constant cross-section under constant gravity g₀ reaches the allowable compressive stress of the material:
+Define characteristic height $H_{sleeve}$ as the ultimate length at which a structure with constant cross-section under constant gravity $g_0$ reaches the allowable compressive stress of the material:
 
 $$
 H_{\text{sleeve}} = \frac{\sigma_{\text{sleeve,comp}}}{\rho_{\text{sleeve}} g_0 S_{\text{sleeve}}}, \quad S_{\text{sleeve}} = 2.0
@@ -610,9 +610,9 @@ $$
 L_{\text{seg}} \leq \frac{10\times10^6}{9,123.3} \approx 1,096 \text{ m}
 $$
 
-Take a conservative value, $L_{seg}$ ≤ 800 m.
+Take a conservative value, $L_{seg} ≤ 800 m$ .
 
-Based on the aluminum alloy layer’s compressive capacity ( $H_{Al}$ ≈ 9.5 km), with the thrust ring rigidly connected to the middle layer, the segment length can be relaxed to several kilometers or more. The final determination of specific segment length will be given in subsequent comprehensive simulations considering overall cable mechanics and installation process optimization; this volume only provides a conservative upper limit of about 800 m based on the allowable compressive stress of UHMWPE.
+Based on the aluminum alloy layer’s compressive capacity ( $H_{Al} ≈ 9.5 km$ ), with the thrust ring rigidly connected to the middle layer, the segment length can be relaxed to several kilometers or more. The final determination of specific segment length will be given in subsequent comprehensive simulations considering overall cable mechanics and installation process optimization; this volume only provides a conservative upper limit of about 800 m based on the allowable compressive stress of UHMWPE.
 
 
 ## 4.9 Thrust Ring and Segmentation Isolation
@@ -637,7 +637,7 @@ $$
 F_{\text{self-weight}} = 0.12 \times 800 \times 9.81 \approx 942 \text{ N}
 $$
 
-The thrust ring inner edge transmits axial force to the main cable via inner UHMWPE (friction coefficient $μ_{inner}$ ≈ 0.2):
+The thrust ring inner edge transmits axial force to the main cable via inner UHMWPE (friction coefficient $μ_{inner} ≈ 0.2$ ):
 
 $$
 F_{\text{radial}} = \frac{942}{0.2} \approx 4,710 \text{ N}
@@ -800,7 +800,7 @@ $$
 \Delta T_{\text{sleeve}} \approx 0.12 \times 42,164\times10^3 \times 9.81 \approx 4.96\times10^7 \text{ N}
 $$
 
-Compared to main cable tension $T_{GEO}$ = 2.09×10¹⁰ N, about 0.24%, **negligible**. This additional weight must be included in the thrust ring shear design (see Section 4.9.1, already checked).
+Compared to main cable tension $T_{GEO} = 2.09×10¹⁰ N$ , about 0.24%, **negligible**. This additional weight must be included in the thrust ring shear design (see Section 4.9.1, already checked).
 
 
 ## 4.12 Friction Scheme Track Sleeve Parameters
@@ -824,9 +824,9 @@ Contact between drive wheel and track sleeve outer UHMWPE can be simplified as H
 
 | Parameter | Symbol | Value |
 |------|------|------|
-| Drive wheel diameter | $D_{wheel}$ | 1.0 m (radius $R_{wheel}$ = 0.5 m) |
+| Drive wheel diameter | $D_{wheel}$ | 1.0 m (radius $R_{wheel} = 0.5 m$ ) |
 | Drive wheel width | b | 0.3 m |
-| Track sleeve outer diameter (including 20 mm UHMWPE outer layer) | $D_{sleeve}$ | ≈0.552 m (radius $R_{sleeve}$ ≈ 0.276 m) |
+| Track sleeve outer diameter (including 20 mm UHMWPE outer layer) | $D_{sleeve}$ | ≈0.552 m (radius $R_{sleeve} ≈ 0.276 m$ ) |
 | Number of drive wheels | $N_{wheel}$ | 16 |
 | Clamping force per wheel | $F_{per wheel}$ | ≈1.31×10⁶ N |
 
@@ -959,7 +959,7 @@ $$
 \rho_1 = \frac{D_p}{2} \sin\alpha = 0.5 \times \sin 20^\circ = 0.5 \times 0.3420 \approx 0.171 \text{ m}
 $$
 
-Rack curvature radius ρ₂ → ∞, equivalent curvature radius $ρ_{eq}$ = 0.171 m.
+Rack curvature radius ρ₂ → ∞, equivalent curvature radius $ρ_{eq} = 0.171 m$ .
 
 Equivalent elastic modulus (both aluminum alloy 7075-T6, E = 70 GPa, ν = 0.33):
 
@@ -994,7 +994,7 @@ $$
 = \frac{1.826\times10^5}{1.183\times10^{-3}} \approx 1.543\times10^8 \text{ Pa} \approx 154 \text{ MPa}
 $$
 
-Aluminum alloy 7075-T6 after micro-arc oxidation (surface hardness ≥HV1000), contact fatigue limit conservatively taken as 300 MPa. Take contact safety factor $S_H$ = 1.5 (micro-arc oxidation layer quality must be experimentally verified):
+Aluminum alloy 7075-T6 after micro-arc oxidation (surface hardness ≥HV1000), contact fatigue limit conservatively taken as 300 MPa. Take contact safety factor $S_H = 1.5$ (micro-arc oxidation layer quality must be experimentally verified):
 
 $$
 \sigma_{H,\text{allow}} = \frac{300}{1.5} = 200 \text{ MPa}
@@ -1034,7 +1034,7 @@ $$
 \sigma_F = \frac{M_{\text{root}}}{W} = \frac{4,109}{4.20\times10^{-5}} \approx 9.78\times10^7 \text{ Pa} \approx 98 \text{ MPa}
 $$
 
-Aluminum alloy 7075-T6 bending fatigue limit about 115 MPa (10⁷ cycles, conservative). Take safety factor $S_F$ = 2.0:
+Aluminum alloy 7075-T6 bending fatigue limit about 115 MPa (10⁷ cycles, conservative). Take safety factor $S_F = 2.0$ :
 
 $$
 \sigma_{F,\text{allow}} = \frac{115}{2.0} = 57.5 \text{ MPa}
@@ -1110,9 +1110,9 @@ Order-of-magnitude estimates show that after increasing the number of gear pairs
 
 ### 4.14.1 Static Lateral Wind Load
 
-At 10 m above ground is the most severe condition. Take typhoon force 10 wind speed $v_{wind}$ = 30 m/s (about 108 km/h), air density $ρ_{air}$ = 1.2 kg/m³ (sea level standard).
+At 10 m above ground is the most severe condition. Take typhoon force 10 wind speed $v_{wind} = 30 m/s$ (about 108 km/h), air density $ρ_{air} = 1.2 kg/m³$ (sea level standard).
 
-Cable with track sleeve outer diameter $D_{cable}$ = 0.552 m. For slender cylinders, the shape coefficient (drag coefficient) $C_d$ is 1.2 (applicable to subcritical Reynolds number range, cable surface roughness causes flow to enter critical region early).
+Cable with track sleeve outer diameter $D_{cable} = 0.552 m$ . For slender cylinders, the shape coefficient (drag coefficient) $C_d$ is 1.2 (applicable to subcritical Reynolds number range, cable surface roughness causes flow to enter critical region early).
 
 Lateral wind force per unit cable length (wind pressure × projected area):
 
@@ -1126,7 +1126,7 @@ $$
 = 0.6 \times 900 \times 0.6624 \approx 357.7 \text{ N/m}
 $$
 
-Cable axial tension (GEO end) is $T_{GEO}$ = 2.09×10¹⁰ N. Ratio of lateral wind load to axial tension:
+Cable axial tension (GEO end) is $T_{GEO} = 2.09×10¹⁰ N$ . Ratio of lateral wind load to axial tension:
 
 $$
 \frac{F_{\text{wind,unit}}}{T_{GEO}} \approx \frac{357.7}{2.09\times10^{10}} \approx 1.71\times10^{-8}
@@ -1156,9 +1156,12 @@ $$
 f_n = \frac{n}{2L_{\text{span}}} \sqrt{\frac{T}{\rho A}}
 $$
 
-Take a typical short span $L_{span}$ ≈ 100 m (distance between adjacent dampers/strakes), tension T ≈ 1×10¹⁰ N, line density λ = ρA ≈ 390×π×0.25²×fill factor 0.3 ≈ 23 kg/m (ground end, about 24 kg/m with track sleeve).
+Take a typical short span $L_{span} ≈ 100 m$ (distance between adjacent dampers/strakes), tension $T ≈ 1×10¹⁰ N$ , fill factor 0.3, line density $λ = ρA ≈ 390π×0.25²×0.3 ≈ 23 kg/m$ (ground end, about 24 kg/m with track sleeve).
 
-Wave speed c = √(T/λ) ≈ √(1×10¹⁰/24) ≈ 20,400 m/s.
+Wave speed:
+$$
+c = \sqrt{\frac{T}{λ}} ≈ \sqrt{\frac{1×10^{10}}{24}} ≈ 20,400 m/s
+$$
 
 Fundamental frequency (n=1):
 
@@ -1166,7 +1169,7 @@ $$
 f_1 = \frac{20,400}{2 \times 100} \approx 102 \text{ Hz}
 $$
 
-$f_{vortex}$ ≈ 10.9 Hz is much lower than the cable’s local fundamental frequency of about 102 Hz, not in the resonance region. Vortex-induced vibration is a high-frequency, small-amplitude forced vibration, amplitude can be suppressed by the cable’s own damping and strakes.
+$f_{vortex} ≈ 10.9 Hz$ is much lower than the cable’s local fundamental frequency of about 102 Hz, not in the resonance region. Vortex-induced vibration is a high-frequency, small-amplitude forced vibration, amplitude can be suppressed by the cable’s own damping and strakes.
 
 **Suppression measures**: Set helical ribs (strakes) on the track sleeve outer surface to disrupt the spanwise correlation of regular vortex shedding, reducing the amplitude of periodic excitation. In the 0–5,000 m section, set lightweight ring dampers every few hundred meters.
 
@@ -1184,7 +1187,7 @@ Vortex-induced vibration is limited to the low-altitude section (0–100 km); be
 | Counterweight mass | $M_{cw}$ | 8.0×10¹² kg | Locked | — |
 | Winch compensation stroke | $L_{winch}$ | ≥1,000 m | Locked | Volume V |
 | C/SiC connector diameter | $d_{conn}$ | 11.5 m | Locked | Volume V |
-| Node constraint stiffness | $K_R$ , $K_Z$ | ≈10⁵ N/m | Order-of-magnitude estimate | Volume I |
+| Node constraint stiffness | $K_R , K_Z$ | ≈10⁵ N/m | Order-of-magnitude estimate | Volume I |
 | Drive wheel direct clamping contact stress | $σ_H$ | ~600 MPa | Determined: Not feasible | — |
 | Track sleeve segment length | $L_{seg}$ | ≤800 m | Conservative upper limit | — |
 | UHMWPE contact stress (Scheme B) | $σ_{H_{UHMWPE}}$ | ~96 MPa | Exceeds yield by 4–5×, not feasible | — |

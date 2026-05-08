@@ -290,7 +290,7 @@ Based on the above simulation framework and experimental plan predictions, this 
 
 ### 7.7.1 Feedback to Volume 2 (Materials)
 
-- If **E-P0-3** measures f₁ < 0.3, then the engineering target of " $σ_{cable}$ ≥ 20 GPa" in Volume 2 cannot be achieved with the current braiding process. At this point, two paths need to be evaluated: ① increase single filament strength to compensate for the loss; ② switch to Scheme E (multi-index cable, whose core issue is also CNT strength). If f₁ < 0.2, the entire cable design of the ring elevator scheme must be fundamentally re-evaluated.
+- If **E-P0-3** measures f₁ < 0.3, then the engineering target of " $σ_{cable} ≥ 20 GPa$ " in Volume 2 cannot be achieved with the current braiding process. At this point, two paths need to be evaluated: ① increase single filament strength to compensate for the loss; ② switch to Scheme E (multi-index cable, whose core issue is also CNT strength). If f₁ < 0.2, the entire cable design of the ring elevator scheme must be fundamentally re-evaluated.
 - If the creep rate measured in V2-M3 exceeds expectations, the counterweight winch stroke must be increased from the current 1,000 m, or add in-orbit re-tensioning devices.
 
 ### 7.7.2 Feedback to Volume 5 (Carriage)

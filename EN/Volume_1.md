@@ -73,8 +73,8 @@ The Moon and Sun are treated as point mass gravitational sources.
 
 Ignoring all perturbations, assuming Earth as a central gravitational field and the ring as a continuum. For an infinitesimal element on the ring (corresponding to angular coordinate dφ), the forces are:
 
-- **Gravity**: $dF_g = -\frac{GM_e \lambda}{R_0} d\phi \hat{r}$
-- **Tension**: The radial resultant of the tensions T at both ends is $dF_T = T d\phi \hat{r}$ (positive toward the center)
+- **Gravity**: $\mathrm{d}F_g = -\frac{GM_e \lambda}{R_0} \mathrm{d}\phi \hat{r}$
+- **Tension**: The radial resultant of the tensions T at both ends is $\mathrm{d}F_T = T \mathrm{d}\phi \hat{r}$ (positive toward the center)
 
 Equilibrium equation:
 
@@ -98,13 +98,13 @@ $$
 
 $a_c > a_g$ , difference ≈ 0.0009 m/s².
 
-**Implication**: If the ring is only subject to gravity, its centripetal acceleration is only a_g, which is insufficient to maintain synchronous circular motion at radius R₀. The cable must provide additional centripetal tension to make up this difference, so that the net centripetal acceleration reaches a_c. The ring is thus in a state of permanent tension, storing elastic energy.
+**Implication**: If the ring is only subject to gravity, its centripetal acceleration is only $a_g$ , which is insufficient to maintain synchronous circular motion at radius $R_0$ . The cable must provide additional centripetal tension to make up this difference, so that the net centripetal acceleration reaches $a_c$ . The ring is thus in a state of permanent tension, storing elastic energy.
 
 ### 1.3.3 Two Rotational Modes
 
 |  | Mode 1: Synchronous Rotation | Mode 2: Keplerian Orbital Speed |
 |------|--------------------------|-------------------------------|
-| Ring Angular Velocity | ω_e | ω_Kepler ≈ ω_e + Δω |
+| Ring Angular Velocity | $ω_e$ | $ω_{Kepler} \approx ω_e + Δω$ |
 | Ring Relative to Ground | Stationary | Tangential slip ~17 m/s |
 | Cable Tension | Present (needed to make up centripetal force difference) | Zero (gravity = centripetal force) |
 | Elevator Anchorage | Fixed nodes, no tangential friction | Anchorage must continuously withstand ring slip force |
@@ -120,7 +120,7 @@ Is the equilibrium of an ideal circular ring self-stabilizing? If not, which mod
 
 ### 1.4.2 Perturbation Expansion
 
-The radial displacement δr(φ, t) of the ring deviating from the nominal radius is expanded as:
+The radial displacement $\delta r(\phi, t)$ of the ring deviating from the nominal radius is expanded as:
 
 $$
 \delta r(\phi, t) = \sum_{n=0}^{\infty} [A_n(t) \cos(n\phi) + B_n(t) \sin(n\phi)]
@@ -134,7 +134,7 @@ $$
 | n=1 | Center-of-mass translation | No restoring force (zero frequency) | Neutrally stable | Corresponds to momentum conservation. No direct threat to ring integrity, can be periodically corrected. |
 | n≥2 | Wavelike deformation | Bending stiffness + tension | Short-wavelength stable, long-wavelength to be determined | Solve elastic ring dispersion relation to obtain critical wavelength. Substitute bending stiffness in Volume VII for calculation. (To be verified-V1-F2) |
 
-**Supplementary Note on n=0 Mode Instability**: Qualitatively, if the ring slightly expands outward, gravity decreases (∝ 1/R²), but the required centripetal acceleration for synchronous rotation does not change in the same way as gravity—after expansion, the ring requires greater cable tension to maintain equilibrium, which further stretches the ring, forming positive feedback. Therefore, the n=0 mode is essentially divergent and must be continuously suppressed by an active control system.
+**Supplementary Note on n=0 Mode Instability**: Qualitatively, if the ring slightly expands outward, gravity decreases ( $\propto 1/R²$ ), but the required centripetal acceleration for synchronous rotation does not change in the same way as gravity—after expansion, the ring requires greater cable tension to maintain equilibrium, which further stretches the ring, forming positive feedback. Therefore, the n=0 mode is essentially divergent and must be continuously suppressed by an active control system.
 
 **Theoretical Basis for n=0 Mode Stability**: The radial stability of an elastic ring in a central force field has classical criteria (Dyson, 1899). When the ratio of the rate of change of the ring's strain energy to the rate of change of gravitational potential energy exceeds a critical value, the n=0 mode becomes unstable [1.4]. For this project with R₀=42,264 km, substituting the λ value from Volume II yields the conclusion.
 
