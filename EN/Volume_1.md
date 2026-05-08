@@ -62,7 +62,7 @@ The position of a point P on the ring is uniquely determined by the angular coor
 For all subsequent calculations involving the gravitational field, Earth's gravity is modeled as:
 
 - Central term: $ V_0 = -\frac{GM_e}{r} $
-- J₂ perturbation term: $ V_{J_2} = -\frac{GM_e}{r} J_2 (R_e/r)^2 \frac{3\sin^2\phi_{lat}-1}{2} $ (on the equatorial plane, $\phi_{lat}=0 $ )
+- J₂ perturbation term: $ V_{J_2} = -\frac{GM_e}{r} J_2 (R_e/r)^2 \frac{3\sin^2\phi_{lat}-1}{2} $ (on the equatorial plane, $\phi_{lat}=0$)
 
 The Moon and Sun are treated as point mass gravitational sources.
 
