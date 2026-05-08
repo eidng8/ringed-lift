@@ -255,7 +255,7 @@ $$
 |------|------|------|------|
 | Working Load (Max Tension) | ~1.57×10⁹ N | Same as left | See Volume IV, Section 4.2.2 |
 | Safety Factor (Uplift/Cable Break) | ≥3.0 / ≥2.5 | Same as left | — |
-| Horizontal Force | ~1.10×10⁸ N | ~1.45×10⁸ N | $T_{max}$×sin(Δφ) |
+| Horizontal Force | ~1.10×10⁸ N | ~1.45×10⁸ N | $T_{max} $ ×sin(Δφ) |
 | Horizontal Force Ratio | ~1.26% | ~1.66% | sin(Δφ) |
 | Rock Anchor Inclination | ≈1.3° | ≈1.7° | Δφ×1.3 |
 | Number of Rock Anchors | ≥130 units | ≥140 units | Calculated from total load |
@@ -298,7 +298,7 @@ $$
 
 ### 3.5.1 Ring Segment Arc Length Distribution and Demonstration
 
-Ring radius R₀=42,264 km (see Volume I, Section 1.2.1), circumference C=2πR₀≈265,458 km, arc length per degree $l_{deg}$≈737.4 km/°. The following calculations are based on the selected node longitudes (including Manta 80°43'W), reasons for node longitude selection are discussed in the alternative schemes for each node in Section 3.2.4.
+Ring radius R₀=42,264 km (see Volume I, Section 1.2.1), circumference C=2πR₀≈265,458 km, arc length per degree $l_{deg} $ ≈737.4 km/°. The following calculations are based on the selected node longitudes (including Manta 80°43'W), reasons for node longitude selection are discussed in the alternative schemes for each node in Section 3.2.4.
 
 Arc length of each ring segment:
 
@@ -319,7 +319,7 @@ The ground-end docking mechanism provides a complete ground interface for the ca
 
 **(1) Interface Functional Requirements**
 
-- **Load Transfer**: Safely transfer the maximum ground-end cable tension ($T_{max}$≈1.57×10⁹ N, see Volume IV, Section 4.2.2) to the prestressed rock anchor group of the anchorage shaft. The ground-end anchorage point is a fixed node, and the cable does not undergo longitudinal displacement adjustment here.
+- **Load Transfer**: Safely transfer the maximum ground-end cable tension ( $ T_{max} $ ≈1.57×10⁹ N, see Volume IV, Section 4.2.2) to the prestressed rock anchor group of the anchorage shaft. The ground-end anchorage point is a fixed node, and the cable does not undergo longitudinal displacement adjustment here.
 - **Cable Longitudinal Displacement Compensation**: Fully handled by the counterweight system at the GEO end (see Volume IV, Section 4.5.5). The ground-end anchorage point remains stationary, and all fixed facilities in the terminal building require no displacement compensation.
 - **Car Docking and Fixation**: When the car descends to the designated docking platform in the terminal building, a mechanical mechanism fixes it to the platform structure. The car remains vertical, without tilting.
 - **Car Unloading and Loading**: After the car is stabilized and fixed, the drive wheel and cable disengagement mechanism disconnects the car from the cable, then a lateral transfer mechanism moves the car from the cable running position to the loading/unloading area.
@@ -367,13 +367,13 @@ The car remains vertical and is fixed when docked by the following mechanisms:
 
 - **Locking Mechanism—Mechanical Lock Pins + Car Pre-embedded Interface**: The car shell is pre-embedded with locking interface plates at the corresponding docking positions (bottom and clamping arm enclosure area). The support platform wedge locks and arc-shaped clamping arm front ends each have 2 sets of hydraulically driven lock pins.
 
-**Lock Pin Shear Check**: Lock pin diameter $d_{pin}$≥80 mm, material is high-strength steel (yield strength ≥1,000 MPa), single pin shear area:
+**Lock Pin Shear Check**: Lock pin diameter $d_{pin} $ ≥80 mm, material is high-strength steel (yield strength ≥1,000 MPa), single pin shear area:
 
 $$
 A_{shear} = \frac{\pi d_{pin}^2}{4} = \frac{\pi \times (0.08)^2}{4} \approx 5.03\times10^{-3}\,\text{m}^2
 $$
 
-Allowable shear stress $τ_{allow}$≈0.6×$σ_{yield}$≈600 MPa, single pin shear capacity:
+Allowable shear stress $τ_{allow} $ ≈0.6× $ σ_{yield} $ ≈600 MPa, single pin shear capacity:
 
 $$
 F_{single} = \tau_{allow} \times A_{shear} \approx 600\times10^6 \times 5.03\times10^{-3} \approx 3.02\times10^6\,\text{N}
@@ -462,10 +462,10 @@ Cable tension → fixed pulley set → fixed saddle → anchorage shaft top shea
 
 | Parameter Symbol | Meaning | Value/Range | Status |
 |------|------|------|------|
-| $K_R$, $K_Z$ | Node constraint stiffness | ≈1×10⁵ N/m | Order-of-magnitude estimate (see Volume IV, Section 4.2.5) |
-| $F_{H2}$ | Node 2 horizontal force | ~1.10×10⁸ N (~1.26% $T_{max}$) | Latitude 0°43'S |
-| $F_{H3}$ | Node 3 horizontal force | ~1.45×10⁸ N (~1.66% $T_{max}$) | Latitude 0°57'S |
-| $F_{H4}$ | Node 4 horizontal force | ~3.05×10⁸ N (~3.49% $T_{max}$) | Latitude 2°N |
+| $K_R $ , $K_Z$ | Node constraint stiffness | ≈1×10⁵ N/m | Order-of-magnitude estimate (see Volume IV, Section 4.2.5) |
+| $F_{H2}$ | Node 2 horizontal force | ~1.10×10⁸ N (~1.26% $T_{max} $ ) | Latitude 0°43'S |
+| $F_{H3}$ | Node 3 horizontal force | ~1.45×10⁸ N (~1.66% $T_{max} $ ) | Latitude 0°57'S |
+| $F_{H4}$ | Node 4 horizontal force | ~3.05×10⁸ N (~3.49% $T_{max} $ ) | Latitude 2°N |
 
 > Note: $T_{max}$ see Volume IV, Section 4.2.2.
 
@@ -480,7 +480,7 @@ This volume completes the siting and anchorage engineering demonstration for the
 3. **Arc length distribution passes redundancy verification**, Kiritimati failure does not cause ring collapse.
 4. **Ground terminal building and docking mechanism scheme fully designed**: including car unloading and loading process, fixed support mechanism (bottom support platform with wedge locks + lateral arc-shaped clamping arms + mechanical lock pins, lock pin shear fully checked, margin >12:1), split drive wheel clamping frame (with triple mechanical failure safety mechanism), multi-level boarding bridge personnel access scheme, and five-level functional zoning of the terminal building.
 5. **Complete GEO-end connection facility scheme** is discussed in detail in Volume IV, Section 4.5.5.
-6. **Preliminary estimate of node constraint stiffness**, $K_R$≈$K_Z$≈1×10⁵ N/m, classified as flexible constraint. Derivation basis in Volume IV, Section 4.2.5.
+6. **Preliminary estimate of node constraint stiffness**, $K_R $ ≈$K_Z $ ≈1×10⁵ N/m, classified as flexible constraint. Derivation basis in Volume IV, Section 4.2.5.
 
 **Current Status**: This volume is fully concluded at the node siting and anchorage engineering level. Detailed design related to cables and cars is handed over to Volume IV.
 

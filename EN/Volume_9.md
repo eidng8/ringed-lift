@@ -172,18 +172,18 @@ $$
 
 | Segment | Symbol | Efficiency | Description |
 |---------|:-----:|:----------:|-------------|
-| DC to microwave conversion | $η_{DC}$-RF | 70% | Solid-state power amplifier (GaN HEMT) |
+| DC to microwave conversion | $η_{DC} $ -RF | 70% | Solid-state power amplifier (GaN HEMT) |
 | Transmitting antenna gain and beam efficiency | $η_{tx}$ | 95% | Phased array beamforming |
 | Atmospheric attenuation | $η_{atm}$ | 95% | 5.8 GHz, zenith direction |
 | Receiving antenna aperture efficiency | $η_{rx}$ | 90% | Rectenna array |
-| Microwave to DC conversion | $η_{RF}$-DC | 85% | Schottky diode rectification |
+| Microwave to DC conversion | $η_{RF} $ -DC | 85% | Schottky diode rectification |
 | **End-to-end efficiency** | $η_{total}$ | **≈48%** | — |
 
 **(3) Transmitting and Receiving Antenna Size**
 
 The transmitting antenna is a phased array antenna deployed above the 6 nodes on the ring. Taking a single node transmitting 20 GW of electric power as an example.
 
-Transmitting end DC power $P_{DC_{tx}}$ = 20 GW, after $η_{DC}$-RF = 70% conversion, microwave power ${P_{RF}}$ = 14 GW.
+Transmitting end DC power $P_{DC_{tx}}$ = 20 GW, after $η_{DC} $ -RF = 70% conversion, microwave power ${P_{RF}}$ = 14 GW.
 
 Transmitting antenna area $A_{tx}$ is determined by the power density limit: to avoid ionospheric breakdown and ensure safety, power density $P_{density}$ ≤ 250 W/m² (safety standard).
 
@@ -299,7 +299,7 @@ $$
 
 The spacing of optical amplifiers must ensure that the received optical signal-to-noise ratio (OSNR) is above the forward error correction (FEC) threshold. For 64-QAM 64 Gbaud signals, the typical FEC threshold OSNR is about 15 dB.
 
-Per span fiber loss = α × $L_{span}$. EDFA gain = fiber loss. The post-amplifier OSNR is given by:
+Per span fiber loss = α × $L_{span} $ . EDFA gain = fiber loss. The post-amplifier OSNR is given by:
 
 $$
 \text{OSNR} = P_{\text{out}} - \text{NF} - 10 \log_{10}(h \nu B)

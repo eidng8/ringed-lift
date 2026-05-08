@@ -135,7 +135,7 @@ $$
 F = 2 T_{\text{ring}} \sin\theta
 $$
 
-Under the small deformation assumption after construction (θ ≪ 1), $\sin\theta \approx \theta$:
+Under the small deformation assumption after construction (θ ≪ 1), $\sin\theta \approx \theta $ :
 
 $$
 F \approx 2 T_{\text{ring}} \theta \quad \Rightarrow \quad \theta \approx \frac{F}{2 T_{\text{ring}}}
@@ -258,7 +258,7 @@ The choice of segment length $L_{segment}$ must comprehensively consider the fol
 | Packaging limitation | Rocket fairing envelope (ø8–9 m, length 20–30 m) |
 | Cable flexibility | Can be wound on large drums like a cable, minimum bending radius limited by microfilament damage |
 
-Considering the above, the recommended single segment length is **$L_{segment}$ = 500 m**.
+Considering the above, the recommended single segment length is ** $ L_{segment}$ = 500 m**.
 
 ### 6.4.2 Segment Parameter Table
 
