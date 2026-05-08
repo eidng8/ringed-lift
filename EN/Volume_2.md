@@ -157,12 +157,12 @@ The main ring cable adopts a multi-level redundant braided structure:
 
 | Design Variable | Value | Description |
 |------|------|------|
-| Total Ring Tension T | Depends on λ (see Section 2.6.2) | From Volume I, Section 1.3.1, static equilibrium equation T = GMₑλ/R₀ |
-| Allowable Load per Strand F_strand | σ_cable × A_strand | A_strand is the cross-sectional area of a single strand |
+| Total Ring Tension T | Depends on λ (see Section 2.6.2) | From Volume I, Section 1.3.1, static equilibrium equation $T = λGM_e/R_0$ |
+| Allowable Load per Strand $F_{strand}$ | $σ_{cable} \cdotp A_{strand}$ | $A_{strand}$ is the cross-sectional area of a single strand |
 | Safety Factor S | ≥ 2.0 | Considering debris impact and uncertainties |
-| Minimum Number of Strands N_min | T × S / F_strand | Lower limit to meet safety factor |
+| Minimum Number of Strands N_min | $T \cdotp S / F_{strand}$ | Lower limit to meet safety factor |
 
-With σ_cable = 20 GPa, S = 2.0, A_strand taken as a typical value under cross-section structure (ø0.5–1.0 m, N≥1000 strands) ≈5×10⁻⁴ m², F_strand≈1×10⁷ N. For ring tension T, using λ=150 kg/m (median), substitute into the equilibrium equation in Volume I for an estimated T≈1.4×10⁹ N.
+With $σ_{cable} = 20 GPa, S = 2.0$ , $A_{strand}$ taken as a typical value under cross-section structure (ø0.5–1.0 m, N≥1000 strands) ≈5×10⁻⁴ m², $F_{strand}≈1×10⁷ N$ . For ring tension T, using $λ=150 kg/m$ (median), substitute into the equilibrium equation in Volume I for an estimated $T≈1.4×10⁹ N$ .
 
 $$
 N_{min} = \frac{T \times S}{F_{strand}} = \frac{1.4\times10^9 \times 2.0}{1\times10^7} = 280

@@ -239,7 +239,7 @@ $$
 
 ### 3.3.2 Land-based Anchorage (Nodes 2, 3, Uplift + Shear Composite Type)
 
-**Design Principle**: On the basis of pure uplift type, add inclined rock anchors (inclination ≈Δφ×1.3, with safety factor) and shaft wall shear keys, increase anchorage diameter by about 15%–20%.
+**Design Principle**: On the basis of pure uplift type, add inclined rock anchors (inclination ≈1.3Δφ, with safety factor) and shaft wall shear keys, increase anchorage diameter by about 15%–20%.
 
 **Horizontal Force Derivation**:
 

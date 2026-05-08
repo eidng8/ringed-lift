@@ -172,7 +172,7 @@ Shell structural layer 0.3 m (includes pressure shell + multilayer insulation + 
 
 **Final spindle dimensions: ø5.0 m × 60 m**.
 
-**Internal Space Features**: After deducting the central cable and track sheath (outer diameter ø0.552 m), usable space is an annular area, usable inner diameter about 4.4 m (shell inner diameter), radial width about (4.4 − 0.552)/2 ≈ 1.92 m. Usable cross-sectional area about π×(2.2²−0.276²) ≈ 14.97 m². On the same cross-section, up to about 14–20 people can stand side by side (tightly). At this stage, more suitable for cargo or small crew transport.
+**Internal Space Features**: After deducting the central cable and track sheath (outer diameter ø0.552 m), usable space is an annular area, usable inner diameter about 4.4 m (shell inner diameter), radial width about (4.4 − 0.552)/2 ≈ 1.92 m. Usable cross-sectional area about (2.2²−0.276²)π ≈ 14.97 m². On the same cross-section, up to about 14–20 people can stand side by side (tightly). At this stage, more suitable for cargo or small crew transport.
 
 ### 5.3.3 Disc Shape
 
@@ -1439,7 +1439,7 @@ The elevator cabin in the low altitude segment (0–100 km dense atmosphere) is 
 | Parameter | Spindle | Disc |
 |-----------|:-------:|:----:|
 | Dimensions | ø5 m × 60 m | ø10 m × 10 m |
-| Frontal area $A_{front}$ | π×(2.5)² ≈ 19.63 m² | π×(5)² ≈ 78.54 m² |
+| Frontal area $A_{front}$ | (2.5)²π ≈ 19.63 m² | (5)²π ≈ 78.54 m² |
 | Side projection area $A_{side}$ | ≈60×5 = 300 m² (conservatively 245 m²) | ≈10×10 = 100 m² |
 | Drag coefficient $C_d$ (front) | 0.05 [5.2] | 0.8 |
 | Side shape coefficient $C_{side}$ | 0.5 (spindle side) | 0.8 (disc side) |
