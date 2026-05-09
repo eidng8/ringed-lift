@@ -1,8 +1,8 @@
 # Volume 8: Transportation and Logistics Systems
 
-**Version**: 2.5 (Final Review Edition)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 2.5<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 8.1 Preface

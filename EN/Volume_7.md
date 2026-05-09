@@ -1,8 +1,8 @@
 # Volume 7: Engineering Verification
 
-**Version**: 1.4 (Final Review Edition)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 1.4<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 7.1 Preface

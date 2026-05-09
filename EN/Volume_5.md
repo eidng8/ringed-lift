@@ -1,8 +1,8 @@
 # Volume 5: Elevator Climber (Cabin) Design
 
-**Version**: 8.1 (Final Review)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 8.1<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 5.1 Preface

@@ -1,8 +1,8 @@
 # Volume 9: Energy and Communication Infrastructure
 
-**Version**: 2.1 (Final Review)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 2.1<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 9.1 Preface

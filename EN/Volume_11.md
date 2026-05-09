@@ -1,8 +1,8 @@
 # Volume XI: Law, Governance, and International Coordination
 
-**Version**: 1.1 (Final Review Edition)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 1.1<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 11.1 Preface

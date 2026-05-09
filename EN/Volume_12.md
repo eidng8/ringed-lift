@@ -1,8 +1,8 @@
 # Volume 12: Emergency Response, Redundancy, and Lifeline Engineering
 
-**Version**: 1.1
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 1.1<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 12.1 Preface

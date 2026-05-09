@@ -1,8 +1,8 @@
 # Volume III: Node Siting and Anchorage Engineering
 
-**Version**: 1.9 (Unified Format · Complete Derivation Edition)
-**Compilation Date**: April 2026
-**Currency Unit**: Renminbi (Yuan), Symbol: ¥
+**Version**: 1.9<br/>
+**Compilation Date**: April 2026<br/>
+**Currency Unit**: Renminbi (Yuan), Symbol: ¥<br/>
 
 
 ## 3.1 Preface

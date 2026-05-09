@@ -1,8 +1,8 @@
 # Volume IV: Elevator Cable and Track Sleeve Design
 
-**Version**: 5.5 (Final Review)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), Symbol: ¥
+**Version**: 5.5<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), Symbol: ¥<br/>
 
 
 ## 4.1 Preface

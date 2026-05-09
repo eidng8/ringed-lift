@@ -1,8 +1,8 @@
 # Volume 10: Economic Models and Commercialization Pathways
 
-**Version**: 1.2 (Final Review)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (CNY), symbol: ¥
+**Version**: 1.2<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (CNY), symbol: ¥<br/>
 
 
 ## 10.1 Preface

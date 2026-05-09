@@ -1,8 +1,8 @@
 # Volume VI: Circumferential Structure Construction and On-Orbit Assembly
 
-**Version**: 3.2
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 3.2<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 6.1 Preface

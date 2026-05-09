@@ -1,8 +1,8 @@
 # Volume I: Fundamentals of Physics and Orbital Mechanics
 
-**Version**: 1.6 (Unified Format Edition)
-**Compilation Date**: April 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 1.6<br/>
+**Compilation Date**: April 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## Terminology Table

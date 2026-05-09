@@ -1,8 +1,8 @@
 # Volume II: Materials Science and Cable Engineering
 
-**Version**: 1.7 (Final Review Edition)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 1.7<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
 ## 2.1 Preface
