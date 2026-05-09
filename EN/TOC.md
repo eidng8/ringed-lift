@@ -1,22 +1,18 @@
-Okay, this is the updated "Space Ringed-Elevation Project Master Table of Contents," now including the newly added Volume Twelve.
-
----
-
 # Space Ringed-Elevation Project Master Table of Contents
 
-**Version**: 4.2 (Final Edition)
-**Compilation Date**: May 2026
-**Currency Unit**: Renminbi (Yuan), symbol: ¥
+**Version**: 4.2<br/>
+**Compilation Date**: May 2026<br/>
+**Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 **Exchange Rate Reference**: 1 USD ≈ 7.2 Yuan RMB
 
 
-## Preface
+## [Preface](/EN/README.md)
 - Literature and Background Review: Evolution from "Orbital Ring" to "Space Ringed-Elevation"
 - Work and Contributions of This Proposal
 - Reader Notes and Disclaimer
 
 
-## Overview
+## [Overview](/EN/Overview.md)
 - I. Project Vision
 - II. Core Engineering Parameters
 - III. Six Elevator Nodes and Construction Sequence
@@ -28,7 +24,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - IX. Summary
 
 
-## Volume I: Fundamentals of Physics and Orbital Mechanics
+## [Volume I: Fundamentals of Physics and Orbital Mechanics](/EN/Volume_1.md)
 **Core Question: Is this thing physically stable or not?**
 - 1.1 Foreword
 - 1.2 Definition of the Ring and Coordinate System
@@ -41,7 +37,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 1.9 Conclusion of Volume I
 
 
-## Volume II: Materials Science and Cable Engineering
+## [Volume II: Materials Science and Cable Engineering](/EN/Volume_2.md)
 **Core Question: What exactly do we use to build it, and is it feasible?**
 - 2.1 Foreword
 - 2.2 Material Selection
@@ -53,7 +49,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 2.8 Conclusion of Volume II
 
 
-## Volume III: Node Siting and Anchorage Engineering
+## [Volume III: Node Siting and Anchorage Engineering](/EN/Volume_3.md)
 **Core Question: How do we anchor the six points, and how do we connect them to the sky?**
 - 3.1 Foreword
 - 3.2 Ground Node Siting and Engineering Geological Assessment
@@ -64,7 +60,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 3.7 Conclusion of Volume III
 
 
-## Volume IV: Elevator Cable and Track Sleeve Design
+## [Volume IV: Elevator Cable and Track Sleeve Design](/EN/Volume_4.md)
 **Core Question: How to design the cable connecting earth and sky, and how does the track sleeve cooperate with the cable?**
 - 4.1 Foreword
 - 4.2 Cable Constitutive Parameters
@@ -84,7 +80,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 4.16 Conclusion of Volume IV
 
 
-## Volume V: Elevator Climber (Cabin) Design
+## [Volume V: Elevator Climber (Cabin) Design](/EN/Volume_5.md)
 **Core Question: What do we use to connect to the sky, and how do we transport?**
 - 5.1 Foreword
 - 5.2 Basic Design Parameters and Constraints
@@ -105,7 +101,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 5.17 Conclusion of Volume V
 
 
-## Volume VI: Circumferential Structure Construction and On-Orbit Assembly
+## [Volume VI: Circumferential Structure Construction and On-Orbit Assembly](/EN/Volume_6.md)
 **Core Question: How do you assemble a ring with a 42,000 km radius in space?**
 - 6.1 Foreword
 - 6.2 Elevator Cable Status During Construction
@@ -120,7 +116,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 6.11 Conclusion of Volume VI
 
 
-## Volume VII: Engineering Verification
+## [Volume VII: Engineering Verification](/EN/Volume_7.md)
 **Core Question: Are the previous statements correct?**
 - 7.1 Foreword
 - 7.2 Summary and Priority Classification of Items Pending Verification
@@ -133,7 +129,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 7.9 Conclusion of Volume VII
 
 
-## Volume VIII: Transportation and Logistics System
+## [Volume VIII: Transportation and Logistics System](/EN/Volume_8.md)
 **Core Question: How do we efficiently move people, goods, and materials around?**
 - 8.1 Foreword
 - 8.2 Design Baseline and Constraints
@@ -148,7 +144,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 8.11 Conclusion of Volume VIII
 
 
-## Volume IX: Energy and Communication Infrastructure
+## [Volume IX: Energy and Communication Infrastructure](/EN/Volume_9.md)
 **Core Question: How does the ring itself get power and transmit data?**
 - 9.1 Foreword
 - 9.2 Space Solar Power Stations on the Ring
@@ -160,7 +156,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 9.8 Conclusion of Volume IX
 
 
-## Volume X: Economic Model and Commercialization Pathway
+## [Volume X: Economic Model and Commercialization Pathway](/EN/Volume_10.md)
 **Core Question: Where does the money come from, when is the payback, and who can profit?**
 - 10.1 Foreword
 - 10.2 Staged Investment Model
@@ -172,7 +168,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 10.8 Conclusion of Volume X
 
 
-## Volume XI: Law, Governance, and International Coordination
+## [Volume XI: Law, Governance, and International Coordination](/EN/Volume_11.md)
 **Core Question: Who manages this thing, and who is responsible if something goes wrong?**
 - 11.1 Foreword
 - 11.2 Applicability Analysis of International Law
@@ -185,7 +181,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 - 11.9 Conclusion of Volume XI
 
 
-## Volume XII: Emergency, Redundancy, and Lifeline Engineering
+## [Volume XII: Emergency, Redundancy, and Lifeline Engineering](/EN/Volume_12.md)
 **Core Question: In the event of catastrophic damage, how does the ring ensure survival and rapid reconstruction?**
 - 12.1 Foreword
 - 12.2 Three-Layer Disaster Prevention System: Overview
@@ -197,7 +193,7 @@ Okay, this is the updated "Space Ringed-Elevation Project Master Table of Conten
 
 ## Appendices
 
-- **Appendix I: Lunar Industry** (Detailed technical plan to be compiled separately)
+- [**Appendix I: Lunar Industry**](/EN/Appendix_1_TOC.md)
 - **Appendix II: Aerostat Platforms** (Detailed technical plan to be compiled separately)
 
 
