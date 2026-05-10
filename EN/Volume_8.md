@@ -127,6 +127,8 @@ The pure construction period for the ring is about 10–12 years (depending on r
 | Ring Construction Years 9–10 | Years 21–22 | Laying Manta–Christmas Island–Belitung arc segment; ring geometric closure | Late cable addition |
 | Ring Tuning | Years 23–24 | Precision tuning of full ring tension uniformity; mechanical connection of elevator cables and ring | Closure tuning |
 
+Lead-time reminder for funding availability: the heavy-launch-vehicle mass-production facilities required to support peak ring-construction launch demand in Years 13-22 (about 1,000-1,500 launches per year) must complete financing and construction in Years 8-10 (i.e., 3-5 years before ring construction begins). This schedule constraint must be incorporated into the phased investment plan in Volume 10 (economic model).
+
 #### Stage 4: Full Cable Operation and Gradual Upgrades (From Year 25)
 
 | Year | Work Content | Corresponding to Volume 6 |

@@ -1902,6 +1902,9 @@ These constraints are similar to Scheme C rack, theoretically can reach similar 
 
 Scheme E, by moving drive system to ground and GEO, has unique advantages (centralized drive, lightweight cabin, cable redundancy), but feasibility is fundamentally limited by uniform cross-section CNT cable self-weight stress—exceeds allowable by about 2.6x, any cross-section cannot survive at current CNT engineering strength. **Scheme E is currently infeasible; its viability depends on whether Volume 2's material development (pending verification V2-M1 to V2-M3) can raise CNT engineering strength above 20.7 GPa, with required safety factor.** Scheme E is recorded as a long-term alternative.
 
+**Trigger condition for re-evaluating Plan E**: initiate only after pending validations V2-M1 through V2-M3 have all passed and CNT engineering strength is ≥ 20.7 GPa.
+
+
 ## 5.14 Electromagnetic Drive Concept (Long-Term Alternative)
 
 This section explores the long-term concept of replacing rack drive with linear synchronous motor (LSM) in the high altitude segment (14,000 km–GEO, 28,164 km). This is not included in the current design baseline, only as an upgrade direction after technological breakthroughs.
@@ -2014,6 +2017,9 @@ Required position sensing accuracy and switch response exceed current spacecraft
 ### 5.14.8 Synergy with Scheme C
 
 Scheme C (rack) currently solves the drive method, with 1,500 km/h limit set by interface resonance (see 5.5.3). After LSM breakthrough, low/mid altitude rack (0–14,000 km, atmosphere and transition still need mechanical engagement reliability) can be retained, with high altitude (14,000 km–GEO) replaced by LSM—forming a "low altitude rack + high altitude electromagnetic" relay drive. Existing rack investment is not wasted, but remains as reliable backup and main drive for low altitude.
+
+**Trigger condition for re-evaluating LSM**: initiate only after kilometer-scale continuous manufacturing of high-temperature superconducting tape has been validated as feasible.
+
 
 ## 5.15 Summary of Pending Verification Items
 
