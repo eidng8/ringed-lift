@@ -1635,6 +1635,111 @@ Both negligible.
 
 > Detailed guide wheel set arrangement, rack lateral restraint moment verification, disc cabin modal analysis to be comprehensively evaluated in Volume 7 (Engineering Verification).
 
+#### 5.12.6 Effects of Coriolis Force on Car Lateral Stability and Energy Consumption
+
+**(a) Magnitude and direction of Coriolis force**
+
+In an equatorial space-elevator system, when the car moves radially (ascending or descending), Earth’s rotation generates Coriolis force:
+
+$$
+F_c = 2m \omega v
+$$
+
+where $m = 200$ t and $\omega = 7.2921 \times 10^{-5}$ rad/s.
+
+Low-altitude segment (200 km/h = 55.56 m/s):
+
+$$
+F_{c,\text{low}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 55.56 = 1.62 \times 10^3 \, \text{N}
+$$
+
+Mid-altitude and high-altitude segments (1,500 km/h = 416.67 m/s):
+
+$$
+F_{c,\text{high}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 416.67 = 1.22 \times 10^4 \, \text{N}
+$$
+
+The direction lies east-west in the equatorial plane: westward during ascent and eastward during descent.
+
+| Operating Segment | Cruise Speed | Coriolis Force | Direction |
+|:-----|:-----|:-----|:-----|
+| Low-altitude (0–5,000 km) | 200 km/h (55.56 m/s) | 1.62 kN | Westbound on ascent, eastbound on descent |
+| Mid-altitude (5,000–14,000 km) | 1,500 km/h (416.67 m/s) | 12.2 kN | Westbound on ascent, eastbound on descent |
+| High-altitude (14,000 km–GEO) | 1,500 km/h (416.67 m/s) | 12.2 kN | Westbound on ascent, eastbound on descent |
+
+**(b) Comparison with crosswind loads**
+
+Crosswinds exist in the low-altitude segment, so Coriolis force superposes with wind force. In the mid/high-altitude segments there is no atmosphere, so Coriolis force is the only constant lateral load.
+
+Low-altitude segment (with crosswind superposition):
+
+- Spindle-shaped car (Level-10 typhoon, 30 m/s crosswind): crosswind force $6.75 \times 10^4$ N, combined force $6.91 \times 10^4$ N (Coriolis share about 2.3%)
+- Disk-shaped car (Level-10 typhoon, 30 m/s crosswind): crosswind force $3.53 \times 10^4$ N, combined force $3.69 \times 10^4$ N (share about 4.4%)
+
+Mid-altitude and high-altitude segments (no crosswind, Coriolis only):
+
+- Both spindle-shaped and disk-shaped cars are subject only to $1.22 \times 10^4$ N lateral force. Although this is 7.5 times larger than low-altitude Coriolis force (1.62 kN), it is still far below low-altitude crosswind force (order of $10^4$ N), so the guide-wheel assembly can handle it easily on its own.
+
+**(c) Cumulative lateral impulse over a single trip**
+
+During one trip, Coriolis force appears as two constant levels due to segmented speeds. The cumulative lateral impulse over the full route is:
+
+$$
+\Delta p_{\text{total}} = F_{c,\text{low}} \cdot t_{\text{low}} + F_{c,\text{high}} \cdot (t_{\text{mid}} + t_{\text{high}})
+$$
+
+Substituting segment times from Volume 5, Section 5.8.3 ( $t_{\text{low}} = 25.01$ h, $t_{\text{mid}} = 6.08$ h, $t_{\text{high}} = 18.90$ h, all converted to seconds):
+
+$$
+\Delta p_{\text{total}} = (1.62 \times 10^3) \times (9.00 \times 10^4) + (1.22 \times 10^4) \times (8.99 \times 10^4)
+$$
+
+$$
+= 1.46 \times 10^8 + 1.10 \times 10^9 = 1.25 \times 10^9 \, \text{N} \cdotp {s}
+$$
+
+This impulse is continuously constrained and absorbed by the guide-wheel assembly within its axial distribution range along the cable. The total Coriolis-related accumulated energy over one trip is:
+
+$$
+E_c = P_{c,\text{low}} \cdot t_{\text{low}} + P_{c,\text{high}} \cdot (t_{\text{mid}} + t_{\text{high}})
+$$
+
+where (low-altitude segment)
+
+$$P_{c,\text{low}} = \mu F_{c,\text{low}} v_{\text{low}} = 0.02 \times (1.62 \times 10^3) \times 55.56 = 1.80 \times 10^3 \text{W}
+$$
+
+and (mid/high-altitude segments)
+
+$$
+P_{c,\text{high}} = \mu F_{c,\text{high}} v_{\text{high}} = 0.02 \times (1.22 \times 10^4) \times 416.67 = 1.02 \times 10^5 \text{W}
+$$
+
+Substituting segment times:
+
+$$
+E_c = (1.80 \times 10^3) \times (9.00 \times 10^4) + (1.02 \times 10^5) \times (8.99 \times 10^4)
+$$
+
+$$
+= 1.62 \times 10^8 + 9.17 \times 10^9 = 9.33 \times 10^9 \, \text{J}
+$$
+
+This energy is about 1.4% of the elastic energy in a single cable strand (about $6.75 \times 10^{11}$ J; see Volume 4, Section 4.3 tension-distribution data), and will not cause instantaneous or cumulative damage to the main cable.
+
+**(d) Additional frictional energy consumption**
+
+- Low-altitude segment (200 km/h): $P_c = 1.80$ kW, about 0.0016% of traction power 114.4 MW.
+- Mid-altitude and high-altitude segments (1,500 km/h): $P_c = 1.02 \times 10^5$ W ≈ 102 kW, about 0.03%–0.11% of traction power 297.5 MW (mid-altitude) or 90 MW (high-altitude).
+
+All additional energy consumption is within system power margin.
+
+**(e) Handling in long-term operations**
+
+The above analysis covers all operating conditions for the low-altitude segment (200 km/h) and the mid/high-altitude segments (1,500 km/h). In long-term operation (500–1000 years), if a statistical imbalance appears between ascent and descent counts, east-west asymmetric wear can be detected and corrected during outer track-sleeve replacement every 1–3 years, and will not accumulate to a level that affects sleeve service life.
+
+After ring closure (Volume 6, Section 6.3), the Coriolis forces from the six elevators are transmitted through top connectors and summed onto the ring as a long-term tangential disturbance. Because normal dispatch keeps ascent/descent roughly balanced, and because the ring’s active position-holding system (Volume 1, Section 1.6) has sufficient thrust margin for disturbances of this magnitude, Coriolis force does not introduce new constraints for long-period orbit control. It is recommended to include it as one constant external disturbance input in the full-system coupled simulation of main Volume 7. In simulation, the two distinct constants must be applied piecewise: low-altitude segment (1.62 kN) and mid/high-altitude segments (12.2 kN).
+
 
 ## 5.13 Scheme E—Multi-Index Cable Pulley Traction Scheme
 

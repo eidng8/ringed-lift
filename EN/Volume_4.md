@@ -1177,6 +1177,58 @@ Vortex-induced vibration is limited to the low-altitude section (0–100 km); be
 
 **Item to verify**: V4-N1 (Cable vortex-induced vibration scaled wind tunnel test, 1:10 scale model, wind speed 0–50 m/s, verify strake suppression effect and vortex vibration amplitude).
 
+#### 4.14.3 Effect of Coriolis Force on Lateral Cable Loading
+
+**(a) Physical origin and magnitude**
+
+The Coriolis force is an inertial force acting on moving objects in a rotating reference frame (Earth). For an elevator car moving radially in the equatorial plane, the Coriolis force is:
+
+$$
+F_c = 2m \omega v
+$$
+
+where $m = 2 \times 10^5$ kg is the fully loaded car mass, $\omega = 7.2921 \times 10^{-5}$ rad/s is Earth’s angular rotation rate, and $v$ is the car’s radial speed.
+
+In the 200 km/h low-altitude scheme of Plan C (Volume 5, Section 5.8.3), the low-altitude cruise speed is $v_{\text{low}} = 55.56$ m/s:
+
+$$
+F_{c,\text{low}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 55.56 = 1.62 \times 10^3 \, \text{N} = 1.62 \, \text{kN}
+$$
+
+In the mid-altitude and high-altitude segments, the car cruises at the rack-limited speed $v_{\text{high}} = 1500$ km/h = 416.67 m/s (Volume 5, Sections 5.8.3–5.8.7), giving:
+
+$$
+F_{c,\text{high}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 416.67 = 1.22 \times 10^4 \, \text{N} = 12.2 \, \text{kN}
+$$
+
+Summary of Coriolis force by speed segment:
+
+| Operating Segment | Cruise Speed | Coriolis Force | Direction |
+|:-----|:-----|:-----|:-----|
+| Low-altitude (0–5,000 km) | 200 km/h (55.56 m/s) | 1.62 kN | Westbound on ascent, eastbound on descent |
+| Mid-altitude (5,000–14,000 km) | 1,500 km/h (416.67 m/s) | 12.2 kN | Westbound on ascent, eastbound on descent |
+| High-altitude (14,000 km–GEO) | 1,500 km/h (416.67 m/s) | 12.2 kN | Westbound on ascent, eastbound on descent |
+
+**(b) Impact on the cable system**
+
+The Coriolis force is transferred through the guide wheels to the outer surface of the track sleeve, then through the sleeve’s middle aluminum-alloy layer to the thrust ring, and then from the thrust ring to the CNT-braided surface of the main cable. Because the guide-wheel assembly is distributed along the cable axis (DM total length about 10 m), the unit-length lateral load in the mid/high-altitude segments is:
+
+$$
+f_{c,\text{high}} = \frac{F_{c,\text{high}}}{L_{\text{dist}}} = \frac{1.22 \times 10^4}{10} \approx 1,220 \, \text{N/m}
+$$
+
+Compared with the GEO-end axial cable tension $T_{\text{GEO}} \approx 2.09 \times 10^{10}$ N:
+
+$$
+\frac{f_{c,\text{high}} \cdot R_{\text{GEO}}}{T_{\text{GEO}}} \approx \frac{1,220 \times 4.2164 \times 10^7}{2.09 \times 10^{10}} \approx 2.5 \times 10^{-6}
+$$
+
+The Coriolis effect on cable tension distribution remains at the $10^{-6}$ level and produces no quantifiable impact on track-sleeve cross-section design, rack parameters, or the thrust-ring scheme. This section records it for inclusion as a constant lateral load input in the full-system coupled simulation of Volume 7. In simulation, Coriolis force must be applied piecewise for the low-altitude and mid/high-altitude segments (two constants: 1.62 kN and 12.2 kN), rather than using one value for the entire route.
+
+## Supplementary Revision to Volume 5, Section 5.12.6
+
+In Volume 5, Section 5.12.6, “Effects of Coriolis force on car lateral stability and energy consumption,” add a full operating-condition analysis for the mid/high-altitude segments (1500 km/h):
+
 
 ## 4.15 Parameter Output
 
