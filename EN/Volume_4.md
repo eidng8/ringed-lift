@@ -447,6 +447,51 @@ Therefore, "expanding outward" fully meets the condition of not affecting track 
 
 **This discussion is only a concept**; subsequent derivations and calculations will proceed according to the 200 km scheme.
 
+### 4.5.5 Active Station-Keeping System for the Counterweight Space Station
+
+The counterweight space station ( $M_{\text{cw}} = 8.0 \times 10^{12}$ kg, located 200 km above GEO) carries the full GEO-end tension of the elevator cable under standalone operation ( $T_{\text{GEO}} \approx 2.09 \times 10^{10}$ N).
+This station is not a passively suspended dead mass. It must have independent active station-keeping capability to handle the following disturbances:
+
+- Long-period orbital drift caused by lunar/solar gravitational perturbations
+- Reaction disturbance on counterweight position from cable-tension fluctuations induced by car operations
+- Cumulative effects of solar radiation pressure (same logic as ring solar-pressure disturbance; see Volume 1, Section 1.5.5)
+
+Therefore, each counterweight station must be equipped with an independent ion-thruster station-keeping system. Using the design framework of the ring active-maintenance system in Volume 1, Section 1.6, the technical requirements are:
+
+**(a) Thruster configuration**
+
+- Quantity: at least 4 units (three-axis attitude control plus orbit-keeping redundancy)
+- Type: xenon/iodine ion thrusters, specific impulse not less than 3000 s
+- Total thrust capacity: about 10-50 N class (vs. the ring’s 100-200 N class; the counterweight only maintains its own position and attitude and does not perform six-node distributed control, so required thrust is lower)
+- Power supply: independently provided by the counterweight station’s own solar arrays or compact nuclear source, not dependent on cable power transmission
+
+**(b) Station-keeping accuracy**
+
+- Radial (R-direction) holding accuracy: within ±100 m (relative to nominal GEO+200 km orbit)
+- Tangential holding accuracy: within ±500 m
+- Inclination holding accuracy: within ±0.1°
+
+**(c) Propellant budget**
+
+Using $I_{sp} = 3000$ s and counterweight mass $8.0 \times 10^{12}$ kg as baseline, and referencing GEO communications satellites’ annual north-south station-keeping budget of about 40-50 m/s $\Delta v$ (the counterweight’s actual $\Delta v$ demand should be much lower due to huge mass and very low area-to-mass ratio; conservatively use 10 m/s per year as the design basis), annual propellant consumption is:
+
+$$
+\dot{m}_{\text{prop}} = \frac{M_{\text{cw}} \cdot \Delta v_{\text{yr}}}{I_{sp} \cdot g_0}
+= \frac{8.0 \times 10^{12} \times 10}{3000 \times 9.81}
+\approx 2.72 \times 10^9 \, \text{kg/yr}
+$$
+
+This is as high as about 2.72 million tons per year, far beyond feasible on-orbit resupply. This means the counterweight cannot rely on onboard propellant alone for long-term station keeping. Therefore, the station-keeping strategy must have two levels:
+
+1. Daily micro-adjustment: ultra-low $\Delta v$ (mm/s class) for attitude trimming and drift compensation, with annual propellant consumption controlled to within a few tons, supplied by onboard tanks.
+2. Large-scale orbit correction: when lunar/solar perturbations accumulate to require larger $\Delta v$, call dedicated asteroid tugboats (same class as those used for counterweight capture missions; see Volume 2, Section 2.5.6 and Volume 8, Section 8.6.3) for assisted propulsion. Tugboats can detach and return to cis-lunar space for refueling, without long-term stationing at the counterweight.
+
+**(d) Relationship after ring closure**
+
+Volume 6, Section 6.3 has rigorously proven that counterweight mass does not change after ring closure: the ring cannot share the GEO-end tension of the elevator cable.
+However, after closure, the ring provides a stable geometric constraint point for the counterweight. At that point, the counterweight’s active station-keeping system shifts from independent operation to coordinated operation with the ring: the ring absorbs part of perturbation-driven drift (see Volume 6, Section 6.3.5), and the counterweight thrusters only need to compensate residual disturbances that the ring cannot fully cancel.
+Even so, the counterweight’s independent thruster system must be retained as redundancy. If the ring suffers an accidental break, the counterweight must immediately recover full autonomous station-keeping capability.
+
 
 ## 4.6 Longitudinal Displacement Compensation for the Full Cable Length
 
