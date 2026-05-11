@@ -277,19 +277,19 @@ $$
 The drive wheel transmits all traction force to the cable via friction. The required total clamping force (normal force):
 
 $$
-\Sigma F_{\text{clamp}} = \frac{F_{\text{design}}}{\mu}
+\sum F_{\text{clamp}} = \frac{F_{\text{design}}}{\mu}
 $$
 
 Take μ = 0.20 (humid atmospheric low-altitude section):
 
 $$
-\Sigma F_{\text{clamp}} = \frac{4.12\times10^6}{0.20} \approx 2.06\times10^7 \text{ N}
+\sum F_{\text{clamp}} = \frac{4.12\times10^6}{0.20} \approx 2.06\times10^7 \text{ N}
 $$
 
 Take μ = 0.30 (vacuum dry mid-high altitude section):
 
 $$
-\Sigma F_{\text{clamp}} = \frac{4.12\times10^6}{0.30} \approx 1.37\times10^7 \text{ N}
+\sum F_{\text{clamp}} = \frac{4.12\times10^6}{0.30} \approx 1.37\times10^7 \text{ N}
 $$
 
 Take the envelope value, design total clamping force as **≥ 2.1×10⁷ N**.
@@ -299,7 +299,7 @@ Take the envelope value, design total clamping force as **≥ 2.1×10⁷ N**.
 Take number of drive wheels $N_{wheel} = 16$ , symmetrically distributed around the cable. Clamping force per wheel (normal force):
 
 $$
-F_{\text{per wheel}} = \frac{\Sigma F_{\text{clamp}}}{N_{\text{wheel}}} = \frac{2.1\times10^7}{16} \approx 1.31\times10^6 \text{ N}
+F_{\text{per wheel}} = \frac{\sum F_{\text{clamp}}}{N_{\text{wheel}}} = \frac{2.1\times10^7}{16} \approx 1.31\times10^6 \text{ N}
 $$
 
 ### 4.4.4 Hertzian Contact Stress—Drive Wheel and CNT Cable
