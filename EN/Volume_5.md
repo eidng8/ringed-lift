@@ -474,16 +474,19 @@ $$
 Let acceleration segment length $s_1$ , deceleration segment length $s_2$ , maximum speed $v_{max}$ .
 
 Acceleration segment:
+
 $$
 v_{\text{max}}^2 = v_2^2 + 2a s_1
 $$
 
 Deceleration segment:
+
 $$
 0 = v_{\text{max}}^2 - 2a s_2 \Rightarrow v_{\text{max}}^2 = 2a s_2
 $$
 
 Combine:
+
 $$
 v_2^2 + 2a s_1 = 2a s_2 \Rightarrow s_2 = s_1 + v_2^2/(2a)
 $$
