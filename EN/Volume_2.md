@@ -563,30 +563,3 @@ This volume has completed the preliminary demonstration of material selection an
 [2.36] Palaci, I., et al. "Radial elasticity of multiwalled carbon nanotubes." *Physical Review Letters*, Vol. 94, 2005, 175502.
 
 [2.37] Yang, L., et al. "Toughness of carbon nanotubes conforms to classic fracture mechanics." *Science Advances*, Vol. 2, 2016, e1500969.
-
-
-## Terminology Table
-
-| Abbreviation | Chinese Full Name |
-|------|----------|
-| CNT | Carbon Nanotube |
-| MWCNT | Multiwalled Carbon Nanotube |
-| SWCNT | Single-Walled Carbon Nanotube |
-| CVD | Chemical Vapor Deposition |
-| FCCVD | Floating Catalyst Chemical Vapor Deposition |
-| ISRU | In-Situ Resource Utilization |
-| GEO | Geostationary Earth Orbit |
-| LEO | Low Earth Orbit |
-| GPa | Gigapascal |
-| UHMWPE | Ultra-High Molecular Weight Polyethylene |
-| PBO | Poly(p-phenylene-2,6-benzobisoxazole) |
-| CFRP | Carbon Fiber Reinforced Polymer |
-| C/SiC | Silicon Carbide Fiber Reinforced Composite |
-| ULE | Ultra-Low Expansion Glass |
-| CIGS | Copper Indium Gallium Selenide (Thin-Film Solar Cell) |
-| HAPS | High-Altitude Platform Station |
-| ASTM | American Society for Testing and Materials |
-| IEC | International Electrotechnical Commission |
-| GB/T | China National Standard (Recommended) |
-| ORDEM | NASA Orbital Debris Engineering Model |
-| MASTER | ESA Meteoroid and Space Debris Terrestrial Environment Reference Model |

@@ -235,6 +235,7 @@ Where $σ_{allow}$ is taken as the target value ~20 GPa from Volume II, Section 
 $$
 T_{max} = \frac{20\times10^9 \times 0.196}{2.5} \approx 1.57\times10^9\,\text{N}
 $$
+
 On this basis, consider anchorage safety factor (uplift) ≥3.0, the design load to be borne by the rock anchor group:
 
 $$
@@ -513,20 +514,3 @@ This volume completes the siting and anchorage engineering demonstration for the
 [3.4] GSHAP. *Global Seismic Hazard Map*. 1999.
 
 [3.5] DSDP. *Initial Reports*, Legs 1–96.
-
-
-## Terminology Table
-
-| Abbreviation | Chinese Name |
-|------|----------|
-| GEO | Geosynchronous Orbit |
-| CNT | Carbon Nanotube |
-| PGA | Peak Ground Acceleration |
-| UHMWPE | Ultra-High Molecular Weight Polyethylene |
-| C/SiC | Carbon Fiber Reinforced Silicon Carbide Composite |
-| CFRP | Carbon Fiber Reinforced Polymer |
-| GSHAP | Global Seismic Hazard Assessment Program |
-| DSDP | Deep Sea Drilling Project |
-| ODP | Ocean Drilling Program |
-| API | American Petroleum Institute |
-| UNESCO | United Nations Educational, Scientific and Cultural Organization
