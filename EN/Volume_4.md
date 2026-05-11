@@ -1,6 +1,6 @@
 # Volume IV: Elevator Cable and Track Sleeve Design
 
-**Version**: 5.5<br/>
+**Version**: 5.6<br/>
 **Compilation Date**: May 2026<br/>
 **Currency Unit**: Renminbi (Yuan), Symbol: ¥<br/>
 
@@ -1269,10 +1269,6 @@ $$
 $$
 
 The Coriolis effect on cable tension distribution remains at the $10^{-6}$ level and produces no quantifiable impact on track-sleeve cross-section design, rack parameters, or the thrust-ring scheme. This section records it for inclusion as a constant lateral load input in the full-system coupled simulation of Volume 7. In simulation, Coriolis force must be applied piecewise for the low-altitude and mid/high-altitude segments (two constants: 1.62 kN and 12.2 kN), rather than using one value for the entire route.
-
-## Supplementary Revision to Volume 5, Section 5.12.6
-
-In Volume 5, Section 5.12.6, “Effects of Coriolis force on car lateral stability and energy consumption,” add a full operating-condition analysis for the mid/high-altitude segments (1500 km/h):
 
 
 ## 4.15 Parameter Output

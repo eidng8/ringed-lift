@@ -1,6 +1,6 @@
 # Volume 7: Engineering Verification
 
-**Version**: 1.4<br/>
+**Version**: 1.5<br/>
 **Compilation Date**: May 2026<br/>
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
@@ -114,6 +114,14 @@ The previous six volumes marked their respective "items pending verification" in
 | V6-M5 | Long-term bundling retention of aramid fiber tape under vacuum UV/atomic oxygen | P3 |
 | V6-M6 | Collision avoidance and scheduling for multi-space-spider cooperative operation | P2 |
 
+#### New Verification Items Pending (External Physical Threat Screening)
+
+| Original No. | Content | Priority in This Volume |
+|--------------|---------|:----------------------:|
+| V4-N2 | Long-term surface charging and micro-arc discharge effects of CNT braided cable under simulated GEO plasma environment | P2 |
+| V9-N1 | Electromagnetic interference immunity verification of the distributed fiber-optic strain sensing system on the ring during geomagnetic storms | P2 |
+| V4-N3 | Verification of 360° protection coverage of the multi-lightning-tower annular array for elevator cables | P2 |
+
 
 ## 7.3 Full-System Coupled Simulation Framework
 
@@ -197,9 +205,78 @@ Use **Monte Carlo simulation** combined with **response surface models** for glo
 > **Note 3**: Based on the number of about 530,000 nodes in the full ring and decomposition of the overall reliability target, to be finalized after detailed risk assessment in Volume 9.
 
 
-## 7.6 Experimental Verification Plan
+## 7.6 External Physical Threat Screening and Impact Assessment
 
-### 7.6.1 P0-Level Experiments (Scheme Feasibility Criteria)
+This section conducts a systematic screening and assessment of several key non-mechanical physical factors that may exist in the Space Ring Elevator system, to determine whether they pose potential threats to system safety. For factors confirmed not to pose a threat, brief proofs and data support are provided; for factors requiring further verification, they are incorporated into the experimental verification plan.
+
+### 7.6.1 Threat of Atmospheric Lightning to Elevator Cables
+
+**(a) Threat identification**
+
+Lightning in the atmosphere (0-100 km segment) poses a direct physical threat to elevator cables. CNT cables themselves are good conductors (conductivity up to $10^5$ S/m), which means they may become a discharge channel between the atmosphere and the ground. Studies have simulated the probability and effects of lightning strikes near a space elevator. Results indicate a probability of about once every 13 years. Although the probability appears low, once it occurs it can cause destructive damage to the cable itself. Therefore, regardless of how low this event probability is, reliable protection must be provided at the design level.
+
+**(b) Protection scheme**
+
+The defense system consists of three layers:
+
+**Layer 1: Active lightning-attraction tower array.** Deploy 3-4 independent lightning-attraction towers in an annular array around the ground anchoring station. Tower height must exceed any point of the cable within the 0-100 km segment. Install leader lightning rods at tower tops to initiate upward leaders when thundercloud electric fields intensify, actively "capturing" lightning and safely conducting energy into the Earth through tower structures and dedicated grounding networks. In theory, a multi-tower annular array can achieve 360° omnidirectional coverage, but precise electromagnetic simulation optimization of tower height and spacing is required based on local thundercloud electric-field statistics. In the longer term, laser-guided lightning technology can be introduced by building a high-power laser ionization channel between thunderclouds and lightning-attraction towers to guide lightning precisely to tower tops.
+
+**Layer 2: Cable insulation and embedded shielding.** In the 0-100 km segment, the UHMWPE outer layer thickness of the track sleeve is no less than 20 mm, also serving as an insulation layer. The dielectric strength of UHMWPE is about 20-30 kV/mm, so a 20 mm thickness can withstand 400-600 kV lightning impulse voltage. Conductive shielding is integrated into the middle aluminum-alloy load-bearing layer of the track sleeve, with a thin copper foil or conductive coating (thickness <=0.1 mm) added to the inner or outer surface of this middle layer, forming a Faraday cage together with the aluminum-alloy middle layer. This design is fully compatible with the gradient functional structure of the track sleeve in Volume IV, Section 4.8: the UHMWPE outer layer provides wear resistance and insulation, the aluminum-alloy middle layer provides load-bearing and electromagnetic shielding, and the UHMWPE inner layer provides isolation and buffering.
+
+**Layer 3: Ground equipotential grounding grid and intelligent early warning.** The ground anchoring station establishes a large-area metal-mesh equipotential grounding grid to eliminate threats to personnel and equipment from step voltage. At the same time, deploy high-precision electric-field meters to monitor atmospheric electrostatic fields in real time; when safety thresholds are exceeded, alarms are automatically issued and elevator operation is suspended.
+
+### 7.6.2 Magnetospheric Induced Electromotive Force
+
+**(a) Physical mechanism**
+
+When the Space Ring Elevator system, a conductive CNT cable with a circumference of about 265,000 km at GEO altitude, moves in the Earth's magnetosphere, electromagnetic coupling occurs with Earth's magnetic field and the space plasma environment. The order of magnitude of induced EMF is evaluated below using two mechanisms.
+
+**Motional induced EMF (cutting magnetic field lines):** The ring uses synchronous rotation mode (angular velocity $\omega_e = 7.2921 \times 10^{-5}$ rad/s), so it is stationary relative to the ground. The geomagnetic field at GEO altitude is approximated as a dipole field with magnetic flux density $B_{\text{GEO}} \approx 104$ nT. In the equatorial plane, cable velocity is tangential ($\phi$ direction), magnetic field direction is perpendicular to the equatorial plane (Z direction), and the direction of $\mathbf{v} \times \mathbf{B}$ is radial (r direction), orthogonal to the cable direction. Therefore, in the closed loop of the ring cable, the dot product of the cross-product term and line element direction is zero: **a synchronously rotating ring in the equatorial plane does not generate loop induced EMF by cutting dipole magnetic field lines**.
+
+**Motional induced EMF from magnetospheric dawn-dusk electric field:** A dawn-dusk electric field exists in Earth's magnetosphere, driven by solar wind-magnetosphere interaction. At GEO altitude, dawn-dusk electric-field intensity is about 0.1-0.3 mV/m under quiet geomagnetic conditions, and can increase to 1-2 mV/m during major geomagnetic storms (Kp>=7). With ring cable circumference $C_{\text{ring}} \approx 2.65458 \times 10^8$ m, total induced EMF around the ring is:
+
+- Quiet condition (minimum, $E = 0.1$ mV/m): $\mathcal{E}_{\text{min}} \approx 27$ kV
+- Quiet condition (typical, $E = 0.3$ mV/m): $\mathcal{E}_{\text{typical}} \approx 80$ kV
+- Storm main phase (maximum, $E = 2$ mV/m): $\mathcal{E}_{\text{max}} \approx 531$ kV
+
+**(b) Comparison with active power-transmission system and risk assessment**
+
+The HVDC transmission system designed in Volume IX, Section 9.4.1 uses a voltage level of +-100 kV. Under maximum geomagnetic-storm conditions, induced EMF (about 531 kV) is already larger in order of magnitude than the active transmission voltage, and **cannot be ignored simply because it is "small"**.
+
+However, whether induced current causes real damage to the ring does not depend only on total EMF, but also on **local potential differences that may appear at conductive discontinuities in the cable**. Total ring cable resistance is about 875 ohms (see Volume IX, Section 9.4.1). If conductivity is uniform and continuous, 80 kV/875 ohms is about 91 A, far below transmission-system current capacity (>=10 kA), posing no threat. But if local potential differences occur at C/SiC flange connection nodes, track sleeve segmented interfaces, or other conductive discontinuities, vacuum local micro-arc discharge may be triggered when potential difference exceeds several hundred volts, causing cumulative long-term insulation damage.
+
+**(c) Mitigation strategy**
+
+1. **Node potential equalization design**: Design potential-equalization jumpers at C/SiC connection nodes to ensure electrical continuity of each cable segment and avoid local potential differences due to conductive discontinuity.
+2. **Space-weather forecasting and active derating**: When space-weather forecasts issue geomagnetic storm warnings of G3 or above, proactively reduce HVDC operating voltage from +-100 kV to +-50 kV or lower to increase insulation margin against potentially enhanced magnetospheric induced electric fields.
+3. **Periodic insulation inspection and on-orbit repair**: Every 5-10 years, use space spiders to perform insulation-resistance testing and visual inspection of all ring nodes. If local discharge traces are found, repair immediately.
+
+**(d) Conclusion**
+
+Magnetospheric induced EMF does not constitute a direct discharge threat to the Space Ring Elevator system, but its long-term cumulative effect (micro-arc damage to insulation) combined with local cable conductive discontinuities deserves attention and should be included in the system-level verification plan (see Section 7.6.4).
+
+### 7.6.3 Screening Statement for Other Secondary Physical Factors
+
+The following physical factors have been confirmed by order-of-magnitude assessment not to pose quantifiable threats to the Space Ring Elevator system. Brief proofs and data support are provided here and included in the screening record:
+
+- **Earth high-order gravitational perturbations (J3, J4, etc.)**: At GEO altitude ( $R = 6.6R_e$ ), effects of high-order zonal harmonics decay exponentially with order as $(R_e/R)^n$. J4 is below $10^{-9}$ in magnitude, at least three orders weaker than lunar perturbations (~$10^{-6}$), as already noted in Volume I, Section 1.5.1, so no additional scheme modification is required.
+- **Indirect perturbations from solid Earth tides and ocean tides**: Solid tides cause Earth J2 variation of about $10^{-9}$, giving GEO gravitational-field change of about $10^{-12}$, six orders weaker than direct lunar perturbations and within the 100-200 N thrust margin of the ring active-control system.
+- **Ring-ionosphere electromagnetic coupling**: The +-100 kV DC transmission system on the ring already has whole-ring voltage-control capability. Low-frequency currents induced by geomagnetic pulsations (<=10 A level) are far below transmission current capacity (>=10 kA), posing no threat.
+- **Plasma plumes from micrometeoroid impacts**: Local plasma plumes generated when micrometeoroids impact the ring cable at relative velocities of tens of km/s produce recoil and electromagnetic pulses that are secondary effects of hypervelocity impact. Their magnitude is far below fracture tolerance of multi-strand redundant cables (N>=1000 strands), posing no system-level threat.
+- **Thermoelastic instability**: Ring cables in GEO undergo one thermal cycle of +-270 K every 24 hours, about $1.8\times10^5$ cycles over a 500-year design life. For CNT braided cable under such long-period alternating thermal load, there is currently no publicly available long-cycle experimental data on thermoelastic stability, including whether microcracks or creep damage accumulates within 500 years. Filling this knowledge gap has been scheduled in the material long-term-effect experiment module of the mini-ring verification satellite in Section 7.7.3.
+
+### 7.6.4 Related Verification Items
+
+| No. | Item | Verification Method | Priority |
+|:-----|:-----|:-----|:-----:|
+| **P2-M4** | Long-term surface charging and micro-arc discharge effects of CNT braided cable under simulated GEO plasma environment | In a ground vacuum chamber, expose CNT cable samples for long-term testing (>=1 year, accelerated equivalent of 5 years) under simulated GEO plasma (electron energy 1-10 keV) and electron irradiation, measuring surface potential, secondary electron emission coefficient, and micro-arc discharge threshold | P2 |
+| **P2-M5** | Electromagnetic interference immunity verification of distributed fiber-optic strain sensing system on the ring during geomagnetic storms | In a ground-simulated geomagnetic-storm magnetic-field environment (magnetic-field variation rate >=100 nT/min, duration >=6 h), test strain-measurement accuracy of the distributed fiber-optic sensing system | P2 |
+| **P2-M6** | Verification of 360° protection coverage of multi-lightning-tower annular array for elevator cables | Use scaled models in a high-voltage laboratory to simulate different thundercloud electric-field distributions, measure lightning-strike probability at different cable heights under multi-tower layouts, and optimize tower height and spacing | P2 |
+
+
+## 7.7 Experimental Verification Plan
+
+### 7.7.1 P0-Level Experiments (Scheme Feasibility Criterion)
 
 **E-P0-1: Long-life wear test of aluminum alloy rack micro-arc oxidation coating**
 
@@ -249,7 +326,7 @@ Use **Monte Carlo simulation** combined with **response surface models** for glo
 - **Method**: In a chamber simulating 0–100 km altitude pressure variation (1 atm to near vacuum), apply 50–100 kV AC voltage to aluminum alloy conductive rail sample with UHMWPE insulation, monitor partial discharge inception voltage, surface flashover voltage, and long-term aging characteristics.
 - **Success criteria**: No partial discharge at maximum working voltage (50 kV) across full pressure range; at 100 kV, only acceptable partial discharge at extremely low pressure, no flashover.
 
-### 7.6.2 P1-Level Experiments (Major Engineering Risk Mitigation)
+### 7.7.2 P1-Level Experiments (Major Engineering Risk Mitigation)
 
 | Experiment No. | Covered Items Pending Verification | Brief Description |
 |----------------|-----------------------------------|------------------|
@@ -259,7 +336,7 @@ Use **Monte Carlo simulation** combined with **response surface models** for glo
 | E-P1-4 | V5-N5 | Inert gas injection and maintenance in locally sealed segment under simulated low-altitude atmosphere (with water vapor, oxygen) |
 | E-P1-5 | V2-M4 | Low gravity/microgravity FCCVD process verification (lunar or space station experiment) |
 
-### 7.6.3 In-Orbit Verification Mission
+### 7.7.3 In-Orbit Verification Mission
 
 Before constructing the full-size ring, it is recommended to launch a "mini-ring" verification satellite to conduct in-orbit verification of the following technologies in low Earth orbit.
 
@@ -283,34 +360,36 @@ Before constructing the full-size ring, it is recommended to launch a "mini-ring
 
 A dedicated module should be set up on the mini-ring verification satellite to apply constant pre-tension to various specifications of CNT braided cable samples (with different braiding densities and protective coatings), and monitor their strain, temperature, and any signs of degradation (such as broken filaments, mass loss) in real time. This experiment aims to bridge the "cognitive gap" between short-term laboratory data and long-term engineering reality at large scale; the experimental period must cover at least one complete solar activity cycle (about 11 years).
 
+**Alternating thermal-cycle experiment (supplement)**: Apply periodic thermal cycling to CNT braided cable samples (simulating GEO sunlight/shadow alternation, temperature range -150°C to +120°C, cycles >=10^5, cycle period about 90 min), while monitoring in real time tension relaxation, initiation of surface microcracks, and strength degradation. This experiment aims to verify the thermoelastic stability of cables over a 500-year design life (about $1.8\times10^5$ thermal cycles).
 
-## 7.7 Design Feedback and Revision Recommendations
+
+## 7.8 Design Feedback and Revision Recommendations
 
 Based on the above simulation framework and experimental plan predictions, this volume provides the following forward-looking revision recommendations to the previous six volumes:
 
-### 7.7.1 Feedback to Volume 2 (Materials)
+### 7.8.1 Feedback to Volume 2 (Materials)
 
 - If **E-P0-3** measures f₁ < 0.3, then the engineering target of " $σ_{cable} ≥ 20 GPa$ " in Volume 2 cannot be achieved with the current braiding process. At this point, two paths need to be evaluated: ① increase single filament strength to compensate for the loss; ② switch to Scheme E (multi-index cable, whose core issue is also CNT strength). If f₁ < 0.2, the entire cable design of the ring elevator scheme must be fundamentally re-evaluated.
 - If the creep rate measured in V2-M3 exceeds expectations, the counterweight winch stroke must be increased from the current 1,000 m, or add in-orbit re-tensioning devices.
 
-### 7.7.2 Feedback to Volume 5 (Carriage)
+### 7.8.2 Feedback to Volume 5 (Carriage)
 
 - If **E-P0-2** (hollow section cooling) fails verification, the 1,500 km/h high-speed operation scheme will be permanently locked out, and only the 200 km/h low-speed scheme will be retained. The one-way transport time of 50 hours will become a rigid constraint and cannot be reduced by increasing speed.
 - If **E-P0-1** (rack wear) shows wear rate across orders of magnitude, it may be necessary to replace the rack material (e.g., steel rack) or permanently abandon full-speed operation, retaining only the 200 km/h low-speed scheme. This will trigger major revisions to Scheme C in Volume 5 (number of gears, DM size, cooling requirements, etc. must all be recalculated).
 
-### 7.7.3 Feedback to Volume 6 (Construction)
+### 7.8.3 Feedback to Volume 6 (Construction)
 
 - If **E-P0-7** (C/SiC flange fatigue) shows bolt preload loss exceeding expectations, the node connection scheme in Volume 6 must add extra in-orbit re-tensioning mechanisms or increase the number of bolts per node.
 - If global sensitivity analysis shows that "initial ring construction error" significantly affects final ring tension uniformity, the positioning accuracy requirement for space spiders in Volume 6 must be further improved from ±0.5 mm.
 
 
-## 7.8 Parameter Output
+## 7.9 Parameter Output
 
 | Parameter | Value | Description |
 |-----------|-------|-------------|
 | **Number of P0 experiments** | **8 items** | **Rack wear, hollow section cooling, f₁ factor, C/SiC conical transition fatigue, asteroid capture, suction anchor bearing capacity, flange fatigue, high-voltage insulation** |
 | Number of P1 experiments | 5 items | CNT creep/debris impact, motor synchronization, panel deployment, inert gas maintenance, microgravity CVD |
-| Number of P2 experiments | About 22 items | Orbital mechanics simulation, geological drilling, anchoring efficiency, wind tunnel tests, etc. |
+| Number of P2 experiments | About 25 items | Orbital mechanics simulation, geological drilling, anchoring efficiency, wind tunnel tests, plasma charging, electromagnetic interference immunity, lightning-attraction coverage, etc. |
 | Number of P3 experiments | 6 items | Standardized design, docking accuracy, sealing durability, anti-tangling, etc. |
 | **P0 simulation scenario** | **1 item (S-1)** | **Full-cycle time-domain coupled simulation of ring construction** |
 | **Critical failure probability for ring disintegration** | **<10⁻⁶** | **500-year design life** [Note 1] |
@@ -319,9 +398,9 @@ Based on the above simulation framework and experimental plan predictions, this 
 | **Hollow section cooling verification success criteria** | **Continuous 1 h, temperature <150°C** | **If failed, lock in 200 km/h low-speed scheme** |
 
 
-## 7.9 Epilogue to Volume 7
+## 7.10 Conclusion of Volume 7
 
-This volume summarizes all items pending verification from the previous six volumes, establishes a unified **P0/P1/P2/P3** four-level priority system, and designs a full-system coupled simulation framework and experimental verification roadmap covering all key physical domains.
+This volume summarizes all verification items pending from the previous six volumes, establishes a unified **P0/P1/P2/P3** four-level priority system, and designs a full-system coupled simulation framework and experimental verification roadmap covering all key physical domains. Section 7.6 completed a systematic screening of non-mechanical physical factors including lightning, magnetospheric induced EMF, high-order gravitational perturbations, solid Earth tides, ring-ionosphere electromagnetic coupling, micrometeoroid plasma plumes, and thermoelastic instability, providing a complete physical threat assessment for long-term operational safety of the Space Ring Elevator system.
 
 Core conclusions:
 
@@ -331,3 +410,6 @@ Core conclusions:
 4. There are about 6 P3-level items pending verification, involving standardized design, docking accuracy, sealing durability, and anti-tangling local optimizations.
 5. It is recommended to prioritize completion of **P0-level experiments** and the in-orbit mini-ring verification mission before starting full-size construction, to obtain reliable data on key physical parameters and support the finalization of designs in subsequent volumes.
 6. **The mini-ring verification satellite must be equipped with a "material long-term effect experimental module"** to conduct in-situ exposure experiments on cable samples for at least one solar activity cycle, which is the key step to bridge the "cognitive gap" and ultimately confirm the feasibility of the full-size ring project.
+7. Lightning threat can be reliably controlled through a three-layer defense architecture of active lightning-attraction tower arrays + cable insulation shielding + ground equipotential grounding grids.
+8. Magnetospheric induced EMF does not constitute a direct threat, but the long-term micro-arc discharge effect produced when combined with cable conductive discontinuities is noteworthy and has been arranged as a P2 verification item.
+9. It is recommended to prioritize completion of **P0-level experiments** and the in-orbit mini-ring verification mission before launching full-size construction.
