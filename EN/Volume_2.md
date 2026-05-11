@@ -5,6 +5,33 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| ASTM | American Society for Testing and Materials |
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CFRP | Carbon Fiber-Reinforced Polymer |
+| CIGS | Copper Indium Gallium Selenide (Thin-Film Solar Cell) |
+| CNT | Carbon Nanotube |
+| CVD | Chemical Vapor Deposition |
+| FCCVD | Floating Catalyst Chemical Vapor Deposition |
+| GB/T | National Standard of China (Recommended) |
+| GEO | Geostationary Earth Orbit |
+| GPa | Gigapascal |
+| HAPS | High-Altitude Platform Station |
+| IEC | International Electrotechnical Commission |
+| ISRU | In-Situ Resource Utilization |
+| LEO | Low Earth Orbit |
+| MASTER | Meteoroid and Space Debris Terrestrial Environment Reference (ESA) |
+| MWCNT | Multi-Walled Carbon Nanotube |
+| ORDEM | Orbital Debris Engineering Model (NASA) |
+| PBO | Poly(p-phenylene benzobisoxazole) |
+| SWCNT | Single-Walled Carbon Nanotube |
+| UHMWPE | Ultra-High Molecular Weight Polyethylene |
+| ULE | Ultra-Low Expansion Glass |
+
+
 ## 2.1 Preface
 
 This volume is positioned as the **materials foundation** for the Space Ringed-Elevation project, focusing on answering the following core questions:

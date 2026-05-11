@@ -5,6 +5,23 @@
 **Currency Unit**: Renminbi (Yuan), Symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| API | American Petroleum Institute |
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CFRP | Carbon Fiber-Reinforced Polymer |
+| CNT | Carbon Nanotube |
+| DSDP | Deep Sea Drilling Project |
+| GEO | Geostationary Earth Orbit |
+| GSHAP | Global Seismic Hazard Assessment Program |
+| ODP | Ocean Drilling Program |
+| PGA | Peak Ground Acceleration |
+| UHMWPE | Ultra-High Molecular Weight Polyethylene |
+| UNESCO | United Nations Educational, Scientific and Cultural Organization |
+
+
 ## 3.1 Preface
 
 This volume is positioned as the **ground-to-orbit connection foundation** for the Space Ringed-Elevation project, focusing on answering the following core questions:

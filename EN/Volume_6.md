@@ -5,6 +5,19 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CFRP | Carbon Fiber-Reinforced Polymer |
+| CNT | Carbon Nanotube |
+| GEO | Geostationary Earth Orbit |
+| GPS | Global Positioning System |
+| LEO | Low Earth Orbit |
+| UHMWPE | Ultra-High Molecular Weight Polyethylene |
+
+
 ## 6.1 Preface
 
 This volume focuses on the core construction phase of the Space Ringed-Elevation project—how to manufacture segments of a closed-loop cable with a total length of approximately 265,000 km at the outer edge of the 42,264 km geosynchronous orbit, launch them into orbit, and use automated on-orbit systems to complete braiding, connection, and tensioning, ultimately forming a complete circumferential main structure.

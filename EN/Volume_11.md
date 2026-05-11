@@ -5,6 +5,24 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| CERN | European Organization for Nuclear Research |
+| ESA | European Space Agency |
+| GEO | Geostationary Earth Orbit |
+| IADC | Inter-Agency Space Debris Coordination Committee |
+| ISA | International Seabed Authority |
+| ISS | International Space Station |
+| ITER | International Thermonuclear Experimental Reactor |
+| ITU | International Telecommunication Union |
+| JAXA | Japan Aerospace Exploration Agency |
+| NASA | National Aeronautics and Space Administration |
+| UNCOPUOS | United Nations Committee on the Peaceful Uses of Outer Space |
+| UNORE | United Nations Orbital Ringed-Elevator Organization |
+
+
 ## 11.1 Preface
 
 This volume is positioned as the **legal applicability analysis and international governance framework design** for the Space Ringed-Elevation project, focusing on answering the following core questions:

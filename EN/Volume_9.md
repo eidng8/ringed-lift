@@ -5,6 +5,27 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| CNT | Carbon Nanotube |
+| DWDM | Dense Wavelength Division Multiplexing |
+| EDFA | Erbium-Doped Fiber Amplifier |
+| FEC | Forward Error Correction |
+| GaN | Gallium Nitride |
+| GEO | Geostationary Earth Orbit |
+| GNSS | Global Navigation Satellite System |
+| HEMT | High Electron Mobility Transistor |
+| HVDC | High Voltage Direct Current |
+| ISM | Industrial, Scientific and Medical (Frequency Band) |
+| ITU | International Telecommunication Union |
+| OSNR | Optical Signal-to-Noise Ratio |
+| QAM | Quadrature Amplitude Modulation |
+| SMES | Superconducting Magnetic Energy Storage |
+| YBCO | Yttrium Barium Copper Oxide (High-Temperature Superconducting Tape) |
+
+
 ## 9.1 Preface
 
 This volume is positioned as the **energy supply and information transmission infrastructure planning** for the Space Ringed-Elevation project, focusing on answering the following core questions:

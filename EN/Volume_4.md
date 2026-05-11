@@ -5,6 +5,19 @@
 **Currency Unit**: Renminbi (Yuan), Symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CNT | Carbon Nanotube |
+| CTE | Coefficient of Thermal Expansion |
+| FSW | Friction Stir Welding |
+| GEO | Geostationary Earth Orbit |
+| MWCNT | Multi-Walled Carbon Nanotube |
+| UHMWPE | Ultra-High Molecular Weight Polyethylene |
+
+
 ## 4.1 Preface
 
 This volume focuses on the mechanical design of elevator cables, the track sleeve system, and their synergy with the main cable. Building on Volume I’s track mechanical environment, Volume II’s material parameters, and Volume III’s node anchoring boundary conditions, it outputs the cable cross-sectional profile, counterweight requirements, longitudinal displacement compensation schemes, design parameters and segmentation strategies for the track sleeve/rack. The cabin design is covered independently in Volume V.

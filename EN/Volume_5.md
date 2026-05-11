@@ -5,6 +5,23 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CFRP | Carbon Fiber-Reinforced Polymer |
+| CNT | Carbon Nanotube |
+| DM | Drive Module |
+| GEO | Geostationary Earth Orbit |
+| LiF | Lithium Fluoride |
+| LSM | Linear Synchronous Motor |
+| NaK | Sodium-Potassium Alloy (Liquid Metal Coolant) |
+| PM | Payload Module (Cabin) |
+| PMSM | Permanent Magnet Synchronous Motor |
+| UHMWPE | Ultra-High Molecular Weight Polyethylene |
+
+
 ## 5.1 Preface
 
 This volume focuses on the configuration design of the elevator cabin, drive scheme demonstration, power supply system, and full-range kinematic analysis. Building on the cable/track sheath design parameters from Volume 4, it outputs key parameters such as cabin dimensions, cruising speed, one-way time, drive mechanism design, and power supply requirements, for integrated simulation verification in Volume 7.

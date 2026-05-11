@@ -5,6 +5,24 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CFRP | Carbon Fiber-Reinforced Polymer |
+| CNT | Carbon Nanotube |
+| CVD | Chemical Vapor Deposition |
+| DM | Drive Module |
+| FCCVD | Floating Catalyst Chemical Vapor Deposition |
+| GEO | Geostationary Earth Orbit |
+| GPa | Gigapascal |
+| ISS | International Space Station |
+| LEO | Low Earth Orbit |
+| NaK | Sodium-Potassium Alloy (Liquid Metal Coolant) |
+| PMSM | Permanent Magnet Synchronous Motor |
+
+
 ## 7.1 Preface
 
 This volume is positioned as the **comprehensive physical validation and experimental verification plan** for the Space Ringed-Elevation project, focusing on answering the following core questions:

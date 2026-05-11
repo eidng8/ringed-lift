@@ -5,6 +5,22 @@
 **Currency Unit**: Renminbi (CNY), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| CAPEX | Capital Expenditure |
+| CfD | Contract for Difference |
+| CNT | Carbon Nanotube |
+| DCF | Discounted Cash Flow |
+| GEO | Geostationary Earth Orbit |
+| IRR | Internal Rate of Return |
+| NPV | Net Present Value |
+| OPEX | Operational Expenditure |
+| PE | Private Equity |
+| SDR | Special Drawing Rights |
+
+
 ## 10.1 Preface
 
 This volume is positioned as the **economic feasibility study and commercialization pathway planning** for the Space Ringed-Elevation Project, focusing on answering the following core questions:

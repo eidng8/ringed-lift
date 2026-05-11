@@ -5,6 +5,20 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| CNT | Carbon Nanotube |
+| DM | Drive Module |
+| GEO | Geostationary Earth Orbit |
+| GPS | Global Positioning System |
+| HAPS | High-Altitude Platform Station |
+| HVDC | High Voltage Direct Current |
+| PM | Payload Module (Cabin) |
+| UPS | Uninterruptible Power Supply |
+
+
 ## 12.1 Preface
 
 This volume is positioned as the **survival assurance and system resilience design** for the Space Ringed-Elevation project, focusing on answering a core engineering question:

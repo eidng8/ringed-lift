@@ -5,6 +5,20 @@
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
 
+## Terminology Table
+
+| Abbreviation | English Full Name |
+|------|----------|
+| C/SiC | Carbon Fiber-Reinforced Silicon Carbide (Composite) |
+| CNT | Carbon Nanotube |
+| DM | Drive Module |
+| GEO | Geostationary Earth Orbit |
+| HAPS | High-Altitude Platform Station |
+| ISRU | In-Situ Resource Utilization |
+| LEO | Low Earth Orbit |
+| PM | Payload Module (Cabin) |
+
+
 ## 8.1 Preface
 
 This volume is positioned as the **transportation, logistics system, and global construction sequence planning** for the Space Ringed-Elevation Project, focusing on answering the following core questions:
