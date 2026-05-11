@@ -346,20 +346,6 @@ The output parameters of this volume are sufficient to support further analysis 
 [8.3] Space tug nuclear thermal propulsion scheme, NASA NERVA project technical heritage and contemporary nuclear thermal propulsion research (2024).
 
 
-## Terminology Table
-
-| Abbreviation | Chinese Full Name |
-|------|----------|
-| CNT | Carbon Nanotube |
-| GEO | Geosynchronous Orbit |
-| LEO | Low Earth Orbit |
-| DM | Drive Module |
-| PM | Payload Module (Cabin) |
-| HAPS | High Altitude Platform System |
-| ISRU | In-Situ Resource Utilization |
-| C/SiC | Carbon Fiber Reinforced Silicon Carbide Composite |
-
-
 ## Appendices
 
 - **Appendix 1: Lunar Industry** (detailed technical solution to be compiled separately)

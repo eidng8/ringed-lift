@@ -2109,19 +2109,3 @@ Parameters output in this volume can support on-orbit construction in Volume 6 a
 [5.6] SAE AMS 5662M, 2019, Inconel 718 Bolt Allowable Stress.
 [5.7] S.M. Kurtz, *UHMWPE Biomaterials Handbook*, 3rd ed., William Andrew, 2015.
 [5.8] ASM Handbook, Vol.2: Properties and Selection: Nonferrous Alloys and Special-Purpose Materials, 1990, Aluminum Alloy 7075-T6 Mechanical Properties and Fatigue Data.
-
-
-## Terminology Table
-
-| Abbreviation | Chinese Name |
-|--------------|-------------|
-| CNT | Carbon Nanotube |
-| GEO | Geosynchronous Orbit |
-| UHMWPE | Ultra-High Molecular Weight Polyethylene |
-| C/SiC | Silicon Carbide Fiber Reinforced Composite |
-| PMSM | Permanent Magnet Synchronous Motor |
-| LSM | Linear Synchronous Motor |
-| DM | Drive Module |
-| PM | Payload Module (Cabin) |
-| NaK | Sodium-Potassium Alloy (liquid metal working fluid) |
-| CFRP | Carbon Fiber Reinforced Polymer |

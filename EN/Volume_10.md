@@ -328,19 +328,3 @@ The output parameters of this volume are sufficient to support the discussion in
 [10.3] Global Satellite Communication and Data Relay Market Size, Northern Sky Research (NSR), 2024.
 [10.4] Space Tourism Market Forecast, Space Tourism Market Report, 2025.
 [10.5] Multilateral Development Bank Infrastructure Financing Practices, Asian Infrastructure Investment Bank (AIIB) Annual Report, 2024.
-
-
-## Terminology Table
-
-| Abbreviation | Chinese Full Name |
-|--------------|------------------|
-| CAPEX | Capital Expenditure |
-| OPEX | Operating Expenditure |
-| DCF | Discounted Cash Flow |
-| NPV | Net Present Value |
-| IRR | Internal Rate of Return |
-| SDR | Special Drawing Right |
-| CfD | Contract for Difference |
-| GEO | Geostationary Earth Orbit |
-| CNT | Carbon Nanotube |
-| PE | Private Equity |

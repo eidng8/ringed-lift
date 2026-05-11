@@ -1328,16 +1328,3 @@ The parameters output from this volume are sufficient to support the perturbatio
 [4.3] C/SiC mechanical properties, NASA/TM-2010-216249.
 [4.4] Inconel 718 bolt allowable stress, SAE AMS 5662M, 2019.
 [4.5] UHMWPE wear data, S.M. Kurtz, *UHMWPE Biomaterials Handbook*, 3rd ed., William Andrew, 2015.
-
-
-## Terminology Table
-
-| Abbreviation | Chinese Full Name |
-|------|----------|
-| CNT | Carbon Nanotube |
-| MWCNT | Multi-Walled Carbon Nanotube |
-| GEO | Geosynchronous Orbit |
-| UHMWPE | Ultra-High Molecular Weight Polyethylene |
-| C/SiC | Carbon Fiber Reinforced Silicon Carbide Composite |
-| FSW | Friction Stir Welding |
-| CTE | Coefficient of Thermal Expansion |
