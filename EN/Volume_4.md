@@ -409,6 +409,7 @@ $$
 $$
 
 Take the derivative with respect to $r$ :
+
 $$
 \frac{d(\Delta a)}{dr} = \omega_e^2 + \frac{2GM_e}{r^3} > 0
 $$
@@ -1217,6 +1218,7 @@ $$
 Take a typical short span $L_{span} ≈ 100 m$ (distance between adjacent dampers/strakes), tension $T ≈ 1×10¹⁰ N$ , fill factor 0.3, line density $λ = ρA ≈ 390π×0.25²×0.3 ≈ 23 kg/m$ (ground end, about 24 kg/m with track sleeve).
 
 Wave speed:
+
 $$
 c = \sqrt{\frac{T}{λ}} ≈ \sqrt{\frac{1×10^{10}}{24}} ≈ 20,400 m/s
 $$
