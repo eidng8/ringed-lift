@@ -1,165 +1,188 @@
-# Appendix I: Lunar Industry
+# Appendix I: Moon industry
 
-**Version**: 1.0<br/>
-**Date**: May 2026<br/>
-**Currency**: Chinese yuan (CNY), symbol: ¥<br/>
-**Prerequisite reading**: Main Volume Overview, Volume 2 (Materials), Volume 8 (Transportation)
+** Version**: 1.1<br/>
+** Prepared**: June 2026 <br/>
+** Monetary unit**: RMB, symbol: <br/>
+** Pre-read**: Main Books Overview, Volume II (materials), Volume VIII (transport)
 
 ---
 
-## Appendix Positioning
+## Appendices for location
 
-> This appendix is a parallel companion plan to the main volume of *Space Ringed Lift Project*, but it is not positioned as a subordinate of the main volume. Its purpose is to systematically plan the **blueprint of humanity's first off-world independent industrial system**.
+> This appendix is a parallel package to the main book of the Space ring ladder project, but its positioning is not attached to the main book. It aims at systematic planning** of the blueprint for the first independent industrial system of mankind outside the Earth**.
 >
-> Lunar industry is not only the key accelerator that determines whether the Ringed Lift project can move from "grand" to "sustainable"; it is also the indispensable material and energy supply hub for all future deep-space exploration (Mars, the asteroid belt, and farther bodies). Therefore, the argument logic of this appendix is: **to establish an independent, complete, and self-sustaining lunar industrial system as the core objective, and on this basis, plan the optimal rhythm of coordination with the Ringed Lift project in both timeline and production capacity.**
+> The lunar industry is not only a key accelerator for the `absorpability' from the `absorption' to `sustainable' of the lunar ladder, but also an inexhaustible supply hub for all future deep space exploration (Mars, asteroid belts, more distant celestial bodies). Thus, the reasoning of this appendix is that** the most excellent synergy between planning and the work of the ladder is based on the core objective of establishing an independent, complete and self-sustaining lunar industrial system. **
 
 
-## Inter-Volume Logic Diagram
+# # Volume Logic Relationship Chart
 
 ```
-Volume 0 (Strategic Blueprint: The Meaning of Lunar Industrialization for Human Deep-Space Civilization)
+Overview (Strategic blueprint: the significance of lunar industrialization for humanity's deep-space civilization)
     ↓
-Volume 1 (Pioneer Missions) → Volume 2 (Site Selection and Infrastructure) → Volume 3 (Energy)
+Volume I (Pioneer missions) → Volume II (Site selection and infrastructure) → Volume III (Energy)
     ↓
-Volume 4 (Resources) → Volume 5 (Industrial Manufacturing) → Volume 6 (Transport and Logistics)
+Volume IV (Resources) → Volume V (Industrial manufacturing) → Volume VI (Transport and logistics)
     ↓
-Volume 7 (Habitation and Cities) → Volume 8 (Economy and Society)
+Volume VII (Habitats and cities) → Volume VIII (Emergency and rescue)
     ↓
-Volume 9 (Timeline and Coordination: How to Work with the Ringed Lift Project)
+Volume IX (Economics and Earth linkage)
+    ↓
+Volume X (Synergy, risk, outlook, and civilizational positioning)
 ```
 
 
-## Table of Contents
+# # Directory
 
-### Overview: Strategic Blueprint and Evolution Stages
+-** Overview: strategic blueprint and evolution phase**
+- I. Why the Moon: Civilization projects independent of the Ladders
+- Core strategic objectives
+- Core scope of argument
+- IV. Overall evolution phase
+- V. Structure of volume 1 of the appendix
 
-**Core question: Why is lunar industrialization itself a civilization-scale objective independent of any single megaproject?**
+- ** Volume I: Herald missions and on-orbit validation**
+- 1.1 Volume Notes
+- 1.2 Status of related projects at home and abroad
+- 1.3 Overall task sequence
+- 1.4 Task group I: Remote sensing detailed survey and orbital validation (years 1-3)
+- 1.5 Mission Cluster II: Moontop robots in position (3-5 years)
+- 1.6 Mission cluster three: “L Moon sentry” first manned (years 5-8)
+- 1.7 Items to be validated and criteria for determination
+- 1.8 Parameter Output
+- 1.9 Conclusion of volume I
 
-1. The Moon as a "deep-space outpost": irreplaceable strategic value
-2. Three core drivers of lunar industrialization: cislunar economic sphere, deep-space exploration springboard, off-world survival experiment
-3. Four-stage evolution overview of lunar industrialization
-   - Stage 1: Pioneer missions and presence (robotics-led, short-term crewed)
-   - Stage 2: Outpost and foundational industry (initial in-situ resource utilization, key equipment produced locally)
-   - Stage 3: Industrial base and initial closed loop (localized full industrial chain, meeting internal demand)
-   - Stage 4: External output and civilization node (becoming a cislunar-deep-space logistics and energy hub)
+- ** Volume II: permanent base site and infrastructure development**
+2.1 Volume note
+- 2.2 Candidate sites versus integrated selection models
+- 2.3 lunar construction technology and base design
+- 2.4 Underground lava pipeline construction technology
+- 2.5 Subsurface Base Vision Energy Hub: An Overview of Therm-Electro-Ray Combination Systems
+- 2.6 Monthly Transport and Communication Network
+- 2.7 Capital construction organization
+- 2.8 Items to be validated and criteria for determination
+- 2.9 Parameter Output
+- 2.10 Conclusion of Volume II
+
+** Volume III: Energy systems**
+3.1 Volume Notes
+- 3.2 Energy demand analysis
+- 3.3 Recent Energy Programs: Optical + Nuclear Power + Storage
+3.4 Transmission and distribution grid structure
+- 3.5 Long-term energy hubs: detailed design of thermal-electric-photo-photographic systems
+- 3.6 to be validated and criteria for determination
+- 3.7 Parameter Output
+- 3.8 Closing of volume 3
+
+- ** Volume IV: In-situ resource utilization and overall resource development**
+- 4.1 Volume Notes
+- 4.2 Available mineral data near each candidate site
+- 4.3 Resource exploration and stock assessment
+- 4.4 Key engineering factors affecting mines and mining operations
+- 4.5 Working temperature and material requirements for key performance components
+- 4.6 Assessment of all mine equipment quality, energy consumption and continuity
+- 4.7 Crude mineral processing deployment strategy: mines vs. bases
+- 4.8 Phased programme for water and ice mining
+- 4.9 Architectural bone extraction and primary processing
+- 4.10 Metal mining and mining
+- 4.11 Moon Resource Logistics Network
+- 4.12 Subject to validation and determination criteria
+- 4.13 Parameter Output
+- 4.14 Conclusion of volume IV
+
+- ** Volume V: The Moon Face Super Manufacturing System**
+- 5.1 Volume Notes
+- 5.2 Source of whole industry chain raw materials, intermediates and final products
+- 5.3 Industrial chain capacity matching and material balance
+- 5.4 Gradient selection of raw materials and utilization of the whole group
+- 5.5 Construction materials production line
+- 5.6 Metal smelters
+- 5.7 CNT Manufacturing Plant
+- 5.8 Summary of energy consumption and quality in manufacturing systems
+- 5.9 Assessment of the environmental adaptation of the lunar vacuum, low gravity and magnetic process
+- 5.10 to be validated and criteria for determination
+- 5.11 Parameter Output
+- 5.12 Conclusion of Volume V
+
+- ** Volume VI: Earth-month transport system and deep space logistics**
+- 6.1 Volume Notes
+- 6.2 Transport demand analysis
+- 6.3 System-wide work temperature and solid lubrication requirements
+- 6.4 Design of ground surface transport
+- 6.5 Moon orbital traffic
+- 6.6 Gear-track system (large slope segment)
+- 6.7 Pit-top transport system
+- 6.8 Liquid water temperature piping
+- 6.9 Underground transportation systems
+- 6.10 Phased Extension of Transport Systems
+- 6.11 Summary of equipment quality and energy consumption of transport systems
+- 6.12 Subject to validation and determination criteria
+- 6.13 Parameter Output
+6.14 Closing remarks of volume VI
+
+- ** Volume VII: Habitat, Ecology and Moon Society**
+- 7.1 Volume Notes
+- 7.2 Road Map for Population Growth and Expansion
+- 7.3 Life support systems — design and parameters for recycling equipment
+- 7.4 Housing space design
+- 7.5 Low-gravity living support and “gravity” design
+- 7.6 Dome Farm and Food Supply
+- 7.7 Medical care
+- 7.8 Phased educational and cultural facilities
+- 7.9 From Industrial Towns to Moon City - Long-term Vision for Expansion
+- 7.10 Subject to validation and determination criteria
+- 7.11 Parameter Output
+- 7.12 Closing of volume 7
+- 7.13 Description of the scope of Habitat
+
+- ** Volume VIII: Emergency, protection and rescue**
+- 8.1 Volume Notes
+- 8.2 Risk identification and classification
+- 8.3 Level VI Early Warning and Response System
+- 8.4 Emergency shelter system and disaster separation
+- 8.5 Specialized contingency plans
+- 8.6 Emergency material and equipment configuration
+- 8.7 Post-disaster assessment and recovery
+- 8.8 Training and Exercise
+- 8.9 Items to be validated and criteria for determination
+- 8.10 Parameter Output
+- 8.11 Conclusion of volume VIII
+- 8.12 Intersection with volume XII of the main volume
+
+** Volume IX: Economics and Earth Link**
+- 9.1 Volume Notes
+- 9.2 Phased Input Model
+- 9.3 Core business model and income structure
+- 9.4 Investment return analysis
+- 9.5 International financing and insurance mechanisms
+- 9.6 From Earth Blood Transfusion to Blood Transfusion Earth — turning point analysis
+- 9.7 The Moon Economy Concept
+- 9.8 Survival independent of the ladder
+- 9.9 Risk and Response
+- 9.10 Parameter Output
+9.11 Closing remarks of volume IX
+
+** Volume X: Synergies, Risks, Perspectives and Civilization**
+- 10.1 Volume Notes
+- 10.2 Core strategic positioning: the independent value of the Moon industry
+- 10.3 New nodes of civilization: high-value industrial systems and technological facilities that can be carried on the Moon
+- 10.4 Control and synergy windows for two time lines
+- 10.5 Quadrant Scenario Matrix and Response Matrix
+- 10.6 Substance certificate of independence and re-enactment of equipment storage
+- 10.7 Conclusion of Volume X
 
 
-### Volume 1: Pioneer Missions and In-Orbit Validation
+# # Appendice I interface with the main book
 
-**Core question: How do we take the most critical first step and validate key technologies in orbit?**
-
-1. Technology validation and space experiments
-   - Detailed lunar resource remote-sensing survey
-   - Low-gravity FCCVD principle prototype
-   - Catalyst extraction and cycle experiments
-2. Uncrewed sample-return missions and lunar surface experimental station
-3. First short-term crewed stay mission ("Lunar Sentinel" program)
-
-
-### Volume 2: Permanent Base Site Selection and Infrastructure Construction
-
-**Core question: Where to build? How to build? Who builds it?**
-
-1. Integrated comparison of multiple candidate sites (Shackleton Crater, Oceanus Procellarum, Mare Tranquillitatis, etc.)
-   - Comprehensive evaluation model (resources, energy, transport, safety, scientific value)
-2. Recommended site and rationale
-3. Lunar surface infrastructure construction
-   - Lunar 3D-printed construction technology
-   - Moon-wide transportation and communications network planning
-4. Construction process: from teleoperated robots to human-machine collaboration
-
-
-### Volume 3: Energy System
-
-**Core question: How do we provide continuous power for a continuously growing industrial city?**
-
-1. Overall planning of the lunar energy system (near/mid/long-term combined strategy)
-2. Space nuclear reactors (from Kilopower to mega-power)
-3. Polar solar arrays and lunar-night energy storage
-4. Long-term ultimate plan: lunar helium-3 fusion power plants
-5. Base-level transmission/distribution network and smart grid
-
-
-### Volume 4: In-Situ Resource Utilization and Full Resource Development
-
-**Core question: What minerals does the Moon have, and how do we turn them into usable industrial feedstock to ultimately achieve "lunar materials for lunar use"?**
-
-1. Lunar geology and full-resource survey inventory
-   - Strategic distribution of water ice, volatiles, metal minerals, and silicates
-2. Mining engineering
-   - Polar water ice and volatile collection
-   - Large-scale open-pit extraction of mare basalts
-3. Beneficiation and primary refining industrial chain
-   - End-to-end process design from regolith to iron, aluminum, titanium, silicon, and oxygen
-4. The only indispensable externally supplied "industrial vitamins" and substitution strategies
-
-
-### Volume 5: Lunar Super Manufacturing System
-
-**Core question: How do we build an industrial mother-machine on the Moon that can continuously self-replicate and upgrade?**
-
-1. Strategic objective of lunar manufacturing: localization of the full industrial chain
-2. Basic materials industry: lunar production of steel, aluminum materials, and concrete
-3. Advanced manufacturing: mass-production factories for CNT super-cables
-   - **Coordination node**: capacity planning here interfaces with Volume 2 and Volume 8 of the Ringed Lift main volume
-4. Electronics and precision instruments: long-term planning from crystal growth to lunar chip fabs
-5. Self-replication and industrial upgrading: using 3D printing and robotics to build clusters of "industrial mother-machines"
-
-
-### Volume 6: Cislunar Transport System and Deep-Space Logistics
-
-**Core question: How do we enable low-cost, large-scale movement of lunar products and personnel into cislunar space?**
-
-1. Site selection and design for lunar launch centers
-2. Key technologies: lunar electromagnetic launchers and nuclear thermal/electric propulsion shuttle craft
-3. Design and functions of the Lunar Space Station (Gateway)
-4. Building scheduled transport liner systems from the lunar surface to GEO, Lagrange points, and farther deep space
-5. **Coordination node**: interface with "Corridor 2: Moon to GEO" in main volume Volume 8 (Transportation), and plan transport cadence for bulk cargo such as CNT cables
-
-
-### Volume 7: Habitation, Ecology, and Lunar Society
-
-**Core question: How do we build a home in a lifeless world where thousands can permanently thrive and reproduce?**
-
-1. From outpost to city: principles of lunar urban planning
-2. Engineering implementation of CELSS (Closed Ecological Life Support System)
-3. Architecture, transportation, and urban design under 1/6 g gravity
-4. Radiation protection and subterranean living
-5. The prototype of lunar society: governance, economy, culture, and ethics
-
-
-### Volume 8: Economics and Earth Linkage
-
-**Core question: How do we account for the lunar industrial park, and who will become the first true off-world investors?**
-
-1. Input-output model of the lunar industrial park
-   - Investment estimates by phase
-2. Core business models: energy, tourism, research, real estate
-3. Turning-point analysis from "Earth transfusion" to "transfusing Earth"
-4. International investment and insurance mechanism design
-5. Deep integration with the Earth economy: catalyzing the cislunar economic sphere
-
-
-### Volume 9: Coordination with the Ringed Lift Project, Risks, and Contingency Plans
-
-**Core question: If the Ringed Lift is delayed, or lunar progress far exceeds expectations, what flexible strategies do we have?**
-
-1. Analysis of the "optimal coordination point" between lunar industry and the Ringed Lift project
-   - Timeline coordination: when can the Moon begin stable CNT supply?
-   - Capacity coordination: how does lunar supply volume affect Ringed Lift construction pace and cost?
-2. De-risking: assessment of lunar industry's independent survival capability
-   - Even without the Ringed Lift, can lunar industry achieve a positive cycle with support from specific sectors?
-3. Flexible contingency plans
-   - Ringed Lift ahead of schedule: how long can the Earth-launch baseline sustain?
-   - Lunar progress ahead of schedule: where are the export outlets for excess capacity (deep-space spacecraft manufacturing, other megaprojects)?
-4. Ultimate goal: a prosperous lunar civilization independent of the "Earth umbilical"
-
-
-## Interface Relationship Between Appendix I and the Main Volume
-
-| Appendix I Volume | Coordination Relationship with Main Volume | Main Volume Interface |
+Accompaniment to the main volume
 |:-----|:-----|:-----|
-| **Volume 5 (Manufacturing)** | Outputs the CNT mass-production scheme and capacity ramp-up plan as an input "acceleration option" for main-volume ring construction. | Volume 2 (Materials), Volume 8 (Transportation) |
-| **Volume 6 (Transport)** | Plans the lunar-surface-to-GEO logistics corridor, providing concrete transport technologies, costs, and timeline nodes for the main volume. | Volume 8 (Transportation) |
-| **Volume 9 (Coordination)** | Integrates timeline and capacity planning, outputs the "optimal coordination strategy," evaluates risks, and formulates contingency plans. | Volume 8 (Timeline), Volume 10 (Economics) |
-| **All sub-volumes** | All items pending validation in Appendix I are uniformly incorporated into the P0/P1/P2/P3 priority system in main-volume Volume 7. | Volume 7 (Engineering Verification) |
+** Volume I (Preventor mission)** P0-level certification of surface CNT manufacture, nuclear power supply, water and ice extraction to provide monthly environmental feasibility data for the main volume II CNT manufacturing path
+** Volume II (location and infrastructure)** Location decisions directly affect launch site and logistics costs of the main volume VIII “L Moon to GEO” corridor
+** Volume III (Energy)** Space solar power programme and the solar power station on the 9th volume of the main volume are back-up and complementary
+** Volume IV (Resources and mining)** Data on energy consumption for water ice extraction underpins the propellant resupply programme for the corridors of the main volume VIII, “The Moon to GEO”; Helium-3 resource data provides reference for the long-term energy programme for the main volume
+** Volume V (manufacturing)** Output CNT Quantities Program and Capable Mounting Plan, as an “accelerated option” for the construction of the main book ring
+** Volume VI (Transport)** Planning for the monthly to GEO logistics corridor to provide specific transport technologies, costs and time nodes for the master book
+** The engineering parameters for volume VII (Habitat and the city)** The engineering parameters for the closed ecosystem (CELSS) provide a reference baseline for the design of life support systems for the housing compartments on the main volume XII
+** Volume VIII (Emergency response and rescue)** Examples of work to provide a monthly scenario for volume XII of the master volume “Third floor disaster prevention system” (Emergency response, redundancy and lifeline engineering)
+** Volume IX (Economic and Earth Linkage)** Financing schemes and insurance schemes draw on and complement volumes X (Economic Model of the Rings) and XI (The UNORE Governance Framework) of the main volume
+** Volume X (Synergy and outlook)** Synergetic models of two time lines (15-22 years of the Golden Window) are exported directly to volumes VIII (Construction of the Time Line) and X (Economic Model) of the main volume, with the Moon Multi-Income Sources providing risk hedge analysis in the main book, volumes VIII (Transport), X (Economic) |
+P0/P1/P2/P3 priority system for volume 7 of the main volume
