@@ -54,7 +54,7 @@
 | Hadfield steel | High-manganese steel | Wear-resistant material for crusher hammers and liners |
 | Bimodal grading | Bimodal size distribution | Coarse/fine dual-dominant particle distribution in regolith |
 | Cryolite | Cryolite (Na3AlF6) | Electrolyte for molten-salt aluminum electrolysis |
-| Carbonaceous chondrite | Carbonaceous chondrite | Primitive asteroid material rich in C, H2O, and organics; impact residues on Moon |
+| Carbonaceous chondrite | Carbonaceous chondrite | Primitive asteroid material rich in C, H₂O, and organics; impact residues on Moon |
 | Solar-wind implanted volatiles | Solar-wind implanted volatiles | H/He/C/N ions implanted into near-surface regolith grains |
 | Curie temperature | Curie temperature | Critical temperature where ferromagnetism is lost |
 
@@ -115,7 +115,7 @@ Ilmenite ($FeTiO_3$) in mare basalt is the shared source of Fe, Ti, and O.
 
 **Route 1: Hydrogen Reduction (Primary Route)**
 
-Hydrogen reduction of ilmenite at about 1,000 C yields metallic Fe, TiO2 slag, and H2O. Water is electrolyzed to recycle H2, and oxygen supplements life support. TiO2 slag can then be lithium-reduced to Ti-Si alloy and electrorefined to metallic Ti [12]. A Ningbo Institute team found ilmenite has the highest hydrogen content among Chang'e-5 regolith minerals. At high temperature, hydrogen reacts with iron oxides to produce metallic iron and significant water, about 51-76 mg H2O per gram regolith, published in *The Innovation* [20].
+Hydrogen reduction of ilmenite at about 1,000 C yields metallic Fe, TiO2 slag, and H₂O. Water is electrolyzed to recycle H₂, and oxygen supplements life support. TiO2 slag can then be lithium-reduced to Ti-Si alloy and electrorefined to metallic Ti [12]. A Ningbo Institute team found ilmenite has the highest hydrogen content among Chang'e-5 regolith minerals. At high temperature, hydrogen reacts with iron oxides to produce metallic iron and significant water, about 51-76 mg H₂O per gram regolith, published in *The Innovation* [20].
 
 **Route 2: FFC Cambridge Molten-Salt Electrolysis (Long-Term Route)**
 
@@ -131,17 +131,17 @@ Local lunar carbon mainly comes from four sources:
 
 Carbonaceous-chondrite impact residues are distributed across lunar surface. CI-type carbonaceous chondrites are rich in carbon (about 3%-5%) and water (about 3%-22%) [Main Volume II references 2.12-2.13]. In 2021, Chinese researchers identified million-year-scale carbonaceous impact residues on the lunar surface using Chang'e-4 imagery and spectral data; hyperspectral imaging indicated high-concentration (47%) carbonaceous material. Results were published in *Nature Astronomy* [15]. Heating collected residues in sealed chambers to about 600-1,000 C pyrolyzes organics and carbonates, releasing $CO_2$, $CH_4$, and $H_2O$. Lunar volatile separation and purification can use lunar-night low-temperature condensation, achieving >90% volatile recovery and >99% purity [19].
 
-**(b) Polar CO2 cold traps**
+**(b) Polar CO₂ cold traps**
 
-Schorghofer and Williams (2021) first confirmed polar CO2 cold traps using LRO data, total area about 200 km2 [13]. Collected CO2 is converted to methane through Sabatier reaction as FCCVD carbon feedstock. This route scale depends on reserve confirmation by Volume I Mission Groups II/III.
+Schorghofer and Williams (2021) first confirmed polar CO₂ cold traps using LRO data, total area about 200 km2 [13]. Collected CO₂ is converted to methane through Sabatier reaction as FCCVD carbon feedstock. This route scale depends on reserve confirmation by Volume I Mission Groups II/III.
 
 **(c) Solar-wind implanted volatiles**
 
-Solar-wind H/He/C/N ions are implanted into near-surface regolith grains over long timescales. Fine regolith (<1 mm) heated to about 700 C can release these volatiles: H (for H2 production/reductant), He-3 (long-term fusion reserve), and C/N (CNT carbon source and life-support nitrogen supplement).
+Solar-wind H/He/C/N ions are implanted into near-surface regolith grains over long timescales. Fine regolith (<1 mm) heated to about 700 C can release these volatiles: H (for H₂ production/reductant), He-3 (long-term fusion reserve), and C/N (CNT carbon source and life-support nitrogen supplement).
 
 **(d) Asteroid-derived carbon capture (long-term main source)**
 
-After capture of C-type asteroids and transfer to cislunar space, in-orbit pyrolysis extracts hydrocarbons that are chemically converted and supplied to lunar CNT plants. This route is handled in Main Volume II Section 2.5.6 and is long-term primary carbon source for large-scale CNT production. In Stages 1-2, carbonaceous residues and polar CO2 cold traps are supplementary sources.
+After capture of C-type asteroids and transfer to cislunar space, in-orbit pyrolysis extracts hydrocarbons that are chemically converted and supplied to lunar CNT plants. This route is handled in Main Volume II Section 2.5.6 and is long-term primary carbon source for large-scale CNT production. In Stages 1-2, carbonaceous residues and polar CO₂ cold traps are supplementary sources.
 
 #### 5.2.4 Sulfur Sources
 
@@ -195,16 +195,16 @@ Before specific process design, this section builds full material balance from V
 | No. | Feedstock | Source | Intermediate | Final Product | Use | Capacity Node |
 |:---:|:---|:---|:---|:---|:---|:---|
 | 1 | Regolith (surface plagioclase fraction) | Volume IV aggregate pits | Al2O3-rich mixed oxides | Al metal (>=85% purity) | Structural Al alloys; reducing agent loop | Same stage as Fe output |
-| 2 | Ilmenite concentrate | Volume IV metallic-mineral pits + magnetic separation | Fe metal + TiO2 slag + H2O | Fe ingots (>=90%); Ti metal (Stage 3) | Structural, CNT catalyst, oxygen route | P2-F1 |
-| 3 | Ilmenite concentrate + H2 | Same as above + water electrolysis | $H_2O + Fe + TiO_2$ | $O_2 + Fe + Ti$ | Life support, catalyst precursor | Synchronous with Fe output |
+| 2 | Ilmenite concentrate | Volume IV metallic-mineral pits + magnetic separation | Fe metal + TiO2 slag + H₂O | Fe ingots (>=90%); Ti metal (Stage 3) | Structural, CNT catalyst, oxygen route | P2-F1 |
+| 3 | Ilmenite concentrate + H₂ | Same as above + water electrolysis | $H_2O + Fe + TiO_2$ | $O_2 + Fe + Ti$ | Life support, catalyst precursor | Synchronous with Fe output |
 | 4 | Carbonaceous-chondrite residues | Surface collection | $CO_2 + CH_4 + H_2O$ | $CH_4$ (via Sabatier) | CNT carbon source; life-support carbon loop | P1-F3 |
-| 5 | Polar CO2 cold traps | Polar PSRs | $CO_2$ | $CH_4$ (via Sabatier) | Same as above | Reserve confirmation pending Volume I |
+| 5 | Polar CO₂ cold traps | Polar PSRs | $CO_2$ | $CH_4$ (via Sabatier) | Same as above | Reserve confirmation pending Volume I |
 | 6 | C-type asteroid carbon source | Asteroid capture and transfer | Hydrocarbon mixed gas | $CH_4$, $H_2$ | Main CNT carbon source (Stage 3) | Main Volume II |
-| 7 | Mare basalt regolith | Volume IV metallic-mineral pits | H2S, steam | Sulfur, H2 | Regolith-concrete binder; oxygen route | P1-F2 |
+| 7 | Mare basalt regolith | Volume IV metallic-mineral pits | H₂S, steam | Sulfur, H₂ | Regolith-concrete binder; oxygen route | P1-F2 |
 | 8 | Troilite | Regolith magnetic-separation tailings | $SO_2 + H_2SO_4$ | Sulfuric acid + Fe + Si + O | Mineral dissolution, metal extraction, materials | Stage 3 |
-| 9 | Water ice | Volume IV ice mining fields | $H_2 + O_2$ | H2, O2, H2O | Propellant, life support, CNT conversion | P1-R1 |
+| 9 | Water ice | Volume IV ice mining fields | $H_2 + O_2$ | H₂, O2, H₂O | Propellant, life support, CNT conversion | P1-R1 |
 | 10 | Initial Al ingots | Earth launch (first 500 kg only) | - | - | Startup reductant for aluminothermic loop | Stage 1 |
-| 11 | Fine surface regolith | Fine-screening output from Volume IV aggregate pits | Nano $TiO_2$ + nano Fe particles | Photocatalyst | Water splitting for H2; $CO_2$ reduction to fuel | Stage 3 |
+| 11 | Fine surface regolith | Fine-screening output from Volume IV aggregate pits | Nano $TiO_2$ + nano Fe particles | Photocatalyst | Water splitting for H₂; $CO_2$ reduction to fuel | Stage 3 |
 
 
 ### 5.4 Cascaded Feedstock Sorting and Full-Component Utilization
@@ -219,7 +219,7 @@ Regolith from Volume IV aggregate pits is divided into three fractions after cru
 |:---|:---|:---|:---|:---|
 | **Coarse** | 10-50 mm | Basalt fragments, plagioclase fragments, breccia | (i) Plagioclase-rich fragments -> anorthite Al feedstock for molten-salt electrolysis; (ii) ilmenite-rich fragments -> crushed and routed to magnetic separation; (iii) residual -> construction aggregate | Machine vision + online LIBS sorting |
 | **Medium** | 1-10 mm | Plagioclase, pyroxene, ilmenite, glassy phase | (i) ilmenite grains -> magnetic concentration; (ii) ilmenite+glassy grains -> hydrogen-reduction oxygen + Fe route; (iii) residual -> sintered-brick skeleton grains | High-gradient magnetic separation + electrostatic sorting |
-| **Fine** | <1 mm | Powdered plagioclase, pyroxene, glassy phase, np-Fe, fine ilmenite | (i) np-Fe-rich part -> catalyst precursor (direct use after ball milling); (ii) fine ilmenite -> hydrogen-reduction oxygen route; (iii) nano $TiO_2$ + nano Fe -> photocatalyst (H2 production by water splitting). Xinjiang-based teams have prepared fiber photocatalysts from regolith with in-situ rutile TiO2 and Fe nanoparticles, enabling efficient organic degradation by dual mechanisms [16]; (iv) fines with implanted solar-wind H/He -> volatile release by heating; (v) residual -> 3D-print powder-bed feedstock | Electrostatic traveling-wave screening (<100 um precision) + magnetic separation |
+| **Fine** | <1 mm | Powdered plagioclase, pyroxene, glassy phase, np-Fe, fine ilmenite | (i) np-Fe-rich part -> catalyst precursor (direct use after ball milling); (ii) fine ilmenite -> hydrogen-reduction oxygen route; (iii) nano $TiO_2$ + nano Fe -> photocatalyst (H₂ production by water splitting). Xinjiang-based teams have prepared fiber photocatalysts from regolith with in-situ rutile TiO2 and Fe nanoparticles, enabling efficient organic degradation by dual mechanisms [16]; (iv) fines with implanted solar-wind H/He -> volatile release by heating; (v) residual -> 3D-print powder-bed feedstock | Electrostatic traveling-wave screening (<100 um precision) + magnetic separation |
 
 #### 5.4.2 Full-Component Utilization Flow
 
@@ -240,7 +240,7 @@ Raw regolith ore (Volume IV mining fields)
         |
         |-- Medium fraction (1-10 mm) --> high-gradient magnetic separation
         |                                  |-- magnetic fraction (ilmenite + metallic Fe) --> concentrate storage
-        |                                  |      |-- hydrogen reduction --> Fe ingot + H2O + TiO2 slag
+        |                                  |      |-- hydrogen reduction --> Fe ingot + H₂O + TiO2 slag
         |                                  |      |-- aluminothermic reduction --> Al-Si-Ti-Fe alloy
         |                                  |      '-- FFC electrolysis --> pure Fe
         |                                  '-- nonmagnetic fraction --> sintered-brick skeleton grains
@@ -252,7 +252,7 @@ Raw regolith ore (Volume IV mining fields)
                   |-- np-Fe enriched phase --> ball milling --> CNT catalyst precursor
                   |
                   |-- fines with solar-wind H/He --> thermal volatile release
-                  |      |-- H2 --> reductant, fuel
+                  |      |-- H₂ --> reductant, fuel
                   |      |-- He-3 --> long-term fusion reserve
                   |      '-- C, N --> CNT carbon source, life-support supplement
                   |
@@ -384,7 +384,7 @@ For each batch (~1 t), sample compressive strength (target >=20 MPa). After 100 
 
 - **Furnace type**: sealed reduction furnace (non-arc), reducing ilmenite at about 1,000 C with hydrogen, >=50 kg per batch [20].
 - **Heating mode**: high-temperature extraction steam (500-750 C) from Volume III Section 3.5.7 as auxiliary heating, with electrical boost to target temperature.
-- **Reaction**: $FeTiO_3 + H_2 -> Fe + TiO_2 + H_2O$. Steam is condensed and water is electrolyzed to regenerate H2.
+- **Reaction**: $FeTiO_3 + H_2 -> Fe + TiO_2 + H_2O$. Steam is condensed and water is electrolyzed to regenerate H₂.
 - **Batch cycle**: about 3-5 h (heat-up + reduction + cool-down).
 - **Products**: Fe ingots (>=90% purity, see Volume II P2-M1) and TiO2 slag (stored for Stage 3 Ti extraction).
 - **Lunar adaptability**: ultrahigh lunar vacuum ($10^{-12}$ bar) provides favorable non-equilibrium thermodynamic condition. Vacuum pumping maintains very low oxygen partial pressure and continuously removes steam byproduct, shifting equilibrium toward metallic Fe by Le Chatelier principle. Furnace remains fully sealed; hydrogen runs in closed loop.
@@ -392,7 +392,7 @@ For each batch (~1 t), sample compressive strength (target >=20 MPa). After 100 
 **(c) Energy and mass assessment**
 
 - **Reduction-furnace power**: about 30-50 kWe (single unit).
-- **Reduction-furnace mass**: <=3,000 kg including vessel, heaters, H2 recirculation system.
+- **Reduction-furnace mass**: <=3,000 kg including vessel, heaters, H₂ recirculation system.
 - **Monthly electricity**: for 500 kg/month Fe output, about 10-20 batches/month (50 kg each), total 1,500-6,000 kWh/month, <3% of Infrastructure Phase II monthly generation.
 - **Slag handling**: $TiO_2$ slag stored for Stage 3 lithium reduction or FFC electrolysis for Ti extraction [12].
 
@@ -416,16 +416,16 @@ Note: Stage 1 is primarily for satisfying Volume II P1-M4 criteria, with only 10
 
 **(a) Process principle**
 
-Inherit basic lunar FCCVD principle validated in Volume I P0-M2: use local catalyst (Fe-Ni particles from Section 5.6.4 or direct magnetic concentrate product) and carbon-source gas (pyrolysis gas from carbonaceous residues or CO2 from cold traps, Section 5.2.3) to grow CNT yarn in micro FCCVD reactors. JAXA has demonstrated in-situ CVD growth on lunar simulant particles [1], confirming methane-fed direct synthesis feasibility. Natural SWCNT discovery in Chang'e-6 regolith provides environmental analog support [2]. Lab CNT fibers have reached dynamic strength up to 14 GPa [4].
+Inherit basic lunar FCCVD principle validated in Volume I P0-M2: use local catalyst (Fe-Ni particles from Section 5.6.4 or direct magnetic concentrate product) and carbon-source gas (pyrolysis gas from carbonaceous residues or CO₂ from cold traps, Section 5.2.3) to grow CNT yarn in micro FCCVD reactors. JAXA has demonstrated in-situ CVD growth on lunar simulant particles [1], confirming methane-fed direct synthesis feasibility. Natural SWCNT discovery in Chang'e-6 regolith provides environmental analog support [2]. Lab CNT fibers have reached dynamic strength up to 14 GPa [4].
 
 **(b) Equipment configuration**
 
 | Equipment | Power | Mass | Notes |
 |:-----|:-----|:-----|:-----|
-| Micro FCCVD reactor (1-2 units) | <=1 kW/unit | <=200 kg/unit | 600-1,200 C operation; carbon source methane or CO/H2 mix [1]. Lunar vacuum is advantageous; no bulky high-capacity vacuum pumping needed. Use micro-pump only for pre-run chamber cleanup, then maintain controlled gas flow/pressure during reaction |
+| Micro FCCVD reactor (1-2 units) | <=1 kW/unit | <=200 kg/unit | 600-1,200 C operation; carbon source methane or CO/H₂ mix [1]. Lunar vacuum is advantageous; no bulky high-capacity vacuum pumping needed. Use micro-pump only for pre-run chamber cleanup, then maintain controlled gas flow/pressure during reaction |
 | Online Raman monitor | <=0.5 kW | <=50 kg | Real-time product quality monitoring (graphitization/defect peak intensity) with feedback control [3] |
 | Yarn pre-weaving machine | <=2 kW | <=300 kg | Parallel alignment + interval bundling (per Main Volume VI Section 6.6.1), continuous pre-woven cable length >=1 km. At 1/6 g, winding tension control needs precise sensors and control to compensate changed catenary behavior |
-| Carbon-source gas preparation system | <=3 kW | <=500 kg | Carbonaceous-residue pyrolysis + Sabatier conversion from CO2 to methane [15][19] |
+| Carbon-source gas preparation system | <=3 kW | <=500 kg | Carbonaceous-residue pyrolysis + Sabatier conversion from CO₂ to methane [15][19] |
 
 **(c) Catalyst supply routes (Stage 1)**
 
@@ -445,7 +445,7 @@ Inherit basic lunar FCCVD principle validated in Volume I P0-M2: use local catal
 Stage 2 expands Stage 1 micro reactors into parallel industrial reactors and upgrades:
 
 - **Catalyst supply**: from simple mechanical size reduction to hydrometallurgical purification (acid leaching/hydrogen reduction), raising Fe-Ni purity to >=99%.
-- **Carbon supply**: add larger CO2 cold-trap intake on top of carbonaceous-residue source; reserve interface for asteroid-derived carbon feed [13].
+- **Carbon supply**: add larger CO₂ cold-trap intake on top of carbonaceous-residue source; reserve interface for asteroid-derived carbon feed [13].
 - **Heating mode**: switch primary heat to high-temperature extraction steam from Volume III Section 3.5.7 (500-750 C); retain electric heating for precision control only, reducing unit electric intensity of CNT output.
 - **Online QC**: install Raman monitor at each reactor outlet for feedback control [3].
 
@@ -486,7 +486,7 @@ Batches meeting main-volume requirements are transported to GEO ring-constructio
 | Regolith concrete line | 1 set | <=3,000 kg | <=3,000 kg | Includes sulfur extraction, mixing, casting [14] |
 | DC arc furnace (with EMS) | 1 | <=5,000 kg | <=5,000 kg | Includes vessel, transformer, electrodes, EMS coils |
 | Al electrolysis cell | 1 | <=3,000 kg | <=3,000 kg | Includes vessel, electrodes, electrolyte [10][11] |
-| Fe reduction furnace | 1 | <=3,000 kg | <=3,000 kg | Includes vessel, heaters, H2 circulation [20] |
+| Fe reduction furnace | 1 | <=3,000 kg | <=3,000 kg | Includes vessel, heaters, H₂ circulation [20] |
 | Sealed ball mill | 1 | <=600 kg | <=600 kg | Catalyst precursor milling |
 | Micro FCCVD reactor | 2 | <=200 kg each | <=400 kg | [1] |
 | Online Raman monitor | 1 | <=50 kg | <=50 kg | [3] |
@@ -621,7 +621,7 @@ In strong/high-gradient fields, magnetic particles can form **magnetic agglomera
 
 This volume completes integrated planning for the lunar manufacturing system. Key contributions:
 
-1. **First complete closure of full-chain material balance.** Section 5.2 fully traces source and destination paths for eleven key elements and intermediates: Al (regolith plagioclase -> aluminothermic/molten-salt electrolysis), Ti (ilmenite concentrate -> hydrogen reduction/lithium reduction -> Ti-Si alloy -> electrorefining -> Ti), Fe (ilmenite -> hydrogen reduction/FFC electrolysis), C (carbonaceous residues + polar CO2 cold traps + solar-wind volatiles + asteroid carbon -> pyrolysis/Sabatier -> methane), S (troilite -> thermal decomposition/SSAP), Si (regolith $SiO_2$ -> aluminothermic byproduct), O (aluminothermic byproduct + ilmenite hydrogen-reduction byproduct + molten-salt electrolysis anode), eliminating the where-does-Al-come-from logic gap.
+1. **First complete closure of full-chain material balance.** Section 5.2 fully traces source and destination paths for eleven key elements and intermediates: Al (regolith plagioclase -> aluminothermic/molten-salt electrolysis), Ti (ilmenite concentrate -> hydrogen reduction/lithium reduction -> Ti-Si alloy -> electrorefining -> Ti), Fe (ilmenite -> hydrogen reduction/FFC electrolysis), C (carbonaceous residues + polar CO₂ cold traps + solar-wind volatiles + asteroid carbon -> pyrolysis/Sabatier -> methane), S (troilite -> thermal decomposition/SSAP), Si (regolith $SiO_2$ -> aluminothermic byproduct), O (aluminothermic byproduct + ilmenite hydrogen-reduction byproduct + molten-salt electrolysis anode), eliminating the where-does-Al-come-from logic gap.
 
 2. **Systematic environmental adaptability assessment for lunar manufacturing.** Section 5.9 evaluates vacuum requirements for gas-product management, low-gravity effects on slag-metal separation and bulk handling, potential product-quality risks from magnetic separation, and coupled high-temperature/magnetic-field effects in slag-metal separation. EMS four-step refining can raise separation efficiency from <30% to >90%. Lunar dry magnetic separation shows no intrinsic quality penalty, and natural Fe-Ni catalyst precursor particles can have cleaner surfaces than terrestrial analogs.
 

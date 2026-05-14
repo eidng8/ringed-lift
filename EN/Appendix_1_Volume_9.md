@@ -96,7 +96,7 @@ Based on equipment lists, staffing configurations, and infrastructure requiremen
 
 | Investment Item | Amount (100 million RMB) | Description | Source Volume |
 |:-----|:-----:|:-----|:-----|
-| Thermal-electric-light co-generation hub, Phase I + II | 5,000-8,000 | Heliostat array + s-CO2 turbines + molten-salt storage + splitters + light conduits | Volume III Section 3.5 |
+| Thermal-electric-light co-generation hub, Phase I + II | 5,000-8,000 | Heliostat array + s-CO₂ turbines + molten-salt storage + splitters + light conduits | Volume III Section 3.5 |
 | Transmission and distribution expansion | 1,000-2,000 | HVDC trunk lines + ring bus + reserved superconducting upgrade | Volume III Section 3.4 |
 | Scaled mining-system expansion | 1,000-2,000 | Multiple drills + large excavation rovers + rail cargo system | Volume IV Sections 4.8-4.10 |
 | Construction-material line expansion | 300-500 | Brick and concrete lines expanded to >=2,000 blocks/day | Volume V Section 5.5 |
@@ -190,7 +190,7 @@ CNT cables are the core strategic product of lunar industry. According to multip
 
 Competitive advantages of lunar CNT cables:
 
-- **Closed-loop local carbon feedstock**: residual carbonaceous chondritic material on lunar surface, polar CO2 cold traps, and long-term asteroid carbon capture reduce carbon-feedstock cost by one to two orders of magnitude versus Earth launch.
+- **Closed-loop local carbon feedstock**: residual carbonaceous chondritic material on lunar surface, polar CO₂ cold traps, and long-term asteroid carbon capture reduce carbon-feedstock cost by one to two orders of magnitude versus Earth launch.
 - **Low-gravity manufacturing advantage**: under lunar 1/6 gravity, buoyancy-driven convection in FCCVD reactions is weaker, potentially improving CNT alignment quality versus Earth products.
 - **Strategic irreplaceability**: the ring-elevator project is the largest customer, annual demand at tens-of-thousands-ton scale, and the Moon is the only site with potential for large-scale supply.
 
@@ -292,7 +292,7 @@ Global space economy reached 613 billion USD in 2025, with 78% from commercial a
 
 - **Sovereign funds and multilateral banks**: receive senior repayment rights; annual yield benchmark around SDR +1.5%; recovery horizon 20-30 years.
 - **Corporate equity investors**: receive operating-profit dividends proportional to contribution; exit via public listing or negotiated transfer after 30 years.
-- **Green funds and carbon-credit participants**: returns tied to quantified carbon reduction from replacing terrestrial fossil generation with space solar power, around 200-400 RMB per ton CO2 equivalent.
+- **Green funds and carbon-credit participants**: returns tied to quantified carbon reduction from replacing terrestrial fossil generation with space solar power, around 200-400 RMB per ton CO₂ equivalent.
 - **Bond investors**: project bonds secured by future cash flows from specific revenue streams, electricity sales and CNT exports.
 
 #### 9.5.3 Insurance Mechanism
@@ -353,7 +353,7 @@ Largest cislunar market opportunities are transport, infrastructure, habitats, a
 
 | Component | Function | Expected Scale |
 |:-----|:-----|:-----|
-| **Lunar industrial park** | Manufacturing and export of energy, solar power, materials, CNT and metals, and propellants, LH2/LOX | Annual output value 100-200 billion RMB |
+| **Lunar industrial park** | Manufacturing and export of energy, solar power, materials, CNT and metals, and propellants, LH₂/LOX | Annual output value 100-200 billion RMB |
 | **GEO ring elevator and associated facilities** | Space-solar relay, deep-space launch homeport, in-orbit manufacturing platforms, orbital tourism and habitation | Annual output value 100-200 billion RMB, estimated in Main Volume X |
 | **Earth-Moon transport corridor** | Scheduled logistics Moon to GEO and GEO to LEO, asteroid towing | Annual freight throughput at ten-thousand-ton scale |
 | **Deep-space exploration frontier** | Exploration and development of Mars, asteroid belt, and farther bodies, with Moon as supply base | Long term |
@@ -365,7 +365,7 @@ Lunar-industry feedback to Earth is not limited to profit distribution. Major pa
 - **Lower energy prices**: large-scale integration of space-solar baseload, carbon-free and non-intermittent, can reduce long-term equilibrium electricity prices worldwide, with deep impacts on energy-intensive sectors such as metallurgy, chemicals, and data centers. UK government research already places 2040 space-solar LCOE in competition range with nuclear and tidal [1].
 - **Revolution in cost-to-orbit and beyond**: lunar-supplied propellant can reduce delta-v cost for deep-space missions by 60%-80%, directly catalyzing downstream sectors such as asteroid mining, deep-space science, and Mars settlement.
 - **Technology spillover**: lunar ISRU, low-gravity manufacturing, and closed ecological systems feed back into terrestrial applications, especially resource recovery in arid regions, urban vertical farming, and closed-environment control.
-- **Carbon reduction**: each 1 GW of space-solar replacing coal can reduce about 5-8 million tons CO2 annually. At 500 GW installed, annual reduction is about 2.5-4.0 billion tons CO2, roughly 7%-10% of current global emissions.
+- **Carbon reduction**: each 1 GW of space-solar replacing coal can reduce about 5-8 million tons CO₂ annually. At 500 GW installed, annual reduction is about 2.5-4.0 billion tons CO₂, roughly 7%-10% of current global emissions.
 - **Strategic resource security**: if helium-3 commercialization succeeds, Earth gains effectively unlimited clean fusion fuel.
 
 

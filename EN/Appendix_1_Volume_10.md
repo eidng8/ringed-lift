@@ -93,7 +93,7 @@ In no-ring scenarios, power export can use two independent transmission paths: (
 
 Global CNT market remains niche in absolute size (about RMB 4.7 billion in 2024), but growth is strong, expected to reach about RMB 31.84 billion by 2031 with CAGR ~34.3% [4]. Annual global CNT sales exceed ten-thousand-ton scale (about 10,836 tons in 2024), with average market price around $60,200/kg [5]. Demand growth is driven primarily by energy storage markets (conductive additives for lithium batteries) [6].
 
-Lunar CNT cost advantage comes from local carbon feedstocks (surface carbonaceous-chondrite residues + polar CO2 cold traps), reducing carbon feedstock cost by 1-2 orders of magnitude relative to Earth launch.
+Lunar CNT cost advantage comes from local carbon feedstocks (surface carbonaceous-chondrite residues + polar CO₂ cold traps), reducing carbon feedstock cost by 1-2 orders of magnitude relative to Earth launch.
 
 Under no-ring scenarios, lunar CNT exports target three market classes:
 
@@ -107,7 +107,7 @@ Note: >90% of current global CNT shipments are MWCNT. SWCNT has much higher aver
 
 **(c) Dimension 3: Deep-space propellant supply, a uniquely lunar strategic asset**
 
-A lunar market assessment completed by PwC for ESA estimates ISRU-related market revenue could reach about EUR 142 billion by 2040, with ~99% of value linked to rocket propellant production [7]. Polar water-ice resources make lunar LH2/LOX production feasible. Spacecraft refueled in lunar orbit and departing from the lunar gravity well (~1/20 Earth depth) save 60%-80% of required Delta-v compared with direct Earth departure.
+A lunar market assessment completed by PwC for ESA estimates ISRU-related market revenue could reach about EUR 142 billion by 2040, with ~99% of value linked to rocket propellant production [7]. Polar water-ice resources make lunar LH₂/LOX production feasible. Spacecraft refueled in lunar orbit and departing from the lunar gravity well (~1/20 Earth depth) save 60%-80% of required Delta-v compared with direct Earth departure.
 
 This revenue stream is strategically rigid: deep-space missions planned this century by NASA, ESA, China, and others (Mars sample return, asteroid-belt exploration, Europa missions) have hard demand for lower-cost deep-space propellant.
 
@@ -173,7 +173,7 @@ Microgravity biomanufacturing is currently small (~$81.47M globally in 2025 [11]
 
 Once lunar industrial infrastructure is fully established, lunar energy/mining can serve not just local demand but become the core supply side of the Earth-Moon economy.
 
-**Space solar power**: annual sunlight rate above 90% at lunar polar zones, with no atmospheric attenuation, AM0 solar constant 1,361 W/m2, ~36% higher incident energy density than Earth's surface conditions. With scaled heliostat arrays and supercritical CO2 Brayton generation systems, lunar power export can become the largest single energy trade flow in cislunar economy. 2026 market research indicates a space PV growth inflection, with projected global installations of 413/1,426/4,277 MW in 2026/2027/2028 [15].
+**Space solar power**: annual sunlight rate above 90% at lunar polar zones, with no atmospheric attenuation, AM0 solar constant 1,361 W/m2, ~36% higher incident energy density than Earth's surface conditions. With scaled heliostat arrays and supercritical CO₂ Brayton generation systems, lunar power export can become the largest single energy trade flow in cislunar economy. 2026 market research indicates a space PV growth inflection, with projected global installations of 413/1,426/4,277 MW in 2026/2027/2028 [15].
 
 **Helium-3**: estimated lunar regolith inventory of solar-wind implanted He-3 is about 1-5 million tons (broad synthesized estimate range; see Main Volume II Section 2.5.2 for resource details), while known Earth inventory is ~0.5 ton. One ton of He-3 fusion releases about 1.9x10^14 kJ thermal energy (roughly equivalent to burning 20 million tons of standard coal), with near-zero radioactive waste products. Global nuclear-battery market is about $8.15B in 2025 and projected $11.64B by 2030 [16]. If D-He3 fusion matures, He-3 may become one of the highest-value commodities on Earth.
 
@@ -211,7 +211,7 @@ Note: ultra-high-energy neutrino detection and proton-decay search entries are p
 
 **(d) Lunar deep-space exploration outpost**
 
-Lunar industrial base is naturally the ideal jump-off hub for deep-space missions. Delta-v from Moon to Earth escape is about 2.5 km/s (versus 11.2 km/s from Earth surface and 3.2 km/s from LEO), and the Moon can supply locally produced propellant (LH2/LOX), locally manufactured structural components, and locally produced spare parts. Both NASA Artemis and China's ILRS planning position the Moon as a "deep-space gateway." A fully industrialized lunar base is the ultimate implementation of that gateway vision.
+Lunar industrial base is naturally the ideal jump-off hub for deep-space missions. Delta-v from Moon to Earth escape is about 2.5 km/s (versus 11.2 km/s from Earth surface and 3.2 km/s from LEO), and the Moon can supply locally produced propellant (LH₂/LOX), locally manufactured structural components, and locally produced spare parts. Both NASA Artemis and China's ILRS planning position the Moon as a "deep-space gateway." A fully industrialized lunar base is the ultimate implementation of that gateway vision.
 
 
 ### 10.4 Timeline Alignment and Coordination Window

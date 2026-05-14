@@ -14,7 +14,7 @@
 |------|----------|------|
 | CELSS | Closed Ecological Life Support System | Self-circulating life-support system for long-duration crewed residence |
 | CFRP | Carbon Fiber Reinforced Polymer | Structural reinforcement material for cave-wall sealing layers |
-| CO2 | Carbon dioxide | Feedstock for Sabatier reaction and working fluid for supercritical CO2 Brayton cycle |
+| CO₂ | Carbon dioxide | Feedstock for Sabatier reaction and working fluid for supercritical CO₂ Brayton cycle |
 | C/SiC | Silicon-carbide-fiber-reinforced composite | Mirror substrate material with near-zero thermal expansion |
 | EVA | Extravehicular activity | Astronaut operations outside the vehicle on the lunar surface or in space |
 | GCR | Galactic cosmic rays | High-energy particle radiation from outside the Solar System; long-term health risk for astronauts |
@@ -28,7 +28,7 @@
 | PE | Polyethylene | High-density polyethylene used as radiation moderation/absorption layer |
 | PSR | Permanently shadowed region | Polar regions with no year-round sunlight; primary candidate zones for water-ice presence |
 | RHU | Radioisotope heating unit | Device using radioactive decay heat to keep equipment warm |
-| Sabatier | Sabatier reaction | Chemical reaction converting CO2 and H2 into CH4 and H2O for life-support carbon-loop closure |
+| Sabatier | Sabatier reaction | Chemical reaction converting CO₂ and H₂ into CH₄ and H₂O for life-support carbon-loop closure |
 | SPE | Solar particle event | High-energy particle burst from solar eruptions; acute radiation threat to astronauts |
 | SPA Basin | South Pole-Aitken Basin | Largest and oldest impact basin on the Moon, located in the south-polar region |
 | SPUA | Spray polyurea elastomer | High-elasticity waterproof coating used for sealing cave-wall microcracks |
@@ -107,7 +107,7 @@ Based on Volume I Mission Groups I/II survey data and public outputs from global
 **(e) Philolaus crater polar lava tubes (north polar region, about 73 deg N, 32 deg W) [polar underground path, inclusion condition: P0-M6 confirmed yes, plus Mission Group II/III confirmation that interior geometry satisfies criterion a]**
 
 - Overview: SETI analyses of LRO imagery identified multiple candidate skylights in Philolaus (north polar region), interpreted as direct evidence of polar lava tubes. LEAPS concept studies indicate such high-latitude tube interiors may preserve water ice in permanent shadow [4,5]. This candidate is already included in Volume I Mission Group I target list for systematic polar lava-tube survey.
-- Key strengths: **unique combined advantages of polar underground siting**. If confirmed to satisfy all metrics in Volume I Section 1.3 criterion a, this would be the only site simultaneously meeting three conditions: polar near-continuous solar access, natural underground protection, and potential local water-ice resources. Energy conditions outperform mid/low-latitude tubes because near-continuous light reduces storage burden; radiation/thermal conditions outperform polar surface sites through natural rock shielding and stable temperatures. Nearby polar CO2 cold traps [11] can also supplement local carbon feedstock for CNT manufacturing.
+- Key strengths: **unique combined advantages of polar underground siting**. If confirmed to satisfy all metrics in Volume I Section 1.3 criterion a, this would be the only site simultaneously meeting three conditions: polar near-continuous solar access, natural underground protection, and potential local water-ice resources. Energy conditions outperform mid/low-latitude tubes because near-continuous light reduces storage burden; radiation/thermal conditions outperform polar surface sites through natural rock shielding and stable temperatures. Nearby polar CO₂ cold traps [11] can also supplement local carbon feedstock for CNT manufacturing.
 - Key weaknesses: current evidence is still preliminary, based on candidate skylights in LRO imagery, far below engineering-confirmed status. Core metrics, roof thickness, interior width, skylight inclination, all require in-situ confirmation by Volume I Mission Groups II/III. Surface distance to likely ice-rich PSRs remains unverified. Polar construction windows are constrained by local day/night cycles.
 - **Prerequisite**: activation requires P0-level confirmation from Mission Group II GPR and flyover probe data at Philolaus skylights. If final P0-M6 confirmation target is Philolaus, its strategic priority exceeds Marius Hills.
 
@@ -208,7 +208,7 @@ In contrast, **the tens-of-kilometers region around Shackleton within SPA terrai
 
 - **Volcanic evidence**: SPA is the Moon's largest and oldest impact basin and underwent major melt and post-impact volcanic processes. Multiple small mare-basalt patches in and near SPA margins provide the geologic preconditions for lava-tube formation.
 - **Combined sunlight + underground advantage**: if a criterion-a-qualified accessible lava tube is found within tens of kilometers around Shackleton, a novel integrated configuration becomes possible, **surface/skylight facilities in near-continuous-light zones for stable solar access, with major habitation and industrial zones inside tube interiors below skylights for natural radiation/meteoroid protection and stable thermal conditions**. This combination can simultaneously score high in energy, safety, and logistics, outperforming any single-option site in current model.
-- **Order-of-magnitude logistics advantage**: for underground bases within only tens of kilometers from Shackleton, access to polar water ice, polar solar power, and CO2 cold-trap carbon feedstock can be serviced by short-range rovers/light rail, avoiding thousands-of-kilometers equator-to-pole transport. Compared with Marius Hills (>3,000 km from polar water-ice/solar hubs), logistics cost can be reduced by at least one order of magnitude.
+- **Order-of-magnitude logistics advantage**: for underground bases within only tens of kilometers from Shackleton, access to polar water ice, polar solar power, and CO₂ cold-trap carbon feedstock can be serviced by short-range rovers/light rail, avoiding thousands-of-kilometers equator-to-pole transport. Compared with Marius Hills (>3,000 km from polar water-ice/solar hubs), logistics cost can be reduced by at least one order of magnitude.
 
 The significance of this priority update is that lunar siting moves from a forced choice between surface and underground to a combined optimization problem that seeks their best synergy point, and the Shackleton-vicinity near-continuous-light plus underground combination is the strongest candidate for that synergy.
 
@@ -261,7 +261,7 @@ In early surface-base phases, use a hybrid mode of pre-deployed modules plus in-
 **(c) Life-support center**
 
 - Deployment: independent module adjacent to habitation units for centralized management and maintenance.
-- Core systems: water-recovery system, urine and condensate, >=98% recovery; O2/N2 separation and storage; CO2 reduction via Sabatier reactor converting CO2 and H2 to CH4 and H2O for carbon-loop closure; trace-contaminant monitoring/removal using activated carbon plus catalytic oxidation.
+- Core systems: water-recovery system, urine and condensate, >=98% recovery; O2/N₂ separation and storage; CO₂ reduction via Sabatier reactor converting CO₂ and H₂ to CH₄ and H₂O for carbon-loop closure; trace-contaminant monitoring/removal using activated carbon plus catalytic oxidation.
 - Biological supplement: algal photobioreactor, >=10 m2 culture area, provides supplemental oxygen and food.
 - **Automation requirement**: fully autonomous operation through entire lunar-night periods, real-time adjustment based on crew activity and equipment state; fault isolation and redundant-channel startup within 30 s under anomalies.
 
@@ -384,11 +384,11 @@ Skylights are the only physical connection between underground bases and surface
 
 ### 2.5 Long-Term Underground Energy Hub: Thermal-Electric-Light Co-Generation Overview
 
-This section provides a long-term outlook, activated after Stage III industrialization, introducing an integrated **thermal-electric-light co-generation hub** that unifies solar capture, supercritical CO2 generation, industrial process heating, and underground illumination. Detailed subsystem engineering is developed in Volume III, Energy System, Volume IV, Water-Ice Extraction and Energy Synergy, Volume V, Industrial Heat Demand, and Volume VII, Habitation Lighting.
+This section provides a long-term outlook, activated after Stage III industrialization, introducing an integrated **thermal-electric-light co-generation hub** that unifies solar capture, supercritical CO₂ generation, industrial process heating, and underground illumination. Detailed subsystem engineering is developed in Volume III, Energy System, Volume IV, Water-Ice Extraction and Energy Synergy, Volume V, Industrial Heat Demand, and Volume VII, Habitation Lighting.
 
 #### 2.5.1 Overall Concept
 
-In conventional designs, underground power, thermal control, and lighting are independent systems: PV supplies electricity, heat pumps provide thermal control, and LED arrays provide lighting. The co-generation hub integrates all three into one unified architecture: large surface heliostat arrays as common optical-thermal front end; supercritical thermal storage plus supercritical CO2 Brayton cycle as common conversion/storage core; and allocation principle of electricity first, thermal co-supply next, and zero-marginal-cost natural lighting.
+In conventional designs, underground power, thermal control, and lighting are independent systems: PV supplies electricity, heat pumps provide thermal control, and LED arrays provide lighting. The co-generation hub integrates all three into one unified architecture: large surface heliostat arrays as common optical-thermal front end; supercritical thermal storage plus supercritical CO₂ Brayton cycle as common conversion/storage core; and allocation principle of electricity first, thermal co-supply next, and zero-marginal-cost natural lighting.
 
 The physical basis is that concentrated sunlight captured by heliostats is a uniquely intense full-spectrum source. After generation and storage duties are met, diverting part of visible spectrum for underground lighting has minimal impact on total generation/storage efficiency, effectively a no-marginal-cost byproduct.
 
@@ -403,14 +403,14 @@ The physical basis is that concentrated sunlight captured by heliostats is a uni
 
 **(b) Supercritical molten-salt power plant, conversion/storage hub**
 
-- Uses heliostat-concentrated sunlight as heat source and **supercritical CO2 Brayton cycle** at 700-750 C as main generation path, with thermal-to-electric efficiency potentially above 50%.
+- Uses heliostat-concentrated sunlight as heat source and **supercritical CO₂ Brayton cycle** at 700-750 C as main generation path, with thermal-to-electric efficiency potentially above 50%.
 - Includes high-temperature molten-salt storage tank around 565 C as cross-night/eclipsed-period energy buffer for continuous stable supply.
 - Electrical rating and storage capacity are determined in Volume III based on total base load and maximum lunar-night duration.
 
 **(c) Spectral splitter and cold-light illumination, zero-marginal-cost lighting subsystem**
 
 - Install **high-temperature splitters** below central secondary reflectors at skylights to divide concentrated beams into:
-  - **Thermal channel, UV + IR, about 85% of solar energy**: routed to high-temperature molten-salt storage and s-CO2 heaters for generation/storage.
+  - **Thermal channel, UV + IR, about 85% of solar energy**: routed to high-temperature molten-salt storage and s-CO₂ heaters for generation/storage.
   - **Lighting channel, visible, about 15% of solar energy**: routed into underground light-conduit networks and diffused in habitation, ecological, and public spaces for soft natural illumination without direct electrical lighting load.
 - Lighting channel is dynamically switchable to thermal channel: when storage drops below safety threshold, visible channel can be fully redirected to generation. When ecological zones require heat and specific spectra, infrared-inclusive thermal light can be supplied. This design ensures lighting operation **does not compromise** generation/storage efficiency.
 - Detailed conduit topology and illuminance standards are specified in Volume VII.
@@ -436,7 +436,7 @@ This section is conceptual overview only and does not provide final engineering 
 | Subsystem | Responsible Volume | Notes |
 |:-----|:-----|:-----|
 | Heliostat array | Appendix I Volume III (Energy) | Field scale, optical design, tracking control |
-| Supercritical CO2 Brayton cycle | Appendix I Volume III (Energy) | Thermodynamic parameters, turbine design, conversion efficiency |
+| Supercritical CO₂ Brayton cycle | Appendix I Volume III (Energy) | Thermodynamic parameters, turbine design, conversion efficiency |
 | High-temperature molten-salt storage | Appendix I Volume III (Energy) | Storage media, insulation design, capacity sizing |
 | Industrial thermal network | Appendix I Volume IV / Volume V | Water-ice extraction heat in Volume IV; smelting/sintering heat in Volume V |
 | Spectral splitter and light conduits | Appendix I Volume VII (Habitation) | Spectral allocation, conduit routing, illuminance design |
@@ -468,7 +468,7 @@ For long-distance high-throughput routes, >100 km, connecting polar bases and eq
 
 For transport of dust-sensitive materials, precision equipment or catalyst precursor powders, and for major reduction of cross-latitude travel times, fully enclosed tube rail can be deployed. The Moon's hard-vacuum surface environment offers unique physical conditions for ultra-high-speed transport not practical within Earth's dense atmosphere.
 
-- **Tube structure**: add semicircular/full-circular regolith-concrete or sintered-brick precast segments above open rail alignments, enclosing tracks within tubes. Tube interiors use low-pressure inert gas, e.g., N2 at 0.1-0.3 bar, or high vacuum, fully isolating lunar dust and micrometeoroids.
+- **Tube structure**: add semicircular/full-circular regolith-concrete or sintered-brick precast segments above open rail alignments, enclosing tracks within tubes. Tube interiors use low-pressure inert gas, e.g., N₂ at 0.1-0.3 bar, or high vacuum, fully isolating lunar dust and micrometeoroids.
 - **Trainsets**: mechanically compatible with open rail systems, but cars can remove heavy external dust-protection shells for lower mass. Thermal management and lubrication in low-pressure/vacuum conditions require onboard heat-pipe transfer to external radiative panels and solid lubricants, e.g., MoS2, for wheel-rail interfaces.
 - **Operating speed, long-term**: target tube-rail operation at **800-1,200 km/h, about 220-330 m/s**. This is supported by lunar-specific conditions: (a) native hard vacuum lowers pumping and leakage burden for low-pressure tube operation. A 0.2 bar tube versus near-0 external pressure implies only 0.2 bar differential, around 1/5000 of Earth vacuum-tube differential contexts. (b) negligible aerodynamic drag means cruise power mainly overcomes rolling friction and residual-gas drag. (c) 1/6 gravity lowers structural load requirements for rails and tube segments. At 1,000 km/h, a 3,000 km Shackleton-Marius route takes about 3 hours, transforming cislunar internal travel times.
 - **Upper long-term speed envelope**: with engineered maglev deployment, tube-system speeds can exceed **2,000 km/h**. At that point lunar vacuum and low gravity are fully leveraged, and limits shift to curve radii, traction power, and levitation-gap control.
@@ -548,8 +548,8 @@ The following validation items are specific to Volume II, inherit Volume I P0 ou
 |:-----|:-----|:-----|:-----|:-----|
 | **P1-M1** | Mass-production performance of sintered regolith bricks | - | Batch-produced lunar sintered bricks using criterion-b feedstock achieve compressive strength >=20 MPa and inter-batch coefficient of variation <=15% | Volume I P0-M5 |
 | **P1-M2** | Load-bearing performance of regolith concrete | - | Sulfur concrete cast under lunar-vacuum conditions using criterion-b aggregate achieves compressive strength >=20 MPa, with strength degradation <=20% after 100 thermal cycles from -150 C to +120 C | - |
-| **P1-M3** | Closed-loop rate of base life-support systems | - | Water recovery >=98%, oxygen recovery >=95%, carbon-loop closure >=90% based on Sabatier CO2 conversion rate; continuous operation >=12 months with zero unplanned shutdowns | - |
-| **P1-M4** | Sealing performance of underground developed section | P0-M6 yes | First sealed section, after SPUA+CFRP+MLI engineering mitigation, passes >=12 months continuous pressurization at 70 kPa O2/N2 atmosphere, leakage <=0.05%/day; no visible delamination/bubbling in seal materials; no abnormal buildup at online trace-gas monitoring points | - |
+| **P1-M3** | Closed-loop rate of base life-support systems | - | Water recovery >=98%, oxygen recovery >=95%, carbon-loop closure >=90% based on Sabatier CO₂ conversion rate; continuous operation >=12 months with zero unplanned shutdowns | - |
+| **P1-M4** | Sealing performance of underground developed section | P0-M6 yes | First sealed section, after SPUA+CFRP+MLI engineering mitigation, passes >=12 months continuous pressurization at 70 kPa O2/N₂ atmosphere, leakage <=0.05%/day; no visible delamination/bubbling in seal materials; no abnormal buildup at online trace-gas monitoring points | - |
 | **P2-M1** | Purity of lunar metal refining output | - | Small lunar arc furnaces deliver Al purity >=95% and Fe purity >=90%, sufficient for structural and connector feedstock use | - |
 | **P2-M2** | Long-term stability of sulfur concrete | - | Measure ten-year-scale compressive-strength degradation and sulfur sublimation rates under lunar vacuum, UV, and thermal cycling | - |
 | **P2-M3** | High-fidelity shielding simulation | - | Monte Carlo radiation-transport simulation using LRO/CRaTER measured GCR spectra for combinations of regolith cover plus PE moderation to determine required precise shield thickness for annual dose <=5 mSv, surface, or <=10 mSv, underground | - |

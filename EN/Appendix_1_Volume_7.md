@@ -90,10 +90,10 @@ If the final site is on the rim of Shackleton or another primarily surface-based
 | O2 demand | about 16.8 kg/day | about 67.2 kg/day | about 420 kg/day | about 8,400 kg/day |
 | Drinking-water demand | about 60 L/day | about 240 L/day | about 1,500 L/day | about 30,000 L/day |
 | Sanitation-water demand | about 200 L/day | about 800 L/day | about 5,000 L/day | about 100,000 L/day |
-| CO2 generation | about 19.8 kg/day | about 79.2 kg/day | about 495 kg/day | about 9,900 kg/day |
+| CO₂ generation | about 19.8 kg/day | about 79.2 kg/day | about 495 kg/day | about 9,900 kg/day |
 | Wastewater generation | about 250 L/day | about 1,000 L/day | about 6,200 L/day | about 124,000 L/day |
 
-> Note: O2 demand is calculated at 0.84 kg/day per person, based on astronaut metabolic oxygen-consumption standards in NASA-STD-3001 Vol. 2, Human Factors, Habitability, and Environmental Health [1]. CO2 generation is derived from O2 consumption and respiratory quotient $RQ \approx 0.87$, using $CO_2$ generation = O2 consumption x RQ x 44/32. The RQ value is likewise referenced from NASA-STD-3001 Vol. 2 [1].
+> Note: O2 demand is calculated at 0.84 kg/day per person, based on astronaut metabolic oxygen-consumption standards in NASA-STD-3001 Vol. 2, Human Factors, Habitability, and Environmental Health [1]. CO₂ generation is derived from O2 consumption and respiratory quotient $RQ \approx 0.87$, using $CO_2$ generation = O2 consumption x RQ x 44/32. The RQ value is likewise referenced from NASA-STD-3001 Vol. 2 [1].
 
 #### 7.3.2 Closed Water-Oxygen-Carbon Loop
 
@@ -111,15 +111,15 @@ The closed cycling of water, oxygen, and carbon is the core of the life-support 
 - O2 supply:
   - **Physicochemical pathway (primary)**: Oxygen generation by water electrolysis (solid polymer electrolyzer, efficiency >= 70%). The O2 is purified (catalytic hydrogen removal + drying) and injected into the habitat atmosphere.
   - **Biological pathway (supplementary)**: Oxygen release by plant photosynthesis.
-- CO2 removal:
-  - **Physicochemical pathway (primary)**: Molecular-sieve adsorption (13X zeolite, CO2/N2 selectivity >= 10) + Sabatier reaction ($CO_2 + 4H_2 \rightarrow CH_4 + 2H_2O$, Ni-based catalyst, 300-400°C, pressure 1-3 MPa). The generated H2O returns to the water loop; CH4 is used as FCCVD carbon feedstock or stored as reserve.
-  - **Biological pathway (supplementary)**: CO2 uptake by plant photosynthesis.
+- CO₂ removal:
+  - **Physicochemical pathway (primary)**: Molecular-sieve adsorption (13X zeolite, CO₂/N₂ selectivity >= 10) + Sabatier reaction ($CO_2 + 4H_2 \rightarrow CH_4 + 2H_2O$, Ni-based catalyst, 300-400°C, pressure 1-3 MPa). The generated H₂O returns to the water loop; CH₄ is used as FCCVD carbon feedstock or stored as reserve.
+  - **Biological pathway (supplementary)**: CO₂ uptake by plant photosynthesis.
 
 **(c) Carbon cycle**
 
-- CO2 originates from crew respiration and industrial emissions, such as by-product CO2 from the metal-smelting workshops described in Volume V.
-- CO2 is converted through the Sabatier reaction into CH4 and H2O. The H2O is reused, while the CH4 enters the carbon-feedstock reserve for CNT synthesis via FCCVD or for use as propellant in lunar landers.
-- Plant biomass (inedible portions) undergoes anaerobic digestion or pyrolysis to produce CH4 and CO2, returning both to the carbon cycle.
+- CO₂ originates from crew respiration and industrial emissions, such as by-product CO₂ from the metal-smelting workshops described in Volume V.
+- CO₂ is converted through the Sabatier reaction into CH₄ and H₂O. The H₂O is reused, while the CH₄ enters the carbon-feedstock reserve for CNT synthesis via FCCVD or for use as propellant in lunar landers.
+- Plant biomass (inedible portions) undergoes anaerobic digestion or pyrolysis to produce CH₄ and CO₂, returning both to the carbon cycle.
 
 **(d) Microbial control and biosafety**
 
@@ -136,7 +136,7 @@ Within a closed CELSS, microorganisms are not incidental contaminants but indisp
 | Equipment | Processing Capacity (outpost / industrial town) | Power | Mass | Description |
 |:-----|:-----|:-----|:-----|:-----|
 | Water-electrolysis oxygen generator | 0.5 / 10 kg O2/day | 3 / 60 kWe | 150 / 2,500 kg | Solid polymer electrolyzer |
-| Sabatier reactor | 20 / 500 kg CO2/day | 5 / 120 kWe | 200 / 3,000 kg | Ni-based catalyst, 300-400°C |
+| Sabatier reactor | 20 / 500 kg CO₂/day | 5 / 120 kWe | 200 / 3,000 kg | Ni-based catalyst, 300-400°C |
 | Low-temperature vacuum distillation unit (urine recovery) | 10 / 250 L/day | 2 / 40 kWe | 80 / 1,200 kg | Operates at 40-50°C, recovery rate >= 98% |
 | Membrane bioreactor (MBR) | 200 / 5,000 L/day | 1 / 25 kWe | 100 / 2,000 kg | Sanitation-wastewater treatment, effluent turbidity <= 1 NTU |
 | Reverse osmosis (RO) unit | 200 / 5,000 L/day | 1 / 20 kWe | 80 / 1,500 kg | Desalination rate >= 99% |
@@ -163,8 +163,8 @@ The closed loop of the life-support and manufacturing systems does not begin fro
 |:-----|:-----|:-----|:-----|
 | Water | >= 98% | < 2% | Polar PSR water-ice mining (Volume IV), about 30 L/day for a 500-person settlement |
 | O2 | >= 95% | < 5% | Water electrolysis + plant photosynthesis; from Stage 2 onward also supplemented by by-product oxygen from the smelting workshops in Volume V |
-| CO2 | >= 90% (Sabatier conversion rate) | < 10% | Pyrolysis of carbonaceous chondrites + CO2 cold-trap collection |
-| Nitrogen (N2) | >= 90% | < 10% | Release of solar-wind-implanted volatiles by heating + pyrolysis of carbonaceous chondrites; initially pre-deployed from Earth |
+| CO₂ | >= 90% (Sabatier conversion rate) | < 10% | Pyrolysis of carbonaceous chondrites + CO₂ cold-trap collection |
+| Nitrogen (N₂) | >= 90% | < 10% | Release of solar-wind-implanted volatiles by heating + pyrolysis of carbonaceous chondrites; initially pre-deployed from Earth |
 
 #### 7.3.3 Temperature-Control System
 
@@ -178,8 +178,8 @@ The atmospheric environment for pressurized lunar habitats and underground seale
 |:-----|:-----|:-----|
 | Total pressure | 70 kPa | Consistent with ISS and Russian-module standards; compatible with lunar-suit pre-breathing requirements |
 | O2 partial pressure | 21 kPa (about 30% by volume, equivalent to 21% O2 at sea level) | Maintains blood-oxygen saturation >= 95% |
-| N2 partial pressure | 49 kPa | Inert diluent gas to suppress fire risk |
-| CO2 partial pressure | <= 0.5 kPa (work areas) / <= 0.3 kPa (sleeping areas) | Below the headache threshold of 1 kPa |
+| N₂ partial pressure | 49 kPa | Inert diluent gas to suppress fire risk |
+| CO₂ partial pressure | <= 0.5 kPa (work areas) / <= 0.3 kPa (sleeping areas) | Below the headache threshold of 1 kPa |
 | Relative humidity | 40%-60% | Suppresses microbial growth while maintaining crew comfort |
 | Temperature | 20°C +/- 2°C (residential areas) / 15°C-50°C (industrial areas) | Residential zones use embedded capillary radiant temperature control; industrial zones rely on the cave's stable thermal environment for passive heat rejection, while localized high-temperature equipment such as furnaces uses liquid-cooling loops + external radiators |
 | Trace contaminants | Particulates <= 0.05 mg/m³ (PM2.5); formaldehyde <= 0.05 ppm; CO <= 10 ppm; other VOCs <= spacecraft maximum allowable concentration (SMAC) | Removed through three-stage activated carbon + catalytic oxidation + HEPA filtration |
@@ -222,7 +222,7 @@ Within underground lava tubes, habitation zones are divided into four functional
 - **Lighting**: Mixed lighting from natural-light conduits providing "cold light" (visible light without infrared heat load) and LED grow lamps (red 660 nm + blue 450 nm), with controllable photoperiods, typically 16 h light / 8 h dark. **Dedicated infrared and ultraviolet LED lamps** provide specific wavelengths for morphogenesis control, secondary-metabolite accumulation, and pest suppression.
 - **Crop selection**: Priority is given to short-cycle, high-yield, nutrient-dense crops, including lettuce (about 30 days to harvest), tomato (about 60-80 days), potato (about 90-120 days), strawberry (about 60 days), wheat (about 120 days), and soybean (about 100 days; a key protein crop, with conservative annual hydroponic yield of about 2-4 kg/m² under lunar conditions). Crop rotation ensures fresh vegetables are harvested every day.
 - **Fish farming**: Coupled to plant cultivation as an aquaponics loop. Fish waste is converted by nitrifying bacteria into plant nutrients, and water purified by the plants returns to the fish tanks, keeping overall water consumption very low.
-- **CO2 and waste-heat utilization**: CO2 supplied to dome farms comes from habitat air purification and industrial emissions, with a net CO2 flow of about 5-20 L/min (standard conditions) per 1,000 m², improving photosynthetic efficiency by more than 30%. Warm-water irrigation is supplied by the low-temperature waste heat described in Volume III, and farm temperature is maintained at 22°C-28°C.
+- **CO₂ and waste-heat utilization**: CO₂ supplied to dome farms comes from habitat air purification and industrial emissions, with a net CO₂ flow of about 5-20 L/min (standard conditions) per 1,000 m², improving photosynthetic efficiency by more than 30%. Warm-water irrigation is supplied by the low-temperature waste heat described in Volume III, and farm temperature is maintained at 22°C-28°C.
 - **Area estimate**: Assuming about 0.5 kg/day of vegetables and fruit per person, 500 people require about 250 kg/day. Using average yields of lettuce (about 20 kg/m²/year) and tomato (about 10 kg/m²/year), about 500-800 m² of planting area is sufficient for the baseline fresh-produce supply. If protein self-sufficiency is also pursued through soybeans and fish, total cultivation area must expand to about 2,000 m² per 500 people, a scale achievable during the industrial-town phase.
 
 #### 7.4.3 Fully Surface-Based Habitat Option: Bermed Dome Clusters
@@ -252,7 +252,7 @@ For small farms (planting area < 200 m²), LED grow lamps are the simplest solut
 **(2) Light-conduit option: equivalent efficiency of the thermal-electric-light co-generation system**
 
 - **Light-conduit transmission efficiency ($\eta_{pipe}$, reflective type)**: Up to 78% over 500 m.
-- **Spectral splitter efficiency ($\eta_{filter}$)**: > 95%. The splitter separates visible light, which accounts for about 15% of total AM0 solar-spectrum energy, for illumination. The infrared and ultraviolet components, about 85% of total solar energy, are routed to drive supercritical CO2 power generation. Details of the spectral-energy calculation are given in Volume III, Section 3.5.6.
+- **Spectral splitter efficiency ($\eta_{filter}$)**: > 95%. The splitter separates visible light, which accounts for about 15% of total AM0 solar-spectrum energy, for illumination. The infrared and ultraviolet components, about 85% of total solar energy, are routed to drive supercritical CO₂ power generation. Details of the spectral-energy calculation are given in Volume III, Section 3.5.6.
 - **Power-generation efficiency ($\eta_{power}$)**: 50%.
 - **Equivalent efficiency assessment**: To provide 1 unit of visible light for plant illumination, the system must divert $\frac{1}{\eta_{filter} \times \eta_{pipe}}$ units of visible-light energy from the concentrated beam. If that diverted visible light were not used for illumination, it could otherwise have contributed to power generation, with a lost electric equivalent of $1 \times \eta_{power}$.
 
@@ -357,7 +357,7 @@ Anal cleaning is one of the hardest user-experience problems in low-gravity sani
 
 #### 7.6.2 Integration of Recycling Equipment and Farms
 
-CO2 for dome farms comes from habitat air purification and industrial emissions, increasing crop photosynthetic efficiency by more than 30%. Irrigation water is reused sanitation wastewater treated through MBR + RO. Plant transpiration water is recovered by the agricultural-zone dehumidification system and returned to the drinking-water loop. Fish farming, using tilapia or carp, and vegetable cultivation form a closed aquaponics loop.
+CO₂ for dome farms comes from habitat air purification and industrial emissions, increasing crop photosynthetic efficiency by more than 30%. Irrigation water is reused sanitation wastewater treated through MBR + RO. Plant transpiration water is recovered by the agricultural-zone dehumidification system and returned to the drinking-water loop. Fish farming, using tilapia or carp, and vegetable cultivation form a closed aquaponics loop.
 
 #### 7.6.3 Long-Term Nutritional Security
 

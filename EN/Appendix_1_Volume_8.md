@@ -23,7 +23,7 @@
 | MLI | Multi-layer insulation blanket | Reflective passive insulation used for thermal control in vacuum |
 | MPa | Megapascal | Pressure/stress unit |
 | PE | Polyethylene | High-density polyethylene radiation-moderation shielding material |
-| PLSS | Portable life-support system | In-suit oxygen supply, thermal control, and CO2 scrubbing system |
+| PLSS | Portable life-support system | In-suit oxygen supply, thermal control, and CO₂ scrubbing system |
 | PTFE | Polytetrafluoroethylene | Sealing material with low friction and broad-temperature vacuum compatibility |
 | RHU | Radioisotope heating unit | Device using radioactive decay heat for thermal maintenance |
 | SP | Solar proton event | Solar Proton Event |
@@ -222,7 +222,7 @@ Under worst case (e.g., simultaneous depressurization in multiple compartments a
 **(b) Response workflow**
 
 1. **Detection and alarm**: once flame/smoke detector triggers, control center issues **II-BH** red warning within <1 s and cuts non-essential power in fire compartment (keep lighting/communications). Fire doors at adjacent zones close automatically to form isolation boundary. ESA studies indicate return-duct smoke detection can reduce low-g fire detection latency [7].
-2. **Fire suppression**: ERT arrives within <3 min. Select suppression method by fire type: electrical fires use CO2 extinguisher or fine water mist (<50 um droplets, non-conductive). Dry powder and halon are prohibited. Nozzle geometry is optimized for low-g droplet behavior to ensure coverage. Strategy references crewed-spacecraft fire-suppression reviews [6].
+2. **Fire suppression**: ERT arrives within <3 min. Select suppression method by fire type: electrical fires use CO₂ extinguisher or fine water mist (<50 um droplets, non-conductive). Dry powder and halon are prohibited. Nozzle geometry is optimized for low-g droplet behavior to ensure coverage. Strategy references crewed-spacecraft fire-suppression reviews [6].
 3. **Smoke control**: ventilation switches to smoke-exhaust mode in fire compartment: supply reduced to 20%, return increased to 100%. Smoke passes through HEPA + activated carbon before venting to vacuum. Fire dampers in ducts close automatically at >150 C to prevent fire spread through ventilation.
 4. **Personnel evacuation**: if fire cannot be controlled within 5 min, all personnel in affected district evacuate to nearest Level-II shelters. Firefighters wear self-contained breathing apparatus (>=30 min oxygen; low-g-compatible elastic mesh face seal). If spread reaches multiple compartments, escalate to **Level I**.
 
@@ -246,7 +246,7 @@ Note: NASA SAFFIRE in-orbit experiments on Cygnus have validated large-scale fir
 **(a) Accident types**
 
 - Suit breach (micrometeoroid impact or sharp-rock cut)
-- PLSS failure (oxygen interruption, CO2 removal failure, thermal-control failure)
+- PLSS failure (oxygen interruption, CO₂ removal failure, thermal-control failure)
 - Rover failure (loss of propulsion, rollover, terrain entrapment; rescue route planning must include longer braking distance in low g)
 - Personnel fall or communication loss
 
@@ -297,7 +297,7 @@ Note: Storm-shelter shielding design accounts for organ-dose contributions from 
 |:-----|:-----|:-----|
 | **Total volume** | >=3.5 m3/person | Based on maximum base population +20% reserve |
 | **Radiation shielding** | Top cover >=5 m loose regolith, or >=0.5 m sintered brick + >=50 m basalt (underground option); inner wall lined with >=10 mm PE moderation layer | Peak SPE attenuation >=99.9% [4] |
-| **Independent ECLSS** | O2 >=0.84 kg/person/day, CO2 removal >=1.0 kg/person/day, closed-loop water recovery, temperature 18-25 C | Independent operation >=30 days |
+| **Independent ECLSS** | O2 >=0.84 kg/person/day, CO₂ removal >=1.0 kg/person/day, closed-loop water recovery, temperature 18-25 C | Independent operation >=30 days |
 | **Independent power** | Li-ion battery bank >=50 kWh + compact nuclear source (>=3 kWe) or fuel cell | Supports all ECLSS, lighting, communications |
 | **Emergency supplies** | Drinking water >=3 L/person/day, emergency food >=2,000 kcal/person/day, first-aid kits (including radiation-treatment meds) | >=30-day stock for full shelter-rated population |
 | **Communications** | Independent Ka-band antenna + buried fiber dual link | Maintains communication with base control and Earth |
@@ -366,7 +366,7 @@ Simultaneous failure of both redundant main ring bus lines or simultaneous offli
 **(b) Response workflow (I-BL)**
 
 1. **Automatic takeover**: Level-I shelters and medical stations transfer to UPS within <1 s, maintaining critical loads for >=1 h.
-2. **Black start**: reactor self-start within <10 min to restore generation. If reactor unavailable, start supercritical CO2 turbine via thermal-storage hot start (Section 3.5.3).
+2. **Black start**: reactor self-start within <10 min to restore generation. If reactor unavailable, start supercritical CO₂ turbine via thermal-storage hot start (Section 3.5.3).
 3. **Tiered restoration**: restore in order: (1) ECLSS -> (2) medical station -> (3) communications and ECC -> (4) shelters -> (5) habitation lighting -> (6) industrial district (thermal preservation only) -> (7) other loads.
 4. **Fault diagnostics**: technical support completes fault localization and isolation during UPS hold period.
 
@@ -383,7 +383,7 @@ Simultaneous failure of both redundant main ring bus lines or simultaneous offli
 | **Medical first aid** | First-aid kit (wound care, hemostasis, analgesic, antimicrobial) | 1 per compartment +1 per rover | Wall-mounted red emergency box | 1 year |
 | | AED | 1 per major functional district | Level-I shelters, gym, medical station | 5 years (electrode pads 2 years) |
 | | Portable pressurized rescue bag | 2 per airlock +1 per rover | Airlock cabinet, rover cargo bay | 5 years |
-| **Firefighting** | CO2 extinguisher (5 kg, low-g spray-nozzle optimized) | 2 per compartment | Red extinguisher cabinet | 5 years (annual pressure check) |
+| **Firefighting** | CO₂ extinguisher (5 kg, low-g spray-nozzle optimized) | 2 per compartment | Red extinguisher cabinet | 5 years (annual pressure check) |
 | | Fine water-mist extinguisher (10 L, low-g nozzle optimized) | 1 per compartment | Same as above | 5 years |
 | | Self-contained breathing apparatus (>=30 min, low-g mask adaptation) | 2 sets per compartment | Next to extinguisher cabinet | 5 years (cylinders 3 years) |
 | **Leak sealing** | Emergency sealing kit (low-g optimized SPUA thixotropy <=15 s + CFRP patch + inflatable temporary airlock) | 1 per sealed section | Airlock cabinet | 5 years |
@@ -398,7 +398,7 @@ Simultaneous failure of both redundant main ring bus lines or simultaneous offli
 | Vehicle Type | Quantity | Configuration | Parking Location | Response Time |
 |:-----|:-----:|:-----|:-----|:-----|
 | **Emergency rescue rover (pressurized)** | 2 | Same baseline model as Volume VI Section 6.4.2 pressurized crew rover, plus emergency medical kit, 2 spare PLSS units, 2 radiation vests, 1 emergency sealing kit. Drivers require dedicated low-g braking-distance training | Dedicated apron outside main airlock (>=1 unit on 24-hour standby) | <5 min |
-| **Firefighting rover (unpressurized)** | 1 | CO2 extinguishers x4, fine water-mist extinguishers x2, breathing apparatus x4, hydraulic breaching tools, remote-operation mode | Dedicated industrial-zone apron | <3 min |
+| **Firefighting rover (unpressurized)** | 1 | CO₂ extinguishers x4, fine water-mist extinguishers x2, breathing apparatus x4, hydraulic breaching tools, remote-operation mode | Dedicated industrial-zone apron | <3 min |
 | **Material transport rover** | Shared cargo rover fleet | Prioritized for emergency-supply transport to shelters during emergency | - | <10 min |
 
 
@@ -439,7 +439,7 @@ All resident personnel (including short-term visitors) must complete and pass th
 |:-----|:-----|:-----|:-----|
 | **Emergency system overview** | 1 h | Six-level warning system (Level I full evacuation to Level VI normal operations), category/warning code recognition, personal locator-beacon use, evacuation routes and shelter locations, highest-level response rule under compound hazards | Online test (pass >=90%) |
 | **Emergency oxygen-mask donning** | 0.5 h (including practical) | Low-g mask fitting with elastic mesh harness; target donning time <=30 s | Timed practical assessment |
-| **Extinguisher operation** | 1 h (including practical) | Low-g operation essentials for CO2 and fine mist (aiming, posture stability), electrical-fire vs solid-fire differentiation | Simulated fire suppression |
+| **Extinguisher operation** | 1 h (including practical) | Low-g operation essentials for CO₂ and fine mist (aiming, posture stability), electrical-fire vs solid-fire differentiation | Simulated fire suppression |
 | **Radiation-protection basics** | 0.5 h | GCR vs SPE, dose limits, potassium iodide administration | Online test |
 | **EVA safety basics** (EVA-qualified personnel only) | 2 h (including practical) | Low-g emergency handling for suit breach, PLSS emergency switching, rover emergency braking/evacuation (longer braking distance) | Scenario-based practical evaluation |
 
@@ -461,7 +461,7 @@ All resident personnel (including short-term visitors) must complete and pass th
 | ID | Item | Validation Method | Success Criterion | Related Volume |
 |:-----|:-----|:-----|:-----|:-----|
 | **P1-E1** | SPE warning timeliness verification | Continuous operation of lunar particle detectors for >=12 months with cross-validation against Earth GOES data [1][2] | >100 MeV proton-event warning lead time >=30 min, zero false alarms | Volume I (P0-M1) |
-| **P1-E2** | >=30-day fully closed survival validation for Level-I storm shelters | Ground analog shelter closed-stay test with 4-6 crew for 30 continuous days | All crew in good health; ECLSS unplanned shutdowns = 0; CO2 partial pressure <=0.5 kPa; water recovery >=98% | Volume VII (P1-H1) |
+| **P1-E2** | >=30-day fully closed survival validation for Level-I storm shelters | Ground analog shelter closed-stay test with 4-6 crew for 30 continuous days | All crew in good health; ECLSS unplanned shutdowns = 0; CO₂ partial pressure <=0.5 kPa; water recovery >=98% | Volume VII (P1-H1) |
 | **P2-E1** | Vacuum-environment effectiveness of emergency sealing kit | 1:1 hull mockup section in vacuum chamber under 70 kPa differential, including low-g surface-tension analog | SPUA initial set within <=15 s; post-composite leak rate <=0.5%/day | Volume VII (P1-M4) |
 | **P2-E2** | Portable pressurized rescue-bag deployment reliability | Low-g analog EVA rescue tests in vacuum chamber, full procedure by suited test personnel | Full procedure <=90 s; bag pressure stable >=30 kPa pure O2 for >30 min | Volume I (P0-M6) |
 | **P2-E3** | Lava-tube microseismic warning effectiveness | Distributed fiber + microseismometer deployment over selected section for >=6 months, covering homogeneous and layered roofs [11][12] | Detection rate >=95% for >M1.0 moonquakes; strain-anomaly warning lead time >=2 h | Volume II (Siting) |

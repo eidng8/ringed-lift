@@ -14,7 +14,7 @@
 | Abbreviation | Chinese Term | Description |
 |------|----------|------|
 | C/SiC | Silicon-carbide-fiber-reinforced composite | Zero-expansion mirror-substrate material |
-| CO2 | Carbon dioxide | Working fluid for supercritical CO2 Brayton cycle |
+| CO₂ | Carbon dioxide | Working fluid for supercritical CO₂ Brayton cycle |
 | COP | Coefficient of performance | Ratio of heat-pump heating output to input electric power |
 | CSP | Concentrated solar thermal power | Technology that uses heliostats to focus sunlight and heat a working fluid for power generation |
 | EMI | Electromagnetic interference | Interference from power-electronics equipment to communication and scientific instruments |
@@ -37,13 +37,13 @@
 | NaK | Sodium-potassium alloy | Liquid-metal working fluid used for high-temperature heat-transfer loops |
 | PE | Polyethylene | High-density polyethylene radiation-moderation layer material |
 | PV | Photovoltaic | Solar photovoltaic power generation |
-| s-CO2 | Supercritical carbon dioxide | High-efficiency working fluid for Brayton cycle |
+| s-CO₂ | Supercritical carbon dioxide | High-efficiency working fluid for Brayton cycle |
 | SiC | Silicon carbide | Wide-bandgap power-device material used for solid-state transformers |
 | SPE | Solar particle event | High-energy particle burst released by solar eruptions |
 | ULE | Ultra-low-expansion glass | Candidate mirror-substrate material with near-zero thermal expansion |
 | UPS | Uninterruptible power supply | Uninterruptible Power Supply |
 | YBCO | Yttrium barium copper oxide | High-temperature superconducting tape, critical temperature around 92 K |
-| Brayton cycle | Supercritical CO2 Brayton cycle | Closed thermodynamic cycle using supercritical CO2 as working fluid, with thermal-to-electric efficiency above 50% |
+| Brayton cycle | Supercritical CO₂ Brayton cycle | Closed thermodynamic cycle using supercritical CO₂ as working fluid, with thermal-to-electric efficiency above 50% |
 | Heliostat | Heliostat array | Large reflective-mirror array deployed on the lunar surface that tracks the Sun and reflects light to a central receiver |
 | Electrostatic dust curtain | Electrostatic dust-curtain system | Contactless dust-removal device that uses a traveling-wave electric field to "throw off" deposited lunar dust |
 | Spectral splitter | High-temperature spectral splitter | Optical device that separates ultraviolet/infrared bands from visible bands in concentrated sunlight |
@@ -69,7 +69,7 @@ Core tasks of this volume:
 
 1. Based on the population and industrial scale defined in Volume II, establish an energy-demand curve from early-stage hundreds of kilowatts to long-term megawatt and tens-of-megawatt levels, and ultimately gigawatt class.
 2. Design the near-term (Stage II) distributed-energy solution: PV arrays + space nuclear reactors + storage-system configuration and redundancy. For the first time, incorporate reactor and industrial waste heat into a unified base thermal-loop design.
-3. Fully detail the long-term (post-Stage III) engineering design for the thermal-electric-light co-generation hub: heliostat array (including siting-flexibility principles), supercritical CO2 Brayton cycle, high-temperature molten-salt thermal storage, spectral splitter, and natural-light conduits (including temperature and thermal-management corrections).
+3. Fully detail the long-term (post-Stage III) engineering design for the thermal-electric-light co-generation hub: heliostat array (including siting-flexibility principles), supercritical CO₂ Brayton cycle, high-temperature molten-salt thermal storage, spectral splitter, and natural-light conduits (including temperature and thermal-management corrections).
 4. Evaluate transmission efficiencies of high/low-temperature heat, electric power, and natural light under different operating conditions, and analyze their constraints and impacts on base layout, scale, and service radius. Introduce adaptive-optics collimation as a long-term option for major gains in light-transmission efficiency.
 5. Analyze heat-rejection synergy between polar solar-thermal power plants and crater mining operations.
 6. Plan the full base power transmission/distribution architecture from generation side to load side, including internationally grounded voltage-class selection, lunar-vacuum-specific adaptation design, and reserved upgrade path for long-term superconducting transmission.
@@ -94,7 +94,7 @@ Lunar-base energy demand will rise in steps with population growth and industria
 #### 3.2.2 Near- and Long-Term Energy Strategy Split
 
 - **Near term (Stage II, peak below 1 MWe)**: PV arrays serve as baseload during lunar daytime, suitable for polar quasi-continuous daylight sites. During lunar night, compact space reactors provide baseload, supported by lithium-ion batteries for short-term regulation and hydrogen storage for long-duration cross-night storage. The heat-pump system runs independently (see Volume II Section 2.4.3), with no direct thermal coupling to generation yet, but interface space must be reserved for future waste-heat recovery pipelines.
-- **Long term (post-Stage III, peak above 5 MWe)**: Start construction of the thermal-electric-light co-generation hub, centered on heliostat array + supercritical CO2 Brayton cycle + high-temperature molten-salt storage, delivering four-way co-production: power generation, heat storage, industrial heat supply, and natural lighting. PV and reactors remain as backup/emergency sources. Low-temperature waste heat from both reactors and plant systems is fully connected to the base thermal loop, with heat pumps retained only for peak shaving and backup.
+- **Long term (post-Stage III, peak above 5 MWe)**: Start construction of the thermal-electric-light co-generation hub, centered on heliostat array + supercritical CO₂ Brayton cycle + high-temperature molten-salt storage, delivering four-way co-production: power generation, heat storage, industrial heat supply, and natural lighting. PV and reactors remain as backup/emergency sources. Low-temperature waste heat from both reactors and plant systems is fully connected to the base thermal loop, with heat pumps retained only for peak shaving and backup.
 - **Ultimate stage (late Stage IV, peak above 100 MWe)**: When heliostat-array area approaches the physical land limit of available polar continuous-light peaks, initiate deployment of lunar helium-3 fusion power stations (D-3He reaction, Section 3.5.9), enabling a fundamental transition from solar dependence to autonomous fusion energy, while supporting large-scale deep-space power export.
 
 
@@ -180,7 +180,7 @@ The base T&D network must serve both elongated underground lava-tube spaces and 
 |:-----|:-----|:-----|
 | PV array | DC/DC boost -> ±10 kV DC bus | Anti-reverse diode + remote DC breaker + manual isolator (triple protection) |
 | Nuclear reactor | AC/DC rectification -> ±10 kV DC bus | Remote DC breaker + manual isolator |
-| Supercritical CO2 turbine | AC/DC rectification -> ±10 kV DC bus | Remote DC breaker + manual isolator |
+| Supercritical CO₂ turbine | AC/DC rectification -> ±10 kV DC bus | Remote DC breaker + manual isolator |
 | High-temperature molten-salt storage | Not directly grid-connected (via turbine drive) | - |
 | Lithium-ion battery pack | Bidirectional DC/DC -> ±10 kV DC bus | Bidirectional DC breaker + manual isolator |
 | Hydrogen fuel cell | DC/DC boost -> ±10 kV DC bus | Remote DC breaker + manual isolator |
@@ -210,10 +210,10 @@ This section extends the high-level introduction in Volume II Section 2.5 and pr
 The hub consists of three functionally coupled but independently phaseable subsystems:
 
 - **Heliostat array (solar-thermal capture front end)**: deployed on surface zones around skylights or flat areas within several hundred meters, focusing sunlight to a central receiver.
-- **Supercritical CO2 Brayton cycle + high-temperature molten-salt storage (conversion and storage core)**: concentrated sunlight drives generation; molten-salt tanks provide energy buffering.
+- **Supercritical CO₂ Brayton cycle + high-temperature molten-salt storage (conversion and storage core)**: concentrated sunlight drives generation; molten-salt tanks provide energy buffering.
 - **Spectral splitter + natural-light conduits (lighting subsystem)**: separates visible light from concentrated beam for underground illumination.
 
-**Phase I (startup, about Years 12-15)**: deploy first heliostat block, about half planned area, and one 10 MWe-class s-CO2 turbine-generator. Molten-salt storage sized for 12 hours full-power generation, about 120 MWhe equivalent. Splitter and light conduits are not installed yet; focus is generation and industrial heat.
+**Phase I (startup, about Years 12-15)**: deploy first heliostat block, about half planned area, and one 10 MWe-class s-CO₂ turbine-generator. Molten-salt storage sized for 12 hours full-power generation, about 120 MWhe equivalent. Splitter and light conduits are not installed yet; focus is generation and industrial heat.
 
 **Phase II (expansion, about Years 16-20)**: expand heliostat area to full plan, add second turbine-generator, reaching 20-30 MWe total output. Expand storage to 24 hours. Install splitter and first habitation-zone light conduits.
 
@@ -227,7 +227,7 @@ Use a tower-concentrating configuration: heliostats reflect sunlight to a centra
 
 Note: all solar-spectrum data in this plan use ASTM E490-00a AM0 spectrum [3].
 
-- **Siting-flexibility principle**: heliostat field and central tower do not have to be directly above skylight openings. Core constraints are only: (i) heat-transfer distance from central receiver to molten-salt storage to s-CO2 heat exchanger should be as short as possible, <=500 m, to limit high-temperature pipeline losses; (ii) optical path from secondary reflector to light-conduit entrance must remain geometrically connected with proper pointing. When skylight area is constrained or terrain is unfavorable, heliostats can be concentrated on flat surface areas hundreds of meters away, with independent tower siting and short-distance thermal/optical links to underground equipment rooms. The skylight itself only needs to carry lift and logistics channels.
+- **Siting-flexibility principle**: heliostat field and central tower do not have to be directly above skylight openings. Core constraints are only: (i) heat-transfer distance from central receiver to molten-salt storage to s-CO₂ heat exchanger should be as short as possible, <=500 m, to limit high-temperature pipeline losses; (ii) optical path from secondary reflector to light-conduit entrance must remain geometrically connected with proper pointing. When skylight area is constrained or terrain is unfavorable, heliostats can be concentrated on flat surface areas hundreds of meters away, with independent tower siting and short-distance thermal/optical links to underground equipment rooms. The skylight itself only needs to carry lift and logistics channels.
 - Single-mirror area: 10-20 m², lightweight parabolic mirrors with C/SiC or ULE substrates, silver or aluminum reflective coatings, reflectivity >=95%.
 - Mirror count: for 10 MWe generation baseline, about 2,500-5,000 mirrors are required, total collection area about 50,000 m², consistent with Volume II Section 2.5.2 order-of-magnitude estimate.
 - Field footprint: about 0.1-0.2 km² including mirror spacing and maintenance lanes.
@@ -244,13 +244,13 @@ Note: all solar-spectrum data in this plan use ASTM E490-00a AM0 spectrum [3].
 - Driven by dedicated high-voltage pulsed supply, about 1-3 kV amplitude and 1-10 Hz frequency, generating traveling-wave electric fields on mirror surfaces to move charged dust particles directionally off edges.
 - Dust-removal power consumption: about 1-5 W/m² mirror area, around one-thousandth of incident solar power, about 1,361 W/m².
 
-#### 3.5.3 Supercritical CO2 Brayton-Cycle Power System
+#### 3.5.3 Supercritical CO₂ Brayton-Cycle Power System
 
 **(a) Thermodynamic cycle design**
 
-Adopt the **recompression supercritical CO2 Brayton cycle**, widely recognized as one of the highest-efficiency cycle topologies for next-generation thermal power [2][4].
+Adopt the **recompression supercritical CO₂ Brayton cycle**, widely recognized as one of the highest-efficiency cycle topologies for next-generation thermal power [2][4].
 
-- Working fluid: supercritical CO2, critical temperature 31°C and critical pressure 7.38 MPa.
+- Working fluid: supercritical CO₂, critical temperature 31°C and critical pressure 7.38 MPa.
 - Turbine inlet temperature: 700-750°C, heated by heliostat-concentrated input through molten-salt heat exchangers.
 - Turbine inlet pressure: 20-25 MPa.
 - Net cycle efficiency: >=50%, reaching about 52%-54% at 750°C turbine inlet, well above steam Rankine at about 35%-40% [2][4].
@@ -260,15 +260,15 @@ Adopt the **recompression supercritical CO2 Brayton cycle**, widely recognized a
 
 | Equipment | Technical Parameters | Notes |
 |:-----|:-----|:-----|
-| Turbine-compressor-generator unit | Unit power 10-25 MWe; speed >=30,000 rpm; dry gas bearings | s-CO2 turbine is about one-tenth the volume of same-power steam turbine |
-| Printed-circuit heat exchanger | Operating temperature <=800°C, pressure <=30 MPa | High-temperature side molten salt or s-CO2, low-temperature side s-CO2 recuperation |
-| High-temperature molten-salt to s-CO2 heat exchanger | Operating temperature <=800°C, pressure <=30 MPa | High-temperature side molten salt, low-temperature side s-CO2 |
+| Turbine-compressor-generator unit | Unit power 10-25 MWe; speed >=30,000 rpm; dry gas bearings | s-CO₂ turbine is about one-tenth the volume of same-power steam turbine |
+| Printed-circuit heat exchanger | Operating temperature <=800°C, pressure <=30 MPa | High-temperature side molten salt or s-CO₂, low-temperature side s-CO₂ recuperation |
+| High-temperature molten-salt to s-CO₂ heat exchanger | Operating temperature <=800°C, pressure <=30 MPa | High-temperature side molten salt, low-temperature side s-CO₂ |
 | Radiative panel | Rejection capacity 500-2,000 W/m²; area 500-1,000 m²/MWe | Lightweight carbon-carbon composite panel with embedded heat-pipe network |
 
 **(c) Coupling with molten-salt storage**
 
 - Molten salt is heated by concentrated sunlight to about 565°C and stored in **hot tanks**.
-- During generation, hot salt is pumped through salt-s-CO2 exchangers to heat s-CO2 to 700-750°C and drive turbine work.
+- During generation, hot salt is pumped through salt-s-CO₂ exchangers to heat s-CO₂ to 700-750°C and drive turbine work.
 - Cooled salt from exchangers, about 350°C, enters **cold tanks** awaiting reheating.
 - Storage capacity: Phase I provides 12 hours full-power generation, about 120 MWhe equivalent; Phase II expands to 24 hours. Total thermal medium mass is about 500-1,000 tons, based on usable 565°C to 350°C temperature differential and molten-salt heat capacity about 1.5 kJ/kg-K. Tank shells should preferably use locally manufactured regolith concrete, preferably with high-quality construction material that meets Volume I Section 1.3 criterion b. Only sealed liners and exchanger piping are launched from Earth to minimize transport cost.
 
@@ -282,7 +282,7 @@ Radiative panels reject low-grade waste heat around 30°C-50°C to deep space un
 Transmission efficiency of high-temperature heat from surface heliostat capture points to underground generation/storage equipment directly sets allowable distance between plant and core base zones, shaping overall layout.
 
 **(a) High-temperature heat transmission mode**
-Core thermal path, concentrated sunlight -> molten-salt receiver -> hot molten-salt tank -> s-CO2 exchanger, uses liquid metal such as NaK or molten salt itself as transfer fluid in pipelines. Pipe surfaces can be wrapped with **multi-layer insulation** where needed to minimize losses.
+Core thermal path, concentrated sunlight -> molten-salt receiver -> hot molten-salt tank -> s-CO₂ exchanger, uses liquid metal such as NaK or molten salt itself as transfer fluid in pipelines. Pipe surfaces can be wrapped with **multi-layer insulation** where needed to minimize losses.
 
 **(b) Comparison of bare versus MLI-insulated pipe transmission efficiency**
 For quantitative comparison, assume 50 MWt transfer over 500 m with 565°C molten salt.
@@ -303,7 +303,7 @@ Calculated with Stefan-Boltzmann law [8]. The result is clear: **in lunar vacuum
 Given near-lossless transfer behavior, a unified multi-temperature thermal network can be established:
 
 - **High-temperature network, 500-750°C**: from central plant using NaK and MLI-insulated lines to high-energy industrial zones such as smelting and regolith sintering.
-- **Medium-temperature network, 200-500°C**: using s-CO2 extraction or dedicated molten-salt loops to water-ice and catalyst-extraction plants.
+- **Medium-temperature network, 200-500°C**: using s-CO₂ extraction or dedicated molten-salt loops to water-ice and catalyst-extraction plants.
 - **Low-temperature network, 30-50°C**: using plant waste heat via insulated hot-water lines to habitation/ecological zones, interfacing with Volume II Section 2.4.3 capillary radiant terminals.
 
 **(d) Impacts of transmission efficiency on layout and scale**
@@ -322,7 +322,7 @@ Power-transmission efficiency behaves differently from heat: losses scale roughl
 At this stage demand is modest, hundred-kilowatt class. Transmission from **surface PV arrays -> underground load centers** spans short distances, typically <1 km from skylight to first underground equipment rooms. Resistive line loss is minimal and not a bottleneck. Deploying PV near skylights is practical and economical.
 
 **(b) Long-term layout, post-Stage III**
-In the thermal-electric-light hub, s-CO2 turbine generators must be colocated with thermal sources, molten-salt storage. Therefore, **long-term generation equipment moves from surface to underground**.
+In the thermal-electric-light hub, s-CO₂ turbine generators must be colocated with thermal sources, molten-salt storage. Therefore, **long-term generation equipment moves from surface to underground**.
 
 - **Transmission efficiency**: distance from underground turbine generators to underground distribution buses is very short, usually <100 m. Even at 50 MWe transfer, conventional medium-voltage AC at around 10 kV yields negligible loss, <0.1%.
 - **Layout impact**: high efficiency allows large high-temperature generation equipment to be safely deployed deep underground while supplying the full underground city through short cable runs. Transmission constraints mainly apply to **remote facilities** such as mining sites, launch areas, and traction substations, where HVDC from Section 3.4.1 is required to keep hundred-kilometer losses acceptable, e.g., <5%. If single-circuit power later reaches hundred-megawatt class, superconducting DC upgrades can be activated to exploit lunar low-temperature conditions.
@@ -373,13 +373,13 @@ Regardless of reflective or collimated straight mode, the main conduit body is a
 
 #### 3.5.7 Industrial Heat Supply and Reactor Waste-Heat Recovery Interfaces
 
-While generating power, the s-CO2 Brayton system and nuclear reactors can form a unified **base thermal network**, delivering three process-heat grades by temperature level:
+While generating power, the s-CO₂ Brayton system and nuclear reactors can form a unified **base thermal network**, delivering three process-heat grades by temperature level:
 
 | Heat Grade | Temperature Range | Source | Use |
 |:-----|:-----|:-----|:-----|
 | **High temperature** | 500-750°C | Mainstream extraction before turbine inlet, or direct heliostat heating | Metal smelting, electric-furnace preheating, regolith sintering support heating |
 | **Medium temperature** | 200-500°C | Mid-stage turbine extraction | Water-ice extraction, heating ice-bearing regolith to about 150-500°C, catalyst extraction |
-| **Low temperature** | 30-50°C | Waste-heat recovery from s-CO2 radiative panels **plus waste-heat recovery from reactor Stirling cold end** | Space heating through capillary-network interface in Volume II Section 2.4.3, greenhouse thermal maintenance |
+| **Low temperature** | 30-50°C | Waste-heat recovery from s-CO₂ radiative panels **plus waste-heat recovery from reactor Stirling cold end** | Space heating through capillary-network interface in Volume II Section 2.4.3, greenhouse thermal maintenance |
 
 This cascaded thermal-utilization system raises overall energy-utilization efficiency from about 50% for power-only operation to **above 85%**. After reactor waste heat is connected to low-temperature heating loops, most routine base-heating demand can be covered, with heat pumps retained only for peak regulation and backup. Detailed thermal-demand profiles, insulation standards, and interface designs for industrial subsystems are developed in Volume IV and Volume V.
 
@@ -412,9 +412,9 @@ Total solar-wind-implanted He-3 in lunar regolith is estimated at 1 to 5 million
 
 The following conceptual D-3He plant is a long-term technology vision and primarily defines interfaces with existing base energy systems:
 
-1. **Fuel supply**: helium-3 extraction facilities in Volume IV Section 4.3.4 heat regolith to about 700°C to release solar-wind-implanted volatiles. HEAT prototype systems have validated release of He-3 and other volatiles, hydrogen, He-4, CO2, methane, nitrogen, water, from heated <100 um regolith simulants at 700°C, see references in Volume IV Section 4.3.4. Isotopic separation then yields concentrated He-3 for fusion fuel storage.
+1. **Fuel supply**: helium-3 extraction facilities in Volume IV Section 4.3.4 heat regolith to about 700°C to release solar-wind-implanted volatiles. HEAT prototype systems have validated release of He-3 and other volatiles, hydrogen, He-4, CO₂, methane, nitrogen, water, from heated <100 um regolith simulants at 700°C, see references in Volume IV Section 4.3.4. Isotopic separation then yields concentrated He-3 for fusion fuel storage.
 2. **Fusion reactor**: inertial or magnetic confinement, with field-reversed configuration, FRC, as a promising D-3He route due to high beta and open-field topology that can mitigate synchrotron losses. D-3He FRC plants are considered attractive in environmental acceptability and power cost [11]. Mixed D/3He fuel is heated to fusion temperatures around 10 keV, about 1.16x10^8 K. Main products are protons and alpha particles, both charged.
-3. **Direct MHD power generation**: charged fusion products pass through MHD channels and convert kinetic energy directly to electrical power without steam-turbine intermediate stages. Theoretical conversion can reach 60%-70%, above about 50% for s-CO2 Brayton cycles.
+3. **Direct MHD power generation**: charged fusion products pass through MHD channels and convert kinetic energy directly to electrical power without steam-turbine intermediate stages. Theoretical conversion can reach 60%-70%, above about 50% for s-CO₂ Brayton cycles.
 4. **Waste-heat utilization**: high-temperature helium from MHD channels, about 800°C, enters high-temperature network in Section 3.5.7 for smelting and regolith sintering. Low-grade waste heat, about 50°C, enters habitation capillary heating loops and is fully compatible with the existing co-generation waste-heat architecture.
 
 **(c) Relationship with existing energy systems**
@@ -423,13 +423,13 @@ Helium-3 fusion plants do not replace the thermal-electric-light hub but represe
 
 - **High-temperature thermal network**: fusion MHD waste heat and hub molten-salt storage share 500-750°C high-temperature pipelines.
 - **Low-temperature heating loops**: both supply 30-50°C waste heat into habitation capillary networks.
-- **Transmission and distribution grid**: fusion MHD output is DC and can tie directly to ±100 kV DC trunks, compatible with AC/DC-rectified outputs from existing s-CO2 turbines.
+- **Transmission and distribution grid**: fusion MHD output is DC and can tie directly to ±100 kV DC trunks, compatible with AC/DC-rectified outputs from existing s-CO₂ turbines.
 
 **(d) Timeline outlook**
 
 Commercialization timing for D-3He depends on two key factors: first, scaled He-3 supply capability, with extraction in Volume IV Section 4.3.4 expected to exceed kilogram-per-month scale in Stage IV; second, breakthrough of key reactor technologies such as confinement time and high-temperature-resistant MHD-channel materials. Internationally, probability of commercial D-3He before mid-century is generally viewed as low, so this plan positions it as a late Stage IV option around Year 30-35.
 
-Before fusion deployment, base power demand is fully met by the thermal-electric-light hub, heliostat arrays + s-CO2 Brayton + molten-salt storage. Commercial fusion deployment marks the final transition from solar dependence to autonomous fusion energy and creates a physical basis for large-scale deep-space power export.
+Before fusion deployment, base power demand is fully met by the thermal-electric-light hub, heliostat arrays + s-CO₂ Brayton + molten-salt storage. Commercial fusion deployment marks the final transition from solar dependence to autonomous fusion energy and creates a physical basis for large-scale deep-space power export.
 
 
 ### 3.6 Validation Items and Success Criteria
@@ -439,7 +439,7 @@ The validation items below are specific to this volume, Volume III. They inherit
 | ID | Item | Validation Method | Success Standard |
 |:-----|:-----|:-----|:-----|
 | **P1-E1** | Heliostat tracking precision and dust-related attenuation | Continuous heliostat-array operation for >=12 months under lunar-vacuum and lunar-dust conditions, including at least 6 daytime months | Tracking precision maintained <=0.5 mrad and mirror reflectivity attenuation from dust <=5% |
-| **P1-E2** | Lunar startup of supercritical CO2 turbine | Ground vacuum-chamber test of full-power operation >=10 MWe for >=100 h continuous run | Validate startup, acceleration, grid tie, and load regulation in simulated lunar thermal-vacuum conditions, with focus on dry gas bearing load capacity and stability under 1/6 g |
+| **P1-E2** | Lunar startup of supercritical CO₂ turbine | Ground vacuum-chamber test of full-power operation >=10 MWe for >=100 h continuous run | Validate startup, acceleration, grid tie, and load regulation in simulated lunar thermal-vacuum conditions, with focus on dry gas bearing load capacity and stability under 1/6 g |
 | **P1-E3** | Cross-lunar-night thermal retention of molten-salt tanks | Simulated 14-day lunar-night heat-loss test in ground vacuum chamber using 1:10 scaled storage tank with MLI insulation and vacuum annulus | Heat loss from 565°C to about 350°C <=2% per day. Full-scale tanks have larger thermal inertia, so actual loss is expected lower than scaled extrapolation |
 | **P2-E1** | Long-term performance of radiative panels | Accelerated aging test of carbon-carbon composite panels under simulated lunar vacuum, UV, and thermal cycling | Determine ten-year-scale degradation rate of heat-rejection performance |
 | **P2-E2** | Durability of splitter coatings | Accelerated aging of dichroic dielectric coatings under simulated lunar vacuum, UV, and SPE proton irradiation with active cooling, about 100°C-150°C | Determine five-year-scale optical-performance degradation rate |
@@ -463,7 +463,7 @@ The validation items below are specific to this volume, Volume III. They inherit
 | Natural-light conduit service radius, reflective mode | High-efficiency zone, >50% efficiency, radius <=500 m | Design baseline | Volume II, underground functional zoning; Volume VII, lighting design |
 | Natural-light conduit service radius, collimated + straight mode | High-efficiency near-lossless zone extendable to kilometer class | Long-term flexibility target | Volume II, straight-segment lava-tube evaluation; Volume III siting via GPR data |
 | Practical length of flexible optical cable | <=20 m | Design baseline | Volume VII, terminal lighting design |
-| Single-unit power of s-CO2 turbine | 10-25 MWe | Design baseline | Volume V, industrial electric load |
+| Single-unit power of s-CO₂ turbine | 10-25 MWe | Design baseline | Volume V, industrial electric load |
 | Molten-salt storage capacity, Phase I | 12 h, about 120 MWhe equivalent | Design baseline | Volume II, underground tank space reservation |
 | Molten-salt storage capacity, Phase II | 24 h, about 240 MWhe equivalent | Design target | Volume II, underground tank space reservation |
 | High-temperature molten-salt temperature | about 565°C storage and 700-750°C turbine inlet | Design baseline | Volume IV, water-ice extraction; Volume V, smelting and sintering |
@@ -483,7 +483,7 @@ Core conclusions:
 
 2. **Near term should adopt PV + nuclear + storage as the reliable combination.** This scheme has high technology readiness, both PV and Kilopower-class reactors [1] already having ground and in-orbit validation, and suits medium power and high reliability requirements in infrastructure phases. Low-grade reactor waste heat should be connected to base heating loops from Infrastructure Phase II onward to replace part of heat-pump electricity use.
 
-3. **Long term should use the thermal-electric-light co-generation hub as the ultimate architecture.** A lunar heliostat array serves as unified solar-thermal front end, supercritical CO2 Brayton cycle as high-efficiency generation core [2][4], high-temperature molten-salt storage as cross-lunar-night energy buffer, spectral splitters extracting "cold light" for underground natural illumination, and turbine extraction plus reactor waste heat supplying process and heating loads across 30°C to 750°C. This architecture increases generation efficiency from roughly 20%-30% in traditional PV-only pathways to above 50%, increases total energy-utilization efficiency to above 85%, and turns natural illumination into a near-zero-marginal-cost byproduct of generation.
+3. **Long term should use the thermal-electric-light co-generation hub as the ultimate architecture.** A lunar heliostat array serves as unified solar-thermal front end, supercritical CO₂ Brayton cycle as high-efficiency generation core [2][4], high-temperature molten-salt storage as cross-lunar-night energy buffer, spectral splitters extracting "cold light" for underground natural illumination, and turbine extraction plus reactor waste heat supplying process and heating loads across 30°C to 750°C. This architecture increases generation efficiency from roughly 20%-30% in traditional PV-only pathways to above 50%, increases total energy-utilization efficiency to above 85%, and turns natural illumination into a near-zero-marginal-cost byproduct of generation.
 
 4. **The transmission/distribution architecture balances near-term practicality and long-term foresight.** Voltage classes are selected based on IEC 60038 to ensure global industrial and habitation compatibility. All grid-tied nodes use triple protection, anti-reverse diode, remote breaker, manual isolator, to ensure absolute electrical safety. Long-term provisions include superconducting DC upgrades for remote ultra-high-power transfer and MHD DC interconnection interfaces for helium-3 fusion, explicitly leveraging lunar low-temperature environmental advantage.
 
@@ -508,7 +508,7 @@ Core conclusions:
 
 [3] ASTM International. ASTM E490-00a(2019) - Standard Solar Constant and Zero Air Mass Solar Spectral Irradiance Tables. 2019.
 
-[4] Turchi, C. S., et al. Supercritical CO2 Brayton Cycles for CSP and Nuclear Applications. NREL/PR-5500-61234, 2013.
+[4] Turchi, C. S., et al. Supercritical CO₂ Brayton Cycles for CSP and Nuclear Applications. NREL/PR-5500-61234, 2013.
 
 [5] Ho, C. K., and Iverson, B. D. Review of high-temperature central receiver designs for concentrating solar power. Renewable and Sustainable Energy Reviews, Vol. 29, 2014, pp. 835-846.
 

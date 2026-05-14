@@ -31,10 +31,10 @@
 | NaK | Sodium-Potassium Alloy | Liquid-metal working fluid used as the heat-transfer medium in active liquid-cooling loops |
 | NEΔT | Noise-Equivalent Temperature Difference | Sensitivity metric for infrared imaging systems |
 | np-Fe | Nano-Scale Metallic Iron Particles | Naturally occurring nano-scale iron particles in lunar regolith, with particle size < 100 nm |
-| PLSS | Portable Life Support System | Suit-integrated oxygen supply, thermal control, and CO2 removal unit |
+| PLSS | Portable Life Support System | Suit-integrated oxygen supply, thermal control, and CO₂ removal unit |
 | PSR | Permanently Shadowed Region | Lunar polar regions that receive no sunlight year-round |
 | RHU | Radioisotope Heating Unit | Unit that uses radioactive decay heat to keep equipment warm |
-| Sabatier | Sabatier Reaction | Chemical reaction in which CO2 and H2 are catalytically converted into CH4 and H2O |
+| Sabatier | Sabatier Reaction | Chemical reaction in which CO₂ and H₂ are catalytically converted into CH₄ and H₂O |
 | SAR | Synthetic Aperture Radar | Radar system capable of subsurface imaging through the lunar surface |
 | SPE | Solar Particle Event | High-energy particle outburst released by solar eruptions |
 | SPA Basin | South Pole-Aitken Basin | The Moon's largest and oldest impact basin, located in the south polar region |
@@ -170,7 +170,7 @@ Although missions such as Chang'e, LRO, and Chandrayaan have already accumulated
 
 - **Exact distribution and occurrence form of polar water ice**: Does the ice exist as pure ice layers, ice-regolith mixtures, or hydrated minerals? How large is its spatial variability at the meter scale? This directly determines extraction methods and equipment selection.
 - **Thermal stability of permanently shadowed polar regions**: Can water ice be maintained long-term without sublimation and escape? A precise 3D temperature-distribution model is a prerequisite for engineering-scale extraction. Existing studies based on LRO Diviner data have carried out preliminary thermal modeling of polar shadowed regions, but their spatial resolution is insufficient for engineering-scale decisions [26].
-- **Reserves and occurrence of CO2 cold traps**: As a supplementary local carbon source for CNT manufacturing, polar CO2 cold-trap reserves must be supported by direct exploration data. Schorghofer and Williams, 2021, were the first to confirm the existence of lunar polar CO2 cold traps based on LRO data, with a total area of about 200 km2, but their reserves remain unconstrained [27].
+- **Reserves and occurrence of CO₂ cold traps**: As a supplementary local carbon source for CNT manufacturing, polar CO₂ cold-trap reserves must be supported by direct exploration data. Schorghofer and Williams, 2021, were the first to confirm the existence of lunar polar CO₂ cold traps based on LRO data, with a total area of about 200 km2, but their reserves remain unconstrained [27].
 - **Moonquakes and geologic stability**: The geomechanical properties of candidate base sites, especially moonquake frequency, magnitude, and amplification effects in surface motion.
 - **Spatial distribution and internal geometry of lava-tube skylights**: How many enterable lava tubes exist in the polar and high-latitude regions? Are their internal width, height, and length sufficient to host large industrial facilities? Existing GRAIL and LRO data have already preliminarily revealed lava-tube evidence in Marius Hills and the Mare Tranquillitatis Pit [19,20,21], but a systematic survey of the polar regions has not yet been carried out. **The center of gravity of this survey should be the SPA basin margin region within a 100 km radius around Shackleton**. In theory, this region has the geologic conditions required for lava-tube formation because basin impacts were accompanied by volcanic activity, and if confirmed it would create the optimal “eternal light + subsurface” synergy together with Shackleton.
 - **Regional distribution of construction-material regolith**: Using the criteria in Section 1.3(b), multispectral data should be used to identify contact-mixed belts between highland anorthosite and mare basalt, and preliminarily delineate candidate resource zones matching the required mineral composition and bimodal particle-size distribution.
@@ -233,7 +233,7 @@ The orbital exploration mission will also carry out first-of-its-kind principle 
 
 **Mission Group I P0-level acceptance criteria**:
 
-- **P0-R1**: The spatial resolution of the polar water-ice distribution map, expressed as H-equivalent abundance, must be better than 50 km, and uncertainty in hydrogen abundance, in wt% H2O equivalent, must not exceed +/-30% at 2σ.
+- **P0-R1**: The spatial resolution of the polar water-ice distribution map, expressed as H-equivalent abundance, must be better than 50 km, and uncertainty in hydrogen abundance, in wt% H₂O equivalent, must not exceed +/-30% at 2σ.
 - **P0-R2**: The microgravity CNT growth experiment must produce continuous CNT fibers at least 100 cm long, with no visible breakage under SEM observation, confirming that microgravity does not prevent fiber formation.
 - **P0-R3**: A systematic survey of lava-tube skylights in the polar regions, above 60° north and south latitude, must be completed, with **the SPA basin margin area within a 100 km radius around Shackleton designated as the top-priority coverage region**. At least three high-priority candidate sites must be identified and cataloged. Each must show: continuous basalt roof thickness >= 30 m in SAR echoes, estimated cavity width >= 500 m, skylight slope <= 30° in visible imagery, and internal day-night temperature variation <= +/-10°C in infrared data. These sites will serve as candidate targets for field exploration in Mission Group II.
 - **P0-R4**: Using multispectral data, at least five candidate construction-material regolith zones meeting the criteria of Section 1.3(b) must be preliminarily delineated, each with area >= 10 km2 and mineral-mapping resolution <= 100 m/pixel.
@@ -281,13 +281,13 @@ Key design requirements are as follows:
 - **Autonomy requirement**: The drill must be able to infer lithology online and autonomously adjust rotation rate, feed rate, and impact energy based on drilling resistance and vibration spectrum. If bit sticking or bit wear occurs, it must autonomously attempt reverse withdrawal and variable-speed strategies. Only after three consecutive failed withdrawal attempts may it request Earth intervention.
 - This payload directly validates water-ice occurrence form, abundance, and extraction energy cost, corresponding to P0-M1 of this volume and the mining-system design work in Main Volume IV. Its overall technical scheme draws on NASA VIPER's TRIDENT drill design [13,16].
 
-**CO2 cold-trap detector and sampler**
+**CO₂ cold-trap detector and sampler**
 
 - Cold-trap scraping sampler with controllable scraping depth of 0-5 cm and single-sample mass >= 10 g
-- Miniature gas chromatograph targeting CO2, CH4, and NH3, with CO2 detection limit <= 10 ppm
+- Miniature gas chromatograph targeting CO₂, CH₄, and NH3, with CO₂ detection limit <= 10 ppm
 - Total mass <= 8 kg
 - **Autonomy requirement**: The sampler must be able to infer whether it has encountered bedrock or a hard interlayer from torque feedback during scraping, and automatically adjust scraping depth to avoid hardware damage.
-- This payload confirms the raw-material basis for a supplementary CNT carbon-source pathway, directly supporting the carbon-source strategy of the CNT manufacturing system in Volume V. The existence of CO2 cold traps has already been confirmed by Schorghofer and Williams, 2021, using LRO data [27].
+- This payload confirms the raw-material basis for a supplementary CNT carbon-source pathway, directly supporting the carbon-source strategy of the CNT manufacturing system in Volume V. The existence of CO₂ cold traps has already been confirmed by Schorghofer and Williams, 2021, using LRO data [27].
 
 **Regolith mechanical-properties test suite**
 
