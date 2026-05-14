@@ -11,7 +11,7 @@
 
 ### Terminology Table
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | CELSS | Closed ecological life-support system | Self-circulating life-support system |
 | ECLSS | Environmental control and life-support system | Environmental Control and Life Support System |

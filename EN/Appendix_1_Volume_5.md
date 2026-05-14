@@ -11,7 +11,7 @@
 
 ### Terminology Table
 
-| Abbrev. | Chinese Term | Description |
+| Abbrev. | Term | Description |
 |------|----------|------|
 | 3D | Three-dimensional | Three-Dimensional |
 | C/SiC | Silicon-carbide-fiber-reinforced composite | High-temperature structural material |

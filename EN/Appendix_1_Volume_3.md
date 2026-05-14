@@ -11,7 +11,7 @@
 
 ### Glossary
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | C/SiC | Silicon-carbide-fiber-reinforced composite | Zero-expansion mirror-substrate material |
 | CO₂ | Carbon dioxide | Working fluid for supercritical CO₂ Brayton cycle |

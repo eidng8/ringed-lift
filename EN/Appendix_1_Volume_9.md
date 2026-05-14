@@ -11,7 +11,7 @@
 
 ### Glossary
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | CAPEX | Capital expenditure | Capital Expenditure |
 | CAGR | Compound annual growth rate | Compound Annual Growth Rate |

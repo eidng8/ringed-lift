@@ -11,7 +11,7 @@
 
 ### Terminology Table
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | ALO | Astronomical lunar observatory | Astronomical Lunar Observatory (ESA concept) |
 | CAPEX | Capital expenditure | Capital Expenditure |

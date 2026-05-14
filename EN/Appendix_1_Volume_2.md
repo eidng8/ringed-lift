@@ -10,7 +10,7 @@
 
 ### Glossary
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | CELSS | Closed Ecological Life Support System | Self-circulating life-support system for long-duration crewed residence |
 | CFRP | Carbon Fiber Reinforced Polymer | Structural reinforcement material for cave-wall sealing layers |

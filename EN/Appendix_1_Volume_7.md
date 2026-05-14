@@ -11,7 +11,7 @@
 
 ### Glossary
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | 3D | Three-Dimensional | Three-dimensional |
 | CELSS | Closed Ecological Life Support System | Self-circulating life-support system |

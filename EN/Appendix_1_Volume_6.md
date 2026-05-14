@@ -11,7 +11,7 @@
 
 ### Terminology Table
 
-| Abbreviation | Chinese Term | Description |
+| Abbreviation | Term | Description |
 |------|----------|------|
 | CFRP | Carbon-fiber-reinforced polymer | Lightweight high-strength structural material |
 | CNT | Carbon nanotube | Core cable material for the ring and lunar industry |
