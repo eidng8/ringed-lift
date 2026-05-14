@@ -1,477 +1,479 @@
-# Book one: Moon industry
+# Appendix I: Lunar Industry
 
-Volume IX: Economics and Earth Link
+## Volume IX: Economics and Earth Linkages
 
-** Version**: 1.1<br/>
-** Prepared**: June 2026 <br/>
-** Monetary unit**: RMB, symbol: <br/>
-**Affiliated main book**: volume X (Economic Models and Commercial Paths), volume XI (Legal, Governance and International Harmonization) <br/>
-** Pre-reader**: volumes I to VIII of this appendix
+**Version**: 1.1<br/>
+**Date of Preparation**: June 2026<br/>
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volumes**: Main Volume X, Main Volume XI<br/>
+**Prerequisite Reading**: Appendix I Volumes I through VIII
 
 
-## Glossary
+### Glossary
 
-Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation
+| Abbreviation | Chinese Term | Description |
 |------|----------|------|
-CAPEX Capital Expenditure
-CAGR Combined annual growth rate
-CfD Contract for Difference, Financial Instrument for Guaranteeing Minimum Access Prices
-CNT carbon nanopipes, lunar industry core high-end exports
-DCF Discounted Cash Flow
-Environmental Control and Life Support System
-Geostationary Earth Orbit
-International Lunar Research Service
-IRR Internal Rate of Return
-In-Situ Resources Utilisation
-LCOE Equalized Cost of Electricity
-Low Earth Orbit
-| MWe | MWW power | units of power output from power generation systems
-NPV Net present value
-OPEX Operating Expenditure
-Private Equity
-PIF Public Investment Fund
-Qatar Investment Authority
-SDR Special Drawing Rights
-SPE Solar Particle Event
+| CAPEX | Capital expenditure | Capital Expenditure |
+| CAGR | Compound annual growth rate | Compound Annual Growth Rate |
+| CfD | Contract for Difference | Contract for Difference, financial instrument that guarantees a minimum grid tariff |
+| CNT | Carbon nanotube | Core high-end export product of lunar industry |
+| DCF | Discounted cash flow | Discounted Cash Flow |
+| ECLSS | Environmental control and life support system | Environmental Control and Life Support System |
+| GEO | Geostationary Earth orbit | Geostationary Earth Orbit |
+| ILRS | International Lunar Research Station | International Lunar Research Station |
+| IRR | Internal rate of return | Internal Rate of Return |
+| ISRU | In-situ resource utilization | In-Situ Resource Utilization |
+| LCOE | Levelized cost of electricity | Levelized Cost of Electricity |
+| LEO | Low Earth orbit | Low Earth Orbit |
+| MWe | Megawatt electric | Unit of electrical output power |
+| NPV | Net present value | Net Present Value |
+| OPEX | Operating expenditure | Operational Expenditure |
+| PE | Private equity | Private Equity |
+| PIF | Public Investment Fund | Public Investment Fund, Saudi sovereign wealth fund |
+| QIA | Qatar Investment Authority | Qatar Investment Authority |
+| SDR | Special Drawing Rights | Special Drawing Rights |
+| SPE | Solar particle event | Solar Particle Event |
 
 
-## # 9.1 Caption
+### 9.1 Opening Statement
 
-This volume, located in the framework of the lunar industrial system,** the economic feasibility demonstration and the Earth Linked Strategic Planning**, focuses on the following core questions:
+This volume is positioned as the **economic feasibility assessment and Earth-linkage strategic plan** for the lunar industrial system, focused on answering the following core questions:
 
-> How much is needed for moon industrialization? Where does the money come from? Can it generate cash flows that cover costs and sustain profits? How long is the return on investment? What is the core business model of the Moon Industrial Park? What is the turning point between “continuous blood transfusions on Earth” and “net economic returns on Earth”? How will the Moon industrial system be reshaped when it matures?
+> How much capital is required for lunar industrialization? Where does the money come from? Once built, can the system generate cash flow sufficient to cover costs and sustain profitability? How long is the investment payback period? What is the core business model of a lunar industrial park? Where is the turning point from continuous financial transfusion from Earth to net economic return to Earth? After the lunar industrial system matures, how will it reshape the Earth-Moon economic structure?
 
-This volume is attached to:
-- ** Volumes I to VIII**: technical programmes, equipment lists, personnel size, energy consumption needs and emergency response systems have been given at various stages.
-- ** Book X of the main volume**: The economic model and financing structure of the ring ladder, the Moon as the “accelerator option” of the ring ladder.
-** Volume XI of the main volume**: Framework for international governance, the operation and management of the Moon industry could draw on the UNORE model.
+This volume builds on:
+
+- **Volumes I through VIII**: technical solutions, equipment lists, personnel scales, energy-demand requirements, and emergency systems have already been defined by stage.
+- **Main Volume X**: economic model and financing structure of the ring-elevator project, with the Moon as an acceleration option.
+- **Main Volume XI**: international governance framework; operation and management of lunar industry can draw on the UNORE model.
 
 Core tasks of this volume:
 
-1. Consolidation of data on the quality of equipment, energy consumption and size of personnel for the first eight volumes and establishment of a phased input output model for the Moon Industrial Park.
-Design the core business model of the Moon industry, analysing its revenue structure, cost composition and profitability.
-3. To propose diversified international financing and insurance mechanisms.
-4. Assessment of investment return and cost recovery periods through multi-scenario analysis.
-Analysis of the lunar industry's anti-nursing path to the Earth's economy, establishing a turning point from “the Earth's blood transfusion” to “the Earth's blood transfusion”.
-6. Discussion of the viability of the lunar industry independent of the Treadway Project.
+1. Integrate data from the first eight volumes on equipment mass, energy demand, and personnel scale to build a staged input-output model for the lunar industrial park.
+2. Design the core business model of lunar industry and analyze its revenue structure, cost composition, and profitability.
+3. Propose a diversified international financing and insurance mechanism.
+4. Assess investment return rate and cost payback period through multi-scenario analysis.
+5. Analyze pathways through which lunar industry feeds back into Earth’s economy, and identify the turning point from Earth transfusion to lunar transfusion toward Earth.
+6. Discuss the survivability of lunar industry independent of the ring-elevator project.
 
 
-Phased input model
+### 9.2 Staged Investment Model
 
-####9.2.1 Total estimated investment
+#### 9.2.1 Total Investment Estimate
 
-Based on the list of equipment, staffing and infrastructure requirements for the first eight volumes, the total investment of the Moon Industrial Park (CAPEX) is estimated in four phases as follows. All costs are denominated in renminbi and the base year is the start year of the project (year 1).
+Based on equipment lists, staffing configurations, and infrastructure requirements from the first eight volumes, total CAPEX for the lunar industrial park is estimated across four stages as follows. All amounts are in RMB, with project Year 1 as the base year.
 
-** Phase I: pioneer mission and presence (1-8 years)**
+**Stage I: Pioneer missions and initial habitation, Years 1-8**
 
-(billions of yuan)
+| Investment Item | Amount (100 million RMB) | Description | Source Volume |
 |:-----|:-----:|:-----|:-----|
-Mission group I: Remote sensing detailed survey satellites (3 units)
-Task group II: Survey of landers (3-4 units)
-Task group III: First manned presence (4-6 personnel, 30 days)
-| Ground support facilities (launch site, control, relay) | 300-500 | Using existing infrastructure (Cyberbridge II, Long March X, etc.) | Volume I, section 1.2 |
-| Initial start-up resources (Earth preset) | 50-100 | fungus, fish seed, seeds, initial aluminum, etc. | VII § 7.3.2 (f) |
-Training, management and preparation of personnel
-** Subtotal, phase I** ** **  ** 4,050 per 730 billion ** ** | ** ** ** ** ** **
+| Mission Group I: remote-sensing survey satellites, 3 spacecraft | 500-800 | Polar survey satellite + SAR satellite + gravity-field formation | Volume I Section 1.4 |
+| Mission Group II: prospecting landers, 3-4 units | 1,000-1,500 | Water-ice drilling, GPR, regolith analysis, nuclear-power validation | Volume I Section 1.5 |
+| Mission Group III: first crewed stay, 4-6 crew, >=30 days | 2,000-4,000 | Pressurized stay module + inflatable expansion module + ECLSS + rover + crew transportation system | Volume I Section 1.6 |
+| Ground support facilities, launch, TT&C, relay | 300-500 | Reuse of existing infrastructure, Queqiao-2, Long March 10, etc. | Volume I Section 1.2 |
+| First batch of startup resources, Earth pre-deployed | 50-100 | Microbial strains, fish fry, seeds, initial aluminum ingots, etc. | Volume VII Section 7.3.2(f) |
+| Personnel training, management, contingency | 200-400 | - | This volume |
+| **Stage I subtotal** | **about 4,050-7,300** | - | - |
 
-** Phase II: outposts and basic industries (5-15 years)**
+**Stage II: Outpost and foundational industry, Years 5-15**
 
-(billions of yuan)
+| Investment Item | Amount (100 million RMB) | Description | Source Volume |
 |:-----|:-----:|:-----|:-----|
-Permanent base infrastructure (month surface or underground)
-Recent energy systems (PV+N+R) 1,500-2,500 | Photovoltaic arrays + 2-3 nuclear reactors + hydrogen energy storage systems | Volume III, Section 3.3 |
-| Mining equipment (water ice + building materials + metal mines) | 500-800 | drill + patrol + fragmentation sift + magnetic selection system | Volume IV, section 4.6 |
-| Construction materials line (brick + concrete) | 200-400 | Automatic burning of the line + concrete mixing system
-| Metal smelter (initial) 500-800 | Direct current arc furnace + aluminium electrolytic tank + iron reduction furnace | Volume V, Section 5.6 |
-CNT pre-weaving line (small) 200-400 | Mini-FCCVD reactor + pre-weaving machine + carbon source preparation
-• Transport system (initial) 300-500 | Monitor + skylight lift + initial orbit + cable vehicle |
-Life support and living facilities 1,000-1500 | ECLSS+ residence + dome farm + medical station
-Emergency shelter and protection system 500-800 I/II shelter + emergency supplies + rescue vehicles
-Transport supply (Earth to Moon) 2,000-4,000 | Heavy cargo lander multiple missions
-Staff rotation and training 500-1,000 50-80, including transport costs VII 7.2
-** Sub-total of phase II** ** **  ** 970 per 1.770 billion ** ** | ** ** ** ** ** ** ** ** ** ** **
+| Permanent-base infrastructure, surface or subsurface | 3,000-5,000 | Sealing and pressurization, regolith cover/sintered-brick structures, transport network | Volume II Sections 2.3-2.6 |
+| Near-term energy system, PV + nuclear + storage | 1,500-2,500 | PV arrays + 2-3 reactors + hydrogen storage system | Volume III Section 3.3 |
+| Mining equipment, water ice + construction material + metal ore | 500-800 | Drills + rovers + crushing/screening + magnetic separation | Volume IV Section 4.6 |
+| Construction-material production lines, sintered brick + concrete | 200-400 | Automated sintering line + concrete mixing/casting system | Volume V Section 5.5 |
+| Initial metal-smelting workshop | 500-800 | DC arc furnace + aluminum electrolysis cells + iron-reduction furnace | Volume V Section 5.6 |
+| Small CNT pre-weaving production line | 200-400 | Micro FCCVD reactors + pre-weaving machines + carbon-feedstock preparation | Volume V Section 5.7 |
+| Initial transport system | 300-500 | Rovers + skylight lift system + initial rail + cableway | Volume VI Sections 6.4-6.9 |
+| Life support and habitation facilities | 1,000-1,500 | ECLSS + habitat modules + dome farms + medical stations | Volume VII Sections 7.3-7.7 |
+| Emergency shelter and protection system | 500-800 | Level I/II shelters + emergency supplies + rescue vehicles | Volume VIII Sections 8.4-8.6 |
+| Cargo resupply, Earth to lunar surface | 2,000-4,000 | Multiple heavy cargo lander missions | Volume VI |
+| Personnel rotation and training | 500-1,000 | Scale of 50-80 personnel including transport cost | Volume VII Section 7.2 |
+| **Stage II subtotal** | **about 9,700-17,700** | - | - |
 
-** Phase III: industrial base and initial closed ring (12-25 years)**
+**Stage III: Industrial base and initial closed loop, Years 12-25**
 
-(billions of yuan)
+| Investment Item | Amount (100 million RMB) | Description | Source Volume |
 |:-----|:-----:|:-----|:-----|
-• Thermal-electric-photo-photographic hub (phase I + II) 5,000-8,000 radiums + supercritical CO2 penthouse + melted salt + thermal + spectrometer + optical catheter |3 §3.5
-| Transmission and distribution grid extension | 1000-2,000 | HVDC trunk + ring + superconductive transmission reserve | III § 3.4 |
-• Mining system expansion (scaled)
-| Construction materials line amplification 300-500 | Brick + concrete line multiplied to 2,000 | Japanese
-| | | | | + + + TT 增 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | + + + + + + +
-CNT Quantification Plant 1,500-3,000 | Industrial-grade FCCVD reactor array+purification+weaving line
-Transport network upgrade 1,000-2,000 Pipeline orbital traffic + trunk orbital extension + cable vehicle amplification
-| | | | | | | | Dome + Hole Sealing + Educational Cultural Facility | | | |
-Upgrading of the emergency response system 300-500
-Transport resupply (reduced but not zero) 500-1,000 | Local replacement rate > 70%, supplementing only non-locally produced precisions, medicines | Volume VII 7.3.2 (g)
-(up to 200-500)
-** Subtotal, phase III** ** ** ** ** ** ** ** ** ** **  **  **  ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
+| Thermal-electric-light co-generation hub, Phase I + II | 5,000-8,000 | Heliostat array + s-CO2 turbines + molten-salt storage + splitters + light conduits | Volume III Section 3.5 |
+| Transmission and distribution expansion | 1,000-2,000 | HVDC trunk lines + ring bus + reserved superconducting upgrade | Volume III Section 3.4 |
+| Scaled mining-system expansion | 1,000-2,000 | Multiple drills + large excavation rovers + rail cargo system | Volume IV Sections 4.8-4.10 |
+| Construction-material line expansion | 300-500 | Brick and concrete lines expanded to >=2,000 blocks/day | Volume V Section 5.5 |
+| Metal-smelting workshop expansion | 1,000-2,000 | Arc furnace and electrolysis expansion to monthly aluminum/iron >=2,000/5,000 kg | Volume V Section 5.6 |
+| CNT mass-production factory | 1,500-3,000 | Industrial FCCVD reactor arrays + purification + weaving lines | Volume V Section 5.7 |
+| Transport network upgrade | 1,000-2,000 | Tube rail transport + trunk rail extension + cableway capacity increase | Volume VI Sections 6.5-6.9 |
+| Habitation expansion to 500 residents | 2,000-4,000 | Dome clusters + sealed/pressurized cave sections + education/cultural facilities | Volume VII Sections 7.4-7.9 |
+| Emergency-system upgrade | 300-500 | Additional shelters + emergency supplies + multi-hazard simulation system | Volume VIII Sections 8.4-8.8 |
+| Cargo resupply, significantly reduced but not zero | 500-1,000 | Local substitution >70%; only precision parts, medicine, and other non-local items | Volume VII Section 7.3.2(g) |
+| Personnel rotation, increased to 200-500 | 1,000-2,000 | - | Volume VII Section 7.2 |
+| **Stage III subtotal** | **about 14,600-27,500** | - | - |
 
-** Phase IV: Moon City and Civilization Node (25th year)**
+**Stage IV: Lunar city and civilization node, Year 25 onward**
 
-(billions of yuan)
+| Investment Item | Amount (100 million RMB) | Description | Source Volume |
 |:-----|:-----:|:-----|:-----|
-Thermal-electric-photographic hub, phase 3 | 3,000-5,000 | Dayglass arrays full size + third + light catheter with full coverage
-For the city of the Dome
-Upgrading of the whole industrial chain 3,000-6,000 | Chip factory, pharmaceutical laboratory, helium-3 extraction facility (forward)
-| Moon Launch Center and Deep Air Port | 2,000-4,000 | EMP + propellant infusion station + Moon Orbital Space Station | 6 Vol.
-| Cluster of scientific research facilities | 1,000-3,000 | Gravity Wave Observatory, particle accelerator, deep space monitoring network | X, section 10.3.4
-** Subtotal for phase IV** ** ** **  **14,000-280 billion ** ** | ** ** ** **
+| Co-generation hub Phase III | 3,000-5,000 | Full-scale heliostat array + third turbine + full light-conduit coverage | Volume III Section 3.5 |
+| Dome-city clusters | 5,000-10,000 | Ten-thousand-person residential, commercial, educational, and medical complex | Volume VII Section 7.9 |
+| Full industrial-chain upgrade | 3,000-6,000 | Chip fabrication, pharmaceutical labs, helium-3 extraction facilities in long term | Volume V Sections 5.2-5.7 long-term plan |
+| Lunar launch center and deep-space port | 2,000-4,000 | Electromagnetic launcher + propellant depot + lunar-orbit station | Volume VI long-term plan |
+| Scientific-facility clusters | 1,000-3,000 | Gravitational-wave observatory, particle accelerator, deep-space TT&C network | Volume X Section 10.3.4 |
+| **Stage IV subtotal** | **about 14,000-28,000** | - | - |
 
-Summary of phase IV investments
+#### 9.2.2 Four-Stage Investment Summary
 
-(b) (billion yuan)
+| Stage | Time | CAPEX (100 million RMB) | Annual Average Investment (100 million RMB) | Main Spending Categories |
 |:-----|:-----|:-----:|:-----:|:-----|
-First phase 1-8 years 4,050-7,300 506-913 pioneer missions, technical verification, first presence
-Phase 2 5-15 9 700-17,700 970-1 770 Permanent bases, basic industry, mining, life support
-Phase III 12-2500 14 600-27,500 | 1,124-2 115 | Combination hubs, mass factories, transport networks, 500-person towns
-Phase 4 Since 25th year 14000-28,000 | 10,000 people in cities, industrial chains, deep airports
-** Total**
+| Stage I | Years 1-8 | 4,050-7,300 | 506-913 | Pioneer missions, technical validation, first crewed stay |
+| Stage II | Years 5-15 | 9,700-17,700 | 970-1,770 | Permanent base, foundational industry, mining, life support |
+| Stage III | Years 12-25 | 14,600-27,500 | 1,124-2,115 | Co-generation hub, mass-production factories, transport network, 500-person town |
+| Stage IV | Year 25 onward | 14,000-28,000 | - | Ten-thousand-person city, full industrial chain, deep-space port |
+| **Total** | - | **about 42,350-80,500** | - | - |
 
-> Note: The median value of total investment is about **$60 trillion** (approximately $8.3 trillion) and is assessed at 30 years ' annual average of approximately **$2 trillion**. This figure is about 1.5 per cent of China ' s GDP in 2025 (approximately 1.3 trillion yuan), which corresponds to about two times the annual value of the global space industry (approximately $613 billion in 2025, of which 78 per cent came from commercial activities). Compared to the main book ring ladder project (about 55 - 58 trillion yuan), the Moon Industrial Park investment was of a considerable scale, but it was longer in time and was lower in average per year.
+> Note: midpoint total investment is about **6 trillion RMB** (about 8.3 trillion USD), equivalent to average annual spending of about **200 billion RMB** over 30 years. This is about 1.5% of China’s 2025 GDP (about 130 trillion RMB), and about twice the annual output value of the global space industry (about 613 billion USD in 2025, with 78% from commercial activity [9]). Compared with the main ring-elevator program (about 5.5-5.8 trillion RMB), the lunar industrial park is of similar order of magnitude, but spread over a longer period with lower annual intensity.
 
-####9.2.3 Estimated Operational Expenditure (OPEX)
+#### 9.2.3 OPEX Estimate
 
-After full-load operation (end of phase III, approximately 25 years), the annual average OPEX is estimated as follows:
+After full-load operation, by the end of Stage III around Year 25, estimated annual OPEX is:
 
-Average annual amount (billion yuan)
+| Cost Category | Annual Amount (100 million RMB) | Notes |
 |:-----|:-----:|:-----|
-Staff salaries and benefits (sized at 500)
-| Maintenance and replacement of equipment | 200-400 | Equivalent in orbital set replacement, spectroscope dust removal, reactor catalyst replacement
-• Energy system maintenance 100-200 Nuclear reactor refuelling, photovolt array cleaning, heat storage tank overhaul
-• Food, medicine, fire, leak control, periodic replacement
-| Earth cargo resupply (replacement of non-replaceable material) | 100-200 | Precision electronic components, special drugs, partial catalysts
-Rotation of personnel
-Insurance costs 50-100 including launch insurance, base property insurance, personnel accident insurance
-• Management and administration 30-80 — |
-** Average annual OPEX total** ** **  ** 650 – 133 billion ** **
+| Personnel salaries and benefits, 500 personnel | 100-200 | Per-capita annual compensation 2-4 million RMB including risk premium and insurance |
+| Equipment maintenance and replacement | 200-400 | Includes track-sleeve replacement, heliostat cleaning, reactor catalyst replacement |
+| Energy-system maintenance | 100-200 | Reactor refueling, PV cleaning, storage-tank maintenance |
+| Emergency-supply replenishment | 20-50 | Periodic replacement of food, medicine, firefighting, and leak-sealing supplies |
+| Earth cargo resupply for non-substitutable items | 100-200 | Precision electronics, specialty pharmaceuticals, selected catalysts |
+| Personnel rotation transport | 50-100 | Annual rotation ratio about 20% |
+| Insurance premiums | 50-100 | Launch insurance, base property insurance, personnel accident insurance |
+| Management and administration | 30-80 | - |
+| **Total annual OPEX** | **about 650-1,330** | - |
 
 
-## 9.3 Core business model and revenue structure
+### 9.3 Core Business Model and Revenue Structure
 
-####9.3.1 Overview of sources of income
+#### 9.3.1 Overview of Revenue Sources
 
-The sources of income for the Moon Industrial Park, in order of priority, are as follows:
+Revenue streams for the lunar industrial park, ranked by priority:
 
-(billions of dollars)
+| Revenue Source | Expected Annual Revenue (100 million RMB) | Launch Timing | Pricing Basis |
 |:-----|:-----:|:-----|:-----|
-** Sale of space solar power** | 500-1,000 | Phase 3 | Moon-surface solar power microwave/laser to Earth or GEO orbital facilities at Internet prices **0.3-0.6/kWh |
-** CNT cable and high-end material exports** Phase III ** The global CNT market was approximately $652 million (approximately RMB 4.7 billion) [4] [6] in 2024 and is expected to reach $4,863 million (CAGR 36.5 per cent) [4] or RMB 31.84 billion (CAGR 34.3 per cent) [6] in 2031. Quantities of the CNT plant on the surface of the moon for the construction of the ring ladder and deep space facilities, 500-1,000/kg |
-** Monthly surface transport services** | 100-300 | Phase III | Propulsion injections, deep space launch services provided by the Moon Launch Centre, 60 per cent-80 per cent of Earth launch savings
-** Space tourism and residence** | 50-200  ** Phase IV  ** 1,000-5,000 visits per person per year, 500,000-2 million per person. The global space tourism market was estimated at $6.07 billion in 2025, and is projected to reach $9.7 billion in 2032 (6.92 per cent of CAGR) [para. 11] Magnum
-** In-orbit manufacturing and industrial services**
-**Scientific platform lease** | 20-50 | Phase 2  ** Moon laboratory, observatory, particle accelerator
-**Helium-3 and rare isotopes** Forward (>5 billion yuan) Phase IV: Long-term fusion fuel markets, depending on commercial advances in fusion technology
-** Real estate and business services**
-** Brand mandate and media** | Full phase  ** Relay rights, sponsorship rights, Moon souvenirs  **
-** Total (full load, end of phase III)** ** **  ** 960–231 billion yuan/year** ** | ** **
+| **Space solar power sales** | 500-1,000 | Stage III | Lunar solar power transmitted by microwave/laser to Earth or GEO facilities, feed-in tariff 0.3-0.6 RMB/kWh |
+| **CNT cables and high-end material exports** | 200-500 | Stage III | Global CNT market in 2024 about 652 million USD (about 4.7 billion RMB) [4][6], projected to 4.863 billion USD by 2031 (CAGR 36.5%) [4] or about 31.84 billion RMB (CAGR 34.3%) [6]. Lunar CNT mass production supplies ring-elevator and deep-space infrastructure, 500-1,000 RMB/kg |
+| **Earth-Moon transport services** | 100-300 | Stage III | Lunar launch center provides propellant refueling and deep-space launch services, saving 60%-80% delta-v versus Earth launch |
+| **Space tourism and habitation** | 50-200 | Stage IV | 1,000-5,000 visitors per year, per-capita spending 0.5-2 million RMB. Global space-tourism market around 6.07 billion USD in 2025, projected to 9.7 billion USD by 2032 (CAGR 6.92%) [11] |
+| **In-orbit manufacturing and industrial services** | 50-150 | Stage III | Microgravity materials, asteroid-ore refining, prefabrication of large space structures |
+| **Scientific platform leasing** | 20-50 | Stage II | Open-access lunar labs, observatories, and particle accelerators |
+| **Helium-3 and rare isotopes** | Long term (>50) | Stage IV | Long-term fusion-fuel market, dependent on fusion commercialization progress |
+| **Real estate and commercial services** | 30-80 | Stage IV | Lunar city commercial property, hotels, food and beverage, retail |
+| **Brand licensing and media** | 10-30 | All stages | Broadcast rights, sponsorship rights, lunar commemorative products |
+| **Total at full load, from late Stage III onward** | **about 960-2,310 per year** | - | - |
 
-First largest source of income: solar power in space
+#### 9.3.2 Largest Revenue Source: Space Solar Power
 
-Space solar energy is the single most potential source of income for the Moon industry. The feasibility study on space solar energy commissioned by the British Government to institutions such as Fraunhofer ISI in 2026 indicated that the flat-level electricity cost of space solar energy (LCOE) could be reduced to £0.087-0.129/kWh by 2040, in competition with clean energy sources such as nuclear, tidal and tidal energy, of which launch costs are the largest cost driver of more than 50 per cent of the LCOE variance [1]. A similar conclusion was reached by the technical economic analysis of the 10 GHz distributed space solar system published by the Caltech team on *Joule*: after some 10 years of technological development, space solar energy LCOE could be reduced to 9.4 cents/kWh, which is comparable to the cost of the cleanest energy today [2].
+Space solar power is the highest-potential single revenue source. A 2026 UK government commissioned feasibility study by Fraunhofer ISI and partners indicates LCOE for space solar power may decline to £0.087-0.129/kWh by 2040, competitive with nuclear and tidal generation, with launch cost as the dominant cost driver accounting for over 50% of LCOE variance [1]. A Caltech Joule techno-economic analysis of 10 GHz distributed space-solar systems reports similar conclusions: after about ten years of technology progression, LCOE may decline to 9.4 US cents/kWh, comparable to today’s clean-energy costs [2].
 
-The competitive advantage of lunar space is that:
+Competitive advantages of lunar space solar power:
 
-- ** no atmospheric decline**: Moon surface AM0 Sun constant 1,361 W/m2, approximately 36 per cent higher than the energy density of the Earth ' s surface (AM1.5 about 1,000 W/m2).
-- ** Day-and-night alternation (Arctic permanent site)**: Shackleton margin > 90 per cent per annum > and power generation hours far exceed any photovoltaic station on Earth.
-- ** No weather effects**: no cloud, rain, sand and dust storms (except for the moon dust).
+- **No atmospheric attenuation**: lunar AM0 solar constant is 1,361 W/m², about 36% higher energy density than Earth surface conditions, AM1.5 around 1,000 W/m².
+- **No day-night cycle for polar continuous-light sites**: annual sunshine availability on Shackleton rim is >90%, far exceeding terrestrial PV utilization hours.
+- **No weather-driven output variability**: no cloud, rain, or dust storm effects, excluding lunar dust deposition.
 
-The distribution of electricity is based on ** wireless energy** (microwave 5.8 GHz or laser) and is transmitted to the solar power station (as a relay and condensation node) of the GEO orbiting ladder, which is then transferred from the ring ladder to the ground grid. A long-term power purchase agreement with the energy operator of the ringway in the form of** a differential contract (CfD)** guarantees a minimum feed-in price.
+Power sales use **wireless transmission**, microwave 5.8 GHz or laser, to GEO ring-elevator solar stations as relay and aggregation nodes, then transmitted to ground grids via the ring-elevator system. Lunar electricity is contracted through **CfD agreements** with ring-elevator energy operators, guaranteeing minimum grid-tariff floors.
 
-On the basis of 500 MWe monthly face-loading, annual electricity generation is about 4.4 billion kWh (90 per cent utilization rate) and annual revenue is about 22 billion kWh at 0.5/kWh. When the installation was extended to 2 GWe, the annual income was close to $88 billion.
+At baseline 500 MWe lunar installed capacity, annual generation is about 4.4 billion kWh at 90% capacity factor. At 0.5 RMB/kWh, annual revenue is about 22 billion RMB. At 2 GWe capacity, annual revenue approaches 88 billion RMB.
 
-Note: With regard to the economic viability of space solar energy, there are different assessment findings in academia. The MIT Giva-class technical and economic assessment of solar systems in space, completed in 2024, concluded that NPV was negative and LCOE was extremely high under current technical conditions and was not financially viable, and recommended that the focus of research and development should be on increasing the efficiency-face density ratio of photovoltaic arrays [3]. This assessment is used in this volume as an important reference for the pessimism scenario — if the PV-face density is less than expected, the economic turning point for space solar power will be significantly delayed and the first largest source of income for the Moon industry will face significant uncertainty. Both optimism and pessimism have included corresponding income scenarios in the IRR analysis in Section 9.4.2.
+Note: there are diverging academic views on economic feasibility. A 2024 MIT techno-economic assessment of gigawatt-scale space-solar systems concluded NPV remains negative and LCOE extremely high under current assumptions, recommending R&D focus on improving PV efficiency-to-areal-density ratio [3]. This volume treats that conclusion as a key pessimistic reference: if PV efficiency-to-areal-density does not improve as expected, the economic inflection for space solar power may be delayed significantly, and the largest revenue stream for lunar industry faces major uncertainty. Both optimistic and pessimistic assumptions are included in IRR analysis in Section 9.4.2.
 
-Second largest source of income: CNT cables and high-end materials
+#### 9.3.3 Second Largest Revenue Source: CNT Cables and High-End Materials
 
-The core strategic product of the Moon industry is the CNT cable. According to several research institutions, the global CNT market was about $652 million (approximately RMB 4.7 billion) in 2024, selling about 10,836 tons at an average price of about $60,200/kg [4]. The market size is expected to reach $4,863 million by 2031 (CAGR 36.5 per cent) [4] or RMB 31.84 billion (CAGR 34.3 per cent) [ 6.] Demand growth is driven mainly by the energy storage market (lithium cell conductor additives) [5].
+CNT cables are the core strategic product of lunar industry. According to multiple market studies, global CNT market size in 2024 is about 652 million USD (about 4.7 billion RMB), annual sales volume about 10,836 tons, and average price about 60,200 USD/kg [4]. By 2031, market size is projected at 4.863 billion USD (CAGR 36.5%) [4] or 31.84 billion RMB (CAGR 34.3%) [6], with growth primarily driven by energy-storage demand, especially conductive additives for lithium batteries [5].
 
-The competitive advantage of the lunar CNT cable is that:
+Competitive advantages of lunar CNT cables:
 
-- ** Local carbon-source closed rings**: monthly carbon-spherical meteorite residues + polar CO2 cold + long-term asteroid carbon capture, with carbon-source costs down 1-2 orders of magnitude compared to Earth launch.
-- ** low-gravity manufacturing advantage**: FCCVD reaction at 1/6 gravitational level decreases, and carbon nanopipes may be better organized than Earth-like products.
-- ** Unreplaceable strategic status**: The ring ladder is the largest customer (tens of thousands of tons of class CNT cables per year) and the Moon is the only source of large-scale supply capacity.
+- **Closed-loop local carbon feedstock**: residual carbonaceous chondritic material on lunar surface, polar CO2 cold traps, and long-term asteroid carbon capture reduce carbon-feedstock cost by one to two orders of magnitude versus Earth launch.
+- **Low-gravity manufacturing advantage**: under lunar 1/6 gravity, buoyancy-driven convection in FCCVD reactions is weaker, potentially improving CNT alignment quality versus Earth products.
+- **Strategic irreplaceability**: the ring-elevator project is the largest customer, annual demand at tens-of-thousands-ton scale, and the Moon is the only site with potential for large-scale supply.
 
-At a monthly production rate of 10,000 kg CNT yarn and a price of 500/kg, the annual income is about 600 million yuan. Entering the peak of cable construction (13-24 years of major bookring construction), monthly production has to rise to 100,000 kg/year, with an annual income of over $5 billion.
+At monthly output of 10,000 kg CNT yarn and ex-factory price 500 RMB/kg, annual revenue is about 600 million RMB. During ring-elevator peak cable construction period, Main Volume timeline years 13-24, output must rise to around 100,000 kg per year class, with annual revenue above 5 billion RMB.
 
-Phased income structure
+#### 9.3.4 Staged Revenue Structure
 
-(b) Projected annual income (billions of yuan)
+| Stage | Time | Operable Facilities | Estimated Annual Revenue (100 million RMB) | Main Revenue Sources |
 |:-----|:-----|:-----|:-----:|:-----|
-| Phase 1 | 1-8 | No business income | 0 | Pure input period |
-The first scientific platform was 2-5, the scientific lease, the scientific lease, and the scientific research platform.
-In the second phase, 10-12 years
-The first CNT exports plus scientific research 10-30 CNT+building materials+ scientific research
-Phase III 15-25 | Electricity + CNT+ Transport + Scientific | 100-500 | Electricity + CNT+ Transport Services |
-Since the beginning of the 25th year, the whole source of income has been activated.
+| Stage I | Years 1-8 | No commercial revenue | 0 | Pure investment period |
+| Early Stage II | Years 8-10 | First scientific platforms | 2-5 | Scientific leasing |
+| Mid Stage II | Years 10-12 | First external sales of construction materials/metals | 5-10 | Materials + metals + science |
+| Late Stage II | Years 12-15 | First CNT exports + science | 10-30 | CNT + materials + science |
+| Stage III | Years 15-25 | Power + CNT + transport + science | 100-500 | Power + CNT + transport services |
+| Stage IV | Year 25 onward | All revenue streams active | 960-2,310 | Power + CNT + transport + tourism + manufacturing + real estate |
 
 
-## 9.4 Analysis of return on investment
+### 9.4 Investment Return Analysis
 
-####9.4.1 Discount cash flow model
+#### 9.4.1 Discounted Cash Flow Model
 
-Using project start-up as the base year (t = 0), social discount rate r = 5 per cent (with reference to the global long-term infrastructure investment benchmark) and assessment cycle for 50 years (covering investment periods and operational maturity).
+Using project start as base year, t=0, social discount rate r=5% (referencing long-term global infrastructure benchmarks), and evaluation horizon of 50 years to cover both investment and mature operation phases.
 
-** CAPEX time distribution** (middle value for each stage, in billions of yuan):
+**CAPEX distribution by time** (stage midpoints, unit: 100 million RMB):
 
-| Year | CAPEX | Annual average input |
+| Year Range | CAPEX | Annual Average |
 |:-----|:-----:|:-----:|
-Year 1-8 5,675 | 709 |
-5-15 (overlapping phase I) 13,700 1370
-12-25 (overlapping phase II)
-♪ 25-35 ♪ 21,000 ♪ 2,100 ♪
+| Years 1-8 | 5,675 | 709 |
+| Years 5-15 (overlapping Stage I) | 13,700 | 1,370 |
+| Years 12-25 (overlapping Stage II) | 21,050 | 1,619 |
+| Years 25-35 | 21,000 | 2,100 |
 
-** Time distribution of income** (in billions of yuan/year):
+**Revenue distribution by time** (unit: 100 million RMB/year):
 
-Annual income (median)
+| Year Range | Annual Revenue (midpoint) | Annual OPEX (midpoint) | Annual Net Cash Flow |
 |:-----|:-----:|:-----:|:-----:|
-1 - 7 years 0 | − 709 (CAPEX only)
-Year 8-10
-| 10-12 | 7.5 | 200 − 1,563 |
-12-15 years 20 400 - 1,999
-| 15-20 years 150 | 700 − 2,169 |
-| 20-25 years 300 | 900 − 2,219 |
-| 25-35 | 1,635 | 990 + + 645 |
-| 35-50
+| Years 1-7 | 0 | 0 | -709, CAPEX only |
+| Years 8-10 | 3.5 | 100 | -1,467 |
+| Years 10-12 | 7.5 | 200 | -1,563 |
+| Years 12-15 | 20 | 400 | -1,999 |
+| Years 15-20 | 150 | 700 | -2,169 |
+| Years 20-25 | 300 | 900 | -2,219 |
+| Years 25-35 | 1,635 | 990 | +645 |
+| Years 35-50 | 1,635 | 990 | +645 |
 
-Net present value and internal rate of return
+#### 9.4.2 NPV and IRR
 
-50-year assessment cycle. Optimistic scenarios are already covered by the estimate of revenues from space solar power (based on the findings of the study LCOE £0.087/kWh of the British Government [1] and Caltech 9.4 cents/kWh assessment [2]) to pessimistic scenarios (based on the findings of the technical economic assessment negative of MIT NPV [3]):
+50-year assessment horizon. The space-solar revenue range incorporates optimistic assumptions, based on UK government LCOE result £0.087/kWh [1] and Caltech 9.4 cents/kWh estimate [2], and pessimistic assumptions, based on MIT negative-NPV conclusions [3]:
 
-• Indicators Optimistic scenarios
+| Metric | Optimistic Scenario | Baseline Scenario | Pessimistic Scenario |
 |:-----|:-----:|:-----:|:-----:|
-Total investments (billions of dollars)
-(billions of yuan)
-OP OEX (billions of yuan) | 650 | 990 | 1,330 |
-| NPV(r = 5%, billions) | + 1,500-3,000 | − 500-+ 500 ≈ − 5,000-3,000 |
-IRR 7%-9% 4%-6% 2%-3%
-No discount period 28 years 35 years 45 years
-| 38 years | 48 years  > 50 years  >
+| Total investment, 100 million RMB | 42,350 | 61,425 | 80,500 |
+| Full-load annual revenue, 100 million RMB | 2,310 | 1,635 | 960 |
+| Full-load annual OPEX, 100 million RMB | 650 | 990 | 1,330 |
+| NPV, r=5%, 100 million RMB | about +1,500 to +3,000 | about -500 to +500 | about -5,000 to -3,000 |
+| IRR | about 7%-9% | about 4%-6% | about 2%-3% |
+| Undiscounted payback period | about 28 years | about 35 years | about 45 years |
+| Discounted payback period | about 38 years | about 48 years | >50 years |
 
-## 9.4.3 Key economic indicators for the baseline scenario
+#### 9.4.3 Key Baseline Economic Indicators
 
-Under the baseline scenario:
-- ** Total annual average income** (after full load): approximately $163.5 billion
-- ** Average annual OPEX**: about $99 billion
-- ** Average annual net operating profit**: about $64.5 billion
-- ** Cost recovery period without discount**: About 35 years (from start of project, i.e., 35 years)
--** Cost recovery period with discount**: About 48 years (i.e. 48 years)
+Under baseline assumptions:
 
-**Conclusion **: The Moon Industrial Park is a “potentially profitable” super-long infrastructure project under the baseline scenario. Its economic viability is highly dependent on the degree to which space-based solar power and CNT export two main sources of income are realized. The return-on-investment cycle can be significantly shortened if electricity access prices or CNT deliveries exceed expectations.
+- **Average annual total revenue** after full-load operation: about 163.5 billion RMB
+- **Average annual OPEX**: about 99 billion RMB
+- **Average annual net operating profit**: about 64.5 billion RMB
+- **Undiscounted cost payback**: about 35 years from project start, around Year 35
+- **Discounted cost payback**: about 48 years, around Year 48
 
-####9.4.4 Economic sensitivity analysis
+**Conclusion**: under baseline assumptions, the lunar industrial park is a potentially profitable ultra-long-term infrastructure project. Economic feasibility is highly sensitive to realization of the two largest revenue streams, space-solar electricity and CNT exports. If grid tariffs or CNT shipment volumes exceed expectations, payback time can shorten significantly.
 
-Impact on NPV
+#### 9.4.4 Economic Sensitivity Analysis
+
+| Factor | Variation Range | Impact on NPV | Notes |
 |:-----|:-----:|:-----|:-----|
-The price of access to space solar power is ±30%  ** ** Great** First largest source of income  **
-| ± 30%  ** ** ** ** Second largest source of income **
-Heavy cargo lander launch costs | 20%  ** ** Large ** 20% - 30% of CAPEX and OPEX
-| Local resource replacement rate ± 10% ** Medium** Impact Earth supplies in OPEX. The economic nature of the ISRU depends on the ratio of equipment quality to production and energy consumption [16] [17] |
-Construction delay + 5 years ** Large ** Delayed income, interest increase **
+| Space-solar feed-in tariff | ±30% | **Very high** | Largest revenue stream |
+| CNT export price | ±30% | **High** | Second-largest revenue stream |
+| Heavy cargo-lander launch cost | ±20% | **High** | Represents 20%-30% of CAPEX and OPEX |
+| Local resource substitution rate | ±10% | **Medium** | Affects Earth resupply portion of OPEX. ISRU economics depend on equipment mass-to-yield ratio and energy demand [16][17] |
+| Construction schedule delay | +5 years | **High** | Delays revenue and increases financing burden |
 
 
-International financing and insurance mechanisms
+### 9.5 International Financing and Insurance Mechanism
 
-####9.5.1 Ratio of funding sources (baseline scenario)
+#### 9.5.1 Financing Mix (Baseline Scenario)
 
-The global space economy had reached $613 billion in 2025, of which 78 per cent had come from commercial activities and reusable rockets had reduced launch costs by 58 per cent [9]. The monthly infrastructure market was about $12.78 billion in size in 2024 and is expected to reach $20.78 billion in 2030 (8.44 per cent of CAGR) [10]. The entry of sovereign funds into commercial space has become the latest trend - the Saudi Public Investment Fund (PIF) was established in 2024 as the Neo Space Group (NSG), marking the first systematic entry of sovereign funds into commercial space for the first time [14]. The Qatar Investment Authority (QIA) won the Axiom Space $350 million financing round in 2026 [T] 15], provides an update on the involvement of sovereign funds in the commercialization of manned space.
+Global space economy reached 613 billion USD in 2025, with 78% from commercial activity, and reusable rockets have reduced launch cost by 58% [9]. Cislunar infrastructure market was about 12.78 billion USD in 2024 and is projected to 20.78 billion USD by 2030 (CAGR 8.44%) [10]. Sovereign wealth funds entering commercial space are a notable trend: Saudi PIF created Neo Space Group in 2024, marking the first systematic sovereign-fund entry into commercial space [14]. QIA led Axiom Space’s 350 million USD round in 2026 [15], providing a recent reference for sovereign participation in crewed-space commercialization.
 
-Source of funding % % % ( trillions of dollars)
+| Financing Source | Share | Amount (trillion RMB) | Notes |
 |:-----|:-----:|:-----:|:-----|
-Sovereign wealth funds (China, Middle East, Norway, etc.) 25% | 15 | long-term equity investment, pursuing stable returns for more than 30 years. In recent years, PIF has established the NSG, and QIA has won the Axiom Space to support the will and ability of the Sovereign Fund to invest in space. 14 [15] |
-Multilateral development banks (AIB, BRICS, etc.) 20% | 12 | Low interest long-term loans, interest rates refer to SDR + 1 % - 2 %
-• Space Enterprise Consortium (NASA+Commercial Space Corporation)
-Green Climate Fund/Carbon Credit Finance 15% Carbon abatement benefits from space solar alternative fossil energy
-Private capital (pensions, sovereign funds, PE) 10%
-Operating pre-sale and bonds 10% | 6 | Advance sales of electricity/CNT/transport services contract
+| Sovereign wealth funds, China, Middle East, Norway, etc. | 25% | about 1.5 | Long-term equity for stable 30+ year returns. Recent PIF NSG formation and QIA lead in Axiom round show willingness and capability [14][15] |
+| Multilateral development banks, AIIB, NDB, etc. | 20% | about 1.2 | Long-tenor low-interest loans, rate benchmark around SDR +1%-2% |
+| Aerospace consortium, national agencies + commercial space firms | 20% | about 1.2 | Technology equity plus cash contribution, sharing operating profits |
+| Green climate funds / carbon-credit financing | 15% | about 0.9 | Carbon-reduction value from replacing fossil energy with space solar power |
+| Private capital, pension funds, sovereign funds, private equity | 10% | about 0.6 | Targeting long-term stable returns |
+| Pre-sales of operations and bond issuance | 10% | about 0.6 | Advance sale of power/CNT/transport contracts |
 
-### # 9.5.2 Reward mechanism
+#### 9.5.2 Return Mechanisms
 
-- ** Sovereign funds and multilateral banks**: Priority debt service, annual interest rate referred to as SDR+1.5%, recovery period 20-30 years.
-- **Employer's share**: a share of operating profits in proportion to the contribution, and a withdrawal mechanism is publicly listed or transferred by agreement after 30 years.
-- ** Green fund and carbon credit**: carbon emission reductions from the replacement of terrestrial fossil energy with space solar energy in return for 200-400 tonnes CO2 equivalent.
--** Bond investors**: project bonds are issued under the collateral of future cash flows from specific revenue sources (electricity sales, CNT exports).
+- **Sovereign funds and multilateral banks**: receive senior repayment rights; annual yield benchmark around SDR +1.5%; recovery horizon 20-30 years.
+- **Corporate equity investors**: receive operating-profit dividends proportional to contribution; exit via public listing or negotiated transfer after 30 years.
+- **Green funds and carbon-credit participants**: returns tied to quantified carbon reduction from replacing terrestrial fossil generation with space solar power, around 200-400 RMB per ton CO2 equivalent.
+- **Bond investors**: project bonds secured by future cash flows from specific revenue streams, electricity sales and CNT exports.
 
-Insurance mechanism
+#### 9.5.3 Insurance Mechanism
 
-There are a wide variety of risks to the Moon Industrial Park (SPE, moon shock, equipment failure, launch failure, etc.) and a multilevel insurance system is required:
+The lunar industrial park faces diverse risks, SPE, moonquakes, equipment failures, launch failures, etc., and requires a layered insurance architecture:
 
-Insurance coverage Annual rate (%)
+| Insurance Type | Coverage Scope | Underwriters | Annual Premium Rate, as % of insured value |
 |:-----|:-----|:-----|:-----:|
-** Launch insurance**
-** Base property insurance** Physical damage to the dome, shelter, production line, storage system (including micrometeor impact, moon shock, fire)
-** Business interruption insurance** | Production standstill losses due to failure of SPE, ECLSS, full black power etc. | Government guarantees + multilateral institutions ** 2 per 3 per cent
-** Personnel accident insurance**, EVA accident, radiation over-exposure, low-gravity adaptation period damage ** Commercial insurance company + government supplement Per capita (50 - 1 million per year)
-** Third-party liability insurance**
+| **Launch insurance** | Cargo/crewed lander launch failures and orbital-insertion anomalies | International space-insurance consortium | 3%-5% |
+| **Base property insurance** | Physical damage to domes, shelters, production lines, storage systems, including micrometeoroid impacts, moonquakes, and fire | International reinsurance market + government guarantee | 1%-2% |
+| **Business interruption insurance** | Production losses from SPE events, ECLSS failures, full power blackouts | Government guarantee + multilateral institutions | 2%-3% |
+| **Personnel accident insurance** | EVA accidents, excess radiation exposure, low-gravity adaptation injuries | Commercial insurers + government supplement | 0.5-1 million RMB/person/year |
+| **Third-party liability insurance** | Damage to third-party facilities or personnel from lunar operations | International co-insurance pool | 0.5%-1% |
 
-In view of the special nature and high risk of the Moon Industrial Park, it is proposed that sovereign guarantees** be provided by ** participating Governments as the bottom of the insurance system — extreme risks that cannot be covered by commercial insurance markets (e.g., base-wide devastating disasters) and that intergovernmental agreements commit to share the cost of reconstruction in proportion to the cost of financing. This mechanism could be modelled on the International Thermonuclear fusion Experimental Reactor (ITER) liability sharing model.
+Given the high-risk profile and unique operational context, a **sovereign guarantee layer from participating governments** is recommended as the final backstop for extreme tail risks not fully coverable by commercial markets, such as catastrophic full-base loss. Under such circumstances, intergovernmental agreements would allocate reconstruction cost by capital-share ratio, analogous to ITER-style burden-sharing frameworks.
 
 
-# # 9.6, from Earth's blood transfusion to Earth's blood transfusion — turning point analysis
+### 9.6 From Earth Transfusion to Lunar Transfusion Back to Earth: Turning-Point Analysis
 
-####9.6.1 Quantified indicator of “transfusion”
+#### 9.6.1 Quantitative Indicator of Transfusion Dependence
 
-Using “** Earth annual supply quality/base total annual consumption quality**” as a core indicator of base self-sustainability. The margin gradually declined from 100 per cent of phase I (total Earth-dependent) to < 5 per cent of phase IV.
+Use **annual Earth resupply mass divided by annual total base consumption mass** as the key indicator of base self-sufficiency. This ratio decreases progressively from 100% in Stage I, fully Earth-dependent, to below 5% in Stage IV.
 
-The Earth's annual supply quality (tons)
+| Stage | Annual Earth Resupply Mass (tons) | Annual Total Base Consumption Mass (tons) | Self-Sufficiency Rate | Key Breakthrough |
 |:-----|:-----:|:-----:|:-----:|:-----|
-| Phase 1 ≈ 50-100 ≈ 50-100 | 0% | all Earth supply |
-In the first stage of the second phase, 200-500-500-300-800-30-40 per cent-30-40 per cent-
-At the end of the second phase 100-300 ≈ 800-1,500 ≈ 70-80% | local metal smelting and basic food production
-Phase 3 50-150 ≈ 2,000-5,000 ≈ 90-95 per cent | CNT production, electricity self-sufficiency, eco-closure
-Phase 4 < 50 > 10,000 > 95% Localization of the whole industrial chain, reliance on the Earth for precision electronics and specialty drugs
+| Stage I | about 50-100 | about 50-100 | 0% | Fully supplied from Earth |
+| Early Stage II | about 200-500 | about 300-800 | about 30%-40% | Localization of construction materials and water-ice supply |
+| Late Stage II | about 100-300 | about 800-1,500 | about 70%-80% | Local metal smelting and basic local food production |
+| Stage III | about 50-150 | about 2,000-5,000 | about 90%-95% | CNT mass production, power self-sufficiency, ecological closed loop |
+| Stage IV | <50 | >10,000 | >95% | Full-chain localization; Earth dependence only for precision electronics and specialty medicines |
 
-No, no, no, no, no.
+#### 9.6.2 Net Mass-Flow Direction Turning Point
 
-“**The net mass flow of the Earth to the Moon** (Earth launched to the Moon - the Moon returned to the Earth) from a positive time node is a watershed in the evolution of the Moon industry from “the Earth's burden” to “the Earth's assets”.
+The time when **net mass flow from Earth to Moon** (mass launched from Earth to lunar surface minus mass returned from Moon to Earth) shifts from positive to negative is the watershed where lunar industry changes from Earth burden to Earth asset.
 
-The economic viability of the ISRU depends on the ratio of oxygen productivity to the quality of the equipment, the rate of resupply of consumables and the three key factors of energy consumption. Transport costs remain the dominant factor in the cost of operating the ISRU plant [16][17]. It is only in these three areas that the process routes, which perform well, can be reversed in economic terms.
+ISRU economics are governed primarily by three factors: oxygen productivity-to-equipment-mass ratio, consumable replenishment ratio, and energy demand. Transport cost remains the dominant cost component for ISRU plant operation [16][17]. Only process routes that perform well on all three dimensions can achieve economically meaningful net mass-flow reversal.
 
-- ** Phase 2** (Nos. 10-15): The Moon has begun to export construction materials to the GEO orbit (services for the construction of the ring ladder), but the output is much smaller than the input, and the net mass flow remains positive** (the Earth's moon is excellent).
-- ** Phase III (Nos. 15-25)**: CNT cable is exported on a large scale to the TEST site, and the propellants launched from the moon are beginning to serve deep-space missions, and the net mass flow gradually tends to be balanced**.
-- ** Phase IV** (after 25 years): CNT exports of tens to hundreds of thousands of tons per year, helium-3 commercialized, moon-capable manufactured goods and energy large-scale anti-terrestrial and lunar space. ** Net mass flow is positive and negative (the Earth's direction of the Moon is excellent)** and the Moon becomes the net exporter of the ground moon system.
+- **Stage II**, Years 10-15: lunar-side exports of construction materials to GEO for ring-elevator construction begin, but outbound mass remains below inbound mass. Net mass flow remains **positive** in Earth-to-Moon direction.
+- **Stage III**, Years 15-25: large-scale CNT cable exports to ring-elevator construction and growing lunar propellant supply for deep-space missions bring net mass flow toward **balance**.
+- **Stage IV**, Year 25 onward: annual CNT exports rise to tens or hundreds of thousands of tons, helium-3 commercialization begins, and lunar manufactured products and energy provide large-scale feedback to Earth and cislunar space. **Net mass flow turns from positive to negative**, with Moon-to-Earth direction dominant.
 
-###9.6.3 Turning point in economic values
+#### 9.6.3 Economic-Value Turning Point
 
-The turning point at the economic level is ahead of the turning point in the mass flow — because the Moon exports high value-added products (CNT, electricity, propellants) rather than bulk raw materials.
+The economic turning point occurs earlier than the mass-flow turning point, because lunar exports are high-value-added products, CNT, electricity, and propellant, rather than bulk raw commodities.
 
-- ** End of phase II** (approximately 15 years): Annual income begins to cover the year OPEX (without depreciation) and the Base achieves a balance of gains and losses at the operational level**.
--** Phase III** (approximately 22 years): cumulative income covers the cumulative OPEX + phase III CAPEX, achieving** positive cycles of cash flows**.
--** At the end of phase III** (approximately 28 years): the annual net operating profit begins to exceed the annual average CAPEX input and enters the net investment recovery period**.
+- **Late Stage II**, about Year 15: annual revenue first covers annual OPEX, excluding depreciation, achieving **operational break-even**.
+- **Mid Stage III**, about Year 22: cumulative revenue covers cumulative OPEX plus part of Stage III CAPEX, entering **positive cash-flow circulation**.
+- **Late Stage III**, about Year 28: annual net operating profit exceeds annual average CAPEX input, entering **net investment recovery period**.
 
 
-## 9.7 The Economic Circle of the Moon
+### 9.7 Cislunar Economic-Circle Concept
 
-The maturity of the lunar industrial park will bring about an entirely new “terrestrial economic circle”, much larger than the current one in Earth orbit.
+Maturation of the lunar industrial park will foster a new cislunar economic circle significantly larger than today’s Earth-orbit economy.
 
-###9.7.1 Core composition of the economic circle of the Moon
+#### 9.7.1 Core Components of the Cislunar Economic Circle
 
-The largest market opportunities for the monthly economy are in transport, infrastructure, habitat and ISRU [7]. The monthly economy is expected to exceed $100 billion [7][8] after 2040. The Moon Start-up Enterprise in 2025 has financed $1.9 billion and completed 114 transactions; the annual market opportunities for geospatial logistics, transport and communications services are expected to reach $15-25 billion in the early 2030s [8]. The asteroid mining market was about $2.5 billion in 2025, and is expected to reach $12.5 billion in 2034 (CAGR 19.6 per cent) [Pending] 12]; the global space mining market was estimated at $2.75 billion in 2024 and is expected to reach $16.07 billion in 2032 (24.53 per cent of CAGR) [13].
+Largest cislunar market opportunities are transport, infrastructure, habitats, and ISRU [7]. Lunar economy is projected to exceed 100 billion USD after 2040 [7][8]. Lunar startups raised 1.9 billion USD across 114 deals in 2025. Annual opportunity in cislunar logistics, transport, and communications is projected at 15-25 billion USD in the early 2030s [8]. Asteroid-mining market was about 2.5 billion USD in 2025 and projected to 12.5 billion USD by 2034 (CAGR 19.6%) [12]; global space-mining market was about 2.75 billion USD in 2024 and projected to 16.07 billion USD by 2032 (CAGR 24.53%) [13].
 
-| Composition | Function | Expected size |
+| Component | Function | Expected Scale |
 |:-----|:-----|:-----|
- ** Manufacture and export of energy (solar power), materials (CNT, metals), propellants (hydrogen/liquid oxygen) Annual value 100-200 billion
-** GEO orbital ladder and associated facilities** | Space solar relay, deep-space launcher port, in-orbit manufacturing platform, orbital tourism and residence  ** 100-200 billion per year (estimated volume X of the master book) |
-Regular liner transport from surface to GEO, GEO to LEO, asteroid tow, and annual transport of tons
-** Deep Space Exploration outpost** | Mars, Asteroid Belts and Farr Object Exploration and Development with the Moon as a Resupply Base
+| **Lunar industrial park** | Manufacturing and export of energy, solar power, materials, CNT and metals, and propellants, LH2/LOX | Annual output value 100-200 billion RMB |
+| **GEO ring elevator and associated facilities** | Space-solar relay, deep-space launch homeport, in-orbit manufacturing platforms, orbital tourism and habitation | Annual output value 100-200 billion RMB, estimated in Main Volume X |
+| **Earth-Moon transport corridor** | Scheduled logistics Moon to GEO and GEO to LEO, asteroid towing | Annual freight throughput at ten-thousand-ton scale |
+| **Deep-space exploration frontier** | Exploration and development of Mars, asteroid belt, and farther bodies, with Moon as supply base | Long term |
 
-####9.7.2 The Earth's Benefit Path
+#### 9.7.2 Pathways of Benefit to Earth
 
-The lunar industry ' s resistance to the Earth ' s economy is not achieved through profit-sharing alone, but through the following routes:
+Lunar-industry feedback to Earth is not limited to profit distribution. Major pathways include:
 
--** Energy price decline**: Large-scale interconnection of space solar power (basic, carbon-free, uninterrupted) will lower the long-term equilibrium prices of the global electricity market, with far-reaching implications for energy-intensive industries (metallurgical, chemical, data centres). British government research has positioned space solar LCOE in 2040 at a level that competes with nuclear, tidal, and tidal energy [1].
-- ** On-orbit cost revolution**: Propulsives provided by the Moon reduce the cost of deep-space missions by 60-80 per cent and will directly catalyse the downstream industries of asteroid mining, deep-space scientific exploration, Mars colonization, etc.
-- **Technology spill**: Moonside ISRU, low-gravity manufacturing, closed ecosystems will feed the Earth — especially in arid areas — resource recovery, urban vertical agriculture and closed space environment control.
-- **Cross emission reductions**: Space-based solar power emissions of approximately 5-8 million tons of CO2 per year per replacement of 1 GW coal power. The corresponding year-on-year emission reductions for the GW set-up are about 2.5 to 40 billion tons of CO2, or about 7 to 10 per cent of current global emissions.
--**Strategic Resource Security**: Helium-3 commercialization will provide almost unlimited clean fusion fuel for the Earth.
+- **Lower energy prices**: large-scale integration of space-solar baseload, carbon-free and non-intermittent, can reduce long-term equilibrium electricity prices worldwide, with deep impacts on energy-intensive sectors such as metallurgy, chemicals, and data centers. UK government research already places 2040 space-solar LCOE in competition range with nuclear and tidal [1].
+- **Revolution in cost-to-orbit and beyond**: lunar-supplied propellant can reduce delta-v cost for deep-space missions by 60%-80%, directly catalyzing downstream sectors such as asteroid mining, deep-space science, and Mars settlement.
+- **Technology spillover**: lunar ISRU, low-gravity manufacturing, and closed ecological systems feed back into terrestrial applications, especially resource recovery in arid regions, urban vertical farming, and closed-environment control.
+- **Carbon reduction**: each 1 GW of space-solar replacing coal can reduce about 5-8 million tons CO2 annually. At 500 GW installed, annual reduction is about 2.5-4.0 billion tons CO2, roughly 7%-10% of current global emissions.
+- **Strategic resource security**: if helium-3 commercialization succeeds, Earth gains effectively unlimited clean fusion fuel.
 
 
-# # 9.8, independent of the ability to survive the ladder
+### 9.8 Survivability Independent of the Ring-Elevator Project
 
-One of the objectives of the design of the lunar industrial system is that, even if the lunar ladder works are not completed as scheduled, the lunar industry will be able to achieve a positive cycle, supported by specific industries.
+One design objective of the lunar industrial system is to maintain positive-cycle operation in specific sectors even if the ring-elevator project is delayed or not completed on schedule.
 
-## 9.8.1 Income support outside the ring
+#### 9.8.1 Revenue Support Beyond the Ring Elevator
 
-Income source dependency on the ring ladder independent viability
+| Revenue Source | Dependence on Ring Elevator | Independent Feasibility |
 |:-----|:-----|:-----|
-| Solar power in space | Partially dependent on (the ring ladder as a microwave relay node; direct microwave transmission to the ground receiving station but with a slightly less efficient transmission) | High** - direct-to-ground microwave transmission, although an option, can equally achieve power output  **
-CNT exports high dependence (the ring ladder is the largest single customer) ** low to medium** — need to shift to other large customers, such as deep space facilities, space elevator cables, with smaller market capacity
-| Propulsive refuelling service  ** Total non-dependent ** High** - Deep Space Mission (NASA, ESA, China Deep Space Survey)
- ** Lease of scientific platforms  ** completely undependent ** High** ** - The Moon Laboratory and Observatory are independent assets
- ** Space tourism ** Medium-to-high**  **  **  **  **  **  **  **  **  **  **  **  **  **  **  ** ** **  **  **  **  **  **  **  **  ** ** **  **  **  **  ** ** **  **  **  **  **  **  **  **  **  **  **
- ** Helium-3 exports  ** Total non-dependent ** Forward**  ** Depending on advances in fusion technology
+| Space solar power | Partially dependent, ring elevator as microwave relay node; can also beam directly to ground receivers at somewhat lower efficiency | **High**: direct Earth microwave transmission is a viable fallback and can still monetize power output |
+| CNT exports | Highly dependent, ring elevator as largest single customer | **Low to medium**: would need alternative large buyers, deep-space infrastructure, space-elevator cable markets, with smaller capacity |
+| Propellant refueling services | Not dependent | **High**: deep-space missions, NASA, ESA, China deep-space programs, have intrinsic refueling demand |
+| Scientific platform leasing | Not dependent | **High**: lunar labs and observatories are standalone assets |
+| Space tourism | Not dependent | **Medium to high**: even without ring elevator, lunar tourism can operate via Earth-Moon shuttle flights |
+| Helium-3 exports | Not dependent | **Long term**: contingent on fusion technology progress |
 
-**Conclusion **: The lunar industrial system is designed to be highly independent. In the worst-case scenario (the removal of the ring ladder + the lack of expected energy transfer from space to the ground), the lunar industry could contract into a “deep-space supply station” — with propellant injection services and the lease of scientific platforms at its core, maintaining a 50-100-person presence and finding its own space in the monthly economy. It will be extended when conditions are ripe.
+**Conclusion**: the lunar industrial system has high inherent standalone survivability. In worst case, ring-elevator cancellation plus lower-than-expected direct space-solar transmission efficiency, the system can contract into a “deep-space supply station” with propellant refueling and research-platform leasing as core businesses, supporting a 50-100 resident scale and maintaining a viable role in cislunar economy, with expansion deferred until conditions improve.
 
-####9.8.2 Best Synergy Strategy with the Ladder
+#### 9.8.2 Optimal Synergy Strategy with the Ring Elevator
 
-Although the lunar industry can survive independently, co-development with the ring ladder works is the best route:
+Although lunar industry can survive independently, coordinated development with the ring-elevator project remains the optimal pathway:
 
--** Time synergy**: The peak in the construction of the ring ladder (13-22 years in the main book) is the key window for the transition of the Moon industry from phase II to phase III and the upgrading of the CNT plant from a “pre-weave line” to an “industrial volume line”. The Moon should complete its capacity-building of 1,000 kg CNT per year, around the fifteenth year, providing the first cable for the ring ladder, which is subsequently expanded year by year.
--** Capacity synergy**: approximately 80 million tons of CNT cable is required for the ring ladder. The 30 per cent share of the monthly manufacture would cost about 24 million tons. At the rate of 100-1,000 tons per month, the Moon supply alone takes 200-2,000 years — far beyond the Treadway period. As a result,** the Earth's launch will always be the backbone of the ring cable, the lunar supply being the “accelerator option” for a given time and arc** and its strategic value is to reduce bottlenecks in transport systems, provide sophisticated components and provide redundant backups for politics and supply.
+- **Timeline synergy**: ring-elevator peak construction, Main Volume years 13-22, coincides with lunar transition from Stage II to Stage III and CNT factory upgrading from pilot pre-weaving to industrial mass production. Lunar production should achieve >=1,000 kg/year CNT by around Year 15 to deliver first cable batches, then expand annually.
+- **Capacity synergy**: ring elevator requires about 80 million tons of CNT cable. If lunar manufacturing contributes 30%, that is about 24 million tons. At monthly production rates of 100-1,000 tons, lunar-only supply would require 200-2,000 years, far longer than project schedule. Therefore, **Earth launch remains the main cable-supply channel; lunar supply is an acceleration option for specific periods and arc segments**, with strategic value in relieving transport bottlenecks, providing precision components, and offering political/supply redundancy.
 
 
-## 9.9 Risks and responses
+### 9.9 Risks and Countermeasures
 
-Risks, levels, coping strategies, correlations,
+| Risk | Level | Countermeasure Strategy | Related Volume |
 |:-----|:-----|:-----|:-----|
-Tighten-to-drive-to-drive-to-drive-to-dry-to-drive-to-drive-to-drive-to-dwell-to-drive-to-drive-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-dwell-dwell-to-dwell-to-dwell-to-dwell-to-dwell-to-drive
-The price of solar power in space is not as high as expected. Attention to academic differences - MIT assesses that the current NPV is negative [3], and the optimistic scenario relies on a continuous breakthrough in the PV-nominal density ratio
-• Long-term failure of the CNT monthly yield rate
-Financing interruptions Phased financing - technical results after each phase can serve as credit endorsements for the next phase of financing; multilateral banks and government guarantees. The case of sovereign funds investing in space in recent years (PIF founding NSG [14], QIA leading Axiom Space [15]) indicates that the financing of such long-term high-risk investments is expanding.
-The SPE major event triggered the loss of life at the base, low-probability, high-probability consequences, storm I shelter + full evacuation exercise + individual radiation limit; commercial insurance + government sovereign guarantee base, volume VIII
-• Establishment of the International Organization for the Management of the Lunar Industry by reference to volume XI of the master volume UNORE;
+| Ring-elevator cancellation or major delay | Strategic | Switch to deep-space supply-station mode, sustain 50-100 residents with propellant refueling, scientific leasing, and space tourism as core businesses | This volume |
+| Space-solar feed-in price below expectation | High | Sign CfD agreements with grid operators for >20 years in advance; develop GEO relay nodes to improve transmission efficiency. Note academic disagreement: MIT assessment indicates negative NPV under current assumptions [3], while optimistic scenario depends on continued PV efficiency-to-areal-density breakthroughs | Volume III |
+| Long-term low yield in lunar CNT mass production | High | Retain Earth launch as primary CNT supply channel; position lunar CNT as supplementary and quality backup | Volume V |
+| Financing interruption | Medium | Stage-based financing: technical outputs at each stage serve as credit support for the next stage; combine multilateral-bank participation and sovereign guarantees. Recent sovereign-fund space cases, PIF NSG [14], QIA lead in Axiom [15], indicate broadening channels for long-term high-risk financing | This volume |
+| Extreme SPE event causing mass casualties | Low probability, high consequence | Level I storm shelters + full-staff evacuation drills + individual radiation-dose limits; combine commercial insurance with sovereign guarantee backstop | Volume VIII |
+| International legal disputes, lunar territory/resource rights | Medium | Follow UNORE model from Main Volume XI; establish international lunar industrial management organization; decouple resource extraction rights from territorial claims | Main Volume XI |
 
 
-## 9.10 Parameter Output
+### 9.10 Parameter Outputs
 
 | Parameter | Value | Status |
 |:-----|:-----|:-----|
-Total investments (base scenario)
-| Income at full capacity (base scenario)
-OPEX (base scenario)
-| Baseline scenario IRR | 4% - 6%
-The baseline scenario includes a discount recovery period
-Net mass flow from positive to negative time node Post-25 (phase IV) Baseline projection
-Time node of operating the balance of gains and losses
-Maximum single source of income (electricity) 50% - 60% base forecast
-£LCOE reference value for space solar (2040) £0.087 - 0.129/kWh [1] | external research reference £
-Global CNT market size (2024)
-The size of the global CNT market (projection for 2031) About RMB 31.8–35 billion [4][6] External market data
+| Total investment, baseline scenario | about 61,425 in 100 million RMB, midpoint | Order-of-magnitude estimate |
+| Full-load annual revenue, baseline | about 1,635 in 100 million RMB | Order-of-magnitude estimate |
+| Full-load annual OPEX, baseline | about 990 in 100 million RMB | Order-of-magnitude estimate |
+| Baseline IRR | about 4%-6% | Order-of-magnitude estimate |
+| Baseline discounted payback period | about 48 years | Order-of-magnitude estimate |
+| Net mass-flow sign change time | after Year 25, Stage IV | Baseline forecast |
+| Operational break-even time | about Year 15, late Stage II | Baseline forecast |
+| Share of largest single revenue stream, power | about 50%-60% | Baseline forecast |
+| Reference space-solar LCOE, 2040 | £0.087-0.129/kWh [1] | External study citation |
+| Global CNT market size, 2024 | about 4.7 billion RMB [6] | External market data |
+| Global CNT market size, 2031 forecast | about 31.8-35.0 billion RMB [4][6] | External market data |
 
 
-# # 9.11, end of volume IX
+### 9.11 Conclusion of Volume IX
 
-The present volume completes the full construction of the lunar industrial economy model. Core findings:
+This volume completes the full economic model for lunar industry. Core conclusions:
 
-** Project is a “potentially profitable” super-long-term infrastructure. ** The total investment under the baseline scenario is about $6.1 trillion (shared over 30 years, at an average annual rate of approximately $2 trillion), with an annual income of approximately $163.5 billion at full capacity, including a discount recovery period of about 48 years. The recovery period can be reduced to 35 to 40 years if the price of access to space-based solar power and CNT deliveries exceed expectations.
+1. **Economically, the project is a potentially profitable ultra-long-term infrastructure system.** Under baseline assumptions, total investment is about 6.1 trillion RMB over 30 years, averaging about 200 billion RMB per year. Full-load annual revenue is about 163.5 billion RMB, with discounted payback around 48 years. If space-solar tariff and CNT shipment volume exceed baseline assumptions, payback can shorten to around 35-40 years.
 
-2. ** Space solar power is the first largest source of income** (50 per cent - 60 per cent of the full capacity) and its price and market share is the single largest determinant of project IRR. The findings of British government research [1] and the Caltech team [2] support the prospect of space solar competing with clean energy after 10-16 years of technological development; but MIT assessments [3] remind us that this outlook is highly dependent on a breakthrough in the PV-noma ratio. It is proposed that the base income be locked into a long-term CfD agreement with grid companies at the end of the second phase.
+2. **Space-solar electricity is the largest revenue source** (about 50%-60% of full-load revenue), and its tariff and market share are the largest single determinants of project IRR. UK government findings [1] and Caltech results [2] support competitiveness after roughly 10-16 years of technology development, while MIT assessment [3] warns this outlook is highly dependent on breakthroughs in PV efficiency-to-areal-density ratio. It is recommended to lock baseline revenue with long-term CfD agreements by the end of Stage II.
 
-3. ** CNT exports are the second largest source of revenue**, but their market is highly dependent on the ring ladder. The global CNT market currently stands at approximately $4.7 billion [6], and is moving at an annual rate of over 30 per cent towards a level of $30 billion by 2031 [4]. In the event of a regular advance of the ring ladder, the monthly CNT plant is required to complete, around the 15th year, a range of 10-50 kg/month to 1,000 kg/month to match the construction window of the ring ladder. The strategic positioning of the Moon is the “accelerated option” and quality backup of CNT supply from the ring, rather than the main supply channel.
+3. **CNT exports are the second-largest revenue source**, but market realization is strongly tied to ring-elevator progress. The global CNT market is currently about 4.7 billion RMB [6] and growing above 30% annually toward 30+ billion RMB by 2031 [4]. If ring-elevator construction proceeds as scheduled, lunar CNT factories must complete ramp-up from monthly 10-50 kg class to >=1,000 kg/month by around Year 15 to match the elevator construction window. Strategically, lunar supply is an acceleration option and quality backup, not the main channel.
 
-4. ** Moon industry is designed to survive independently of the ladder. ** In the worst-case scenario, it can be reduced to a “deep space supply station” with propellant injections and scientific platforms at its core.
+4. **The lunar industrial system is designed for standalone survivability independent of ring-elevator completion.** In worst-case mode, it can contract to a deep-space supply station with propellant refueling and scientific-platform operations as core business.
 
-5. **The economic nature of ISRU is a central factor in determining the turning point in the quality stream. ** Transport costs are dominant in the operating costs of the ISRU plant [T] 16 [17] The quality of the Earth ' s supplies will decline only if the local replacement rate rises to more than 90 per cent. This turning point is expected at the end of phase III (approximately 25 years).
+5. **ISRU economics are the core determinant of the net-mass-flow turning point.** Transport cost dominates ISRU operating cost [16][17]. Only when local substitution exceeds about 90% does Earth resupply mass decline sharply. This turning point is expected near the end of Stage III, around Year 25.
 
-** The international financing environment is creating windows for the Moon industry. ** Sovereign funds entering commercial space (PIF set up the NSG [14], QIA led the Axiom Space [15]) indicate that financing for super-long-term high-risk infrastructure investments is expanding. The monthly infrastructure market is expected to reach more than $20 billion in 2030 [10], and the Moon start-ups have financed $1.9 billion in 2025 [8]. Financing programmes for the Moon industry should take full advantage of that trend.
+6. **International financing conditions are opening a window for lunar industry.** Sovereign funds entering commercial space, PIF NSG [14] and QIA lead in Axiom [15], indicate widening channels for long-duration high-risk infrastructure capital. Cislunar infrastructure market is projected above 20 billion USD by 2030 [10], and lunar startups raised 1.9 billion USD in 2025 [8]. Lunar-industry financing strategy should leverage this trend fully.
 
-** The ultimate value of the Moon industry lies not in the cash flow that it itself creates, but in the economic circle of the ground that it opens — the return on investment in the Moon industry will no longer be measured in monetary terms only when the cost of on-orbiting has fallen to the current level of 1 per cent, when clean-basket power is being transferred from space sources to Earth, when the material cycle of human civilization first crosses planetary boundaries. **
+7. **The ultimate value of lunar industry is not limited to its own cash flow, but in enabling a cislunar economic system.** When cost-to-orbit drops to about 1% of current levels, clean baseload power is transmitted continuously from space to Earth, and human material cycles cross planetary boundaries for the first time, investment return can no longer be evaluated purely in monetary terms.
 
 
-References
+### References
 
-Fraunhofer ISI for UK DESNZ.
+[1] Fraunhofer ISI for UK DESNZ. Space Based Solar Power: Feasibility Study. 2026.
 
-[2] Jahelka, P., et al.
+[2] Jahelka, P., et al. Space solar power generation: A viable system proposal and technoeconomic analysis. Joule, 2025, 9(6): 101928.
 
-[3] Althawadi, M.A. Technology Association of a Gossamer, Planar, Gigawattt-Scale Space-Basted Solar System.
+[3] Althawadi, M. A. Technoeconomic Assessment of a Gossamer, Planar, Gigawatt-Scale Space-Based Solar Power System. MIT Thesis, 2024.
 
-[4] QYResearch. *Carbon Nantube CNT — Global Market Share and Ranking, Overall Sales and Demand Forest 2025-2031*.
+[4] QYResearch. Carbon Nanotube CNT - Global Market Share and Ranking, Overall Sales and Demand Forecast 2025-2031. 2025.
 
-[5] IDTechEx. ♪ Carbon Nantubes 2025-2035: Market, Technology, Players*.
+[5] IDTechEx. Carbon Nanotubes 2025-2035: Market, Technology, Players. 2025.
 
-[6] YHResearch. * Survey of market share and ranking of leading firms in the global and Chinese carbon nanopipe industries, 2025.
+[6] YHResearch. 2025 global and China CNT market-share and leading-company ranking report. 2025.
 
-Where are we on the journey to a Lunar economy?
+[7] SpaceNews. Where are we on the journey to a lunar economy? 2025.
 
-PitchBook. Q4 2025 Analyst Note: Moonshot – The Next State of the Lunar Space Economy*.
+[8] PitchBook. Q4 2025 Analyst Note: Moonshot - The Next Stage of the Lunar Space Economy. 2025.
 
-World Economic Forum.
+[9] World Economic Forum. Strategic Intelligence: Space Economy. 2026.
 
-[10] 360i Research. *Cislunar Insurance Market – Global Forest 2025-2030*.
+[10] 360iResearch. Cislunar Infrastructure Market - Global Forecast 2025-2030. 2025.
 
-[ Chuckles ] 360i Research. *Space Tourism Market – Global Forest 2026-2032*. 2026.
+[11] 360iResearch. Space Tourism Market - Global Forecast 2026-2032. 2026.
 
-[12] Research and Markets.
+[12] Research and Markets. Asteroid Mining Market Outlook 2025-2034. 2025.
 
-Kings Research.
+[13] Kings Research. Space Mining Market Report 2025-2032. 2025.
 
-[14] PIF/ Neo Space Group. 2024.
+[14] PIF / Neo Space Group. 2024.
 
-[15] Type One Ventures/ Qatar Investment Society. $350m funded round in Axiom Space.
+[15] Type One Ventures / Qatar Investment Authority. 350 million USD funding round in Axiom Space. 2026.
 
-Airbus Defense and Space. Mini-ROXY: A First Step.
+[16] Airbus Defence and Space. Mini-ROXY: A First Step Towards the Economic Extraction of Oxygen and Metals on the Moon. ECS Meeting Abstracts, 2025.
 
-Seidel, A., et al. (Airbus). Mini-ROXY: Lunar ISRU economics. *ECS Meeting Practices*, 2025.
+[17] Seidel, A., et al., Airbus. Mini-ROXY: lunar ISRU economics. ECS Meeting Abstracts, 2025.

@@ -1,618 +1,622 @@
-# Book one: Moon industry
+# Appendix I: Lunar Industry
 
-# Volume II: Permanent base site and infrastructure development
+## Volume II: Permanent Base Site Selection and Infrastructure Construction
 
-** Version**: 1.7<br/>
-** Prepared**: May 2026 <br/>
-** Monetary unit**: RMB, symbol: <br/>
-**Contribution master book**: main book, volume III (node location and anchor project), volume VII (engineering verification)
+**Version**: 1.7<br/>
+**Date of Preparation**: May 2026<br/>
+**Currency Unit**: Renminbi (RMB), symbol: Y<br/>
+**Related Main Volumes**: Main Volume III, Main Volume VII
 
 
-## Glossary
+### Glossary
 
-Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation
+| Abbreviation | Chinese Term | Description |
 |------|----------|------|
-CELSS closed eco-life support system
-| CFRP | Carbon fibre booster polymer | Structure enhancement material for the wall seal
-| CO2 | CO2 | | Sabatier reaction raw material, supercritical CO2 Braden circulation mass
-| C/SiC | Silicon carbide fibre enhancement composite material | | Zero-inflation factor mirror base material |
-| EVA extramural activity | Astronauts in the moon or space
-| GCR | Galactic cosmic ray | high-energy particle radiation from outside the solar system poses a long-term health risk to astronauts
-| GPR | Radar system for detecting sub-month geological structures and holes
-ILRS International Moon Research Station
-ISRU In-situ resource utilization
-| KREEP | Kryptonite | Special rock of the Moon with potassium (K), rare earth elements (REE) and phosphorus (P)
-| MLI | multilayer insulation | reflective insulation material for passive thermal control in a vacuum environment
-| Nak | Potassium alloy | liquid metal work for thermal conductor for active liquid cooling circuits
-| np-fe nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm nm
-| PE | Polyethylene | High-density Polyethylene for radiation protection slows down and absorbent layers
-♪ The moon's poles are always unsilent ♪
-| RHU | Radioisotope Heating Unit
-| Sabatier | Sabatier Reaction | CO2 and H2 catalyze the chemical reaction of CH4 and H2O for life support systems for carbon-cycle closure
-| SPE | Solar particle event | High-energy particle flow from the solar eruption poses an acute radiation threat to astronauts
-• The largest and oldest impact basin of the Moon, located in the Antarctic region
-| SPUA | Spraying polypolygic elastics | High elastic waterproof coatings for lacquer seals
-| ULE | ultra-low-inflated glass | zero-inflation mirror base candidate
-Ilmenite, FeTio3 | The most critical iron titanium oxide mineral in the moon's basalt rock, the primary target mineral for catalyst material
-The high calcium is a high-quality concrete and brick-burning material.
-The skylights, the skylights, the lava tube skylights, the plumes, the natural openings on the top of the lava tube that have collapsed as a result of geological activity or meteor impact.
-A giant underground tunnel formed by magma flows during ancient volcanic activity.
-| Lunar regolith | Lunar soil | Fine-grained unconsolidated material covering the Moon's surface |
-The sunglasses, the sunglasses, the sunglasses, the skylights, the sun, real time tracking, and the reflection of the sun to the central receivers.
-| Spectrometer, | high-temperature spectrometer, | optical device that unites the ultraviolet/infrared band in the sun and the visible light band
+| CELSS | Closed Ecological Life Support System | Self-circulating life-support system for long-duration crewed residence |
+| CFRP | Carbon Fiber Reinforced Polymer | Structural reinforcement material for cave-wall sealing layers |
+| CO2 | Carbon dioxide | Feedstock for Sabatier reaction and working fluid for supercritical CO2 Brayton cycle |
+| C/SiC | Silicon-carbide-fiber-reinforced composite | Mirror substrate material with near-zero thermal expansion |
+| EVA | Extravehicular activity | Astronaut operations outside the vehicle on the lunar surface or in space |
+| GCR | Galactic cosmic rays | High-energy particle radiation from outside the Solar System; long-term health risk for astronauts |
+| GPR | Ground-penetrating radar | Radar system for subsurface geologic-structure and void detection |
+| ILRS | International Lunar Research Station | Sino-Russian-led lunar south-pole research-station program |
+| ISRU | In-situ resource utilization | Use of local lunar resources for manufacturing and survival |
+| KREEP | KREEP rock | Special lunar rock enriched in potassium, rare-earth elements, and phosphorus |
+| MLI | Multi-layer insulation | Reflective passive thermal-control insulation for vacuum environments |
+| NaK | Sodium-potassium alloy | Liquid-metal working fluid used in active liquid-cooling loops |
+| np-Fe | Nanoscale metallic iron particles | Naturally occurring nanoscale iron in regolith, particle size <100 nm; high-quality natural additive for construction materials |
+| PE | Polyethylene | High-density polyethylene used as radiation moderation/absorption layer |
+| PSR | Permanently shadowed region | Polar regions with no year-round sunlight; primary candidate zones for water-ice presence |
+| RHU | Radioisotope heating unit | Device using radioactive decay heat to keep equipment warm |
+| Sabatier | Sabatier reaction | Chemical reaction converting CO2 and H2 into CH4 and H2O for life-support carbon-loop closure |
+| SPE | Solar particle event | High-energy particle burst from solar eruptions; acute radiation threat to astronauts |
+| SPA Basin | South Pole-Aitken Basin | Largest and oldest impact basin on the Moon, located in the south-polar region |
+| SPUA | Spray polyurea elastomer | High-elasticity waterproof coating used for sealing cave-wall microcracks |
+| ULE | Ultra-low-expansion glass | Candidate mirror substrate with near-zero thermal expansion |
+| Ilmenite | Ilmenite (FeTiO3) | Key iron-titanium oxide mineral in mare basalt; top target mineral for catalyst feedstock |
+| High-calcium plagioclase | High-calcium plagioclase (CaAl2Si2O8) | Primary mineral in highland anorthosite; rich in Ca and Al, suitable binder feedstock for lunar concrete and sintered bricks |
+| Skylight | Lava-tube skylight | Natural opening formed by collapse from geologic activity or impact on top of lava tubes |
+| Lava tube | Lunar lava tube | Large subsurface channel formed by ancient volcanic magma flow |
+| Bimodal grading | Bimodal particle-size distribution | Regolith particle-size distribution with two dominant coarse/fine groups; beneficial for packing density and sintering performance |
+| Heliostat | Heliostat array | Large reflector array deployed around skylights, tracking the Sun and reflecting to a central receiver |
+| Spectral splitter | High-temperature splitter | Optical device that separates UV/IR bands from visible-light bands in concentrated sunlight |
 
 
-##2.1 Caption
+### 2.1 Opening Statement
 
-This volume, located as the ** spatial vehicle and material base of the Moon industrial system,** focuses on the following core questions:
+This volume is positioned as the **spatial carrier and material foundation** of the lunar industrial system, focused on answering the following core questions:
 
-> The feasibility of the industrialization of the Moon has been confirmed by the technical validation of the pioneer mission. So, where should the first permanent base be built — on the polar ridge of the sun and day, or on the subsurface lava plume of ancient constant temperatures? If the polar region itself has a suitable lava tube, can we gain the advantage of both? How can industrial towns that support the long-term work and life of hundreds of people be built from scratch on a dead wasteland? And how can we create the first truly uninhabited city of mankind in a deep lava tube? How to construct a lunar orbital network capable of effectively connecting the bases at hundreds or even thousands of kilometres per hour?
+> After technical validation from pioneer missions confirms industrialization feasibility, where should the first permanent base be built: on polar near-continuous-sunlight ridges, or inside ancient thermally stable underground lava tubes? If suitable lava tubes exist in polar regions, can we obtain both advantages simultaneously? How do we build, from zero, an industrial town capable of sustaining long-term work and life for hundreds of people on a silent wasteland? How do we create humanity's first truly off-world underground city deep inside lunar lava tubes? How do we build a lunar rail network that efficiently connects bases at speeds of hundreds to over one thousand kilometers per hour?
 
-The present volume covers the technical validation results of volume I (Preventive missions and in-orbit validation), as well as the “Phase II: outposts and basic industries” defined in the overview (years 5-15), and provides them with specific site selection decision-making models and infrastructure engineering programmes. At the perspective level, the speed of monthly orbital traffic in this volume is expected to be directly linked to the industrial requirements of phases III and IV. When the base is expanded from a single point to a multi-point network, and the annual volume of cargo moves to a level of tons, the initial open light track of 80-120 km/h will not be able to meet the time limits for transport and will have to open up the construction of high-speed orbital traffic, even at hypervelocity.
+This volume builds on technical validation outcomes from Volume I (Pioneer Missions and Orbital Validation), and on the Overview's Stage II definition, Outpost and Foundational Industry, Years 5-15, and provides concrete site-selection decision models and infrastructure engineering schemes. At strategic horizon scale, this volume's speed expectations for lunar rail transport directly connect to industrial demand in Stages III and IV. As the base evolves from a single site to a multi-node network and annual freight reaches ten-thousand-ton scale, early open light rail at 80-120 km/h will be insufficient and high-speed to ultra-high-speed enclosed tube rail construction must begin.
 
-A core strategic judgement of this volume is that ** the location of a permanent base is no longer a stand-alone issue, but rather data-based decision-making between the “month surface” and the “underground (melt tube)” paths, based on the P0 level of volume 1. The presence of a lava tube in the polar region will be a key variable affecting the final recommended sequencing. ** If the first volume of lava tube detection (P0-M6) is confirmed as “Yes”, this volume will initiate the complete planning of the underground base and further optimize the synergistic energy and resources strategy based on the latitude of the lava tube (at the polar or lower mid-latitudes); if “No”, all underground programmes will automatically be set aside for the long term, with current investments concentrated on the moon path.
+One core strategic judgment of this volume is: **permanent-base site selection is no longer a binary either-or choice. It is a data-driven decision between two paths, surface and underground lava tubes, based on P0 results from Volume I. The existence or nonexistence of polar lava tubes is the key variable that determines final ranking.** If Volume I lava-tube exploration (P0-M6) is confirmed yes, this volume activates complete underground-base planning and further optimizes energy-resource synergy by latitude, polar or mid/low latitude. If confirmed no, all underground schemes shift to long-term reserve status, and current investment focuses on surface paths.
 
-Core tasks of this volume:
+Core tasks:
 
-1. On the basis of the continuation of the results of the three types of resource census in volume I and the inclusion of a priority analysis of the lava poles in the polar region, a comprehensive scoring model covering the three categories of candidate points of the moon, lower and mid-latitude underground and below the polar region is established, with recommendations for the best selected sites and identification of the specific reasons for the phase-out of the various options.
-Based on site selection decisions, construction programmes for the lunar and underground bases, including on-site manufacturing techniques, radiation protection strategies and modular expansion logic, are designed. An additional phased terrain adaptation programme has been added to address the terrain disadvantage at the edge of the Shackleton Ring Hill (slide > 15°).
-3. Planning for a month-wide transport and communications network, including a phased programme for open light-track and closed high-speed/high-speed pipe orbital traffic, to match the demand for volume growth from the initial to the forward.
-Design of the organizational programme for capital construction, with a clear reference to the transition nodes from “robots dominated” to “human collaboration”.
-5. Establish the criteria for the phased determination of the completion of the construction of the Base, which will be aligned with the P0/P1/P2/P3 certification system for volume I of this appendix and volume VII of the main volume.
+1. Build a comprehensive scoring model for three classes of candidates, surface, mid/low-latitude underground, and polar underground, by inheriting Volume I resource-survey outputs and incorporating polar lava-tube priority analysis; provide recommended top sites and explicit elimination reasons for rejected options.
+2. Based on site-selection outcomes, design both surface-base and underground-base architectures, including local manufacturing methods, radiation-protection strategy, and modular expansion logic. Add phased terrain-adaptation plans for Shackleton-rim slope disadvantage (>15 deg).
+3. Plan Moon-wide transportation and communication networks, including phased open light rail and fully enclosed high-speed/ultra-high-speed tube rail, to match freight-growth demand from early to long-term stages.
+4. Design infrastructure-construction organization plans, including transition nodes from robot-dominant operations to human-machine collaboration.
+5. Define staged completion criteria for base construction and interface them with Volume I P0 framework and Main Volume VII P0/P1/P2/P3 validation framework.
 
 
-###2.2 Candidate site versus composite comparison model
+### 2.2 Candidate Sites and Integrated Comparison Model
 
-####2.2.1 Project constraints for site selection
+#### 2.2.1 Engineering Constraints for Site Selection
 
-The location of a permanent base is an irreversible decision. Once the large-scale infrastructure is launched, the costs of sinking will be in the order of trillions of dollars. The location must therefore achieve the optimal balance of multiple objectives under the following constraints:
+Permanent-base siting is an irreversible decision. Once large-scale infrastructure starts, sunk cost reaches trillion-RMB scale. Site selection must therefore optimize multiple objectives under the following constraints:
 
--** Energy availability**: Candidate sites must have access to a sustained and adequate electricity supply. Priority should be given to the polar region's permafrost (annual solar > 80 per cent), followed by the medium- and low-latitude areas with conditions for the deployment of space nuclear reactors. For the site of the lava tube, additional consideration will need to be given to the suitability of the direction of the sky window for the deployment of solar arrays and to the proximity to the surface of the surface of the radioactive dispersion area required for cooling the nuclear reactor. ** If the lava tube is located in the polar region, it would have the dual advantage of solar and underground protection in the polar region. **
-- **Resource availability**: within the radius accessible by the cruiser (50 km above ground and 10 km below ground if the skylight is the entrance) it is necessary to have a mineable water ice resource and building materials that meet the criteria of section 1.3 of volume I, along with catalyst materials.
-- ** Topography and geological stability**: Moon-surface location requires a relatively flat terrain (average slope < 15°) and avoids the dynamic moon-earthquake fracture strips and steep rims. If the site is inevitably located in a rugged terrain (e.g., on the edge of Shacklen), a phased terrain adaptation programme as described in section 2.3.2 (d) will be required. The site of the underground lava tube shall meet the top plate thickness of 30 m, the internal width of 500 m, and no evidence of any recent collapse or fault activity (for further details, see guideline a in volume I, section 1.3).
-- **Risk and meteor protection**: The annual dose of radiation in the living and working areas will have to be 5 mSv (which is achieved through a ≥2 m loose moon boundary or ≥0.5 m burning brick cover) or 20 mSv (underground programme, supported by a local PE shield of the walls of the chamber, on the basis of a natural basalt roof shield, which further reduces the dose from natural background values to target levels).
--**Communicability of communication and transport**: Earth has a good visual window, or it can stabilize communications through relay stars. The terrain conditions are suitable for frequent landings and cruisers.
--**Scientific Research and Expansion Potential**: Siteed areas should be reserved for sufficient development space (100 km2 built land; 1 km2 below ground can be used) and the surrounding geological features should be diverse to support long-term scientific research.
+- **Energy availability**: candidate sites must support sustained and sufficient power supply. Priority to polar near-continuous-light peaks (>80% annual illumination), followed by mid/low-latitude sites that can host space nuclear reactors. For lava-tube sites, additional constraints include skylight orientation suitability for surface solar arrays and local surface area for reactor radiative cooling. **If a lava tube is located in polar regions, it can combine polar solar advantage with underground protection.**
+- **Resource accessibility**: within rover-reachable radius (surface <=50 km; underground via skylight entrance <=10 km), sites must include mineable water ice and regolith meeting Volume I Section 1.3 criteria for construction and catalyst feedstock.
+- **Terrain and geologic stability**: surface sites require relatively gentle terrain, average slope <15 deg, and avoidance of active moonquake faults and steep crater walls. If rugged terrain is unavoidable, e.g., Shackleton rim, phased terrain-adaptation plan in Section 2.3.2(d) must be used. Underground lava-tube sites must satisfy roof thickness >=30 m, interior width >=500 m, and no evidence of recent collapse or fault activity, see Volume I Section 1.3 criterion a.
+- **Radiation and meteoroid protection**: after engineering mitigation, annual radiation dose in habitation and work zones must be <=5 mSv for surface schemes with >=2 m loose regolith or >=0.5 m sintered-brick cover, or <=20 mSv for underground schemes with natural basalt shielding plus local PE lining that further reduces dose.
+- **Communication and transport convenience**: good Earth line-of-sight windows or stable relay-satellite communications; terrain suitable for frequent lander operations and rover traffic.
+- **Scientific and expansion potential**: reserved development space should be sufficient, surface >=100 km2 buildable land or underground >=1 km2 usable cavity area, with surrounding geologic diversity supporting long-term science.
 
-####2.2 Candidate
+#### 2.2.2 Candidate Sites
 
-Based on the detection data of task cluster I/II of volume I, as well as the public results of global lunar exploration missions [1,2,3], the following candidate sites enter the final synthesis comparison phase. The inclusion or non-inclusion of subsurface candidate points depends on the findings of volume I P0-M6. The initial evidence for the new polar lava line candidate sites is from the LRO Image and the LEAPS mission concept study of SETI Institute [4,5], which was eventually incorporated into the scoring model on the premise of field validation through task cluster II/III of volume I.
+Based on Volume I Mission Groups I/II survey data and public outputs from global lunar missions [1,2,3], the following candidates enter final integrated comparison. Inclusion of underground candidates depends on Volume I P0-M6 outcome. The added polar lava-tube candidate is initially supported by LRO imagery and SETI LEAPS concept studies [4,5], and is included in scoring only after in-situ confirmation by Volume I Mission Groups II/III.
 
-** (a) The edge of the Shackleton Ring Mountain - the Ever-Today Peak in the Polar Region (near the Antarctic, 88.0°S, 0°E) [lunar path]**
+**(a) Shackleton crater rim, polar near-continuous-light peaks (south pole, near 88.0 deg S, 0 deg E) [surface path]**
 
-- Overview: The Shackleton Rim Mountain is approximately 21 km in diameter and has several highlands (Foundless Day Peaks) on its edge, with an annual solar rate of over 90 per cent [6]. There is a high probability that the permanent shades within the ring mountains will hold large amounts of water ice.
-- Key advantages: the energy conditions are excellent and solar energy is almost uninterrupted; the water ice resources are close to a foot (the inner walls of the circumference can fall to the shadows only a few kilometres from the peri-day peak).
-- Critical disadvantages: the complexity of the terrain and the large amount of work required to build the platform; the limited area of per diem peaks (hundreds-km scale), which constrains the centralization of large bases. Radiation protection relies entirely on artificial structures (Mount-Bed Cover or Thick Wall Body). ** Landscape adaptation will be addressed through a phased programme in section 2.3.2 (d). **
+- Overview: Shackleton crater diameter is about 21 km. Multiple near-continuous-sunlight high points on its rim can reach >90% annual illumination [6]. Permanently shadowed interiors are highly likely to contain substantial water ice.
+- Key strengths: excellent energy conditions, near-continuous solar input; water-ice resources are nearby, with only several kilometers down crater inner walls.
+- Key weaknesses: complex terrain requiring major site-leveling work; limited peak area, hundreds of meters to kilometer scale, constraining concentrated large-base layout. Radiation protection relies entirely on engineered structures, regolith cover or thick-walled modules. **Terrain adaptation is addressed by phased plan in Section 2.3.2(d).**
 
-**(b) Malapert plot — Polar margin (near Antarctica, 84.5°S, 170°W)**
+**(b) Malapert massif area, polar edge (south pole, near 84.5 deg S, 170 deg W) [surface path]**
 
-- General: At the edge of the Antarctic-Atken basin, the terrain is relatively flat, with a sunlight rate of about 70 to 80 per cent [7]. The NASA Artemis plan included it as one of the candidate landing sites.
-- Key advantages: the terrain is flat and construction costs are low; it is large and suitable for large base expansion.
-- Key disadvantages: Far from the nearest water ice-rich zone (the permanent shadow zone) (>20 km); the solar rate is lower than Shackleton's Everest and the demand for storage capacity is greater. Radiation protection relies entirely on artificial structures.
+- Overview: located near SPA basin edge, terrain is relatively flat and open, with annual illumination around 70%-80% [7]. NASA Artemis studies have considered it as a candidate landing area.
+- Key strengths: flatter terrain and lower construction cost; broad area suitable for large-scale expansion.
+- Key weaknesses: farther from nearest ice-rich PSRs (>20 km); lower illumination than Shackleton peaks, requiring more storage. Radiation protection remains fully engineered.
 
-** (c) Marius Hills — lava line (near 14° N, 56° W) [low and medium latitude underground route, incorporating condition: P0-M6 confirmed as yes]**
+**(c) Marius Hills lava tubes (near 14 deg N, 56 deg W) [mid/low-latitude underground path, inclusion condition: P0-M6 confirmed yes]**
 
-- Overview: Kaguya LRS data and GRAIL gravitational field data cross-identify the presence of a large and complete network of lava tubes extending dozens of kilometres in the region [8,9]. The region has been classified as a high-priority lava pipeline candidate in task group I of volume I.
-- Key advantages: Natural radiation and meteorite protection (predicted thickness of the top basalt layer > 50 m); residential annual dose of radiation can be reduced to 20 mSv by engineering sealing and partial PE shielding; internal constant temperature environment (day and night temperature differential > 5°C); and space size is most likely to be at the level of a large industrial facility (width > 1 km, length > 10 km).
-- Key disadvantages: energy depends on the deployment of solar or nuclear power from the surface, which needs to be delivered from outside the hole; the availability of water ice resources to the hole is to be verified; communications are to be continued from the surface. At mid- and low-latitudes, with no permanent day conditions, the 14-day monthly night cycle requires high levels of storage capacity.
-- ** Precondition**: Activation of this site is premised on “Yes” being determined as task group I IIIP0-M6.
+- Overview: Kaguya LRS and GRAIL gravity data jointly indicate extensive intact lava-tube networks extending tens of kilometers [8,9]. This area was already listed as high-priority candidate in Volume I Mission Group I.
+- Key strengths: natural radiation and meteoroid shielding, roof basalt expected >50 m; with engineered sealing, pressurization, and local PE lining, annual habitation dose can be reduced to <=20 mSv; stable internal thermal environment with day-night variation <=+/-5 C; potential cavity scale likely sufficient for large industrial facilities, width >1 km and length >10 km.
+- Key weaknesses: power depends on surface solar or reactors and must be routed into tube interior; accessibility to water ice near tube entrances remains to be validated; communication requires surface relay. Located at mid/low latitude with 14-day lunar nights and high storage burden.
+- **Prerequisite**: activation of this candidate requires P0-M6 from Volume I Mission Group III to be confirmed yes.
 
-** (d) Sea still “sky window” - lava tube (near 8° N, 33° E) [low and medium latitude underground route, inclusion condition: P0-M6 confirmed as “Yes”)**
+**(d) Mare Tranquillitatis skylight lava tube (near 8 deg N, 33 deg E) [mid/low-latitude underground path, inclusion condition: P0-M6 confirmed yes]**
 
-- Overview: LRO Mini-RF radar data confirmed in 2024 that the “sky window” bottom was connected to a large underground cave extending to at least tens of metres and was the first directly confirmed large accessable lava tube [10].
-- Key advantages: well-established radar detection evidence is available, with the lowest risk; the form of the sky window has been pre-magnified and suitable for technical validation objectives for first underground development; and the equatorial region has extensive sea basalt cover, with building and catalyst materials readily available.
-- Critical disadvantages: may be smaller than the Marius Hills; the equatorial region has zero water ice resources, with all volatilizations having to be transported from the polar region or resupplyed from the Earth; the 14-day monthly night cycle requires high levels of storage capacity; and long-term water ice supply depends on the polar region for transport, although it is under pressure from the engineering seal.
-- ** Precondition**: Activation of this site is premised on “Yes” being determined as task group I IIIP0-M6.
+- Overview: LRO Mini-RF radar data in 2024 confirmed a large accessible subsurface cavity connected below this skylight, first direct confirmation of a large accessible lava tube [10].
+- Key strengths: lowest geologic uncertainty due to confirmed radar evidence; skylight morphology preliminarily mapped, suitable for first underground-development technical validation; broad equatorial mare basalt coverage provides local construction and catalyst feedstock.
+- Key weaknesses: likely smaller scale than Marius Hills; zero local water ice at equator, requiring volatiles from poles or Earth; 14-day lunar-night cycle and high storage requirement; even with engineered pressurization, long-term dependence on polar logistics for water remains structural.
+- **Prerequisite**: activation requires P0-M6 from Volume I Mission Group III confirmed yes.
 
-**(e) Philolaus impact pit - polar lava piping (near the Arctic, approximately 73°N, 32°W) [Arctic underground route, inclusion condition: P0-M6 confirmed as “Yes”, and mission cluster II/III confirmed that its internal space met the guidelinesa]**
+**(e) Philolaus crater polar lava tubes (north polar region, about 73 deg N, 32 deg W) [polar underground path, inclusion condition: P0-M6 confirmed yes, plus Mission Group II/III confirmation that interior geometry satisfies criterion a]**
 
-- Overview: SETI scientists analysed LRO images and found several suspected skylights in the Philolaus impact crater (the lunar Arctic) area, considered as direct clues to the existence of lava tubes in the polar region. The LEAPS mission concept study indicates that these high-latitude lava tubes may contain water ice resources [4,5] if they have permanent shadow areas within them. This candidate point has been included in the list of targets for systematic survey of lava tubes in the polar region in task group I of volume 1.
-- Key strengths: ** Unique combination advantages of polar underground sites* * * — If confirmed as meeting all of the indicators in guideline (a) of section 1.3 of volume I, the site will be the only one to meet the three-fold requirement of “the polar Zone Sun/Naunal Sun + Natural Subsurface Protection + Potential Local Water Ice Resources”. Energy conditions are better than those of the meso- and low-latitude lava tubes (in the polar region, by day or near day, to reduce the demand for energy storage); radiation protection and heat control are better than those of the polar region's moon surface site (natural rock layer shield + constant temperature). In addition, CO2 chillers in the polar regions [11] could provide local carbon supplementation for CNT manufacturing.
-- Critical disadvantages: Only LRO images currently provide suspected “skylight” clues that fall far short of the level recognized by the project — core indicators such as ceiling thickness, internal width, skylight angles, etc., must be confirmed by field detection of task cluster II/III of Volume I. The surface distance from the potential water-ice concentration (permanent shades) is to be verified. The construction window in the polar region is limited to the day-to-day cycle (although the polar region is longer, the month night still exists).
-- ** Precondition**: Activation of this site is premised on confirmation at the P0 level of GPR detection and jump detector data from the Philolaus skylight from task group I. If P0-M6 is ultimately identified as the Philolaus impact crater, its strategic priority will be higher than the Marius Hills.
+- Overview: SETI analyses of LRO imagery identified multiple candidate skylights in Philolaus (north polar region), interpreted as direct evidence of polar lava tubes. LEAPS concept studies indicate such high-latitude tube interiors may preserve water ice in permanent shadow [4,5]. This candidate is already included in Volume I Mission Group I target list for systematic polar lava-tube survey.
+- Key strengths: **unique combined advantages of polar underground siting**. If confirmed to satisfy all metrics in Volume I Section 1.3 criterion a, this would be the only site simultaneously meeting three conditions: polar near-continuous solar access, natural underground protection, and potential local water-ice resources. Energy conditions outperform mid/low-latitude tubes because near-continuous light reduces storage burden; radiation/thermal conditions outperform polar surface sites through natural rock shielding and stable temperatures. Nearby polar CO2 cold traps [11] can also supplement local carbon feedstock for CNT manufacturing.
+- Key weaknesses: current evidence is still preliminary, based on candidate skylights in LRO imagery, far below engineering-confirmed status. Core metrics, roof thickness, interior width, skylight inclination, all require in-situ confirmation by Volume I Mission Groups II/III. Surface distance to likely ice-rich PSRs remains unverified. Polar construction windows are constrained by local day/night cycles.
+- **Prerequisite**: activation requires P0-level confirmation from Mission Group II GPR and flyover probe data at Philolaus skylights. If final P0-M6 confirmation target is Philolaus, its strategic priority exceeds Marius Hills.
 
-####2.2.3 Comprehensive scoring model
+#### 2.2.3 Integrated Scoring Model
 
-Quantified comparison of candidate sites using a weighted rating method. The weights of the evaluation dimensions are based on the allocation of strategic priorities (security and self-sufficiency over construction facilitation and energy independence over transport facilitation) set out in the overview of this appendix. Because safety and protection are the greatest advantages of subsurface candidate sites, this model has set the “radiation and meteor protection” weight at 20 per cent. The final score for the new Philolaus polar lava line candidate points depends on the first volume I/II/III portfolio of proven data - the scores in this scale are based on pre-valued estimates based on existing LRO images and LEAPS studies.
+A weighted-score method is used for quantitative comparison. Weights are assigned based on strategic priorities from the Appendix Overview, safety and self-sufficiency take precedence over construction convenience, and energy independence over traffic convenience. Since the largest advantage of underground candidates is safety/protection, radiation and meteoroid protection weight is set to 20%. Scores for the added Philolaus candidate are preliminary estimates based on available LRO imagery and LEAPS studies; final scores depend on confirmation data from Volume I Mission Groups I/II/III.
 
-| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | 静 | | | | | | | | | | | | | | | | | |
+| Evaluation dimension (weight) | Shackleton rim | Malapert massif | Marius Hills (underground) | Tranquillitatis skylight (underground) | Philolaus polar (underground) |
 |:-----|:-----:|:-----:|:-----:|:-----:|:-----:|
-** Radiation and meteor protection (20%)** | 40 | 30 | 100 | 95  ** 100 **
-** Energy sustainability (25 per cent)**
-** Water ice availability (15%)** | 92 | 68 | 55 | 5 | 78 **
-** Builder and catalyst material availability (10%)** | 70 | 72 | 85 | 90 | 68 |
-** Topography and infrastructure facilities (10%)**
-**Communication and Transport (5%)** 75 | 80 | 65 | 80 | 70 **
-** Expansion potential (10%)** 78 82 95 75 88
- ** Scientific value (5%)** 70 | 75 | 90 | 80 | 92 |
-** Weighted total score** ** ** ** ** 74.4** ** ** ** 65.7** ** ** 79.8** ** ** ** 70.3** ** ** ** 81.5** ** **
+| **Radiation and meteoroid protection (20%)** | 40 | 30 | 100 | 95 | 100 |
+| **Energy continuity (25%)** | 95 | 75 | 60 | 50 | 85 |
+| **Water-ice accessibility (15%)** | 92 | 68 | 55 | 5 | 78 |
+| **Construction/catalyst feedstock accessibility (10%)** | 70 | 72 | 85 | 90 | 68 |
+| **Terrain and infrastructure convenience (10%)** | 45 | 80 | 70 | 85 | 55 |
+| **Communication and transport (5%)** | 75 | 80 | 65 | 80 | 70 |
+| **Expansion potential (10%)** | 78 | 82 | 95 | 75 | 88 |
+| **Scientific value (5%)** | 70 | 75 | 90 | 80 | 92 |
+| **Weighted total** | **74.4** | **65.7** | **79.8** | **70.3** | **81.5** |
 
-**Note to the scoring rules**
+**Scoring notes:**
 
-- ** Radiological and meteor protection**: Subsurface candidate points are fully covered by natural rock layers. Shackleton does not have natural protection, but the dose of radiation in the cabin can be reduced to 5 mSv/a by means of engineering supplementation (≥2 m-M-Land cover +0.0.5 m-Brick burning).
--** Energy Sustainability**: Shackleton Everest > 90% of the annual solar rate. If it is confirmed that the fermentation tube of the Philolaus polar region is located in the near-infinity zone of the polar region, the annual sunlight rate is expected to be >80 per cent, which is significantly better than that of the meso- and low-latitude lava tube (60 minutes in Marius and 50 minutes in the still sea).
-- ** Water ice availability**: less than 5 km of permanent shades in the Shacklenn Mountains received the highest score. The surface distance of the Philolaus polar plume from the polar area to the permanent shading of the polar region is assumed to be in the range of 10-30 km, better than the meso-low-latitude lava plume (55 minutes in Marius) but less than Shackleton. The Silent Equator region received the lowest score of zero.
-- **The material availability of building materials and catalysts**: The Silent Sea region is located in the Equator Moon Sea basal rock area, with the highest score. The polar region is dominated by high-land slope long rock, construction materials and catalyst minerals need to be mined more remotely, and Philolaus and Shackleton score low. ** This score is based on the conservative assumption that there are no mineable lunar basalt blocks around the polar lava tube. ** Studies have shown that on the edge of the SPA basin there are many small-scale, moon-throwing sea basalt spectrometers dispersed [2] and that if the field mineral fillers of task group II/III of volume I confirm the presence of such spots around Philolaus or Shackleton, the actual score of the polar underground site in the dimension of “building materials and catalyst material availability” may be 5-10 points higher than the current estimate, which may further increase the score gap between the subsurface and the moon surface of the polar region.
-- **extension potential**: Malise Hills lava line network reaches top scores for tens of kilometres. The exact size of the plume in the Philolaus polar region is to be verified — if it is close to Marius, the potential for expansion will score the same; if it is only an isolated trough, it will be significantly reduced.
-- ** Philolaus dimensions are divided into pre-valued estimates based on available remote sensing data**, marked in italics as indicative of uncertainty. The final score would have to be amended after the completion of field detection in task group II/III of volume I.
+- **Radiation and meteoroid protection**: underground candidates receive full score due to natural rock shielding. Shackleton has no natural shielding, but engineered mitigation, >=2 m regolith + >=0.5 m sintered brick, can reduce habitation dose to <=5 mSv/year.
+- **Energy continuity**: Shackleton continuous-light peaks score highest at >90% annual illumination. If Philolaus polar tubes are confirmed, near-continuous-light skylights can likely exceed 80%, significantly better than mid/low-latitude tubes, Marius 60, Tranquillitatis 50.
+- **Water-ice accessibility**: Shackleton scores highest due to <5 km access to interior PSRs. Philolaus surface distance to polar PSRs is estimated 10-30 km, better than mid/low-latitude tubes, Marius 55, but lower than Shackleton. Tranquillitatis equatorial site has no water ice and scores lowest.
+- **Construction/catalyst feedstock accessibility**: Tranquillitatis lies in broad equatorial mare basalt and scores highest. Polar sites are highland-dominant and require longer-range feedstock hauling, so Philolaus and Shackleton score lower. **This score is conservative, assuming no mineable mare-basalt patches near polar tube vicinities.** Existing studies suggest small mare-basalt patches are scattered around SPA basin margins [2]. If Volume I Mission Groups II/III mineral mapping confirms such patches near Philolaus or Shackleton, actual scores in this dimension may rise by 5-10 points, further widening polar-underground advantage over surface-only options.
+- **Expansion potential**: Marius Hills networks extending tens of kilometers score highest. Philolaus scale remains to be verified. If similar to Marius, its score would match; if isolated short tubes, it would be revised down significantly.
+- **Philolaus scores are preliminary estimates from current remote-sensing data** and carry higher uncertainty. Final values must be revised after in-situ verification by Mission Groups II/III.
 
 
-# # # 2.2.4 Recommended location and rationale
+#### 2.2.4 Recommended Sites and Rationale
 
-**Site selection decision tree**:
+**Site-selection decision tree:**
 
 ```
-第一卷P0-M6确认为"是"
-    ├── 确认地点为极区（沙克尔顿周边 ≤50 km 或 Philolaus）
-    │   → 无论确认为两者中的哪一个，均自动成为最高优先级选址
-    │   → 若两地均确认，优先开发距沙克尔顿更近者（运输成本更低）
-    ├── 确认地点仅为马里厄斯丘陵或静海（中低纬度）
-    │   → 主推荐：马里厄斯丘陵（总分79.8）
-    │   → 同步启动沙克尔顿周边极区熔岩管的补充探测（扩大搜索半径至100 km）
-    └── 仅确认静海
-        → 定位调整为"地下开发技术验证基地"
-        → 同步启动沙克尔顿周边极区熔岩管补充探测
-第一卷P0-M6确认为"否"
-    → 主推荐：沙克尔顿边缘（总分74.4），地下方案全部转为远期预留
+Volume I P0-M6 confirmed yes
+    |-- Confirmed in polar region (within 50 km of Shackleton vicinity or Philolaus)
+    |   -> whichever one is confirmed becomes top-priority recommendation
+    |   -> if both are confirmed, prioritize whichever is closer to Shackleton (lower logistics cost)
+    |-- Confirmed only at Marius Hills or Tranquillitatis (mid/low latitude)
+    |   -> primary recommendation: Marius Hills (score 79.8)
+    |   -> concurrently start supplemental polar tube survey around Shackleton (expand search radius to 100 km)
+    \-- Confirmed only at Tranquillitatis
+        -> reposition as underground-development technical validation base
+        -> concurrently start supplemental polar tube survey around Shackleton
+Volume I P0-M6 confirmed no
+    -> primary recommendation: Shackleton rim (score 74.4), all underground options shift to long-term reserve
 ```
 
-** (a) Melting tube of the Philolaus polar region and the circumpolar zone of Shackleton — theoretical best solution (priority recommendation after activation)**
+**(a) Philolaus polar lava tubes and Shackleton-vicinity polar zones, theoretical optimum (priority if condition is activated)**
 
-If the first volume task group II/III confirms that there are lava tubes around the Philolaus impact crater or that there are lava tubes around Shackleton that meet (a) the full range of the criteria, subsurface sites in the polar region will be recommended as a top priority. Its combination of “extreme solar energy + underground protection + potential local water ice” is the only site to achieve a high score at the same time on the three core dimensions of energy, safety and resources. Its existence means that nature may already be ready for us in the polar regions — a place where we do not need to make painful choices between “good energy but poor protection” and “good protection but poor energy”. If it is recognized that there are eligible lava tubes around Shackleton and Philolaus at the same time, priority is given to developing those closer to Shackleton in order to maximize the use of the water-ice collection infrastructure and energy network that Shackleton has built and to reduce the initial cross-regional transport costs.
+If Volume I Mission Groups II/III confirm lava tubes meeting all criterion a metrics either at Philolaus crater or around Shackleton, polar underground siting becomes top recommendation. Its combined profile, polar solar, underground protection, and potential local water ice, is uniquely strong across the three core dimensions of energy, safety, and resources. It represents a natural best-case solution that avoids the forced tradeoff between energy-rich but weakly protected options and well-protected but energy-poor options. If both regions are confirmed with qualifying tubes, prioritize whichever is closer to Shackleton to maximize reuse of existing water-ice collection and energy infrastructure and reduce early cross-region logistics cost.
 
-** (b) Underground lava piping of the Marius Hills - best decomposition of the lower and middle latitudes (priority recommended if not confirmed in the polar regions)**
+**(b) Marius Hills underground lava tubes, optimal mid/low-latitude option (if polar confirmation fails)**
 
-If the polar region is not confirmed and Marius passes, Marius automatically becomes the preferred site. Its “security-space-stable” three-dimensional advantage has enabled it to outperform all monthly candidate points in terms of input output. Energy can be addressed through solar arrays or nuclear reactors in the skylight and can be maintained with nuclear power + storage during the month and night.
+If polar confirmation fails but Marius succeeds, Marius becomes the automatic top choice. Its safety-space-stability combination gives better investment-output efficiency than all surface candidates. Energy can be supplied via skylight-adjacent surface arrays or nuclear sources, with nighttime support from nuclear plus storage.
 
-** (c) Shackleton Circle Edge - Alternative Recommendations (automated when P0-M6 is No)**
+**(c) Shackleton crater rim, fallback recommendation (automatic when P0-M6 is no)**
 
-This location is automatically preferred when P0-M6 determines it to be "No". Its “energy-water ice” mix has unique advantages and serves as one of the core sites of the ILRS scheme. There are natural advantages in infrastructure synergy and follow-up international cooperation. The relationship with the Underground Programme is that Shackleton can serve as a monthly energy and resource centre and that, if the underground cities are subsequently built in the Marius Hills or Philolaus, they can be connected through a monthly high-speed orbital traffic network, creating a synergetic pattern of “the polar industrial base + underground settlements”.
+In the no outcome for P0-M6, Shackleton is automatically preferred. Its energy-water-ice combination is uniquely favorable, and as a core site in ILRS planning [12], it has built-in advantages for infrastructure interoperability and international collaboration. Its relation to underground options is complementary: Shackleton can serve as surface energy/resource hub; if underground cities are later developed at Marius or Philolaus, they can be connected through high-speed lunar rail to form a coordinated pattern of polar industrial base plus underground habitation city.
 
-** Declination scenario description**
+**Rejected-option notes:**
 
-- ** Marapert block**: The value of serving as a stand-alone base is limited in the polar regions where Shackleton (energy-water ice is better) and Philolaus (where proven to be better in all directions). Keeps the forward extension option.
-- ** Sea of silence **: There is solid evidence of radar detection [T] 10], with the lowest risk, construction materials and catalyst materials are extremely abundant. However, the fact that the equatorial region has zero water ice and 14 days of moon nights makes it difficult to serve as its main base. The best positioning is the “Underground Development Technology Validation Base” — before the formal development of Marius or Philolaus, the first full-process test of sealing and living in the Silent Sea was completed and experience accumulated before transition to a large underground city.
+- **Malapert massif**: with Shackleton already superior in energy-water-ice and Philolaus potentially superior if confirmed, Malapert has limited standalone value as a primary base. Retain as long-term expansion option.
+- **Tranquillitatis skylight**: has strongest radar confirmation and therefore lowest geologic uncertainty [10], and excellent local construction/catalyst feedstock. However, equatorial zero-water-ice conditions plus 14-day lunar nights make it weak as a primary base. Optimal role is **underground-development technical validation base**, complete full-cycle tests for sealing, pressurization, and habitation before scaling to Marius or Philolaus.
 
-**Silent Sea skylight technical validation base positioning parameters**
+**Tranquillitatis technical-validation base parameters**
 
-| Parameter | Design value | Description |
+| Parameter | Design Value | Notes |
 |:-----|:-----|:-----|
-| 4-8 (first) | the size of the capital phase, focusing on technical validation rather than large-scale residence
-| 200 m (first) | is about 40% of the specifications of the main base, sufficient to test the full process of sealing, pressurization, temperature control and life support systems
-| Seal standards | Consistency with main base (SPUA+CFRP+MLI, leakage rate ≤0.05 per day) The sealing programme and the construction process complete the process validation here and the experience is transferred directly to the main base
-• Simplified functional area, excluding large-scale industrial facilities
-• Validation of the long-term stability of energy, heat control and life support systems across the moon night
-| Energy subsurface solar array + small nuclear power source (≥10 kWe)
-| Mission cycle | 5 years (phase II, 3-8 years) | Conversion to a long-term research station or deep-space mission training base after full technical certification
+| Resident crew size | 4-8 initial | Similar to Infrastructure Phase I scale, focused on technical validation rather than large-scale habitation |
+| Developed tunnel length | >=200 m initial | About 40% of main-base scale, sufficient for full-cycle validation of sealing, pressurization, thermal control, and life support |
+| Sealing standard | Same as main base (SPUA + CFRP + MLI, leakage <=0.05%/day) | Full-process sealing methods validated here and migrated to main-base deployment |
+| Functional zones | Habitation + small laboratory + maintenance workshop | Simplified zoning without large industrial facilities |
+| Residence duration | >=6 months, including at least one full lunar-night cycle | Validates long-duration stability of cross-night energy, thermal control, and life support |
+| Energy | Skylight-surface solar arrays + compact nuclear source (>=10 kWe) | Reduced-scale validation of underground power supply/distribution architecture |
+| Mission duration | About 5 years (Stage II Years 3-8) | After complete validation, can transition to long-term science station or deep-space mission training base |
 
-If the polar region (near Shackleton or Philolaus) is confirmed by mission cluster II/III as having a “sky window” that meets (a) of the criteria, the site of deployment of the certification base** is automatically changed to the polar region skylight** to reduce the logistics costs and the distance of the experience of the subsequent main base construction. If there is an eligible skylight at both the polar and the lower mid-middle latitudes, priority is given to the deployment of a certification base in the polar region, followed by a second certification station in the geostationary sea (optional).
+If qualifying skylights are confirmed in polar regions, Shackleton vicinity or Philolaus, the validation-base deployment point should **automatically switch to that polar skylight** to reduce later main-base logistics cost and shorten experience-transfer distance. If both polar and mid/low-latitude qualifying skylights exist, deploy validation base in polar region first, then establish a secondary validation site at Tranquillitatis.
 
-####2.2.5 Strategic priority analysis for lava tube detection in the polar region
+#### 2.2.5 Strategic Priority Analysis for Polar Lava-Tube Exploration
 
-In the above-mentioned integrated scoring model, the Philolaus polar lava piping ranked first at the 81.5 estimated total score, followed by the Shackleton edge at 74.4. However, the scoring model itself has its limitations — it can only assess the relative merits of “known candidate points” but cannot answer a more fundamental strategic question: ** Is there an undiscovered lava tube around Shackleton with a polar surface advantage and an underground protection advantage? ** The answer to this question may completely change the current ranking of site recommendations.
+In the preceding scoring model, Philolaus polar lava tubes are estimated highest at 81.5, with Shackleton rim next at 74.4. However, the model evaluates only relative quality among known candidates and cannot answer a deeper strategic question: **do yet-undiscovered lava tubes exist around Shackleton that combine polar surface advantages with underground protection?** The answer could fundamentally alter recommendation rankings.
 
-** (a) Inside the Shackleton Rim, vs. Surrounding: significant differences in detection returns**
+**(a) Inside Shackleton crater vs. surrounding region: major difference in exploration return**
 
-**Shawlton's inner circle - low detection return**
+**Inside Shackleton crater: low exploration return**
 
-Based on available geological evidence, the possibility of having access to lava tubes within the Shackleton Ring Hill and at the edge of the ridge is extremely low. There are two reasons for this:
+Current geologic evidence indicates very low probability of accessible lava tubes inside Shackleton crater or directly on its rim for two reasons:
 
-- ** The formation of mechanisms does not match:** Shackleton is a typical impacting ring-mounted mountain, with pit walls and central peaks consisting of impact lava and ablaze bedrock, rather than large-scale basalt flows formed by volcanic activity. The frontal body of the lava tube — the lava channel — can only be formed in a mobile low-glitter basalt lava flow, which is mainly concentrated in the Moon Sea area and is not common in the Antarctic highlands.
-- ** Orbital radar data do not show anomalies**: LRO Mini-RF and Kaguya LRS have multiple border-crossing scans inside Shackleton and no large-scale subsurface hollow signals similar to those of the Marius Hills or the Silent Sea “sky Window” have been detected. The radar echo characteristics of the existing permanent shades are more in line with the interpretation model of “ice moon/ice-border mixture” rather than “medium-altitude pipeline”.
+- **Formation mismatch**: Shackleton is a classic impact-formed crater. Its walls and central structures are dominated by impact-melted and brecciated bedrock, not extensive low-viscosity basalt flows. Lava tubes originate from lava channels in flowing basalt and are mainly associated with mare volcanic provinces, uncommon in south-polar highlands.
+- **No supporting orbital radar anomaly**: repeated overpasses from LRO Mini-RF and Kaguya LRS have not detected large subsurface cavity signatures analogous to Marius Hills or Tranquillitatis skylight. Observed PSR radar returns are more consistent with ice-regolith mixtures than hollow tube conduits.
 
-Therefore, the search for lava tubes within the Shackleton Ring Hill, with very low detection input output, should not be a priority objective of the pioneer mission.
+Therefore, searching for lava tubes inside Shackleton crater has low expected return and should not be high-priority in pioneer mission planning.
 
-** (b) Around the Shackleton Circle — very high detection return**
+**(b) Around Shackleton crater: very high exploration return**
 
-Although there are no lava tubes within Shackleton, the situation is quite different in the Antarctic-Atken Basin region,** which surrounds it by a radius of tens of kilometres. For three reasons:
+In contrast, **the tens-of-kilometers region around Shackleton within SPA terrain** is materially different:
 
--** Evidence of volcanic activity**: SPA basin is the largest and oldest impact basin of the Moon, the formation of which is accompanied by large-scale melting and later volcanic activity. A number of small-scale sea basalt spots spread within the SPA basin and on its edge, providing the necessary material basis and heat source for the formation of the lava pipeline.
--** "Sunlight plus Underground" combined advantage**: The discovery of accessable lava tubes within dozens of kilometres of Shackleton's perimeter, meeting the criteria in section (a) of volume I, section 1.3, will form an unprecedented combination — ** sky window or surface facility deployed in the Near-Earth Day — to obtain continuous solar energy in the near-Earth-day zone, while the main residential and industrial areas are located within the lava tube below the sky window, with natural radiation/metellite protection and thermal heating **. This portfolio will reach high-scoring levels in energy, security and logistics at the same time, exceeding any single location in the current rating model.
-- ** Quantitative advantages of logistics costs**: An underground base just tens of kilometres from Shackleton, where the polar water ice, polar solar energy and CO2 cold carbon sources are available through short-distance cruisers or light-track transport without the need to travel thousands of kilometres from the equator to the Antarctic. This is at least one order of magnitude lower than the logistics costs of the Marius Hills (water ice from the polar region and solar energy >3,000 km).
+- **Volcanic evidence**: SPA is the Moon's largest and oldest impact basin and underwent major melt and post-impact volcanic processes. Multiple small mare-basalt patches in and near SPA margins provide the geologic preconditions for lava-tube formation.
+- **Combined sunlight + underground advantage**: if a criterion-a-qualified accessible lava tube is found within tens of kilometers around Shackleton, a novel integrated configuration becomes possible, **surface/skylight facilities in near-continuous-light zones for stable solar access, with major habitation and industrial zones inside tube interiors below skylights for natural radiation/meteoroid protection and stable thermal conditions**. This combination can simultaneously score high in energy, safety, and logistics, outperforming any single-option site in current model.
+- **Order-of-magnitude logistics advantage**: for underground bases within only tens of kilometers from Shackleton, access to polar water ice, polar solar power, and CO2 cold-trap carbon feedstock can be serviced by short-range rovers/light rail, avoiding thousands-of-kilometers equator-to-pole transport. Compared with Marius Hills (>3,000 km from polar water-ice/solar hubs), logistics cost can be reduced by at least one order of magnitude.
 
-The point of this priority adjustment is that it upgrades the lunar site decision from a “choice between the moon and the ground” to a “comprehensive question of finding the best point of synergy between the moon and the ground”. – And the “day-to-day plus-under-ground” combination around Shackleton is the ideal form of this synergy.
+The significance of this priority update is that lunar siting moves from a forced choice between surface and underground to a combined optimization problem that seeks their best synergy point, and the Shackleton-vicinity near-continuous-light plus underground combination is the strongest candidate for that synergy.
 
 
-#2.3 Moon-surface construction technology and base design
+### 2.3 Surface Construction Technology and Base Design
 
-This section applies to the monthly site selection programme (Shawlton Edge or Maraplat plot). If the site selection decision is ultimately an underground route, the elements in this section relating to the Moon Cover Radiation Protection, the 3D Printed Moon Building and the Moon Concrete still apply to the construction of surface facilities in the sky window.
+This section applies to surface siting schemes, Shackleton rim or Malapert massif. If final selection is underground path, this section remains applicable to surface facilities around skylights, particularly regolith-cover radiation protection, in-situ 3D printed regolith structures, and regolith concrete.
 
-# # # 2.3.1 Moon surface production of construction materials
+#### 2.3.1 Lunar Production of Construction Materials
 
-The construction of a permanent base cannot be dependent on a launch from Earth, but must result in the local manufacture of structural materials. The focus of this phase (phase II) is on the ground production of three types of basic materials:
+Permanent-base construction cannot rely on Earth-launched structural materials and must realize local production of key materials. In Stage II, the focus is to establish lunar production of three foundational material classes:
 
-** (a) Burning of the Moon **
+**(a) Sintered regolith bricks**
 
-- Production process: Focused sunlight as a heat source (main programme) or microwave burn (back-up programme) will partially melt and cement into bricks the powder of a high-quality building material (twine-scale, calcium-slashed long stone platinum of 50% + titanium oxide of 10%-20%) in the moulds. If the feedstock contains not less than 0.1 wt % np-Fe particles and not less than 10 wt % glued glass, it can be used as a natural additive to enhance material resilience and glue. Ground-based validation of this technology has already been carried out through the Prophylactic Project Zhuol VIII. The monthly surface test was also planned in section 1.5.3 of task group II of volume I.
-- Intended performance: 15-25 MPa (equivalent to C15-C25 concrete); density approximately 2.0-2.5 g/cm3; size difference ± 3 mm.
-- Expected capacity: Initial (first half of phase II) reliance on mobile sinterers, producing 50-100 standard bricks per day (240 x 115 x 53 mm3). In the medium term (the second half of phase II) a fixed automated burning line will be deployed, increasing daily production to over 1,000.
-- Uses: non-relay walls, heat protection outer walls, radiation shielding, laying of bricks at landing sites, and earthwalls (see section 2.3.2 (d), phase II).
+- Process: use focused sunlight as primary heat source, microwave sintering as backup, to heat powdered regolith meeting Volume I Section 1.3 criterion b, bimodal grading, high-calcium plagioclase >=50% and iron-titanium oxides 10%-20%, to 1,000-1,200 C in molds for partial melting and consolidation. If feedstock includes >=0.1 wt% np-Fe and >=10 wt% glassy binder phase, these act as natural additives improving toughness and bonding. Ground validation has already been initiated in Chang'e-8 pre-research [13], and lunar validation is planned in Volume I Mission Group II Section 1.5.3.
+- Expected performance: compressive strength 15-25 MPa, comparable to C15-C25 concrete, density about 2.0-2.5 g/cm3, dimensional tolerance +/-3 mm.
+- Expected capacity: early stage, first half of Stage II, mobile sintering units produce 50-100 standard bricks per day, 240x115x53 mm3. Mid stage, second half of Stage II, fixed automated lines increase output to >1,000 bricks/day.
+- Uses: non-load-bearing partitions, thermal-protection outer walls, radiation-shielding layers, landing-pad paving, retaining walls, see Section 2.3.2(d) Stage II.
 
-** (b) Moon Concrete**
+**(b) Regolith concrete**
 
-- Production process: The high-quality building materials conforming to guideline (b) I, sect. 1.3 will be broken and sifted into bone material, which will be formed by local extraction of sulphur (sulfide minerals from the Moon) as a glue to heat up to about 140°C. Sulphur concrete does not require water conservation and is naturally adapted to the Moon vacuum environment.
-- Intended performance: 30-50 MPa (insulphur condensed earth ball empirical data, conservatively taken 20-35 MPa due to non-oxidation and hydrosis in the lunar environment); short condensation time (cooling can condensate about 1-2 h).
-- Expected capacity: initial daily production of 50-100 kg of sulfur (decided on the size of the sulfur extraction line); medium-term expansion over 1,000 kg of daily post-partum. The sulfur has a monthly abundance of about 0.05 per cent - 0.2 per cent, requiring the extraction of 1 kg of sulfur from approximately 500 per 1,000 kg.
-- Purposes: Heavy pillars, equipment base, road pavement, hull connection nodes, platform panels (see section 2.3.2 (d), phase I), earthwall prefabricated blocks (see section 2.3.2 (d), phase II).
+- Process: crushed and screened regolith meeting criterion b is used as aggregate, with locally extracted sulfur from sulfide-bearing regolith as binder. Mixture is heated to about 140 C and cast. Sulfur concrete requires no water curing and is naturally compatible with lunar vacuum.
+- Expected performance: compressive strength 30-50 MPa from Earth sulfur-concrete tests; under lunar conditions with no oxidation/hydration degradation, conservative range 20-35 MPa; rapid set by cooling, about 1-2 h.
+- Expected capacity: early stage sulfur output 50-100 kg/day, determined by extraction-line scale; mid stage expansion to >1,000 kg/day. Sulfur abundance in regolith is about 0.05%-0.2%, requiring roughly 500-1,000 kg regolith per 1 kg sulfur.
+- Uses: load-bearing column bases, equipment foundations, roadway paving, module-connection nodes, truss-deck panels, see Section 2.3.2(d) Stage I, and prefabricated retaining-wall blocks, see Section 2.3.2(d) Stage II.
 
-** (c) Moon metallurgical (preliminary)**
+**(c) Preliminary lunar metal refining**
 
-- In the second half of the second phase, the deployment of small arc furnaces for the aluminum thermal reduction or smelting of salt electrolytics to extract structural metals such as aluminium, iron and so on from the Moon. Priority is given to the use of the titanium-rich mercuric sea basal rock (10 wt% of titanium ore content) as a feedstock, which can be recovered in both iron and titanium in the process of restoration. The initial objective is to produce 100-500 kg of metal ingots per month for the manufacture of non-large structural components such as connectors, pipes, tools, etc., and to accumulate process experience for the third phase of full metal smelting.
+- In the second half of Stage II, deploy compact arc furnaces. Use aluminothermic reduction or molten-salt electrolysis to extract aluminum, iron, and related structural metals from regolith. Prioritize feedstock meeting Volume I Section 1.3 criterion c, titanium-rich mare basalt with ilmenite >=10 wt%, because ilmenite reduction can recover both iron and titanium. Initial target is monthly output 100-500 kg metal ingots for connectors, pipes, tools, and other non-bulk structural parts, accumulating process experience for full Stage III metallurgy.
 
-###2.3.2 Major Construction Program
+#### 2.3.2 Main Structural Architecture
 
-At the beginning of the Moon Base, a hybrid model of “pre-positioned + on-site construction” was used, whereby the first stage of the remaining pressure-encumbered module was used as the initial core of life, and construction materials manufactured on the ground on the Moon were gradually expanded around it, culminating in the formation of a semi-surface or pentaneous base with the Moon Cover as the subject of radiation protection.
+In early surface-base phases, use a hybrid mode of pre-deployed modules plus in-situ construction. Pressurized stay modules from Stage I serve as initial habitation cores, and local materials are used to progressively expand around them into semi-subsurface or bermed structures with regolith cover as primary radiation shielding.
 
-** (a) Residential module**
+**(a) Habitation modules**
 
-- Structure form: Cylinder or arch transect, with the body aluminium alloy (launched by the Earth) + the outer side covers the moonside, which is covered by the burning of bricks and the moony turret.
-- Inner diameter: 3.0–4.2 m (single module), which can be extended by multiple modules and linked or cascaded.
-- Radiation protection (after treatment by engineering supplementation): Top cover of 2 ms of loose moon boundary or 0.5 m of thorium burning of the Moon Bricks (preferably made from raw materials in accordance with guideline b of Vol. I, sect. 1.3, of which np-Fe Nanometric particles can enhance dissipation and absorption of high-energy and electric particles) and lined to the thallium 5 mm thick high-density polyethylene (PE) slow layer in the chamber, reducing the annual dose of radiation in the cabin to thiram 5 mSv to meet long-term residential safety standards.
-- Condensity (after engineering supplementation): Welded helium mass spectrometry leaks in aluminium alloys, with a leakage rate of 0.01 per cent per day (70 kPa nitrous atmosphere); double-track O-shaped seal + online leakage monitoring of the hatch and module interface.
-- Modular interface: Standard-to-System interface (1.2 m in diameter) with immediate plug-in and extension of support modules.
+- Structural form: cylindrical or arched sections; primary body is Earth-launched aluminum-alloy shells with external cover of sintered regolith brick and loose regolith.
+- Inner diameter: 3.0-4.2 m per module, expandable via parallel or serial multi-module combinations.
+- Radiation protection, after engineering mitigation: top cover >=2 m loose regolith or >=0.5 m sintered brick, preferably from criterion-b feedstock with np-Fe for enhanced high-energy charged-particle attenuation, plus internal PE moderation lining >=5 mm, reducing annual internal dose to <=5 mSv for long-term habitation.
+- Airtightness, after engineering mitigation: helium-mass-spectrometer leak-tested aluminum-shell welds with leakage <=0.01%/day at 70 kPa oxygen-nitrogen atmosphere; hatches and module interfaces use dual O-rings plus online leak monitoring.
+- Modular interfaces: standard docking interface, 1.2 m diameter, supporting plug-and-play expansion.
 
-** (b) Operating plant module**
+**(b) Industrial-facility modules**
 
-- Structure form: Large cross arches or rectangular frameworks, aluminum/steel slabs made for the moon (phase III achieved) or pre-positioned inflatable structures (phase II interim programme), with the outer side covered by the burning of the Moon Brick Insulation.
-- Internal space: a single range of 10-20 m and a height of 6-10 m (space for installation and overhaul of large equipment such as CNT manufacturing equipment, metal smelters, etc.).
-- Thermal control: use of the natural insulation properties of the moon-surface vacuum to cover the interior wall with multi-story insulation (MLI); establishment of active liquid cooling circuits (NaK mass) to the area of the equipment with a large heat flow, and connection to external radiation radiators.
-- Moon dust protection (treated by additional engineering means): The plant entrance is equipped with two-stage airlocks - the first level is a high-pressure gas-blowing area (5 bar nitrogen, 30 s) and the second level is an electrostatic dust-cutting area (2 kV/cm). All large equipment rotor parts and hydraulic poles should be equipped with flexible dust protections (spring-based polyethylene seals).
+- Structural form: large-span arches or rectangular frames. Primary structure in Stage III uses lunar-produced aluminum/steel trusses. Stage II temporary solution uses pre-deployed inflatable structures with external sintered-brick insulation layers.
+- Internal volume: single span 10-20 m, height 6-10 m, suitable for installation and maintenance of large equipment such as CNT manufacturing systems and metal furnaces.
+- Thermal control: exploit vacuum insulation; internal walls covered with MLI. High-heat equipment zones use active liquid cooling, NaK loops, tied to external radiative panels.
+- Dust protection, after engineering mitigation: two-stage airlock at workshop entry. Stage I is high-pressure gas blow-off zone, >=5 bar nitrogen for >=30 s. Stage II is electrostatic dust-removal zone, electric field >=2 kV/cm. Rotating components and hydraulic rods use elastic dust sleeves and spring-energized PTFE seals.
 
-** (c) Life Support Centre**
+**(c) Life-support center**
 
-- Deployment location: stand-alone modules adjacent to the accommodation module to facilitate centralized management and maintenance.
-- Core equipment: water recovery system (urea + condensed water, recovery rate 98%), O2/N2 separation and storage system, CO2 reduction system (Sabatier reactor, catalytic conversion of CO2 and H2 to CH4 and H2O, closed carbon cycle), trace pollutant monitoring and removal system (activated carbon + catalytic oxidation).
-- Bio-synthetic supplementation: algae photo-bioreactors (thorium 10 m2 culture area), with partial O2 and food supplements.
-- **Intelligence requirement**: Life support systems are to be operated autonomously throughout the month and night, adjusted in real-time on the basis of crew activity and equipment performance, in exceptional circumstances to complete failure isolation in 30 seconds and initiate redundant backup channels.
+- Deployment: independent module adjacent to habitation units for centralized management and maintenance.
+- Core systems: water-recovery system, urine and condensate, >=98% recovery; O2/N2 separation and storage; CO2 reduction via Sabatier reactor converting CO2 and H2 to CH4 and H2O for carbon-loop closure; trace-contaminant monitoring/removal using activated carbon plus catalytic oxidation.
+- Biological supplement: algal photobioreactor, >=10 m2 culture area, provides supplemental oxygen and food.
+- **Automation requirement**: fully autonomous operation through entire lunar-night periods, real-time adjustment based on crew activity and equipment state; fault isolation and redundant-channel startup within 30 s under anomalies.
 
-** (d) Rough terrain adaptation programme**
+**(d) Rugged-terrain adaptation scheme**
 
-The recommended site on the edge of the Shackleton Ring Mountain has a topographical disadvantage - an average slope of more than 15°, a local area of more than 20°, and a traditional large-scale flat and continuous ground-based programme where the cost of construction is extremely high. This section complements the specific adaptation programme for such rugged terrain, which is being implemented incrementally according to the capital phase.
+Shackleton-rim recommended sites have significant terrain disadvantage, average slopes can exceed 15 deg, with local regions >20 deg. Traditional large-area leveling and continuous foundation solutions are high-cost under such conditions. This section adds a dedicated staged adaptation plan for rugged terrain.
 
-** Phase I: Adaptation and circumvention (KI)**
+**Stage I: adaptation and avoidance, early infrastructure phase**
 
-- ** Modularized “point-based”**: not using a continuous bar base, but being supported by 3-4 stand-alone stubble legs. Each leg is fixed in the moonstone or in the compacted moon boundary by a drilled anchor (1 m deep, 50 kN/strength) at an altitude of 0.5 to 2 m, which is self-regulated to adjust to the high differentials of the points. This option has been pre-tested in the pressure-encumbrance module of task group III of volume I.
-- **Strategic level platform**: For equipment requiring a large area of surface (e.g., the Moon Battery line, metal smelter), rather than ground leveling, a stand-alone pillar + shelf platform. The platform is based on 4-6 drilled anchors, with aluminium alloy or CFRP beams installed on the top and moonside concrete-prefabricated surfaces laid on top. Single platform area 50 m2, heavy capacity 200 kPa.
-- ** "Virtual flattening" as defined in software**: all mobile construction equipment (diggers, cranes, transporters) must have a high-precision autonomous navigation capability — a three-dimensional topographic model based on a two-eyed stereo vision and laser radar, autonomous planning of optimal paths, and identification and bypassing of slopes and rocks > 20 cm in diameter > 20°. This requirement is consistent with the requirement for the intelligence of the lunar equipment in volume 1, section 1.5.1.
+- **Modular point foundations**: habitation and industrial modules do not use continuous strip foundations. Use 3-4 independent leveling legs per module. Each leg is anchored via drilled anchors, depth >=1 m and pullout >=50 kN/leg, into bedrock or compacted regolith. Leg heights independently adjustable over 0.5-2 m to accommodate point elevation differences. This scheme has initial validation from Stage I pressurized-stay modules in Volume I Mission Group III.
+- **Truss-based level platforms**: for equipment requiring larger horizontal working areas, regolith sintering lines and smelters, avoid full ground leveling. Build independent pile plus truss platforms. Use 4-6 drilled anchors as piles, install aluminum/CFRP truss beams above, and place regolith-concrete precast panels as level work decks. Single platform area >=50 m2, load-bearing >=200 kPa.
+- **Software-defined virtual leveling**: all mobile construction equipment, excavation rovers, cranes, transport carriers, must include high-precision autonomous navigation using stereo vision plus lidar terrain reconstruction, with automatic path planning and obstacle avoidance for slopes >20 deg and rocks >20 cm diameter. This aligns with smart-equipment requirements in Volume I Section 1.5.1.
 
-** Phase II: adaptation and utilization (capital phase II)**
+**Stage II: terrain modification and utilization, later infrastructure phase**
 
-- ** Layer platform**: On the slopes on the edge of the ring mountain, excavators are used to dig, refill, and to construct a stairwell “stairs” platform. The width of each stage of the platform is 10-20 m, with a variance of 3-5 m, which is supported by the moon-border concrete prefabricated earth wall (pressure-resistant 20 MPa). The platform is laid on a moon-line concrete sheet to serve as the foundation for the subsequent building module.
-- **Foreign 3D-printing of earthwalls and ramps**: using mobile Moon 3D printers (see sect. 2.3.1 (a)) for the direct printing of arc or a straight-line wall on the slopes with a focus on sunlight. The wall is transected into a ladder (0.5 m, with a width of 0.3 m on top) and an anti-pressure strength of 15 MPa, which together with a protected slope consisting of natural moon rock or compacted moon.
-- ** Air-linked porch bridge**: light-quality aluminium alloy or CFRP-mounted porch bridge, 30 m across, with pressurized sealed passage (for personnel) or non-pressurized cable pipelines (for electricity, heat and communication).
+- **Terraced platforms**: on crater-rim slopes, excavation rovers perform cut-and-fill to create stepped terraces. Each terrace width 10-20 m, elevation step 3-5 m, retained by regolith-concrete walls, compressive strength >=20 MPa. Terrace surfaces are paved with regolith-concrete panels to serve as module foundations.
+- **In-situ 3D printed retaining structures and slope reinforcement**: mobile regolith printers, Section 2.3.1(a), directly print arc or linear retaining walls on slopes via focused-sunlight sintering. Wall cross-section is trapezoidal, base >=0.5 m, top >=0.3 m, compressive strength >=15 MPa, forming stable soil-structure composites with native rock or compacted regolith slopes.
+- **Elevated inter-platform corridors**: adjacent terraced platforms are connected by lightweight aluminum/CFRP truss corridors, span <=30 m, with either pressurized personnel passages or unpressurized utility conduits for power, thermal, and communication lines.
 
-** Phase III: Reshaping and Connecting (Post-Industrialization)**
+**Stage III: reshaping and connectivity, long-term industrial phase**
 
-- **Accurate local laser flattening**: Selectively melting of rough rock in the edges of the circumference mountain, using a large power laser (50 kW, which can be powered by thermal-electric-photogram hub in Volume III 3.5). Laser beams are scanned, layer by layer, cooled and form a flat glass platform. The technology is only partially non-existent for the use of extreme terrain on a modular basis.
-- ** Vertical 3D traffic**: deployment of cable-lined or gear-bar lifts (shared with the main book, volume IV, gear-track technology) between stratification platforms to enable the rapid trans-shipment of persons and goods between different highs of the moon. The Zodol towers are fixed in the moon rock by a drilled anchor, which spans 100 m.
-- ** Inside-marginal synergy**: If the final site is on the edge of Shackleton, the subject of the base may develop from inside or underground within the ring mountain — using the natural radiation and micrometeorites of the pit wall to protect residential areas and parts of the industrial zone, and to keep only energy, communications and transport hubs on the edge. This programme is functionally complementary to the subsurface lava tube construction technology in section 2.4.
+- **Localized precision laser leveling**: use high-power laser systems, >=50 kW, powered by thermal-electric-light co-generation hub in Volume III Section 3.5, to selectively melt protruding rugged rock segments on crater rims. Layer-scanning melt-solidify process forms leveled vitrified platforms. Apply only to extreme terrain where modular foundations are infeasible.
+- **Vertical 3D mobility**: deploy cableways or rack-and-pinion lifts between terraced levels, sharing core technology with Main Volume IV rack transport. Tower anchors are drilled into bedrock, with span <=100 m.
+- **Crater interior-rim coordination**: if final site is Shackleton rim, primary base can expand into inner crater walls or underground sectors. Use crater-wall natural shielding for habitation and partial industrial embedding, while keeping energy, communications, and transport hubs on rim sections. This complements underground architectural methods in Section 2.4.
 
-###2.3.3 Implementation of work on radiation protection
+#### 2.3.3 Engineering Implementation of Radiation Protection
 
-The moon is not protected by the atmosphere and the global magnetic field, and the Milky Way Cosmic Line (GCR) and Solar Particle Incident (SPE) are core health risks for long-term presence. The three-fold protection strategy of the Base is time-range-shield:
+The Moon lacks atmosphere and a global magnetic field; GCR and SPE are key long-term hazards for resident crews. Base protection uses a three-layer strategy of time, distance, and shielding:
 
-- ** Day-to-day protection (GCR response)**: residential and work-class coverage of 2 m loose Moon or 0.5 m burning bricks (optimum use of high-quality building materials with np-fe Nanoton to increase GCR decay rate). ** Processed with additional engineering means** - The wall lined in the chamber with a thorium 5 mm PE slow layer further slows down and absorbs sub-neutrons through the Moonside layer - the annual radiation dose target in the chamber ~ 5 mSv. For the high-energy heavy ion components in GCR, a combination of protection layers of 2 mM+5 mm PE can reduce their flux by about 90% - 95%.
-- ** Emergency protection (SPE response)**: a special “storm shelter” is set up below the cabin - using natural moons to cover 5 m thick (or to drill into a boulder cave below the monthly scale of 3 m) and full access to asylum within 15 minutes of SPE warning. Independent life support materials are stored for not less than seven days.
-- ** EVA dosage management**: Accumulated radiation doses of no more than 50 mSv per EVA per crew member (the 30-day occupational exposure limit for NASA astronauts) Outer space activities avoid the SPE high-risk period (short-term forecasts are provided by the Space Environment Monitoring Satellite for the Moon).
+- **Routine protection, GCR response**: habitation and work modules are covered with >=2 m loose regolith or >=0.5 m sintered regolith brick, preferably criterion-b feedstock containing np-Fe for better high-energy charged-particle attenuation. **After engineering augmentation**, internal walls are lined with >=5 mm PE moderation layers to reduce secondary-neutron impact from penetrating particles. Internal annual dose target <=5 mSv. For high-energy heavy-ion components in GCR, the combined 2 m regolith +5 mm PE structure can attenuate flux by about 90%-95%.
+- **Emergency protection, SPE response**: dedicated storm shelters are built below habitation areas, using >=5 m regolith cover or >=3 m drilled bedrock cavities. After SPE warning, all personnel must be able to enter shelters within 15 minutes. Shelters store independent life-support supplies for at least 7 days.
+- **EVA dose management**: cumulative dose per EVA must not exceed 50 mSv, referenced to NASA 30-day occupational exposure limit. EVA scheduling avoids high SPE-risk windows using short-term space-weather forecasting from circumlunar monitoring satellites.
 
 
-## 2.4 Underground lava tube construction technology
+### 2.4 Underground Lava-Tube Construction Technology
 
-This section is specifically applicable to underground site selection programmes (the Marius Hills, the Silent Sea “sky Window” or a lava tube in the Philolaus polar region). Its content is activated when P0-M6 is determined to be “Yes”.
+This section applies specifically to underground siting options, Marius Hills, Tranquillitatis skylight, or Philolaus polar lava tubes. It is activated only if P0-M6 is confirmed yes.
 
-## 2.4.1 The unique strengths and challenges of underground bases
+#### 2.4.1 Unique Advantages and Challenges of Underground Bases
 
-In comparison to the moon, underground lava tubes offer three fundamental advantages:
+Compared with surface sites, underground lava tubes provide three fundamental advantages:
 
-- **Natural Radiation and Meteor Protection**: The basal rock layer at the top is shielded by more than 99% GCR and SPE radiation, with full immunity for the direct impact of micrometeoroids and debris. The annual dose of radiation in residential areas can be further reduced to 10 mSv after engineering supplementation (sealed pressure chamber wall lined with the PE slow layer).
-- **Heating environment**: The temperature within the lava tube is constant from 20°C to -30°C, with day and night fluctuations of 5°C. After engineering supplementation (seal layer + MLI temperature protection + active temperature control), the temperature in the chamber can be accurately maintained at 20 °C ± 2 °C, significantly reducing the heat-controlled energy consumption.
-- ** Large usable space**: internal width of the Malise Hills lava line > 1 km, continuous length > 10 km. This means that the space ceiling of the underground base is not limited by the construction capacity, but depends on how many holes we are willing to develop.
+- **Natural radiation and meteoroid protection**: roof basalt >=30 m can shield >99% of GCR and SPE exposure and fully protect against direct micrometeoroid/debris impacts. After engineering augmentation with PE internal lining, annual habitation dose can be further reduced to <=10 mSv.
+- **Stable thermal environment**: lava-tube interiors remain around -20 C to -30 C, with day-night variation <=+/-5 C. After engineering augmentation, sealing + MLI + active control, interior temperature can be maintained at 20 C +/-2 C, significantly reducing thermal-control energy demand.
+- **Large usable volume**: Marius Hills tube widths are inferred >1 km with lengths >10 km. This means long-term space ceiling is constrained more by chosen development extent than by cavity availability.
 
-But there are three new engineering challenges:
+Three key engineering challenges remain:
 
-- ** Seal and pressurization**: Although the basalt walls of the lava plume are characterized by low pore and low permeability, natural rock bodies inevitably have a micro-fissile that requires full sealing of the development hole. The long-term stabilization of the 70 kPaoxy nitrogen atmosphere, with a leakage rate of ≤0.05 per cent per day, can be achieved by engineering supplementation (SPUA+CFRP+MLI composite seal layer).
-- **Light and energy**: No natural light under ground, all dependent on artificial lighting and external transmission.
--** Transportation and logistics**: A ramp tunnel that is to be drilled through the skylight or manually from the surface of the moon depends on the level and size of the entrance.
+- **Sealing and pressurization**: basalt walls have low porosity/permeability, but natural rock still contains microfractures. Full sealing treatment is required in developed sections. With SPUA + CFRP + MLI composite sealing, long-term 70 kPa oxygen-nitrogen atmosphere can be maintained with target leakage <=0.05%/day.
+- **Lighting and energy**: no natural underground sunlight; full dependence on artificial lighting and externally supplied power.
+- **Transport and logistics**: access from surface requires skylights or excavated sloped tunnels; transport efficiency depends on entrance geometry and dimensions.
 
-## 2.4.2 Sealing and partitioning of inner space
+#### 2.4.2 Sealing and Zoning of Internal Space
 
-**(a) Seal programme (treated by additional engineering means)**
+**(a) Sealing architecture, after engineering augmentation**
 
-- For the selected development segment (initial length 500 m), a “local seal” strategy is used - i.e., sealing and pressuring only the living cabins and fields actually used, rather than pressuring the entire lava tube.
-- Sealed materials: multi-layer composites - substrates coated with coatings Elastomers (SPUA, sealed micro-fissage, thickness 5 mm), carbon fibre enhanced polymers (CFRP, providing structural strength, thickness 3 mm) in the middle layer and multilayer insulation (MLI, reducing heat loss). Total seal thickness 10 mm.
-- In addition to the seal, 50 to 100 cm of undisturbed pristine walls are reserved for natural insulation.
-- Sealed holes can achieve long-term stabilization of the 70 kPaoxy nitrogen mixture atmosphere, with a leakage rate of 0.05 per cent per day.
-- An on-line trace gas monitoring point (1 thallium/100 m2) to detect possible gas leaks in real time between the seal layer and the original cave wall.
+- Use local-section sealing strategy for selected developed sections, initial length >=500 m. Only actively used habitation/operations zones are pressurized, rather than the full lava-tube system.
+- Sealing materials: multi-layer composite system with SPUA base layer for microcrack sealing, thickness >=5 mm; CFRP middle layer for structural reinforcement, thickness >=3 mm; MLI outer layer for thermal-loss reduction. Total sealing layer thickness <=10 mm.
+- Keep 50-100 cm undisturbed native wall outside sealing layer as natural thermal buffer.
+- Pressurized sections maintain 70 kPa oxygen-nitrogen atmosphere with target leakage <=0.05%/day.
+- Install online trace-gas monitoring points outside sealing layers, >=1 per 100 m2, for early leak detection.
 
-** (b) Classification of functional areas**
+**(b) Functional zoning**
 
-Using the space advantage within the lava tubing, different functional areas are deployed in separate holes at a distance of hundreds of metres, connected by pressurized tunnels:
+Use large internal volume to separate zones by hundreds of meters and connect by pressurized corridors:
 
-- **House area**: approximately 200-500 m from sky window to avoid temperature fluctuations and meteor impact risk in the entrance area. After sealing, the temperature in the chamber is maintained at 20 °C ± 2 °C with active temperature control. On the basis of the natural basalt shield, the wall lined with a thallium 5 mm PE slow layer, with an annual radiation dose target of 10 mSv.
--** Industrial zone**: 500 m from settlement (separate noise, vibration and possible contamination). Including CNT manufacturing workshops, metal smelters, 3D printing workshops, etc. Industrial areas can maintain lower containment standards (dust-only, non-pressure) and use the natural constant temperature properties of lava tubes for passive dispersion.
-- **Life Support Centre**: Close life support systems, deployed in close neighbourhood settlements and validated in task cluster III, volume 1, to optimize the operational efficiency of the Sabatier reactor and algae culture module, under conditions of permafrost.
-- ** Emergency shelter area**: An independent, capable emergency shelter is set up at the deepest hole (the sky window > 1 km), an independent life support material is stored for 30 days, using a basalt layer at the top > 80 m as the ultimate SPE protection. Engineering supplement - extra line of 20 mm PE shield in the shelter - annual radiation dose target 1 mSv.
+- **Habitation zone**: located 200-500 m from skylight to avoid entrance thermal fluctuation and ejecta/splash risks. After sealing and active control, internal temperature is maintained at 20 C +/-2 C. On top of basalt shielding, >=5 mm PE interior lining is added, annual dose target <=10 mSv.
+- **Industrial zone**: separated from habitation by >=500 m for noise, vibration, and contamination isolation. Includes CNT manufacturing, metal smelting, and 3D printing workshops. Industrial sections can use lower sealing standards, dust control only without full pressurization, while leveraging natural cave thermal stability for passive cooling.
+- **Life-support center**: adjacent to habitation area. Uses closed-loop life-support systems validated in Volume I Mission Group III and benefits from stable cave temperatures for improved Sabatier and algae module performance.
+- **Emergency shelter zone**: located in deeper sections, >1 km from skylight, with independent storage and >=30 days standalone life-support reserves. Uses >80 m overhead basalt as ultimate SPE protection. With added >=20 mm PE interior shielding, annual dose target <=1 mSv.
 
-** Stereophone transportation from the sky window to the residential area**
+**Vertical transport from skylight to habitation zones**
 
-If the sky window is located in a rugged terrain (e.g., slopes on the edge of the ring mountain), it is required to decline vertically from the moon-watch skylight platform to underground settlements. The sky window itself may have the following topographic disadvantages:
+If skylights lie in rugged terrain, e.g., crater-rim slopes, movement from surface skylight platform to underground habitation requires vertical descent. Typical terrain disadvantages include:
 
-- The imbalance in the surface around the sky window limits the space available for cranes and cargo platforms.
-- The vertical distance between the sky window and the underground functional area (up to a few dozen to hundreds of metres) is large, and a single vertical lift system can become a logistical bottleneck.
+- Irregular surface around skylights limiting deployment area for cranes and cargo platforms.
+- Large vertical separation between skylight and underground zones, potentially tens to hundreds of meters, making single vertical-lift systems a logistics bottleneck.
 
-In response to the above, the following engineering measures were added:
+Engineering additions:
 
-- ** Layered skylight platform**: an intermediate trans-shipment platform at different heights of the sky window (e.g. 30-50 m from the monthly table). Large materials are shipped to the nearest intermediate platform by a bridge crane above the sky window (vol. II, sect. 2.4.4) and then transferred to the destination by a cavity horizontal transport system (orbit or cruiser). This avoids the security risk of a single vertical suspension being too long.
-- ** Helix slope tunnel**: If the terrain around the sky window allows (a gradient < 30°), a helix slope tunnel can be dug, going from the monthly watch to the underground functional area. Tunnel cross-section 4 x 4 m2, slope 10°, which allows non-pressure cargo cruisers to move directly into the ground. The interior wall of the tunnel is sealed with SPUA (in line with the cave wall sealing programme) but is not pressured - only used as a non-pressure logistics channel.
-- ** Cable/dent-track auxiliary lift**: deployment of cable or gear-bar lifts in vertical segments (see section 2.3.2 (d) of the common technology) to supplement bridge cranes for rapid movement of personnel and small materials.
+- **Multi-level skylight platforms**: install intermediate transfer platforms at different elevations, e.g., every 30-50 m below surface. Large cargo is lifted by overhead bridge cranes to nearest intermediate platform, then transferred by internal horizontal systems, rail or rovers, to destination zones. This avoids long single-lift safety risk.
+- **Spiral ramp tunnels**: where surrounding terrain allows, slope <30 deg, excavate spiral ramps from surface to underground zones. Tunnel section >=4x4 m2, slope <=10 deg, enabling direct entry by unpressurized cargo rovers. Internal walls are SPUA-sealed to match cave-wall sealing standards but remain unpressurized for logistics use.
+- **Cable/rack assisted lift systems**: deploy cable cars or rack-and-pinion lifts in vertical segments, sharing technology with Section 2.3.2(d), as complement to bridge cranes for rapid movement of personnel and small cargo.
 
-###2.4.3 Base temperature control system
+#### 2.4.3 Underground Base Thermal-Control System
 
-This sub-section provides a specific programme of work realization for “Heating environment” in section 2.4.1 and “Accurate temperature maintenance in the hole” in section 2.4.2. The temperature control programme is divided into the immediate (phase II) and forward (phase III) levels, with heat pumps and heat storage cooling at the core of the immediate programme, which will introduce thermal-electric-photo-photographic hub in its overview in section 2.5.
+This subsection provides concrete implementation for cave thermal-stability concepts in Section 2.4.1 and precision temperature targets in Section 2.4.2. It defines two layers, near-term in Stage II and early Stage III, centered on heat pumps plus thermal/cold storage, and long-term post-Stage III, introducing thermal-electric-light co-generation interfaces summarized in Section 2.5.
 
-** (a) Near-term temperature control (phase II to early stage III) - Heat pump smart temperature control system**
+**(a) Near-term thermal control, Stage II to early Stage III, smart heat-pump system**
 
-**System rationale**
+**System principle**
 
-Using the huge solar and night temperature of the moon as a natural heat source and cooling source, thermal heat is deployed in time and space in two directions through large power heat pumps, supported by a variable heat-storage cold system to achieve uninterrupted inter-monthly night/day heat control.
+Use large lunar day-night thermal contrast as natural heat/cold reservoirs. High-capacity heat pumps redistribute thermal energy in both time and space, supported by phase-change thermal/cold storage for uninterrupted cross-day/night control.
 
-- ** Working mode of thermal pumps — during the day of the month**: surface collectors (vacuum tube or tablet heaters, recycle modified silicon oils) collect surface radiation heat, heating their residential areas through a hairy piped network after the heat pump is pumped; waste heat in industrial areas can also be recovered by heat pump for preheating or storage in residential areas. During the day of the month, the surface temperature can be above 150°C and the industrial temperature of the collector can be 180 - 200°C.
-- ** Working mode of heat pumps — during the month and night**: surface collectors stop working due to low temperatures. At this point, the heat pump is replaced by the “underground mode”: using the lava plume wall, a natural, constant cold source (approximately 25°C), as the heat source, extracts its heat from the heat pump, and then provides heating to the residential area. The COP (performance factor) of this model can still be maintained at 3.0-3.5 (thermal energy of 3.0-3.5 kWH per consumption).
-- ** Thermal and cold storage**: storage of excess heat in high-temperature phase-converted heat tanks during the month and day (e.g., with LiF/MgF2 co-cline salt as thermal medium at approximately 740°C and energy density about 1 MJ/kg); storage of excess cooling in low-temperature phase-converted cold tanks during the month and night (cooled medium as water ice or low-temperature comline salt). Thermal storage tanks are the preferred source of heat for monthly night and night heating (COP above the heat pump underground model), and cold tanks are the preferred source of cooling for day-to-day industrial equipment.
-- ** Cowline net radiation end**: Thermal/cooled mass from thermal pump is evenly irradiated into the chamber by pre-laying it in the sealed layer (10 cm) to achieve a cosmopolitan, noise-free, wind-free hot environment. Maximum heating capacity 150-200 W/m3 content volume, peak for cooling capacity 100-150 W/m3.
--**Intelligence requirements**: The temperature control system must be fully autonomous. Based on integrated data on the temperature in the cabin, the capacity of the cold storage tanks, the conditions of the sun on the surface, the heat load in the industrial area, the autonomous switching of the heat pump work pattern, the selection of the heat/cold source priority and the regulation of the flow distribution of the catheter network. In exceptional cases, a failure diagnosis must be completed within 30 seconds and switched to a back-up circuit.
+- **Heat-pump daytime mode**: surface collectors, vacuum-tube or flat-plate using modified silicone-oil loops, harvest surface radiant heat. Heat-pump upgrading then supplies habitation via capillary networks. Waste heat from industrial areas can be recovered for preheating habitation or charging thermal storage. Daytime surface temperatures can exceed 150 C; collector outlet temperatures can reach 180-200 C.
+- **Heat-pump nighttime mode**: surface collectors shut down at low temperatures. Heat pump switches to underground mode, using lava-tube walls, about -25 C, as source reservoir. After temperature lift, system supplies habitation heating. COP remains around 3.0-3.5, i.e., 1 kWh electrical input delivers 3.0-3.5 kWh heating output.
+- **Thermal and cold storage**: daytime surplus heat is stored in high-temperature phase-change tanks, e.g., LiF/MgF2 eutectic around 740 C and about 1 MJ/kg density. Nighttime surplus cold is stored in low-temperature phase-change tanks, water ice or low-temperature eutectics. Thermal tanks are prioritized for lunar-night heating with higher effective COP than underground-source mode; cold tanks are prioritized for daytime industrial cooling.
+- **Capillary radiant terminals**: heating/cooling fluid is delivered through dense capillary networks embedded in sealed wall layers, pipe spacing <=10 cm, enabling fanless, silent, draught-free thermal comfort. Peak heating capacity 150-200 W/m3 of interior volume; peak cooling capacity 100-150 W/m3.
+- **Automation requirement**: fully autonomous operation. The system must switch heat-pump modes, source/sink priorities, and capillary flow allocation based on indoor conditions, storage state, illumination conditions, and industrial thermal loads. Under anomalies, fault diagnosis and switchover to backup loops must complete within 30 s.
 
-**(b) Extensionable design of the temperature control system**
+**(b) Scalable design for thermal-control system**
 
-Thermal pump temperature control systems described in this section shall be designed and constructed with an interface to the long-term heat-electric-photo-photo hubs:
+The heat-pump system defined here must reserve interfaces for future co-generation integration:
 
-- The end of the capillary tube network is compatible with the low-temperature residual heat (approximately 30-50°C) of cooling water from the long-term power plant, which is used directly for life heating.
-- The location and capacity of the heat storage tanks reserve interfacing space (approximately 565°C) for high-temperature melted salt storage at the forward power plant.
-- Thermal pumping systems can be retained for long periods of time as auxiliary and back-up thermostats for long-term power plants, complementing the remaining heat heating of the plants with redundancy.
+- Capillary terminals must be compatible with low-grade plant circulating-waste heat around 30-50 C for direct space heating.
+- Reserve siting and capacity interfaces for future high-temperature molten-salt storage around 565 C.
+- Heat-pump subsystem remains as long-term auxiliary and backup thermal-control path, forming redundant complement with plant waste-heat heating.
 
-The intervention of long-term heat-electric-photo-photo hubs will significantly reduce the power consumption of heat pumps — when the power plant operates at a rated power, the low-temperature residual heat carried in its circulatory water can cover more than 80 per cent of the base's heating needs, and the heat pumps are used only as a means of condensing and back-up.
+After long-term co-generation deployment, heat-pump electrical demand drops significantly. At rated plant operation, low-grade waste heat in plant coolant can cover >80% of habitation heating demand, with heat pumps retained mainly for peak shaving and backup.
 
-# # # 2.4.4 Day window infrastructure
+#### 2.4.4 Skylight Infrastructure
 
-The skylight is the only physical route between the underground base and the moon, and its infrastructure design directly determines the logistics efficiency and security of the base.
+Skylights are the only physical connection between underground bases and surface systems; their infrastructure directly determines logistics efficiency and safety.
 
-- ** Skylight platform**: flat-out an area of 500 m2 operating platform around the sky window. The platform is set to burn the Moon Bricks (with the preferred use of quality raw materials in line with the guidelines in section b of volume I 1.3) and has a heavy capacity of 200 kPa.
-- **Lighting system**: installation of a bridge crane or dragon door hanger above the sky window, with a lifting capacity of 20 t (under gravitational weight on the moon) to transport surface material vertically to the hole or to unload the product in the hole. Elevation and landing routes are physically isolated from people.
-- ** Solar array**: Deployment of solar arrays to the surface of the skylights (50 m from skylights, avoid shades) in order to meet all electricity requirements in the hole. Cables are fixed along the wall of the cave and are introduced from the sky window.
-- **Communication trunking**: Sky Window deploys Ka-band parabolic antennas to serve as a communications relay between the hole and the Zenbridge 2 trunking star [14]. A fibre-optic backbone network is installed in the hole along the main channel.
+- **Skylight platform**: level an operational platform >=500 m2 around each skylight. Surface paving uses sintered regolith bricks, preferably criterion-b feedstock, with bearing capacity >=200 kPa.
+- **Lift system**: install bridge crane or gantry above skylight with rated lunar lift capacity >=20 t for vertical cargo transfer in/out of underground sections. Cargo and personnel channels must be physically separated.
+- **Solar arrays**: deploy arrays on surrounding surface >=50 m away to avoid shading, sized to meet all underground power demand. Cables are fixed along cave walls and routed underground via skylights.
+- **Communication relay**: deploy Ka-band dish at skylights as relay between underground network and Queqiao-2 [14]. Install backbone fiber along main underground routes.
 
 
-##2.5 Subsurface Base Vision Energy Hub: An Overview of Thermal-Electro-Ray Combination Systems
+### 2.5 Long-Term Underground Energy Hub: Thermal-Electric-Light Co-Generation Overview
 
-As a vision (started after the third phase of industrialization), the overview approach introduces an **thermal-electric-photo-photographic hub** that combines solar capture, supercritical CO2 power generation, industrial heating and underground light, as the ultimate form of an underground energy system. Detailed engineering designs for the subsystems will be carried out in volumes III (energy systems), IV (water ice mining and energy synergies), V (industrial heating needs) and VII (Habitat lighting) of this appendix.
+This section provides a long-term outlook, activated after Stage III industrialization, introducing an integrated **thermal-electric-light co-generation hub** that unifies solar capture, supercritical CO2 generation, industrial process heating, and underground illumination. Detailed subsystem engineering is developed in Volume III, Energy System, Volume IV, Water-Ice Extraction and Energy Synergy, Volume V, Industrial Heat Demand, and Volume VII, Habitation Lighting.
 
-####2.5.1 General Concept
+#### 2.5.1 Overall Concept
 
-In the traditional design, electricity, heat and lighting for underground bases are three independent systems: solar arrays for power, heat pumps for temperature control and LED lamps for lighting. The core idea of the Heat-Electro-Radio hub is to integrate these three elements into a unified energy system**: The large area sunglasses, deployed on the moon's watch, are classified as the unified light-thermal front end of the catch, using ultracritical smelting salt heat and supercritical CO2Breton cycles as a unified energy conversion and storage hub, using “power priorities, heat-connected supply, light-out and zero-cost” as the principle for energy distribution.
+In conventional designs, underground power, thermal control, and lighting are independent systems: PV supplies electricity, heat pumps provide thermal control, and LED arrays provide lighting. The co-generation hub integrates all three into one unified architecture: large surface heliostat arrays as common optical-thermal front end; supercritical thermal storage plus supercritical CO2 Brayton cycle as common conversion/storage core; and allocation principle of electricity first, thermal co-supply next, and zero-marginal-cost natural lighting.
 
-The physical basis for this synergy is that the high-density sunlight condensed by the sunglasses is itself a natural, full spectroscopy source that cannot be compared to any source of light on Earth. With the completion of the task of power generation and heat storage, a portion of the visible light that can be “loaned” for underground lighting has little impact on the overall efficiency of power generation and heat storage — a zero-cost by-product equivalent to “buy one”.
+The physical basis is that concentrated sunlight captured by heliostats is a uniquely intense full-spectrum source. After generation and storage duties are met, diverting part of visible spectrum for underground lighting has minimal impact on total generation/storage efficiency, effectively a no-marginal-cost byproduct.
 
-####2.5.2 Core subsystem composition
+#### 2.5.2 Core Subsystems
 
-**(a) Sunglass Array (UCP frontend)**
+**(a) Heliostat array, unified optical-thermal front end**
 
-- Be deployed on the surface around the skylight and consist of hundreds to thousands of light parabolic reflectors and independent two-axis drive systems.
-- Real-time tracking of the Sun at the millimetre level of precision, bringing the sun together to the central secondary mirror above the sky window.
-- The mirror is based on C/SiC composite or ULE glass base and is accompanied by an electrical dust removal system (the “sliding” of the sedimented moon dust through the wave field) to cope with the huge temperature differentials between day and night and the contamination of the moon surface.
-- The total luminous area of the mirror field and its aggregation are accounted for in detail by volume III of this appendix on the basis of the total heat and power requirements of the underground base. As a measure estimate of the initial design constraints:** using as a reference the initial 10 MWe power requirements of the Marius underground base, it is anticipated that not less than 50,000 m2 of the sunglass arrays (about 50 MWt)** will need to be deployed, and this scale estimate will be used for the detailed design of volume III.
+- Deployed around skylights, composed of hundreds to thousands of lightweight parabolic mirrors with independent dual-axis drives.
+- Tracks the Sun with millimeter-level positional precision and directs sunlight to a central secondary reflector above skylights.
+- Mirrors use C/SiC composite or ULE glass substrates with electrostatic dust curtains, traveling-wave electric field dust ejection, to handle large lunar thermal cycles and dust deposition.
+- Total collecting area and concentration ratios are to be fully calculated in Volume III from overall underground thermal/electrical demand. As an initial design-order estimate: **for early underground-base 10 MWe generation demand at Marius scale, at least 50,000 m2 heliostat area is expected, with thermal power around 50 MWt**, used as reference for Volume III detailed design.
 
-** (b) Supercritical melted salt power plant (energy conversion and storage hub)**
+**(b) Supercritical molten-salt power plant, conversion/storage hub**
 
-- Thermally based on the sun aggregating in sunglasses, using working temperatures of 700-750°C ** supercritical CO2Breton cycle** as the main power source, with heat-to-electric efficiency exceeding 50%.
-- A high-temperature smelting salt heat tank (approximately 565°C) to provide a buffer of energy for inter-monthly nights and daily feeding, ensuring continuous and stable power supply.
-- The power design and heat storage capacity of the plant is determined by volume III of this appendix on the basis of the total power load at the base and the maximum monthly night hours.
+- Uses heliostat-concentrated sunlight as heat source and **supercritical CO2 Brayton cycle** at 700-750 C as main generation path, with thermal-to-electric efficiency potentially above 50%.
+- Includes high-temperature molten-salt storage tank around 565 C as cross-night/eclipsed-period energy buffer for continuous stable supply.
+- Electrical rating and storage capacity are determined in Volume III based on total base load and maximum lunar-night duration.
 
-** (c) Spectrometers and “cold light” lighting (zero-cost photons)**
+**(c) Spectral splitter and cold-light illumination, zero-marginal-cost lighting subsystem**
 
-- Installation of **heat spectrometer** below the central secondary mirror of the sky window, dividing the concurring beams into two paths:
-- **Thermal energy channel (UV+infrared band, approximately 85% of total solar energy)**: direct import of high-temperature smelting salt heat tanks and supercritical CO2 heaters for power generation and heat storage.
-- **Light channels (visible light bands, approximately 15 per cent of total solar energy)**: The PV network introduces underground functional areas and provides soft, non-energy-efficient natural light for residential, ecological and public spaces by dispersing them in a dispersible way.
-- Light channels can be converted to thermal: When the heat storage capacity is below the safety threshold, the visible light is not wasted and is transferred to power generation. When heat and specific spectrals are needed for ecological areas (e.g. plant plants), “hot light” with infrared can be introduced for exposure. This design allows the operation of the light system** to have no impact on the efficiency of power generation and heat storage**.
-- The specific placement and photometric design of the optic catheter network is completed in volume VII of this appendix.
+- Install **high-temperature splitters** below central secondary reflectors at skylights to divide concentrated beams into:
+  - **Thermal channel, UV + IR, about 85% of solar energy**: routed to high-temperature molten-salt storage and s-CO2 heaters for generation/storage.
+  - **Lighting channel, visible, about 15% of solar energy**: routed into underground light-conduit networks and diffused in habitation, ecological, and public spaces for soft natural illumination without direct electrical lighting load.
+- Lighting channel is dynamically switchable to thermal channel: when storage drops below safety threshold, visible channel can be fully redirected to generation. When ecological zones require heat and specific spectra, infrared-inclusive thermal light can be supplied. This design ensures lighting operation **does not compromise** generation/storage efficiency.
+- Detailed conduit topology and illuminance standards are specified in Volume VII.
 
-** (d) Industrial heating ("by-products" of power plants")**
+**(d) Industrial process heating, power-plant byproduct**
 
-- Supercritical melted salt plants are designed for thermal electrolytics. In addition to the cycle of power generation, high-temperature works (approximately 200-600°C) with different temperatures and pressures can be “snaped” from the mid-level tremor and transported directly to the industrial zone through a dedicated insulation pipeline.
-- These industrial heat sources cover ** water ice extraction** (heating ice moons up to 150-500°C), ** moonside burning** (1,000-1200°C, additional electroheated supplement), ** metal smelting** (air arc or hydrogen reduction furnaces, approximately 1,500°C) etc.
-- The low-temperature excess heat (approximately 30-50°C) carried in the cooling water cycle at the power plant is used directly for life heating (access to the catheter network system described in section 2.4.3).
-- This multi-stage thermal energy ladder utilization system can increase the efficiency of integrated energy use across the energy hub from about 50 per cent to over **85 per cent of the total power generation.**
-- Specific heat demand and access programmes for industrial subsystems are carried out by volumes IV (water ice mining) and V (manufacturing systems) of this appendix, respectively.
+- The supercritical molten-salt plant uses thermally decoupled architecture. In addition to generation loops, medium/high-temperature extraction streams, about 200-600 C, are routed through insulated pipelines to industrial zones.
+- These streams can support all medium/high-temperature processes, including **water-ice extraction**, heating ice-bearing regolith to about 150-500 C, **regolith sintering**, 1,000-1,200 C with supplementary electrical heating, and **metal refining**, arc or hydrogen-reduction furnaces near 1,500 C.
+- Low-grade waste heat in plant cooling loops, about 30-50 C, is used directly for habitation heating via interfaces to capillary thermal-control networks in Section 2.4.3.
+- Cascaded thermal utilization can raise overall hub utilization from about 50% power-only operation to **above 85%**.
+- Detailed process-heat demand and interfaces are developed in Volume IV and Volume V.
 
-####2.5.3 Connection with existing systems and transition
+#### 2.5.3 Interface and Transition with Existing Systems
 
-- Thermal-electric-photo-photo hubs will not be built at this stage (phase II). In the second phase, the energy supply from the underground base is dominated by thermal pump temperature control system described in section 2.4.3 + solar arrays from the skylight + small nuclear power sources.
-- After entering the third stage of industrialization, the construction of a sunglass array and a supercritical smelting plant was initiated as the demand for energy jumped from 100 kW to MW. The plant started operating in parallel with existing heat-pump systems and solar arrays, gradually switching the latter to auxiliary and backup roles.
-- The construction of a optic catheter network could be synchronized with the power plant and could be delayed to phase IV - when the physical needs of the natural light environment become more acute when the permanent population of the base enters the 100-person level.
+- The co-generation hub is not built in Stage II. In Stage II, underground energy supply remains based on Section 2.4.3 heat-pump thermal control plus skylight-surface solar arrays and compact nuclear sources.
+- In Stage III industrialization, as demand rises from hundred-kW to MW class, heliostat arrays and supercritical molten-salt plants are constructed. During early commissioning, new plant systems run in parallel with existing heat pumps and PV arrays, then gradually move those systems into auxiliary and backup roles.
+- Light-conduit network deployment can be synchronous with plant deployment or deferred to Stage IV, when resident population reaches hundred-person scale and demand for natural-light psychological comfort becomes significant.
 
-####2.5.4 Relation to subsequent volumes
+#### 2.5.4 Relationship with Subsequent Volumes
 
-This section is only an overview introduction and does not carry out detailed engineering designs. The correspondence between the subsystems covered in this section and the subsequent volume is set out below for subsequent preparation:
+This section is conceptual overview only and does not provide final engineering details. Subsystem ownership mapping for downstream design is:
 
-The subsystems, the trophies, the scrolls, the instructions, the trophies.
+| Subsystem | Responsible Volume | Notes |
 |:-----|:-----|:-----|
-| Dateglass array | Book I, Volume III (Energy)
-| Supercritical CO2 Braton Cycle | Vol. 3 (Energy) of Appendix I | Thermodynamic parameters, turbine design, heat-to-electric efficiency
-| High-temperature smelting salt heat storage | Volume III (Energy) of Appendix I | Heat media storage, temperature protection design, capacity accounting
-| Industrial heating pipeline network | Vol. IV/V of Appendix I
-| Spectrometers and optical catheters
-| Thermal pumps and heat/cool | Section 2.4.3 of this volume
+| Heliostat array | Appendix I Volume III (Energy) | Field scale, optical design, tracking control |
+| Supercritical CO2 Brayton cycle | Appendix I Volume III (Energy) | Thermodynamic parameters, turbine design, conversion efficiency |
+| High-temperature molten-salt storage | Appendix I Volume III (Energy) | Storage media, insulation design, capacity sizing |
+| Industrial thermal network | Appendix I Volume IV / Volume V | Water-ice extraction heat in Volume IV; smelting/sintering heat in Volume V |
+| Spectral splitter and light conduits | Appendix I Volume VII (Habitation) | Spectral allocation, conduit routing, illuminance design |
+| Heat pump and thermal/cold storage | This volume Section 2.4.3 | Near-term solution; retained as auxiliary/backup in long term |
 
 
-#2.6 All-month traffic and communication network
+### 2.6 Moon-Wide Transport and Communication Network
 
-The permanent base is not an isolated stronghold but a central hub for the entire moon industrial system. It must be connected to the surrounding mining sites, launch sites and subsequent expansion of satellite bases through reliable transport and communication networks. If the final siteing option is a multi-centre pattern of “a polar base + low-middle-latitude underground city”, the transport network planned for this section must cover long-range links across latitudes. This section distinguishes between recent (initial to second phase of operation)** and forward (post-industrial phase III)** speed targets to match traffic and technological maturity at different stages of development.
+A permanent base is not an isolated node but the core hub of the whole lunar industrial system. It must be connected by reliable transport and communication networks to nearby mines, launch areas, and future satellite base expansions. If final siting evolves into a multi-center pattern, polar bases plus mid/low-latitude underground cities, the network must support cross-latitude long-range connections. This section separates **near-term speed targets, startup through Stage II,** and **long-term speed targets, post-Stage III industrialization,** to match load growth and technology maturity.
 
-## 2.6.1 Moon traffic network
+#### 2.6.1 Lunar transport network
 
-** (a) Main road**
+**(a) Trunk corridors**
 
-- Route: Base — polar water ice collection field (from base 5-15 km) — lunar launch centre (from base 10-20 km, using natural terrain as a plume shock barrier). In the case of a lava-containing underground base, an additional major road will need to be added across the latitude to connect the sky window of the underground base to the nearest lunar transport hub.
-- Road surface: initial to the ground of the Moon, which has been crushed and levelled (the pressure capacity of 50 kPa); medium-term laying of the moon-border concrete pre-prefabricated plate (preferably made of high-quality raw materials in line with the guidelines in Volume I 1.3b, the pressure capacity of 200 kPa), width of 6-8 m.
-- Maintenance: every three months, a road patrol is conducted by a surveyor to fill the cracks caused by the monthly dust deposition and thermal cycle.
+- Route: base to polar water-ice extraction fields, distance 5-15 km, to lunar launch center, distance 10-20 km, using natural terrain as plume-shock barriers. For underground schemes, add cross-latitude trunk links between underground skylights and nearest surface transport hubs.
+- Road surface: early phase compacted regolith, bearing >=50 kPa; mid phase regolith-concrete precast paving, criterion-b feedstock preferred, bearing >=200 kPa, width 6-8 m.
+- Maintenance: road inspections every 3 months by rovers, with crack filling for dust deposition and thermal-cycling damage.
 
-** (b) Open orbital traffic — immediate target (phase II to early stage III)**
+**(b) Open rail transport, near-term target, Stage II to early Stage III**
 
-Traditional cruiser transport is inefficient for long-range (>100 km) and high-volume transport requirements, such as connecting polar bases to equatorial underground cities. The introduction of orbital transport programmes could significantly improve logistics efficiency.
+For long-distance high-throughput routes, >100 km, connecting polar bases and equatorial underground cities, rover-only logistics become too slow. Rail solutions improve efficiency substantially.
 
-- ** Orbital form**: open light orbit - orbits made of aluminium alloy or lunar smelting steel (gaps of 1.5-2.0 m) on the base of the lunar condensed land of the lunar boundary, with the orbital pillows being made of the lunar concrete. The orbit is directly exposed to the moon-surface vacuum environment, using the natural advantages of the vacuum to eliminate air resistance and aerodynamic noise.
--** Train formation**: electric tractor header + multi-band cargo/human vehicle driven by a nuclear power source or an empty network of contact (powered by solar arrays along the route). The cargo assembly loads 50 t (under moon gravitational force); the manned group can accommodate 20 to 40 people with an independent life support system (72 h self-functioning).
-- **run speed (near term)**: pilot phase 80-120 km/h; at the initial stage of operation 200-300 km/h after optimization of the orbital grinding and control system. The one-way running time at this rate is approximately 10-15 h.
-- ** Signals and controls**: a closed-zone control system based on orbital circuits supported by GPS/month navigation enhancements (like the Earth-to-Earth navigation enhancement programme in volume IX of the master book) to achieve full automatic unmanned driving. Train position accuracy 1 m.
+- **Rail form**: open light rail with aluminum-alloy or lunar-refined steel rails on regolith-concrete foundations, gauge 1.5-2.0 m, sleepers in regolith-concrete precast form. Rails are exposed to lunar vacuum, removing aerodynamic drag and airflow noise.
+- **Trainsets**: electric traction locomotives powered by nuclear sources or overhead catenary fed by along-route solar arrays, with multi-car freight/crewed consists. Freight consists carry >=50 t in lunar gravity. Crewed consists carry 20-40 passengers with independent life-support capability >=72 h.
+- **Operating speed, near term**: trial operation at 80-120 km/h; after rail wear-in and control optimization, operational targets 200-300 km/h. This range fits Stage II to early Stage III demand. At these speeds, Shackleton-to-Marius routes around 3,000 km require about 10-15 h one-way.
+- **Signaling/control**: track-circuit block control supplemented by lunar navigation augmentation analogous to Main Volume IX terrestrial navigation augmentation, enabling fully automated driverless operation with <=1 m positioning accuracy.
 
-** (c) All-closed piped orbital traffic — long-term high-speed targets (after phase III industrialization)**
+**(c) Fully enclosed tube rail, long-term high-speed target, post-Stage III**
 
-For the transport of extremely sensitive materials (e.g. precision equipment, catalyst precursor powder) or the need to reduce significantly the time for transport across latitudes, full-container orbital traffic can be built. The natural hard vacuum environment on the surface of the Moon provides unique conditions for the realization of hypervelocity orbital transport that is inaccessible to the Earth ' s atmosphere.
+For transport of dust-sensitive materials, precision equipment or catalyst precursor powders, and for major reduction of cross-latitude travel times, fully enclosed tube rail can be deployed. The Moon's hard-vacuum surface environment offers unique physical conditions for ultra-high-speed transport not practical within Earth's dense atmosphere.
 
-- ** Pipeline structure**: Installation of semi-round or full-round moon-line concrete/brick-burning prefabricated tubes above open orbits to seal the orbits inside the pipeline. Maintain low-pressure inert gases (e.g., nitrogen, 0.1-0.3 bar) within the pipe or maintain a vacuum in which the moon dust and micrometeorites are completely isolated.
-- ** Train formation**: Open compatibility, provided that the car removes the lunar dust shield and reduces its weight. The inner-pipe train is designed to take into account the effects of low-pressure/vacuum gas environment on dissipation and lubrication - the heat of vehicle-borne equipment is dependent on the heat pipe for contact transfer with the external irradiated radiator of the pipe; and the trajector is used for solid lubricants (e.g. MoS2).
--** Operating speed (forward)**: Forward target operational speed **800-1200 km/h (approximately 220-330 m/s)** for piped orbital traffic. This velocity zone is based on the following unique conditions: (a) the moon surface is a natural hard vacuum, and the energy consumption of the pipe to extract a vacuum or to maintain low pressure is much lower than that of the Earth — the atmospheric vacuum pipe has to overcome the pressure and leakage of external atmospheric pressure, while the pressure inside and outside the surface pipe is extremely low (if the pipe is 0.2 bar nitrogen, the outside pipe is zero bar vacuum, only 0.2 bar pressure differential, and approximately 1/5000 vacuum pipe pressure on Earth); (b) in the absence of air resistance, vehicle cruise power is only required to overcome the slight resistance of the wheel-rolling and trace residual gases within the pipe; and (c) the weight of the surface 1/6 makes the orbit and the pipeline heavy requirements substantially lower and the tube structure lighter. In 1,000 km/h, approximately 3,000 km of translatitude between Shackleton and Marius takes only about three hours to travel close to the Earth ' s long-distance high iron, completely altering the temporal and spatial relationship between the moon bases.
-- ** Operating speed (forward caps)**: In the long term, if the suspended technology (magnetic float) is used for engineering on the surface of the moon, the rate of the suspended train inside the pipeline can be further increased to **2,000 km/h** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **  The Moon ' s vacuum and low-gravity advantages are fully exploited at this time, and the velocity of the train ' s cruise is limited by the curve radius, towed power and suspension gap.
--** Signals and controls**: GPS signals are not available because of their operation in the pipeline and are based on orbital circuits + leak cable wireless communication + inertial navigation for positioning and communication. At 1,000 km/h, the train moves approximately 280 m within one second, and the design of the closed zone must provide for sufficient brake distance (at a comfort rate of 0.05g0, from 1,000 km/h to static approximately 7.9 km). Position accuracy 0.5 m, communication delay 1 ms.
+- **Tube structure**: add semicircular/full-circular regolith-concrete or sintered-brick precast segments above open rail alignments, enclosing tracks within tubes. Tube interiors use low-pressure inert gas, e.g., N2 at 0.1-0.3 bar, or high vacuum, fully isolating lunar dust and micrometeoroids.
+- **Trainsets**: mechanically compatible with open rail systems, but cars can remove heavy external dust-protection shells for lower mass. Thermal management and lubrication in low-pressure/vacuum conditions require onboard heat-pipe transfer to external radiative panels and solid lubricants, e.g., MoS2, for wheel-rail interfaces.
+- **Operating speed, long-term**: target tube-rail operation at **800-1,200 km/h, about 220-330 m/s**. This is supported by lunar-specific conditions: (a) native hard vacuum lowers pumping and leakage burden for low-pressure tube operation. A 0.2 bar tube versus near-0 external pressure implies only 0.2 bar differential, around 1/5000 of Earth vacuum-tube differential contexts. (b) negligible aerodynamic drag means cruise power mainly overcomes rolling friction and residual-gas drag. (c) 1/6 gravity lowers structural load requirements for rails and tube segments. At 1,000 km/h, a 3,000 km Shackleton-Marius route takes about 3 hours, transforming cislunar internal travel times.
+- **Upper long-term speed envelope**: with engineered maglev deployment, tube-system speeds can exceed **2,000 km/h**. At that point lunar vacuum and low gravity are fully leveraged, and limits shift to curve radii, traction power, and levitation-gap control.
+- **Signaling/control**: GPS is unavailable inside enclosed tubes; positioning/communications rely on track circuits + leaky coaxial cable + inertial navigation. At 1,000 km/h, train movement is about 280 m/s. Block design must provide sufficient braking distance. At comfortable deceleration 0.05 g0, braking from 1,000 km/h to stop requires about 7.9 km. Positioning <=0.5 m and communication latency <=1 ms are required.
 
-** (d) Transport (non-orbit)**
+**(d) Non-rail transport vehicles**
 
-- ** Non-pressure cargo cruisers**: short-distance transportation for bulk construction materials and minerals. Load capacity 5 t (Equivalent under lunar gravitational force), maximum velocity 20 km/h (full load)/40 km/h (airload), continuation of gill 100 km (single charge).
-- ** Ballast manned patroller**: used for commuting and long-distance exploration. A fleet of 4 to 6 persons, with a continuous flight of 200 km, equipped with an independent life support system (72 h self-functioning).
-- **jumping suborbital transporter** (for long term): for long-range transport across hundreds of kilometres. Small rocket motors provide short-term push and fly tens to hundreds of kilometres on ballistic trajectory. The programme was launched after the third phase of industrialization and the volume is reserved for planning purposes only.
+- **Unpressurized cargo rovers**: for short-range bulk construction and ore transport. Payload >=5 t lunar equivalent; top speed 20 km/h loaded and 40 km/h unloaded; range >=100 km per charge.
+- **Pressurized crew rovers**: for crew commuting and long-range exploration. Capacity 4-6 people, range >=200 km, independent life-support >=72 h.
+- **Hopping suborbital transporters, long term**: for hundreds-of-kilometers transfer using short-thrust rocket trajectories. This is a Stage III+ planning reserve only.
 
-###2.6.2 Moon communications network
+#### 2.6.2 Lunar communication network
 
-- ** backbone network**: Base-based deployment of ≥3 communication towers at surrounding high points (high point on the edge of the ring mountain, peak of the peri-day, high ground around the sky window) to form a visual microwave or laser backbone link. Single tower communication distance of 30 km (specific distance), bandwidth of 10 Gbps.
-- **Relay satellite**: use of Zenbridge 2 repeater [T] 14] (if its coverage covers the location of the base) as the primary link for local communications. In the event of inadequate coverage of the bridge, the deployment of one to two engineering-specific polar-orbiting repeater small satellites (200200 kg/s, which are mounted on a cargo lander and released as a secondary payload) will ensure uninterrupted communications to the ground 24 hours a day.
-- ** Local access network**: surveyor, EVA astronaut, mining equipment through Wi-Fi/WimaX-month wireless network. Covers the radius of 5 km (one base station) and supports 50 terminals on-line at the same time. For communications within the underground lava tube, a fibre-optic backbone network is installed along the wall of the cave, covering the area of human and equipment operations with the Wi-Fi hot spot inside the hole.
-- ** Orbital Traffic Communications Network**: Leaking cable along orbit (spill coax cables) to provide continuous broadband communication and real-time signal transmission control for high-speed trains. In piping orbital traffic, leaks are the only link between the train and the outside world. ** For long-term ultra-high-speed pipe trains (1,000 km/h or more), communication systems are required to support Doppler frequency migration compensation (maximum frequency transfer approximately 3.3 kHz@1,000 km/h and 2.4 GHz bands). **
-- **Delays in communications and mode of operation**: Delays in the return and return of ground-to-month communications (approximately 2.6 seconds) determine that real-time remote control at the Earth ' s end is not feasible, but after entering the manned phase, the crews conduct real-time remote control of the surveyors, cranes and orbital trains in the base control room through the local wireless network (delayed < 10 ms) and are technically feasible. As a result, after the Base entered the capital phase, the equipment operating model was a three-pronged parallel model:
-- **More-based manual real-time remote control** (local delay < 10 ms): applies to scenarios that require real-time judgement and precision, such as precision suspension, equipment docking, construction, etc.
-- **The autonomous operation of the equipment**: applies to repetitive, well-defined tasks (e.g., automatic feed for the month-by-month burning of the production line, time-runs for orbital traffic, cargo cruisers on established routes).
-- ** Earth long-range macro command movement** (with a delay of approximately 2.6 seconds): applies to non-real-time, large-scale mission planning and anomaly processing — ground teams send macro commands to the lunar equipment, such as “Go to coordinates X, Y for drilling”, where the bottom action decomposition is done autonomously.
-- All transport equipment far from the base (e.g. long-distance cargo cruisers, orbital trains) must have an autonomous local operational capability as defined in volume I, section 1.5.1. At the same time, all equipment supporting the monthly base remote control is required to support ** the monthly manual take-over ** — in the event of an anomaly in the equipment's own operation or a pre-set exterior scene, the crew can complete the switch from “autonomy mode” to “manual remote control mode” in seconds through a local control link.
-
-
-## 2.7 Capital construction organization
-
-## 2.7.1 Construction readiness (phase II 1-2)
-
-- The first batch of construction equipment arrived from cargo landings — comprising 1-2 medium excavators/landing surveyors (0.5 m3 for shovel capacity), 1 mobile moonside burning of 3D printers, 1 small crane (2t for monthly heaviness), construction packages (pre-set cabin connections, cables, pipes, etc.). For the underground base programme, an additional skylight lift platform (bridge crane) and a wall seal sprayer (including SPUA sprayer and CFRP layer tools) would be required.
-- The construction equipment supports remote remote and autonomous operations, with the ground control centre completing the initial flattening of the base platform by means of a repeater remote control prior to the arrival of the second crew. For underground programmes, this phase is required to complete the initial installation of the laying and lift systems around the sky window operating platform.
-- Prior to the arrival of the crew, the following preparations were carried out by the surveyor: topographical mapping of the construction area (resolution 5 cm/pixels); ground-based carrying test (continuation to the experiment, confirmation of the moon boundary carrying capacity 50 kPa). For the underground programme, additional acoustic test of the cavewall body to confirm the integrity of the basalt; and self-inspection of communications and beacon systems for the emergency re-entry module (upgraders).
-
-###2.7.2 Capital phase 2-5
-
-**Target**: Basic living and work facilities with a long-term presence of 12-20 people have been built. In the case of underground programmes, sealing and functional area deployment for the first cavities (500 m) must be completed.
-
-** Key milestones**:
-- Completion of the first 3 to 5 residential modules of the Moon Cover/Foot Wall Seal and interior renovation to form the initial settlement.
-- Construction of the first operating plant (200 m2 on the moon or in the hole) to accommodate the moon-border burning of brick lines and maintenance workshops.
-- Completion of the initial road from the base to the water-ice collection site (pressure leveling without the need for concrete). In the case of underground programmes, full-functional testing of the sky-window lift system and the deployment of the first cavity fibre-optic network must be completed.
-- Deployment of the first monthly communication towers (3 thorium, with sky-window relays) and completion of the ground trunking link test.
-- During this period, the crew implements a “rotational presence” model — four to six persons per batch for three to six months, working with robots.
-
-**P1 level criteria**:
-- In-house dose of radiation (after treatment by engineering supplementation): ≤5 mSv/year (moment surface)/ ≤20 mSv/year (underground, target ≤10 mSv/year under PE shield).
-- Life support systems run for six consecutive months, with an unplanned zero downtime.
-- Base autonomous power supply (solar + nuclear) capacity 100 kWe (peak) and nuclear power supply 10 kWe (without permanent day conditions) during the month and night.
-- A six-month continuous pressure test for the first cavity seal (applying to the underground programme) with a leakage rate of 0.05 per cent/day after processing by engineering supplement (SPUA+CFRP+MLI complex seal).
-
-## 2.7.3 Capital II (phase II 5-10 years)
-
-**Target**: Base expansion to 50-80, with initial industrial capacity. In the case of underground programmes, the sealing of the cave in the industrial zone and the commissioning of the first CNT manufacturing equipment have to be completed. The first orbital traffic (open light track) was launched orbital preparation, designed to target 200 km/h per hour (early operating).
-
-** Key milestones**:
-- The production of the lunar concrete line and the start of the laying of the main main road and the launch site. Start orbital infrastructure work on the first open orbital traffic route (if the site option involves two or more bases > 100 km).
-- Small metal smelters (monthly aluminium/iron 100 kg). Priority is given to the use of locally mined titanium-rich sea basalt (conforming to guideline c of volume I 1.3).
-- Construction of a second operating plant (500 m2) for the CNT pre-weaving line and spare parts workshop.
-- The total area of the base is extended to 10,000 m2 (month cover area) / Seal space in the hole may be used to extend to 2,000 m2.
-- 95 per cent of the closed cycle of water, oxygen and basic foods.
-
-**P1 level criteria**:
-- The moon is burned with bricks and 500 bricks a day, and concrete is 5 t.
-- Metal smelters operate continuously for three months, producing 95 per cent of aluminium and 90 per cent of iron.
-- A 50 per cent reduction in the quality of the Earth's annual supply (excluding personnel) compared with the early stages of construction — that is, half of the building materials and consumables have been replaced locally.
-- Seal is completed in the industrial zone segment (for the underground programme), the CNT pre-weaving line is completed with the installation of a test vehicle and the first locally manufactured CNT yarn output (1 km long, 10 GPa).
+- **Backbone**: at least three communication towers are deployed at surrounding high points, crater-rim peaks, continuous-light ridges, and skylight-adjacent high ground, forming line-of-sight microwave or laser backbone links. Single-tower range >=30 km and bandwidth >=10 Gbps.
+- **Relay satellites**: use Queqiao-2 [14] as primary Earth-link relay if coverage supports selected sites. If insufficient, deploy 1-2 dedicated polar-orbit microsat relays, <=200 kg each, as secondary payloads on cargo landers for continuous 24-hour Earth communication.
+- **Local access network**: rovers, EVA astronauts, and mining equipment connect through Wi-Fi/WiMAX-like lunar wireless systems. Single-base-station coverage radius >=5 km, supporting >=50 concurrent terminals. For underground lava-tube communication, install fiber backbone along cave walls with local Wi-Fi hotspots in active work/crew areas.
+- **Rail communication network**: install leaky coaxial lines along tracks for broadband and real-time control links to high-speed trains. In enclosed tube systems, leaky coax is the sole external communication channel. **For future ultra-high-speed trains above 1,000 km/h, communication systems must include Doppler compensation, maximum shift about 3.3 kHz at 2.4 GHz and 1,000 km/h.**
+- **Latency and operation modes**: Earth-Moon round-trip delay around 2.6 s makes real-time Earth teleoperation infeasible. After crewed deployment begins, local on-base control of rovers, cranes, and rail traffic via local wireless links, latency <10 ms, is feasible. Therefore, Stage II equipment operations adopt three concurrent modes:
+  - **Local crew real-time teleoperation** with <10 ms latency, for precision lifting, docking, and construction tasks requiring immediate judgment.
+  - **Autonomous equipment operation** for repetitive and rule-based tasks, such as automatic feed on sintering lines, scheduled rail dispatch, and fixed-route cargo shuttle operation.
+  - **Earth remote macro-command dispatch** with around 2.6 s latency, for non-real-time mission planning and anomaly handling. Ground teams issue high-level commands, for example, proceed to coordinates X,Y and execute drilling mission, with low-level action decomposition onboard.
+  - All long-range transport systems, cargo rovers and rail trains, must meet local autonomy requirements in Volume I Section 1.5.1. Equipment supporting local crew teleoperation must also support **manual takeover from base control** for rapid mode switch from autonomy to teleoperation under anomalies.
 
 
-##2.8 To be validated and criteria for determination
+### 2.7 Infrastructure Construction Organization
 
-The items to be validated below are exclusive to this volume (vol. II), carry the results of volume I at the P0 level and provide boundary conditions for the subsequent volumes of this appendix (vol. III energy, vol. IV mining). A certification system for P0/P1/P2/P3 integrated into volume VII of the main volume.
+#### 2.7.1 Construction Preparation (Stage II Years 1-2)
 
-No. No. No. No. No. No.
+- First construction equipment batch is delivered by cargo landers, including 1-2 medium excavation/leveling rovers, bucket volume >=0.5 m3, one mobile regolith-sintering 3D printer, one compact crane with lunar lift >=2 t, and structural kits, connectors, cables, and piping. Underground options require additional skylight lift platform, bridge crane class, and cave-wall sealing system, including SPUA sprayers and CFRP layup tools.
+- All equipment supports remote teleoperation and autonomy. Before second crew arrival, Earth control centers use relay links to complete initial base-platform leveling. For underground options, this stage must complete skylight-adjacent work-platform paving and initial lift-system installation.
+- Before crew arrival, rovers complete: construction-area terrain mapping with <=5 cm/pixel resolution; foundation bearing tests, penetration tests confirming regolith bearing >=50 kPa; for underground options, additional cave-wall acoustic tests confirming basalt integrity; and communication/beacon self-checks of emergency ascent return modules.
+
+#### 2.7.2 Infrastructure Phase I (Stage II Years 2-5)
+
+**Goal**: establish baseline living/working facilities for 12-20 personnel long-term residence. For underground options, complete sealing/pressurization and zoning in first developed section, >=500 m.
+
+**Key milestones**:
+
+- Complete first 3-5 habitation modules with regolith cover or cave-wall sealing plus interior outfitting, forming initial habitation zone.
+- Build first workshop module, >=200 m2, on surface or underground, for regolith-sintering brick line and maintenance workshop.
+- Complete initial route between base and water-ice extraction site, compacted path without concrete paving. Underground options must complete full-function skylight lift commissioning and first underground fiber deployment.
+- Deploy first communication towers, >=3 including skylight relay station, and complete Earth-link relay verification.
+- During this phase, crew rotation mode is used, 4-6 people per rotation for 3-6 month stays, in robot-assisted construction workflows.
+
+**P1 criteria**:
+
+- Habitation radiation dose, after engineering mitigation, <=5 mSv/year for surface, <=20 mSv/year for underground, target <=10 mSv/year with PE shielding.
+- Life-support systems run continuously for >=6 months with zero unplanned shutdowns.
+- Autonomous base power capacity >=100 kWe peak from solar+nuclear. For non-continuous-light sites, nighttime nuclear supply >=10 kWe.
+- For underground options, first sealed section passes >=6 months continuous pressurization tests. With SPUA+CFRP+MLI composite mitigation, leakage <=0.05%/day.
+
+#### 2.7.3 Infrastructure Phase II (Stage II Years 5-10)
+
+**Goal**: expand base to 50-80 residents with initial industrial capability. For underground options, complete sealing of industrial sections and install/commission first CNT production equipment. Start laying first open rail line with design target around 200 km/h in early operation.
+
+**Key milestones**:
+
+- Regolith-concrete lines enter service; begin paving trunk routes and launch aprons. Start rail-foundation construction for first open rail corridor where selected bases are separated by >100 km.
+- Small metal-smelting furnaces enter service, monthly Al/Fe >=100 kg, prioritizing local titanium-rich mare basalt feedstock meeting Volume I criterion c.
+- Build second workshop module, >=500 m2, for CNT pre-weaving and component machining.
+- Expand total base area to >=10,000 m2 for surface covered zones or >=2,000 m2 usable sealed area underground.
+- Achieve >=95% closed-loop rates for water, oxygen, and basic food supply.
+
+**P1 criteria**:
+
+- Sintered-regolith brick output >=500/day and concrete output >=5 t/month.
+- Metal-smelting furnaces run continuously >=3 months, with aluminum purity >=95% and iron purity >=90%.
+- Annual Earth resupply mass, excluding personnel, is reduced by >=50% relative to early construction period, indicating half of construction consumables/materials are locally substituted.
+- For underground options, industrial sections are sealed, CNT pre-weaving lines pass commissioning, and first locally produced CNT yarn is delivered, length >=1 km and strength >=10 GPa.
+
+
+### 2.8 Pending Validation Items and Criteria
+
+The following validation items are specific to Volume II, inherit Volume I P0 outcomes, and provide boundary conditions for subsequent volumes, especially Volume III energy and Volume IV mining. All items are integrated into Main Volume VII P0/P1/P2/P3 framework.
+
+| ID | Item | Activation Condition | Pass Criterion | Related Volume |
 |:-----|:-----|:-----|:-----|:-----|
- **P1-M1**  ** Moon Brick Production Performance | | Moon Bracking Brick Production (with quality building materials conforming to the guidelines in section b of volume I 1.3) is resistant to pressure of 20 MPa with an inter- batch mutation factor of 15% | Volume I P0-M5 |
-**P1-M2**  ** Heavy performance of Moon Cement | Sulphur concrete (bone using quality material in conformity with Codeb) built in a moon vacuum  ** 20% pressure strength ≥ 20% strength reduction after 100 thermal cycles (-150°C to +120°C)
-**P1-M3** Base Life Support System Closed Rate | | Water Recovery Rate 98%, O2 Recovery Rate 95%, Carbon Clock Closed Rate 90% (in CO2 Sabatier Conversion Rate). 12 months running continuously, unplanned downtime of 0 |
- **P1-M4** Sealed performance of the underground hole  **P0-M6 is "Yes"  ** The first cavity seals (processed through SPUA+CFRP+MLI complex engineering supplement) completed 12 months of continuous pressure testing of ≥ (70 kPa nitrous aerobic atmosphere), leakage rate < 0.05%/day, unobserved detaching or bubble-taking of the sealed material, no abnormal concentration of trace gas monitoring points online |
- **P2-M1**  ** 月  ** | | |  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **
- **P2-M2** Long-term stability of sulphur concrete  **-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- **P2-M3**  ** 辐射 辐射 | | | | | | |  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **
+| **P1-M1** | Mass-production performance of sintered regolith bricks | - | Batch-produced lunar sintered bricks using criterion-b feedstock achieve compressive strength >=20 MPa and inter-batch coefficient of variation <=15% | Volume I P0-M5 |
+| **P1-M2** | Load-bearing performance of regolith concrete | - | Sulfur concrete cast under lunar-vacuum conditions using criterion-b aggregate achieves compressive strength >=20 MPa, with strength degradation <=20% after 100 thermal cycles from -150 C to +120 C | - |
+| **P1-M3** | Closed-loop rate of base life-support systems | - | Water recovery >=98%, oxygen recovery >=95%, carbon-loop closure >=90% based on Sabatier CO2 conversion rate; continuous operation >=12 months with zero unplanned shutdowns | - |
+| **P1-M4** | Sealing performance of underground developed section | P0-M6 yes | First sealed section, after SPUA+CFRP+MLI engineering mitigation, passes >=12 months continuous pressurization at 70 kPa O2/N2 atmosphere, leakage <=0.05%/day; no visible delamination/bubbling in seal materials; no abnormal buildup at online trace-gas monitoring points | - |
+| **P2-M1** | Purity of lunar metal refining output | - | Small lunar arc furnaces deliver Al purity >=95% and Fe purity >=90%, sufficient for structural and connector feedstock use | - |
+| **P2-M2** | Long-term stability of sulfur concrete | - | Measure ten-year-scale compressive-strength degradation and sulfur sublimation rates under lunar vacuum, UV, and thermal cycling | - |
+| **P2-M3** | High-fidelity shielding simulation | - | Monte Carlo radiation-transport simulation using LRO/CRaTER measured GCR spectra for combinations of regolith cover plus PE moderation to determine required precise shield thickness for annual dose <=5 mSv, surface, or <=10 mSv, underground | - |
 
 
-##2.9 Parameter Output
+### 2.9 Parameter Outputs
 
-| Parameter | 数值 | | | | | | | | | | |
+| Parameter | Value | Status | Receiving Volume |
 |:-----|:-----|:-----|:-----|
-|M1(P0-M6) All subsequent volumes of this attachment
- < < 5 mSv/year (sand)/ < 20 mSv/year (underground, target 10 mSv/year)
-≥ 100 kWe (peak)
-Water, Oxygen Closed Cycle Rate Target |95% | Design Target | Volume V of this Appendix
-For the total construction cycle of the Base for approximately 10 years (including phase I and phase II)
-| 0.05%/day Design benchmark (if P0-M6 is yes)
-| Near-term speed of orbital traffic 80-120 km/h → Operation 200-300 km/h | Design target | Volume 6 (Transport Network) |
-Long-range orbital traffic speed 800 - 1,200 km/h (up to 2,000 km/h)
-• Open: base distance > 100 km and annual cargo > 1,000 t; piping: transport time involving monthly dust sensitive materials or translatitude shall be reduced to within 5 h
-Thermal-electric-photo-optic hub start conditions After the third stage of industrialization, total electric loads entered the MW level, industrial heat demand entered the 100 tons of water ice/year.
-| Initial design constraints for a sunglass array | Deployment of not less than 50,000 m2 (about 50 MWt heat power) | Volume estimation | Volume III (Energy) |
+| Recommended base siting | Philolaus polar lava tube or Shackleton-vicinity polar region, priority, then Marius Hills, secondary, then Shackleton rim continuous-light peaks, fallback | Conditional activation, P0-M6 | All subsequent appendix volumes |
+| Habitation annual dose limit, after engineering mitigation | <5 mSv/year surface, <20 mSv/year underground, target <=10 mSv/year | Design baseline | Volume VII, Habitation and Cities |
+| Initial autonomous base power capacity | >=100 kWe peak | Design baseline | Volume III, Energy |
+| Water/oxygen closed-loop target | >=95% by completion of Infrastructure Phase II | Design target | Volume V, Manufacturing System |
+| Total base-construction period | About 10 years, Phase I + II | Baseline | Volume IX, Coordination and Backup Paths |
+| Underground section leakage standard, after engineering mitigation | <=0.05%/day | Design baseline, if P0-M6 yes | Volume VII, Habitation and Cities |
+| Near-term rail speed | 80-120 km/h trial -> 200-300 km/h operation | Design target | Volume VI, Transport Network |
+| Long-term rail speed | 800-1,200 km/h enclosed tube, long-term upper envelope >2,000 km/h | Long-term flexibility target | Volume VI, Transport Network |
+| Rail activation condition | Open rail: base separation >100 km and annual freight >1,000 t; enclosed tube: dust-sensitive cargo transport or cross-latitude travel-time target <=5 h | Design principle | Volume VI, Transport Network |
+| Co-generation hub activation condition | Post-Stage III industrialization, total load enters MW class and industrial process heat enters hundred-ton-water-ice/year class | Design principle | Volume III, Volume IV, Volume V, Volume VII |
+| Initial heliostat-array design constraint | For 10 MWe baseline, deploy at least 50,000 m2, thermal power about 50 MWt | Order-of-magnitude estimate | Volume III, Energy |
 
 
-## 2.10 Conclusion of volume II
+### 2.10 Conclusion of Volume II
 
-The present volume completes site-selection decision-making and infrastructure development plans for a permanent base for the Moon industry — for the first time incorporating underground lava tubes (especially in polar areas) as candidates for the same weight and even priority as the moon.
+This volume completes site-selection decision and infrastructure planning for permanent lunar bases, and for the first time formally places underground lava tubes, especially polar lava tubes, into full engineering evaluation at equal or higher priority than surface options.
 
-Core findings:
+Core conclusions:
 
-** Underground lava tubes in the polar region are theoretically the best decomposition (if approved in volume I)**. Whether on the edge of the Philolaus impact pit or the SPA basin around Shackleton, the polar subsurface site “solar + subsurface protection + potential local water ice” makes it the only site with a high score of energy, safety and resource core dimensions. The detection priority in the polar zone around Shackleton has been raised in volume I to the highest level alongside Philolaus — because the two share the same strategic logic: to find a combination of “day and day plus ground”.
+1. **Polar underground lava tubes are the theoretical optimum, if confirmed by Volume I.** Whether at Philolaus crater or around Shackleton in SPA margins, the combined profile of polar solar access + underground shielding + potential local water ice is the only option achieving high scores simultaneously in energy, safety, and resources. Exploration priority around Shackleton has been elevated in Volume I to highest class alongside Philolaus because both follow the same strategic logic: identify the golden near-continuous-light + underground combination.
 
-2. ** The Marius Hills underground lava piping is the best decomposition of mid- and low-latitudes (if not confirmed by the polar region but passed by Marius)**. Its three-dimensional advantage of “security-space-stability” has enabled it to outperform all monthly candidate points in relation to input output. Shackleton's edge, as an alternative, with its irreplaceable “energy-water ice” mix, will continue to play a key role in any site selection decision. In response to their geographical disadvantages, the volume offers a complete, phased adaptation programme, from the “point basis” to the “layered platform” to the “laser leveling”.
+2. **Marius Hills underground lava tubes are the best mid/low-latitude option, if polar confirmation fails and Marius passes.** Its safety-space-stability advantages outperform all surface candidates in investment-output terms. Shackleton rim remains critical as fallback due to irreplaceable energy-water-ice combination. For its terrain disadvantage, this volume provides a full phased adaptation path from point foundations to terraced platforms and laser leveling.
 
-3. **Momental on-site manufacturing is an absolute prerequisite for building, and underground programmes do not lower this priority**. Whether or not the base is ultimately built, the only way to break the rocket delivery bottlenecks is through the burning of bricks and concrete.
+3. **In-situ material production is an absolute prerequisite, and underground paths do not reduce this priority.** Regardless of final siting, sintered regolith brick and regolith concrete are the only path to break launch-capacity bottlenecks.
 
-** The development of the underground lava piping was an attempt to upgrade the instinct of “seek shelter” to “build a city”**. The top plate of basalt holds us back from radiation and meteorites, but sealing, pressurizing, lighting and logistics require a top design. This volume gives a complete approach from SPUA spray to the PE shield, from the functional areas inside the hole to the skylight lift and from heat pump smart temperature control to the heat-electric-photo-photo hub.
+4. **Underground lava-tube development is engineered city-building, not simple shelter-seeking.** Basalt roofs provide natural shielding, but sealing, pressurization, lighting, and logistics must all be engineered from first principles. This volume defines a complete architecture from SPUA sealing and PE shielding to cave zoning and skylight lift systems, from smart heat-pump thermal control to long-term thermal-electric-light co-generation.
 
-5. ** Temperature control at outposts is only sequenced, and the heat-electric-photo-photo hub is the final energy end of the underground city**. For the first time, this volume has introduced a hub concept that integrates supercritical smelting plants, industrial gas supply and natural optical catheters, based on the retention of the recent heat pump temperature control programme. The system has increased the energy efficiency of underground bases from about 50 per cent to over 85 per cent of electricity generation and has made natural light a zero-cost by-product of electricity generation. Its subsystems will be developed in volumes III, IV, V and VII of this appendix.
+5. **Outpost thermal control is only the prologue; co-generation is the underground-city end state.** This volume preserves near-term heat-pump approaches and introduces for the first time an integrated future concept linking supercritical molten-salt plants, industrial thermal co-supply, and natural-light conduit networks. This can raise total energy utilization from around 50% in power-only operation to >85%, while making natural light a near-zero-marginal-cost byproduct. Detailed subsystems are expanded in Volumes III, IV, V, and VII.
 
-** Orbital traffic will start at a low rate and will eventually reach the “hour class” of the moon **. The recent open light track of 80-120 km/h and the operational speed of 200-300 km/h are the necessary stages of technological accumulation and orbital grinding; but the end-state of the lunar traffic network is the closed-line orbital traffic beyond 800-1200 km/h and 2,000 km/h. The natural vacuum and low-gravity environment of the Moon provides a unique physical condition for the achievement of a hypervelocity transport that is beyond the reach of the Earth's atmosphere — when the journey between the two poles of the Moon and the equator cuts from a few days to days It took hours for the Moon to become a truly “connected” civilization.
+6. **Rail transport starts at modest speeds and evolves to hour-scale Moon-wide connectivity.** Near-term open rail at 80-120 km/h trials and 200-300 km/h operation is a necessary technology maturation phase. Long-term enclosed tube rail at 800-1,200 km/h and potentially >2,000 km/h is the final transport architecture. The Moon's native vacuum and low gravity provide unique physics for this speed class. When multi-thousand-kilometer polar-equatorial travel shrinks from days to hours, the Moon becomes a truly connected civilizational body.
 
 
-References
+### References
 
-[ ] Paige, D.A., et al., “Diviner Lunar Radiometer observations of cold traffic in the Moon's South Poland.” *Science*, Vol. 330, 2010, pp. 479-482.
+[1] Paige, D. A., et al. Diviner Lunar Radiometer observations of cold traps in the Moon's south polar region. Science, Vol. 330, 2010, pp. 479-482.
 
-Smith, D.E., et al., “The Lunar Orbiter Laser Altimeter Investment on the Lunar Reconnaissance Organization Mission”.
+[2] Smith, D. E., et al. The Lunar Orbiter Laser Altimeter Investigation on the Lunar Reconnaissance Orbiter Mission. Space Science Reviews, Vol. 150, 2010, pp. 209-241.
 
-[3] Collaprete, A., et al. “Description of Water in the LCROSS Projecta Plume.” *Science*, vol. 330, 2010, pp. 463-468.
+[3] Colaprete, A., et al. Detection of Water in the LCROSS Ejecta Plume. Science, Vol. 330, 2010, pp. 463-468.
 
-[4] SETI Institute. “LEAPS: Lunar Earth Pole Mission Concept for Expluring Lunar Pits and Caves.” https://www.seti.org
+[4] SETI Institute. LEAPS: Lunar EArth Pole Sitter Mission Concept for Exploring Lunar Pits and Caves. 2022. https://www.seti.org
 
-[5] Wagner, R. V., & Robinson, M. S. “Lunar pits: Subrunarean voids and skylights.” *Icarus*, vol. 237, 2014, pp. 52-76.
+[5] Wagner, R. V., and Robinson, M. S. Lunar pits: Sublunarean voids and skylights. Icarus, Vol. 237, 2014, pp. 52-76.
 
-[6] Busey, D.B.J., et al.
+[6] Bussey, D. B. J., et al. Illumination conditions at the lunar south pole. Geophysical Research Letters, Vol. 26, 1999, pp. 1187-1190.
 
-[7] Gläser, P., et al., “Illumination conflicts at the Lunar South Pole using high-level resolution Digital Models from LOLA.” *Icarus*, vol. 243, 2014, pp. 78-90.
+[7] Glaser, P., et al. Illumination conditions at the lunar south pole using high-resolution Digital Terrain Models from LOLA. Icarus, Vol. 243, 2014, pp. 78-90.
 
-[8] Kaku, T., et al., “Detection of actual lava tubes at Marius Hills on the Moon by Selene (Kaguya) Lunar Radar Sounder.” *Geophysic Research Letters*, vol. 44, 2017, pp. 10155-10161.
+[8] Kaku, T., et al. Detection of intact lava tubes at Marius Hills on the Moon by SELENE (Kaguya) Lunar Radar Sounder. Geophysical Research Letters, Vol. 44, 2017, pp. 10155-10161.
 
-[9] Andrews-Hanna, J.C., et al., “Acient igneurs and early expansion of the Moon revealed by GRAIL Gravity Gradiotry.” *Science*, vol. 339, 2013, pp. 675-678.
+[9] Andrews-Hanna, J. C., et al. Ancient igneous intrusions and early expansion of the Moon revealed by GRAIL gravity gradiometry. Science, Vol. 339, 2013, pp. 675-678.
 
-[10] Carrer, L., et al., “Radar experience of an accessible Cave conduit on the Moon below the Mare Tranquillatis pit.” *Nature Astonomy*, vol. 8, 2024, pp. 1119-1126.
+[10] Carrer, L., et al. Radar evidence of an accessible cave conduit on the Moon below the Mare Tranquillitatis pit. Nature Astronomy, Vol. 8, 2024, pp. 1119-1126.
 
-[11] Schörghofer, N., & Williams, J.-P. “Carbon dioxide cold tracks on the Moon.” *Geophysic Research Letters*, vol. 48, 2021, e2021 GL095533.
+[11] Schorghofer, N., and Williams, J.-P. Carbon dioxide cold traps on the Moon. Geophysical Research Letters, Vol. 48, 2021, e2021GL095533.
 
-[12] News. “The Moon's Antarctic: Strategic Lighthouses and Resources Grail in the Eternal Shadow.” 13 April 2026. https://www.thepaper.cn
+[12] The Paper. Lunar south pole: strategic lighthouse and resource grail in eternal shadow. April 13, 2026. https://www.thepaper.cn
 
-[13] Global Times. “Chinese academicians and experts unveil Cutting-Edge technologies for Lunar research status conversion.” https://www.globaltimes.cn
+[13] Global Times. Chinese academicians and experts unveil cutting-edge technologies for lunar research station construction. December 25, 2025. https://www.globaltimes.cn
 
-[14] China National Space Administration. “Summary of the Zhongbashi II relay mission ...” 2024. https://www.cnsa.gov.cn
+[14] China National Space Administration. Queqiao-2 relay satellite mission overview. 2024. https://www.cnsa.gov.cn

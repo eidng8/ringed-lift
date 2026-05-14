@@ -1,523 +1,529 @@
-# Book one: Moon industry
+# Appendix I: Lunar Industry
 
-Volume III: Energy systems
+## Volume III: Energy System
 
-** Version**: 1.9<br/>
-** Prepared**: June 2026 <br/>
-** Monetary unit**: RMB, symbol: <br/>
-**Contribution master book**: Book IX (Energy and Communications Infrastructure), Volume VII (Project Verification) <br/>
-** Pre-read**: Volume I (Preventive missions), Volume II (location and capital) of this appendix
+**Version**: 1.9<br/>
+**Date of Preparation**: June 2026<br/>
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volumes**: Main Volume IX (Energy and Communication Infrastructure), Main Volume VII (Engineering Validation)<br/>
+**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Site Selection and Infrastructure)
 
 
-## Glossary
+### Glossary
 
-Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation
+| Abbreviation | Chinese Term | Description |
 |------|----------|------|
-| C/SiC | Silicon carbide fibre enhancement composite material | | Zero-inflation factor mirror base material |
-| CO2 | CO2 | Supercritical CO2 Breton Cyclops
-The ratio of heat to input power for heat pumps
-| CSP | Concentrated Solar Power | Solar-thermal power generation using mirrors to focus sunlight |
-| EMI | electromagnetic interference
-| EVA extramural activity | Astronauts in the moon or space
-| FRC Field Inverse Bitform | Field-Reversed Construction, a configuration of magnetic binding fusion
-GCR radium from high-energy particles outside the solar system
-| HEU | HEU | Space Nuclear Reactor fuel, 235 U enrichment ≥ 93%
-High voltage Direct Current
-|HV | High voltage | Electricity transfer voltage level |
-IEC International Electronic Commission
-| ITO | Indium Tin Oxide | Transparent conductive thin-film material for electrostatic dust-removal electrodes |
-| kWe | kilowatt power | units of power output from power generation systems |
-Light Emiting Diode
-| LiF | fluoride lithium | high temperature phase variable heat media composition
-| MgF2 | magnesium fluoride | high-temperature-formed heat media composition |
-|MHD | Magnetohydrodynamic General
-| MLI | multilayer insulation | reflective insulation material for passive thermal control in a vacuum environment
-| MWe | MWW power | units of power output from power generation systems
-| MWt | megawatt thermal power | Thermal power unit of the heating or storage system |
-| Nak | Potassium alloy | liquid metal work for high-temperature heat return
-| PE | Polyethylene | High-density polyethylene, radiation protection slow layer material
-PV PV PV PV PV PV
-| s-CO2 | ultracritical carbon dioxide | high-efficiency quality of the Bretton Woods cycle |
-| SiC | Silicon carbide | Material for wide-banded power tools for solid-state transformers
-| SPE | Solar particle event | High-energy particle flow from solar eruption |
-| ULE | ultra-low-inflated glass | zero-inflation mirror base candidate
-UPS Uninterruptible Power Supplement
-|YBCO | 钇 钇 钇 钇 | | | | | 高 高 高 高 high temperature superconductor, critical temperature about 92 K |
-It's a closed heat cycle with a supercritical CO2 mass.
-The sunglasses, the sunglasses, the sunglasses, the sunglasses, the moon watch, the real-time tracking of the sun, and the reflection of the sun to the central receivers.
-| | |
-| Spectrometer, | high-temperature spectrometer, | optical device that unites the ultraviolet/infrared band in the sun and the visible light band
-| Self-adapted optical | Self-adapted optical acoustic systems A device to reformulate a dispersed condensed beam into a high parallel beam using pre-wave sensors and deformation mirrors
-Zirconium, Zirconium, Zirconium, Zirconium, Zirconium.
-Cyclops, cylindrical irradiation end, cylindrical cylindrical cylindrical hysteres pre-filled in the husk seal for fan-free heat/cold radiation
-| Sterling machine | Sterling generator | Extra-flamming machine with heat source power to power pistons, suitable for small nuclear or photothermal power
+| C/SiC | Silicon-carbide-fiber-reinforced composite | Zero-expansion mirror-substrate material |
+| CO2 | Carbon dioxide | Working fluid for supercritical CO2 Brayton cycle |
+| COP | Coefficient of performance | Ratio of heat-pump heating output to input electric power |
+| CSP | Concentrated solar thermal power | Technology that uses heliostats to focus sunlight and heat a working fluid for power generation |
+| EMI | Electromagnetic interference | Interference from power-electronics equipment to communication and scientific instruments |
+| EVA | Extravehicular activity | Astronaut operations outside the vehicle on the lunar surface or in space |
+| FRC | Field-reversed configuration | A magnetic-confinement fusion configuration |
+| GCR | Galactic cosmic rays | High-energy particle radiation from outside the Solar System |
+| HEU | Highly enriched uranium | Fuel for space nuclear reactors, with U-235 enrichment >= 93% |
+| HVDC | High-voltage direct current transmission | High Voltage Direct Current |
+| HV | High voltage | Power-transmission voltage class |
+| IEC | International Electrotechnical Commission | International Electrotechnical Commission |
+| ITO | Indium tin oxide | Transparent conductive thin-film material used for electrostatic dust-curtain electrodes |
+| kWe | Kilowatt electric | Unit of electric power output from generation systems |
+| LED | Light-emitting diode | Light Emitting Diode |
+| LiF | Lithium fluoride | Component of high-temperature phase-change thermal-storage media |
+| MgF2 | Magnesium fluoride | Component of high-temperature phase-change thermal-storage media |
+| MHD | Magnetohydrodynamic generation | Magnetohydrodynamic Generation |
+| MLI | Multi-layer insulation | Reflective insulation used for passive thermal control in vacuum |
+| MWe | Megawatt electric | Unit of electric power output from generation systems |
+| MWt | Megawatt thermal | Unit of thermal power in collection or storage systems |
+| NaK | Sodium-potassium alloy | Liquid-metal working fluid used for high-temperature heat-transfer loops |
+| PE | Polyethylene | High-density polyethylene radiation-moderation layer material |
+| PV | Photovoltaic | Solar photovoltaic power generation |
+| s-CO2 | Supercritical carbon dioxide | High-efficiency working fluid for Brayton cycle |
+| SiC | Silicon carbide | Wide-bandgap power-device material used for solid-state transformers |
+| SPE | Solar particle event | High-energy particle burst released by solar eruptions |
+| ULE | Ultra-low-expansion glass | Candidate mirror-substrate material with near-zero thermal expansion |
+| UPS | Uninterruptible power supply | Uninterruptible Power Supply |
+| YBCO | Yttrium barium copper oxide | High-temperature superconducting tape, critical temperature around 92 K |
+| Brayton cycle | Supercritical CO2 Brayton cycle | Closed thermodynamic cycle using supercritical CO2 as working fluid, with thermal-to-electric efficiency above 50% |
+| Heliostat | Heliostat array | Large reflective-mirror array deployed on the lunar surface that tracks the Sun and reflects light to a central receiver |
+| Electrostatic dust curtain | Electrostatic dust-curtain system | Contactless dust-removal device that uses a traveling-wave electric field to "throw off" deposited lunar dust |
+| Spectral splitter | High-temperature spectral splitter | Optical device that separates ultraviolet/infrared bands from visible bands in concentrated sunlight |
+| Adaptive optics | Adaptive-optics collimation system | System using wavefront sensors and deformable mirrors to reshape diverging concentrated beams into highly collimated beams |
+| Molten salt | High-temperature molten salt | Mixed-salt working media for heat storage and heat transfer |
+| Capillary network | Capillary radiant terminal network | Dense small-diameter pipe network embedded in sealed habitat walls for fanless radiant heating/cooling |
+| Stirling engine | Stirling generator | External-combustion machine that generates electricity from heat, suitable for compact nuclear or solar-thermal power sources |
 
 
-##3.1 Caption
+### 3.1 Opening Statement
 
-This volume, located in the lunar industrial system,** plans for energy supply and thermal management infrastructure**, focuses on the following core questions:
+This volume is positioned as the **energy-supply and thermal-management infrastructure plan** for the lunar industrial system. It focuses on answering the following core questions:
 
-> When a permanent base is built, the lives of hundreds of people, the production of the CNT plant, the energy consumption of water and ice extraction, and the pull of orbital traffic — how much power do these together require? Where does energy come from? How to maintain a continuous power supply for 14 days of monthly night? Can spent heat from nuclear reactors and power plants be connected to the base's thermal cycle system, moving from “electric heating” to “residual heating”? Are the locations of the sunglasses and the spotlight towers restricted to the sky window position? Did the spectrometer, after receiving dozens of MW of condensed beams, have its own temperature been “temperate” or “hot”? How efficient are the transmission of high-temperature heat, electricity and natural light under different conditions? How do these efficiencies shape the final layout of the underground city? Can dispersed beams beams beams be calibrated by optical means to achieve near-neutral transmissions of light over long distances? Can the moon-temperature contribute to the forward application of superconductive transmission technologies? Can helium-3 fusion move from a “visional concept” to engineering when the base's electricity demand eventually rises to the Giva level?
+> After a permanent base is established, how much electrical supply is required for hundreds of residents, CNT factory production, water-ice extraction, and traction for orbital transport combined? Where does that energy come from? How do we maintain uninterrupted power through a 14-day lunar night? Can reactor and power-plant waste heat be connected into the base thermal loop, enabling a transition from "electricity-based heating" to "waste-heat utilization"? Are heliostat-field and solar-tower siting options constrained by skylight locations? After receiving concentrated beams of tens of megawatts, is the splitter itself "moderately warm" or "extremely hot"? What are the transmission efficiencies of high-temperature heat, electric power, and natural light under different operating conditions? How do these efficiencies shape the final underground-city layout? Can diverging beams be re-collimated optically for near-lossless ultra-long-distance light transmission? Can the lunar low-temperature environment support long-term deployment of superconducting power transmission? When base power demand eventually rises to the gigawatt scale, can helium-3 fusion move from "long-range concept" into engineering reality?
 
-This volume is attached to:
-- ** Volume I (Preventive missions)**: The feasibility of the lunar nuclear power source (P0-M3) and small solar arrays has been validated.
-- ** Volume II (location and infrastructure)**: energy constraints for recommended sites have been identified (in the polar regions, by day and by month and night at low mid-latitude) and interfaces have been planned for the near-term heat-pump temperature control system and the long-term Heat-Electro-PVP hub.
--** Overview**: Strategic direction of the long-term end-energy programme (helium-3 fusion).
+This volume builds on:
+
+- **Volume I (Pioneer Missions)**: feasibility of lunar nuclear power sources (P0-M3) and small solar arrays has already been validated.
+- **Volume II (Site Selection and Infrastructure)**: energy constraints for recommended sites (polar quasi-continuous daylight or mid/low-latitude lunar-night regime) have already been defined, and interface planning for near-term heat-pump thermal control and long-term thermal-electric-light co-generation hub has already been completed.
+- **Overview volume**: strategic direction for the ultimate long-term energy solution (helium-3 fusion).
 
 Core tasks of this volume:
 
-On the basis of the base population and industrial size determined in volume II, a curve of energy demand has been established from the initial (100 kW class) to the long term (MW to 10 MW class and even GW class).
-2. Design of a distributional energy programme for the near term (phase II): configuration and redundancy of photovoltaic arrays + space nuclear reactor + energy storage systems. For the first time, nuclear reactors and industrial waste heat were integrated into the unified design of the base thermal cycle system.
-3. Detailed implementation of the engineering design of the long-term (after phase III) thermal-electric-photo-photographic hubs: the fixed mirror array (including site flexibility principles), the supercritical CO2Breton cycle, high-temperature smelting salt heat, spectrometers and natural optical catheters (including temperature and heat management corrections).
-4. Assess the transmission efficiency of high- and low-temperature thermal energy, electricity and natural light under different conditions and analyse their constraints and impacts on base layout, size and service radius, respectively. The introduction of optics for adaptation as a forward programme to significantly increase the efficiency of light transmission.
-5. Analysis of thermal dispersion synergies between photothermal power plants in the auroral region and meteorite pit mining.
-6. Planning of a base-wide transmission and distribution network structure from the end to the end of power generation, including an international standard basis for the voltage grade selection, adaptive design for the speciality of the moon-surface vacuum environment, and pre-positioning of long-term superconductive transmission and power upgrade pathways.
-7. To present a conceptual formula for a helium-3 nuclear fusion power plant as the ultimate energy closure for the later stages of phase IV to break the physical upper limit of the fixed sunglass array.
-8. Establish a phased certification standard for energy systems, which will be aligned with the P0 system in volume I of this appendix and the certification system for volume VII of the main volume.
+1. Based on the population and industrial scale defined in Volume II, establish an energy-demand curve from early-stage hundreds of kilowatts to long-term megawatt and tens-of-megawatt levels, and ultimately gigawatt class.
+2. Design the near-term (Stage II) distributed-energy solution: PV arrays + space nuclear reactors + storage-system configuration and redundancy. For the first time, incorporate reactor and industrial waste heat into a unified base thermal-loop design.
+3. Fully detail the long-term (post-Stage III) engineering design for the thermal-electric-light co-generation hub: heliostat array (including siting-flexibility principles), supercritical CO2 Brayton cycle, high-temperature molten-salt thermal storage, spectral splitter, and natural-light conduits (including temperature and thermal-management corrections).
+4. Evaluate transmission efficiencies of high/low-temperature heat, electric power, and natural light under different operating conditions, and analyze their constraints and impacts on base layout, scale, and service radius. Introduce adaptive-optics collimation as a long-term option for major gains in light-transmission efficiency.
+5. Analyze heat-rejection synergy between polar solar-thermal power plants and crater mining operations.
+6. Plan the full base power transmission/distribution architecture from generation side to load side, including internationally grounded voltage-class selection, lunar-vacuum-specific adaptation design, and reserved upgrade path for long-term superconducting transmission.
+7. Propose a conceptual lunar helium-3 fusion power-station scheme as the ultimate closed-loop energy path after Stage IV to break the physical upper limit of heliostat-array scaling.
+8. Establish phased validation criteria for the energy system and align them with the P0 system in Appendix I Volume I and the validation framework in Main Volume VII.
 
 
-##3.2 Energy demand analysis
+### 3.2 Energy-Demand Analysis
 
-####3.2.1 Phased load projection
+#### 3.2.1 Phased Load Forecast
 
-Energy demand at the Moon Base will rise as population growth and industrial inputs take the ladder. The following load projections are based on the population and industrial size of phase I/II of volume II of the capital, as well as projections of full capacity production for the forward period (after phase III).
+Lunar-base energy demand will rise in steps with population growth and industrial commissioning. The forecast below is based on the Phase I/II population and industrial scale in Volume II, plus expected full-load operation after Stage III.
 
-| Phase | Time | Population | Main electricity load | Peak electricity demand (estimate) |
+| Stage | Time | Population | Major Electrical Loads | Peak Power Demand (estimate) |
 |:-----|:-----|:-----|:-----|:-----|
-** Capital phase I** 2-5 years | 12-20 people | life support systems, construction equipment charge, 3D printers, communications and lighting 100–200 kWe |
-** Capital II** Phase II, 5-10 years | 50-80 people | 1 phase full load + moonside smelting line, metal smelter (initial), CNT preweaving line (test vehicle), water ice extraction (initial), orbital traffic (initial) | 500 kWe-1 MWe |
-Phase III, phase III, phase II, full load + CNT production line, large metal smelters, water ice extraction (scaled), orbital transport (operated), sunglass arrays with their own power 5-10 MWe |
-** Industrialization maturity** 5 years after the third phase 200-500 people | Full load + helium-3 extraction at the beginning of industrialization (forward technical validation), deep space ship fuel lifting station, Moon City utility 20-50 MWe |
-** Lunar City Period** Late Phase 4 | 1,000-10,000 people | Full load + helium-3 scale extraction during industrial maturity, heavy industry (spacecraft total, vacuum smelting), particle physics facilities, etc.  ** 100-500 MW (Future Giva class) |
+| **Infrastructure Phase I** | Stage II, Years 2-5 | 12-20 | Life-support systems, construction-equipment charging, regolith 3D printers, communications and lighting | 100-200 kWe |
+| **Infrastructure Phase II** | Stage II, Years 5-10 | 50-80 | All Phase I loads + regolith-sintering line, initial metal-smelting furnace, CNT pre-weaving pilot line, initial water-ice extraction, initial orbital transport | 500 kWe-1 MWe |
+| **Early Industrialization** | Stage III, Years 1-5 | 100-200 | All Phase II loads + CNT mass-production line, large metal-smelting furnaces, scaled water-ice extraction, operational orbital transport, heliostat-array self-consumption | 5-10 MWe |
+| **Mature Industrialization** | Stage III, Year 5 onward | 200-500 | All early-industrialization loads + helium-3 extraction (long-term technical validation), deep-space propellant depot, lunar-city public facilities | 20-50 MWe |
+| **Lunar-City Stage** | Late Stage IV | 1,000-10,000 | All mature-industrialization loads + scaled helium-3 extraction, heavy industry (spacecraft final assembly, vacuum smelting), particle-physics facilities, etc. | 100-500 MWe (long-term gigawatt scale) |
 
-###3.2.2 The energy strategy in the near future
+#### 3.2.2 Near- and Long-Term Energy Strategy Split
 
-- ** Near term (phase II, peak of 1 MWe) **: Quick (for the polar area permanent day site) with solar photovoltaic arrays and small space nuclear reactors as a charge during the month ' s night, supplemented by lithium ion batteries (short-time condensation) and hydrogen storage (over-night long-time storage). Thermal pumping systems are operated independently (see section 2.4.3 of volume II for details) and are not co-located with the power generation system, provided that the interface space for the long-term waste thermal recovery pipeline is reserved.
--** Forward period (after phase III, peak of 5 MWe and above)**: Thermal-electric-photo-photographic hub construction has been initiated - with the Sunglass Array + supercritical CO2Breton cycle + high-temperature smelting salt heat at its core, to achieve the “power generation-heat storage-industrial-heat-natural lighting” combined. Photovoltaic and nuclear reactors are maintained as backup and emergency power sources. The low-temperature waste heat from nuclear reactors and power plants is fully integrated into the base thermal cycle system, and thermal pumps are used only as a back-up temperature control tool.
-- ** Final (post-phase IV peak of 100 MWe)**: The deployment of the lunar helium-3 nuclear fusion power plant (D-3he reaction, sect. 3.5.9) was activated after the fixed-day mirror array area was close to the limit of the land available for peri-day peak in the polar region, leading to the ultimate transformation from “solar dependence” to “autonomous nuclear fusion energy”, providing the physical basis for large-scale deep-space power output in parallel.
+- **Near term (Stage II, peak below 1 MWe)**: PV arrays serve as baseload during lunar daytime, suitable for polar quasi-continuous daylight sites. During lunar night, compact space reactors provide baseload, supported by lithium-ion batteries for short-term regulation and hydrogen storage for long-duration cross-night storage. The heat-pump system runs independently (see Volume II Section 2.4.3), with no direct thermal coupling to generation yet, but interface space must be reserved for future waste-heat recovery pipelines.
+- **Long term (post-Stage III, peak above 5 MWe)**: Start construction of the thermal-electric-light co-generation hub, centered on heliostat array + supercritical CO2 Brayton cycle + high-temperature molten-salt storage, delivering four-way co-production: power generation, heat storage, industrial heat supply, and natural lighting. PV and reactors remain as backup/emergency sources. Low-temperature waste heat from both reactors and plant systems is fully connected to the base thermal loop, with heat pumps retained only for peak shaving and backup.
+- **Ultimate stage (late Stage IV, peak above 100 MWe)**: When heliostat-array area approaches the physical land limit of available polar continuous-light peaks, initiate deployment of lunar helium-3 fusion power stations (D-3He reaction, Section 3.5.9), enabling a fundamental transition from solar dependence to autonomous fusion energy, while supporting large-scale deep-space power export.
 
 
-##3.3 Near-term energy programme: photovoltaic + nuclear power + storage
+### 3.3 Near-Term Energy Solution: PV + Nuclear Source + Storage
 
-####3.3.1 Solar photovoltaic array
+#### 3.3.1 Solar Photovoltaic Array
 
-**(a) Array Configuration Principles**
+**(a) Array configuration principles**
 
-- The permanent day-to-day location of the polar region (Shawlton edge or Philolaus skylight): take full advantage of the near-continuous sunlight and use the light voltage as the main power supply during the month-to-day period. Photovoltaic arrays are deployed on the surface of the skylight perimeter or on a peri-day peak platform, with an area of approximately 8,000-10,000 m2 (based on long-term overlaying of aluminum batteries, AAM0 efficiency of 45 per cent, filling factor 0.85, with an area power of approximately 520 W/m2).
-- Mid- and low-latitude sites (Marius Hills): 14 days of the month, with the main light voltage, and 14 days of the month, with the switch to nuclear + storage. Photovoltaic arrays must be expanded to approximately 12,000-15 000 m2 to meet the charge-up requirements for electricity and storage at the same time during the month-day period.
+- Polar quasi-continuous daylight sites (Shackleton rim or Philolaus skylight): maximize near-continuous insolation, with PV as primary daytime supply. Arrays are deployed on surface areas around skylights or on continuous-light ridge platforms. For Phase II peak demand of 1 MWe, required array area is about 8,000-10,000 m², based on long-term multijunction GaAs cells with AM0 efficiency 45%, fill factor 0.85, and about 520 W/m² areal output.
+- Mid/low-latitude sites (Marius Hills): daytime 14 days powered mainly by PV; nighttime 14 days switched to nuclear + storage. Array area must increase to about 12,000-15,000 m² to meet both load and storage-charging demand during daytime.
 
-** (b) Key technical requirements**
+**(b) Key technical requirements**
 
-- Battery type: flexible membrane batteries with corroded aluminum (GaInP/GaAs/Ge), 45% for long term AM0 efficiency.
-- Dust removal: drapes removal systems (shared with forward-day mirrors, see sect. 3.5.2 (c)) are not dependent on mechanical actions or liquid cleaning.
-- Mode of expansion: Volkswagen launch on the lunar surface (completed by the launch agency carrying the cargo lander).
+- Cell type: flexible multijunction gallium-arsenide cells (GaInP/GaAs/Ge), long-term AM0 efficiency >= 45%.
+- Dust removal: electrostatic dust-curtain system, shared with long-term heliostat dust-removal technology (see Section 3.5.2(c)), requiring neither mechanical cleaning nor liquids.
+- Deployment method: spool launch -> autonomous surface deployment by mechanisms delivered with cargo landers.
 
-## 3.3.2 Space nuclear reactors
+#### 3.3.2 Space Nuclear Reactor
 
-** (a) Configuration principles**
+**(a) Configuration principles**
 
-- As the main source of power supply (middle-low latitude) for the monthly base charge guarantee (the polar region) or for the month night.
-- The total installed capacity must cover the full life support, communication, minimum industrial temperature electricity needs during the month and night.
-- Single stack power level: 3-10 kWe (phase 1, Kilopower type [1]) 50-100 kWe (phase II and beyond, China Space Reactor [9] or Russian ABV-6E type [10]). Of these, 38 MWt of ABV-6E heat power, 6-9 MWe power power, 10-year fuel cycle [10]. 2-3 reactors were deployed for phase I and phase II, respectively, operating in N+1 redundancy mode.
-- Deployment mode: a radiation shield safe distance area from base base 1 km transported by a dedicated cargo lander, using natural topography (e.g., the edge of the ring or the ridge) or the man-monthly berm as a radiation shield.
+- Serves as nighttime baseload backup for polar sites, or primary nighttime source at mid/low latitudes.
+- Total installed capacity must cover all nighttime life support, communications, and minimum industrial thermal-preservation demand.
+- Per-reactor power class: 3-10 kWe (Phase I, Kilopower class [1]) -> 50-100 kWe (Phase II and beyond, Chinese space reactor [9] or Russian ABV-6E class [10]). Russian ABV-6E thermal power is 38 MWt with electric output 6-9 MWe and 10-year refueling cycle [10]. Deploy 2-3 units in both Phase I and Phase II with n+1 redundancy.
+- Deployment mode: transported by dedicated cargo landers to radiation-safe zones at >= 1 km from base, using natural terrain shielding (crater rims or ridges) or artificial regolith berms.
 
-** (b) Key technical requirements**
+**(b) Key technical requirements**
 
-- Stacking: Sterling Space Reactor (Main Program) or Thermal Ion Space Reactor (Purpose Program).
-- Fuel: highly enriched uranium (HEU), 235 U enriched thallium (93%).
-- Design life: 10 years (Kilopower type [1]) or 15 years (China Space Reactor [9]).
-- Waste heat discharges: at normal working conditions, the Sterling cold end of waste heat (approximately 30°C-50°C) is transmitted through the heat tube network to a large area of radiation-dispersed heat (directed towards deep space) and is directed to space. ** Upon entering phase II of capital construction, this portion of the low-temperature waste heat should be given priority access to the base thermal cycle system** — the heat is passed by heat exchangers to the hairy tube network heating circuits described in volume II, section 2.4.3, to replace some of thermal pump power consumption; it is replaced only by deep-space radiation dispersion heat when the base has no heating needs.
+- Reactor type: Stirling space reactor (primary) or thermionic space reactor (backup).
+- Fuel: highly enriched uranium, U-235 enrichment >= 93%.
+- Design life: >= 10 years (Kilopower class [1]) or >= 15 years (Chinese space reactor [9]).
+- Waste-heat rejection: under normal operation, Stirling cold-end waste heat (about 30°C-50°C) is conducted via heat-pipe network to large-area radiative panels facing deep space. **From Infrastructure Phase II onward, this low-grade waste heat should be preferentially integrated into the base thermal loop** through heat exchangers, transferring heat to the capillary-network heating loop in Volume II Section 2.4.3 and offsetting part of heat-pump electricity consumption; only when no heating demand exists should rejection switch to deep-space radiation.
 
-# # # 3.3.3 Storage systems
+#### 3.3.3 Energy Storage System
 
-(ii) Use | technical parameters |
+| Storage Type | Capacity (Phase II) | Purpose | Technical Parameters |
 |:-----|:-----|:-----|:-----|
-** Lithium ion batteries** | 0.5 – 1 MWh | Short-term vertebrae (second to minute level), smooth light-volatility fluctuations, emergency power switching gap | solid lithium batteries, energy density 500 wh/kg, circulation lifetime 10,000 times
-** Regenerative hydrogen fuel cell** 10-20 MWh | Storage capacity (14 days x an average load of approximately 500 kWe) during the night of the month, electrolytic hydrogens from the day, power generation from the month-night fuel cell 70% electrolyte efficiency, 55% fuel cell efficiency, hydrogen storage by liquid hydrogen or metal hydrogen
- ** Thermal preheating of high-temperature phase ** (industrial) | 5-10 MWh (thermal) | Metallic smelters and sintering lines to reduce the demand for electric heating during the month and night | LiF/MgF2 co-salt at approximately 740°C and energy density about 1 MJ/kg |
+| **Lithium-ion battery packs** | 0.5-1 MWh | Short-term peak regulation (seconds to minutes), smoothing PV fluctuations, emergency transition power | Solid-state lithium batteries, energy density >= 500 Wh/kg, cycle life >= 10,000 |
+| **Regenerative hydrogen fuel cells** | 10-20 MWh | Long-duration cross-lunar-night storage (14 days x about 500 kWe average Phase II load), daytime electrolysis and nighttime fuel-cell generation | Electrolysis efficiency >= 70%, fuel-cell efficiency >= 55%, hydrogen stored as liquid hydrogen or metal hydride |
+| **High-temperature phase-change thermal storage** (industrial) | 5-10 MWh thermal | Preheating/thermal hold for metal-smelting and sintering lines, reducing nighttime electric heating demand | LiF/MgF2 eutectic salt, phase-change temperature about 740°C, energy density about 1 MJ/kg |
 
-> Note: The water resources used for hydrogen energy systems are supplied by local water ice (see volume IV for further details) and are not dependent on Earth resupply. The first hydrogen storage tanks could be pre-positioned by the Earth at an early stage (the capital phase) before the local aqueous ice extraction capacity is of a modest size. The total launch mass of the first pre-positioned liquid hydrogen storage tanks (including the thermostat) was about 5-10 tons (corresponding to the 10-20 MWh equivalent of hydrogen storage capacity), which could be deployed on a heavy cargo landing. Following the advanced third phase, the role of hydrogen storage can gradually be replaced by high-temperature smelting salt heat (core components of thermal-electric-photogram hub), which can be retained as an emergency reserve.
+> Note: water for hydrogen storage systems comes from local water-ice extraction (see Volume IV), not Earth resupply. In the initial period (Infrastructure Phase I), before local extraction reaches scale, first-batch hydrogen tanks may be pre-deployed from Earth. First-batch liquid-hydrogen tanks with insulation require total launch mass about 5-10 tons for 10-20 MWh electric-equivalent hydrogen capacity and can be deployed in one heavy cargo-lander mission. After entering Stage III, hydrogen storage is gradually supplanted by high-temperature molten-salt storage (core component of the thermal-electric-light co-generation hub), with hydrogen storage retained as emergency backup.
 
 
-##3.4 Transmission and distribution grid structure
+### 3.4 Power Transmission and Distribution Architecture
 
-The Base's transmission and distribution grid is designed to satisfy the narrow long-space shape of the underground lava tube and the dispersed layout of the lunar surface facility, following three core principles:
+The base T&D network must serve both elongated underground lava-tube spaces and dispersed surface facilities. The design follows three core principles:
 
-1. ** Underground and surface two-net synergy**: Underground main power grids are fully installed along sealed holes, serving residential areas, industrial areas and life support centres; monthly watch grids are connected to the underground main network through sky-windows, serving remote facilities such as photovoltaic arrays, sunglasses, mining areas and launch sites.
-2. **Direct current, end-of-transmittance**: utilization of the natural advantages of direct-flow transmission without electromagnetic interference, non-skin-free effects, improbable wear and tear in a moon-surface vacuum environment, use of high-pressure direct-flows in the backbone network; conversion to communication only on-site with electrical terminals, supply of communication machines and conventional appliances.
-3. **Facilitation isolation and network re-engineering**: In the event of a short circuit or ground failure of any of the main feeder segments, the system shall be able to isolate the fault segments within 10 ms and complete the network re-engineering within 100 ms to restore power to the non-facing segments. Level I loads, such as life support systems, need to be additionally configured in-situ uninterrupted power supply or a second stand-alone power loop to cope with the extreme scenario of double failure.
+1. **Underground-surface dual-network coordination**: the underground backbone runs along the full sealed-cave section and serves habitation, industrial, and life-support zones; surface grids connect through skylights to the underground backbone and serve PV fields, heliostat fields, mining zones, launch sites, and other remote facilities.
+2. **DC backbone, AC conversion at endpoints**: exploiting lunar-vacuum advantages for DC transmission, no EMI coupling, no skin effect, no capacitive loss in the same way as AC line operation, the backbone uses HVDC. AC conversion is performed locally at loads for AC motors and conventional equipment.
+3. **Fault isolation and network reconfiguration**: if any bus feeder section experiences short-circuit or ground fault, the system must isolate the faulted section within 10 ms and reconfigure within 100 ms to restore non-faulted sections. Critical loads such as life support require local UPS or a second independent power path for dual-fault scenarios.
 
-####3.4.1 Pressure grade system
+#### 3.4.1 Voltage-Class System
 
-| Pressure level | Usage | Selection basis |
+| Voltage Class | Use | Selection Basis |
 |:-----|:-----|:-----|
- **100 kV DC** Long-range transmission main line (near term) | Reference to experience of the main book, volume V, section 5.11.2, conductor track programme, ±100 kV DC transmission loss at a distance of 100 km can be controlled by up to 5% ±
- **10 kV DC**  ** Underground main grid ring matrix  ** medium-pressure level suitable for a narrow space of hundreds of metres to several kilometres of lava piping. The insulation requirements of the 10 kV class cable are lower than the higher voltage and are suitable to fit within the sealed segment of the limited crosssection.
-**690 V AC** Industrial power distribution 690V is dedicated to selected voltage for large industrial equipment in accordance with the IEC 60038 international standard. At the time of transmission of the same power, the working current of the 690V system was only 58 per cent of the 400V system, which could significantly reduce the loss of circuits and reduce cable interdiction. This standard is widely applied in global industry, and large power plants, such as smelting furnaces, CNT production lines, sintering equipment, etc. at the Moon Base, are directly suitable
- ** 400 V AC** | Life Distribution | 400 V/230 V is the standard voltage of the global low-voltage distribution grid in accordance with IEC 60038 International Standards. Application of this standard for civil, scientific and medical equipment imported from Earth without discrimination, without additional transformers, to ensure maximum compatibility and reliability of equipment in living areas
-** Superconductive direct current transmission** long-range, superpower transmission trunk (for forward upgrade)  ** When one-way transmission power reaches the 100 MW level or the distance of transmission exceeds 100 km, the costs of transmission losses and heat management of conventional conductors will be unbearable. High-temperature superconductors (e.g., YBCO, critical temperature is about 92 K) can significantly reduce cooling energy consumption in low-moment surface environments. ** This option is set aside for a long period of time** to initiate an assessment once the superconductor belts have been validated with experience in the continuous manufacturing process of the 10,000 km class.
- ** Forward high pressure extension interface** Forward power generation module (retention) | Forward power generation module (after phase IV) has access to higher power generation modules (e.g., helium-3 fusion unit) because their power level is likely to be above 100 MW and grid voltage levels have to be upgraded to ±200 kV DC or higher. Keep pressure station interface space between ±10 kV and high pressure bus
+| **±100 kV DC** | Long-distance transmission trunk (near term) | Based on Main Volume V Section 5.11.2 conductive-track experience, ±100 kV DC can limit transmission loss to below 5% over hundred-kilometer distances |
+| **±10 kV DC** | Underground ring-bus backbone | Medium-voltage class suitable for elongated lava-tube spans of hundreds of meters to several kilometers; 10 kV cable insulation requirements are lower than higher-voltage alternatives and better fit limited sealed-tunnel cross-sections |
+| **690 V AC** | Industrial distribution | IEC 60038 standard: 690 V is the preferred industrial voltage for large equipment. At equal power, operating current is about 58% of a 400 V system, reducing line loss and cable cross-section. Widely used globally and directly compatible with lunar smelters, CNT lines, and sintering equipment |
+| **400 V AC** | Habitation distribution | IEC 60038 standard: 400/230 V is the globally common low-voltage standard. Enables direct compatibility with civil, scientific, and medical equipment imported from Earth without extra transformers, maximizing reliability in habitation zones |
+| **Superconducting DC transmission** | Long-distance, ultra-high-power trunk (long-term upgrade) | When single-circuit power reaches hundred-megawatt class or distance exceeds 100 km, losses and thermal management of conventional conductors become prohibitive. HTS tapes such as YBCO (Tc about 92 K) can significantly reduce cryogenic power under lunar low-temperature conditions. **Reserved for long-term evaluation** after validated long-length HTS manufacturing |
+| **Long-term HV expansion interface** | Future high-power generation modules (reserved) | For post-Stage IV modules such as helium-3 fusion units at hundred-megawatt scale and above, interconnection voltage must be upgraded to ±200 kV DC or higher. Reserve step-up station interface between ±10 kV bus and high-voltage bus |
 
-###3.4.2 Underground main grid (ring master)
+#### 3.4.2 Underground Main Grid (Ring Bus)
 
-- ** Twist**: using ** Double Redundant Ring ** Master Line. Two separate ±10 kV DC backbone cables were installed along the main sealed hole segment in parallel - one on the top of the hole and one on the wall as backup. Each of the two cables has a contact switcher every 100 - 200 m - normally the contact switch is disconnected, and either part of the cable is automatically closed in case of failure, and the power is bypassed by another cable.
-- **Access mode** : Electrical units such as residential areas, industrial areas, life support centres, etc. are drawn from the nodes of the ring matrix by means of **irradiated feed**. Each feeder sets a remote-operated breaker at the starting point of access to the ring matrix to isolate failure at the feeder level.
--** Electric transformer**: 10 kV / 400 V AC (living area) / 10 kV / 690 V AC (industrial area). Solid-state transformer, 98% efficiency.
+- **Topology**: **dual-redundant ring bus**. Two independent ±10 kV DC trunk cables run in parallel along the full sealed-cave section, one near cave crown and one near cave wall as backup. Tie-switch cabinets are installed every 100-200 m. Under normal operation, tie switches are open; when any segment fails, ties close automatically and reroute via the healthy cable.
+- **Connection method**: load units, including habitation zones, industry, and life-support centers, are fed by **radial feeders** from ring-bus nodes. Each feeder has a remotely operated breaker at the ring-bus connection for feeder-level isolation.
+- **Distribution transformers**: 10 kV/400 V AC for habitation and 10 kV/690 V AC for industrial areas. Solid-state transformer efficiency >= 98%.
 
-####3.4.3 Month watch extension grid (mainline)
+#### 3.4.3 Surface Extension Grid (Trunk Type)
 
-- **Top-up**: ±10 kV or ±100 kV DC trunk from the underground ring matrix through the sky window, extending to the remote load points of the monthly table. The main line is installed along the main road on the moon, with a branch switch every 1-2 km.
-- ** Long-range transmission**: transmission to a mining site, launch site, orbital transport towed station is based on ±100 kV DC, with loss at a distance of 100 km being controlled within acceptable range (e.g. < 5%).
-- ** Photovoltaic Array Access**: DC/DC converters in the sub-divisions of the photovoltaic arrays lift the low-pressure direct flow up to ±10 kV DC, accessing the distribution node near the sky window through the concourse cabinet and connecting to the underground ring matrix. The three-fold protection of the remittance cabinet is as follows:
--**First heavy (passive protection)**: anti-diode tubes, with automatic back-flow disruption of ms.
--** Second load (active movement)**: remote control of straight-flow breakers, automatically connected or disconnected by the control system based on load and power generation projections.
-- ** Third (security)**: manual break-off switches with physical isolation cut-off, manual cut-off and lock-out in case of equipment repair or emergency.
+- **Topology**: ±10 kV or ±100 kV DC trunk lines are led from underground ring bus via skylights to remote surface loads. Trunk lines follow primary surface corridors with sectional switches every 1-2 km.
+- **Long-distance transmission**: supply to mining sites, launch sites, and traction substations uses ±100 kV DC, controlling hundred-kilometer losses within acceptable range, e.g., <5%.
+- **PV integration**: low-voltage DC from each PV subfield is boosted by DC/DC converters to ±10 kV DC and tied through combiner cabinets into distribution nodes near skylights, then into underground ring bus. Combiner cabinets include triple protection:
+  - **Layer 1 (passive)**: anti-reverse diodes for millisecond-level automatic backflow blocking.
+  - **Layer 2 (active dispatch)**: remotely controlled DC breakers automatically connected/disconnected by control system per load and generation forecast.
+  - **Layer 3 (safety assurance)**: manual isolation switch with physical disconnect gap for locked-out maintenance/emergency isolation.
 
-####3.4.4 Interface with power generation system
+#### 3.4.4 Generation-System Interfaces
 
-| Power generation system | Net-connection mode | Protection configuration |
+| Generation System | Grid-Tie Method | Protection Configuration |
 |:-----|:-----|:-----|
-| Photovoltaic array | DC/DCL →±10 kV DC matrix | Anti-Diode + Remote Control Straight Breaker + Manual Isolation Switch (Triple Protection) |
-| Nuclear reactor | AC/DC whole flow →±10 kV DC carrier | Remote Control Straight Breaker + Manual Isolation Switch
-| Supercritical CO2 Tranquillation | AC/DC integrator →±10 kV DC carrier | Remote Control Straight Breaker + Manual Isolation Switch
-| High-temperature smelting salt heat | Non-direct interconnection (by driving the flat) |
-| Lithium ion batteries | Double-direction DC/DC→±10 kV DC carrier | Two-direction straight-through breaker + manual isolation switch
-| Hydrogen fuel cell | DC/DCL →±10 kV DC Matrix | Remote Control Straight Breaker + Manual Isolation Switch
-| Helium-3 fusion power station (long term) | MHD direct output →±100 kV DC main line (through DC/DC lift) | Remote control straight-flow breaker + manual isolation switch |
+| PV array | DC/DC boost -> ±10 kV DC bus | Anti-reverse diode + remote DC breaker + manual isolator (triple protection) |
+| Nuclear reactor | AC/DC rectification -> ±10 kV DC bus | Remote DC breaker + manual isolator |
+| Supercritical CO2 turbine | AC/DC rectification -> ±10 kV DC bus | Remote DC breaker + manual isolator |
+| High-temperature molten-salt storage | Not directly grid-connected (via turbine drive) | - |
+| Lithium-ion battery pack | Bidirectional DC/DC -> ±10 kV DC bus | Bidirectional DC breaker + manual isolator |
+| Hydrogen fuel cell | DC/DC boost -> ±10 kV DC bus | Remote DC breaker + manual isolator |
+| Helium-3 fusion plant (long term) | MHD DC output -> ±100 kV DC trunk (via DC/DC step-up) | Remote DC breaker + manual isolator |
 
-> NOTE: All power generation and energy storage nodes connected to the main power grid must be equipped with manual break-off switches with physical isolation breaks to ensure equipment maintenance and absolute electrical safety in emergency situations. This requirement applies to all networked equipment such as photovoltaic arrays, nuclear reactors, flat-bed generators, batteries, hydrogen fuel cells and long-range helium-3 fusion power stations.
+> Note: all generation and storage nodes connected to the main grid must include manual isolators with physical air-gap disconnects to ensure absolute electrical safety during maintenance and emergencies. This applies to all grid-tied equipment including PV arrays, reactors, turbine generators, battery packs, hydrogen fuel cells, and future helium-3 fusion stations.
 
-###3.4.5 Impact of the special features of the moon environment on grid design
+#### 3.4.5 Lunar Environmental Impacts on Grid Design
 
--** Insulation design**: The electrical gap of traditional air insulation no longer applies in a moon-surface vacuum. All medium-pressure connectors and switches shall be insulated by solid seals (epoxy resin or silicon rubber) or SF6 gas. The distance along the line shall be accounted for under vacuum conditions (about 15-20 per cent of the cable traffic due to the lack of air-to-dispersion heat).
-- ** Thermal management**: Underground cables are placed in sealed holes, with dispersive heat relying on cavity transfer and internal air flow. Long-range high-load cables shall be equipped with distributed temperature monitoring fibre optics (inline in the cable shield) and automatically dropped when the temperature is abnormally high.
--**Electromagnetic Compatibility**: Direct-flow transmissions are free of electromagnetic interference in a moon vacuum environment, but the concoction generated by solid-state transformers and frequencies can interfere with communication equipment and scientific instruments. EMI filters shall be configured at the output end of the transformer input and the electrical circuits of sensitive equipment (e.g. radio telescopes, gravitational wave detectors) shall be isolated from the ring-backed segment of the industrial circuit.
+- **Insulation design**: in lunar vacuum, conventional air-insulation clearances are not applicable. All medium/high-voltage connectors and switching equipment must use solid encapsulation (epoxy or silicone-rubber potting) or SF6 gas insulation. Creepage distances must be recalculated for vacuum operation. With no air convection cooling, cable ampacity must be derated by about 15%-20%.
+- **Thermal management**: underground cables in sealed caves reject heat via cave-wall conduction and cabin-air convection. Long-distance high-load cables require distributed fiber-optic temperature sensing embedded in shield layers for automatic derating under abnormal temperature rise.
+- **Electromagnetic compatibility**: DC transmission itself does not create the same EMI concerns in lunar vacuum, but harmonics from solid-state transformers and inverters may interfere with communications and scientific instruments. EMI filters are required at transformer/inverter I/O, and sensitive loads, such as radio telescopes and gravitational-wave detectors, must be segmented from industrial loops on separate ring-bus sections.
 
-###3.4.6 Network smartness requirements
+#### 3.4.6 Grid Intelligence Requirements
 
-- **Hand projection and automatic movement**: the grid control system is required to develop an autonomous plan for the future 24-72 hours of power generation and storage deployment based on historical load data, photovoltaic power forecasting (based on solar position and mirror field status), heat/hydrogen tank capacity, nuclear reactor operation.
-- ** fail-safed and reconstructed**: In the event of a short circuit or ground failure in any feeder segment, relays are required to isolate the fault segment within <10 ms and to complete network re-engineering within <100 ms to restore the power supply in the non-failed segment. The first-level load, such as life support systems, will need to be additionally configured with the dual redundancy of the local UPS or the second independent power circuit.
-- ** Black Start Plan**: Nuclear reactors (self-independent start-up power) and heat storage tanks (thermal start-up level) will be able to independently restore power generation and gradually restore power supply to the grid as a result of power outages throughout the Base. The specific black start-up sequence is shown in the contingency plan for volume VIII.
+- **Load forecasting and automatic dispatch**: the control system must autonomously generate 24-72 hour generation/storage schedules based on historical load, PV forecasts from solar position and mirror-field state, storage-tank capacities, and reactor operating conditions.
+- **Fault isolation and reconfiguration**: for short-circuit or ground fault on any feeder section, relays must isolate in <10 ms and complete reconfiguration in <100 ms to restore non-faulted sections. Critical loads require additional local UPS or second independent feed path.
+- **Black-start plan**: after full-base blackout, reactors with independent startup supplies and thermal-storage turbines with hot-start capability can restore generation and progressively re-energize the grid. Detailed black-start sequence is defined in Volume VIII emergency planning.
 
 
-##3.5 Forward energy hub: detailed design of thermal-electric-photo-photographic cogeneration system
+### 3.5 Long-Term Energy Hub: Detailed Design of Thermal-Electric-Light Co-Generation
 
-This section incorporates the overview introduction of volume II, section 2.5, to develop detailed engineering designs for thermal-electric-photo-photo hubs. The hub was launched after the third phase of industrialization and introduced a modular phased deployment strategy to match load growth and reduce initial investment risk.
+This section extends the high-level introduction in Volume II Section 2.5 and provides detailed engineering for the thermal-electric-light co-generation hub. Construction starts after Stage III industrialization and uses modular phased deployment to match load growth while reducing early capital risk.
 
-####3.5.1 Master structure and modularization phased deployment
+#### 3.5.1 Overall Architecture and Modular Phased Deployment
 
-Thermal-electric-photo-photo hubs consist of three functionally integrated, engineeringly constructed subsystems:
+The hub consists of three functionally coupled but independently phaseable subsystems:
 
--** Dayglass array (for the front end of light and heat capture)**: deployed on the surface around the skylight or in flat areas within hundreds of metres of the skylight, bringing sunlight to the central receiver.
-- ** Supercritical CO2Breton Cycle + High Temperature Melting Salt Storage Thermal (energy conversion and storage hub)**: Power generation driven by a convergence of sunlight as a heat source, and energy buffer by a melted salt heat tank.
-- ** Spectrometers and natural light catheters (photosonal systems)**: separation of visible light from condensed beams for underground lighting.
+- **Heliostat array (solar-thermal capture front end)**: deployed on surface zones around skylights or flat areas within several hundred meters, focusing sunlight to a central receiver.
+- **Supercritical CO2 Brayton cycle + high-temperature molten-salt storage (conversion and storage core)**: concentrated sunlight drives generation; molten-salt tanks provide energy buffering.
+- **Spectral splitter + natural-light conduits (lighting subsystem)**: separates visible light from concentrated beam for underground illumination.
 
-** Phase I (start-up phase, approximately 12-15 years)**: deployment of the first set-up mirror array (about half of the planned area) and of a 10-Mwe class ultracritical CO2-to- parsing generator unit. Thermal capacity of smelting salt is configured at 12 hours full power (approximately 120 MWhe equivalent). Spectrometers and optic catheters are not installed for the time being, and the main objective of this phase is power generation and industrial heating.
+**Phase I (startup, about Years 12-15)**: deploy first heliostat block, about half planned area, and one 10 MWe-class s-CO2 turbine-generator. Molten-salt storage sized for 12 hours full-power generation, about 120 MWhe equivalent. Splitter and light conduits are not installed yet; focus is generation and industrial heat.
 
-** Phase II (extension phase, approximately 16-20 years)**: Dayglass arrays extended to the planned area, with a second penetrating generator set up, with a total contribution of 20-30 MW. Thermal storage capacity is extended to 24 hours. Installation of spectrometers and first residential optic catheters.
+**Phase II (expansion, about Years 16-20)**: expand heliostat area to full plan, add second turbine-generator, reaching 20-30 MWe total output. Expand storage to 24 hours. Install splitter and first habitation-zone light conduits.
 
-** Phase III (maturity, approximately 21 years later)**: complete coverage of optical catheters in ecological areas and public spaces. Consideration could be given to the installation of a third penetrating generator unit, which would contribute to a total of 50 MW (compatible with the peak needs of the industrial maturity period). If geological conditions permit, self-adapted optical acoustic systems and straight-line optic catheters can be deployed to transport natural light to a long range of km.
+**Phase III (mature, Year 21 onward)**: complete conduit coverage for ecological and public zones. Optional third turbine-generator can raise output to 50 MWe, matching mature-industrial peak demand. If geology permits, deploy adaptive-optics collimation with straight light conduits to deliver natural light to kilometer-scale remote zones.
 
-####3.5.2 Sunglass Array
+#### 3.5.2 Heliostat Array
 
-** (a) Optical design and site flexibility**
+**(a) Optical design and siting flexibility**
 
-A tower-based fusion programme: All sunglasses reflect the sun to the central secondary mirror, and the beams are turned from the secondary mirrors to the light catheters/melt salt receivers below or near the sky window.
+Use a tower-concentrating configuration: heliostats reflect sunlight to a central secondary reflector, then the secondary redirects the beam toward the light-conduit and molten-salt receiver entrance below or near a skylight.
 
-Note: Solar spectral data used in this programme are based on ASTM E490-00a standard AMO0 solar spectral[3].
+Note: all solar-spectrum data in this plan use ASTM E490-00a AM0 spectrum [3].
 
--**The principle of site flexibility**: The sunglasses and the central tower stand must not be above the sky window. The core constraint is limited to: (i) the heat transfer distance from the central receiver to the high-temperature melted salt hot tank to the ultra-critical CO2 heat exchanger should be as short as possible (500500 m) to reduce the heat loss of the high-temperature process in the pipe; and (ii) the light circuit from the secondary reflector to the light catheter entrance must be connected and be directed in the right direction. When the scope of the window is limited or the terrain is difficult on that day, the fixed-day mirrors may be assembled at a flat-stamp schedule hundreds of metres from the sky window, with a stand-alone set-up of the central tower, which is connected to the underground equipment by short-range insulation pipelines and optical circuits. The sky window itself must accommodate only lift platforms and material corridors.
-- Single-faced sunglasses: 10-20 m2 (light parabolic mirrors, C/SiC or ULE glass base, silver or aluminium reflecting plating, reflecting 95 per cent).
-- Number of sunglasses: Based on 10 MWe power generation needs, approximately 2,500-5,000 sides will need to be deployed (about 50,000 m2 of total luminous area, consistent with the volume estimate of 2.5.2 in volume II).
-- Mirror field area: approximately 0.1-0.2 km2 (specified lens space and overhaul corridors).
+- **Siting-flexibility principle**: heliostat field and central tower do not have to be directly above skylight openings. Core constraints are only: (i) heat-transfer distance from central receiver to molten-salt storage to s-CO2 heat exchanger should be as short as possible, <=500 m, to limit high-temperature pipeline losses; (ii) optical path from secondary reflector to light-conduit entrance must remain geometrically connected with proper pointing. When skylight area is constrained or terrain is unfavorable, heliostats can be concentrated on flat surface areas hundreds of meters away, with independent tower siting and short-distance thermal/optical links to underground equipment rooms. The skylight itself only needs to carry lift and logistics channels.
+- Single-mirror area: 10-20 m², lightweight parabolic mirrors with C/SiC or ULE substrates, silver or aluminum reflective coatings, reflectivity >=95%.
+- Mirror count: for 10 MWe generation baseline, about 2,500-5,000 mirrors are required, total collection area about 50,000 m², consistent with Volume II Section 2.5.2 order-of-magnitude estimate.
+- Field footprint: about 0.1-0.2 km² including mirror spacing and maintenance lanes.
 
-** (b) Tracking and control system**
+**(b) Tracking and control system**
 
-- Two-axis independent driver (azimuth + azimuth) tracking accuracy = 0.5 mrad (corresponding to approximately 0.03°).
-- Control systems: open-ring tracking based on the calendar + closed-ring calibration. Closed ring calibration is provided by the beam position sensor installed on the central tower shelf.
-- **Intelligence requirement**: Mirror field control system must operate in full autonomy — real-time adjustments of the focus or dispersion of each mirror to accurately control the total heat power of access to the receiver, based on integrated data on solar position, solar activity forecasting (provided by the satellite for monitoring the environment in the ring), heat tank capacity and grid load requirements. In exceptional cases (e.g., early warning of solar particle events), full-spectrum dispersion is to be completed within one minute and beam energy spread to safety levels.
+- Dual-axis drive per mirror, azimuth + elevation, tracking precision <=0.5 mrad, about 0.03°.
+- Control: ephemeris-based open-loop tracking + closed-loop correction. Feedback from beam-position sensors on central tower.
+- **Automation requirement**: mirror-field control must be fully autonomous, dynamically adjusting focus/defocus of each mirror using solar position, space-weather forecast from circumlunar monitoring satellites, storage state, and grid-demand data to regulate total receiver thermal power. Under anomaly conditions such as SPE warning, full-field defocus must be completed within 1 minute to safe irradiance levels.
 
-** (c) Moon dust protection**
+**(c) Lunar-dust protection**
 
-- Transparent dust removal electrodes (transparently conductive membranes of tin oxide ITO, etched into cross-finger electrodes) for each mirror.
-- Driven by a special high-voltage pulse power source (with a voltage range of approximately 1-3 kV, frequency 1-10 Hz) which produces a wave field on the mirror surface, which drives the particles of the electric moon to move in a direction along the mirror and out of the edge.
-- Dust removal energy consumption: approximately 1-5 W/m2 (scope area), which is only one per 1,000 measure of solar irradiation (approximately 1,361 W/m2) received on the mirror.
+- Each mirror includes transparent electrostatic dust-curtain electrodes using patterned ITO films in interdigitated layouts.
+- Driven by dedicated high-voltage pulsed supply, about 1-3 kV amplitude and 1-10 Hz frequency, generating traveling-wave electric fields on mirror surfaces to move charged dust particles directionally off edges.
+- Dust-removal power consumption: about 1-5 W/m² mirror area, around one-thousandth of incident solar power, about 1,361 W/m².
 
-####3.5.3 Supercritical CO2 Braun cycle power system
+#### 3.5.3 Supercritical CO2 Brayton-Cycle Power System
 
-** (a) Thermal cycle design**
+**(a) Thermodynamic cycle design**
 
-The adoption of the **recompressed ultracritical CO2Breton cycle** is currently recognized as the most efficient cycling configuration [2][4] for the fourth generation of photothermal power.
+Adopt the **recompression supercritical CO2 Brayton cycle**, widely recognized as one of the highest-efficiency cycle topologies for next-generation thermal power [2][4].
 
-- Work mass: Supercritical CO2 (critical temperature 31°C, critical pressure 7.38 MPa).
-- Temperature of the trans-altitude entrance: 700-750°C (heated by a melted salt heater from sunglasses to that temperature).
-- Breaking in pressure: 20-25 MPa.
-- Net cycling efficiency: 50 per cent (up to 52 per cent - 54 per cent at 750°C and 35 per cent - 40 per cent of far excess steaming rumen cycle) [2][4].
-- The cooling method: the final heat transfer is based on the lunar radiation radiators. In a moon-surface vacuum, the radiation radiators are directed to deep space (about 4 K background temperature) and are far more efficient than the water or air cooling on Earth. The area of the dispersor plate is approximately 500-1,000 m2/MWe (estimated by the law of Stéphane-Balzmann at 400 K on the surface of the dispersor plate, a launch rate of 0.85, and a deep space background temperature of 4 K).
+- Working fluid: supercritical CO2, critical temperature 31°C and critical pressure 7.38 MPa.
+- Turbine inlet temperature: 700-750°C, heated by heliostat-concentrated input through molten-salt heat exchangers.
+- Turbine inlet pressure: 20-25 MPa.
+- Net cycle efficiency: >=50%, reaching about 52%-54% at 750°C turbine inlet, well above steam Rankine at about 35%-40% [2][4].
+- Cooling mode: radiative heat rejection to deep-space-facing panels. In lunar vacuum, with deep-space background near 4 K, panel performance outperforms Earth water/air cooling. Required panel area is about 500-1,000 m² per MWe, estimated from panel surface temperature 400 K, emissivity 0.85, and Stefan-Boltzmann law [8].
 
-** (b) Critical equipment**
+**(b) Key equipment**
 
-| Equipment | Technical parameters | Description |
+| Equipment | Technical Parameters | Notes |
 |:-----|:-----|:-----|
-| Twing-cressor-generator units | Single power 10-25 MWe; Rotation ≥ 30,000 rpm; Dry gas bearing | Supercritical CO2-square sizes much smaller than the co-power steam turbines, with an overall size of about 1/10 |
-| Print circuit board heater | 800°C working temperature, ≤30 MPa | high temperature side is smelted salt or s-CO2 low temperature side is s-CO2 heating
-| High temperature melting salt - s-CO2 heater | work temperature ≤800°C, pressure ≤30 MPa | high temperature side is melting salt, low temperature side is s-CO2 |
-| Radiation dispersors panel 500-2,000 W/m2 dissipation capacity 500-1,000 m2/Mwe | light carbon-carbon composite material panel, embedded heat tube network |
+| Turbine-compressor-generator unit | Unit power 10-25 MWe; speed >=30,000 rpm; dry gas bearings | s-CO2 turbine is about one-tenth the volume of same-power steam turbine |
+| Printed-circuit heat exchanger | Operating temperature <=800°C, pressure <=30 MPa | High-temperature side molten salt or s-CO2, low-temperature side s-CO2 recuperation |
+| High-temperature molten-salt to s-CO2 heat exchanger | Operating temperature <=800°C, pressure <=30 MPa | High-temperature side molten salt, low-temperature side s-CO2 |
+| Radiative panel | Rejection capacity 500-2,000 W/m²; area 500-1,000 m²/MWe | Lightweight carbon-carbon composite panel with embedded heat-pipe network |
 
-** (c) Convergence with smelting salt heating systems**
+**(c) Coupling with molten-salt storage**
 
-- Melting salt is stored in ** high-temperature heat jars** after the sun is heating up to about 565 °C by the sun.
-- When power is generated, high-temperature smelt salt is pumped from the hot tank to the salt-s-CO2 heat exchanger, heating s-CO2 to 700-750°C, and driving to the thaw.
-- Low-temperature melted salt (approximately 350°C) from heat exchangers into ** Cold-temperature tanks** pending the next heating cycle.
-- Storage capacity design: 12-hour full power generation (approximately 120 MWhe equivalent) and 24-hour phase II. Total mass of thermal media: about 500-1,000 tons (approximately 1.5 kJ/kg K based on the available temperature differentials and smelting salt relative to thermal capacity of 565°C to 350°C). The hot tank casings are selected using locally manufactured lunar lunar concrete (the preferred is a quality building material that meets the guidelines in section B of volume I 1.3) and are launched from the Earth by sealing only and switching thermal liners in order to minimize transport costs.
+- Molten salt is heated by concentrated sunlight to about 565°C and stored in **hot tanks**.
+- During generation, hot salt is pumped through salt-s-CO2 exchangers to heat s-CO2 to 700-750°C and drive turbine work.
+- Cooled salt from exchangers, about 350°C, enters **cold tanks** awaiting reheating.
+- Storage capacity: Phase I provides 12 hours full-power generation, about 120 MWhe equivalent; Phase II expands to 24 hours. Total thermal medium mass is about 500-1,000 tons, based on usable 565°C to 350°C temperature differential and molten-salt heat capacity about 1.5 kJ/kg-K. Tank shells should preferably use locally manufactured regolith concrete, preferably with high-quality construction material that meets Volume I Section 1.3 criterion b. Only sealed liners and exchanger piping are launched from Earth to minimize transport cost.
 
-** (d) Synergies between heat dispersion and polar mining**
+**(d) Synergy between heat rejection and polar mining**
 
-The irradiated radiators release about 30°C-50°C of low-temperature waste heat into deep space under normal conditions. In the context of the location of the polar region (near Shackleton), if the power plant is within 5-15 km of a meteor crater in the permanent shade, some low-temperature waste heat can be imported through a mobile insulation pipeline into the water-ice mining area of the crater, which supports the warming of the ice-bearing moon, significantly increasing the efficiency of water-ice extraction and reducing dependence on electric heating. Specific hot water/vapour pipeline programmes, insulation standards and operating models are carried out in the detailed design of volume IV (water ice mining) of this appendix.
+Radiative panels reject low-grade waste heat around 30°C-50°C to deep space under normal operation. For polar sites near Shackleton, if plant-to-permanently-shadowed crater distance is 5-15 km, part of this low-grade heat can be delivered via mobile insulated pipelines into crater water-ice mining zones to preheat ice-bearing regolith, significantly improving extraction efficiency while reducing electric heating demand. Detailed hot-water/steam pipeline schemes, insulation standards, and operation modes are provided in Appendix I Volume IV.
 
 
-###3.5.4 High temperature thermal energy transmission and base layout
+#### 3.5.4 High-Temperature Heat Transmission and Base Layout
 
-The transfer efficiency of high-temperature thermal energy captured in the fixed-day mirrors from the monthly watch to underground power generation and heat storage equipment directly determines the permitted distance between the power plant and the core of the base, thus affecting the layout of the base as a whole.
+Transmission efficiency of high-temperature heat from surface heliostat capture points to underground generation/storage equipment directly sets allowable distance between plant and core base zones, shaping overall layout.
 
-** (a) High temperature thermal energy transfer**
-Core thermal energy channels (high-temperature smelt heat tanks with high-temperature smelting salt condensed with sunlight) use liquid metals (e.g. NaK) or high-temperature smelting salts themselves as a work mass for transmission through pipelines. Pipe surfaces can be covered as required** multi-layer insulation** to minimize heat losses.
+**(a) High-temperature heat transmission mode**
+Core thermal path, concentrated sunlight -> molten-salt receiver -> hot molten-salt tank -> s-CO2 exchanger, uses liquid metal such as NaK or molten salt itself as transfer fluid in pipelines. Pipe surfaces can be wrapped with **multi-layer insulation** where needed to minimize losses.
 
-** (b) Comparison of the efficiency of nudity and heat pyrotechnic transmission**
-For a quantitative assessment, the heat loss in both cases of bare and covered MLI was compared with the smelting salt of 50 MWt heat power, distance 500 m and mass 565°C.
+**(b) Comparison of bare versus MLI-insulated pipe transmission efficiency**
+For quantitative comparison, assume 50 MWt transfer over 500 m with 565°C molten salt.
 
-| Parameters | Units | Naked heat pipes | MLI temperature-preservation tubes |
+| Parameter | Unit | Bare Pipe | MLI-Insulated Pipe |
 |:-----|:-----|:-----|:-----|
- ** Pipeline exterior** | m | 0.3 | 0.4  ** (with thermostat) |
- ** surface launch rate (ε)** - | 0.6 (oxidated stainless steel)  ** 0.005 (MLI outer layer) |
-** Surface Temperature (T_s)** ~ °C ~ 560 ~ 30 (MLI outermost) ~ ~ ~ ~ 30 ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ (MLI outermost) ~ |
-** Ambient Temperature (T_amb)** | °C | 120 (Mounal Day Surface)  ** 120 (Mounal Day Surface)  **
- **  ** radiation dissipation loss** ~ kW/m ~3.8 ~0.002 |
- **500m Total heat loss** ~ MWt ~1.9 ~0.001 |
- ** transmission efficiency** ~ 96.2% ~ 99.998% ~
+| **Pipe outer diameter** | m | 0.3 | 0.4, including insulation |
+| **Surface emissivity (epsilon)** | - | 0.6, oxidized stainless steel | 0.005, MLI outer layer |
+| **Surface temperature (Ts)** | °C | about 560 | about 30, MLI outer surface |
+| **Ambient temperature (Tamb)** | °C | 120, lunar daytime surface | 120, lunar daytime surface |
+| **Radiative heat loss** | kW/m | about 3.8 | about 0.002 |
+| **Total 500 m heat loss** | MWt | about 1.9 | about 0.001 |
+| **Transmission efficiency** | % | about 96.2% | about 99.998% |
 
-The above calculations are based on the Stéphane-Bernzmann Law [8]. It is clear from the conclusions that** in a moon-surface vacuum, radiation dispersion is the main route to the loss of the naked thermal tube, and that the MLI stratospheric layer can almost completely eliminate this loss and achieve near-neutral transmissions. **
+Calculated with Stefan-Boltzmann law [8]. The result is clear: **in lunar vacuum, radiative loss is the dominant loss mode for bare hot pipes, while MLI nearly eliminates this loss and enables near-lossless span transmission.**
 
-** (c) Medium-temperature heat transmission network**
-Based on the above-mentioned near-neutral transmission characteristics, a unified multi-temperature heat network could be established within the Base:
-- **High-temperature tube network (500-750°C)**: from the central power plant, using Nak and MLI to keep temperature, to high-energy industrial areas such as metal smelting and moon-line burning.
-- **Meso-temperature network (200-500°C)**: transport to a water ice extraction and catalyst extraction plant using s-CO2 gas or a special smelting salt circuit.
-- **Left tube network (30-50°C)**: transport to residential and ecological areas using the waste heat of the power plant, via the hot and warm water pipeline, with access to the radiation end of the catheter network, volume II, section 2.4.3.
+**(c) Medium/low-temperature heat network**
+Given near-lossless transfer behavior, a unified multi-temperature thermal network can be established:
 
-** (d) Impact of transmission efficiency on base layout and size**
-Efficient insulation pipeline technology removes the layout of power generation equipment that must be adjacent to the heat source:
-1. ** Layout decomposition to enhance security**: The sun mirrors and smelting salt receivers can be built on a flat monthly schedule hundreds of metres or several kilometres away from the entrance to the underground base (sky window), avoiding the excessive concentration of large-scale infrastructure around the only entrance to the skylight, and the physical separation of high-temperature, high-pressure power generation equipment from residential areas.
-2. **Size extension is not subject to terrain**: **The principle of site flexibility (see sect. 3.5.2)** in conjunction with **Thermally efficient transmission** makes a large-scale expansion of the sunglasses possible.
-**Strategic Temperature Control, Demand-Based Supply and Energy**: The near-non-destructive transmission efficiency has made it economically feasible to establish** Base-based unified thermal tube network**, with industrial zones being able to be flexiblely positioned at different distances from the energy hub according to their process needs and safety requirements.
+- **High-temperature network, 500-750°C**: from central plant using NaK and MLI-insulated lines to high-energy industrial zones such as smelting and regolith sintering.
+- **Medium-temperature network, 200-500°C**: using s-CO2 extraction or dedicated molten-salt loops to water-ice and catalyst-extraction plants.
+- **Low-temperature network, 30-50°C**: using plant waste heat via insulated hot-water lines to habitation/ecological zones, interfacing with Volume II Section 2.4.3 capillary radiant terminals.
 
+**(d) Impacts of transmission efficiency on layout and scale**
+High-efficiency insulation pipelines remove the requirement that generation equipment be adjacent to thermal sources:
 
-# # # 3.5.5 Electricity transmission efficiency and base layout
-
-The efficiency properties of electricity transmission are different from those of thermal energy, and it declines linearly with distance rather than exponentially. The detailed design of the base grid structure has been given in section 3.4, which focuses only on how its transmission efficiency binds the base layout.
-
-** (a) Recent (phase II) layout**
-The power requirement at this stage is small (100 kW class), with a short transmission distance (normally <1 km between the skylight and the first device under the ground) from the **-month PV array → underground loading centre**. Under this condition, circuits are extremely low in electrical resistance and transmission efficiency is not a bottleneck. The deployment of light-voltage arrays near the skylight is a reasonable and economical option.
-
-** (b) Forward (after phase III) layout**
-In the thermal-electric-photo-photo hubs, ultracritical CO2-level generators are necessarily deployed in close proximity to thermal sources (melted salt heat tanks). This means that,** in the long term, power generation equipment will be transferred from the monthly watch to underground**.
-- **Technology of transmission**: very short distance (usually within 100 metres) from underground tectonic generators to underground distribution terminals. Under this condition, even if the power of the transmission is as high as 50 MWe, the use of conventional middle pressure (e.g. 10 kV) for transmission is almost negligible (< 0.1 per cent). The geographical overlap between power generation and power centres makes electricity transmission very efficient.
-- ** Impact on base layout**: This efficiency allows us to safely deploy large, high-temperature power generation equipment to the deep underground and to deliver electricity to the entire underground city through short-range cables. The main constraint for transmission losses is the supply of electricity from the base to ** long-range facilities** (e.g., mining sites, launch sites, orbital traffic tow stations), using the high-pressure direct-flow transmission technology described in section 3.4.1 in order to keep the losses within an acceptable range at a distance of 100 kilometres (e.g. < 5 per cent). In the long term, a single-way transmission of power to the 100 MW level can initiate a direct superconductive transmission upgrade and significantly reduce cooling energy consumption using a low-motivation environment on the ground.
+1. **Layout decoupling and improved safety**: heliostat fields and molten-salt receivers can be built hundreds of meters to kilometers from underground base access skylights, avoiding excessive concentration of large infrastructure around single access points and physically separating high-temperature/high-pressure generation equipment from habitation.
+2. **Scale expansion less constrained by terrain**: when terrain near skylights is limited, **siting-flexibility principles in Section 3.5.2** combined with **high-efficiency heat transfer** allow practical large-scale heliostat expansion.
+3. **Zonal thermal control and on-demand supply**: near-lossless transmission makes a **base-wide unified thermal network** economically viable, enabling flexible placement of industrial subsystems by process and safety needs at different distances from the energy hub.
 
 
-###3.5.6 Light transmission efficiency and base layout
+#### 3.5.5 Electric-Power Transmission Efficiency and Base Layout
 
-Natural optical catheters are the most distinctive part of the cogeneration system. The efficiency of light transmission determines how far it can light the underground space and whether it is worth deploying a system specifically for it. Unlike the linear decay of electricity, the transmission efficiency of light in traditional optical catheters decreases with distance** - but this pattern of decay can be fundamentally altered by the adaptive optical straightness system.
+Power-transmission efficiency behaves differently from heat: losses scale roughly linearly with distance rather than exponentially. Section 3.4 provides full grid architecture; this section focuses on layout constraints from transmission efficiency.
 
-** (a) Near term (phase II)**
-No light catheters were deployed at this stage (see sect. 3.5.1), and all underground lighting relied on LEDs.
--** Efficiency assessment**: If LEDs are powered by photovoltaic (efficiency 45%) power (e.g., 35% Electro-efficiency), the total efficiency from “sun-sun” is 45% x 35% ≈ ** 16% **. This means 100 W sun, and ultimately only 16 W light. In this case, light + LEDs are not efficient.
+**(a) Near-term layout, Stage II**
+At this stage demand is modest, hundred-kilowatt class. Transmission from **surface PV arrays -> underground load centers** spans short distances, typically <1 km from skylight to first underground equipment rooms. Resistive line loss is minimal and not a bottleneck. Deploying PV near skylights is practical and economical.
 
-** (b) Forward period (after phase III) — reflector optic catheter programme (baseline programme)**
-The spectrometer introduces the condensed "cool light" (visible light, no infrared heat load) into the ground through the light catheter network.
--** Efficiency assessment**:
-- Spectrometer efficiency: >95%.
-- PV transfer efficiency: The PV inner wall is coated with a high reflectivity (R> 98%) film with a single reflector loss of approximately 2%. After a subreflection of $n, the transfer efficiency is $R^n.
-- ** Short distance (< 200m)**: low number of reflections (e.g. 10) with efficiency of $ 0.98{1 \approx 81.0%. Full efficiency $95\%\times 82\%\approx 78\%.
-- ** Medium distance (200-500m)**: Moderate reflection (e.g. 30 times) with efficiency reduced to $0.98{3 \approx54.5\%. Full efficiency is $95\%\times54\%\approx5$.
-- ** Long distance (> 1000 m)**: high number of reflections (e.g. 60) with a sharp fall in efficiency to $0.98^6 \approx29.8%. Full efficiency is only $95\%\times 30\%\approx 28\%.
--** Situation analysis**:
-- ** Short-range efficiency**: within 200 m, the transfer efficiency of the optic catheters (78%) is far above the LED programme (16%), with significant advantages.
-- ** The median distance is flat**: in the approximately 500-800 m zone, the light catheter efficiency is down to the same level as the photovoltaic + LED (about 30-50%).
-- ** Long distance is inefficient**: over 1,000 m, light catheters are no longer efficient and costly and use LEDs is preferable.
+**(b) Long-term layout, post-Stage III**
+In the thermal-electric-light hub, s-CO2 turbine generators must be colocated with thermal sources, molten-salt storage. Therefore, **long-term generation equipment moves from surface to underground**.
 
-** (c) Forward (after phase III) - Self-adaptation optical straight + straight-line catheter programme (efficiency jump programme)**
-The bottlenecks in the baseline programme described above are in the dispersion of beams. If the visible beams after the spectroscopy are capable of being ** optically re-adapted**, the dispersed condensed condensation beams are reformed into a parallel, high-altitude, quasi-directed beams, the physical pattern of light transmission will be changed from “reflective wear and tear” to “almost undamaged straight-line transmission”.
-
-- ** Self-adapted optical straight module**:
-1. ** Pre-wave sensors**: real-time measurements of pre-wave aberrations of visible beams through spectrometers.
-2. **Transformation mirror**: thin mirrors driven by hundreds of micromovers to change mirror shapes with micro-metre-scale precision.
-**Cyclical control system**: recalibration mirrors adjusted at a frequency of several thousand times per second, re-formulating dispersed, ill-formed beams to a highly parallel, quasi-directed beam.
--**Quantitative assessment**:
-- ** Unadapted optical**: Assuming light beam-dispersed angle (half angle) is 1°. In a optic catheter with a diameter of 1.5 m, the beam first touches the wall at about **43 m**.
-- ** equipped with self-adaptation optics (medium performance)**: condensed beam-dispersion angle to 10 angular seconds, or approximately 0.0028°. In a pipe of the same diameter, the beam spreads about **15.4 km in a straight line for the first time.
-- ** equipped with self-adaptation optics (high performance)**: compression of dispersive angles to 1 angular seconds, with a straight-line transmission distance exceeding ** 150 km**.
--** Efficiency and Base layout effect**: Under the model of a straight beam + straight light catheter, the inner wall reflection plating of the catheter is no longer the determining factor for the transfer efficiency. Transfer depletion is dominated by absorption (negligible, maintenance of a high vacuum) of residual gases within the optic catheters and by the diffusion effect (very small) of the tube walls. The entire optic catheter network can be transformed from an index decay mode to a near-neutral straight-line mode**.
-- ** Breaking the 500-metre service radius**: remote areas (e.g., industrial areas, second base) that could not be luminous to natural light for efficiency reasons can now obtain the same lighting quality as below the sky window through a straight light catheter.
-- ** "Ray-axis" model for base layout**: living and ecological areas must no longer be organized around the sky window. A “ray axis” may be laid along a natural straight segment of the lava line or a small, artificially drilled straight tunnel to build new settlements or scientific areas at the far end of the axis. The role of the sky window has shifted from a “core of life” to a purely “photo and logistics corridor”.
--** Requirements for geological conditions**: the programme is highly dependent on the existence of long, non-curving line holes. If natural lava tubes are present in line segments of hundreds of metres to kilometres, they can be used directly; otherwise, specialized construction operations, such as excavation, connectivity, etc., may be required and the amount of work will increase significantly. Therefore, the option should decide whether to include the three phases of the project after the siteing phase of volume III (task group II/III) has been evaluated by GPR data for the availability of the straight segment of the lava tube.
-
-** (d) Engineering package of the optical catheter programme**
-Whether it is a reflection or a straight + straight-line programme, the main subject of the optical catheter is a rigid vacuum pipe (materials are aluminium alloys or CFRP, inner diameter 1-2 m). In terms of deployment, reflector-type optic catheters can be adapted to the natural bending of the lava piping; straight-line luminous catheters are to be laid along straight-line holes, requiring higher construction accuracy and geological conditions. Soft “optic cables”, understood as large-chip liquid or empty-chip photocrystal fibers, can be supplemented by end-end “last kilometre” light, but transport losses (approximately 1 per cent-5 per cent/m) are much higher than rigid vacuum catheters, where the practical length of the loss does not normally exceed 20 metres and is used only for short-range connections within tens of metres.
+- **Transmission efficiency**: distance from underground turbine generators to underground distribution buses is very short, usually <100 m. Even at 50 MWe transfer, conventional medium-voltage AC at around 10 kV yields negligible loss, <0.1%.
+- **Layout impact**: high efficiency allows large high-temperature generation equipment to be safely deployed deep underground while supplying the full underground city through short cable runs. Transmission constraints mainly apply to **remote facilities** such as mining sites, launch areas, and traction substations, where HVDC from Section 3.4.1 is required to keep hundred-kilometer losses acceptable, e.g., <5%. If single-circuit power later reaches hundred-megawatt class, superconducting DC upgrades can be activated to exploit lunar low-temperature conditions.
 
 
-###3.5.7 Industrial heating and nuclear waste thermal recovery interface
+#### 3.5.6 Light-Source Transmission Efficiency and Base Layout
 
-Supercritical CO2Breton cycles, while generating power, can form, together with nuclear reactors, a unified ** Base Thermal Network system** to provide heat for three-way processes according to temperature grade:
+Natural-light conduits are the most distinctive component of co-generation. Light-transmission efficiency determines how far underground areas can be illuminated and whether dedicated infrastructure is justified. Unlike electric power with roughly linear attenuation, light in traditional conduits shows **exponential attenuation with distance**. This behavior can be fundamentally changed with adaptive-optics collimation.
 
-| Heat grade | Temperature range | Source | Use |
+**(a) Near term, Stage II**
+No light conduits are deployed in this stage, see Section 3.5.1. Underground illumination relies entirely on LEDs.
+
+- **Efficiency assessment**: if LED lighting, electro-optical efficiency about 35%, is powered by PV, efficiency 45%, total sunlight to light efficiency is 45% x 35% ≈ **16%**. This means 100 W sunlight produces only 16 W lighting output.
+
+**(b) Long term, post-Stage III: reflective conduit baseline**
+Splitters route concentrated "cold light", visible band without infrared thermal load, into underground conduit networks.
+
+- **Efficiency assessment**:
+  - Splitter efficiency: >95%.
+  - Conduit transmission: with high-reflectance inner coatings, R>98%, single-bounce loss about 2%. After $n$ reflections, transmission is $R^n$.
+    - **Short distance, <200 m**: few reflections, e.g., 10, efficiency $0.98^{10} \approx 81.7\%$. End-to-end about $95\% \times 82\% \approx 78\%$.
+    - **Medium distance, 200-500 m**: moderate reflections, e.g., 30, efficiency drops to $0.98^{30} \approx 54.5\%$. End-to-end about $95\% \times 54\% \approx 51\%$.
+    - **Long distance, >1000 m**: many reflections, e.g., 60, efficiency drops sharply to $0.98^{60} \approx 29.8\%$. End-to-end only $95\% \times 30\% \approx 28\%$.
+- **Operating analysis**:
+  - **Short-range high efficiency**: within 200 m, conduit efficiency, 78%, greatly exceeds PV + LED, 16%.
+  - **Mid-range parity**: around 500-800 m, conduit efficiency approaches PV + LED, about 30%-50%.
+  - **Long-range low efficiency**: beyond 1000 m, conduit loses advantage and is often less economical than LED lighting.
+
+**(c) Long term, post-Stage III: adaptive-optics collimation + straight conduit high-efficiency scheme**
+The baseline bottleneck is beam divergence. If visible beams after splitting are re-collimated by **adaptive optics** into highly parallel beams, dominant physics shifts from reflection-loss control to near-lossless straight-line propagation.
+
+- **Adaptive-optics collimation module**:
+  1. **Wavefront sensor**: real-time measurement of wavefront distortion in transmitted visible beam.
+  2. **Deformable mirror**: thin mirror driven by hundreds of micro-actuators with micron-scale shape control.
+  3. **Closed-loop controller**: updates mirror shape thousands of times per second to reshape diverging aberrated beams into highly collimated beams.
+- **Quantitative assessment**:
+  - **Without adaptive optics**: for beam half-angle divergence 1°, beam in a 1.5 m diameter conduit first hits the wall at about **43 m**.
+  - **With adaptive optics, medium performance**: compress divergence to 10 arcseconds, about 0.0028°. In same conduit, beam propagates about **15.4 km** before first wall contact.
+  - **With adaptive optics, high performance**: at 1 arcsecond divergence, straight propagation exceeds **150 km**.
+- **Efficiency and layout impact**: with collimated beams in straight conduits, inner reflective coatings are no longer the primary determinant of transmission efficiency. Losses are dominated by residual gas absorption in conduits, negligible under high vacuum, and very small wall diffraction effects. The network can shift from exponential attenuation to **near-lossless straight-line transmission**.
+  - **Breaks the 500 m service-radius constraint**: remote zones previously outside natural-light range, such as industrial sectors or second base zones kilometers away, can receive illumination quality comparable to areas below skylights via straight conduits.
+  - **"Optical-axis" layout mode**: habitation and ecological zones no longer need to cluster tightly around skylights. Light axes can follow naturally straight lava-tube segments or purpose-drilled straight microtunnels to support remote habitation/science zones. Skylights shift from "life core" to pure "light intake and logistics channel" roles.
+  - **Geological dependency**: viability depends strongly on availability of sufficiently long straight segments without curvature. If natural tubes have hundred-meter to kilometer straight runs, they can be used directly; otherwise specialized excavation/boring is required, significantly increasing engineering scope. Therefore, this option should be decided only after mission-group II/III GPR data evaluate straight-segment availability in site-selection phase.
+
+**(d) Engineering envelope of light-conduit solutions**
+Regardless of reflective or collimated straight mode, the main conduit body is a rigid vacuum pipe, aluminum alloy or CFRP, with 1-2 m inner diameter. Reflective conduits can follow natural lava-tube curvature. Straight conduits require straight tunnel sections and tighter geological/construction tolerances. Flexible "optical cables", if interpreted as large-core liquid-core guides or hollow-core photonic-crystal fibers, can be used only for terminal last-mile distribution. Their loss, about 1%-5% per meter, is far higher than rigid vacuum conduits, limiting practical length to generally <=20 m for short-distance links.
+
+
+#### 3.5.7 Industrial Heat Supply and Reactor Waste-Heat Recovery Interfaces
+
+While generating power, the s-CO2 Brayton system and nuclear reactors can form a unified **base thermal network**, delivering three process-heat grades by temperature level:
+
+| Heat Grade | Temperature Range | Source | Use |
 |:-----|:-----|:-----|:-----|
- ** ** High temperature** | 500–750°C | Main s-CO2 gas pump (or sunglasses for direct heating) in front of the flat entrance  ** metal smelting (air arc furnace preheating), moon-front burning (supplemented heating) |
- ** ** Central Temperature** ** 200-500°C | Tranquillium-Spill-Spill-Spill-Sill-Sill-Sill-Sill-Sill-Sill-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-Simple-C-C-C-500°C, Catalytic-Sigger-Simple
- ** Temperature** 30–50°C | Supercritical CO2 radiation dispersor (CO2) residual heat recovery** + cold-end waste heat recovery of the nuclear reactor Sterling**  ** Life heating (accessed to the hairline network in volume II, section 2.4.3), greenhouse gas condensation
+| **High temperature** | 500-750°C | Mainstream extraction before turbine inlet, or direct heliostat heating | Metal smelting, electric-furnace preheating, regolith sintering support heating |
+| **Medium temperature** | 200-500°C | Mid-stage turbine extraction | Water-ice extraction, heating ice-bearing regolith to about 150-500°C, catalyst extraction |
+| **Low temperature** | 30-50°C | Waste-heat recovery from s-CO2 radiative panels **plus waste-heat recovery from reactor Stirling cold end** | Space heating through capillary-network interface in Volume II Section 2.4.3, greenhouse thermal maintenance |
 
-This multi-grade thermal energy ladder utilization system has increased the integrated energy efficiency of the entire energy hub from about 50 per cent to over **85 per cent of the total electricity generation.** When spent heat from nuclear reactors is connected to the cryogenic heating pipeline network, most of the day-to-day heating needs of the base are met, and heat pumps are retained only as a means of uplifting and back-up. Specific heat needs, piping temperature standards and access programmes for industrial subsystems are performed by volumes IV (water ice mining) and V (manufacturing systems) of this appendix respectively.
+This cascaded thermal-utilization system raises overall energy-utilization efficiency from about 50% for power-only operation to **above 85%**. After reactor waste heat is connected to low-temperature heating loops, most routine base-heating demand can be covered, with heat pumps retained only for peak regulation and backup. Detailed thermal-demand profiles, insulation standards, and interface designs for industrial subsystems are developed in Volume IV and Volume V.
 
-# # # 3.5.8 Implementation notes for PV thermal transmission
+#### 3.5.8 Implementation Notes for Thermal, Electrical, and Optical Transmission
 
-The above-mentioned PVTP (sections 3.5.4 to 3.5.7) is an ideal job assessment based on physical principles. The realization of the programmes will face multiple additional constraints in the practical implementation of the projects, which will need to be adapted flexibly to specific geological conditions, equipment supply and construction capacity. The main changes and corresponding engineering impacts are listed below for detailed design in subsequent volumes:
+The transmission schemes in Sections 3.5.4-3.5.7 are ideal-condition evaluations based on physical principles. Real engineering deployment faces additional constraints and must be adapted to site geology, equipment availability, and construction capability. Key variation factors and engineering impacts are listed below for downstream detailed design:
 
--** Long-range transport of high-temperature engineering **: When the smelting salt or liquid metal (NK) pipeline extends to levels above km, in addition to the loss of heat, consideration must be given to ** the power consumption of pump delivery ** (the loss of the pressure along the course is proportional to the length and flow speed of the pipe) and ** thermal expansion compensation of the pipe ** (the change in length from constant temperature to 565°C is about 0.6 per cent - 0.8 per cent, requiring an expansion or soft section at the turn of the pipe). These additional engineering requirements may limit the actual optimal transmission distance to a few kilometres rather than theoretically “apogee”.
+- **Long-distance high-temperature fluid transmission**: when molten-salt or NaK pipelines extend beyond kilometer scale, beyond heat loss considerations, **pumping power consumption** and **thermal-expansion compensation** become critical. Pressure-drop pumping demand scales with line length and roughly velocity squared; thermal expansion from ambient to 565°C can reach about 0.6%-0.8% in line length, requiring expansion joints or flexible segments at bends. These requirements may limit practical optimum transfer distance to a few kilometers rather than theoretically unlimited spans.
 
-- **Diagnosis and entanglement of direct light catheters**: Self-adaptation optical + straight line catheters as described in section 3.5.6 (c), which achieves a high degree of dependence on the existence of natural straight-line holes of sufficient length. If the natural direction of a lava tube is bent, a mechanical excavation, explosion or laser drilling** of a mini-tunnel** is required, as well as the precision of the ** piping ** (requires that the beam centre deviates from a few centimetres over hundreds of metres in length). These operations will significantly increase the construction cycle and cost, requiring the corresponding construction corridor and equipment space to be set aside in the capital plans for volume II.
+- **Excavation and breakthrough for straight light conduits**: the adaptive-optics + straight-conduit scheme in Section 3.5.6(c) depends strongly on natural straight segments. If tube geometry is curved, **microtunnel mechanical excavation, blasting, or laser boring** is required, along with **precision alignment at conduit joints**, requiring beam-center offset under a few centimeters over hundreds of meters. This can substantially increase schedule and cost and should be pre-allocated in Volume II infrastructure with dedicated construction corridors and equipment space.
 
-- ** Vacuum maintenance of light catheter **: Whether it is a reflector or a linear optic catheter, its high transmission efficiency is premised on maintaining a high vacuum within the tube (to reduce gas absorption and dispersion). In a moon-surface vacuum, the initial vacuum can be naturally achieved by the external environment; however, in long-term operations, the degasing effect of the basalt walls and of the seal layer material will gradually reduce the internal vacuum in the tube. A small vacuum pump team** or a gas pump** shall be set up in sub-sections along the optical catheter to maintain the vacuum level on a regular or continuous basis. The number and spacing of the pumps depend on the discharge rate of the piping material and need to be accounted for in the detailed design of the optic catheter in volume 7.
+- **Vacuum maintenance in light conduits**: for both reflective and straight designs, high transmission efficiency requires high vacuum in conduits to minimize absorption/scattering. Initial evacuation benefits from ambient lunar vacuum, but long-term operation is degraded by micro-outgassing from basalt walls and seal materials. **Distributed small vacuum-pump sets** or getter pumps must be installed along conduit sections for periodic or continuous pressure maintenance. Pump count and spacing depend on outgassing rates and must be quantified in detailed design.
 
-- ** Redundancy and switching of power transmission**: ±10 kV DC ring matrix, referred to in section 3.5.5(b), after the breakdown of the network is isolated, ** fast switches ** (action time < 10 ms) and ** intelligent relay protection** need to work together in actual works. In the event of a double failure of the ring matrix, a partial power outage may occur. Therefore, a first-level load, such as life support systems, would have to be additionally configured with the double redundancy of local UPS or the second independent power circuit.
+- **Power-transmission redundancy and switching**: reconfiguration of ±10 kV DC ring bus after fault isolation, Section 3.5.5(b), requires reliable **fast switchgear**, action <10 ms, and coordinated **intelligent protection relays**. Dual faults on the ring can still cause partial blackout. Critical loads must therefore include local UPS or second independent feeder for dual-redundant supply.
 
-- **Segregation of the heat tube network**: The high/moderate/low temperature three-way network referred to in section 3.5.4 (c) requires **separation valves in operation**. When a section of the pipe leaks as a result of a micrometeorite impact or aging of materials, the isolation valve can automatically close and remove the paragraph from the tube network without affecting the heating of other regions. Valve spacing and response time are determined in the detailed design for volumes 4 and 5.
-
-
-##3.5.9 End-energy closure ring: Moon helium-3 nuclear fusion power station (forward vision)
-
-** (a) Strategic positioning**
-
-Thermal-electric-photo hubs address the power needs of the lunar base (5-50 MWe) in the medium to long term, but when the lunar city enters the mass mass (phase IV), deep-space spacecraft are constructed in the lunar docks in bulk, energy-intensive heavy industries and particle physics are fully operational, the peak electricity demand of the base may climb to hundreds of MW or even Giva levels. At this point, the fusion solar energy, which relies on the sunglass arrays, will face a physical limit on the size of the mirror field and the capacity of the storage capacity — about 1 km2 of the sunglass area for each additional 100 MWe setup, while the available land for the polar regions at the end of the day peak is limited.
-
-Helium-3 fusion (D-3H reaction) is the ultimate solution for breaking this ceiling. Unlike fusion of thorium-thirium (D-T), D-3he reacts in theory with little neutrons, fusion energy is released mainly in the form of electric particles, which can be converted directly to electrical energy through magnetic currents, without the need for large steam turbines and heat exchangers, with a system efficiency of 60-70 per cent, and the reactor walls do not produce radioactivity as a result of neutron bombardment [11]. D-3he fusion is currently considered the leading candidate for advanced fusion fuel, with significant advantages in reducing tritium stocks, neutron flux, structural damage and activation, but is now more suitable for high-beta and/or non-Maxway plasma configurations than traditional Tokamak designs, with higher synchronous radiation losses. [11] The most recent study of the D-3He reaction transect indicates that the D-3He reactor is expected to produce 16-20 GW fusion power at approximately 40-45 keV, 10 T-magnetic field and 3x1020 m-3 electron density [12].
-
-The total helium-3 reserves injected by solar wind in the Moon are estimated at 1 million-5 million tons, while the known Earth reserves are only about 0.5 tons. It is conservatively estimated that 3 He in the whole moonside is about 3.7 ppb in the highlands and 7.8 ppb in the Moon Sea. Based on the 1998 global energy consumption rate and 50 per cent exploitation recovery rate, 3 He in the 3 m of the seafloor alone is sufficient to supply the Earth ' s total energy demand for more than 1,000 years [13]. Specific exploration data are provided in the monthly resource analysis in volume II, section 2.5.2, of the main volume, and in the helium-3 extraction programme in volume IV of this appendix.
-
-** (b) Overview of technical routes**
-
-The following is the conceptual programme for the D-3He fusion power plant, which is a forward-looking technology vision for the demonstration of interfaces with existing base energy systems:
-
-1. ** Fuel supply**: The helium-3 extraction facility described in volume IV, section 4.3.4, heats the Moon to approximately 700°C, releasing volatilization points injected by solar wind. The prototype of HEAT (helium extraction and collection test table) has been demonstrated to release 3he and other volatilities (hydrogen, helium-4, carbon dioxide, methane, nitrogen and water) by heating < 100 μm to 700 °C (for further information, see section 4.3.4.4). When the isotope is separated, helium-3 gas is enriched and transported to the fuel storage system of the fusion power station.
-2. ** fusion reactor**: application of inertial or magnetic binding (field inverse FRC) programmes. The FRC configuration is considered to be a more promising technological route for D-3he fusion because of its high beta value and open field surge, which can effectively mitigate the problem of synchronized radiation losses, and because the D-3he FRC power plant is attractive for environmental acceptability and power generation costs [11]. Heating of helium-3 and americium blends to fusion temperature (approximately 10 keV, i.e. about 1.16 x 108 K). The fusion products of the D-3he reaction are protons (p) and alpha particles (4 He), both of which are electric particles.
-3. **Magnetic fluid direct power generation**: fusion-generated electric particle flow through the magnetic fluid (MHD) channel, which directly converts kinetic energy to electrical energy without the need for the mid-stage of the steam turbine. The thermal electricity conversion efficiency theory can be as high as 60 per cent - 70 per cent, well above about 50 per cent of the supercritical CO2Breton cycle.
-** Residual heat use**: Helium helium (approximately 800°C) from the magnetic fluid channel enters the high-temperature tube network described in section 3.5.7 to provide for thermal heating of metal smelting and lunar burning processes; low-temperature residual heat (approximately 50°C) access to the residential catheterine network to provide a heating circuit, fully compatible with the waste-heat recovery system at the Heat-Electro-PV hub.
-
-** (c) Relationship to existing energy systems**
-
-Helium-3 fusion power stations are not replacements for thermal-electric-photographic hubs, but their ultimate upgrading. Both are designed to share the following interfaces:
-
-- ** High-temperature thermal tube network**: fusion of the residual heat of the fusion power station's magnetic fluid channel with the smelting salt heat at the cogeneration hub (500-750°C).
-- ** Low-temperature heating circuit**: both supply about 30-50°C of low-temperature waste heat to the residential nuclei network.
-- **Technology and distribution network**: MHD power generation output from fusion power plants is direct current, with direct access to the ±100 kV DC backbone, compatible with the existing ultracritical CO2-scaling AC/DC wholestream output.
-
-** (d) Time-line outlook**
-
-The commercialization time of D-3he fusion technology depends on two key factors: first, the scalable supply capacity of helium-3 fuel (the extraction programme for volume IV, section 4.3.4, is expected to reach the monthly production kg level and above in phase IV), and second, the engineering breakthrough for key fusion reactor technologies (the plasma binding time, heat-resistant materials for magnetic fluid power channels, etc.). It is widely accepted internationally that D-3he fusion is less likely to be commercialized before the middle of the century, and the programme has therefore positioned it as a vision option for the late phase IV (approximately 30-35).
-
-Until the fusion station is completed, the base ' s electricity needs will be met in full by thermal-electric-photo-photo hubs (specified mirror array + supercritical CO2Breton cycle + melted salt heat). The commercialization of fusion power plants will mark the end of the transformation of the lunar industry from “solar dependence” to “autonomous nuclear fusion energy” and will provide the physical basis for large-scale, month-to-month power exports to deep space.
+- **Sectional isolation in thermal network**: high/medium/low-temperature pipeline networks in Section 3.5.4(c) require **sectional isolation valves**. If one section leaks due to micrometeoroid impact or aging, valves must auto-close to isolate that segment without disrupting other zones. Valve spacing and response time are determined in detailed designs of Volumes IV and V.
 
 
-##3.6 To be validated and the criteria for determination
+### 3.5.9 Ultimate Closed-Loop Energy: Lunar Helium-3 Fusion Plant, Long-Term Vision
 
-The following items, to be validated, are reserved for this volume (vol. III), carry the results of volume I at the P0 level and provide border conditions for subsequent volumes. A certification system for P0/P1/P2/P3 integrated into volume VII of the main volume.
+**(a) Strategic role**
 
-| No. | Project | Method of validation | Criteria for success |
+The thermal-electric-light co-generation hub can meet mid- to long-term lunar demand at 5-50 MWe. However, once lunar cities reach ten-thousand-person scale in Stage IV, deep-space ships are batch-built at lunar dockyards, and high-power heavy industry and particle-physics facilities run at full operation, peak demand may rise to hundreds of megawatts or even gigawatts. At that point, concentrated solar based on heliostat arrays reaches physical limits in area and storage. Each additional 100 MWe may require roughly 1 km² of mirror area, while usable polar continuous-light land remains finite.
+
+Helium-3 fusion, D-3He, is the ultimate path to break this ceiling. Unlike deuterium-tritium fusion, D-T, D-3He theoretically produces minimal neutron output, releasing most energy as charged particles that can be converted directly by MHD generation without large steam turbines and heat exchangers. System efficiency can reach 60%-70%, and reactor-wall activation from neutron damage is greatly reduced [11]. D-3He is considered a primary advanced-fuel candidate for reducing tritium inventory, neutron flux, structural damage, and activation, though compared with traditional tokamak design it faces higher synchrotron-radiation losses and is currently more suitable for high-beta and/or non-Maxwellian plasma configurations [11]. Recent studies indicate D-3He reactors may output 16-20 GW fusion power near 40-45 keV, 10 T magnetic field, and 3x10^20 m^-3 electron density [12].
+
+Total solar-wind-implanted He-3 in lunar regolith is estimated at 1 to 5 million tons, while known terrestrial reserves are about 0.5 tons. Conservative estimates place He-3 content at about 3.7 ppb in highlands and 7.8 ppb in maria. At 1998 global energy consumption and 50% recovery, upper 3 m of mare regolith alone could supply Earth for more than 1,000 years [13]. Detailed survey data are in Main Volume II Section 2.5.2 and Appendix I Volume IV Section 4.3.4.
+
+**(b) Technical route overview**
+
+The following conceptual D-3He plant is a long-term technology vision and primarily defines interfaces with existing base energy systems:
+
+1. **Fuel supply**: helium-3 extraction facilities in Volume IV Section 4.3.4 heat regolith to about 700°C to release solar-wind-implanted volatiles. HEAT prototype systems have validated release of He-3 and other volatiles, hydrogen, He-4, CO2, methane, nitrogen, water, from heated <100 um regolith simulants at 700°C, see references in Volume IV Section 4.3.4. Isotopic separation then yields concentrated He-3 for fusion fuel storage.
+2. **Fusion reactor**: inertial or magnetic confinement, with field-reversed configuration, FRC, as a promising D-3He route due to high beta and open-field topology that can mitigate synchrotron losses. D-3He FRC plants are considered attractive in environmental acceptability and power cost [11]. Mixed D/3He fuel is heated to fusion temperatures around 10 keV, about 1.16x10^8 K. Main products are protons and alpha particles, both charged.
+3. **Direct MHD power generation**: charged fusion products pass through MHD channels and convert kinetic energy directly to electrical power without steam-turbine intermediate stages. Theoretical conversion can reach 60%-70%, above about 50% for s-CO2 Brayton cycles.
+4. **Waste-heat utilization**: high-temperature helium from MHD channels, about 800°C, enters high-temperature network in Section 3.5.7 for smelting and regolith sintering. Low-grade waste heat, about 50°C, enters habitation capillary heating loops and is fully compatible with the existing co-generation waste-heat architecture.
+
+**(c) Relationship with existing energy systems**
+
+Helium-3 fusion plants do not replace the thermal-electric-light hub but represent its ultimate upgrade. Shared interfaces include:
+
+- **High-temperature thermal network**: fusion MHD waste heat and hub molten-salt storage share 500-750°C high-temperature pipelines.
+- **Low-temperature heating loops**: both supply 30-50°C waste heat into habitation capillary networks.
+- **Transmission and distribution grid**: fusion MHD output is DC and can tie directly to ±100 kV DC trunks, compatible with AC/DC-rectified outputs from existing s-CO2 turbines.
+
+**(d) Timeline outlook**
+
+Commercialization timing for D-3He depends on two key factors: first, scaled He-3 supply capability, with extraction in Volume IV Section 4.3.4 expected to exceed kilogram-per-month scale in Stage IV; second, breakthrough of key reactor technologies such as confinement time and high-temperature-resistant MHD-channel materials. Internationally, probability of commercial D-3He before mid-century is generally viewed as low, so this plan positions it as a late Stage IV option around Year 30-35.
+
+Before fusion deployment, base power demand is fully met by the thermal-electric-light hub, heliostat arrays + s-CO2 Brayton + molten-salt storage. Commercial fusion deployment marks the final transition from solar dependence to autonomous fusion energy and creates a physical basis for large-scale deep-space power export.
+
+
+### 3.6 Validation Items and Success Criteria
+
+The validation items below are specific to this volume, Volume III. They inherit P0 results from Volume I and provide boundary conditions for subsequent volumes. All are integrated into Main Volume VII P0/P1/P2/P3 framework.
+
+| ID | Item | Validation Method | Success Standard |
 |:-----|:-----|:-----|:-----|
-**P1-E1**  ** Stable mirror tracking accuracy and moon dust decline In a moon-surface vacuum and moon-dust environment, a fixed-day mirror array operates for 12 consecutive months thallium (including at least six months of day) thallium thallium, with a tracking accuracy of 0.5 mrad and a mirror reflection rate of 5% as a result of the contamination of the moondust.
-**P1-E2** In ground vacuum, complete the test of 100 h of thallium (1010 MWe) running continuously Validation of start-up, speed-up, netting and load-regulating functions in a simulated surface thermal vacuum, with emphasis on the carrying capacity and stability of the dry gas bearings under 1/6 gravity of the surface
-**P1-E3**  ** Melted salt hot tanks warm up over the month and night  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  ** Dispersion loss from 565°C to approximately 350°C was 2% per day. Full-sized cans have greater heat inertia and actual dissipation losses are expected to be lower than the extrapolation of the scaling model
- **P2-E1**  ** Long-term performance of radiation dispersors  ** | accelerated aging of carbon-carbon composites under simulated moon-surface vacuum, UV and thermal cycle  **  ** determination of the dissipation rate on a 10-year scale  **
- **P2-E2** Spectrometer coating durability  ** 2-to-color spectroscope membrane coatings with an acceleration aging test for active cooling (approximately 100°C-150°C) under simulated moon-surface vacuum, ultraviolet and SPE proton irradiation |
-**P2-E3** Self-adaptation to the optical moon Long-term reliability testing of the optic acoustic accelerator (106106 cycles) in a ground-based simulation of the lunar thermal vacuum and moon dust environment
- **P2-E4**  ** Solid-state transformer monthly vacuum thermal management  ** 1:1 solid-state transformer sampler in ground vacuum silo for full power continuous operation of 100 h Validation of dissipation capacity and insulation reliability in simulated surface vacuum and low gravity environments. Confirms that SiC power units have a temperature of no more than 175°C and that epoxy resin is encapsulated at an aging rate under long-term local discharge.
+| **P1-E1** | Heliostat tracking precision and dust-related attenuation | Continuous heliostat-array operation for >=12 months under lunar-vacuum and lunar-dust conditions, including at least 6 daytime months | Tracking precision maintained <=0.5 mrad and mirror reflectivity attenuation from dust <=5% |
+| **P1-E2** | Lunar startup of supercritical CO2 turbine | Ground vacuum-chamber test of full-power operation >=10 MWe for >=100 h continuous run | Validate startup, acceleration, grid tie, and load regulation in simulated lunar thermal-vacuum conditions, with focus on dry gas bearing load capacity and stability under 1/6 g |
+| **P1-E3** | Cross-lunar-night thermal retention of molten-salt tanks | Simulated 14-day lunar-night heat-loss test in ground vacuum chamber using 1:10 scaled storage tank with MLI insulation and vacuum annulus | Heat loss from 565°C to about 350°C <=2% per day. Full-scale tanks have larger thermal inertia, so actual loss is expected lower than scaled extrapolation |
+| **P2-E1** | Long-term performance of radiative panels | Accelerated aging test of carbon-carbon composite panels under simulated lunar vacuum, UV, and thermal cycling | Determine ten-year-scale degradation rate of heat-rejection performance |
+| **P2-E2** | Durability of splitter coatings | Accelerated aging of dichroic dielectric coatings under simulated lunar vacuum, UV, and SPE proton irradiation with active cooling, about 100°C-150°C | Determine five-year-scale optical-performance degradation rate |
+| **P2-E3** | Lunar suitability of adaptive optics | Long-term reliability tests, >=10^6 cycles, of adaptive-optics collimation under simulated lunar thermal vacuum and dust | Validate wavefront-correction precision and long-term actuator reliability of deformable mirrors |
+| **P2-E4** | Lunar-vacuum thermal management of solid-state transformers | 1:1 transformer prototype tested in ground vacuum chamber at full power for >=100 h continuous run | Validate heat rejection and insulation reliability under simulated lunar vacuum and low gravity. Confirm SiC junction temperature <=175°C and aging rate of epoxy encapsulation under prolonged partial discharge |
 
 
-# # 3.7 Parameter Output
+### 3.7 Parameter Outputs
 
-| Parameter | 数值 | | | | | | | | | | |
+| Parameter | Value | Status | Receiving Volume |
 |:-----|:-----|:-----|:-----|
-Recent peak power demand 100 kWe-1 MWe Design benchmark 2 (capital construction), 5 (manufacturing system)
-*Future peak power demand 5-50 MWe | Quantification scale estimates | Volume II (Consistent hub size), Volume V (full capacity production) |
-• Top-of-the-lunar city electricity demand 100-500 MWe (Future Giva class)
-| Total luminous area of the sunglass array (phase) | About 50,000 m2 | Design baseline | Volume II (set aside for skylight platform) |
-| Total luminous area (II) | approximately 100,000 m2 | Design target | Volume II (set aside for skylight platform) |
-| The location of the fixed mirror site | 500 m, thermal distance 500 m, light-route connectivity | Design principles | Volume II (Construction of the Sky Window) |
-| ASM E490-00a standard AMO0 solar spectra [3] Design benchmark | Volume VII (CEE calculation) |
-| High temperature thermal energy (MLI temperature) transmission efficiency | Kilometre class heat loss rate < 0.01% | Design target | Volume II (functional partition), Volume V (Industrial Network) |
-| Short-range transmission efficiency (for long term)  < 0.1% (< 100m) | Design baseline | Volume II (Inlandation of Equipment) |
-• Natural photoconductor service radius (reflective) | efficiency zone (efficiency > 50%) ≤ 500 m | design baseline | Volume II (underground function partition), Volume VII (light design) |
-| Natural light catheter radius (accurate + line pattern) | Efficiency area (almost undamaged) can be extended to kilometres | long-term elasticity target | Volume II (melanite line segment assessment), Volume III site (GRP data) |
-| Soft fibre optic cable utility length ≤ 20 m ≤ Design benchmark | Volume VII (Light end design) |
-| Supercritical CO2-to-Strategic Monopower | 10-25 MWe | Design Benchmark | Volume V (Industrial Powerload) |
-| Melting salt heat storage capacity (phase) | 12 hours (approximately 120 MWhe equivalent) | Design benchmark | 2nd volume (ground heat tank space reserved) |
-| Melting salt heat storage capacity (phase II) | 24 hours (approximately 240 MWhe equivalent) | Design target | 2nd volume (for underground hot tank space) |
-| High-temperature melted salt temperature | About 565 °C (heat storage)/ 700 – 750 °C (leveling entrance) | Design benchmark | Volume IV (water ice extraction), Volume V (smelting smelting) |
-| Low-temperature waste thermal temperature at nuclear power/power plant | About 30°C – 50°C | Design baseline | Volume II (Caline tube network heating interface) |
-±10 kV DC (internal) / ±100 kV DC (long-range)
-| Superconductive transmission appliance > long-term one-way > 100 MW or distance > 100 km | long-term upgrade options | Volume VI (orbit transport towed power) |
-Helium-3 fusion power station deployment phase | later in the fourth phase (approximately 30-35)
+| Near-term peak power demand | 100 kWe-1 MWe | Design baseline | Volume II, infrastructure construction; Volume V, manufacturing system |
+| Long-term peak power demand | 5-50 MWe | Order-of-magnitude estimate | Volume II, co-generation hub sizing; Volume V, full-load production |
+| Lunar-city-stage peak power demand | 100-500 MWe, long-term gigawatt class | Visionary estimate | Volume X, new civilization node |
+| Heliostat total collection area, Phase I | about 50,000 m² | Design baseline | Volume II, skylight platform area reservation |
+| Heliostat total collection area, Phase II | about 100,000 m² | Design target | Volume II, skylight platform area reservation |
+| Heliostat siting constraints | Heat-transfer distance <=500 m and optical-path connectivity | Design principle | Volume II, skylight infrastructure planning |
+| Solar-spectrum data baseline | ASTM E490-00a AM0 solar spectrum [3] | Design baseline | Volume VII, equivalent-efficiency calculations for light conduits |
+| High-temperature heat transmission efficiency with MLI | Heat-loss rate <0.01% over kilometer class distances | Design target | Volume II, functional zoning; Volume V, industrial thermal network |
+| Long-term short-distance electric transmission efficiency | Loss <0.1%, under 100 m | Design baseline | Volume II, underground equipment layout |
+| Natural-light conduit service radius, reflective mode | High-efficiency zone, >50% efficiency, radius <=500 m | Design baseline | Volume II, underground functional zoning; Volume VII, lighting design |
+| Natural-light conduit service radius, collimated + straight mode | High-efficiency near-lossless zone extendable to kilometer class | Long-term flexibility target | Volume II, straight-segment lava-tube evaluation; Volume III siting via GPR data |
+| Practical length of flexible optical cable | <=20 m | Design baseline | Volume VII, terminal lighting design |
+| Single-unit power of s-CO2 turbine | 10-25 MWe | Design baseline | Volume V, industrial electric load |
+| Molten-salt storage capacity, Phase I | 12 h, about 120 MWhe equivalent | Design baseline | Volume II, underground tank space reservation |
+| Molten-salt storage capacity, Phase II | 24 h, about 240 MWhe equivalent | Design target | Volume II, underground tank space reservation |
+| High-temperature molten-salt temperature | about 565°C storage and 700-750°C turbine inlet | Design baseline | Volume IV, water-ice extraction; Volume V, smelting and sintering |
+| Low-grade waste-heat temperature from reactors and plant | about 30°C-50°C | Design baseline | Volume II, capillary heating interface |
+| Main T&D voltage classes | ±10 kV DC internal and ±100 kV DC long distance | Design baseline | Volume VI, traction supply for orbital transport |
+| Superconducting transmission applicability | Long-term single circuit >100 MWe or distance >100 km | Long-term upgrade option | Volume VI, traction supply for orbital transport |
+| Helium-3 fusion deployment stage | Late Stage IV, about Years 30-35 | Vision positioning | Volume IV, helium-3 extraction; Volume IX, helium-3 export revenue |
 
 
-#3.8 Conclusion of volume 3
+### 3.8 Conclusion of Volume III
 
-The volume completes the planning of the lunar industrial energy system — from a combination of hundreds of kilowatt-grade photovoltaics and nuclear power supply — to a centralized structure of thermal-electric-photogram hubs of tens of megawatt-grades of industrial maturity, to the final closure of the Giva-grade helium-3 fusion power plant in the late stages of phase IV, covering the full energy demand curve of the lunar base, from “residents” to “capable” to “capable” to “capable of large-scale external power”.
+This volume completes the full energy-system roadmap for lunar industry, from the distributed near-term combination of PV + nuclear + storage at hundreds-of-kilowatts scale in early infrastructure phases, to centralized thermal-electric-light co-generation at tens-of-megawatts scale in mature industrialization, and ultimately to gigawatt-class helium-3 fusion in late Stage IV. It covers the complete demand curve from "habitable" to "self-sustaining" to "large-scale external power export."
 
-Core findings:
+Core conclusions:
 
-** The base's energy needs will rise from 100 kW to 10 MW in 30 years, with a long-term Dagewa. ** This increase is a corollary of the simultaneous expansion of the population (from 20 to 10,000 people) and industry (from 3D printing to the heavy industry-wide chain) and the need to reserve electricity access and heat tank space at an early stage of construction.
+1. **Base energy demand will rise from hundred-kilowatt class to tens-of-megawatts class within 30 years, and to gigawatt class in the long term.** This growth is an inevitable result of simultaneous expansion in population, from 20 to 10,000, and industry, from 3D printing to full heavy-industry chains, and requires reserving power corridors and thermal-storage spaces from the earliest infrastructure stage.
 
-2. ** The recent combination of photovoltaic + nuclear power supply + storage is reliable. ** The technical maturity of the package is high (both the photovoltaic and the Kilopower reactor [1] are validated on the ground and in orbit) and the medium power requirements and higher reliability requirements for the fit-for-basic construction period. The low-temperature waste heat of the nuclear reactor should be connected to the base heating circuit starting with phase II of capital, replacing some of thermal pump power consumption.
+2. **Near term should adopt PV + nuclear + storage as the reliable combination.** This scheme has high technology readiness, both PV and Kilopower-class reactors [1] already having ground and in-orbit validation, and suits medium power and high reliability requirements in infrastructure phases. Low-grade reactor waste heat should be connected to base heating loops from Infrastructure Phase II onward to replace part of heat-pump electricity use.
 
-3. ** Thermal-electric-photo-optic hubs are the final form in the forward period. ** Listed as the front end of a unified photothermal capture with a supercritical CO2 Brettonn cycle as the core for efficient power generation [P] 2 [4], with high-temperature smelting salt heat to be used as a buffer for inter-monthly night energy, with a spectrometer to remove “cool light” from the ground for natural lighting, and with pyrogas and nuclear power waste heat to provide process and heating heat from 30°C to 750°C. The system has increased the efficiency of electricity generation from about 20 to 30 per cent of conventional photovoltaics to more than 50 per cent, the efficiency of integrated energy use to more than 85 per cent, and natural light as a zero-cost by-product of electricity generation.
+3. **Long term should use the thermal-electric-light co-generation hub as the ultimate architecture.** A lunar heliostat array serves as unified solar-thermal front end, supercritical CO2 Brayton cycle as high-efficiency generation core [2][4], high-temperature molten-salt storage as cross-lunar-night energy buffer, spectral splitters extracting "cold light" for underground natural illumination, and turbine extraction plus reactor waste heat supplying process and heating loads across 30°C to 750°C. This architecture increases generation efficiency from roughly 20%-30% in traditional PV-only pathways to above 50%, increases total energy-utilization efficiency to above 85%, and turns natural illumination into a near-zero-marginal-cost byproduct of generation.
 
-4. **The transmission and distribution network structure takes into account recent practicality and forward-lookingness. ** The voltage classification is based on the IEC 60038 international standard to ensure global compatibility between industry and life electricity. All grid-connected nodes are equipped with a triple protection system consisting of anti-diode tubes, long-range breakers and manual isolation switches to ensure absolute electrical security of the base grid. Long-range, high-temperature superconductive direct-flow transmissions are reserved for upgrading pathways for long-range, superpower transmissions, as well as a network interface for the direct-flow output of helium-3 fusion power station MHD, making full use of the natural advantage of moon-surface cooling.
+4. **The transmission/distribution architecture balances near-term practicality and long-term foresight.** Voltage classes are selected based on IEC 60038 to ensure global industrial and habitation compatibility. All grid-tied nodes use triple protection, anti-reverse diode, remote breaker, manual isolator, to ensure absolute electrical safety. Long-term provisions include superconducting DC upgrades for remote ultra-high-power transfer and MHD DC interconnection interfaces for helium-3 fusion, explicitly leveraging lunar low-temperature environmental advantage.
 
-5. **The location of the sunglasses and spotlight towers is engineeringly flexible. ** Core constraints are heat transfer distance and light-circuit connectivity, not having to be above the sky window. On that day, when window space was limited or the terrain was difficult, mirrors and towers could be deployed in flat areas hundreds of metres away and connected to underground equipment through short-range pipes and lightways.
+5. **Heliostat fields and concentrator towers have engineering siting flexibility.** Core constraints are heat-transfer distance and optical connectivity, not strict colocating over skylights. When skylight space is limited or terrain is unfavorable, mirror fields and towers can be deployed on flat areas hundreds of meters away and linked to underground rooms through short thermal/optical paths.
 
-6. **Thermal, electrical and phototransmission efficiency assessment determines the spatial layout of underground cities**:** thermal power** (through MLI temperature-conservation pipelines) is near-neutral, making industrial areas flexible to deploy;** electricity** (underground short distance) is extremely low and supports the safe undergroundization of power generation equipment;** natural light** An efficient advantage within 500 metres of reflector optic catheters is the recent strong constraint on the layout of the living areas, but this restriction can be broken in the long term in areas with geological conditions or excavation capability, with near-loss-free light transmissions in the kilometre class, through the programme **According to optical + straight-line catheters**.
+6. **Evaluated transmission efficiencies of heat, power, and light determine underground-city spatial layout.** **Heat** can be delivered near-losslessly via MLI-insulated pipelines, allowing flexible industrial siting; **power** has very low loss over short underground distances, supporting safe underground placement of generation equipment; **natural light** has strong short-term advantages within 500 m in reflective conduits, constraining near-term habitation layouts, but this can be broken in suitable geological zones through **adaptive-optics collimation + straight conduits** to enable kilometer-class near-lossless transmission.
 
-7. **The working temperature of the spectrometer needs to be observed. ** In a moon-surface vacuum, a two-way spectroscopy, even if only trace light is absorbed (approximately 0.1 per cent-0.5 per cent), has a balanced temperature of about 150°C-250°C. Active cooling circuits are necessary to keep the temperature within a safe range (approximately 100°C-150°C) to ensure that coatings have a lifetime of more than 10 years.
+7. **Splitter operating temperatures must be treated realistically.** In lunar vacuum, even small optical absorption in dichroic splitters, about 0.1%-0.5%, can yield equilibrium temperatures around 150°C-250°C. Active cooling is necessary to keep temperatures in safe ranges, around 100°C-150°C, and to ensure coating lifetimes above ten years.
 
-8. ** There is a natural heat dispersion synergy between photothermal power plants in the arctic region and meteorite pit mining. ** Large quantities of cryogenic waste heat from power plants can be imported into mining sites in nearby permanent shades through insulation pipelines, providing “free” process heat for water ice extraction and reducing reliance on electric heating. Specific pipeline programmes are carried out by volume IV.
+8. **Natural thermal-rejection synergy exists between polar solar-thermal plants and crater mining.** Large quantities of low-grade plant waste heat can be piped into nearby permanently shadowed extraction zones as effectively "free" process heat for water-ice extraction, reducing electric heating dependence. Detailed pipeline schemes are developed in Volume IV.
 
-9. **Helium-3 fusion is the ultimate energy closure to break the physical ceiling of the siding mirror array. ** D-3he fusion power station when base power requirements enter the Giva level. 11 [12] Helium-3 to be fueled from the local lunar mining [ 13] A seamless interface with the thermal-electric-photographic hub is achieved through the direct generation of magnetic fluids and the use of residual thermal ladders. This transformation will mark the movement of the lunar industry from “solar dependence” to “autonomous fusion” energy, providing the physical basis for large-scale deep-space power exports.
+9. **Helium-3 fusion is the ultimate closed-loop path beyond heliostat physical limits.** When demand enters gigawatt class, D-3He plants [11][12] fueled by locally extracted helium-3 [13] can integrate direct MHD generation and cascaded waste-heat utilization, creating seamless continuity with thermal-electric-light systems. This marks transition from solar dependence to autonomous fusion energy and enables large-scale deep-space power export.
 
-10. ** All the options for implementation in this volume include, at the end of the relevant section, possible additional constraints on actual works** (e.g., high-temperature long-range pumps, opening and routing of direct light catheters, vacuum maintenance, power redundancy switching, sub-segregation of the heat pipe network, etc.). These variations do not negate the physical viability of the programme, but require that the corresponding engineering space and construction steps be set aside in the detailed design of subsequent volumes (vols. II, IV, V and VII).
+10. **All implementation schemes in this volume explicitly list additional real-world engineering constraints at the end of related sections**, including long-distance pumping of high-temperature fluids, excavation/alignment for straight light conduits, vacuum maintenance, power-redundancy switching, and sectional isolation of thermal networks. These factors do not invalidate physical feasibility but require explicit space allocation and construction planning in detailed designs of Volumes II, IV, V, and VII.
 
 
-References
+### References
 
-[1] NASA. “Kilopower/KRUSY Project: Mission Power for Space Employment.”
+[1] NASA. Kilopower/KRUSTY Project: Fission Power for Space Exploration. 2018. https://www.nasa.gov
 
-[2] Dostal, V., et al., “A Supercrical Carbon Dioxide Cycle for Next General Nuclear Realitys.” MIT-ANP-TR-100, 2004.
+[2] Dostal, V., et al. A Supercritical Carbon Dioxide Cycle for Next Generation Nuclear Reactors. MIT-ANP-TR-100, 2004.
 
-[3] ASTM International. * ASTM E490-00a (2019) – Standard Solar Constant and Zero Air Mass Solar Space Tables* 2019.
+[3] ASTM International. ASTM E490-00a(2019) - Standard Solar Constant and Zero Air Mass Solar Spectral Irradiance Tables. 2019.
 
-[4] Turki, C.S., et al., “Supercurrical CO2 CCycles for CSP and Nuclear Applications.” NREL/PR-5500-61234, 2013.
+[4] Turchi, C. S., et al. Supercritical CO2 Brayton Cycles for CSP and Nuclear Applications. NREL/PR-5500-61234, 2013.
 
-[5] Ho, C. K., & Iverson, B. D. “Review of high-technology central reservoirs for concentrating solar power.”
+[5] Ho, C. K., and Iverson, B. D. Review of high-temperature central receiver designs for concentrating solar power. Renewable and Sustainable Energy Reviews, Vol. 29, 2014, pp. 835-846.
 
-[6] Calvet, N., et al., “Compatibility of communication strategies with Molten salt for CSP plans”.
+[6] Calvet, N., et al. Compatibility of containment materials with molten salt for CSP plants. Energy Procedia, Vol. 49, 2014, pp. 752-761.
 
-[7] Kawamoto, H., & Shibata, T. “Electrostatic giving system for removing dust above to solar panels on a programmatic case.” *Journal of Electrostatics*, vol. 73, 2015, pp. 54-60.
+[7] Kawamoto, H., and Shibata, T. Electrostatic cleaning system for removing dust adhering to solar panels on a planetary base. Journal of Electrostatics, Vol. 73, 2015, pp. 54-60.
 
-[8] Boltzmann, L.
+[8] Boltzmann, L. Ableitung des Stefan'schen Gesetzes, betreffend die Abhängigkeit der Wärmestrahlung von der Temperatur aus der electromagnetischen Lichttheorie. Annalen der Physik, Vol. 258, 1884, pp. 291-294.
 
-[9] Zhao Ji-ji, Sun Wei, Quanquin, etc. Research [J]. Atomic science and technology: 1-13.
+[9] Zhao, S., Sun, W., Zhuang, K., et al. Study on long-life lunar-base nuclear power reactor core physics based on annular fuel. Atomic Energy Science and Technology, 2025, 59(1): 1-13.
 
-[10] Ingersall, D.T., & Carelli, M.D. (Eds.) *Handbook of Small Modular Nuclar Actionors* (Second Evaluation). Woodhead Publishing, 2021.
+[10] Ingersoll, D. T., and Carelli, M. D., Eds. Handbook of Small Modular Nuclear Reactors, Second Edition. Woodhead Publishing, 2021.
 
-[11] Motevalli, S.M., & Fadaei, F. A Comparison Between the Burn Conference of Deuterim-Tritium and Deuterum-Helim-3 Action and Status Limiteds. *Fundamental Plasma Physics*, 2025, 14:100070.
+[11] Motevalli, S. M., and Fadaei, F. A comparison between the burn condition of deuterium-tritium and deuterium-helium-3 reaction and stability limits. Fundamental Plasma Physics, 2025, 14: 100070.
 
-[12] Bahmani, J. The effect of Fundamental Quantities of the Deuterum-Helim-3 Fusion Action in Tokamak. * Visnyk of V.N. Karazin Kharkiv National University*, 2025, 42: 48-59.
+[12] Bahmani, J. The effect of fundamental quantities of the deuterium-helium-3 fusion reaction in tokamak. Visnyk of V.N. Karazin Kharkiv National University, 2025, 42: 48-59.
 
-[13] Wittenberg, L.J., et al., A Review of 3 He Resources and Action for Use as Fusion Fuel. *Fusion Technology*, 1992, 21(4): 2230-2253.
+[13] Wittenberg, L. J., et al. A review of 3He resources and acquisition for use as fusion fuel. Fusion Technology, 1992, 21(4): 2230-2253.

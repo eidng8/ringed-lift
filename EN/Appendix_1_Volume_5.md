@@ -1,685 +1,685 @@
-# Book one: Moon industry
+# Appendix I: Lunar Industry
 
-Volume V: Manufacturing systems
+## Volume V: Manufacturing System
 
-** Version**: 1.4<br/>
-** Prepared**: May 2026 <br/>
-** Monetary unit**: RMB, symbol: <br/>
-**Contribution master book**: main book, volume II (material parameters), volume VII (engineering verification) <br/>
-** Pre-read**: Volume I (Preventive missions), Volume II (location and infrastructure), Volume III (energy systems), Volume IV (resource exploration and mining works) of this appendix
+**Version**: 1.4<br/>
+**Date**: May 2026<br/>
+**Currency Unit**: RMB (Y)<br/>
+**Related Main Volumes**: Main Volume II (Material Parameters), Main Volume VII (Engineering Verification)<br/>
+**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Siting and Infrastructure), Volume III (Energy System), Volume IV (Resource Prospecting and Mining Engineering)
 
 
-## Glossary
+### Terminology Table
 
-Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation
+| Abbrev. | Chinese Term | Description |
 |------|----------|------|
-Three-Dimensional
-| C/SiC | Carbonated Silicon Fibre Enhancement Composite Materials | High temperature structure elements materials |
-CELSS Closed Ecolife Support System
-| CFRP | Carbon fibre enhanced polymers | Light high and strong structural material |
-| CNT | Carbon nanopipe | Core cable material for the ring ladder and moon industry
-| CVD | Chemical Gas Phase Sedimentation | Core process for CNT manufacture, in this case the monthly mass production version
-Discrete Element Method
-| EMS | electromagnetic mixing | Electromagnetic Stirring, non-contact mixing for high temperature melting ponds
-| EVA extramural activity | Astronauts in the moon or space
-|FCCVD | Floating Catalytic Chemical Gas Sedimentation | Main process route for CNT continuous manufacture, monthly mass production
-| FFC | Cambridge-based melted salt electrolysis | Fray-Farthing-Chen, direct electrolysis of solid oxides as metal
-GCR radium from high-energy particles outside the solar system
-| HRA | Rockwell Hardness A | Hardness scale for hard materials and cemented carbides |
-| HRC | Rockwell Hardness C | Common hardness scale for steels and hardened alloys |
-| HV | wilness | microhardness measurement ruler |
-ISRU In-situ resource utilization
-| kWe | kilowatt power | units of power output from power generation systems |
-kWh kWh
-|LIBS | Laser Inducing Spectroscopy
-| LISAP-MSE | Lunar In-Situ Aluminum Production via Molten Salt Electronicsis
-| MLI | multilayer insulation | reflective insulation material for passive thermal control in a vacuum environment
-| MWe | MWW power | units of power output from power generation systems
-| MWt | megawatt thermal power | Thermal power unit of the heating or storage system |
-| Nak | Potassium alloy | liquid metal work for thermal conductor for active liquid cooling circuits
-NASA National Aeronautics and Space Administration
-| np-fe < nano-grade metal metal particles < < 100 nm >
-| PE | Polyethylene | High-density polyethylene, radiation protection slow layer material
-| PTFE | Polytetrafluoroethylene | Seal material, low friction factor, wide temperature vacuum compatibility
-| RHU | Radioisotope Heating Unit
-| SPE | Solar particle event | High-energy particle flow from solar eruption |
-| SPUA | Spraying polypolygic elastics | High elastic waterproof coatings for lacquer seals
-| SSAP Process for silicate-sulphate
-| WC-Co | Hard alloy (tungsten carbon-cobalt) | High-resistant grinding material
-XRF | X-ray fluorescent spectrometer | In situ rapid analysis of moon boundary element components
-Ilmenite, FeTio3
-♪ High calcium stubble ♪
-Anorthite, CaAl2Si2O8
-Troulite, FeS
-| permanganate permanganate permanganate permanganate permanganate
-| | | |                
-Crystal, Na3AF6
-| Carbon sphere particle meteorite | Carbon sphere meteorite | Raw asteroid material rich in carbon, water and organic matter, impact residue spreading on the surface of the Moon
-The solar wind is injected, the solar wind is volatilized, and the heated H, H, C, N plasma in the solar wind is injected into the surface of the moonside particles.
-Curie Temperature
+| 3D | Three-dimensional | Three-Dimensional |
+| C/SiC | Silicon-carbide-fiber-reinforced composite | High-temperature structural material |
+| CELSS | Closed ecological life-support system | Self-circulating life-support system |
+| CFRP | Carbon-fiber-reinforced polymer | Lightweight high-strength structural material |
+| CNT | Carbon nanotube | Core cable material for the ring and lunar industry |
+| CVD | Chemical vapor deposition | Core CNT process, lunar mass-production version |
+| DEM | Discrete element method | Discrete Element Method |
+| EMS | Electromagnetic stirring | Non-contact stirring for high-temperature melt pools |
+| EVA | Extravehicular activity | Astronaut operations on lunar surface or in space |
+| FCCVD | Floating-catalyst chemical vapor deposition | Main route for continuous CNT production, lunar mass-production version |
+| FFC | FFC Cambridge process | Fray-Farthing-Chen process; direct electroreduction of solid oxides |
+| GCR | Galactic cosmic rays | High-energy radiation particles from outside the Solar System |
+| HRA | Rockwell hardness A scale | Hardness scale for hard alloys |
+| HRC | Rockwell hardness C scale | Hardness scale for hardened steels |
+| HV | Vickers hardness | Microhardness scale |
+| ISRU | In-situ resource utilization | Manufacturing and survival using local lunar resources |
+| kWe | Kilowatt electric | Electric power output unit |
+| kWh | Kilowatt-hour | Energy unit |
+| LIBS | Laser-induced breakdown spectroscopy | Online elemental analysis |
+| LISAP-MSE | Lunar In-Situ Aluminum Production via Molten Salt Electrolysis | Aluminum production route on the Moon |
+| MLI | Multi-layer insulation | Reflective passive insulation for vacuum thermal control |
+| MWe | Megawatt electric | Electric power output unit |
+| MWt | Megawatt thermal | Thermal power unit for heat collection/storage |
+| NaK | Sodium-potassium alloy | Liquid-metal working fluid for active cooling loops |
+| NASA | National Aeronautics and Space Administration | U.S. space agency |
+| np-Fe | Nanoscale metallic iron particles | Naturally occurring nano-iron in regolith, particle size <100 nm |
+| PE | Polyethylene | High-density polyethylene radiation-moderation layer |
+| PTFE | Polytetrafluoroethylene | Sealing material with low friction and wide-temperature vacuum compatibility |
+| RHU | Radioisotope heating unit | Device that uses decay heat for thermal maintenance |
+| SPE | Solar particle event | High-energy particle bursts from solar eruptions |
+| SPUA | Spray polyurea elastomer | High-elasticity waterproof coating for cave-wall microcrack sealing |
+| SSAP | Silicate-sulfuric-acid process | Sulfur extraction and sulfuric-acid production from lunar sulfides |
+| WC-Co | Tungsten-carbide-cobalt hard alloy | High wear-resistance material |
+| XRF | X-ray fluorescence spectrometer | In-situ rapid elemental analysis for regolith |
+| Ilmenite | Ilmenite (FeTiO3) | Most critical Fe-Ti oxide mineral in mare basalt |
+| High-calcium plagioclase | High-calcium plagioclase (CaAl2Si2O8) | Major mineral in highland anorthosite with high Ca and Al content |
+| Anorthite | Anorthite (CaAl2Si2O8) | Al-rich silicate mineral broadly distributed in lunar highlands |
+| Troilite | Troilite (FeS) | Common sulfide mineral in mare basalt |
+| Hadfield steel | High-manganese steel | Wear-resistant material for crusher hammers and liners |
+| Bimodal grading | Bimodal size distribution | Coarse/fine dual-dominant particle distribution in regolith |
+| Cryolite | Cryolite (Na3AlF6) | Electrolyte for molten-salt aluminum electrolysis |
+| Carbonaceous chondrite | Carbonaceous chondrite | Primitive asteroid material rich in C, H2O, and organics; impact residues on Moon |
+| Solar-wind implanted volatiles | Solar-wind implanted volatiles | H/He/C/N ions implanted into near-surface regolith grains |
+| Curie temperature | Curie temperature | Critical temperature where ferromagnetism is lost |
 
 
-# # # 5.1 Caption
+### 5.1 Introductory Statement
 
-This volume, located at the production core** of the Moon industrial system, focuses on the following core questions:
+This volume is positioned as the **manufacturing core** of the lunar industrial system and focuses on the following core questions:
 
-> How do building skeletons, metal ore concentrates, water ice and various surface minerals extracted from the moon be processed into actual building materials, industrial materials and CNT cables on the Moon? Where does aluminium come from? Where does carbon come from? Where does sulphur come from? Where does titanium come from? Is the history of each of the ingredients clear and closed? Has the use of each element of the Moon been maximized? How much power does a moonside construction line and metal smelter take? When can CNT mass plants be upgraded from experimental to industrial? What is the sum of all the production equipment that needs to be launched from Earth? Can these processes work in a Moon vacuum and low gravity? Will the combined effects of high temperatures and magnetic fields reduce the quality of the product?
+> How are extracted lunar construction aggregates, metallic concentrates, water ice, and regolith mineral fractions converted on the Moon into practical construction materials, industrial feedstocks, and CNT cables? Where does aluminum come from? Where does carbon come from? Where does sulfur come from? Where does titanium come from? Is every key feedstock fully closed-loop and traceable? Is every major regolith element maximally utilized? How much electric power do lunar construction-material lines and metallurgical furnaces require? When can the CNT factory scale from experimental to industrial operation? What is the total launch mass of all Earth-supplied production equipment? Can these processes operate reliably under lunar vacuum and low gravity? Could coupled high-temperature and magnetic-field effects degrade product quality?
 
-This volume is attached to:
-- ** Volume I (Preventive mission)**: The feasibility of the in-situ CNT (P0-M2) and storage of building/catalyst raw materials (P0-M7, P0-M8).
-- ** Volume II (location and infrastructure)**: location of deployment of construction material production lines and metal smelters (monthly or underground industrial zone caves) has been determined.
-- ** Volume III (Energy systems)**: Thermal interfaces for low and medium temperatures and high temperatures for construction materials sintering, metal smelting and CNT manufacturing have been provided.
-- ** Volume IV (Resource exploration and mining works)**: supply and grade standards for building bone, metal mineral concentrate and water ice have been defined.
+This volume inherits:
+
+- **Volume I (Pioneer Missions)**: confirmed feasibility of in-situ CNT production (P0-M2) and reserves of construction and catalyst feedstocks (P0-M7, P0-M8).
+- **Volume II (Siting and Infrastructure)**: determined deployment locations for construction-material lines and metallurgical furnaces (surface or underground industrial sections).
+- **Volume III (Energy System)**: provided medium-/high-temperature process-heat interfaces for sintering, metallurgy, and CNT production.
+- **Volume IV (Resource Prospecting and Mining Engineering)**: defined supply quantity and grade standards for construction aggregates, metallic concentrates, and water ice.
 
 Core tasks of this volume:
 
-Clears the sources, intermediate transformation pathways and final product movements of all key materials involved in the entire industrial chain — aluminium, iron, titanium, carbon, sulphur, silicon, oxygen — and eliminates logical gaps such as “where Al came from”.
-2. Establishment of a full chain material balance model for products from volume IV mining output to volume V** to ensure that there are no broken chains or redundancies in the chain of capacity matching.
-3. Design of complete process processes and capacity indicators for the production of monthly materials.
-Establishment of a system of ** ladders of material after bone sifting**, giving priority to the extraction of high-value components (aluminium, titanium, iron, catalyst precursors) and the re-use of residues for the production of building materials, increasing the utilization of the full moonside component from “sufficient” to “optimal”.
-Designing a phased construction programme for the CNT mass plant and a process process for metal smelters.
-6. Provide quantitative estimates of quality, energy consumption and capacity for all manufacturing equipment.
-7. Assess the adaptation of industrial production steps to the Moon vacuum and low-gravity environment, in particular the effects of the combination of high temperatures and magnetic fields on the quality of the slag-separated products.
-Establishment of phased certification standards for manufacturing systems.
+1. Clarify all key materials in the full chain, Al, Fe, Ti, C, S, Si, O, including source, intermediate conversion path, and final destination, and remove logical gaps such as where Al comes from.
+2. Build a **full-chain material-balance model** from Volume IV mining output to Volume V manufactured products, ensuring capacity matching without bottlenecks or redundant overbuild.
+3. Design complete process flow and production targets for lunar construction-material lines.
+4. Build a **cascaded utilization system** for each size fraction after aggregate screening, prioritize extraction of high-value components (Al, Ti, Fe, catalyst precursors), and route residual fractions to construction materials, upgrading regolith utilization from merely sufficient to optimized.
+5. Design phased construction for CNT mass-production plants and process flow for metallurgical workshops.
+6. Provide order-of-magnitude estimates for mass, energy consumption, and output of all manufacturing equipment.
+7. Evaluate process adaptability in lunar vacuum and low gravity, especially the coupled effect of high temperature and magnetic fields on slag-metal separation quality.
+8. Define phased validation criteria for the manufacturing system.
 
 
-##5.2 Source, intermediate and end product of whole industry chain raw materials
+### 5.2 Full-Chain Feedstock Sources, Intermediates, and Final Products
 
-Before embarking on specific manufacturing processes, all critical materials involved in the whole industry chain must be combed and any logical gap “where an element comes from” removed.
+Before detailing specific manufacturing steps, all key feedstocks must be fully mapped to eliminate any missing source logic.
 
-###5.2.1 Aluminium source — complete path from the Moon to the aluminum
+#### 5.2.1 Aluminum Source: Complete Path from Regolith to Ingot
 
-Aluminium in the moon's basking rock is given in the form of aluminum oxide ($Al_2O_8) in the slopes ($CaAl_2Si_2O_8$) and calcium ($CaAl_2Si_2O_8$) rather than titanium ore concentrate. The titanium mine itself does not contain aluminium, so that the aluminum in metal smelters cannot be used as a material for titanium concentrate.
+In mare basalt, Al is primarily hosted as alumina ($Al_2O_3$) in plagioclase/anorthite ($CaAl_2Si_2O_8$), not in ilmenite concentrate. Ilmenite itself does not contain Al, so aluminum ingots cannot be produced from ilmenite concentrate.
 
-Aluminium is derived from the rich aluminium silicate minerals in the Moon (surface soil) and is extracted mainly by the following two pathways.
+The primary aluminum source is regolith aluminosilicates, extracted through two routes.
 
-** Path 1: Aluminium thermal reduction-melted salt electrolysis (main scenario)**
+**Route 1: Aluminothermic Reduction + Molten-Salt Electrolysis (Primary Route)**
 
-Aluminium thermal reduction combined with inert anode-melted salt electrolysis is a closed-ring programme specifically designed for the utilization of the in situ resources of the Moon. The Missouri University of Technology team has been successful in extracting aluminium of more than 85 per cent purity from the Moon border simulator[11] using smelting salt electrolysis. Experimental results of the processing of MLS-1 and NEU-January are available for Al-Si-Ti-Fe alloy products [18]. The overall process is as follows:
+This closed-loop route is designed for lunar ISRU. A Missouri S&T team has extracted aluminum above 85% purity from lunar simulants via molten-salt electrolysis [11]. Experiments on MLS-1 and NEU-1 simulants produced Al-Si-Ti-Fe alloy products [18]. Process:
 
-1. **Aluminium thermal reduction**: 2-6 hours of aluminium thermal reduction of the Moon by a metal aluminum at 940-2,200°C as feedstock at the Moon border (with slashed long stones and calcium boulders at approximately 10-20% of US$Al_2O_3. Slag gold was separated and obtained from Al-Si-Fe alloy and mixed oxide sludge of $ Al_2O_3 [18].
-2. ** Melted salt electrolysis**: Dissolved mixed oxide sludge rich in US$ Al_2O_3 for electrolysis in crystalline smelting salt, electrolysis with inert anode. Oxygen (as an additional source of oxygen for life support systems) is distilled in the anode and the cathode receives aluminum metal (85% pure) [10].
+1. **Aluminothermic reduction**: Use regolith containing plagioclase/anorthite ($Al_2O_3$ about 10%-20%) and metallic Al reducing agent at 940-2,200 C for 2-6 h. After slag-metal separation, products are Al-Si-Fe alloy and Al2O3-rich mixed oxide slag [18].
+2. **Molten-salt electrolysis**: Dissolve Al2O3-rich mixed oxide slag into cryolite-based electrolyte and perform inert-anode electrolysis. Oxygen evolves at anode (supplementing life support), while metallic Al (>=85% purity) forms at cathode [10].
 
-The key to this path is **Initial aluminium closed loop**: The majority of aluminium consumed in the aluminum thermal reduction step was recovered in the subsequent electrolysis step, with a net consumption of only about 10-20 per cent. However, the start-up of the cycle requires an initial aluminium source - the first batch of approximately 500 kg of metal aluminium is to be supplied from Earth to initiate the aluminum thermal reduction cycle. Only a small amount of aluminium lost due to non-recoverable wear and tear is required for subsequent recycling.
+Key point is **initial Al closed-loop circulation**: most Al consumed in aluminothermic reduction is recovered in subsequent electrolysis, with net Al loss only about 10%-20%. However, cycle startup needs initial Al inventory, first batch about 500 kg launched from Earth. After startup, only limited make-up Al is needed to compensate unrecoverable losses.
 
-** Path II: direct electrolysis of LISAP-MSE smelting salt (forward scenario)**
+**Route 2: LISAP-MSE Direct Molten-Salt Electrolysis (Long-Term Route)**
 
-The programme, which is based on the widespread distribution of calcium longstones in the Moon Heights, directly reduces aluminium oxide to metal aluminium and oxygen by melting salt electrolysis, without the need for aluminum thermal reduction pre-steps. The pre-treatment by chemically detached US$ Al_2O_3 in calcium longstone and electrolyted in a melted salt bath while producing aluminium metal and oxygen [11]. This programme, which is not dependent on the Earth ' s supply of initial aluminium, is the preferred option for aluminium production in phase 3 (industrialization maturity).
+This route uses anorthite, widely distributed in lunar highlands, and directly reduces alumina to Al and O2 in molten salt, without aluminothermic pre-step. After chemical pre-treatment isolates Al2O3 from anorthite, molten-salt electrolysis produces Al and O2 [11]. This route removes dependence on Earth-supplied startup Al and becomes preferred in Stage 3 (mature industrial phase).
 
-** Initial Aluminium Supply Strategy**: Phase 1 (Building II) is primarily a path, with the first 500 kg of aluminum being launched from Earth. Phase 2 (early industrialization) Aluminium recycling rates increased to 90 per cent for thorium and the need for supplementing aluminium decreased to 50 kg/year. Phase 3 is to be converted to Route 2 (LISAP-MSE) and completely free of the dependence on Earth aluminium.
+**Initial Al supply strategy**: Stage 1 (Infrastructure Phase II) uses Route 1 with first 500 kg Al from Earth. Stage 2 (early industrialization) raises Al loop recovery to >=90%, reducing make-up demand to <=50 kg/year. Stage 3 shifts to Route 2 (LISAP-MSE), eliminating Earth dependence for Al.
 
-## 5.2.2 Sources of iron, titanium, oxygen
+#### 5.2.2 Sources of Iron, Titanium, and Oxygen
 
-The titanium mine ($FeTio_3) in the moon's basalt rock is a common source of iron, titanium and oxygen.
+Ilmenite ($FeTiO_3$) in mare basalt is the shared source of Fe, Ti, and O.
 
-** Path 1: Hydrogen reduction (Main scenario)**
+**Route 1: Hydrogen Reduction (Primary Route)**
 
-The reduction of titanium ore by hydrogen at about 1,000°C can be combined with metal metal, titanium dioxide and water. Water is recycled for hydrogen by electrolysis, and oxygen is used as a complementary source of life support for the base. titanium oxide is then reduced by lithium thermal to titanium silicon alloys and electrolyticly refined to titanium monotron [12]. By studying hydrogen levels in the different minerals of Moon 5 in Nimbau, a team of powerful researchers from Nimbabo material found that titanium ore contains the highest hydrogen, and that the oxidation of the hydrogen and iron oxides in the minerals after heating to high temperatures produces monometallic iron and large quantities of water, which can produce approximately 51-76 mg of water in January. The results were published in The Innovation [20].
+Hydrogen reduction of ilmenite at about 1,000 C yields metallic Fe, TiO2 slag, and H2O. Water is electrolyzed to recycle H2, and oxygen supplements life support. TiO2 slag can then be lithium-reduced to Ti-Si alloy and electrorefined to metallic Ti [12]. A Ningbo Institute team found ilmenite has the highest hydrogen content among Chang'e-5 regolith minerals. At high temperature, hydrogen reacts with iron oxides to produce metallic iron and significant water, about 51-76 mg H2O per gram regolith, published in *The Innovation* [20].
 
-** Route II: FCC-Cambridge Melting Salt electrolysis (forward scenario)**
+**Route 2: FFC Cambridge Molten-Salt Electrolysis (Long-Term Route)**
 
-For the 900°C Electrolytic Moon Simulator JSC-1A in Melting Salt $Cl_2$, the FFC Cambridge process succeeded in achieving 83.47% iron extraction and 79.65% current efficiency [24]. The programme does not require hydrogen and aluminum thermal reduction steps and directly uses the moon as a feedstock to produce pure iron.
+At 900 C in CaCl2 molten salt, electrolysis of JSC-1A simulant via FFC Cambridge process achieved 83.47% Fe extraction and 79.65% current efficiency [24]. This route needs neither hydrogen nor aluminothermic pre-step and can directly produce Fe from regolith.
 
-** Oxygen production capacity**: Oxygen by-product of both routes. Phase 2 produces approximately 30-150 kg of oxygen per month of 100-500 kg of iron ingots, which can be used as a source of additional oxygen for life support systems.
+**Oxygen co-production**: both routes co-produce O2. Stage 2 production of 100-500 kg Fe ingots per month co-produces about 30-150 kg O2 per month as supplemental life-support oxygen.
 
-###5.2.3 Sources of carbon
+#### 5.2.3 Carbon Sources
 
-Local carbon on the Moon comes from four main sources:
+Local lunar carbon mainly comes from four sources:
 
-** (a) Carbon plume meteorite residues**
+**(a) Carbonaceous-chondrite impact residues**
 
-Carbon sphere meteorite asteroid impact residues spread over the moon table, with carbon-rich carbon (about 3-5 per cent) and water (about 3-22 per cent) in the CI type.[ 2.12-2.13]. In 2021, researchers at the National Space Science Centre of the Chinese Academy of Sciences, among others, identified for the first time, on the surface of the Moon, the residue of a carbon plume meteorite within a million years, based on images and spectroscopy data obtained by the Zhu ' s No. 4, with high (47 per cent) concentrations of carbon pyrotonite material. The results were published in Nature Astronomical [15]. The carbon plume meteorite residues collected in the monthly table are heated by a sealed heated cavity to approximately 600-1,000 °C, with organic matter and carbonate minerals pyrolysis, releasing $ CO_2, $ CH_4 and $H_2O. The lunar volatilisation-separation-purification method can be used to isolate liquid products from the low-temperature surface condensation of the month and the volatilization-recycling rate of over 90 per cent and the purity of over 99 per cent [19].
+Carbonaceous-chondrite impact residues are distributed across lunar surface. CI-type carbonaceous chondrites are rich in carbon (about 3%-5%) and water (about 3%-22%) [Main Volume II references 2.12-2.13]. In 2021, Chinese researchers identified million-year-scale carbonaceous impact residues on the lunar surface using Chang'e-4 imagery and spectral data; hyperspectral imaging indicated high-concentration (47%) carbonaceous material. Results were published in *Nature Astronomy* [15]. Heating collected residues in sealed chambers to about 600-1,000 C pyrolyzes organics and carbonates, releasing $CO_2$, $CH_4$, and $H_2O$. Lunar volatile separation and purification can use lunar-night low-temperature condensation, achieving >90% volatile recovery and >99% purity [19].
 
-**(b) CO2 chillium in the polar region**
+**(b) Polar CO2 cold traps**
 
-Schörghofer and Williams (2021) confirmed for the first time, based on LRO data, the presence of CO2 cooling in the Moon polar region, with a total area of approximately 200 km2 [13]. CO2-cooled gases are converted from Sabatier to methane as a carbon source for FCCVD. The size of this path depends on the level of recognition of CO2 cooled reserves in task group II/III of volume 1.
+Schorghofer and Williams (2021) first confirmed polar CO2 cold traps using LRO data, total area about 200 km2 [13]. Collected CO2 is converted to methane through Sabatier reaction as FCCVD carbon feedstock. This route scale depends on reserve confirmation by Volume I Mission Groups II/III.
 
-** (c) Volatilization of solar wind**
+**(c) Solar-wind implanted volatiles**
 
-The solar wind of $H, $H, $C, $N, plasma is permanently injected into the surface of the moonside particles. The volatilization of these injections can be released when the fine particle-grade moon (<1 mm) heats up to about 700°C - $H (for hydrogen and reduction), $H-3 (for future fusion fuel reserves), $C$ and $N$ (CNT carbon source and life support nitrogen source supplement).
+Solar-wind H/He/C/N ions are implanted into near-surface regolith grains over long timescales. Fine regolith (<1 mm) heated to about 700 C can release these volatiles: H (for H2 production/reductant), He-3 (long-term fusion reserve), and C/N (CNT carbon source and life-support nitrogen supplement).
 
-** (d) Asteroid carbon-source capture (forward main force)**
+**(d) Asteroid-derived carbon capture (long-term main source)**
 
-After the capture of the type C asteroid and its towing to the Moon, hydrocarbons are extracted from the on-orbit pyrolysis and, after chemical transformation, carbon-source gases are supplied to the surface CNT plant. This path, which is covered by section 2.5.6 of volume II of the main volume, is the main source of carbon for CNT production in the forward period. Phase 1-2 will be supplemented only by the surface carbon plume meteorite residues and the polar CO2 chillium.
+After capture of C-type asteroids and transfer to cislunar space, in-orbit pyrolysis extracts hydrocarbons that are chemically converted and supplied to lunar CNT plants. This route is handled in Main Volume II Section 2.5.6 and is long-term primary carbon source for large-scale CNT production. In Stages 1-2, carbonaceous residues and polar CO2 cold traps are supplementary sources.
 
-## 5.2.4 Sources of sulphur
+#### 5.2.4 Sulfur Sources
 
-Sulphur in the Moon is mainly in the form of meteorite iron ($FeS$) and is widely distributed in the moon basalt, with sulphur abundance of about 0.05 per cent - 0.2 per cent. The silicate-sulphate process (SSAP) can extract sulphur from the Moon's natural sulphide minerals, such as meteorite iron, and prepare for sulphate, thus dissolving silicate minerals to extract resources such as iron, silicon and oxygen [14]. The analysis of meteor iron in the 4.2 billion-year-old aluminum bastion by Zenit VI further confirmed the presence and evolution of sulphur in the moon shell [Ref. 2.11].
+Sulfur in lunar regolith mainly occurs as troilite ($FeS$), broadly distributed in basalt, with sulfur abundance about 0.05%-0.2%. The silicate-sulfuric-acid process (SSAP) can extract sulfur and prepare sulfuric acid from native lunar sulfides such as troilite, then dissolve silicates to extract Fe, Si, O, and other resources [14]. Chang'e-6 analysis of troilite in 4.2 Ga high-Al basalt further confirms sulfur occurrence/evolution in lunar crust [Main Volume II reference 2.11].
 
-Phase 1 (BIS II) extracts sulphur by simple thermal decomposition - heating up to 800 - 1,000°C in a sealed heated cavity. Meteorite iron explains sulfur vapour, which is collected by condensers as solid sulphur. Following the introduction of the SSAP process in phase 2, the use of sulphur extraction and metal extraction have increased significantly by creating a closed ring.
+Stage 1 (Infrastructure Phase II) uses simple thermal decomposition for sulfur extraction: heat to 800-1,000 C in sealed chambers, release sulfur vapor from troilite decomposition, and condense to solid sulfur. Stage 2 introduces SSAP, forming closed-loop synergy between sulfur extraction and metal extraction with significantly improved utilization.
 
-## 5.2.5 Sources of silicon and oxygen
+#### 5.2.5 Sources of Silicon and Oxygen
 
-Silicon and oxygen are the two richest elements of the Moon. Almost half of the moon is aerobic (a combination of iron, titanium, silicon, aluminium, etc.) and silicon is widely deposited in tilted long stones, pelicans and glass in the form of $SIO_2 dollars. Silicon, as one of the main by-products of aluminum thermal reduction and smelting salt electrolysis, is produced in the form of Al-Si-Fe alloy along with aluminium and iron and can be used directly as building materials. Oxygen is produced in a variety of ways — aluminium thermal reduction by-products, titanium ore by-products, melted salt electrolytic anodes — as a source of additional oxygen to the Base's life support system.
+Si and O are the two most abundant regolith elements. Nearly half of regolith is oxygen bound in oxides of Fe/Ti/Si/Al and others. Silicon occurs broadly as $SiO_2$ in plagioclase, pyroxene, and glassy phases. As major byproducts of aluminothermic reduction and molten-salt electrolysis, Si is produced as Al-Si-Fe alloy and can be used directly in structural materials. Oxygen is co-produced through multiple routes, aluminothermic byproducts, ilmenite hydrogen-reduction byproducts, and molten-salt electrolysis anode evolution, supplementing base life-support oxygen.
 
-The Moon Blast Melting Salt electrolyte oxygen sampler at the Deep Space Detection Laboratory has been synchronized with high-strength silicon aluminium alloy at Moon Boundary, providing critical technical and material support for life and in situ construction of the future Moon Base [23]. Blue Alchemist reaction units of blue origin have also been successful in extracting oxygen from the Moon boundary simulator by electric currents and can further refine silicon to produce radiation-resistant solar cells [22].
+A Deep Space Exploration Laboratory molten-salt regolith electrolysis oxygen prototype has achieved simultaneous in-situ oxygen production and high-strength Si-Al alloy preparation, supporting future lunar life support and in-situ construction [23]. Blue Origin's Blue Alchemist reactor has also extracted oxygen from regolith simulants via electrochemical current and can further refine silicon for radiation-resistant solar cells [22].
 
 
-##5.3 Whole industry chain capacity matching and material balance
+### 5.3 Full-Chain Capacity Matching and Material Balance
 
-# # # 5.3.1 Full chain from raw materials to finished products
+#### 5.3.1 End-to-End Chain from Feedstock to Products
 
-This section establishes a full-chain material balance for products from volume IV mining output to volume V, before embarking on specific manufacturing processes, to ensure that the chain matches the production capacity without a break chain or redundancy. The following material streams are based on the production capacity data for phase 2 (building phase II).
+Before specific process design, this section builds full material balance from Volume IV mining output to Volume V manufacturing output, ensuring no chain breaks or redundant excess. All flows below use Stage 2 (Infrastructure Phase II) as baseline.
 
-** (a) Construction skeletons → Construction materials **
+**(a) Construction aggregate -> construction-material chain**
 
-- **Input (section 4.9.4 of volume IV)**: 500 m3 (approximately 750-1,000 tons) per month for construction bone mining under phase 2 in the form of a loose mass of 1.5-1.8.
-- **Processing links**: rough and broken sifting of the quarry transports to base stairwells (section 5.4 of this volume, priority extraction of high-value components)
-- ** Output product**:
-- Moonside Bricks: 500 bricks per day and 15,000 bricks per month. A single block mass of about 2.8 kg and monthly production of about 42 tons.
-- Moonside concrete: 5 tons per month.
-- ** Material balance**: About 70 per cent of monthly mining of 500 m3 after fragmentation sifting into the eligible particle range (5050 mm), i.e. approximately 560 tons/month of bone. Some 30 per cent - 40 per cent of the high-value components (approximately 170 - 220 tons/month) were prioritized for extraction following the graduation of the ladder, leaving about 340 - 390 tons/month into the construction materials line. The construction materials production line consumes approximately 47 tons per month,** and the raw materials supply is heavily redundant** — excess bones are used for road pavement, radiation shield cover and temporary structures.
+- **Input (Volume IV Section 4.9.4)**: Stage 2 aggregate mining >=500 m3/month, about 750-1,000 t at loose bulk density 1.5-1.8.
+- **Process chain**: coarse crushing/screening at mine -> transport to base -> cascaded sorting (Section 5.4) with high-value extraction priority -> residual materials to construction lines (Section 5.5).
+- **Outputs**:
+  - Sintered regolith bricks: >=500 standard bricks/day, >=15,000/month. Single-brick mass about 2.8 kg, monthly output about 42 t.
+  - Regolith concrete: >=5 t/month.
+- **Material balance**: from 500 m3/month, about 70% enters qualified size range (<=50 mm), about 560 t/month usable aggregate. After cascaded sorting, about 30%-40% high-value fractions are extracted first (about 170-220 t/month), leaving about 340-390 t/month for construction lines. Construction lines consume only about 47 t/month, so **aggregate supply has substantial margin**; surplus is used for roads, radiation cover, and temporary structures.
 
-**(b) titanium ore concentrate → Metal smelting link**
+**(b) Ilmenite concentrate -> metallurgy chain**
 
-- **Input (section 4.10.2 of volume IV)**: Mining of 100 m3 (approximately 200 to 300 tons of primary ore) metal minerals in phase 2 for the month of the month, production of 30 per cent FeTio_3 dollars) of magnetically produced concentrates and production of 20 to 30 tons of concentrate per month.
-- **Processing link**: Magnetic concentrate transport to base metal smelter (section 5.5 of this volume).
--** Output product (phase 2)**:
-- Iron ingot: 100-500 kg per month (hydrogen reduction or aluminium thermal reduction).
-- Aluminium ingots: 100-500 kg per month (aluminium thermal reduction-melted salt electrolytic, supplied by the moonside long stone and not extracted from titanium ore concentrate).
-- Secondary oxygen: 30 - 150 kg per month (life support supplement).
-- ** Material balance**: monthly production of 20-30 tons of concentrate exceeding the initial 100 kg capacity requirements of the smelter — the concentrate will accumulate gradually to provide a reserve for phase 3 smelter expansion.
+- **Input (Volume IV Section 4.10.2)**: Stage 2 metal-mineral mining >=100 m3/month (about 200-300 t ROM ore). After magnetic separation, concentrate at >=30% $FeTiO_3$, monthly output about 20-30 t concentrate.
+- **Process chain**: magnetic concentrate -> transport to base -> metallurgical workshop (Section 5.5).
+- **Outputs (Stage 2)**:
+  - Fe ingots: 100-500 kg/month (hydrogen reduction or aluminothermic route).
+  - Al ingots: 100-500 kg/month (aluminothermic + molten-salt electrolysis, supplied from plagioclase feedstock, not ilmenite concentrate).
+  - O2 byproduct: 30-150 kg/month.
+- **Material balance**: 20-30 t/month concentrate greatly exceeds initial furnace demand at hundred-kg scale. Concentrate accumulates as strategic stock for Stage 3 scale-up.
 
-** (c) Water ice → CNT manufacturing links**
+**(c) Water ice -> CNT manufacturing chain**
 
-- **Input (section 4.8.2-4.8.3 of volume IV)**: Phase 1 (capital II) production of approximately 200-500 L/day (2 rigs) per month. Phase 2 (early industrialization) was upgraded to approximately 2,000-5,000 L/m/day (4 rigs + remaining heating of power plants).
-- **Procedure link**: liquid water, electrolyte hydrogen → CNT manufacturing carbon source (provided by carbon pyrotechnic pyrolysis gas) + catalyst (provided by magnetic concentrate or smelting iron ingots) → FCCVD reactor (section 5.6 of this volume).
-- ** Output product**:
-- Phase 1 (Bureau II): CNT pre-weaving line monthly production of about 10 to 50 kg CNT veil.
-- Phase 2 (early industrialization): Industrial-scale FCCVD production line monthly production of 1,000 kg CNT yarn.
-- ** Material balance**: Limited production of water ice in phase 1 and supply of carbon, dominated by surface carbon plume meteorite residues — The maximum supply of carbon sources is estimated at approximately 250 kg/month, the CNT production rate at about 50%, and the monthly CNT production ceiling at about 125 kg/month, based on a mass ratio of approximately 2 to 1. After phase 2 entered the early stages of industrialization, the production of aqueous ice rose to 2,000 L per month, and the efficiency of the collection of carbon plume meteorites increased, with CNT producing more than 1,000 kg per month. This is consistent with the criteria for the determination of volume II P1-M4.
+- **Input (Volume IV Sections 4.8.2-4.8.3)**: Stage 1 (Infrastructure Phase II) about 200-500 L per lunar day (two drills). Stage 2 (early industrialization) about 2,000-5,000 L per lunar day (four drills + plant waste-heat assistance).
+- **Process chain**: liquid water -> electrolysis to hydrogen -> CNT carbon feedstock from pyrolyzed carbonaceous residues + catalyst from magnetic concentrate or Fe ingots -> FCCVD reactor (Section 5.6).
+- **Outputs**:
+  - Stage 1: about 10-50 kg/month CNT yarn from pre-weaving line.
+  - Stage 2: >=1,000 kg/month CNT yarn from industrial FCCVD line.
+- **Material balance**: Stage 1 water is limited and carbon source is mainly carbonaceous residues. With 500 L/month water and carbon-source mass ratio about 2:1, max carbon feedstock is about 250 kg/month. At ~50% CNT yield, theoretical upper bound is about 125 kg/month CNT. In Stage 2, with >=2,000 L/month water and higher residue collection efficiency, CNT output can exceed 1,000 kg/month, aligned with Volume II P1-M4 criteria.
 
-####5.3.2 Full chain of critical materials
+#### 5.3.2 Full-Chain Summary of Key Materials
 
-Serial number, raw material, source, source, intermediate, end product, end product, use, production and energy efficiency,
+| No. | Feedstock | Source | Intermediate | Final Product | Use | Capacity Node |
 |:---:|:---|:---|:---|:---|:---|:---|
-| 1 Moon (Standstone) | 4nd volume of building bone mining | Rich US$ Al_2O_3 MOX | Metallic aluminium (85% pure) | Construction materials (aluminium alloy structures), reduction agent (aluminium thermal cycle) | Production in the same phase as iron sun
-|2 titanium ore concentrate |4 metal ore mining field + magnetic selection | metal + titanium dioxide + water | iron ingots (90% pure ≥), titanium monomer (phase 3) | construction materials, CNT catalysts, oxygen-based materials | P2-F1 |
-|3 titanium ore concentrate + hydrogen | Idem + hydrolyte hydrogen | $H_2O+Fe+TiO_2$O_2+ iron + titanium | life support, catalyst precursor | synchronized with iron sun |
-|4 | Carbon sphere meteorite residue US$CO_2+CH_4+H_2O |$CH_4 (reacted by Sabatier) |CNT Carbon Source, Life Support Carbon Cycle |P1-F3 |
-|5 | 冷 冷 冷 冷 冷 | | | $ CO_2 | $ CH_4 (reacted by Sabatier)
-| 6 | C Asteroid Carbon Source | Asteroid capture towed | Hydrocarbon Mixed Gas $ CH_4, $ H_2 | CNT carbon main force (phase 3) | Book II |
-| 7 | 月 | | | | | | | | | | |
-|8 Meteorite | Moonside Magnetic Tailing Mine $SO_2+H_2SO_4 | Sulphuric acid + iron + silicon + Oxygen Mineral dissolved, metal extraction, construction materials | Phase 3
-|9 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | $ | | | $ $ $ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-|10 | Initial aluminum | Earth-launched (the first 500 kg only) | | Aluminium thermal reduction start-up reduction agent | Phase 1 |
-| 11 | 月 月 | | | | 卷 卷 卷 | | | | | | | | | | | | |
+| 1 | Regolith (surface plagioclase fraction) | Volume IV aggregate pits | Al2O3-rich mixed oxides | Al metal (>=85% purity) | Structural Al alloys; reducing agent loop | Same stage as Fe output |
+| 2 | Ilmenite concentrate | Volume IV metallic-mineral pits + magnetic separation | Fe metal + TiO2 slag + H2O | Fe ingots (>=90%); Ti metal (Stage 3) | Structural, CNT catalyst, oxygen route | P2-F1 |
+| 3 | Ilmenite concentrate + H2 | Same as above + water electrolysis | $H_2O + Fe + TiO_2$ | $O_2 + Fe + Ti$ | Life support, catalyst precursor | Synchronous with Fe output |
+| 4 | Carbonaceous-chondrite residues | Surface collection | $CO_2 + CH_4 + H_2O$ | $CH_4$ (via Sabatier) | CNT carbon source; life-support carbon loop | P1-F3 |
+| 5 | Polar CO2 cold traps | Polar PSRs | $CO_2$ | $CH_4$ (via Sabatier) | Same as above | Reserve confirmation pending Volume I |
+| 6 | C-type asteroid carbon source | Asteroid capture and transfer | Hydrocarbon mixed gas | $CH_4$, $H_2$ | Main CNT carbon source (Stage 3) | Main Volume II |
+| 7 | Mare basalt regolith | Volume IV metallic-mineral pits | H2S, steam | Sulfur, H2 | Regolith-concrete binder; oxygen route | P1-F2 |
+| 8 | Troilite | Regolith magnetic-separation tailings | $SO_2 + H_2SO_4$ | Sulfuric acid + Fe + Si + O | Mineral dissolution, metal extraction, materials | Stage 3 |
+| 9 | Water ice | Volume IV ice mining fields | $H_2 + O_2$ | H2, O2, H2O | Propellant, life support, CNT conversion | P1-R1 |
+| 10 | Initial Al ingots | Earth launch (first 500 kg only) | - | - | Startup reductant for aluminothermic loop | Stage 1 |
+| 11 | Fine surface regolith | Fine-screening output from Volume IV aggregate pits | Nano $TiO_2$ + nano Fe particles | Photocatalyst | Water splitting for H2; $CO_2$ reduction to fuel | Stage 3 |
 
 
-##54 Gradient selection of raw materials and utilization of the whole group
+### 5.4 Cascaded Feedstock Sorting and Full-Component Utilization
 
-The current mining programme for volume IV, which provides for the strict separation of the building bone and metal mineral mining fields, ensures stability in the grade of raw materials entering the furnace. However, there is still a significant proportion of high-value components in the products of the bone mining field — a waste of scarce resources on the Moon if used directly and in full for the burning of bricks and concrete. This section establishes a stairway system for the utilization of materials at all levels after bone sifting, increasing the utilization of the entire moon boundary from “sufficient” to “optimal”.
+Volume IV mining separates aggregate pits and metal-mineral pits, stabilizing feed grade for furnaces. However, aggregate-pit output still contains significant high-value components. Sending all of it directly to bricks/concrete wastes scarce resources. This section establishes cascaded utilization from post-screening fractions to raise full-component utilization from sufficient to optimized.
 
-####5.4.1 Potential value of material at all levels after bone sifting
+#### 5.4.1 Value Potential of Each Post-Screening Size Fraction
 
-The sifting of the lunar edges produced by the fourth volume of the building bone quarry was broken and divided into three grain classes. Prior to entering the construction materials line, an additional ** step-by-step selection process** will be added to prioritize the extraction of high-value groups and the remaining material will be used for the production of construction materials.
+Regolith from Volume IV aggregate pits is divided into three fractions after crushing and screening. A **cascaded sorting step** is inserted before construction lines to extract high-value components first and send residuals to construction materials.
 
-| | | | |
+| Fraction | Size Range | Main Minerals | High-Value Uses | Recommended Separation Method |
 |:---|:---|:---|:---|:---|
- ** ** Coarse particle class** ** 10 – 50 mm | basalt chips, tilted longstone chips, raspberry blocks | (i) crumbs with high percentages of slant longstones (melted salt electrolysis); (ii) Crumbs with titanium ore to be broken and incorporated into the magnetic selection process; (ii) residues of building materials bone material | machine vision + laser induction for spectroscopy online selection
- ** Medium ** Medium ** Medium ** Medium ** 1-10 mm ** Tied long stone, platinum, titanium iron ore, glass | (i) titanium ore granule magnetic (rich as concentrate); (ii) titanium ore and glass particulate hydrogen reductive oxygen + iron; (ii) Residual roasting of brick skeleton particles | High gradient magnetic (available) + electrostatic fraction
- ** ** fine grain ** < 1 mm ** powdered longstone, pelican, glass, np-Fe, titanium ore particulates | (i) np-Fe high part of the catalyst precursor (direct use of the ball after grinding); (ii) titanium ore particulates of hydrogen reduction oxygen; (ii) nanonami + nanofe$ particle → light catalyst (hydrolysis hydrogen). The Xinjiang Institute ' s scientific team has successfully produced the Moon-border fibre-optic catalytic material, which has internalized the golden red stone titanium dioxide and iron nanoparticles, which can lead to efficient degradation of organic pollutants through a dual mechanism [. (16)]; (iv) fine powdered volatilizers with solar wind injected into $H, $He 's volatilized fractions; (v) residue →3D printed powdered bed material | < 100 μm + magnetic sifting +
+| **Coarse** | 10-50 mm | Basalt fragments, plagioclase fragments, breccia | (i) Plagioclase-rich fragments -> anorthite Al feedstock for molten-salt electrolysis; (ii) ilmenite-rich fragments -> crushed and routed to magnetic separation; (iii) residual -> construction aggregate | Machine vision + online LIBS sorting |
+| **Medium** | 1-10 mm | Plagioclase, pyroxene, ilmenite, glassy phase | (i) ilmenite grains -> magnetic concentration; (ii) ilmenite+glassy grains -> hydrogen-reduction oxygen + Fe route; (iii) residual -> sintered-brick skeleton grains | High-gradient magnetic separation + electrostatic sorting |
+| **Fine** | <1 mm | Powdered plagioclase, pyroxene, glassy phase, np-Fe, fine ilmenite | (i) np-Fe-rich part -> catalyst precursor (direct use after ball milling); (ii) fine ilmenite -> hydrogen-reduction oxygen route; (iii) nano $TiO_2$ + nano Fe -> photocatalyst (H2 production by water splitting). Xinjiang-based teams have prepared fiber photocatalysts from regolith with in-situ rutile TiO2 and Fe nanoparticles, enabling efficient organic degradation by dual mechanisms [16]; (iv) fines with implanted solar-wind H/He -> volatile release by heating; (v) residual -> 3D-print powder-bed feedstock | Electrostatic traveling-wave screening (<100 um precision) + magnetic separation |
 
-####54.2 Full group utilization process
+#### 5.4.2 Full-Component Utilization Flow
 
-Following the principle of “prior extraction of high-value ladders for construction materials using final residues”, a process of full-group utilization of the product from the Moon border to the end product was established:
+Following the principle high-value extraction first -> cascaded utilization -> residuals to construction, full-chain flow is:
 
+```text
+Raw regolith ore (Volume IV mining fields)
+        |
+        v
+[Coarse crushing + screening]
+        |
+        |-- Coarse fraction (10-50 mm) --> machine-vision sorting
+        |                                  |-- anorthite-rich fragments --> molten-salt electrolysis for Al --> Al ingots
+        |                                  |                                         '-- O2
+        |                                  |-- ilmenite-rich fragments --> crushing + magnetic separation --> concentrate
+        |                                  |                                              '-- tailings --> construction aggregate
+        |                                  '-- other fragments --> construction aggregate
+        |
+        |-- Medium fraction (1-10 mm) --> high-gradient magnetic separation
+        |                                  |-- magnetic fraction (ilmenite + metallic Fe) --> concentrate storage
+        |                                  |      |-- hydrogen reduction --> Fe ingot + H2O + TiO2 slag
+        |                                  |      |-- aluminothermic reduction --> Al-Si-Ti-Fe alloy
+        |                                  |      '-- FFC electrolysis --> pure Fe
+        |                                  '-- nonmagnetic fraction --> sintered-brick skeleton grains
+        |
+        '-- Fine fraction (<1 mm) --> electrostatic traveling-wave screening (<100 um)
+                  |
+                  |-- nano TiO2 + Fe particle phase --> photocatalyst production
+                  |
+                  |-- np-Fe enriched phase --> ball milling --> CNT catalyst precursor
+                  |
+                  |-- fines with solar-wind H/He --> thermal volatile release
+                  |      |-- H2 --> reductant, fuel
+                  |      |-- He-3 --> long-term fusion reserve
+                  |      '-- C, N --> CNT carbon source, life-support supplement
+                  |
+                  '-- residual fines --> 3D-print powder-bed feedstock
 ```
-月壤原矿（第四卷采场）
-        │
-        ▼
-【粗破碎+筛分】
-        │
-        ├── 粗粒级（10–50 mm）──→ 机器视觉分选
-        │                              ├── 钙长石碎屑 → 熔盐电解提铝 ──→ 铝锭
-        │                              │                              └── O₂
-        │                              ├── 钛铁矿碎屑 → 破碎+磁选 ──→ 精矿
-        │                              │                    └── 尾矿 → 建材骨料
-        │                              └── 其它碎屑 → 建材骨料
-        │
-        ├── 中粒级（1–10 mm）──→ 高梯度磁选
-        │                              ├── 磁性部分（钛铁矿+金属铁）→ 精矿库
-        │                              │        ├── 氢气还原 ──→ 铁锭+水+TiO₂渣
-        │                              │        ├── 铝热还原 ──→ Al-Si-Ti-Fe合金
-        │                              │        └── FFC电解 ──→ 纯铁
-        │                              │
-        │                              └── 非磁性部分 ──→ 烧结砖骨架颗粒
-        │
-        └── 细粒级（<1 mm）──→ 静电行波筛分（精度<100 μm）
-                │
-                ├── 纳米TiO₂+Fe颗粒相 ──→ 光催化剂制备
-                │
-                ├── np-Fe富集相 ──→ 球磨 ──→ CNT催化剂前体
-                │
-                ├── 含太阳风H/He细粉 ──→ 加热释放挥发分
-                │                              ├── H₂ → 还原剂、燃料
-                │                              ├── He-3 → 远期核聚变燃料
-                │                              └── C、N → CNT碳源、生命支持
-                │
-                └── 残余细粉 ──→ 3D打印粉末床原料
-```
 
-** Full process utilization target**: At the end of phase 2 (building phase II), 70 per cent of the high-value components of thallium in the Moon, which enters the building materials line, have been extracted from the pre-selection process, with only residual material used for brick and concrete burning. By stage 3 (the maturity of industrialization), the utilization target for the whole group was 95 per cent.
+**Full-process utilization target**: by end of Stage 2 (Infrastructure Phase II), >=70% of high-value components in regolith entering construction lines are extracted in pre-sorting; only residuals go to bricks/concrete. In Stage 3 (mature industrialization), full-component utilization target is >=95%.
 
-####5.4.3 Phased step utilization strategy
+#### 5.4.3 Phased Cascaded-Utilization Strategy
 
-When initial capital equipment is limited, no step-by-step steps need to be taken to achieve all the above-mentioned sub-selections. The phased thrust is as follows:
+When early infrastructure has limited equipment, full separation need not be completed in one step. Phased rollout:
 
-** Phase 1 (capital phase):** Only rough break + sift. Medium and fine grain stages are used directly for the burning of bricks and concrete. This phase is aimed at “workable” and does not select high-value components.
+**Stage 1 (Infrastructure Phase I):** only coarse crushing + screening. Medium and fine fractions directly feed bricks/concrete. Goal is immediate usability.
 
-** Phase 2 (capital II, the main coverage phase of this volume): ** A high-gravitational magnetograph (listed in the list of equipment in section 4.10.2 of volume IV) is added after the Chinese particle sifting line to concentrate titanium ore and other magnetic minerals in the medium particle class into concentrates. The high np-Fe portion of the fine particle class (about 5-10 per cent of the total fine powder) was separated by electrostatic wave sift as a complementary source of CNT catalyst precursors. The coarse particle class is not selected (mechanical visual separation equipment is to be introduced in phase 3).
+**Stage 2 (Infrastructure Phase II, primary scope of this volume):** add one high-gradient magnetic separator after medium-fraction screening (already listed in Volume IV Section 4.10.2 equipment list) to enrich ilmenite and other magnetic minerals into concentrate. For fine fractions, np-Fe-rich part (about 5%-10% of total fines) is separated by electrostatic traveling-wave screening and used as supplemental CNT catalyst precursor. Coarse-fraction machine-vision sorting is deferred to Stage 3.
 
-** Phase 3 (industrialization maturity): ** Add a full group selection system (machine visual selection + electrostatic wave fine sift + laser induction for spectroscopy online) to achieve all high-value components in the bone. The raw material for the construction materials line will be primarily the post-selection residues.
+**Stage 3 (mature industrialization):** add full-component sorting system (machine vision + fine electrostatic traveling-wave screening + online LIBS), enabling cascaded extraction of all high-value components. Construction lines mainly consume post-sorting residuals.
 
 
-##5.5 Construction Materials Line
+### 5.5 Construction-Material Production Lines
 
-Phased capacity and deployment
+#### 5.5.1 Phased Capacity and Deployment
 
-During the period of time, the brick-burning capacity, the concrete capacity, the location of deployment, the calibration corresponding to the capital progress.
+| Stage | Period | Sintered-Brick Capacity | Concrete Capacity | Deployment | Alignment with Infrastructure Progress |
 |:-----|:-----|:-----|:-----|:-----|:-----|
- ** Phase 1** Capital phase | 50-100 yen/day (mobile sinterers) | (sulphur extraction line not produced)  ** Moon or underground industrial zone segment | Volume II 2.7.2 |
- ** Phase 2** Capital Phase 2  ** Daily production ≥ 500 (fixed automated line)  ** Monthly production ≥ 5 tons | Moon or underground industrial zone cave segment (sealed)  ** Volume II, Section 2.7.3 |
-** Phase 3** | Early industrialization  ** 2,000 yen  ** 20 tonnes  ** Ibid., Extension of Productive Capacity
+| **Stage 1** | Infrastructure Phase I | 50-100 bricks/day (mobile sintering unit) | None (sulfur extraction line not yet online) | Surface or underground industrial section | Volume II Section 2.7.2 |
+| **Stage 2** | Infrastructure Phase II | >=500 bricks/day (fixed automated line) | >=5 t/month | Surface or sealed underground industrial section | Volume II Section 2.7.3 |
+| **Stage 3** | Early industrialization | >=2,000 bricks/day | >=20 t/month | Same location with expanded capacity | Volume II Section 2.6.1 |
 
-####5.5.2 Brick-burning automated line (phase 2)
+#### 5.5.2 Automated Sintered-Brick Line (Stage 2)
 
-** (a) Preparation of raw materials**
+**(a) Feed preparation**
 
-- Residual mid-pellets (1-10 mm, skeleton particles) and residual fine particles (<1 mm, powder filler) from the selection of the 5.4-set ladder.
-- The two grain stages are mixed in the ATM at a ratio of approximately 1:1; If the glacial glass content is 10 wt% in the feedstock, it can be used directly for its high-temperature viscosity, without the need for additional glues [5][6] [7].
+- Use residual medium fraction (1-10 mm, skeleton grains) and residual fine fraction (<1 mm, filling powder) after cascaded sorting in Section 5.4.
+- Mix two fractions at about 1:1 in automatic batching unit. If feed contains >=10 wt% glassy binder phase, no extra binder is required [5][6][7].
 
-**(b) Burning process**
+**(b) Sintering process**
 
-- **Heating method (phase 2)**: co-heated with a thermogas (200-500°C) in a power plant as described in volume III, section 3.5.7 (preheated simulators and raw materials up to about 200°C) and with a focus sun-burner or a resistance electric heater as the primary source (up to 1,000-1,200°C).
-- ** Modular specification**: Standard brick molds $240 \times 115 \times 53 MM3 can be loaded with multiple bricks.
-- ** Battery cycle**: approximately 30-60 min/ batch (including preheating, heating and temperature protection).
+- **Heating mode (Stage 2)**: use medium-temperature extraction steam from Volume III Section 3.5.7 (200-500 C) as auxiliary heating for mold/feed preheat to about 200 C; use concentrated-solar furnace or resistive electric heating as primary source up to 1,000-1,200 C.
+- **Mold specification**: standard brick mold $240 x 115 x 53$ mm3, multi-brick loading.
+- **Cycle time**: about 30-60 min per batch (preheat + ramp + soak).
 
-** (c) Automation configuration**
+**(c) Automation configuration**
 
-- ATMs: approximately 3 kW, mass 500 kg.
-- Autopressors: approximately 5 kW, mass 800 kg. Prepressure 10 MPa.
-- Tunnel-type sinterer: approximately 20 kW, mass ≤3,000 kg. A number of bricks are in the furnaces and the cooling zone is used continuously through the preheat zone.
-- ATM: approximately 2 kW, mass 400 kg.
+- Automatic batching system: about 3 kW, <=500 kg.
+- Automatic press: about 5 kW, <=800 kg; preload >=10 MPa.
+- Tunnel sintering furnace: about 20 kW, <=3,000 kg; continuous preheat -> high-temperature -> cooling zones.
+- Automatic palletizer: about 2 kW, <=400 kg.
 
-** (d) Quality control**
+**(d) Quality control**
 
-A randomly drawn 5 blocks per batch (approximately 100 pieces) to conduct a pressure resistance test (target 20 MPa) and a public size differential test (+3 mm). Unqualified batches are broken and returned to the raw material preparation segment.
+Per batch (~100 bricks), randomly sample 5 for compressive testing (target >=20 MPa) and dimensional tolerance check (<=3 mm). Failed batches are crushed and returned to feed preparation.
 
-## 5.5.3 Moon concrete line (phase 2)
+#### 5.5.3 Regolith Concrete Line (Stage 2)
 
-** (a) Sulfur glue extract**
+**(a) Sulfur binder extraction**
 
-- Raw materials: Meteor iron ($FeS$) in a fourth volume of magnetic tailing or moon mine and approximately 0.05 per cent - 0.2 per cent of sulphur abundance [14].
-- Ripping process: Moonside powder heats up to 800-1,000 °C in a sealed heated cavity. Meteor iron explains sulfur vapour, collected by condensers as solid sulfur. The heating source is provided by high-temperature or electric heating at the third volt power plant. The high moon-surface vacuum is conducive to thermal decomposition of solid minerals, which, under near vacuum conditions, heats meteorite iron, with a significantly lower decomposition temperature and faster decomposition.
-- ** capacity to process**: approximately 500 kg per day for the treatment of the Moon and 0.5-1 kg per day for the extraction of sulphur (estimated at 0.1% sulphur abundance and 70% recovery).
-- **Quality of extraction equipment**: ≤500 kg (sealed heaters and condensers).
+- Feed: troilite ($FeS$) in Volume IV magnetic-separation tailings or raw regolith, sulfur abundance about 0.05%-0.2% [14].
+- Process: heat regolith powder to 800-1,000 C in sealed chamber. Troilite decomposes and releases sulfur vapor, collected as solid sulfur by condenser. Heat provided by high-temperature extraction steam from Volume III plant or electric heating. Lunar high vacuum favors thermal decomposition of solids by lowering decomposition temperature and accelerating kinetics.
+- **Throughput**: about 500 kg regolith/day processed, sulfur output about 0.5-1 kg/day (assuming 0.1% sulfur and 70% recovery).
+- **Extractor mass**: <=500 kg (sealed heating chamber + condenser).
 
-** (b) Concrete formulation and construction**
+**(b) Concrete mixing and casting**
 
-- Bone and sulphur are mixed by mass of about 10:1.
-- Heated to 140 °C in a closed mixer (preheated with low-temperature waste heat of 30 to 50 °C from the third volt power plant, supplemented by electric heating), and sulfur melts and is evenly mixed with the bone.
-- Simulation, cooling and solidification (approximately 1-2h), without water conservation.
-- ** Total concrete line power**: about 10-15 kW (including mixer heating and delivery pumps).
--** Total quality of concrete line**: ≤3,000 kg.
+- Mix aggregate and sulfur at about 10:1 by mass.
+- Heat in sealed mixer to 140 C (using plant low-temperature waste heat 30-50 C for preheat, with electric boost). Molten sulfur mixes uniformly with aggregate.
+- Cast into molds and cool to set (about 1-2 h), no water curing required.
+- **Total concrete-line power**: about 10-15 kW (mixer heating + transfer pump).
+- **Total concrete-line mass**: <=3,000 kg.
 
-** (c) Quality control**
+**(c) Quality control**
 
-Pressure resistance tests (target 20 MPa) are performed for each batch (approximately 1 ton). After 100 thermal cycle tests (-150°C to +120°C), the strength decays by 20% (see vol. II, P1-M2).
+For each batch (~1 t), sample compressive strength (target >=20 MPa). After 100 thermal cycles (-150 C to +120 C), strength degradation <=20% (Volume II P1-M2).
 
 
-##5.6 Metal smelter
+### 5.6 Metallurgical Workshop
 
-Phased capacity and deployment
+#### 5.6.1 Phased Capacity and Deployment
 
-During the period of time, the aluminum, the aluminum, the iron, the luminum, the deployment, the luminum and the capital.
+| Stage | Period | Al Ingot Capacity | Fe Ingot Capacity | Deployment | Alignment with Infrastructure Progress |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-** Phase 1** 100-500 kg per month 100-500 kg per month
-** Phase 2** | Early industrialization | 2,000 kg | 5,000 kg  **
+| **Stage 1** | Second half of Infrastructure Phase II | 100-500 kg/month | 100-500 kg/month | Underground industrial section | Volume II Section 2.7.3 |
+| **Stage 2** | Early industrialization | >=2,000 kg/month | >=5,000 kg/month | Same area with expansion | Volume II Section 2.6.1 |
 
-####5.6.2 Aluminium smelting - Aluminium thermal reduction - Melting salt electrolysis (phase 1-2)
+#### 5.6.2 Aluminum Metallurgy: Aluminothermic + Molten-Salt Electrolysis (Stages 1-2)
 
-** (a) Raw materials**
+**(a) Feedstocks**
 
-- Moon Blanche (with slanted and calcium boulders, $ Al_2O_3_s of about 10% - 20%) - - From the fourth volume of the building bone or the independent Moonside.
-- Revertant: Aluminium metal (the first 500 kg was launched from Earth and then recovered from electrolytic steps).
-- Melting salt electrolyte: crystalline rocks ($Na_3AF_6$) — first launched by the Earth, followed by recycling (net loss of about 1 per cent-2 per batch, with minor additions).
+- Regolith containing plagioclase/anorthite, $Al_2O_3$ about 10%-20%, from Volume IV aggregate pits or dedicated regolith pits.
+- Reductant: metallic Al (first 500 kg from Earth, then recycled from electrolysis).
+- Electrolyte: cryolite ($Na_3AlF_6$), first batch from Earth then recycled (net loss about 1%-2% per batch, small make-up required).
 
-**(b) Smelting process**
+**(b) Process**
 
-**Aluminium thermal reduction step:**
+**Aluminothermic step:**
 
-- **Current type**: direct current arc furnace (shared with iron smelting, see section 5.6.3), capacity 50 kg/barrel.
-- **Heating temperature**: 940-2,200°C, 2-6 h [18].
-- **Reducing agent**: metal aluminum powder or aluminum grain (first from Earth, followed by electrolytic recovery).
--** Product**: Al-Si-Fe Alloy (sink, high density) + Rich US$ Al_2O_3 Mixed Oxide Slag (onward) [18].
-- **Mountular environmental adaptation**: Aluminium thermal reduction is carried out at high temperatures in a fully closed pressure container (filled with 1 barazine) to inhibit the volatilization of melted salt electrolyte and to safely collect gaseous products (oxygen) [10].
-- **The electromagnetic mixing optimization of the slag gold separation**: the slag gold separation step after the aluminum thermal reduction, with very low gravitational separation efficiency under 1/6 gravity. The electromagnetic mixing system shall be integrated in the arc furnace to enhance, in a non-contact manner, the concentration of passors and metal droplets in the slag and to significantly increase the efficiency of slag separation. The specific process uses a four-step refining process - (i) the use of low-frequency pulsed magnetic field mixing in the early stages of the slag-metal response to enhance the interface response; (ii) the switch to the rotation magnetic field mixing to promote the macro-slag gold layer; (ii) the application of a one-way wave magnetic field to the discharge tank to capture suspended micro-smelts using electromagnetic force; and (iv) the cessation of the mixing of static discharges to allow residual fine-coated impurities to float naturally. This four-step process increases slag separation efficiency from <30% to >90% of low-gravity natural deposition without increasing the quality of the equipment.
+- **Furnace type**: DC arc furnace (shared with Fe metallurgy, Section 5.6.3), >=50 kg per batch.
+- **Temperature**: 940-2,200 C, reduction duration 2-6 h [18].
+- **Reductant**: Al powder or granules (initially Earth-supplied, later recycled).
+- **Products**: Al-Si-Fe alloy (denser, lower phase) + Al2O3-rich mixed oxide slag (upper phase) [18].
+- **Lunar adaptability**: perform inside fully sealed pressure vessel (1 bar Ar) to suppress electrolyte volatilization and safely collect gaseous products (oxygen) [10].
+- **EMS-enhanced slag-metal separation**: under 1/6 g, gravity-only separation is inefficient. Integrate electromagnetic stirring in arc furnace to enhance mass transfer and droplet coalescence. Four-step refining is adopted: (i) low-frequency pulsed field in early slag-metal reaction to strengthen interfacial transfer; (ii) switch to rotating field for macro stratification; (iii) apply one-way traveling magnetic field at tapping channel to capture suspended inclusions; (iv) stop stirring and allow static settling/slag removal. This raises separation efficiency from <30% (low-g natural settling) to >90% without increasing equipment mass.
 
-**Smelted salt electrolysis step:**
+**Molten-salt electrolysis step:**
 
-- ** electrolytic tank**: Inert anode ($Sno_2 GB or $NiFe_2O_4 GB) and cathode material is graphite or metal [10].
-- ** electrolyte**: crystalline smelt salt ($na_3AF_6$), working temperature 940-960°C.
--** Raw material**: Aluminium thermal reduction step production of $Al_2O_3 mixed oxide sludge.
-- **Arctic product**: $O_2 (carried to life support system or oxygen storage tank)
-- ** cathode product**: Aluminium metal (85 per cent purity), most of which is used in the next batch of aluminum thermal reduction, and a small part of which is exported as aluminium ingots.
-- **Mountary environmental adaptation**: Melted salt electrolysis is also required in fully closed pressure containers. 1/6-gravity-deficit convection, which affects the parity of electrolyte temperature and composition, shall be supported by a corrosive ceramic mixer or electromagnetic mix.
+- **Cell**: inert anode ($SnO_2$-based or $NiFe_2O_4$-based ceramic), cathode in graphite or metal [10].
+- **Electrolyte**: cryolite-based molten salt ($Na_3AlF_6$), operating at 940-960 C.
+- **Feed**: Al2O3-rich mixed oxide slag from aluminothermic step.
+- **Anode product**: $O_2$ routed to life-support or oxygen storage.
+- **Cathode product**: metallic Al (>=85% purity), mostly recycled to next aluminothermic batch, with remainder delivered as product ingots.
+- **Lunar adaptability**: electrolysis also runs in sealed pressure vessel. Reduced buoyancy convection under 1/6 g affects thermal/compositional uniformity; corrosion-resistant ceramic stirrer or electromagnetic circulation is required.
 
-** (c) Energy consumption and quality assessment**
+**(c) Energy and mass assessment**
 
-- **Arc furnace power**: approximately 50-100 kWe (one station, shared with iron smelting).
-- **Train power**: about 20-30 kWe (one station).
--** Whole-process aluminium production rate**: 15% of US$ Al_2O_3 in the Moon, approximately 7.5 kg US$Al_2O_3 (approximately 4 kg Al) per batch, approximately 70% - 80% for the Aluminium Consolidated Recovery rate and 2.8 - 3.2 kg for the single batch.
-- ** Initial aluminium consumption**: Aluminium thermal reduction step consumes approximately 10% - 20% of aluminium (non-recoverable loss) per batch, to be supplemented by electrolyte recovered aluminium.
-- **Aluminium cell mass**: ≤3,000 kg (containing electrolytic cells, anodes, cathodes, electrolytes).
+- **Arc-furnace power**: about 50-100 kWe (single unit, shared with Fe).
+- **Electrolysis-cell power**: about 20-30 kWe (single unit).
+- **Overall Al yield**: with regolith $Al_2O_3$ at 15%, each 50 kg batch contains ~7.5 kg $Al_2O_3$ (~4 kg Al). At 70%-80% comprehensive recovery, Al output is about 2.8-3.2 kg per batch.
+- **Initial Al consumption**: aluminothermic step consumes about 10%-20% Al per batch as unrecoverable loss; replenished from electrolysis output.
+- **Electrolysis-cell mass**: <=3,000 kg including vessel, electrodes, electrolyte.
 
-## 5.6.3 Iron smelting - titanium ore hydrogen reduction (phase 1-2)
+#### 5.6.3 Iron Metallurgy: Ilmenite Hydrogen Reduction (Stages 1-2)
 
-** (a) Raw materials**
+**(a) Feedstocks**
 
-- titanium ore concentrates from volume IV, section 4.10 (30 per cent of grade t. FeTio_ $3.00).
-- Revertant: Hydrogen gas (provided by aqueous ice electrolytic hydrogen system, carbon plume pyrolysis water, vol. III, sect. 3.3.3 or sect. 5.2.3 of this volume).
+- Ilmenite concentrate from Volume IV Section 4.10, grade >=30% $FeTiO_3$.
+- Reductant hydrogen from water electrolysis (Volume III Section 3.3.3) or from water produced in carbonaceous-residue pyrolysis path (Section 5.2.3).
 
-**(b) Smelting process**
+**(b) Process**
 
-- **Current type**: Sealed reduction furnaces (non-air arc, hydrogen at approximately 1,000 °C for titanium ore) with a capacity of 50 kg/barrel [20].
-- **Heating method**: Thermally supported by the high-temperature gas (500-750°C) of the power plant referred to in Volume III, Section 3.5.7.
--** Revert reaction**: $FeTio_3 + H_2 \rightarrow Fe + TiO_2 + H_2O$. Water vapour is recovered by condensation and electrolytic regeneration.
-- ** single batch smelting cycle**: about 3-5 h (including heating, reduction and cooling).
-- ** Product**: Ingots (90% pure, see vol. II, P2-M1) and titanium oxide (stored for phase 3 titanium extraction)
-- **Mountary environmental adaptation**: The moon surface superhigh vacuum environment ($10^-12}$bar) provides excellent non-balanced thermodynamic conditions for hydrogen reduction. Vacuum pumps maintain the very low oxygen fraction pressure required in the reactor, continuously remove the by-product water vapour and facilitate the movement of the chemical balance in the direction of the production of metal, in accordance with the Lechard doctrine. The reactor shall be completely sealed and the hydrogen gas shall be recycled in a full closed ring.
+- **Furnace type**: sealed reduction furnace (non-arc), reducing ilmenite at about 1,000 C with hydrogen, >=50 kg per batch [20].
+- **Heating mode**: high-temperature extraction steam (500-750 C) from Volume III Section 3.5.7 as auxiliary heating, with electrical boost to target temperature.
+- **Reaction**: $FeTiO_3 + H_2 -> Fe + TiO_2 + H_2O$. Steam is condensed and water is electrolyzed to regenerate H2.
+- **Batch cycle**: about 3-5 h (heat-up + reduction + cool-down).
+- **Products**: Fe ingots (>=90% purity, see Volume II P2-M1) and TiO2 slag (stored for Stage 3 Ti extraction).
+- **Lunar adaptability**: ultrahigh lunar vacuum ($10^{-12}$ bar) provides favorable non-equilibrium thermodynamic condition. Vacuum pumping maintains very low oxygen partial pressure and continuously removes steam byproduct, shifting equilibrium toward metallic Fe by Le Chatelier principle. Furnace remains fully sealed; hydrogen runs in closed loop.
 
-** (c) Energy consumption and quality assessment**
+**(c) Energy and mass assessment**
 
-- **Restored boiler power**: about 30-50 kWe (one station).
-- **Restated furnace quality**: ≤3,000 kg (invent, heating elements and hydrogen gas cycling system).
-- ** Monthly electricity consumption **: at 500 kg iron ingots per month, approximately 10-20 batches per month (50 kg per batch) and approximately 1,500-6,000 kwh/month of total electricity consumption, about <3 per cent of base power generation in capital II.
--** Slag treatment**: $Tio_$2 Slag is stored separately for stage 3 lithium thermal reduction or FFC electrolyte to extract titanium uniform [12].
+- **Reduction-furnace power**: about 30-50 kWe (single unit).
+- **Reduction-furnace mass**: <=3,000 kg including vessel, heaters, H2 recirculation system.
+- **Monthly electricity**: for 500 kg/month Fe output, about 10-20 batches/month (50 kg each), total 1,500-6,000 kWh/month, <3% of Infrastructure Phase II monthly generation.
+- **Slag handling**: $TiO_2$ slag stored for Stage 3 lithium reduction or FFC electrolysis for Ti extraction [12].
 
-Catalyst preparation (shared with smelter)
+#### 5.6.4 Catalyst Preparation (Shared with Metallurgical Workshop)
 
-High-purity iron ingots (90% thorium) produced in phase 1 grinded to particle size by a closed ball grinder After 10 μm, it can be used directly as a precursor to a CFCVD catalyst manufactured by CNT. This path has been validated as feasible in volume I P0-M2 (manufactured at the surface of the Moon CNT) [1][2]. Phase 2 installation of hydrometallurgical purification equipment (acid leaching/hydrogen gas reduction) increasing iron purity to 99% thallium to meet higher catalytic activity requirements.
+Stage 1 high-purity Fe ingots (>=90%) are ball-milled in sealed mill to <=10 um and can directly serve as FCCVD catalyst precursor for CNT production. This route was validated by Volume I P0-M2 in-situ CNT manufacturing [1][2]. In Stage 2, hydrometallurgical purification (acid leaching/hydrogen reduction) is added to raise Fe purity to >=99% for higher catalyst activity.
 
 
-#5.7 CNT Manufacturing Plant
+### 5.7 CNT Manufacturing Plant
 
-Phased capacity and deployment
+#### 5.7.1 Phased Capacity and Deployment
 
-| Phase | Period | Capacity | Type of equipment | Location of deployment | Corresponds to the progress of the capital/master book
+| Stage | Period | Capacity | Equipment Type | Deployment | Alignment with Infrastructure/Main Schedule |
 |:-----|:-----|:-----|:-----|:-----|:-----|
- ** Phase 1** Second half of capital phase 2 | Monthly production 10-50 kg CNT yarn | Small pre-weaved line (1-2 microFCCVD reactor)  ** Underground industrial zone cave segment (sealed pressure) | Volume II 2.7.3 P1-M4 |
-** Phase 2** | Industrial-scale FCCVD mass line (multi-joint)
+| **Stage 1** | Second half of Infrastructure Phase II | 10-50 kg/month CNT yarn | Small pre-weaving line (1-2 micro FCCVD reactors) | Sealed and pressurized underground industrial section | Volume II Section 2.7.3 P1-M4 |
+| **Stage 2** | Early industrialization | >=1,000 kg/month CNT yarn | Industrial FCCVD multi-reactor parallel line | Same area, sealed section expanded to >=5,000 m2 | Main Volume II (start of CNT supply for ring construction) |
 
-> NOTE: Phase 1 meets the P1-M4 standard of volume II as its core mission, and CNT yarn capacity is only about 10 to 50 kg/month. The production of 1,000 kg per month under phase 2 began to generate substantial supply capacity for the main catalogue ring ladder. A true scale supply would require 100 tons of cylindrium per month in phase 3 (advanced industrialization).
+Note: Stage 1 is primarily for satisfying Volume II P1-M4 criteria, with only 10-50 kg/month output. Stage 2 >=1,000 kg/month begins meaningful supply capability. True large-scale supply requires Stage 3 (mature industrialization) at >=100 t/month.
 
-####5.7.2 Small pre-weaved line (phase 1)
+#### 5.7.2 Small Pre-Weaving Line (Stage 1)
 
-** (a) Process theory**
+**(a) Process principle**
 
-The basic principles of the lunar FCCVD, which were validated by volume I P0-M2, are based on local catalysts (iron nickel particles, a direct product from section 5.6.4 of this volume or from the magnetic concentrate) and carbon-sourced gases (CO2 from carbon pyrolysis pyrolysis or CO2 cooling, see section 5.2.3 of this volume), which grow the CNT veil in microFCCVD reactors. JAXA has successfully achieved CVD growth CTT[1] on the Moon Simulator particles, and research has confirmed the feasibility of methane as a carbon source for the direct synthesis of CNT on the Moon Simulator. The discovery of the natural SWCNT in Moonbone No. 6 provides an environmental analogy for this purpose [2]. The dynamic strength of CNT fibres in the laboratory can now reach 14 GPA [4].
+Inherit basic lunar FCCVD principle validated in Volume I P0-M2: use local catalyst (Fe-Ni particles from Section 5.6.4 or direct magnetic concentrate product) and carbon-source gas (pyrolysis gas from carbonaceous residues or CO2 from cold traps, Section 5.2.3) to grow CNT yarn in micro FCCVD reactors. JAXA has demonstrated in-situ CVD growth on lunar simulant particles [1], confirming methane-fed direct synthesis feasibility. Natural SWCNT discovery in Chang'e-6 regolith provides environmental analog support [2]. Lab CNT fibers have reached dynamic strength up to 14 GPa [4].
 
-** (b) Equipment configuration**
+**(b) Equipment configuration**
 
-| Equipment | Power | Mass | Description |
+| Equipment | Power | Mass | Notes |
 |:-----|:-----|:-----|:-----|
-| Mini-FCCVD reactor (1-2 units) |1 kW/platform ≤200 kg/platform 600-1200°C working temperature, carbon source methane or CO/H2 mixed gas [1]. The natural moon vacuum is the unique advantage of the FCCVD process and the reactor does not need a large vacuum pump system. Pre-reactive use of micro-vacuum pumps to clean residual gas in the cavity, in which the carbon-sourced gas in which the flow is accurately controlled and the reaction pressure is maintained
-| Online Raman Spectroscopy Monitor ≤0.5 kW |50 kg | real-time monitoring of CNT production volume (graphite inkization, deficiency peak strength), feedback control response parameters [3] |
-| ≤ 2 kW ≤ 300 kg | Parallel + interlocking (refer to volume VI, 6.6.1 process), continuous pre-weaving cord of output length 1 km. 1/6 gravitational corrosive control must be equipped with an accurate tension sensor and control system to compensate for the shift in latitudinal plume properties due to reduced gravity
-|3 kW |500 kg | carbon pyrolysis + Sabatier reaction, conversion of CO2 into methane [15 [19] |
+| Micro FCCVD reactor (1-2 units) | <=1 kW/unit | <=200 kg/unit | 600-1,200 C operation; carbon source methane or CO/H2 mix [1]. Lunar vacuum is advantageous; no bulky high-capacity vacuum pumping needed. Use micro-pump only for pre-run chamber cleanup, then maintain controlled gas flow/pressure during reaction |
+| Online Raman monitor | <=0.5 kW | <=50 kg | Real-time product quality monitoring (graphitization/defect peak intensity) with feedback control [3] |
+| Yarn pre-weaving machine | <=2 kW | <=300 kg | Parallel alignment + interval bundling (per Main Volume VI Section 6.6.1), continuous pre-woven cable length >=1 km. At 1/6 g, winding tension control needs precise sensors and control to compensate changed catenary behavior |
+| Carbon-source gas preparation system | <=3 kW | <=500 kg | Carbonaceous-residue pyrolysis + Sabatier conversion from CO2 to methane [15][19] |
 
-** (c) Catalyst supply path (Phase 1)**
+**(c) Catalyst supply routes (Stage 1)**
 
--** Path I (Priority)**: Natural iron nickel particles (60 per cent grade Fe+Ni and 90 per cent recovery rate) from the magnetic selection output of Volume IV 4.10.2 (specific grade 60 per cent Fe+Ni) directly as a FCCVD catalyst after a simple ball grinding (particle 10 μm). The high moon-surface vacuum environment, which excludes surface oxidation and water adsorption, which are common in the magnetic selection of the Earth ' s wetness, can in fact provide a cleaner surface of particles than the Earth ' s products. This path has been validated by volume I P0-M2 [1].
-- ** Path II**: Ingots (90 per cent purity) produced by smelters in section 5.6.4 of this volume are used after grinding through a closed ball.
+- **Route 1 (preferred)**: natural Fe-Ni particles from Volume IV Section 4.10.2 magnetic separation (grade >=60% Fe+Ni, recovery >=90%), then simple ball milling to <=10 um for direct FCCVD catalyst use. Lunar high vacuum avoids common Earth wet-separation issues such as surface oxidation/water adsorption, yielding cleaner particle surfaces. This route was validated in Volume I P0-M2 [1].
+- **Route 2**: Fe ingots from Section 5.6.4, then sealed ball milling.
 
-** (d) Productive and energy consumption**
+**(d) Capacity and energy**
 
-- **The CCT production rate of a single FCCVD reactor**: approximately 0.1 - 0.5 kg/ batch (determined by carbon supply and catalyst activity) [1] [3].
-- ** single batch response time**: approximately 4-8 h [1].
-- **Technology of 10–50 kg CNT veils per month**: approximately 200–1,000 kWh/month (all power consumption of reactor heating, monitoring and preweaving machines), approximately < 1 per cent of monthly power generation from base phase II.
+- **Single reactor CNT yield**: about 0.1-0.5 kg per batch, depending on carbon feed and catalyst activity [1][3].
+- **Batch duration**: about 4-8 h [1].
+- **Electricity for 10-50 kg/month CNT yarn**: about 200-1,000 kWh/month including heating, monitoring, and pre-weaving; <1% of Infrastructure Phase II monthly generation.
 
-####5.7.3 Industrial-scale FCCVD production line (Phase 2)
+#### 5.7.3 Industrial FCCVD Mass-Production Line (Stage 2)
 
-**(a) Process upgrading**
+**(a) Process upgrade**
 
-Phase 2 expands the phase 1 mini-FCCVD reactor to a multi-connected industrial reactor, with the following key subsystems being upgraded:
+Stage 2 expands Stage 1 micro reactors into parallel industrial reactors and upgrades:
 
-- ** Catalyst supply**: upgraded from simple physical fragmentation in phase 1 to hydrometallurgical purity (acid leaching/hydrogen gas reduction), increasing iron nickel purity to 99% thallium.
-- **Carbon supply**: Phase 2 increases the amount of CO2 cold-smelt collections over the monthly carbon plume meteorite residues, and reserves the gas-supply interface for the carbon capture of asteroids [13].
-- **Heat mode**: main heat source switching to high-temperature gas (500-750°C) in vol. III, sect. 3.5.7, with only the temperature-precision control part retaining electric heating, significantly reducing the consumption of electricity per CNT output.
--** Quality control online**: On-line Raman spectroscopy monitor (shared phase 1) at each FCCVD reactor export, feedback control response parameters [3].
+- **Catalyst supply**: from simple mechanical size reduction to hydrometallurgical purification (acid leaching/hydrogen reduction), raising Fe-Ni purity to >=99%.
+- **Carbon supply**: add larger CO2 cold-trap intake on top of carbonaceous-residue source; reserve interface for asteroid-derived carbon feed [13].
+- **Heating mode**: switch primary heat to high-temperature extraction steam from Volume III Section 3.5.7 (500-750 C); retain electric heating for precision control only, reducing unit electric intensity of CNT output.
+- **Online QC**: install Raman monitor at each reactor outlet for feedback control [3].
 
-** (b) Equipment configuration**
+**(b) Equipment configuration**
 
-| Equipment | Number | Single power | Single mass | Description |
+| Equipment | Quantity | Power per Unit | Mass per Unit | Notes |
 |:-----|:-----:|:-----|:-----|:-----|
-| Industrial FCCVD reactor 4-6 | 5 kW/platform ≤ 800 kg/platform 600-1200°C, approximately 100 - 300 kg CNT [1][3] |
-| Online Raman Spectrospectral Monitor 4-6 | 0.5 kW/ stage ≤ 50 kg/ stage ≤ independent monitoring per reactor [3] |
-| | | ≤ ≤ ≤ ≤ ≤ ≤ ≤ ≤ ≤ ≤ ≤  kg  kg  kg  kg  kg  kg + + + + + + + + interlocking, so that you can process multiple 纱 |
-| Carbon Source Institutional Preparedness System (Extension) 2 sets of ≤10 kW/Six of ≤1,500 kg/Six of | Scale Sabatier Array |
-| 1 set of ≤ 8 kW | 1,200 kg | wet metallurgical (acid leaching/hydrogen gas reduction), mass treatment of iron and nickel concentrate
+| Industrial FCCVD reactor | 4-6 | <=5 kW/unit | <=800 kg/unit | 600-1,200 C operation; each unit about 100-300 kg/month CNT [1][3] |
+| Online Raman monitor | 4-6 | <=0.5 kW/unit | <=50 kg/unit | One per reactor [3] |
+| Expanded yarn pre-weaving machine | 2 | <=5 kW/unit | <=600 kg/unit | Parallel alignment + interval bundling, multi-yarn throughput |
+| Expanded carbon-gas preparation system | 2 sets | <=10 kW/set | <=1,500 kg/set | Scaled Sabatier reactor arrays |
+| Catalyst purification system | 1 set | <=8 kW | <=1,200 kg | Hydrometallurgical purification (acid leaching/hydrogen reduction) |
 
-** (c) Production and energy consumption**
+**(c) Capacity and energy**
 
-- ** Total installed power**: approximately 50-80 kWe (all equipment).
-- ** Electricity consumption of 1,000 kg CNT veils per month**: about 5,000 - 8,000 kWh/month (other than heating - heating energy is provided by high-temperature gas from power plants, not counting electricity consumption).
-- ** Product Specification**: single veil length 10 km, strength 10 GPa (connected to the P1-M4 decision criteria in volume II) can be followed and weaved to meet the engineering strength target for ring ropes required in volume II of the main book (Z20 GPa) [3][4].
+- **Total installed power**: about 50-80 kWe.
+- **Electricity for >=1,000 kg/month CNT yarn**: about 5,000-8,000 kWh/month, excluding thermal load supplied by plant extraction steam.
+- **Product specification**: single-yarn length >=10 km, tensile strength >=10 GPa (aligned with Volume II P1-M4), with downstream plying/braiding to reach main ring-cable engineering targets (>=20 GPa) [3][4].
 
-** (d) Quality testing and classification**
+**(d) Quality inspection and grading**
 
-Each batch (approximately 50 kg) of CNT yarn shall be graded according to the following tests [3]:
+Per batch (~50 kg), CNT yarn is graded after:
 
-- stretch strength test (Target 10 GPa, in single-wire strength)
-- Scan mirrors (SEM) to detect surface defects and wiring
-- Raman spectra to detect graphite inkization (G/D peak strength + 5)
+- Tensile strength test (target >=10 GPa, single-fiber basis)
+- SEM inspection for surface defects and broken filaments
+- Raman graphitization check (G/D ratio >=5)
 
-Batchs that meet the standards of the master book level are sent to GEO orbital loop construction sites (through the monthly-terrestrial transport system in volume VI of this appendix); undesired batches are downgraded for intra-base uses (e.g., conductive cables, enhanced CFR structures).
+Batches meeting main-volume requirements are transported to GEO ring-construction sites through Appendix I Volume VI Earth-Moon transport system. Substandard batches are downgraded for internal base applications (conductive cable, CFRP reinforcement components).
 
 
-##5.8 Summary of energy consumption and mass in manufacturing systems
+### 5.8 Energy and Mass Summary of Manufacturing System
 
-####5.8.1 Summary of mass of equipment for all manufacturing systems (Phase 1 — Capital II)
+#### 5.8.1 Total Equipment Launch Mass (Stage 1: Infrastructure Phase II)
 
-| Equipment | | | | 质量 质量 质量 质量 质量 |
+| Equipment | Quantity | Unit Mass | Subtotal | Notes |
 |:-----|:-----:|:-----|:-----|:-----|
-| 1 set of 6 6,700 kg ≤ 6,700 kg | 6 6 6 6,700 kg | containing compositions, crushed bricks, boilers, composts [5][6] [7] |
-| Moonside concrete line 1 set of ≤3,000 kg ≤ 3,000 kg ≤ sulfur-containing extraction, mixing and irrigation [14] |
-| Direct current arc furnace (with electromagnetic mixing) 1 ≤5,000 kg | 5,000 kg | | furnace, transformer, electrodes and electromagnetic mixing wire
-Aluminium electrolytic tanks 1 ≤3,000 kg ≤ 3,000 kg | containing electrolytic cells, anodes, cathodes, electrolytes [10 [11] |
-|3 000 kg ≤3 000 kg |3 000 kg | furnace, heating elements and hydrogen gas cycling systems [20] |
-| ≤ 600 kg ≤ 600 kg | catalyst precursor grinding
-| Mini-FCCVD reactor 2 ≤200 kg/ stage ≤400 kg | [1] |
-| Online Raman Spectroscopy Monitor 1 ≤50 kg ≤50 kg |[3] |
-| ≤ ≤ ≤ ≤ ≤ ≤ ≤  kg  kg | | | |  —  —  —  —
-| Carbon-sourced gas system (small) 1 set of ≤500 kg ≤500 kg | Carbon sphere meteorite pyrolysis + Sabatier reaction [15 [19] |
-| Gradient Selection System (Phase 2) 1 set of ≤2,000 kg ≤2,000 kg ≤ High Gradient Magnetic Selector + Static Line Sifting + Machine Visual Speculation [17] |
-** Total launch mass of all manufacturing system equipment**  **  **  ** 24,550 kg (approximately 24.6 tons)** | Aluminium electrolytic tanks, iron reduction furnaces and electromagnetic mixing systems
+| Automated sintered-brick line | 1 set | <=6,700 kg | <=6,700 kg | Includes batching, press, furnace, palletizer [5][6][7] |
+| Regolith concrete line | 1 set | <=3,000 kg | <=3,000 kg | Includes sulfur extraction, mixing, casting [14] |
+| DC arc furnace (with EMS) | 1 | <=5,000 kg | <=5,000 kg | Includes vessel, transformer, electrodes, EMS coils |
+| Al electrolysis cell | 1 | <=3,000 kg | <=3,000 kg | Includes vessel, electrodes, electrolyte [10][11] |
+| Fe reduction furnace | 1 | <=3,000 kg | <=3,000 kg | Includes vessel, heaters, H2 circulation [20] |
+| Sealed ball mill | 1 | <=600 kg | <=600 kg | Catalyst precursor milling |
+| Micro FCCVD reactor | 2 | <=200 kg each | <=400 kg | [1] |
+| Online Raman monitor | 1 | <=50 kg | <=50 kg | [3] |
+| Small yarn pre-weaving machine | 1 | <=300 kg | <=300 kg | - |
+| Small carbon-source preparation system | 1 set | <=500 kg | <=500 kg | Carbonaceous pyrolysis + Sabatier [15][19] |
+| Cascaded sorting system (Stage 2) | 1 set | <=2,000 kg | <=2,000 kg | High-gradient magnetic + electrostatic traveling-wave + machine-vision sorting [17] |
+| **Total manufacturing launch mass** | - | - | **<=24,550 kg (~24.6 t)** | Includes Al cell, Fe furnace, EMS system |
 
-####5.8.2 Overview of energy consumption in the whole manufacturing system (phase 1 — typical day of the day of the second capital phase)
+#### 5.8.2 Manufacturing Energy Overview (Stage 1: Typical Lunar-Day Operation)
 
-| Equipment/system | Number | Single power | Hours of work | Day energy consumption | Energy type |
+| Equipment/System | Quantity | Unit Power | Daily Operating Hours | Daily Energy | Energy Type |
 |:-----|:-----:|:-----:|:-----:|:-----:|:-----|
-~30 kW ~360 kwh ~ Cable power ~
-~ 12 kW ~ 8 h ~ 96 kwh ~ cable power ~
-~85 kW | 6 h (run every 2-3 days) ~ 510 kWh/b
-Aluminium electrolytic tank 1 ~25 kW ~8 h (in exchange with arc furnace) ~200 kwh | cable power ~
-~40 kW ~6h (run every 2-3 days) ~240 kwh/ sub-cable
-~1 kW/ stage 24 h (continuous) ~48 kWh | cable power supply
-~2 kW ~8h ~16 kwh ~ cable power ~
-~3 kW ~12 h ~36 kwh ~ cable power ~
-~2 kW ~12 h ~24 kWh | cable power ~
-** Total (typical day of the month)** **  **  ** ** ~ 780 kWh/day (excluding smelters)** | **
+| Automated sintered-brick line | 1 set | ~30 kW | 12 h | ~360 kWh | Electric cable supply |
+| Regolith concrete line | 1 set | ~12 kW | 8 h | ~96 kWh | Electric cable supply |
+| DC arc furnace (aluminothermic, with EMS) | 1 | ~85 kW | 6 h (every 2-3 days) | ~510 kWh/run | Electric cable supply |
+| Al electrolysis cell | 1 | ~25 kW | 8 h (alternating with arc furnace) | ~200 kWh | Electric cable supply |
+| Fe reduction furnace | 1 | ~40 kW | 6 h (every 2-3 days) | ~240 kWh/run | Electric cable supply |
+| Micro FCCVD reactors (2) | 2 | ~1 kW each | 24 h continuous | ~48 kWh | Electric cable supply |
+| Yarn pre-weaving machine | 1 | ~2 kW | 8 h | ~16 kWh | Electric cable supply |
+| Carbon-source preparation | 1 set | ~3 kW | 12 h | ~36 kWh | Electric cable supply |
+| Lighting and auxiliaries | - | ~2 kW | 12 h | ~24 kWh | Electric cable supply |
+| **Total (typical lunar-day, excluding metallurgy intermittency)** | - | - | - | **~780 kWh/day** | - |
 
-Smelting furnaces (air arc furnaces + iron reduction furnaces) are non-continuous operating equipment, operating every 2-3 days, with cumulative monthly power consumption of approximately 8,000-15 000 kWh, or <5 per cent of base-level 2 monthly power generation. An additional power of approximately 5 kW for the electromagnetic mixing system is included in the total power of the arc furnace.
+Metallurgical furnaces (arc + Fe reduction) are non-continuous, operating every 2-3 days. Monthly cumulative electricity is about 8,000-15,000 kWh, <5% of Infrastructure Phase II monthly generation. EMS additional power is about 5 kW and already included in arc-furnace total.
 
 
-##5.9 Assessment of the environmental adaptation of the lunar vacuum, low gravity and magnetic process
+### 5.9 Adaptability Assessment for Lunar Vacuum, Low Gravity, and Magnetic Separation
 
-This section provides a systematic assessment of the adaptability of the manufacturing processes in volume V in the Moon vacuum and 1/6 gravitational environments, in particular with regard to the potential impact of the magnetic process on the volume of the material produced and the co-effects of the high temperature and magnetic field during the slag separation process.
+This section assesses process adaptability in lunar vacuum and 1/6 g conditions, with emphasis on magnetic-separation impacts on product quality and coupled high-temperature/magnetic-field effects in slag-metal separation.
 
-####5.9.1 Impacts of and responses to vacuum environments
+#### 5.9.1 Vacuum Impacts and Countermeasures
 
-** (a) Aluminium production — Aluminium thermal reduction and melted salt electrolysis**: Melting salt electrolysis and high-temperature aluminum thermal reduction under a moon-surface vacuum ($10{ {-12} $ bar) and 1/6 gravity shall be carried out in a fully closed pressure container (filled with 1 barazone gas) to inhibit the volatilization of the melted salt electrolyte and to safely collect oxygen. All high-temperature response equipment is designed in accordance with this principle, as detailed in section 5.6.2.
+**(a) Aluminum production: aluminothermic + molten-salt electrolysis**. Under lunar vacuum ($10^{-12}$ bar) and 1/6 g, both processes must run in fully sealed pressure vessels (1 bar Ar) to suppress electrolyte volatilization and safely collect oxygen. All high-temperature reactors are designed accordingly (Section 5.6.2).
 
-** (b) Iron and Oxygen Production - Hydrogen Reduction of titanium ore**: The moon surface superhigh vacuum provides excellent non-balanced thermodynamic conditions for hydrogen reduction reactions. Vacuum pumps maintain the very low oxygen fraction pressure required in the reactor, continuously remove the by-product water vapour and facilitate the movement of the chemical balance in the direction of the production of metal, in accordance with the Lechard doctrine. The reactor shall be completely sealed and the hydrogen gas shall be recycled in a full closed ring, as detailed in section 5.6.3.
+**(b) Iron/oxygen production: ilmenite hydrogen reduction**. Ultrahigh vacuum provides favorable non-equilibrium thermodynamic conditions. Vacuum pumping maintains low oxygen partial pressure and continuously removes steam byproducts, shifting equilibrium toward Fe formation. Reactor must be fully sealed with closed-loop hydrogen circulation (Section 5.6.3).
 
-** (c) Sulphur glue extraction - Meteor iron thermal decomposition**: The moon-surface vacuum environment is highly conducive to thermal decomposition of solid minerals, which heats up meteorite iron in near-vacuum conditions with significantly lower decomposition temperatures and faster decomposition. Sulphur vapour is efficiently collected by condensers in a low-temperature ground surface environment, as detailed in section 5.5.3.
+**(c) Sulfur binder extraction: troilite thermal decomposition**. Lunar vacuum is favorable to solid thermal decomposition. Near-vacuum decomposition lowers required temperature and accelerates reaction. Sulfur vapor is efficiently condensed under low lunar thermal background (Section 5.5.3).
 
-**(d) CNT-FCCVD reactor**: The natural moon-surface vacuum is the unique advantage of the FCCVD process and the reactor does not need a large vacuum pump system to maintain a low pressure reaction environment. Carbon-source gases ($CH_4) that enter into the precise control flow and maintain the reaction pressure, before reaction, using a microvacuum pump to purify the residual gas in the cavity. The programme has been supported by the theoretical validation of volume I P0-M2 and the JAXA study [1], as detailed in section 5.7.2.
+**(d) CNT production: FCCVD reactors**. Native lunar vacuum is a major process advantage. Large vacuum-pump systems are unnecessary for low-pressure operation. A micro vacuum pump purges residual gases pre-run; controlled methane flow and pressure are maintained during reaction. Supported by Volume I P0-M2 analysis and JAXA studies [1] (Section 5.7.2).
 
-###5.9.2 Low gravity (1/6g) environmental impacts and responses
+#### 5.9.2 Low-Gravity (1/6 g) Impacts and Countermeasures
 
-** (a) Dissociation efficiency of slag gold**: Aluminium thermal reduction slag gold separation is a key step. In a 1/6g environment, gravitational separation drivers are insufficient. The programme, which integrates electromagnetic mixing (EMS) systems in electric arc furnaces, uses a four-step refining process (pulsive mixing and rotation mixing) and single-way Electromagnetic clean-up and static discharges) to increase the slag separation efficiency from <30 per cent to >90 per cent of low-gravity natural deposition without increasing the quality of the equipment, as detailed in section 5.6.2.
+**(a) Slag-metal separation efficiency**. This is a key step after aluminothermic reduction. Under 1/6 g, gravity-only separation is insufficient. EMS-integrated four-step refining (pulse -> rotation -> one-way purification -> static settling) raises separation efficiency from <30% to >90% without mass increase (Section 5.6.2).
 
-**(b) The co-effects of the high temperature and magnetic field during the slag separation**: Electromagnetic mixing operates in high-temperature smelts, which must be assessed as reducing the quality of the product or leading to an unintended magnetic impact on the product. The following is an assessment of the physical principles of the sub-section and the engineering response:
+**(b) Coupled high-temperature and magnetic-field effects during slag-metal separation**. EMS in high-temperature melt requires assessment of potential quality degradation or unintended magnetization effects:
 
-- ** The effect of high temperature on magneticity and regulation**: Magnetic material is converted to magnetic after exceeding its contour temperature and loses its iron magnetism. Moon-smelted regenerated products (iron, titanium, etc.) have a congested temperature of up to hundreds of degrees centigrade, well above the magnetic operational temperature (<100°C), so that they remain strong and non-stereogenic during the post-cooled magnetic selection. In high-temperature smelting, however, some weak magnetic minerals may undergo phase transformation in a retrogressive atmosphere, generating new magnetically powerful substances that can become trace impurities if they enter the metal phase. The engineering response is to accurately control the temperature and atmosphere of the reaction (oxygen fractional pressure) and to use multi-phased magnetic selections — first using a weak magnetic selection to enrich strong magnetic minerals, then using a strong magnetic selection to recover weak magnetic minerals — to avoid the mixing of minerals with different magnetic intensity into the final product.
+- **Magnetic behavior at high temperature and control**: magnetic materials become paramagnetic above Curie temperature and lose ferromagnetism. Curie temperatures of lunar reduced products (Fe, ilmenite-derived phases) are hundreds of Celsius, higher than magnetic-separation operating temperature (<100 C), so strong magnetic response remains during post-cooling magnetic separation. However, in high-temperature reducing atmospheres, some weakly magnetic phases may transform into stronger magnetic phases; if they enter metal phase they could become trace impurities. Countermeasure: precisely control temperature and oxygen partial pressure and use staged multi-pass magnetic separation, weak-field first for strong-magnetic recovery, then strong-field pass for weak-magnetic recovery, reducing mixed carryover.
 
--** Optimization of electromagnetic mixing parameters in order to avoid dross**: while electromagnetic mixing promotes slag gold separation, if the process parameters are not properly chosen (e.g., over-frequency and over-intensity), they can lead to sharp fluctuations in slags and metal fluids, encapsulating each other (slags) and reducing metal purity. The engineering response is to pre-optimise the configuration and parameters of electromagnetic mixing through hydrodynamic simulation simulations - to promote reaction and adhesion in the main separation phase using a "temperature" mix (rotation or wave mixing) mode; to reduce or stop mixing at the final stage by providing sufficient static time to allow microslag droplets to fully float and to be completely separated from metal fluids.
+- **EMS parameter optimization to prevent slag entrainment**: while EMS improves separation, inappropriate settings (excess frequency/intensity) can induce violent oscillation and slag entrainment, lowering metal purity. Countermeasure: pre-optimize layout and parameters using CFD simulation. Use mild stirring modes (rotating/traveling-wave) during main separation to promote reaction and inclusion flotation; in final stage reduce/stop stirring and provide sufficient settling time for complete fine-slag rise and phase separation.
 
--**Conclusion **: The co-effects of high temperatures and magnetic fields, controlled by the ideal process, are a key means of improving the efficiency of slag separation and the purity of the product, rather than a disruption factor. The additional power of the electromagnetic mixing system, about 5 kW, is included in the total power of the arc furnace and does not constitute an additional energy burden.
+- **Conclusion**: under proper process control, coupled high temperature and magnetic fields are quality-enhancing tools, not degradation factors. EMS added power is about 5 kW, already included in arc-furnace power budget.
 
-** (c) Melting salt medium suspension and circulation**: 1/6 gravitational sub-float convection reduced and electrolyte temperature and composition evenity affected. Auxiliary cycles with corrosive ceramic mixers or electromagnetic mixers are used, as detailed in section 5.6.2.
+**(c) Molten-salt suspension and circulation**. Reduced buoyancy convection under 1/6 g affects electrolyte thermal/compositional uniformity. Use corrosion-resistant ceramic stirrers or EMS-assisted circulation (Section 5.6.2).
 
-**(d) Material delivery and mixing**: All piping gas-carrying, mixing and sifting equipment involving solid particles (lunch powder, catalyst, bone material) shall be in the form of a sealed spiral or vibration feed and optimize vibration parameters based on DEM simulation.
+**(d) Material transfer and mixing**. For all granular solids (regolith powder, catalyst, aggregate), use sealed screw conveying or vibratory feeding and re-optimize vibration parameters by DEM simulation.
 
-** (e) Convulsive control of CNT **: 1/6 change in the convulsive properties of the subgravity tectonic line, which requires the receiving agency to be equipped with an accurate tension sensor and control system, as detailed in section 5.7.2.
+**(e) CNT yarn winding tension control**. Because yarn sag characteristics change under 1/6 g, winding systems require precise tension sensing and control (Section 5.7.2).
 
-** (f) Quality check and sampling**: All destructive detection equipment (e.g., anti-pressure test machines) must be specially designed for holding and stationing devices to ensure that samples do not fly under 1/6g as a result of instability.
+**(f) Inspection and sampling**. Destructive-testing devices (e.g., compression testers) require dedicated clamping/fixation design so samples do not destabilize or eject under low gravity.
 
-** (g) Solid waste/by-product treatment**: Solid waste, such as slags, tailings, is transported and stacked in a manner different from the Earth ' s at low gravity (the sabbath will slow down). The use of sealed power delivery systems for internal lined waste storage, which design capacity and pressure are optimized in a low-gravity environment.
+**(g) Solid waste/byproduct handling**. Slag/tailings transport and stockpiling behavior differs in low gravity (shallower repose angles). Use sealed pneumatic transport to lined internal waste silos with storage and compaction optimized for low-g conditions.
 
-####5.9.3 Special assessment of the impact of the magnetic selection process on the quantity of substances produced
+#### 5.9.3 Special Assessment: Magnetic Separation Impact on Product Quality
 
-This section provides a detailed physical principles and engineering impact assessment of the amount of material that may be produced during the dry-magnetic enrichment of the lunar titanium ore and other minerals.
+This subsection evaluates potential quality issues in dry magnetic concentration of ilmenite and related lunar minerals.
 
-** (a) Magnetic fundamentals and purity guarantees**
+**(a) Separation principle and purity assurance**
 
-Moon dry magnetic selections are separated using differences between ** and ** of the different minerals. This process is** pure physical separation** and does not involve any chemical reaction and therefore fundamentally** does not change the chemical composition or crystal structure of the minerals**. The chemical composition of the selected products (magnetic concentrates) is fully consistent with the magnetic mineral particles in the original ore, and they are simply "selected" physically from the pulsary matrix. Magnetic selection by itself does not have a negative impact on the purity of the iron sun, the activity of the CNT catalyst or the reliability of subsequent smelting. The grade of titanium concentrate depends on the grade of the original ore, the strength of the magnetic field and the number of grades selected, rather than the chemical interference of the magnetic selection process. This conclusion has been validated by the China Institute of Space Technology, Zhang Guang, through a joint COMSOL-DEM simulation [17].
+Dry magnetic separation uses differences in **specific magnetic susceptibility** among minerals. It is a **purely physical separation** with no chemical reaction, so it does **not alter chemical composition or crystal structure**. Product chemistry is unchanged from magnetic grains in feed; process only physically separates them from gangue. Therefore magnetic separation itself does not degrade Fe-ingot purity, CNT catalyst activity, or downstream metallurgy reliability. Ilmenite concentrate grade depends on feed grade, field strength, and stage count, not chemical interference from separation. This has been verified by COMSOL-DEM co-simulation from Chinese teams [17].
 
-** (b) Possibility of surface magnetic contamination and exclusion**
+**(b) Potential for surface magnetic contamination and exclusion**
 
-Moon dry magnetic selection takes place in a high vacuum ** without water quality**, with only mechanical collisions between particles and no liquid phase medium, so that magnetic impurities are extremely unlikely to bind to the surface of non-magnetic particles. Even if there are trace surfaces attached, subsequent hydrogen reduction or aluminium thermal reduction steps are carried out at high temperatures (1,0001,000°C), and any attached trace iron oxide is synchronized to metal, entering the iron and iron, and does not constitute an independent source of pollution. For the CNT catalyst preparation path, the high moon-surface vacuum environment, which excludes surface oxidation and water adsorption problems common to the magnetic selection of the Earth ' s wetness, can in fact provide ** a more cleanness of the particle surface than the Earth ' s products** [1].
+Lunar dry magnetic separation operates in high vacuum with **no liquid phase**. Particles interact by mechanical collision only, so adhesion probability of magnetic impurities onto nonmagnetic particles is very low. Even if trace adhesion occurs, subsequent hydrogen reduction or aluminothermic processing at >=1,000 C will reduce any trace iron oxides into metallic Fe incorporated into Fe product stream, not an independent contaminant source. For CNT catalyst route, lunar high vacuum avoids surface oxidation/water adsorption common in terrestrial wet magnetic separation and can provide **cleaner particle surfaces than Earth analogs** [1].
 
-** (c) Recovery challenges and responses for fine-pellets of titanium mine**
+**(c) Recovery challenge for fine ilmenite and countermeasures**
 
-The particle size of titanium ore in the Moon is more widely distributed, of which ** the fine particle class (<20 μm)** the recovery of titanium ore is the main technical difficulty of the moon surface magnetic selection. Under 1/6 gravitational force, the fine grain class is less adhesive on the surface of the Magnetic Roller, which may result in some fine grains of titanium being accidentally released into tailings. Response strategies include increasing magnetic field strength (1.51.5 T) and gradients, re-processing tailings with multi-stage magnetics, and using electrostatic wave-sifting as an additional means of magnetic selection [17] [29].
+Regolith ilmenite has wide size distribution; **fine ilmenite (<20 um)** is the principal recovery challenge. Under 1/6 g, weaker adhesion on magnetic drum surfaces can increase misrouting to tailings. Countermeasures: increase field strength (>=1.5 T) and gradient, implement multi-stage magnetic reprocessing of tailings, and use electrostatic traveling-wave sorting as complementary method [17][29].
 
-** (d) Potential impact of magnetic reunification on selection accuracy**
+**(d) Potential effect of magnetic agglomeration on sorting precision**
 
-In both the strong magnetic field and the high gradient environment, magnetic particles may be formed by the interaction of magnetic dolls ** magnetic reunification** — that is, multiple magnetic particles attract each other in the magnetic field and gather in clusters. To some extent, magnetic reunification has helped to increase the recovery rate of fine grains (which are of high quality and are more magnetic), but it is also possible to trap some of the pulsary particles into the family and reduce the purity of the concentrate. The dispersion of particles in low-gravity environments on the moon is better and can alleviate the problem of magnetic reunification to some extent. Optimizing magnetic retroactivity and magnetic field frequency can undermine a strong magnetic reunion and maintain a fine ore level within the target range (a slight reduction of about 2 to 5 per cent).
+In strong/high-gradient fields, magnetic particles can form **magnetic agglomerates** by dipole interaction. Agglomeration can improve fine-particle recovery (larger effective mass/force) but may entrain gangue and reduce concentrate purity. Lower gravity can improve particle dispersion to some extent, mitigating entrainment. Optimizing separator speed and magnetic-field frequency can break excessive agglomeration and keep concentrate grade within target range (minor effect, roughly 2%-5% reduction if unoptimized).
 
-** (e) Overall impact assessment of magnetic selection on subsequent smelting and catalyst**
+**(e) Overall impact on downstream metallurgy and catalysts**
 
-Potential concerns Physical principles Physical impacts of the product
+| Concern | Physical Principle | Actual Product Impact | Mitigation |
 |:---|:---|:---|:---|
-The normal magnetic selection does not alter the chemical composition of the mineral, does not vary ** no impact**
- ** Surface magnetic contamination | Non-liquid phase media in high vacuum environments with low surface adhesion probability ** Basic no effect** | Maintenance of high vacuum operating environment
- ** Low particle-level recovery, low | low + weak magnetic factor ** Need of attention** Multiscale magnetography + electrostatic wave-sifting supplement
- ** ** Slight effect**
-Zirconium Surface oxidation or water adsorption of particles ** No impact** (lunar high vacuum natural avoidance)
+| Magnetic separation changes mineral magnetism | Conventional magnetic sorting does not alter composition; no phase transformation | **No impact** | Maintain current process |
+| Surface magnetic contamination | No liquid medium in high vacuum; low adhesion probability | **Negligible impact** | Maintain high-vacuum operation |
+| Low fine-particle recovery | Combined low-g and weak magnetic capture for ultrafines | **Needs attention** | Multi-stage magnetic + electrostatic traveling-wave supplement |
+| Agglomeration entrains gangue | Magnetic dipole interactions | **Minor impact** (concentrate grade may drop by ~2%-5%) | Optimize rotor speed and field frequency |
+| Surface oxidation/water adsorption | Common in terrestrial wet separation | **No impact** under lunar vacuum | Maintain high-vacuum operation |
 
-** (f) Evaluation findings**
+**(f) Conclusion**
 
-** Moon dry magnetic selection does not pose a material threat to the amount of material produced in physical terms. ** The only technical issue to be included in the test item is the decrease in the recovery rate of fine-pellets of titanium under 1/6 gravitational power, which should be confirmed by subsequent polyphysical field simulations and ground simulations of the optimal magnetic field parameters and multi-scale magnetic configuration (covered by P2-F3). For the preparation path of the CNT catalyst, natural iron and nickel particles from the high vacuum dry magnetic output of the moon surface should be given priority as a source of raw material for phase 1 FCCVD catalysts, with a higher surface cleanness than the geo-wet magnetic selection product.
+**Lunar dry magnetic separation does not pose substantive quality risk by physical principle.** The key pending technical item is reduced recovery of fine ilmenite under 1/6 g. This should be addressed by multiphysics simulation and ground analog tests to determine optimal field settings and stage count (covered by P2-F3). For CNT catalyst routes, dry magnetic separation in high vacuum yields naturally cleaner Fe-Ni particles than terrestrial wet routes and should be prioritized as Stage 1 FCCVD catalyst feedstock.
 
 
-###5.10 To be validated and criteria for determination
+### 5.10 Pending Validation Items and Pass Criteria
 
-No. No. No. No. No. No.
+| ID | Item | Validation Method | Success Criterion | Related Volume |
 |:---|:---|:---|:---|:---|
- **P1-F1** Consistency in the capacity and quality of automated brick-burning wires |30 days of continuous operation of the automated line under phase 2  **500 pieces of daily production  **15% of the pressure-resistant strength mutation factor,  **3 mm of the size difference | Vol. II P1-M1 |
-**P1-F2** Capability of construction of moonside concrete moons
- **P1-F3**  ** CNT pre-weaving line full process validation | Mini-FCCVD reactor + pre-weaving machine  **  ** CNT gauze stretch strength  **10 Gpa, ≤1 in length/km | Volume I P0-M2, Volume II P1-M4 |
- **P2-F1**  ** Direct current arc arc furnace monthly smelting efficiency | Use a moon-surface magnetomechanical ore (30% ≥$feTiO_3) as a feedstock to run a straight current arc furnace (with an electromagnetic mix) under a simulation of the moon-surface vacuum and 1/6 gravity  ** 80% iron recovery rate, 30% aluminium reduction efficiency, 100 batches of furnace lined |
- **P2-F2** Long-term operating stability of the CNT mass line | 3 months of continuous operation of the stage 2 technical FCCVD reactor array  ** 1,000 kg per month, 90% product success rate  ** 1 unplanned stoppage per month | 2nd volume
- **P2-F3** Classification efficiency verification for bone ladders | Full ladder selection process (magnetic + electrostatic + machine vision) running on the surface moon-border simulation test site  ** 85% titanium ore recovery rate in the middle particle class, 80% np-Fe recovery rate in the fine particle class and no decrease in the performance of residual material construction material following selection [17] Volume 4, volume, volume
- **P2-F4**  ** Aluminium thermal reduction-melted salt electrolytic closure ring validation | Aluminium thermal reduction from the surface moon boundary test field operating full process + 10 batches of aluminous salt electrolyte closed circuit ≥ 80% Aluminium combined recovery rate, 15% single batch pure aluminium loss, 90% electrolytic anode oxygen purity [10][11][18] Section 5.6.2 of volume |
- **P2-F5**  ** EMP Auxiliary Slag Separation Efficiency Verification Operation of an electro-magneticly mixed arc furnace condensation model on a simulation of 1/6 gravitational platform on the surface of the moon, and slag gold separation test | 1/6 + electromagnetic agitation supported by slag gold separation efficiency up 3 times higher than the non-smuggling efficiency, and 1.2 times more pureness of metal phase (in terms of aristure content) than the Earth's equivalent processes | 5.6.2, 5.9.2 in this volume
+| **P1-F1** | Automated sintered-brick line capacity and quality consistency | Continuous operation >=30 days in Stage 2 | >=500 bricks/day, compressive-strength COV <=15%, dimensional tolerance <=3 mm | Volume II P1-M1 |
+| **P1-F2** | Lunar casting performance of regolith concrete | Cast standard sulfur-concrete cubes (150 mm) under lunar-vacuum/low-g conditions | Compressive strength >=20 MPa; <=20% degradation after 100 thermal cycles | Volume II P1-M2 |
+| **P1-F3** | Full-process validation of CNT pre-weaving line | Operate micro FCCVD + pre-weaving with local catalyst and carbon source under lunar conditions | CNT yarn tensile strength >=10 GPa; filament-break density <=1 per km | Volume I P0-M2, Volume II P1-M4 |
+| **P2-F1** | Lunar smelting efficiency of DC arc furnace | Run DC arc furnace (with EMS) using lunar magnetic concentrate (>=30% $FeTiO_3$) under simulated lunar vacuum and 1/6 g | Fe recovery >=80%, Al reduction efficiency >=30%, lining life >=100 batches | Volume II P2-M1 |
+| **P2-F2** | Long-term stability of CNT mass-production line | Continuous operation of Stage 2 industrial FCCVD array >=3 months | >=1,000 kg/month output, >=90% pass rate, <=1 unplanned shutdown/month | Main Volume II |
+| **P2-F3** | Cascaded aggregate-sorting efficiency | Ground simulant testbed with full sorting train (magnetic + electrostatic + machine vision) | Medium-fraction ilmenite recovery >=85%, fine-fraction np-Fe recovery >=80%, no degradation in residual-material construction performance [17] | Volume IV, this volume |
+| **P2-F4** | Closed-loop validation of aluminothermic + molten-salt electrolysis | Ground simulant closed-loop operation >=10 batches (with EMS assistance) | Comprehensive Al recovery >=80%, net Al loss <=15% per batch, anode O2 purity >=90% [10][11][18] | Section 5.6.2 |
+| **P2-F5** | EMS-assisted slag-metal separation efficiency | Run scaled arc-furnace model with EMS on simulated 1/6 g platform | In 1/6 g + EMS, slag-metal separation efficiency improves >=3x over no-stirring baseline; metal-phase inclusion level <=1.2x terrestrial process benchmark | Sections 5.6.2, 5.9.2 |
 
 
-###5.11 Parameter Output
+### 5.11 Parameter Outputs
 
-| Parameter | 数值 | | | | | | | | | | |
+| Parameter | Value | Status | Receiving Volume |
 |:---|:---|:---|:---|
-| Initial Aluminium Demand for First Aluminium Cycle (Earth Launch)
-Phase 2 high-value bone group fraction rate | 70% | Design target | Volume 4 |
-Phase 3 target for full group utilization 95% forward target Volumes IV, VI
-| ≥ ≥ ≥ ≥ ≥ | | Design target | | | Volume II (building materials requirements) |
-| Monthly concrete capacity (phase 2)
-Metallic metallic smelting capacity (phase 2)
-| CNT Saline Monthly Capability (Stage 1) |10–50 kg |P1 to be validated
-|1 000 kg | P2 to be verified
-| (smelting by-product) ≥ 500 kg/month (phase 2)
-|24.6 tonnes (net mass)
-Total monthly electricity consumption of the manufacturing system (phase 2) ~25,000-40,000 kWh/month = ~ Volume estimation ~ Volume III (net load control) ~
-| 5 kW (total arc furnace power factor)
-Slag gold separation efficiency (low gravity + EMS)
+| Initial Al needed for first closed-loop startup (Earth launch) | <=500 kg | Design baseline | Volume X (transport cost) |
+| Stage 2 high-value fraction extraction rate from aggregate | >=70% | Design target | Volume IV |
+| Stage 3 full-component regolith utilization target | >=95% | Long-term target | Volume IV, Volume VI |
+| Sintered-brick monthly capacity | >=15,000 bricks | Design target | Volume II (construction demand) |
+| Regolith concrete monthly capacity (Stage 2) | >=5 t | Design target | Volume II |
+| Metallurgy monthly capacity (Stage 2) | Al ingots 100-500 kg; Fe ingots 100-500 kg | Design target | Volume II |
+| CNT yarn monthly capacity (Stage 1) | 10-50 kg | P1 pending verification | Main Volume II |
+| CNT yarn monthly capacity (Stage 2) | >=1,000 kg | P2 pending verification | Main Volume II |
+| Lunar oxygen production by metallurgy byproducts | >=500 kg/month (Stage 2) | Design target | Volume III (life support) |
+| Total manufacturing equipment launch mass (Stage 2) | <=24.6 t (net mass) | Order-of-magnitude estimate | Volume X (economic transport model) |
+| Total manufacturing electricity use (Stage 2) | ~25,000-40,000 kWh/month | Order-of-magnitude estimate | Volume III (grid load dispatch) |
+| EMS additional power | <=5 kW (already included in arc-furnace total) | Design baseline | Volume III (grid load) |
+| Slag-metal separation efficiency (low-g + EMS) | Target >90% (vs <30% for unstirred settling) | Design target | This volume |
 
 
-# # 5.12 # 5 #
+### 5.12 Conclusion of Volume V
 
-The present volume completes the planning of the lunar industrial manufacturing system, with the following core contributions:
+This volume completes integrated planning for the lunar manufacturing system. Key contributions:
 
-1. **Industry chain material balance for the first complete closure. ** Through Section 5.2, aluminium (Mount-side longstone aluminum thermal reduction/melted salt electrolysis), titanium (Landite ore concentrate hydrogen reduction/Lithium thermal reduction silican alloy electrolytic refining monomer), iron (Landite ore hydrogen reduction/FFC electrolysis), carbon (Carbon plume residue + CO2 cooling in polar area + solar wind volatilisation + asteroid carbon source Eleven key elements, such as pyrolysis/Sabatier Reaction Methane), sulphur (Meteorite Iron Thermal Decomposition/SSAP Process), silicon (Mount-ZiO_2 US$2 → Aluminium Thermal Reduction by-products), oxygen (Aluminium Thermal Reduction + Titanite by-products + Melted salt electrolytic anode Dissectation), and the source and route of intermediate products have removed the logical gap of “where aluminium comes from”.
+1. **First complete closure of full-chain material balance.** Section 5.2 fully traces source and destination paths for eleven key elements and intermediates: Al (regolith plagioclase -> aluminothermic/molten-salt electrolysis), Ti (ilmenite concentrate -> hydrogen reduction/lithium reduction -> Ti-Si alloy -> electrorefining -> Ti), Fe (ilmenite -> hydrogen reduction/FFC electrolysis), C (carbonaceous residues + polar CO2 cold traps + solar-wind volatiles + asteroid carbon -> pyrolysis/Sabatier -> methane), S (troilite -> thermal decomposition/SSAP), Si (regolith $SiO_2$ -> aluminothermic byproduct), O (aluminothermic byproduct + ilmenite hydrogen-reduction byproduct + molten-salt electrolysis anode), eliminating the where-does-Al-come-from logic gap.
 
-2. **System assessment of the lunar environmental adaptation of industry-wide chain manufacturing processes. ** The requirements of the vacuum environment for the management of gaseous products, the impact of low gravity on the separation of slag gold and the delivery of materials, the potential threat of the magnetic process to the volume of the material produced, and the combined effects of the high temperature and magnetic field during the slag separation were examined on a line-by-line basis in section 5.9. A four-step refining process that supports the separation of slag gold increases the separation efficiency from <30% to >90% of low gravity natural deposition. The lunar dry magnetic selection had no negative impact on the product, and the natural iron and nickel catalyst precursors produced were better than the Earth's products in their surface cleanness.
+2. **Systematic environmental adaptability assessment for lunar manufacturing.** Section 5.9 evaluates vacuum requirements for gas-product management, low-gravity effects on slag-metal separation and bulk handling, potential product-quality risks from magnetic separation, and coupled high-temperature/magnetic-field effects in slag-metal separation. EMS four-step refining can raise separation efficiency from <30% to >90%. Lunar dry magnetic separation shows no intrinsic quality penalty, and natural Fe-Ni catalyst precursor particles can have cleaner surfaces than terrestrial analogs.
 
-3. ** The phased material balance model is clearly traceable. ** Section 5.3 identifies the energy data and material flow direction of phases 1-2.
+3. **Clear and traceable phased material-balance model.** Section 5.3 defines stage-specific capacity and flow directions.
 
-4. **The utilization of the Gradient of Raw Materials has increased the utilization factor from "sufficient" to "best". ** The 5.4-step-selection programme gave priority to the extraction of 70 per cent of the high-value group of thiram from the Moon Road, which enters the construction materials line, in phase 2. By phase 3, the target utilization rate for the whole group was 95 per cent.
+4. **Cascaded feedstock utilization upgrades resource use from sufficient to optimized.** Section 5.4 enables >=70% high-value extraction before construction-line entry in Stage 2. Stage 3 targets >=95% full-component utilization.
 
-5. ** The quality and energy consumption of the manufacturing system have been summarized in section 5.8. ** The total monthly electricity consumption is approximately 25,000-40,000 kWh, with a net mass of approximately 24.6 tons of system-wide equipment.
+5. **Equipment mass and energy are consolidated in Section 5.8.** Net manufacturing-system equipment mass is about 24.6 t; total monthly electricity is about 25,000-40,000 kWh.
 
-6. ** All references in this volume have been numbered,** covering all key sources of technology, from the CNT synthesis test at JAXA, the Aluminium Thermal Reduction - Melting Salt Condensation Ring at the University of Technology in Missouri and the national research team, and the titanium ore hydrogen reduction from Ninbo material to the Moon Light Catalytic Materials Preparation at Xinjiang Zhongjiang.
+6. **All cited technical sources are referenced.** Coverage includes JAXA CNT synthesis validation, Missouri S&T and domestic groups on aluminothermic + molten-salt electrolysis closure, Ningbo ilmenite hydrogen-reduction verification, and Xinjiang regolith photocatalyst work.
 
 
-References
+### References
 
-[ ] JAXA Research Team. "direct senses of carbon nanotubes on lunar regulant parties."
+[1] JAXA Research Team. "Direct synthesis of carbon nanotubes on lunar regolith simulant particles." *Carbon*, Vol. 231, 2025, 119751.
 
-[2] China News Network. "Natural monolith carbon found in Moonbone 6" Nanophone." January 21, 2026.
+[2] China News Service. "Natural single-walled carbon nanotubes discovered in Chang'e-6 lunar soil." January 21, 2026.
 
-[ ] Tsentalovich, D.E., et al., "Informality of carbon nanotube characteristics on macrocopic fiber protocols."
+[3] Tsentalovich, D. E., et al. "Influence of carbon nanotube characteristics on macroscopic fiber properties." *ACS Nano*, Vol. 11, 2017, pp. 11008-11016.
 
-Zhang, X., Bai, Y., et al.
+[4] Zhang, X., Bai, Y., et al. "Carbon nanotube fibers with dynamic strength up to 14 GPa." *Science*, Vol. 384, 2024, pp. 1318-1323.
 
-Global Times.
+[5] Global Times. "Chinese academicians and experts unveil cutting-edge technologies for lunar research station construction." December 25, 2025.
 
-[6] The Ting Yeung Academy answered the basic scientific questions about the moontop.
+[6] Ding Lieyun. "Fundamental scientific questions in lunar in-situ construction." China Aerospace News, January 15, 2026.
 
-[7] Harbin Industrial University. Moon's 3D printing and microwave burning technology validation.
+[7] Harbin Institute of Technology. Lunar in-situ 3D printing and microwave sintering validation. 2025.
 
-[8] Deep Space Detection Laboratory. Template of the principles of the Moon's water-ice extraction system. Fourth Scientific meeting, 26 April 2026.
+[8] Deep Space Exploration Laboratory. Prototype principle system for lunar water-ice extraction. 4th Science and Technology Exchange Conference, April 26, 2026.
 
-[9] NASA. "Kilopower/KRUSY Project: Mission Power for Space Employment." 2018.
+[9] NASA. "Kilopower/KRUSTY Project: Fission Power for Space Exploration." 2018.
 
-"Combined protocol of aluminothermic re-dudification, and molten salctrolysis using us in order to prevent Al and O2 from lunar soil simulant."
+[10] Fengguo Liu, et al. "Combined process of aluminothermic reduction, electrodeposition alloying, and molten salt electrolysis using inert anode for producing Al and O2 from lunar soil simulant." *Separation and Purification Technology*, Vol. 387, 2026.
 
-[11] Missouri S&T. "Extract of Aluminum from Lunar Regolith through Molten Salt Electronicis." *Acta Astonautica*, vol. 235, 2025, pp. 17-28.
+[11] Missouri S&T. "Extraction of Aluminum from Lunar Regolith through Molten Salt Electrolysis (LISAP-MSE)." *Acta Astronautica*, Vol. 235, 2025, pp. 17-28.
 
-[12] Methods of preparing water, oxygen and metal uniforms at the in situ Moon.
+[12] Method for in-situ preparation of water, oxygen, and metallic elements on the Moon. Chinese invention patent.
 
-[13] Schörghofer, N., & Williams, J.-P. "Carbon dioxide cold tracks on the Moon."
+[13] Schorghofer, N., & Williams, J.-P. "Carbon dioxide cold traps on the Moon." *Geophysical Research Letters*, Vol. 48, 2021, e2021GL095533.
 
-[14] Dottin, J.W., et al., "The Proposed Silicate-Sulfuric Acid Production: Mineral Production for In Situ Resources United (ISRU)." arXiv, 2021.
+[14] Dottin, J. W., et al. "The Proposed Silicate-Sulfuric Acid Process: Mineral Processing for In Situ Resource Utilization (ISRU)." arXiv, 2021.
 
-[15] Zenit Four found carbon-ball particle meteorite residue on the back of the moon. 2022.
+[15] Discovery of carbonaceous-chondrite impact residues on the lunar farside by Chang'e-4. 2022.
 
-[16] Xinjiang Institute. High-value use of the Moon-border resource - light catalytic material preparation 2025.
+[16] Xinjiang Technical Institute of Physics and Chemistry. High-value utilization of lunar soil resources: photocatalyst materials. 2025.
 
-[17] Multi-physical field for the following month's magnetic mineral particles in situ selected for simulation and optimization analysis.
+[17] Simulation and optimization analysis for in-situ separation/enrichment of magnetic minerals in lunar soil under multiphysics fields. Hefei Simulation Journal, 2025.
 
-[18] Materials and metallurgical journals. Lunar metallurgical technology overview - Aluminium thermal reduction - Inert anode melt salt electrolysis.
+[18] Journal of Materials and Metallurgy. Review of lunar metallurgy technologies: aluminothermic reduction and inert-anode molten-salt electrolysis.
 
-[19] Volatilization of the moon, separation and systems.
+[19] Method and system for separation and purification of lunar volatiles. Chinese invention patent.
 
-[20] Ningbo Material Institute. Methods of producing large quantities of water from the Moon Frontier - titanium ore hydrogen reduction 2024.
+[20] Ningbo Institute of Materials. Method for producing large quantities of water from lunar soil: ilmenite hydrogen reduction. 2024.
 
-[21] Missouri University of Technology. Moon in situ resources are certified using melted salt electrolyte technology.
+[21] Missouri University of Science and Technology. Validation of molten-salt electrolysis technology for lunar ISRU. 2025.
 
-Blue Alchemist: Making Solar Cells and Oxygen from Lunar Regolith. 2023.
+[22] Blue Origin. Blue Alchemist: Making Solar Cells and Oxygen from Lunar Regolith. 2023.
 
-[23] Deep Space Detection Laboratory. Moon’s Melted Salt electrolyte oxygen sampler — in situ oxygen and high-strength silicate alloy preparation. 4th S.T.O., April 26, 2026.
+[23] Deep Space Exploration Laboratory. Molten-salt electrolysis oxygen prototype: simultaneous in-situ oxygen and high-strength Si-Al alloy production. 4th Science and Technology Exchange Conference, April 26, 2026.
 
-[24] Experimental study of the FFC Cambridge process to extract iron from the Moon boundary simulator.
+[24] Experimental study of iron extraction from lunar simulants using the FFC Cambridge process. 2025.

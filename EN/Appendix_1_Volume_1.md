@@ -1,561 +1,385 @@
-# Book one: Moon industry
+# Appendix I: Lunar Industry
 
-# Volume I: Herald missions and on-orbit validation
+## Volume I: Pioneer Missions and Orbital Validation
 
-** Version** 2.3<br/>
-** Prepared**: May 2026 <br/>
-** Monetary unit**: RMB, symbol: <br/>
-**Contribution master volume**: main volume, volume II (material parameters), volume VII (P0/P1/P2/P3 certification system)
+**Version**: 2.3<br/>
+**Date of Preparation**: May 2026<br/>
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volumes**: Main Volume II (Material Parameters), Main Volume VII (P0/P1/P2/P3 Verification Framework)
 
 
-## Glossary
+### Glossary
 
-Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation Abbreviation
+| Abbreviation | Term | Description |
 |------|----------|------|
-CELSS closed eco-life support system
-CLEP China Moon Survey
-| CNT | Carbon nanopipe | Core cable material for the ring ladder and moon industry
-| CVD | Chemical gas phase deposition | Core process for CNT manufacture
-| EVA extramural activity | Astronauts in the moon or space
-| FCCVD | Floating Catalytic Chemical Gas Sedimentation | Main process route for CNT continuous manufacture
-| GCR | Galactic cosmic ray | high-energy particle radiation from outside the solar system poses a long-term health risk to astronauts
-| GPR | Radar system for detecting sub-month geological structures and holes
-| GRAIL | Gravity Restoration and Internal Laboratory Mission | NASA ' s lunar gravity field precision detection mission 2011-2012
-| HEU | HEU | Space Nuclear Reactor fuel, 235 U enrichment ≥ 93%
-ILRS International Moon Research Station
-ISRU In-situ resource utilization
-| KREEP | Kryptonite | Special rock of the Moon with potassium (K), rare earth elements (REE) and phosphorus (P)
-| LRO | Lunar Reconnaissance Orbiter | Lunar orbiter launched by NASA in 2009
-| LRS | Lunar Radar Sounder | Radar sounder carried by the Kaguya probe
-| MLI | multilayer insulation | reflective insulation material for passive thermal control in a vacuum environment
-| Nak | Potassium alloy | liquid metal work for thermal conductor for active liquid cooling circuits
-| NEΔT | Noise-Equivalent temperature difference | | Sensitivity indicator for infrared imaging system |
-| np-fe < nano-grade metal metal particles < < 100 nm >
-| PLSS | Portable Life Support System | Oxygen, Temperature and CO2 Cleaning Devices inside the Moon Rover
-♪ PSR ♪ ♪ Permanent Shadow ♪
-| RHU | Radioisotope Heating Unit
-| Sabatier | Sabatier Reaction | CO2 and H2 catalyze the chemical reaction of CH4 and H2O
-| SAR | Synthetic Aperture Radar | Radar system capable of subsurface imaging through the moon scale
-| SPE | Solar particle event | High-energy particle flow from solar eruption |
-• The largest and oldest impact basin of the Moon, located in the Antarctic region
-XRF | X-ray fluorescent spectrometer | In situ rapid analysis of moon boundary element components
-Ilmenite, FeTio3
-♪ High calcium stubble ♪
-The skylights, the skylights, the lava tube, the lumbers, the natural openings from the collapse of the top of the lava tube.
-It's a huge underground tunnel of ancient volcanic activity.
-| | | |                
-| | | | | | | | | | | | | | | 专项
+| CELSS | Closed Ecological Life Support System | A self-circulating life-support system used for long-duration crewed habitation |
+| CLEP | China Lunar Exploration Program | China's national lunar exploration program led by CNSA |
+| CNT | Carbon Nanotube | Core cable material for both the ring ladder and lunar industry |
+| CVD | Chemical Vapor Deposition | Core process used in CNT manufacturing |
+| EVA | Extravehicular Activity | Astronaut work outside a spacecraft on the lunar surface or in space |
+| FCCVD | Floating Catalyst Chemical Vapor Deposition | Main process route for continuous CNT production |
+| GCR | Galactic Cosmic Rays | High-energy particle radiation from outside the Solar System that poses long-term health risks to astronauts |
+| GPR | Ground-Penetrating Radar | Radar system used to detect subsurface structures and voids beneath the lunar surface |
+| GRAIL | Gravity Recovery and Interior Laboratory | NASA mission that performed precision mapping of the lunar gravity field in 2011-2012 |
+| HEU | Highly Enriched Uranium | Fuel for space nuclear reactors, with U-235 enrichment >= 93% |
+| ILRS | International Lunar Research Station | Sino-Russian-led lunar polar research station plan, with the basic phase scheduled for completion by 2035 |
+| ISRU | In-Situ Resource Utilization | Use of local lunar resources for manufacturing and survival |
+| KREEP | KREEP Rock | A class of lunar rocks enriched in potassium (K), rare earth elements (REE), and phosphorus (P) |
+| LRO | Lunar Reconnaissance Orbiter | NASA lunar orbiter launched in 2009 |
+| LRS | Lunar Radar Sounder | Subsurface radar sounder carried by the Kaguya probe |
+| MLI | Multi-Layer Insulation | Reflective insulation used for passive thermal control in vacuum environments |
+| NaK | Sodium-Potassium Alloy | Liquid-metal working fluid used as the heat-transfer medium in active liquid-cooling loops |
+| NEΔT | Noise-Equivalent Temperature Difference | Sensitivity metric for infrared imaging systems |
+| np-Fe | Nano-Scale Metallic Iron Particles | Naturally occurring nano-scale iron particles in lunar regolith, with particle size < 100 nm |
+| PLSS | Portable Life Support System | Suit-integrated oxygen supply, thermal control, and CO2 removal unit |
+| PSR | Permanently Shadowed Region | Lunar polar regions that receive no sunlight year-round |
+| RHU | Radioisotope Heating Unit | Unit that uses radioactive decay heat to keep equipment warm |
+| Sabatier | Sabatier Reaction | Chemical reaction in which CO2 and H2 are catalytically converted into CH4 and H2O |
+| SAR | Synthetic Aperture Radar | Radar system capable of subsurface imaging through the lunar surface |
+| SPE | Solar Particle Event | High-energy particle outburst released by solar eruptions |
+| SPA Basin | South Pole-Aitken Basin | The Moon's largest and oldest impact basin, located in the south polar region |
+| XRF | X-Ray Fluorescence Spectrometer | Instrument for rapid in-situ analysis of elemental composition in lunar regolith |
+| Ilmenite | Ilmenite (FeTiO3) | The most important iron-titanium oxide mineral in mare basalt |
+| High-Calcium Plagioclase | High-Calcium Plagioclase (CaAl2Si2O8) | Major mineral in lunar highland anorthosite, rich in calcium and aluminum |
+| Skylight | Lava-Tube Skylight | Natural opening formed by collapse of the roof of a lava tube |
+| Lava Tube | Lunar Lava Tube | Large underground passage formed by ancient volcanic activity |
+| Bimodal Grading | Bimodal Particle-Size Distribution | Regolith particle-size distribution characterized by two dominant size populations |
+| Pathfinder Program | Lava Tube Pathfinder Program | Dedicated mission codename for on-site exploration of lava-tube skylights |
 
 
-##1.1 Caption
+### 1.1 Introduction
 
-This volume, located at the base stage of ** the technical feasibility of the Moon industrial system**, focuses on the following core questions:
+This volume is positioned as the **foundational stage for technical feasibility** within the lunar industrial system. It focuses on answering the following core questions:
 
-> What are the key technologies that must first be validated in the real moon environment before hundreds of billions of dollars are invested in large-scale capacity-building? Should we build the first permanent base on the moon or underground — or could the two advance in parallel? What kind of lava tube is really suitable for development? What kind of moon is most suitable for processing into building materials and for refining catalysts? How can the three fundamental questions of “Is there any? Is it good enough?” be addressed by systematic detection and experimentation?
+> Before trillions of yuan are invested and large construction teams are dispatched, which key technologies must first be validated in the real lunar environment? Should the first permanent base be built on the surface or underground, or can both paths advance in parallel? What kind of lava tube is truly suitable for development? What kind of regolith is best suited for building materials, and what kind is best suited for catalyst extraction? How can systematic surveying and experimentation answer the three fundamental questions: Does it exist? Can it work? Is it good enough?
 
-The first phase, defined in the overview of the present volume: pioneer missions and presences (1-8 years), provides them with specific mission planning and validation of the road map.
+This volume inherits the first stage defined in the overview, “Pioneer Missions and Habitation” (Years 1-8), and provides its concrete mission planning and validation roadmap.
 
-A core strategic judgement of this volume is that** the site of the first permanent base has two parallel technical pathways, “month surface” and “underground (melt tubes)”**. The former are superior to energy access, while the latter are superior to security and spatial expansion. It is the mission of the pioneer mission to gather sufficient decision-making data between these two paths — not only to answer “Is there” but also to answer “Is it good enough” — rather than to prep one of them. Accordingly, the planned mission sequence of this volume will serve the validation needs of both the moon and underground site options, ensuring that all inputs can be reused across paths at the three dimensions of equipment, technology and human experience.
+One of the core strategic judgments of this volume is that **the first permanent base has two parallel technical pathways: “surface” and “subsurface (lava tube).”** The former has the advantage in energy access, while the latter has advantages in safety and room for spatial expansion. The mission of the pioneer phase is to gather sufficient decision-grade data across these two pathways, answering not only “whether it exists” but also “whether it is good enough,” rather than betting on one option in advance. Accordingly, the mission sequence planned in this volume serves the validation needs of both surface and subsurface site-selection paths, ensuring that all investments in equipment, technology, and human experience can be reused across both pathways.
 
-** At the strategic priority of the polar lava tube**, this volume establishes the following detection strategy: The search for lava tubes within the Shackleton Rim Mountain is extremely low and the detection returns are low; however, a regional strategic survey around Shackleton**'s perimeter of tens of kilometres** to find a gold combination of “Founding Days + skylights” with very high returns should be one of the highest priority objectives of task cluster II/III. This perception has a direct impact on the prioritization of mission cluster I survey areas in this volume, on the decision-making of lander deployment in mission cluster II, and on the selection of targets for field detection of lava tubes in mission cluster III.
+**Regarding the strategic priority of polar lava tubes**, this volume adopts the following exploration strategy: the probability of finding lava tubes inside Shackleton crater itself is extremely low, and the exploration return is limited. However, conducting a regional strategic survey across **the tens-of-kilometers area surrounding Shackleton** to search for the golden combination of “Peak of Eternal Light + skylight” offers very high value and should be among the highest-priority objectives of Mission Groups II and III. This judgment directly affects the priority ranking of survey regions in Mission Group I, the landing-site decisions in Mission Group II, and the target selection for field lava-tube exploration in Mission Group III.
 
-Core tasks of this volume:
+The core tasks of this volume are:
 
-1. The design of the project ' s pioneer mission sequence is based on a system that streamlines ongoing, ongoing and planned projects of the current global Moon exploration.
-2. Identify the most critical technological uncertainties in the industrialization of the Moon and convert them into verifiable scientific and engineering issues.
-3. To identify specific screening guidelines for ideal lava tubes, building materials and catalyst materials, as scientific targets for detection by pioneer missions.
-Planning for a step-by-step “first look, later touch, then stay” from Earth's orbit to the surface of the moon, with no-man and no-man mission sequences covering the three main directions of validation of the surface water ice, the surface building materials and the underground lava tubes.
-5. Detailed engineering design parameters are given for each mission, in which the surface operating equipment must take into account the limitations on remote remote control of the ground-month delay (approximately 1.3 seconds per journey and 2.6 seconds per round trip) and specify its minimum autonomous intelligence level requirements.
-Establishment of the P0 level test for “continuation, failure or termination” and docking with volume VII of the main volume.
+1. Systematically review completed, ongoing, and planned lunar exploration projects worldwide, and on that basis formulate the pioneer mission sequence for this project.
+2. Identify the most critical technological uncertainties in lunar industrialization and convert them into verifiable scientific and engineering questions.
+3. Define detailed screening criteria for ideal lava tubes, building-material regolith, and catalyst-feedstock regolith, to serve as the scientific targets for pioneer-mission exploration.
+4. Plan a stepwise sequence of “look first, touch later, then stay” missions, from Earth orbit to the lunar surface, spanning uncrewed and crewed operations across three validation tracks: lunar water ice, lunar construction materials, and subsurface lava tubes.
+5. Provide detailed engineering design parameter requirements for each mission. Surface operations equipment must explicitly account for the limitations imposed by Earth-Moon communication delay, about 1.3 seconds one-way and 2.6 seconds round trip, and its minimum autonomy level must be specified.
+6. Establish P0-level pass/fail criteria under the rule of “pass to proceed, fail to terminate,” and connect them to Main Volume VII.
 
 
-#1.2 Status of related projects at home and abroad
+### 1.2 Current Status of Relevant Domestic and International Programs
 
-The pioneering mission does not begin from scratch. The Global Moon Survey has built up a valuable technological heritage and infrastructure for the industrialization of the Moon. The following are the key projects that have been implemented, are in progress and are planned on which this volume is based.
+The pioneer missions do not begin from zero. Global lunar exploration has already accumulated valuable technical heritage and infrastructure for lunar industrialization. The following are the key completed, ongoing, and planned programs on which the design of this volume is based.
 
-####1.2.1 Chinese Moon Survey
+#### 1.2.1 China Lunar Exploration Program (CLEP)
 
-Since the establishment of the project in 2004, China has completed the three-step strategy of “turning, falling and returning”.
+Since its establishment in 2004, the China Lunar Exploration Program has completed its three-step strategy of “orbit, land, return.”
 
-** Mandated**:
+**Completed missions**:
 
-- ** Quinta 4** (2019): The first soft landing on the back of the moon by mankind, which validated the monthly back relay communication technology and provided the basis for communication in the polar region [1].
-- ** Quinta 5** 2020: Quested on the front of the moon, with 1,731 g of the Moon sample [2]. The Moon State sample provides an irreplaceable real sample for the ground-based validation of the in situ resources of this volume. Its sample analysis has confirmed that the storm-ocean region is rich in titanium, which can be as high as 10-20 per cent, and is an excellent candidate for catalyst material [2].
-- ** Quinta 6** (2024): Humans returned for the first time to take samples from the Antarctic-Atken Basin; they were among the top 10 scientific advances in China in 2025. The sample analysis revealed that the main mineral mix of the Antarctic-Atken Basin moon basalt rock was platinolite, tilted longstone and titanite, with titanium ore, titanium oxide and various iron-based compounds proved to be good catalysts for light and electric catalytic [3,4].
-- **Little Bridge 2 repeater** (2024): on-orbit alignment test completed. Repeated communications guarantees will be provided for the 7th, 8th and subsequent manned missions [5].
+- **Chang'e-4** (2019): Humanity's first soft landing on the far side of the Moon, validating lunar far-side relay communications and laying the foundation for communications support in the polar regions [1].
+- **Chang'e-5** (2020): Sample return from the near side of the Moon, bringing back 1,731 grams of lunar regolith [2]. These samples provide irreplaceable real material for ground validation of the in-situ resource-utilization technologies discussed in this volume. Sample analysis confirmed that mare basalt in the Oceanus Procellarum region is rich in ilmenite, with ilmenite content reaching 10%-20%, making it an excellent candidate catalyst feedstock [2].
+- **Chang'e-6** (2024): Humanity's first far-side lunar sample return, collecting material from the South Pole-Aitken Basin; ranked first among China's Top Ten Scientific Advances of 2025. Sample analysis revealed that the mare basalt from the South Pole-Aitken Basin consists primarily of pyroxene, plagioclase, and ilmenite, and that ilmenite, titanium oxides, and various iron-based compounds can all serve as highly effective photo- and electrocatalysts [3,4].
+- **Queqiao-2 relay satellite** (2024): Completed in-orbit communications link testing. It will provide relay support for Chang'e-7, Chang'e-8, and later crewed lunar missions [5].
 
-** Ongoing/planned tasks**:
+**Ongoing and planned missions**:
 
-- ** Quinta 7** (second half of 2026): China ' s first month ' s Sphere Antarctic Explorer, aimed at the Antarctic-Atken Basin above 85° S, to find evidence of the existence of water ice. The configuration includes orbiters, landers, moon vehicles and flying detectors. Landing accuracy is higher than 100 m. The preferred landing site is the Shackleton Ring edge [6,7]. It is the direct technical advance of the “task group I/II” of this volume — its data for water ice detection will determine directly the location of the successor base for this project and the mining programme.
-- ** Quanta VIII** (approximately 2029): Moon Antarctic, with a focus on 3D monthly printing for construction, communication and energy systems. Provision of on-site technical validation of the construction of ILRs infrastructure and the manned presence of Task Cluster III in this volume [8].
-- **International Moon Research Station (ILRS)**: Basic was built in 2035 and Extension in 2040. Co-led by China and Russia, Venezuela, Pakistan and Azerbaijan have now joined. In May 2025, China and the Russian Federation signed a memorandum for the construction of the ILRS nuclear power plant [9,10]. The planned lunar industrial system in this appendix is designed to share with ILRS the site of the Antarctic polar region, which allows for in-depth synergy in energy, communications and transport infrastructure.
-- ** Chinese manned moon** (before 2030): products such as the Long March 10 carrier rocket, the Dream Boat manned spacecraft, the Moon Lander, the Daewoo Moon Rover, and the exploration of manned moon vehicles have already been developed [11,12]. A mature human transport system that can be borrowed is provided for task group III of this volume.
+- **Chang'e-7** (second half of 2026): China's first lunar south-pole exploration mission, targeting the South Pole-Aitken Basin above 85° south latitude to search for evidence of water ice. The mission includes an orbiter, lander, rover, and hopper probe. Landing accuracy is required to be better than 100 meters. The preferred candidate landing site is the rim of Shackleton crater [6,7]. This mission is the direct technical precursor of Mission Groups I and II in this volume, and its water-ice detection data will directly determine later base siting and mining plans.
+- **Chang'e-8** (around 2029): Lunar south pole mission focusing on in-situ 3D printing construction, communications, and energy system experiments. It will provide local construction-technology validation for the basic ILRS phase and for the crewed habitation goals of Mission Group III in this volume [8].
+- **International Lunar Research Station (ILRS)**: Basic phase to be completed in 2035 and expanded phase in the 2040s. Jointly led by China and Russia, with Venezuela, Pakistan, Azerbaijan, and others already participating. In May 2025, China and Russia signed a memorandum on construction of an ILRS nuclear power station [9,10]. The lunar industrial system planned in this appendix shares a south-polar siting logic with ILRS, allowing deep synergy in energy, communications, and transportation infrastructure.
+- **Chinese crewed lunar landing program** (before 2030): Long March 10 heavy-lift launch vehicle, Mengzhou crewed spacecraft, Lanyue lunar lander, Wangyu lunar suit, and the crewed lunar rover have all completed prototype development [11,12]. This provides a mature human transport system that Mission Group III can leverage.
 
-U.S. and international projects
+#### 1.2.2 U.S. and International Programs
 
-- **NASA VIPER Moon** (cancelled, 2024): $450 million with drilling equipment and spectro spectrometers designed to detect water ice distribution in polar regions for approximately 100 days. [13] Its drilling and volatilization segment measurement programme can serve as a reference baseline for equipment designed for water ice exploration in this volume.
-- **NASA Artemis Plan** (several postponements): Artemis 2 (manned month) postponed to April 2026; Artemis 3 postponed to 2027. NASA plans to invest about $20 billion over the next seven years to establish a base in the Moon Antarctic, suspending the Gateway plan for the Moon Orbital Station [14,15]. The strategic overlap between China and the United States in the location of the polar regions has made water ice resources a de facto global competition, and the volume needs to remain independent in terms of technical options.
-- **NASA PRIME-1** (IM-2 mission load, landing in March 2025): on board the TRIDEENT drilling equipment and the MSMolo mass spectrometer (MSolo mass spectrometer) for the detection of water ice below the monthly surface. The payload design is of reference value although the lander terminates its mission early due to an abnormal attitude [16].
-- ** Commercial Moon Lander** (Multi-Purpose): Nova-C Lander of Intuitive Machines has carried out two missions. The first commercial moon landing was achieved by IM-1 (February 2024), and the feasibility of landing in the polar zone was validated by IM-2 (March 2025), although the landing was terminated at an unusually early date [17,18]. Commercial landing services may be considered as an international candidate for the purchase of landers for this volume.
+- **NASA VIPER rover** (canceled, 2024): A USD 450 million mission equipped with drilling systems and spectrometers, designed for an operating life of around 100 days to explore polar water-ice distribution [13]. Its drilling and volatile-measurement design can serve as a reference baseline for the water-ice exploration equipment of this volume.
+- **NASA Artemis program** (repeatedly delayed): Artemis 2, crewed lunar flyby, delayed to April 2026; Artemis 3 delayed to 2027. NASA plans to invest about USD 20 billion over the next seven years to establish a base at the lunar south pole, while pausing the Gateway lunar-orbit station plan [14,15]. The strategic overlap between China and the United States in polar siting has effectively made water-ice resources a global point of competition, which means this volume must maintain independence in its technical choices.
+- **NASA PRIME-1** (payload on IM-2, landed March 2025): Carried the TRIDENT drill and the MSolo mass spectrometer to detect subsurface water ice. Although the mission ended early because of lander attitude anomalies, the payload design remains a valuable reference [16].
+- **Commercial lunar landers** (multiple missions ongoing): Intuitive Machines' Nova-C lander has flown twice. IM-1 (February 2024) achieved the first commercial lunar landing; IM-2 (March 2025), although terminated early due to landing anomalies, still demonstrated the feasibility of polar-region landings [17,18]. Commercial lunar landing services may be considered as international procurement candidates for the landers in this volume.
 
-###1.2.3 Status of Moon lava tube detection
+#### 1.2.3 Status of Lunar Lava-Tube Exploration
 
-The exploration of the Moon's underground space — especially the lava pipeline — is becoming the forefront of global moon science.
+Exploration of lunar subsurface space, especially lava tubes, is becoming a frontier of global lunar science.
 
-** Key results implemented**:
+**Key completed results**:
 
-- ** Japan's “Kaguya/SELENE” detector** (2007-2009): The mounted LRS radar detector obtained for the first time radar echo data on the lunar subsurface structure. In the area of Marius Hills (approximately 14° N, 56° W) the LRS data clearly reveal the signal of an underground hole extending for dozens of kilometres, a landmark discovery of the Moon ' s lava tube [19]. The region is considered to be a potential candidate for a particularly large lava tube because of large-scale low-density anomalies in the backshow of GRAIL data.
-- **NASA GRAIL gravitational field survey** (2011-2012): Two satellites measured the Moon gravitational field with precision and found low-density anomalies in the area of the Marius Hills, which coincided with LRS data, and cross-proved the presence of large lava tubes from the perspective of gravity field [20].
-- **LRO Mini-RF Radar Detection** (2009-present): The Mini-RF Synthetic Aperture Radar on board the NASA Moon Surveyor Orbiter continues to map the Moon's polar regions and the Sunglass candidate sites. The results published in 2024 confirm that a cave extending at least a few dozen metres is connected to the bottom of the Silent Sea “skylight” (Mare Tranquillitatis Pit, approximately 8° N, 33° E) and is the first large-scale enterable tube directly confirmed by radar data[21,22].
+- **Japan's Kaguya/SELENE mission** (2007-2009): The onboard LRS radar sounder produced the first radar-echo data on the lunar subsurface structure. In the Marius Hills region, about 14°N, 56°W, LRS data clearly revealed underground cavity signals extending for dozens of kilometers, a milestone discovery in lunar lava-tube exploration [19]. Because GRAIL data also indicate large low-density anomalies there, the region is considered a candidate site for a very large lava-tube system.
+- **NASA GRAIL gravity-field mission** (2011-2012): Using precise measurements of the lunar gravity field, the two spacecraft discovered low-density anomalies in the Marius Hills region that matched the LRS data, independently corroborating the presence of large lava tubes from the gravity perspective [20].
+- **LRO Mini-RF radar exploration** (2009-present): NASA's Lunar Reconnaissance Orbiter has continuously imaged the lunar polar regions and candidate skylights using Mini-RF synthetic aperture radar. Results published in 2024 confirmed that the Mare Tranquillitatis Pit skylight, about 8°N, 33°E, connects at its base to an underground cave extending at least several tens of meters, making it the first large enterable lava-tube cavity directly confirmed by radar data [21,22].
 
-**Preliminary evidence of lava tubes in the polar region**:
+**Preliminary evidence of polar lava tubes**:
 
-- **Philolaus impact pit in the Arctic of the Moon**: Scientists at the SETI Institute analysed LRO images and found several suspected “skylights” in the region, considered as a direct clue to the existence of lava tubes in the polar region. The LEAPS mission concept study indicates that the presence of a permanent shadow within these high-latitude lava tubes may contain water ice resources [23,24].
-- ** Moon Antarctic-Atken Basin**: As the largest and oldest impact basin of the Moon, it is presumed to be associated with impact and volcanic activity in ancient times. There are theoretical geological conditions for the formation of lava tubes, but to date there is no evidence of direct orbital detection [25].
+- **Philolaus crater at the lunar north pole**: Scientists at the SETI Institute analyzed LRO imagery and found multiple suspected skylights in the region, considered direct clues to the existence of polar lava tubes. The LEAPS mission concept study suggests that if permanent shadow exists inside these high-latitude lava tubes, they may preserve water-ice resources [23,24].
+- **South Pole-Aitken Basin**: As the Moon's largest and oldest impact basin, it is inferred to have experienced both impact and volcanic activity in the distant past. In theory, it has the geologic conditions needed to form lava tubes, but to date there is still no direct orbital detection evidence [25].
 
-** Matched with the schedule of the ring ladder**: The above findings provide a sufficient scientific basis for the presentation of the “melt tube probe” as a P0 level strategic objective in this volume. The task of the pioneer mission is precisely to translate these initial findings into reliable data for engineering decision-making.
+**Alignment with the ring-ladder schedule**: These findings provide ample scientific basis for designating “lava-tube pathfinding” as a P0-level strategic objective in this volume. The pioneer missions are precisely the phase that turns these preliminary findings into reliable data for engineering decision-making.
 
 
-##1.3 Overall task sequence
+### 1.3 Overall Mission Sequence
 
-The industrialization of the Moon must follow the gradual logic of “look first, touch later, live again”. The volume divides the pioneer missions into three interlocking task groups, each of which covers both the moon and underground verification paths.
+Lunar industrialization must follow a progressive logic: “look first, touch later, live there after.” This volume divides the pioneer phase into three interlocking mission groups, and each group covers both the surface path and the subsurface path.
 
-** Project screening guidelines for the following three types of resources need to be identified before the task sequence is initiated.** These guidelines directly determine the objectives of the mission and the criteria for its determination, and are the scientific basis for the entire pioneering mission.
+**Before the mission sequence begins, engineering screening criteria must be defined for the following three categories of resources.** These criteria directly determine the exploration targets and acceptance standards of the mission groups, and they are the scientific basis of the entire pioneer phase.
 
-** (a) Screening guidelines for ideal lava tubes**
+**(a) Screening criteria for ideal lava tubes**
 
-An exploitable lunar lava tube shall meet the following engineering conditions:
+A developable lunar lava tube must simultaneously satisfy the following engineering conditions:
 
-- ** Structural security**: no less than 30 m (pure basalt, low pore penetration). When the width of the lava tube exceeds 2.5 times the thickness of its top plate, the probability of collapse increases significantly, so that the ratio of the top plate thickness to the width must be 0.4. The upper basalt layer has a resistance strength of not less than 50 MPa and a tensile strength of not less than 5 MPa to ensure that it is able to withstand the external force of an atmospheric pressure after internal pressure does not break or leak.
--**Spatial usability**: not less than 500 m internal width, not less than 30 m altitude and not less than 1 km continuous detectable length. Priority is given to a lava tube with a natural “sky window” opening, with a gradient of the sky window (30°) to facilitate the entry of the cruiser or future large equipment; the opening diameter is not less than 10 m to ensure sufficient light and passage space.
-- **Environmental stability**: internal temperature constant characterization (5°C day and night). There is no evidence of recent collapse or fault activity (<100 million years). The skylight should provide a stable window of communication to the ground.
-- ** Radiological protection performance**: no less than 90% flux decay of the top rock layer to the Milky Way cosmic line (GCR), resulting in an internal annual radiation dose of no more than 50 mSv (approximately 1/8 of the monthly table).
+- **Structural safety**: Roof thickness must be no less than 30 m, assuming dense basalt with low porosity and low permeability. When a lava tube's width exceeds 2.5 times the thickness of its roof, collapse probability rises significantly; therefore, the roof-thickness-to-width ratio must be >= 0.4. The upper basalt layer must have compressive strength of at least 50 MPa and tensile strength of at least 5 MPa, ensuring that after pressurization to one atmosphere it can withstand the resulting outward force without rupture or leakage.
+- **Usable internal space**: Internal width must be at least 500 m, height at least 30 m, and continuously detectable length at least 1 km. Priority should be given to lava tubes with a natural skylight opening. The skylight slope must be gentle, inclination <= 30°, so that rovers or future large equipment can enter. The opening diameter must be at least 10 m to ensure adequate lighting and passage space.
+- **Environmental stability**: Internal temperature variation must remain stable, with day-night fluctuation <= +/-5°C. There must be no evidence of recent collapse or fault activity within the last 100 million years. The skylight orientation should provide a stable line of communication to Earth.
+- **Radiation-shielding performance**: The overlying rock must attenuate galactic cosmic ray flux by at least 90%, reducing the annual internal radiation dose to no more than 50 mSv, about one-eighth of the dose on the open lunar surface.
 
-** (b) Screening guidelines for building materials**
+**(b) Screening criteria for construction-material regolith**
 
-Moons suitable for processing as building materials (3D-printed bricks or concrete) shall meet the following conditions:
+Regolith suitable for processing into construction materials such as 3D-printed bricks or cast concrete must meet the following conditions:
 
-- ** Mineral composition**: not less than 50 per cent of calcium-slashed long stones (providing glucose) and 10 per cent - 20 per cent of titanium oxide (quatium ore + titanium magnetite) (providing strength and smelting). Priority is given to areas (e.g., gravel areas) where the high-lying slope long rock is mixed with the moon's basalt, and many useful elements, such as calcium, aluminium, iron, titanium, are available at the same time.
-- ** Particle distribution**: Coarse particles 100-500 μm (40 per cent-60 per cent) and fine particles < 50 μm (40 per cent-60 per cent) are shown in a double or multi-peak grade. This natural grade can reduce pore rates, increase product density and resist pressure.
-- **Natural additive**: Nano-Fe metal metal particles (np-fe, particle size < 100 nm) containing not less than 0.1 wt%, which enhances material resilience during sintering. Glass glue (gludge glass) is not less than 10 wt per cent and can be used as a natural adhesive at high temperatures to reduce the use of additional additives.
-- **Physical properties **: loosely convulsive weight 1.2 – 1.8 g/cm3, pore = 40 – 60 % (suitable for direct use as a burning material without additional fragmentation).
+- **Mineralogical composition**: High-calcium plagioclase content must be at least 50% to provide cementitious behavior, while iron-titanium oxides, ilmenite plus titanomagnetite, should total 10%-20% to provide strength and aid sintering. Priority should be given to mixed regions where highland anorthosite and mare basalt coexist, such as breccia zones, so that beneficial elements such as calcium, aluminum, iron, and titanium can be obtained simultaneously.
+- **Particle-size distribution**: The regolith should show a bimodal or multimodal grading pattern, with coarse particles of 100-500 μm accounting for 40%-60% and fine particles <50 μm accounting for 40%-60%. This natural grading reduces porosity and improves the density and compressive strength of the final product.
+- **Natural additives**: Nano-scale metallic iron particles, np-Fe with particle size <100 nm, should be present at no less than 0.1 wt%, improving toughness during sintering. Glassy bonding material should be present at no less than 10 wt%, allowing it to act as a natural binder at high temperature and reducing the need for added binders.
+- **Physical properties**: Loose bulk density should be 1.2-1.8 g/cm3, and porosity should be 40%-60%, making the material suitable for direct use as sintering feedstock without additional crushing.
 
-** (c) Screening guidelines for catalyst feedstocks**
+**(c) Screening criteria for catalyst-feedstock regolith**
 
-The Moon, which is suitable for refining CNT growth catalysts (iron and nickel), is subject to the following conditions:
+Regolith suitable for extracting CNT-growth catalysts, primarily iron and nickel, must satisfy the following conditions:
 
--** Critical mineral content**: titanium ore not less than 10 wt per cent. Natural iron-nickel metal particles (particle > 50 μm) containing not less than 0.5 wt per cent.
-- **Foostone contains iron **: not less than 10 wt% (in FeO) of the pelican, and the iron deposited in the pelican can be a supplementary source of chemical extraction.
--** Particle scale**: the average particle size of the target mineral is not less than 50 μm.
-- **Direct utilization potential**: If, after simple physical processing (break + magnetic, without hydrometallurgical), the titanium mine/iron nickel formation, either in the Moon border or in the conglomerate, can demonstrate comparable catalytic activity in CNT growth in the FCCVD experiment (CNT production rate is 80% or more of the Earth ' s co-purity catalyst production rate).
+- **Critical mineral content**: Ilmenite content must be at least 10 wt%. Natural Fe-Ni metallic particles larger than 50 μm must be present at no less than 0.5 wt%.
+- **Iron content in pyroxene**: Iron content in pyroxene must be at least 10 wt% as FeO. Iron hosted in pyroxene can serve as a supplementary source for chemical extraction.
+- **Particle scale**: The average particle size of the target minerals must be at least 50 μm.
+- **Potential for direct utilization**: If raw regolith or physically enriched ilmenite / Fe-Ni fractions, after only simple physical treatment such as crushing and magnetic separation and without hydrometallurgy, can demonstrate comparable catalytic activity in FCCVD experiments, with CNT yield reaching at least 80% of that achieved by Earth-produced catalysts of equivalent purity, then this pathway should be prioritized.
 
-The above three types of guidelines will serve as the scientific basis for payload design, data collection and P0 determinations across all detection activities in task groups I to III.
+These three sets of criteria will govern all exploration activities from Mission Group I through Mission Group III, serving as the scientific basis for payload design, data collection, and P0-level judgments.
 
-The overall arrangements for the three clusters are as follows:
+The overall arrangement of the three mission groups is as follows:
 
-- **Target I: Remote sensing survey and orbital validation (years 1-3)**. Core objective: To obtain a high-resolution distribution map of polar resources and the lava tube skylight,** with a focus on the SPA basin margin area of 100 km radius around Shackleton**; initial screening of candidate feedstock distribution areas that meet the above criteria. About $50-80 billion is expected to be invested.
-- ** Task group II: Moontop robots in position (3-5 years)** Core objective: Landing exploration to obtain samples of the in situ surface of the monthly table and field detection data of the lava tube skylight;** Deployment of at least one lander around Shackleton to perform a regional skylight grid-enabled GPR scan**. About $100 billion to $150 billion is expected.
-- **Mission III: The Moon Sentinel first manned (years 5-8)** Core objective: To achieve a first manned presence of more than one month; to complete the full technical validation of the P0 level;** In the prioritization of field detection objectives for lava tubes, the Shackleton perimeter (if mission group II finds here the eligible “sky window”) is given the highest priority alongside the Philolaus impact crater, above the Marius Hills.** About $200 billion to $400 billion is expected.
+- **Mission Group I: Remote-Sensing Survey and Orbital Validation (Years 1-3)**. Core objective: obtain a high-resolution distribution map of polar resources and lava-tube skylights, **with priority coverage of the SPA basin margin area within a 100 km radius around Shackleton**; preliminarily screen candidate feedstock regions that satisfy the criteria above. Expected investment: about RMB 50-80 billion.
+- **Mission Group II: Lunar Surface Robotic Deployment (Years 3-5)**. Core objective: conduct landing-based exploration to acquire in-situ surface samples and field-detection data for lava-tube skylights; **deploy at least one lander around Shackleton to carry out a gridded regional GPR scan of a skylight area**. Expected investment: about RMB 100-150 billion.
+- **Mission Group III: First Crewed “Lunar Sentinel” Stay (Years 5-8)**. Core objective: achieve the first crewed stay longer than one month; complete all P0-level technology validation; **in the priority ranking of field lava-tube targets, the Shackleton periphery, if Mission Group II identifies a qualifying skylight there, and Philolaus crater are tied for top priority, ahead of Marius Hills**. Expected investment: about RMB 200-400 billion.
 
-There is a clear relationship between data and material inheritance between the three task groups - the detailed orbital results provide the basis for the lander site and the sample taken by the lander provides input for the engineering design of the manned mission. All key decision nodes of the pioneer task group are shared with volume 7 of the main volume (engineering verification), and any failure at the P0 level will trigger a full programme review.
+There is a clear chain of data and asset inheritance across the three mission groups: orbital survey results guide lander site selection, while lander-acquired samples provide input for the engineering design of the crewed mission. All key decision nodes in the pioneer mission groups are shared with Main Volume VII, Engineering Verification, and any P0-level failure triggers a comprehensive program review.
 
-**Note on re-useability of inputs**: Transport systems (heavy rockets, orbital transfer stages, landers), drilling and sampling equipment, autonomous navigation techniques, communications trunking systems, related to task groups II and III, are fully shared between the moon missions and the lava pipeline missions. There is no “separate development of a separate equipment for a lava tube”. Even if the final conclusion of the lava tube detection is “unusable”, the equipment, technology and human experience invested will remain 100 per cent for the subsequent moon base.
+**Note on reusability of investment**: The transportation systems involved in Mission Groups II and III, including heavy-lift rockets, orbital transfer stages, and landers, as well as drilling and sampling equipment, autonomous navigation technologies, and communications relay systems, are fully shared between surface missions and lava-tube missions. There is no case in which an entire separate equipment stack must be developed solely for lava-tube exploration. Even if the final conclusion of lava-tube exploration is that such sites are not viable, the equipment, technologies, and human experience accumulated will still be used in full for subsequent surface-base construction.
 
 
-##1.4 Task group I: Remote sensing and orbital validation (years 1-3)
+### 1.4 Mission Group I: Remote-Sensing Survey and Orbital Validation (Years 1-3)
 
-## 1.4.1 Key scientific issues
+#### 1.4.1 Key Scientific Questions
 
-Despite the accumulation of data from probes such as lunars, LROs and moonboats, the required precision and dimensions of the moon industrial site are still insufficient. In particular:
+Although missions such as Chang'e, LRO, and Chandrayaan have already accumulated significant data, the precision and dimensionality of the resource data required for lunar industrial site selection are still insufficient. In particular:
 
--**The exact distribution of the aquatic ice in the polar region and the form of the endowment**: Does the aquatic ice exist in the form of pure ice, ice-border mixtures or hydrated minerals? What is the spatial variation of its abundance on a scale of rice? Directly determines the choice of mining programme and equipment.
-- ** Thermal stability in the permanent shades of the polar region**: can the water ice be maintained over the long term and not escape? An accurate three-dimensional distribution model of temperature is a prerequisite for mining work. Preliminary modelling of the thermal environment of the polar shading based on LRO Diviner load data has been conducted, but spatial resolution is not sufficient to support decision-making on engineering scales [26].
-- **Cooled CO2 reserves and endowments**: As a complement to local carbon sources manufactured by CNT, the reserves of CO2 in the polar region must be supported by direct detection data. Schörghofer and Williams (2021) confirmed for the first time, based on LRO data, the presence of CO2 cooling in the lunar polar zone, with a total area of approximately 200 km2, but the reserves have not been identified [27].
-- **Medium Seismic and Geological Stability**: The geomechanical characteristics of the site area, in particular the magnification of the frequency, magnitude and movement of the ground.
-- **Spatial distribution and internal geometry of lava plume “sky window”**: how many enterable lava plumes are in polar and high latitude areas? Is its internal width, height and extension sufficient to accommodate large industrial facilities? The availability of GRAIL and LRO data has revealed the existence of the Marius Hills and the Silent Sea “skylights” [19,20,21], but a systematic census of the polar regions has not yet been conducted. ** The census should focus on the 100 km radius of the SPA basin around Shackleton** — The region theoretically has geological conditions for the formation of lava tubes (basin impact accompanied by volcanic activity) and, once confirmed, will form the best synergistic pattern with Shackleton “in perpetuity + underground”.
-- ** Regional distribution of building materials,** based on the criteria (b) in section 1.3 for screening, using multispectral data to identify the high-land slope long rock and the contact zone of the moon-sea for basalt rock, initially collating candidate material areas that are consistent with the mineral composition and particle size double-peaking characteristics.
-- ** Regional distribution of the coronal of catalyst materials**: based on guideline (c) in section 1.3, using multispectral data and high-spectral mineral filling maps, to identify the titanium-rich thallite area of 10 wt per cent of titanium ore, and to pre-empt candidate catalyst material areas.
+- **Exact distribution and occurrence form of polar water ice**: Does the ice exist as pure ice layers, ice-regolith mixtures, or hydrated minerals? How large is its spatial variability at the meter scale? This directly determines extraction methods and equipment selection.
+- **Thermal stability of permanently shadowed polar regions**: Can water ice be maintained long-term without sublimation and escape? A precise 3D temperature-distribution model is a prerequisite for engineering-scale extraction. Existing studies based on LRO Diviner data have carried out preliminary thermal modeling of polar shadowed regions, but their spatial resolution is insufficient for engineering-scale decisions [26].
+- **Reserves and occurrence of CO2 cold traps**: As a supplementary local carbon source for CNT manufacturing, polar CO2 cold-trap reserves must be supported by direct exploration data. Schorghofer and Williams, 2021, were the first to confirm the existence of lunar polar CO2 cold traps based on LRO data, with a total area of about 200 km2, but their reserves remain unconstrained [27].
+- **Moonquakes and geologic stability**: The geomechanical properties of candidate base sites, especially moonquake frequency, magnitude, and amplification effects in surface motion.
+- **Spatial distribution and internal geometry of lava-tube skylights**: How many enterable lava tubes exist in the polar and high-latitude regions? Are their internal width, height, and length sufficient to host large industrial facilities? Existing GRAIL and LRO data have already preliminarily revealed lava-tube evidence in Marius Hills and the Mare Tranquillitatis Pit [19,20,21], but a systematic survey of the polar regions has not yet been carried out. **The center of gravity of this survey should be the SPA basin margin region within a 100 km radius around Shackleton**. In theory, this region has the geologic conditions required for lava-tube formation because basin impacts were accompanied by volcanic activity, and if confirmed it would create the optimal “eternal light + subsurface” synergy together with Shackleton.
+- **Regional distribution of construction-material regolith**: Using the criteria in Section 1.3(b), multispectral data should be used to identify contact-mixed belts between highland anorthosite and mare basalt, and preliminarily delineate candidate resource zones matching the required mineral composition and bimodal particle-size distribution.
+- **Regional distribution of catalyst-feedstock regolith**: Using the criteria in Section 1.3(c), multispectral data and hyperspectral mineral mapping should be used to identify titanium-rich mare basalt regions with ilmenite content >= 10 wt%, and preliminarily delineate candidate catalyst-feedstock zones.
 
-## 1.4.2 Orbital detection mission design
+#### 1.4.2 Orbital Exploration Mission Design
 
-This pioneer mission plans to deploy two back-up, complementary payload polar-orbiting satellites and a small satellite formation for fine gravity field detection.
+This pioneer mission plans to deploy two mutually redundant and payload-complementary polar-orbit survey satellites, along with a small-satellite formation for fine gravity-field exploration.
 
-** (a) Polar low-orbit survey satellite**
+**(a) Polar low-orbit survey satellite**
 
-- Orbital type: polar low orbit, average altitude 30-50 km, near-round orbit
-- Mission lifetime: not less than 3 years, covering at least 36 full monthly night cycles
-- Platform quality: not more than 1,200 kg (additional modules containing propellants and standard thermal control systems, excluding month and night survival modules - RHU, which represent an additional 5%-8% mass surplus, to be budgeted for at the detailed design stage)
-- Attitude control accuracy: not more than 0.05° (triaxis stable)
-- Data transmission rate: not less than 300 Mbps (Ka-band, relayed through the Zenbridge II [5])
-- Total working: not exceeding 2,500 W (peak)
-- High-resolution multispectral camera: Visible light resolution does not exceed 0.3 m/pixels; Near-infrared/short-wave infrared resolution does not exceed 1 m/pixel; band width does not exceed 20 km. For high-precision topographic mapping of the polar region, screening of candidate sites for a lava tube “sky window” and measurements of skylight slopes (soft entrances with a resolution sufficient to determine an angle of 30°). ** Multispectral cameras have the highest mission priority for the 100 km radius SPA basin peripheries around Shackleton ** — the region was given the highest priority for coverage in the first six months of the mission, with at least three duplicate imagings completed to support the 3-way topographic extraction and seasonal photometric change analysis of skylight candidate points. While taking into account the initial co-location of high calcium slope long rock/rich titanium-rich iron basalt in contact with the mixed zone
-- Neutron spectrometers: Thermal/superthermal flux measures a sensitivity of no more than 5 per cent (2 C); spatial resolution does not exceed 50 km. For a preliminary assessment of water ice abundance in the polar region to detect hydrogen content at depth of 1 m (indirect tracer of water ice)
-- Infrared imaging spectrometers: spectral range 0.5-14 μm; spectral channel numbers not less than 200; space resolution in the thermal infrared band not exceeding 50 m/pixels; NEΔT not exceeding 0.1 K @ 300 K. Modelling of day and night changes in surface temperature, assessment of water ice stability in permanent shades, detection of thermal abnormalities within a lava tube “sky window” (with a significant temperature difference between the internal temperature of the lava tube and the surrounding moon table, with a priority for day and night fluctuations of 5°C) and regional mineral fillings of titanium ore (approximately 1.0 μm and 2.0 μm absorption features) and high calcium slopes (approximately 1.25 μm absorption characteristics)
+- Orbit type: polar low orbit, mean altitude 30-50 km, near-circular orbit
+- Mission life: at least 3 years, covering at least 36 full lunar-night cycles
+- Platform mass: no more than 1,200 kg, including propellant and standard thermal control, excluding lunar-night survival add-on modules. Add-on modules such as RHUs are expected to require an additional 5%-8% mass margin and must be included during detailed design.
+- Attitude control accuracy: <= 0.05° with three-axis stabilization
+- Data transmission rate: >= 300 Mbps on Ka-band via Queqiao-2 relay [5]
+- Total power consumption: <= 2,500 W peak
+- High-resolution multispectral camera: visible-band resolution <= 0.3 m/pixel; near-IR and shortwave IR resolution <= 1 m/pixel; swath width >= 20 km. This payload is used for high-precision polar topographic mapping, screening of candidate lava-tube skylights, and skylight-slope measurement, with sufficient resolution to determine whether the access slope is <= 30°. **The camera's highest mission priority is the SPA basin margin area within 100 km of Shackleton**. During the first 6 months, that region must be treated as the top-priority coverage target, with at least three repeat imaging passes completed to support stereo terrain extraction of candidate skylights and analysis of seasonal illumination changes. It also serves to preliminarily identify contact-mixed belts of high-calcium plagioclase and titanium-rich basalt.
+- Neutron spectrometer: thermal and epithermal neutron-flux sensitivity <= 5% at 2σ; spatial resolution <= 50 km. Used for preliminary estimation of polar water-ice abundance by detecting hydrogen content to a depth of about 1 m, a proxy for water ice.
+- Infrared imaging spectrometer: spectral range 0.5-14 μm; at least 200 spectral channels; thermal-IR spatial resolution <= 50 m/pixel; NEΔT <= 0.1 K at 300 K. Used for modeling day-night surface-temperature variation, evaluating water-ice stability in permanently shadowed regions, detecting thermal anomalies inside lava-tube skylights, since lava tubes with near-constant internal temperatures stand out from surrounding terrain and those with day-night fluctuation <= +/-5°C are preferred, and performing regional mineral mapping of ilmenite, via absorption features around 1.0 μm and 2.0 μm, and high-calcium plagioclase, via absorption around 1.25 μm.
 
-** (b) Synthetic Aperture Radar Satellite**
+**(b) Synthetic aperture radar satellite**
 
-- Orbital type: polar Sun-synchronous orbit, altitude 100-150 km
-- Mission life: not less than 3 years
-- Platform quality: not more than 2,500 kg (with propellants and standard thermal control systems, excluding additional modules such as month-night survival modules - RHU, which have an additional mass surplus of 5%-8% and have to be budgeted for at the detailed design stage)
-- Attitude control accuracy: not more than 0.01° (3-axis stability) - SAR is more likely to point towards stability
-- Data transmission rate: not less than 500 Mbps (Ka-band, relayed by Tsimbridge II [5])
-- Total power: not more than 5,000 W (peak, SAR launch period)
-- L/P-band Synthetic Aperture Radar (SAR): L-band 1.26 GHz or P-band 435 MHz; polarization (HH+HV+VH+VVV); spatial resolution not exceeding 5 m (StripMap model); penetration depth not less than 2 m (dry moon). A fine-scanning of subsurface structures for three-dimensional distribution imaging of water ice (without the condition of light), known candidate areas of lava tubes such as the Marius Hills and Philolaus impact pits. **SAR has the highest scanned priority ** for the 100 km radius SPA basin perimeter area around Shackleton — at least two complete StripMap coverages of the area are to be completed within 12 months of the mission, identifying continuous basalt layers and subsurface cavities with a maximum thickness of 30 m. It also takes into account the inversion of the thickness of the moony pine and the roughness of the particles (preliminary data are provided for the assessment of the double-peak scale of the moony boundary for building materials). Reference to successful experiences of Kaguya LRS and LRO Mini-RF [19,21]
+- Orbit type: polar sun-synchronous orbit, altitude 100-150 km
+- Mission life: at least 3 years
+- Platform mass: no more than 2,500 kg, including propellant and standard thermal control, excluding lunar-night survival add-on modules. Add-on modules such as RHUs are expected to require an additional 5%-8% mass margin and must be included during detailed design.
+- Attitude control accuracy: <= 0.01° with three-axis stabilization. SAR places tighter demands on pointing stability.
+- Data transmission rate: >= 500 Mbps on Ka-band via Queqiao-2 relay [5]
+- Total power consumption: <= 5,000 W peak during SAR transmission
+- L-/P-band SAR: frequency either L-band at 1.26 GHz or P-band at 435 MHz; full-polarization mode, HH + HV + VH + VV; spatial resolution <= 5 m in StripMap mode; penetration depth >= 2 m in dry regolith. Used for 3D imaging of subsurface water-ice distributions at 2-5 m depth in permanently shadowed regions, independent of illumination conditions, and for high-detail subsurface scanning of known lava-tube candidate areas such as Marius Hills and Philolaus crater. **The highest SAR scanning priority is the SPA basin margin area within 100 km of Shackleton**. At least two complete StripMap coverages of this region must be completed within the first 12 months, targeting continuous basalt roofs >= 30 m thick and continuous subsurface cavity signals. It should also support inversion of regolith loose-layer thickness and particle-size roughness, providing preliminary input for assessing the bimodal grading of construction-material regolith. The design draws on the successful experience of Kaguya LRS and LRO Mini-RF [19,21].
 
-** (c) Small satellite formation for fine detection of gravity field**
+**(c) Fine gravity-field exploration small-satellite formation**
 
-- Two microsatellites (200 kg each) in formation flight mode in polar low orbit
-- interplanetary ranging 1 μm/s (Ka-band interplanetary link)
-- 2 years of mission life.
-- Core mission: to obtain fine data on the spatial resolution of the polar region (latitude 60° North-South and above) gravity field of 20 km, accuracy of 5 mGal, for cross-checking with SAR data to confirm low-density abnormalities (gravity abnormalities) corresponding to holes of width 500 m). ** The 100 km radius around Shackleton is subject to no less than four repeat coverages** within 18 months of the mission to support the analysis of time variations in the gravity field (excludes false abnormalities caused by a monthly earthquake or thermal stress). Reference to the data-processing methodology of the GRAIL mission [20]
+- Two microsatellites, each <= 200 kg, operating in formation flight in polar low orbit
+- Inter-satellite ranging accuracy <= 1 μm/s via Ka-band crosslink
+- Mission life >= 2 years
+- Core task: obtain fine gravity-field data for the polar regions, above 60° north and south latitude, with spatial resolution <= 20 km and precision <= 5 mGal. These data are used to cross-validate SAR evidence for low-density anomalies associated with lava tubes and must be sensitive enough to resolve gravity anomalies corresponding to cavities with widths >= 500 m. **The area within a 100 km radius around Shackleton must be revisited at least four times within the first 18 months** to support gravity time-variation analysis and to exclude false anomalies caused by moonquakes or thermal stress. The data-processing approach should reference the GRAIL mission [20].
 
-####1.4.3 orbital technology validation
+#### 1.4.3 Orbital Technology Validation
 
-In orbital detection missions, the first critical technical doctrine validation was conducted.
+The orbital exploration mission will also carry out first-of-its-kind principle validation for several key technologies.
 
-** Microgravity CNT Growth Experiment** (on board polar survey satellite)
+**Microgravity CNT growth experiment** (carried by the polar survey satellite)
 
-- MicroFCCVD reactor: not more than 2 L
-- Working temperature 600-1200°C controlled, accuracy ± 10°C
-- Carbon source is methane gas and catalyst is pre-packaged iron/nickel nanoparticles (95% purity)
-- The target product is a continuous CNT gauze, not less than 100 cm in length and 10-50 μm control in diameter.
-- No more than 500 W, no less than 100 h
-- Volume II of the corresponding master volume to be validated for V2-M4, which does not prevent CNT from becoming silk. There are available empirical data on the ground that JAXA has been able to successfully grow CVD CNT[28] on the lunar simulator particles of the Moon; and the discovery of natural SWCNT in Moonside Six provides an environmental analogy for this purpose [29]
+- Miniature FCCVD reactor with internal volume <= 2 L
+- Controllable operating temperature of 600-1,200°C with precision of +/-10°C
+- Carbon source is methane gas; catalyst is preloaded iron / nickel nanoparticles with purity >= 95%
+- Target product is continuous CNT yarn, length >= 100 cm, with controllable diameter of 10-50 μm
+- Power consumption <= 500 W; experiment duration >= 100 h
+- Corresponds to pending validation item V2-M4 in Main Volume II, verifying that microgravity does not prevent CNT fiber formation. Existing ground experiments have already shown that JAXA successfully achieved in-situ CVD growth of CNTs on lunar-regolith simulant particles [28], and the discovery of natural SWCNTs in Chang'e-6 regolith provides environmental analogy support [29].
 
-** Catalyst extraction microfiche experiment** (on board polar survey satellites)
+**Miniature catalyst extraction experiment** (carried by the polar survey satellite)
 
-- Mini-humid metallurgical module: Moon-border preloading is not less than 500 g (lunar-hythmite based on titanium-rich rock, titanium 10 wt per cent)
-- Acid leaching/hydrogen gas reduction integrated reactor
-- Targeted extraction elements are Fe, Ni, Co, not less than 60%
-- Slag must be closed.
-- The total mass of the module does not exceed 15 kg
-- Provides initial parameters for large-scale lunar catalyst production in task group II and volume III of this appendix
+- Miniature hydrometallurgical module with preloaded regolith amount >= 500 g, using titanium-rich mare-basalt regolith simulant with ilmenite content >= 10 wt%
+- Integrated acid-leaching and hydrogen-reduction reactor
+- Target extracted elements: Fe, Ni, Co, with extraction efficiency >= 60%
+- Solid residues must be sealed and immobilized
+- Total module mass <= 15 kg
+- Provides preliminary parameters for large-scale lunar catalyst production in Mission Group II and Volume III of this appendix
 
-** Task group 1P0 standard**:
+**Mission Group I P0-level acceptance criteria**:
 
-- **P0-R1**: Spatial resolution of the polar water ice (H equivalent) map is better than 50 km, and the uncertainty measured by the hydrogen abundance (wt % H2O eq) does not exceed 30% (2 %).
-- **P0-R2**: Continuous CNT fibres with microgravity CNT growth of not less than 100 cm in length and no broken thread under scanned mirrors (SEM) confirming that microgravity does not impede silk.
-- **P0-R3**: Completion of a systematic survey of lava tubes “skylights” in the polar region (latitude 60° North-South)** 100 km radius of the SPA basin around Shackleton is the highest priority target for coverage**. Identification and cataloguing of at least three high-priority candidate points (a continuous basalt layer showing a top plate thickness of 30 m, an internal cavity projection of 500 m, visible light images of the sky window showing an angle of 30°, and infrared data showing an internal night and day temperature differential of 10°C) for field detection target screening in mission cluster 2.
-- **P0-R4**: Completion of at least five initial collages of candidate areas for building materials conforming to section 1.3 (b) of the guidelines, each area of 10 km2, mineral resolution 100 m/pixels using multispectral data.
-- **P0-R5**: Completion of the initial coding of at least five candidate areas for catalytic feedstocks in line with (c) section 1.3 of the guidelines using multispectral data, titanium ore content (based on an inversion of the absorption characteristic strength of 1.0 μm and 2.0 μm) ≥8 wt% and an area of 5 km2 per site.
+- **P0-R1**: The spatial resolution of the polar water-ice distribution map, expressed as H-equivalent abundance, must be better than 50 km, and uncertainty in hydrogen abundance, in wt% H2O equivalent, must not exceed +/-30% at 2σ.
+- **P0-R2**: The microgravity CNT growth experiment must produce continuous CNT fibers at least 100 cm long, with no visible breakage under SEM observation, confirming that microgravity does not prevent fiber formation.
+- **P0-R3**: A systematic survey of lava-tube skylights in the polar regions, above 60° north and south latitude, must be completed, with **the SPA basin margin area within a 100 km radius around Shackleton designated as the top-priority coverage region**. At least three high-priority candidate sites must be identified and cataloged. Each must show: continuous basalt roof thickness >= 30 m in SAR echoes, estimated cavity width >= 500 m, skylight slope <= 30° in visible imagery, and internal day-night temperature variation <= +/-10°C in infrared data. These sites will serve as candidate targets for field exploration in Mission Group II.
+- **P0-R4**: Using multispectral data, at least five candidate construction-material regolith zones meeting the criteria of Section 1.3(b) must be preliminarily delineated, each with area >= 10 km2 and mineral-mapping resolution <= 100 m/pixel.
+- **P0-R5**: Using multispectral data, at least five candidate catalyst-feedstock regolith zones meeting the criteria of Section 1.3(c) must be preliminarily delineated, each with ilmenite content >= 8 wt%, inferred from the strength of the 1.0 μm and 2.0 μm absorption features, and area >= 5 km2.
 
 
-# #1.5 Task group II: Moontop robots in position (years 3-5)
+### 1.5 Mission Group II: Lunar Surface Robotic Deployment (Years 3-5)
 
-####1.5.1 Survey lander master design
+#### 1.5.1 Overall Lander Design
 
-This stage involves the deployment of 3-4 survey landing machines, each landing at a different candidate site (based on the finalization of detailed survey data for task group I). Distribution according to the following priorities:
+This phase deploys 3-4 survey landers, each landing at a different candidate site, to be finalized based on the detailed survey results of Mission Group I. Priority is assigned as follows:
 
-- **First Priority**: At least one lander is deployed in the SPA Basin Edge **/ Surround Shackleton ** — if a high-priority lava line “sky Window” meeting the P0-R3 standard is found in this area by mission group I, this lander will be deployed directly to the candidate coordinates of the Sky Window. The focus of its mission is: (a) to conduct a drop detection and GPR scan of the skylight; (b) to conduct in situ XRF+particle measurement of the moonside of the surrounding building and catalyst materials; and (c) to deploy the Moon 3D printing and catalyst extraction experiments.
-- ** Second priority**: At least one lander is deployed in other lava pipeline candidate areas of the polar region (Philolaus impact pit) to perform the same detection tasks as above.
-- ** Third Priority**: At least one lander is deployed in a candidate area for building and catalyst raw materials (priority is given to a high ground-month sea mixed contact zone or a titanium-rich sea basalt).
-- **Priority IV**: If mission group I does not find a “skylight” that meets the criteria in the vicinity of Shackleton, a fourth lander will be deployed to the Marius Hills or the Sea of Silence “skylight” to ensure that detection data are not missing for the lower and middle latitude underground path.
+- **First priority**: At least one lander shall be deployed in the **SPA basin margin region around Shackleton**. If Mission Group I identifies a high-priority lava-tube skylight there that meets the P0-R3 criteria, this lander will be sent directly to the candidate coordinates of that skylight. Its mission focus includes: (a) hopper descent exploration and GPR scanning of the skylight; (b) in-situ XRF and particle-size measurements of nearby construction-material and catalyst-feedstock regolith; and (c) deployment of regolith 3D-printing and catalyst-extraction experiments.
+- **Second priority**: At least one lander shall be deployed to another polar lava-tube candidate region, Philolaus crater, to carry out the same suite of exploration tasks.
+- **Third priority**: At least one lander shall be deployed to a candidate area for construction-material and catalyst-feedstock regolith, preferably a highland-mare mixed contact zone or a titanium-rich mare-basalt zone that satisfies the criteria in Section 1.3(b) and (c).
+- **Fourth priority**: If Mission Group I does not discover a qualifying skylight around Shackleton, the fourth lander shall be sent to Marius Hills or the Mare Tranquillitatis Pit to ensure that exploration data for the mid- and low-latitude subsurface pathway are not missing.
 
-The design elements are as follows:
+Key design requirements are as follows:
 
-- A single launch mass of not more than 4,200 kg (including payloads, cruise stages and standard thermal control systems, excluding additional modules such as the month and night survival module - RHU, with an additional mass surplus of about 5%-8%, to be budgeted for at the detailed design stage) to accommodate the Long March 5 and Equivalence Level carrier rocket
-- Lander with an eight-sided platform and composite material frame structure to provide payload installed area not less than 8 m2
-- The landing accuracy does not exceed 100 m(3 x 3) to inherit and enhance the performance of the landing precision requirement of Zhuang VII in the polar region; 6]
-- Design life of not less than 12 Earth months covering a full day/month night cycle
-- Energy systems: powered by solar-powered arrays (not less than 1,500 W) in the day, and heat control by radioisotope heating units (RHU) during the month and night
-- Communications: direct links to the Earth ' s X-band are not less than 2 Mbps; and the Ka-band is not less than 50 Mbps through the Zipbridge II relay [5]
-- Total payload mass does not exceed 150 kg
+- Launch mass per lander <= 4,200 kg, including payload, cruise stage, and standard thermal control, but excluding lunar-night survival add-on modules. Add-on modules such as RHUs are expected to require an extra 5%-8% mass margin and must be included during detailed design. This mass class is compatible with Long March 5 and equivalent heavy-lift launch vehicles.
+- The lander adopts an octagonal platform with a composite truss structure, providing at least 8 m2 of payload installation area.
+- Landing accuracy <= 100 m at 3σ, inheriting and improving upon the polar landing-accuracy requirements of Chang'e-7 [6].
+- Design life >= 12 Earth months, covering a full lunar day-night cycle.
+- Energy system: solar arrays provide >= 1,500 W during the lunar day; RHUs maintain thermal control through the lunar night.
+- Communications: direct-to-Earth X-band link >= 2 Mbps; Ka-band link via Queqiao-2 relay >= 50 Mbps [5].
+- Total payload mass <= 150 kg.
 
-**Intelligence requirements for surface operations**: Earth ' s real-time remote control cannot support fine operations owing to the delay of approximately 2.6 seconds between ground and ground communications. The minimum level of autonomous capacity shall be required for all ground surface operations:
+**Autonomy requirements for lunar surface operations**: Because Earth-Moon communications have a round-trip delay of about 2.6 seconds, real-time remote control from Earth cannot support precise operations. All surface-operating equipment must satisfy the following minimum autonomous-capability levels:
 
-- ** fail detection and safety shutdown**: equipment must be able to independently detect critical parameter anomalies (e.g., current surges, temperature extremes, attitude instability) and trigger a safety shutdown process within 50 ms without waiting for Earth command
-- ** Path planning and avoidance**: An autonomous navigation system for a cruiser must be able to plan the optimal path from point A to point B on the basis of bi-eyed stereovision or laser radar data, identifying and bypassing rocks not less than 20 cm in diameter and pits not less than 15 cm in depth. For the skylight approach mission, an additional capability for self-identification of hazard edges and safety distance maintenance (5 m)
--** Mission sequence is self-executed**: the equipment must be capable of receiving macro instructions from the ground (e.g., "Drive to depth Z at coordinates X, Y" or "Suspended image of coordinates X, Y" skylights") and autonomously decomposed to a bottom-action sequence without ground-by-step confirmation
--** Interrupted autonomous survival of communications**: equipment must be able to access low-energy safety mode autonomously in the event of loss of Earth's signal, maintain critical thermal control and communication listening, and automatically resume pre-set missions once the signal is restored
+- **Fault detection and safe shutdown**: Equipment must be able to autonomously detect critical anomalies, such as current spikes, temperature exceedance, or attitude instability, and trigger safe shutdown within 50 milliseconds without waiting for an Earth command.
+- **Path planning and obstacle avoidance**: Rover autonomy systems must be able to plan the optimal route from Point A to Point B based on stereo vision or lidar data, recognizing and avoiding rocks of diameter >= 20 cm and pits of depth >= 15 cm. For skylight-approach missions, the rover must additionally recognize hazardous edges and maintain a safe stand-off distance of at least 5 m.
+- **Autonomous execution of mission sequences**: Equipment must be capable of receiving high-level commands from the ground, such as “drill at coordinates X,Y to depth Z” or “hover-image the skylight at coordinates X,Y,” and autonomously decomposing them into lower-level action sequences without requiring step-by-step confirmation from Earth.
+- **Autonomous survival during communications outage**: If Earth communications are lost, the equipment must autonomously enter a low-power safe mode, preserve critical thermal control and communications listening functions, and automatically resume the preplanned mission when the signal returns.
 
-###1.5.2 Scientific exploration payload
+#### 1.5.2 Scientific Exploration Payloads
 
-** polar ice drilling and volatilisation analyser**
+**Polar water-ice drilling and volatile-analysis package**
 
-- The type of drill is a rotational shock, not less than 3 m
-- Rate of penetration: not less than 5 cm/min in dry moons and not less than 1 cm/min in ice moons
-- No less than 25 mm in diameter.
-- Sample heater: Incidence rate 0.1-10°C/s, controlable, maximum temperature 900°C, temperature control accuracy ± 5°C
-- Mass spectrometers: mass range 1-200 amu, resolution not exceeding 0.5 amu, test limit not exceeding 1 ppb
-- The total mass does not exceed 35 kg and the peak of effort does not exceed 300 W
-- **Intelligence requirement**: drills must have the ability to judge rock properties online and to adjust the speed, speed of advance and impact energy autonomously in response to drilling resistance and vibration spectrum. In case of a drill or a drill wear, an autonomous attempt must be made to reverse the drill and speed change, after three successive setbacks before reporting the ground intervention.
-- Direct verification of water ice endowment patterns, abundance and extraction energy consumption, corresponding to the design of the mining programme for volume P0-M1 and volume IV of the main volume. The overall technical program for this device was based on the design of the TRIDEENT drilling system of the NASA VIPER Moon Vehicle [13,16]
+- Rotary-percussive drill with depth capability >= 3 m
+- Penetration rate >= 5 cm/min in dry regolith and >= 1 cm/min in ice-bearing regolith
+- Drill-bit diameter >= 25 mm
+- Sample furnace: controllable heating rate of 0.1-10°C/s, maximum temperature 900°C, temperature-control precision +/-5°C
+- Mass spectrometer: mass range 1-200 amu, resolution <= 0.5 amu, detection limit <= 1 ppb
+- Total mass <= 35 kg, peak power <= 300 W
+- **Autonomy requirement**: The drill must be able to infer lithology online and autonomously adjust rotation rate, feed rate, and impact energy based on drilling resistance and vibration spectrum. If bit sticking or bit wear occurs, it must autonomously attempt reverse withdrawal and variable-speed strategies. Only after three consecutive failed withdrawal attempts may it request Earth intervention.
+- This payload directly validates water-ice occurrence form, abundance, and extraction energy cost, corresponding to P0-M1 of this volume and the mining-system design work in Main Volume IV. Its overall technical scheme draws on NASA VIPER's TRIDENT drill design [13,16].
 
-**CO2 chillium detection and sampler**
+**CO2 cold-trap detector and sampler**
 
-- Cold shaving sampler: scratch depth 0-5 cm controlled, single sample not less than 10 g
-- Micro-gas chromatograph: Targets for detection are CO2, CH4, NH3, CO2 not exceeding 10 ppm
-- Total mass does not exceed 8 kg
-- **Intelligence requirement**: Samplers must be able to determine, on their own, whether to touch the bedrock or the hard layer based on the twist feedback during scratching, and to automatically adjust the scratch depth to avoid damage to the equipment
-- Identification of the feedstock base of the CNT carbon source supplement path, which directly supports the carbon source strategy of the fifth volume of CNT manufacturing system. The presence of CO2 chillers has been confirmed by Schörghofer and Williams (2021) based on LRO detection data [27]
+- Cold-trap scraping sampler with controllable scraping depth of 0-5 cm and single-sample mass >= 10 g
+- Miniature gas chromatograph targeting CO2, CH4, and NH3, with CO2 detection limit <= 10 ppm
+- Total mass <= 8 kg
+- **Autonomy requirement**: The sampler must be able to infer whether it has encountered bedrock or a hard interlayer from torque feedback during scraping, and automatically adjust scraping depth to avoid hardware damage.
+- This payload confirms the raw-material basis for a supplementary CNT carbon-source pathway, directly supporting the carbon-source strategy of the CNT manufacturing system in Volume V. The existence of CO2 cold traps has already been confirmed by Schorghofer and Williams, 2021, using LRO data [27].
 
-** Moonlong Mechanical Characteristics Test Suite**
+**Regolith mechanical-properties test suite**
 
-- Mini-integral: not less than 1 m in depth and not more than 1 N in the accuracy of the flow measurement
-- Direct shear experimental device: maximum modular stress not less than 100 kPa
-- Excavation simulation shovel: not less than 0.001 m3
-- Total mass does not exceed 15 kg
-- **Intelligence requirement**: Translator is required to monitor resistance curves in real time as they move in, and if abnormally high resistance (suspicious rock blocks) is detected, automatically suspend and mark the depth and then attempt to re-enter at preset deviation positions
-- Provision of input parameters for the base base design for volume II and for the design of volume IV mining equipment, such as monthly bearing capacity, internal friction angles, viscosity and excavability. Test data are also used to verify the physical characteristics of the building materials moon (section 1.3 b)
+- Small penetrometer with penetration depth >= 1 m and penetration-force precision <= 1 N
+- Direct-shear device with maximum normal stress >= 100 kPa
+- Excavation-simulation scoop with bucket volume >= 0.001 m3
+- Total mass <= 15 kg
+- **Autonomy requirement**: During penetration, the penetrometer must continuously monitor the resistance curve. If abnormal resistance increase, likely indicating a rock, is detected, it must automatically pause penetration, mark the depth, and attempt penetration again at a preplanned offset position.
+- The resulting data provide input parameters for base-foundation design in Volume II and mining-equipment design in Volume IV, including regolith bearing capacity, internal friction angle, cohesion, and excavability. The test data are also used to validate the physical-property criteria for construction-material regolith in Section 1.3(b).
 
-**Long-term monitoring station for the moon dust environment**
+**Long-duration lunar dust environment monitoring station**
 
-- static field sensors: sensitivity not exceeding 1 V/m
-- Optical decay sensors: wavelength range 400-1000 nm
-- wear and tear sensors: no more than 1 μg of measured material mass loss accuracy
-- No less than 12 months of continuous operation, no more than 5 kg of total mass and no more than 20 W of power
-- **Intelligence requirement**: monitoring stations must be able to identify and filter perfunctory data peaks caused by their own equipment actions (e.g., drilling vibrations) autonomously and to conduct event captures with increased sampling frequency when data anomalies
-- Data sharing to volume VII Habitat engineering
+- Electrostatic-field sensor with sensitivity <= 1 V/m
+- Optical attenuation sensor covering wavelength range 400-1000 nm
+- Wear sensor with material mass-loss precision <= 1 μg
+- Continuous operation >= 12 months; total mass <= 5 kg; power <= 20 W
+- **Autonomy requirement**: The station must be able to autonomously recognize and filter spurious data peaks caused by its own equipment actions, such as drilling vibration, and increase sampling frequency when anomalies occur so that events can be captured.
+- Data are shared with the habitation-engineering design work in Volume VII.
 
-** Moonborder Minerals & Particle In situ Analyser**
+**In-situ regolith mineralogy and particle-size analyzer**
 
-- X-ray fluorescent spectrometer (XRF): Motion source is micro-X-ray tube (Rh target), energy resolution 150 eV @ 5.9 kV, analysis of the range of elements Na-U, detection limit 100 ppm (middle heavy elements such as Fe, Ti, etc.). For direct measurement of the accuracy of titanium ore, calcium-slashed long stones and natural iron and nickel particles in the Moon
-- Micro-laser particle scaler: measured range 0.1-1,000 μm, 3% repeat radium. For in situ measurements of the particle distribution of the Moon and determination of the existence of a double-peaker class
-- Micro-magnetic rate instrument: Sensitivity 10-5 SI, used to measure the level of magnetic minerals (mainly natural iron and nickel particles and titanium ore) in the Moon. Magnetization rate values can be directly used as a preliminary test for the feasibility of magnetic selection
-- not exceeding 12 kg of total mass and not exceeding 30 W
-- **Intelligence requirement**: the instrument must be able to complete a joint XRF element analysis + laser particle measurement + magnetic rate scanning within a single analytical cycle (≤5 min) and independently compare the threshold for pre-set building and catalyst raw materials with the “qualified/unqualified/pending” judgement with raw data
+- X-ray fluorescence spectrometer: excitation source is a miniature X-ray tube with Rh target; energy resolution <= 150 eV at 5.9 keV; analyzable elements from Na to U; detection limit <= 100 ppm for medium and heavy elements such as Fe and Ti. Used to directly measure the abundance of ilmenite, high-calcium plagioclase, and natural Fe-Ni particles in regolith.
+- Miniature laser particle-size analyzer: measurement range 0.1-1,000 μm; repeatability <= +/-3%. Used for in-situ measurement of regolith particle-size distribution and determination of whether bimodal grading is present.
+- Miniature magnetic susceptibility meter: sensitivity <= 10^-5 SI, used to measure the content of magnetic minerals in regolith, chiefly natural Fe-Ni particles and ilmenite. Magnetic-susceptibility values can directly serve as a preliminary indicator of magnetic-separation feasibility.
+- Total mass <= 12 kg, power <= 30 W
+- **Autonomy requirement**: Within a single analysis cycle of <= 5 minutes, the instrument must complete combined XRF elemental analysis, laser particle-size measurement, and magnetic-susceptibility scanning, compare the results against the threshold criteria for construction-material and catalyst-feedstock regolith, and return both the classification result, qualified / unqualified / pending, and the raw data.
 
-**Specific payload of the lava tube skylight**
+**Lava-tube skylight exploration payload**
 
-- Light flight detectors: released by a lander to conduct close-range observations of the skylight by cooling propulsion or ejection. The total mass does not exceed 10 kg, with a single flight time of 300 s, carrying a high-resolution microcam (resolution 5 cm/pixel @100 m distance) and a mini-laser (range accuracy 2 cm, maximum detection distance 500 m). In the course of the drop detection, the open diameter of the skylight (target 10 m) and the angle of the cave wall (target 30°) should be accurately measured by laser radar, and micro-cams should be used to capture the stratification of the cave wall formation.
-- Mine detection (GRP): mounted on a patrol, with a central frequency of 100-500 MHz. Frequency selection is based on a vertical resolution of 0.3 m in 500 MHz but a detection depth of 5 m; and a detection depth of 15 m in 100 MHz but a resolution of 1.5 m. Mission cluster II gives priority to 300-500 MHz (high resolution, subsurface detection of 10 m thickness suitable for the top of the skylight) and deep holes of mission cluster III combine 100-200 MHz (deep geological discovery). The lunar GPR will have to operate at an appropriate frequency, based on reference equipment, to accommodate lower water content and higher detection resolution requirements on the Moon. Depth 10 m (Dry Moon, 100 MHz), vertical resolution 0.5 m (500 MHz). Non-invasive detection of subsurface structures around the skylight to confirm the extension direction and thickness of the subsurface cavity. Reference is made to the WISDOM-type technology programme [30]. ** On a lander deployed around Shackleton, the payload's detection mission is of the highest priority - a gridded GPR scan of at least 200 m x 200 m around the skylight must be completed within 30 Earth days after landing (gap space < 5 m) **
-- **Intelligence requirement**: Flying probes must control the safety distance from the outer edge of the skylight (≥5 m) autonomously, and if the distance from the cave wall is less than 2 m during the drop detection process, they must automatically activate the shield and return to safety. GPR data processing is required to perform initial layer recognition and empty signal markings at the end of the cruiser to reduce the amount of data transmitted to the ground
-- Reference is made to the successful detection experience of Kaguya LRS and LRO Mini-RF on the Marius Hills and Shizuku “skylights” [19,21]
+- Lightweight hopper probe: released from the lander and using cold-gas propulsion or hopping to conduct close-up observations of a skylight. Total mass <= 10 kg; single-flight duration >= 300 s. Carries a high-resolution micro-camera with resolution <= 5 cm/pixel at 100 m distance and a micro-lidar with ranging precision <= 2 cm and maximum range >= 500 m. During descent, the lidar must precisely measure skylight opening diameter, target >= 10 m, and wall inclination, target <= 30°, while the micro-camera acquires stratigraphic imagery of the wall rock.
+- Ground-penetrating radar carried by the rover, with center frequency adjustable across 100-500 MHz. Frequency selection basis: in 500 MHz mode, vertical resolution can reach 0.3 m but penetration depth is limited to <= 5 m; in 100 MHz mode, penetration can reach 15 m but resolution drops to 1.5 m. Mission Group II should prioritize 300-500 MHz for high-resolution shallow probing of skylight roofs <= 10 m thick, while Mission Group III deep-hole work should use 100-200 MHz for deeper geologic structure probing. Lunar GPR operating frequency should be somewhat increased relative to terrestrial reference systems to accommodate lower water content and higher required resolution in lunar regolith. Required penetration depth is >= 10 m in dry regolith at 100 MHz, with vertical resolution <= 0.5 m at 500 MHz. This payload is used for non-invasive probing of subsurface structure around the skylight, to confirm underground cavity extension direction and roof thickness. Its design references WISDOM-class GPR technology [30]. **On the lander deployed around Shackleton, this payload has the highest-priority exploration task and must complete a gridded GPR survey of at least a 200 m by 200 m area around the skylight within 30 Earth days after landing, using grid spacing <= 5 m.**
+- **Autonomy requirement**: The hopper probe must autonomously maintain a safe distance of at least 5 m from the skylight edge. If its distance to the cave wall drops below 2 m during descent, it must automatically initiate obstacle avoidance and climb back to a safe altitude. Initial horizon identification and cavity-signal marking from GPR data must be performed autonomously onboard the rover to reduce Earth-downlink volume.
+- The design draws on the successful detection experience of Kaguya LRS and LRO Mini-RF at Marius Hills and the Mare Tranquillitatis Pit [19,21].
 
-####1.5.3 Moon technology demonstration
+#### 1.5.3 Lunar Surface Technology Demonstrations
 
-** Moon border 3D printing experiment**
+**Regolith 3D-printing experiment**
 
-- Printing method: Direct focus on sun burn (main option), laser powder bed melting (backup option)
-- Print size not less than 300 x 300 x 100 mm
-- No less than 100 cm3/h.
-- Print precision (size difference) not exceeding ± 2 mm
-- **Intelligence requirement**: The printing system must have online quality monitoring capabilities — real-time monitoring of the temperature of the melting tank through thermal imaging camera, self-regulating the speed of movement and stay time of the focus light, so that the temperature of the melting tank is kept within target range (±30°C)
-- The following three monthly samples shall be tested separately in the experiment: (a) the moon of quality building materials in accordance with section 1.3 (b); (b) the moon of single-stage combination (particle > 80 per cent); and (c) the original moon of unscreened
-- Criteria for determination: No less than 15 MPa (target 20 MPa) for hard copies of quality raw materials (a), no more than > 3 mm for size deviations and no less than 5 block/h for productivity; no less than 5 MPa for comparison of samples (b) and (c)
+- Printing mode: direct concentrated-sunlight sintering as the main option; laser powder-bed fusion as backup
+- Printed part size >= 300 x 300 x 100 mm
+- Printing rate >= 100 cm3/h
+- Printing precision, dimensional tolerance, <= +/-2 mm
+- **Autonomy requirement**: The printing system must have online quality monitoring capability. By using a thermal-imaging camera to monitor melt-pool temperature in real time, it must autonomously adjust the scan speed and dwell time of the focused energy spot to keep melt-pool temperature within the target band of +/-30°C.
+- The experiment must test the following three regolith samples separately: (a) high-quality construction-material regolith satisfying the criteria in Section 1.3(b); (b) single-grade regolith with >80% fine particles; and (c) unscreened raw regolith.
+- Acceptance criteria: printed parts made from high-quality feedstock (a) must reach compressive strength >= 15 MPa, with a target of 20 MPa, dimensional deviation <= +/-3 mm, and production rate >= 5 blocks/h. Comparison samples (b) and (c) must achieve compressive strength >= 5 MPa.
 
-** In situ catalyst extraction experiment**
+**In-situ catalyst extraction experiment**
 
-- not less than 5 kg month/lot
-- Target extraction elements: Fe, Ni, Co, with priority given to the use of the moon of titanium-rich iron ore, in accordance with section 1.3 (c) of the guidelines, for sea basalts (10 wt% of titanium ore content)
-- The full extraction process consists of two phases: (a) physical enrichment - fragmentation + magnetic selection; (b) chemical extraction - acid leaching/hydrogen gas reduction
-- Ripping purity: not less than 90 per cent (metal state) after chemical extraction; 40 per cent - 60 per cent of low purity products after physical enrichment to be tested for direct use in the catalytic activity of FCCVD
-- Not exceeding 50 kWh/kg (chemical extraction product) and not exceeding 5 kWh/kg physical concentrations
-- **Intelligence requirement**: reactor must be able to monitor target metal ion concentrations in leachate in real time based on online spectroscopy analysis, independently judge the end point of leaching and switch to the next process step
-- Criteria for determination: Chemical extracts produced in a follow-up FCCVD experiment with a catalytic activity equivalent to the Earth ' s homogeneity catalyst, with a CNT yield deviation of no more than 20%
+- Processing capacity >= 5 kg regolith per batch
+- Target extracted elements: Fe, Ni, Co, preferably using titanium-rich mare-basalt regolith satisfying the criteria in Section 1.3(c), with ilmenite content >= 10 wt%
+- Extraction consists of two stages: (a) physical concentration via crushing + magnetic separation; (b) chemical extraction via acid leaching + hydrogen reduction
+- Product purity: >= 90% in metallic state after chemical extraction; after physical concentration, lower-purity products of 40%-60% are acceptable for direct testing of FCCVD catalytic activity
+- Energy consumption <= 50 kWh/kg for the chemically extracted product and <= 5 kWh/kg for physical concentration
+- **Autonomy requirement**: The reactor must monitor target metal-ion concentration in the leachate through online spectroscopy and autonomously determine the end point of leaching, then switch to the next process step.
+- Acceptance criterion: the catalytic activity of the chemically extracted product in later FCCVD CNT-growth experiments must be comparable to that of Earth-produced catalysts of the same purity, with CNT yield deviation no greater than +/-20%.
 
-** Moonside small nuclear power source validation**
+**Small lunar nuclear power source validation**
 
-- Stack: the Kilopower Sterling Space Reactor (Main Program)
-- Stand-by scenario: if the Kilopower type is not available due to fuel supply chain problems, either the China Space Reactor (e.g. the Moon Nuclear Power Program under the Prophylactic Project) or the Russian ABV-6E reactor must meet the same level of power level (3 kWe)
-- No less than 3 kWe
-- Design life of not less than five years.
-- Fuel is highly enriched uranium (HEU, not less than 93% 235U)
-- Total mass (covered) not exceeding 1,500 kg
-- **Intelligence requirement**: reactor control systems need to have a fully autonomous power-regulating capability - Self-reposition of reactive drums based on load demand and dissipation conditions to maintain safe operation without Earth command for at least 90 days
-- Determination criteria: no less than 12 months of continuous operation, during which the number of unplanned shutdowns is 0 and the power output decay is no more than 5 per cent. This power-level matching technology option can be found in the NASA Kilopower/KRUSY project [31]
+- Reactor type: Kilopower-class Stirling space reactor as the primary option
+- Backup options: if Kilopower-class systems are unavailable because of fuel supply-chain constraints, switch to a Chinese space reactor design, such as a lunar nuclear-power concept from the Chang'e pre-research program, or a Russian ABV-6E-class reactor, provided the same power-class requirement, >= 3 kWe, is met.
+- Rated electric power >= 3 kWe
+- Design life >= 5 years
+- Fuel: highly enriched uranium, HEU, with U-235 enrichment >= 93%
+- Total mass including shielding <= 1,500 kg
+- **Autonomy requirement**: The reactor control system must be capable of fully autonomous power regulation, adjusting reactivity drum position according to load demand and heat-rejection conditions, and maintaining safe operation for at least 90 days without Earth command.
+- Acceptance criterion: complete at least 12 months of continuous operation with zero unplanned shutdowns and electric-output degradation <= 5%. A technical scheme in this power class may reference NASA's Kilopower / KRUSTY project [31].
 
 
-#1.6 Task group three: "The Moon Sentinel" first manned (years 5-8)
+### 1.6 Mission Group III: First Crewed “Lunar Sentinel” Stay (Years 5-8)
 
-Mission Overview
+#### 1.6.1 Mission Overview
 
-The Moon Sentinel is at the heart of the first phase and marks a historic node for the transition from robotic exploration to personal human participation.
+“Lunar Sentinel” is the core mission of Stage I and the historic turning point that marks the transition from robotic prospecting to direct human participation.
 
-####1.6.2 Overall mission parameters
+#### 1.6.2 Overall Mission Parameters
 
-- Number of crew: 4-6
-- Staying time: not less than 30 Earth days, target 60 days, covering at least one full month day and the beginning of the month
-- The mission consists of two landing sites: the main landing site is located in the Antarctic polar region (the candidate area on the edge of the Shackleton Ring Mountain, based on the final determination of the data of the mission group I/II); and the sub-landing site is the candidate for the lava tube “sky window” (the best available target is selected on the basis of the mission cluster I/II data, and close surveying is carried out by a leaping detector or a periscope and the crew does not land directly in the “sky window” area). **Sharcklen's perimeter (if mission group II finds here a “sky window”) and Philolaus impact craters are given the highest priority in the order of priority in field detection targets for lava tubes, above the Marius Hills**
-- The launch window selects the start of the month and maximizes the time of the moon surface.
-- The transport system can borrow the infrastructure of the Chinese manned moon mission - - Long March 10 carrier rocket Mansion and Moon Lander [11,12]
-- Uplift and return programme: crew to upgrade on the Moon Lander to orbit around the Moon and to return to Earth after docking with the Dream Boat manned ship
+- Crew size: 4-6 personnel
+- Stay duration: no less than 30 Earth days, with a target of 60 days, covering at least one full lunar day and the initial part of the lunar night
+- The mission includes two landing sites: the primary landing site is in the south polar region, a candidate area on the rim of Shackleton crater to be finalized from Mission Groups I and II data; the secondary site is a candidate lava-tube skylight chosen from Mission Groups I and II data as the best accessible target, to be explored up close by hopper probe or rover, while the crew does not land directly in the skylight area. **In the priority ranking for field lava-tube exploration targets, the Shackleton periphery, if Mission Group II identifies a qualifying skylight there, and Philolaus crater are tied for top priority, ahead of Marius Hills.**
+- The launch window is selected at the start of lunar daytime in order to maximize surface working time.
+- The transportation system may reuse the infrastructure of China's crewed lunar landing program: Long March 10 launch vehicle + Mengzhou crewed spacecraft + Lanyue lunar lander [11,12].
+- Ascent and return concept: the crew returns from the surface using the ascent stage of the Lanyue lunar lander to lunar orbit, docks with the Mengzhou crewed spacecraft, and then returns to Earth.
 
-###1.6.3 Deck Facility Design Requirements
+#### 1.6.3 Design Requirements for Lunar Surface Facilities
 
-** Pressure-encumbered module** (preset, pre-positioned by cargo lander)
+**Pressurized habitation module** (pre-deployed by cargo lander)
 
-- Not less than 50 m3 for internal availability
-- Radiation protection: the chamber shall not be less than 20 g/cm2 equivalent aluminium shield or shall use the moon boundary cover not less than 50 cm thick. The pre-species of the cleavages are used to set up bricks for high-quality building materials, which meet the requirements of radiation shielding, micrometeor protection and thermal inertia, in accordance with section 1.3 (b). Its specific shield effectiveness will be cross-checked with P2-M3 (radiation shield accurate simulation) after mission cluster three.
-- Air Condensity: leakage rate not exceeding 0.1%/day (indoor pressure 70 kPa, oxygen nitrogen mixing atmosphere)
-- Design life of not less than 10 years (duration of absence may be reused by a subsequent mission)
-- Total mass does not exceed 8,000 kg
-- **Intelligence requirements**: The hold module must be equipped with an autonomous environmental control system to maintain the temperature, pressure and air components of the module autonomously during an unmanned period. Automatically execute pre-set failure management and quarantine procedures when anomalies occur and send alerts to the ground through relay stars [5]
+- Internal usable volume >= 50 m3
+- Radiation shielding: module structure must provide no less than 20 g/cm2 aluminum-equivalent shielding, or alternatively use lunar-regolith cover of no less than 50 cm thickness. The cover layer should preferably use sintered bricks made from high-quality construction-material regolith that satisfies the criteria in Section 1.3(b), so that radiation shielding, micrometeoroid protection, and thermal inertia requirements are met simultaneously. Its specific shielding effectiveness will be cross-validated after Mission Group III against P2-M3, precise radiation-shielding simulation.
+- Airtightness: leakage rate <= 0.1% per day at cabin pressure 70 kPa with oxygen-nitrogen mixed atmosphere
+- Design life >= 10 years, allowing reuse by later missions during uncrewed intervals
+- Total mass <= 8,000 kg
+- **Autonomy requirement**: The habitation module must be equipped with an autonomous environmental control system capable of maintaining internal temperature, pressure, and atmospheric composition without crew onsite. If anomalies occur, it must autonomously execute preset fault-handling and isolation procedures and send alerts to Earth through the relay network [5].
 
-** Inflated extended module** (crew deployment)
-
-- Not less than 100 m3 after expansion
-- Structure with multi-layer Vectran/Kevlar fabric and multi-layer insulation
-- Expand by semi-automatic crew support, not exceeding 4 h
-- Total mass does not exceed 2,000 kg
-
-** Closed life support system**
-
-- Physico/chemical regeneration: O2 recovery rate of no less than 95% and water recovery rate of no less than 98% (urea plus condensed water)
-- Bio-temporal supplement: small algae/high plant culture module (no less than 2 m2 cultivation area) to provide validation data for CELSS systems at subsequent permanent bases
-- **Intelligence requirement**: Life support systems need to be fully autonomous and in case of anomalies, priority is given to the safety of crews without ground intervention
-
-**EVA system**
-
-- No less than 30 kPa (sole oxygen) for the landing.
-- A single EVA of not less than 8 h (with 30 min contingency)
-- The bottom of the boots must be designed to protect the moon.
-- Portable life support systems (PLSS) should support on-orbit replacement batteries and CO2 removal tanks
-
-** Moonfront mobile system**
-
-- Non-pressure patrol, two.
-- Two man-to-cargo.
-- No less than 50 km.
-- Maximum speed not less than 15 km/h
-- Supporting remote and self-driving modes
-- ** Intelligence requirement**: Monitors must be able to plan their own return path within 5 seconds of the crew sending a distress signal in case of an EVA emergency
-
-###1.6.4 Four core validation missions during stay
-
-** (a) Engineering Certification - Final Recognition of the Feasibility of Industrialization (P0 Level)**
-
-** Moon surface water ice collection and liquid water preparation**
-
-- Implementation programme: no fewer than five samples of water-rich areas identified in task group II, with a depth of no less than 2 m each, were used using mobile drills. Sampling in sealed heated cavity with gradients to 150-500°C and released vapour collected as liquid water by condensers
-- **Intelligence requirement**: drills need to independently determine whether or not the drill is going into the ice-bearing zone, and when entering the ice-containing zone, they automatically reduce the rate of turn and advance and avoid loss of ice as a result of friction heat
-- P0 level determination criteria: acquisition of liquid water of not less than 100 kg; unit extraction energy consumption of the full system process (drilling-heated-cooled) is determined not to exceed 50 kWH/kg water
-
-**Mountain FCCVD-CNT manufacture**
-
-- Implementation programme: Upgrading the FCCVD device from task group I/II to a monthly operating version. Use of local catalysts extracted from task group II and collection of lunar evaporation (or simulation of asteroid carbon sources) as carbon-source gases
-- **Intelligence requirement**: FCCVD reactor is required to be able to monitor CNT production in real time on the basis of the online Laman spectra, and to independently adjust the carbon flow, response temperature and catalyst injection rate. This experiment has engineered an expansion of the already available ground-based Moon-border simulator CVD research data. "28]
-- P0 level criteria: The successful preparation of a continuous CNT yarn of not less than 50 cm confirms the full process feasibility of the in situ manufacture of the moon. This experiment corresponds directly to volume II, volume P0, to be validated V2-M1
-
-**Moon Bulk Production of Construction Materials**
-
-- Implementation programme: use of a luminous filament lens with a power of not less than 5 kW to focus on sunlight stoves, and mass 3D to print the moonside bricks and simple walls (not less than 50 standard bricks). Priority is given to the use of high-quality building materials identified in task group II and in line with section 1.3 (b) of the guidelines
-- **Intelligent**: The printing system must be able to perform the whole process of loading, powdering, sintering, pick-up, during bulk production over a period of days.
-- P0 level determination: no less than 20 MPa for single bricks using high-quality raw materials, no more than > 3 mm for size deviation, no less than 5 B/h for productivity; no less than 10 MPa for control groups using common moon boundary
-
-**Preliminary field survey of the lava tube skylight**
-
-- Implementation programme: at the best “skylight” candidate point for task group II (** near Shackleton and the Philolaus impact crater as a parallel of the highest-priority detection target**), a drop detection was carried out by a long-range pilot-managed flying detector - a vertical drop from the skylight opening to at least 50 m depth or to the bottom of the stack. Use mine detection to conduct grid-based scanning of 50 m radius around the skylight (5 m grid space) to confirm the top thickness (target 30 m) and horizontal extension (target width 500 m, length 1 km) [21,30]
-- **Intelligence requirement**: Jumping detectors are required to maintain their own safety distance from the cave wall under conditions of communication delay. If the passenger command conflicts with the shield sensor and the shield logical priority is highest, the crew directive may be directly rejected
-- P0 level determination standard: complete initial field detection of at least one lava tube “sky window” and confirm its internal presence of a large, stable space — ≥ 30 m top thickness, 500 m internal width, ≥ 30 m height, continuous detectable cavity at 50 m open, complete and without any recent evidence of collapse of the upper basalt layer, and a leaning of the sky window 30°
-
-** (b) Scientific exploration**
-
-- 5 m deep pore-section sampling of drilling sites in mission group II (drilling not less than 5 m) with a detailed understanding of the vertical distribution of volatilisation in polar regions
-- Geological travel within a greater radius of 20 km, looking for the presence of different types of resources, such as the moon basalt and KREEP
-- On foot exploration of candidate areas for raw materials for construction and catalysts in the mission two circles, with the use of portable XRF and particle gauges for encryption of not less than 20 sampling sites
-- Deployment of a sophisticated monthly seismic network (not less than 2 units with a minimum deployment distance of 5 km) and a heat current probe (not less than 5 m drill depth) to provide detailed physical data for a follow-up large base
-
-** (c) Survival test**
-
-- ** Moon Dust Response**: Set up a Moon Dust Cleaning Station in the EVA airlock — Cleans the surface of the Moon Rover using electrostatic dust and high pressure gas. Use of springs to concentrate tetrafluoroethylene seals as dustproof seals at critical locations of off-board equipment to test their wear after 12 months
-- ** Radiation dosage monitoring**: each crew member wears an active personal radiation dosage (range 0.1 μSv/h-10 Sv/h) and not less than four stationary neutron/gamma dosage instruments are deployed at different locations inside and outside the cabin. The goal is to establish a radiation dose model for the full mission cycle (with a solar particle event SPE)
-
-
-##1.7 to be validated and criteria for determination
-
-No. No. No. No. No. No.
-|:-----|:-----|:-----|:-----|
- **P0-M1**  ** Aqueous water ice is confirmed  ** Volume IV of this appendix  ** An area of no less than 1 km2 with an estimated water content uncertainty of no more than < 30% (2 μs) |
-**P0-M2**  ** Moontop CNT manufactures vol. II (V2-M4/M1) The successful preparation of a continuous CNT veil of not less than 50 cm in length on the surface of the moon confirms that low gravity and the base of the moon environment do not alter the basic physical processes of FCCVD
-**P0-M3** Reliability of lunar nuclear power
- **P0-M4** Validation of energy consumption for water ice extraction | Volume IV of this appendix  ** Full process unit energy consumption of no more than 50 kWh/kg | for extracting liquid water from ice-bearing moons
- **P0-M5**  **Standing strength of 3D-printed building materials | Volume II of this appendix |Standing with quality building materials conforming to section 1.3 (b) of the guidelines, 3D-stamped brick resistance of no less than 20 MPa on the moon and no more than 15% inter-swarm variation factor
-**P0-M6**  ** Identification of an exploitable lava plume | Volume II of this appendix completes the initial field detection of at least one lava plume “sky window” and confirms its internal presence of large, stable space that meets all the core indicators in section 1.3 (a) of guideline (a). The detection priorities were as follows: Shackleton ' s peripheries (if mission group II confirms their existence) were the highest in a row with the Philolaus impact crater, with the Marius Hills second, and the Sea of Silence at its end. If this decision is “No”, then there will be a total suspension of the underground base programme in volume II, with all subsequent investments concentrated on the moon path.
- **P0-M7** Monthly storage of building materials confirmed | Volume II of this appendix  ** within the radius of 10 km of the landing zone, no less than 106 m3 (approximately 1.5-2 million tonnes)
- **P0-M8** Monthly storage of catalyst feedstock confirmed  ** Volume II of this appendix  ** within a radius of 10 km of the landing zone, not less than 105 t | of the mineable storage of catalyst feedstocks identified as meeting section 1.3 (c) of the guidelines
-
-##1.8 Parameter Output
-
-| Parameter | 数值 | | | | | | | | | | |
-|:-----|:-----|:-----|:-----|
-Water-rich areas in the polar region and water-equivalent H content to be confirmed by task group I/II
-| P0 to be verified | Volume IV of this appendix
-* The present document contains the most up-to-date information possible.
-| P0 to be verified |
-| Reliability of the continuous operation of the lunar nuclear power source to be confirmed by task group II/III | P0 to be verified |
-| | | | | | | | | | | | | | | | | | | | | | | | | | | | | |
-(b) To be confirmed by task group III
-Monthly deposits of catalyst raw materials (conforming to guideline c)
-The duration of the first manned presence is not less than 30 days (target 60 days)
-The total duration of the pioneer mission is about eight years.
-Total investment in the pioneer mission
-
-#1.9 I.D.
-
-This volume establishes the decision logic of “validation, reinvestment”. The “survival test” of the most critical technology for the industrialization of the Moon — a test not only of moonwater ice and in situ manufacture, but also of the viability of underground lava tubes as a human settlement — was completed by means of a three-step satellite survey, a robotic position and a first human presence, with an input of about eight years and about $350 billion to $630 billion.
-
-Core findings:
-
-The industrialization of the Moon begins not with the blueprint office, but with a remote sensing camera in orbit and a drilling machine arm on the surface of the moon — as well as a detector jumping on the edge of the “sky window”. An Antarctic water ice survey, No. 7 (2026), will provide the first direct ground fact data for this project [6], and the Chinese manned moon-mounted (before 2030) transport system can provide a mature infrastructure that can be borrowed for the Lunar sentry mission. 11], and Kaguya [19], GRAIL [20] and LRO [21] have established a solid scientific basis for lava tube detection.
-
-2. While the total cost of a pioneering mission of about eight years and three steps is only a fraction of the subsequent permanent base construction, it determines whether each decision for the follow-up construction is based on sufficient data or good assumptions. In particular, the volume emphasizes the requirement of the smartness and autonomous operational capability of the lunar equipment — the physical limit of the delay in lunar communications — and determines that the lunar equipment must have the capacity to perform critical operations on its own without real-time remote control of the Earth.
-
-The eight P0 level criteria are the rigidity of transforming “subjective ambition” into “objective engineering”. Of these, the strategic priority of P0-M6 — the identification of an exploitable lava tube — has been fully demonstrated in the polar lava tube priority analysis in volume II and is implemented in task groups I to III of this volume. There is no reason why we should not find it if nature has prepared for us the ideal underground refuge.
-
-When the Lunar Sentinel crew returned safely to Earth and presented to the world water samples, bricks, CNT veils and radar images from the depths of the skylight, we were able to truly acquire the keys to the beginning of the Moon era — when we knew not only what the Moon offered, but also which path humanity should choose.
-
-
-References
-
-[1] China National Space Administration. “Summary of mission Zhou Quan Quan”. 2019. https://www.cnsa.gov.cn
-
-[2] China National Space Administration. “Summary of mission Zhou Quan Quan.” 2020. https://www.cnsa.gov.cn
-
-[3] Xinhua News Agency. “The launch of mission Zhou Zhou Zhuan 6 is scheduled for May 3.” 1 May 2024. https://www.xinhuanet.com
-
-[4] Xinhua News Agency. “Samp No. 6 reveals for the first time the history of lunar back evolution and the impact of mega-impacts — in the year 2025 `Ten advances in Chinese science'.” 27 March 2026. https://www.xinhuanet.com
-
-[5] China National Space Administration. “Summary of the Zhongbashi II relay mission ...” 2024. https://www.cnsa.gov.cn
-
-[6] Technology Daily. “The Zenit Seven is heading for the Moon South Pole this year.” 16 March 2026. http://www.stdaily.com
-
-[7] The Planetary Society. “Chang'e-7: China's water-tunar south promotion.”
-
-Global Times. “Chinese academiians and experts unveil Cutting-Edge Technologies for Lunar Research Status Construction.”
-
-[9] TASS. “Russian Lunar status security plan under project with China given.”
-
-[10] News. “The Moon's Antarctic: Strategic Lighthouses and Resources Grail in the Eternal Shadow.” 13 April 2026. https://www.thepaper.cn
-
-[11] Xinhua. “The Chinese will reach their goal of landing on the moon by 2030.” 30 October 2025. https://www.xinhuanet.com
-
-[12] China Manned Space Engineering Office. “Progress in the development of the Long March 10 carrier rocket, the Dreamboat manned spacecraft, and the Moon Lander in the first instance...” 2025. https://www.cmse.gov.cn
-
-[13] CBS News. “NASA unveils ambitious $20 billion plan to build moon base near Southpole.” https://www.cbsnews.com
-
-[14] University Magazine. “Not ready to monitor the Moon: NASA suddenly returned to save the VIP Lunar cover.”
-
-[15] Fast technology. "The US 'Artemis' Moon Programme has been postponed several times: the main cause of the technical difficulties." 15 September 2025. https://www.mydrivers.com
-
-[16] e-Portal. “Intutive Machines Nova-C (PRIME-1).” 30 July 2025. https://www.eoportal.org
-
-[17] Intuitive Machines. “IM-1 Mission: Odysseus Lunar Lander.” February 2024. https://www.intutivemachines.com
-
-[18] Active Machines. “IM-2 Mission: Athena Lunar Lander.” March 2025. https://www.intutivemachines.com
-
-[19] Kaku, T., et al., “Detation of actual lava tubes at Marius Hills on the Moon by SELENE (Kaguya) Lunar Radar Sounder.” *Geophysic Research Letters*, Vol. 44, 2017, pp. 10155-10161.
-
-[20] Andrews-Hanna, J.C., et al., “Ancient ignous intrusions and early expansion of the Moon revealed by GRAIL Gravity Gradium.” *Science*, vol. 339, 2013, pp. 675-678.
-
-[21] Carrer, L., et al., “Radar experience of an accessible Cave conduit on the Moon below the Mare Tranquillatis pit.”
-
-[22] Haruyama, J., et al., “Possible Lunar lava tube skylight observed by SELENE terrain Camera.” *Geophysical Research Letters*, vol. 36, 2009, L21206.
-
-[23] SETI Institute. “LEAPS: Lunar Earth Pole Mission Concept for Expluring Lunar Pits and Caves.” https://www.seti.org
-
-[24] Wagner, R. V., & Robinson, M. S. “Lunar pits: Subrunarean voids and skylights.” *Icarus*, vol. 237, 2014, pp. 52-76.
-
-[25] Spudis, P.D., et al., “Geology of the Lunar South Pole: A synthesis of Clementine and Lunar Prospector Data.”
-
-[26] Paige, D.A., et al., “Diviner Lunar Radiometer observations of cold tracers in the Moon's South Poland.” *Science*, Vol. 330, 2010, pp. 479-482.
-
-[27] Schörghofer, N., & Williams, J.-P. “Carbon dioxide cold tracks on the Moon.” *Geophysic Research Letters*, vol. 48, 2021, e2021 GL095533.
-
-[28] JAXA Research Team. “direct senses of carbon nanotubes on lunar regolith simulant parties.” *Carbon*, Vol. 231, 2025, 11751.
-
-[29] China News Network. “The discovery of natural monolithic carbon nanoplugs in Moonbone No. 6 of Zhongtao.” 21 January 2026. https://www.chinanews.com.cn
-
-[30] Ciarletti, V., et al.
-
-[31] NASA. "Kilopower/KRUSY Project: Mission Power for Space Employment."
+**Inflatable expansion module** (deployed by the crew)
