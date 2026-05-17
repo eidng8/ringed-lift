@@ -1,13 +1,13 @@
-# Space Ringed-Elevation Project Master Table of Contents
+# Orbital Ringed-Elevator Project Master Table of Contents
 
-**Version**: 4.2<br/>
+**Version**: 4.3<br/>
 **Compilation Date**: May 2026<br/>
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
-**Exchange Rate Reference**: 1 USD ≈ 7.2 Yuan RMB
+**Exchange Rate Reference**: 1 USD ≈ 7.2 Yuan
 
 
 ## [Preface](/EN/README.md)
-- Literature and Background Review: Evolution from "Orbital Ring" to "Space Ringed-Elevation"
+- Literature and Background Review: Evolution from "Orbital Ring" to "Orbital Ringed-Elevator"
 - Work and Contributions of This Proposal
 - Reader Notes and Disclaimer
 
@@ -34,7 +34,8 @@
 - 1.6 Active Maintenance System Requirements Framework
 - 1.7 Failure Modes and Safety Logic
 - 1.8 Parameter List
-- 1.9 Conclusion of Volume I
+- 1.9 Static Equilibrium Notes on Earth's Non-Uniform Equatorial Gravitational Field
+- 1.10 Conclusion of Volume I
 
 
 ## [Volume II: Materials Science and Cable Engineering](/EN/Volume_2.md)
@@ -54,7 +55,7 @@
 - 3.1 Foreword
 - 3.2 Ground Node Siting and Engineering Geological Assessment
 - 3.3 Anchorage Scheme Design
-- 3.4 Items Pending Verification
+- 3.4 Items Pending Verification (Anchorage)
 - 3.5 Interface Design Between Nodes and Main Ring
 - 3.6 Parameter Output
 - 3.7 Conclusion of Volume III
@@ -95,7 +96,7 @@
 - 5.11 Power Supply Schemes
 - 5.12 Effects of Atmospheric Motion on Cabin
 - 5.13 Scheme E—Multi-Index Cable Pulley Traction Scheme
-- 5.14 Electromagnetic Drive Concept
+- 5.14 Electromagnetic Drive Concept (Long-Term Alternative)
 - 5.15 Summary of Items Pending Verification
 - 5.16 Parameter Output
 - 5.17 Conclusion of Volume V
@@ -123,10 +124,12 @@
 - 7.3 Full-System Coupled Simulation Framework
 - 7.4 Global Sensitivity Analysis
 - 7.5 Failure Mode and Reliability Analysis
-- 7.6 Experimental Verification Plan
-- 7.7 Design Feedback and Revision Suggestions
-- 7.8 Parameter Output
-- 7.9 Conclusion of Volume VII
+- 7.6 External Physical Threat Review and Impact Assessment
+- 7.7 Experimental Verification Plan
+- 7.8 Design Feedback and Revision Suggestions
+- 7.9 Parameter Output
+- 7.10 Conclusion of Volume VII
+- 7.11 Design Positioning and Methodological Notes on High-Order Physical Risks
 
 
 ## [Volume VIII: Transportation and Logistics System](/EN/Volume_8.md)
@@ -172,7 +175,7 @@
 **Core Question: Who manages this thing, and who is responsible if something goes wrong?**
 - 11.1 Foreword
 - 11.2 Applicability Analysis of International Law
-- 11.3 International Governance Structure: United Nations Orbital Ring Elevator Organization (UNORE)
+- 11.3 International Governance Structure: United Nations Orbital Ringed-Elevator Organization (UNORE)
 - 11.4 Investment Country Contribution Recognition and Principal-Interest Settlement Scheme
 - 11.5 Safety and Liability Mechanisms
 - 11.6 Intellectual Property and Commercial Access
@@ -193,8 +196,9 @@
 
 ## Appendices
 
-- [**Appendix I: Lunar Industry**](/EN/Appendix_1_TOC.md)
-- **Appendix II: Aerostat Platforms** (Detailed technical plan to be compiled separately)
+- [**Appendix I: Lunar Industry**](/EN/Appendix_1_TOC.md) (Detailed technical plan to be compiled separately)
+- [**Appendix II: Aerostat Platforms**](/EN/Appendix_2_TOC.md) (Detailed technical plan to be compiled separately)
+- **Appendix III: Aerospace Impact Protection Study** (Detailed technical plan to be compiled separately)
 
 
 ## Logical Relationship Diagram
