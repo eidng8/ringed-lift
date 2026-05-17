@@ -2,11 +2,11 @@
 
 ## Volume 4: In-Situ Resource Utilization and Full-Spectrum Resource Development
 
-**Version**: 1.6<br/>
+**Version**: 1.8<br/>
 **Date Prepared**: June 2026<br/>
 **Currency Unit**: Chinese Yuan (CNY), symbol: ¥<br/>
-**Related Main Volumes**: Main Volume 2 (Material Parameters), Main Volume 7 (Engineering Verification)<br/>
-**Prerequisites**: Appendix I Volume 1 (Pioneer Missions), Volume 2 (Site Selection and Infrastructure), Volume 3 (Energy System)
+**Related Main Volumes**: Main Volumes 2 and 7<br/>
+**Prerequisites**: Appendix I Volume 1, Volume 2, and Volume 3
 
 ### Terminology Table
 
@@ -208,6 +208,65 @@ Therefore, commercialization trigger conditions for helium-3 extraction are: (1)
 **(e) Interface with Volume 5**
 
 Deployment location and detailed equipment list for helium-3 extraction facilities belong to Volume 5 (Manufacturing System). Volume 4 is responsible only for reserve assessment, occurrence-form analysis, and conceptual extraction order-of-magnitude estimates. In long-term industrial-zone layout, Volume 5 should reserve tunnel-segment space for helium-3 extraction facilities (sharing sealed pressurized zones with CNT factories) and utility interfaces (high-temperature thermal network and +/-10 kV DC distribution).
+
+#### 4.3.4 Independent Engineering Pathway for Asteroid Carbon Source
+
+##### (1) Design Principles
+
+Asteroid carbon sources, as the long-term primary carbon source for lunar industry, are obtained and transported **completely independently of any other infrastructure on Earth or in cislunar space**. The engineering pathway described in this section does not depend on any external mega-structures, using only spacecraft and equipment deployable by lunar industry itself.
+
+##### (2) Carbon-Source Asteroid Selection and Capture
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Target asteroid type | C-type (carbonaceous chondrite) | Carbon content >=3 wt%, water content >=5 wt% |
+| Target size | Diameter 10-50 m | Mass ~1,000-100,000 t; single capture provides centuries of carbon supply |
+| Orbit selection | Near-Earth asteroids (NEA) | Earth-crossing orbits, Δv requirement <=5 km/s |
+| Capture method | Inflatable capture bag (TransAstra technology) or surface anchor + towing | Capture bag technology validated on ISS (1-m scale) |
+| Tug type | Nuclear-thermal/electric-propulsion space tug (same type as Main Volume 2 Section 2.5.6) | Isp >=1,500 s, thrust >=10 N, mass <=10 t/unit |
+| Target tow orbit | Earth-Moon L1 point or high lunar orbit (altitude >=1,000 km from surface) | Facilitates subsequent in-orbit processing |
+
+##### (3) Towing Plan and Energy Consumption
+
+A single mission tows one C-type asteroid with diameter 50 m (estimated mass ~100,000 tons) to the Earth-Moon L1 point. Uses nuclear-thermal propulsion (Isp = 900 s) or electric propulsion (Isp = 3,000 s). For electric propulsion:
+
+- Asteroid mass: $m = 1\times10^8\text{ kg}$
+- Δv required (NEA → Earth-Moon L1): ~2.5 km/s
+- Propellant mass (electric propulsion, Isp = 3,000 s): $m_{\text{prop}} = m \cdot (e^{\Delta v/(I_{sp}g_0)} - 1) \approx 1\times10^8 \times (e^{2500/(29430)} - 1) \approx 1\times10^8 \times 0.089 \approx 8.9\times10^6\text{ kg}$ (~8,900 t)
+- Single-mission propellant requirement for tug is ~9,000 t, producible from hydrogen/oxygen via water-ice electrolysis on the lunar surface
+
+##### (4) In-Orbit Pyrolysis and Carbon Source Extraction
+
+After the asteroid is towed to Earth-Moon L1 or high lunar orbit, it is not landed on the lunar surface; instead, it undergoes in-orbit pyrolysis processing.
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Pyrolysis method | Focused solar heating (heliostat array) or microwave heating | Uses continuous illumination in cislunar space |
+| Pyrolysis temperature | 600-1,000°C | Organic pyrolysis in carbonaceous chondrites |
+| Pyrolysis products | CH₄, CO, CO₂, H₂O, NH₃ | Total volatile yield ~10%-30% (depends on meteorite type) |
+| Carbon recovery rate | >=70% | Target |
+| Pyrolysis unit mass | <=50 t | Delivered to orbit in batches by multiple cargo landers |
+
+##### (5) Carbon-Source Gas Transport to Lunar Surface
+
+The mixed gas produced by pyrolysis is condensed and separated (sequentially removing water and CO₂), enriching CH₄ and CO. **Reusable orbital transport vehicles** are used to pressurize and liquefy the gas and deliver it to the lunar surface.
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Vehicle type | Reusable chemical-propulsion lander | Uses liquid oxygen/methane propellant produced on lunar surface |
+| Single-mission payload | 10-20 t liquefied hydrocarbon gas | Liquid methane density ~424 kg/m³, tank volume ~50 m³ |
+| Lunar landing accuracy | <=100 m | Compatible with base skylights or dedicated reception stations |
+| Round-trip frequency | 1-2 times per month | Single mission cycle ~15 days |
+| Vehicle mass | <=15 t (empty), <=35 t (full) | Reusable >=50 times |
+
+##### (6) Items to Be Validated
+
+| ID | Item | Verification Method | Success Criteria |
+|:---|:---|:---|:---|
+| **P1-R5** | Scaled validation of full asteroid capture-and-tow process | Capture a 1-5 m diameter asteroid or simulated target; tow to cislunar space | Successful capture, tow, and orbital insertion; tug positioning error <=1 km |
+| **P1-R6** | In-orbit pyrolysis carbon extraction efficiency validation | Pyrolyze carbonaceous chondrite simulant at 1,000°C in vacuum chamber; measure gas yield | Carbon recovery >=70%, gas purity >=90% |
+| **P2-R10** | Prototype validation of liquefied hydrocarbon gas lunar surface landing vehicle | Scaled vehicle (1-ton payload per mission) undergoes lunar landing and reuse test | >=10 consecutive successful landings, landing accuracy <=50 m |
+
 
 ### 4.4 Key Engineering Factors Affecting Mines and Mining Operations
 
@@ -620,6 +679,8 @@ High-gradient magnetic separators rely on magnetic force, not gravity, to captur
 | **P1-R1** | Full-process energy verification of water-ice mining | Stage 1 drill + electric heating chamber continuous operation >=30 days in real PSR conditions | Full-process electricity for liquid water extraction <=50 kWh/kg (Stage 1); target <=30 kWh/kg (Stage 2) | Volume 1 P0-M4, Volume 3 Section 3.5.3(d) |
 | **P1-R2** | Capacity verification for construction-aggregate excavation and screening | Continuous >=30-day operation of excavator rover + impact crusher + dual-layer vibratory screen | Monthly construction aggregate >=500 m3; mineral composition and particle gradation per batch meet criterion (b) | Volume 1 P0-M7, Volume 2 P1-M1 |
 | **P1-R3** | Magnetic beneficiation enrichment-efficiency verification for ilmenite | Process >=100 tons ilmenite-rich mare basalt ore on lunar high-gradient separator | Ilmenite recovery >=80%, concentrate grade >=30% FeTiO3; natural Fe-Ni recovery >=90% | Volume 1 P0-M8, Volume 2 P2-M1 |
+| **P1-R5** | Scaled validation of full asteroid capture-and-tow process | Capture a 1-5 m diameter asteroid or simulated target; tow to cislunar space | Successful capture, tow, and orbital insertion; tug positioning error <=1 km | — |
+| **P1-R6** | In-orbit pyrolysis carbon extraction efficiency validation | Pyrolyze carbonaceous chondrite simulant at 1,000°C in vacuum chamber; measure gas yield | Carbon recovery >=70%, gas purity >=90% | — |
 | **P2-R1** | Composition analysis of heated off-gas from ice-bearing regolith | Continuous gas monitoring during lunar heating extraction | CO₂ <1%, SO2 <0.1%, H₂S <0.01%; no corrosion threat to condenser | — |
 | **P2-R2** | Long-term slope stability of mined pit | Deformation monitoring over at least one full lunar day/night cycle at max excavation depth (>=5 m) | Cumulative slope deformation <=5 cm; no collapse | — |
 | **P2-R3** | Ground simulation verification of magnetic-separation efficiency at 1/6 g | 1:1 high-gradient separator prototype test on low-gravity simulation platform | Ilmenite recovery at 1/6 g is not lower than 80% of Earth-equipment recovery | Volume 1 P0-M8 |
@@ -629,6 +690,7 @@ High-gradient magnetic separators rely on magnetic force, not gravity, to captur
 | **P2-R7** | Dust-suppression efficiency verification of microwave pre-sintering | Surface pre-sintering + mechanical stripping test with microwave generator (>=1 kW, 2.45 GHz) | Dust emission reduced >=90% versus conventional bucket excavation; sintered block regolith processable by impact crusher | Section 4.9.2 |
 | **P2-R8** | Dust-suppression efficiency verification of press-in/freeze/lift method | Full-process 1:1 press-in plate test (insert-inject-freeze-lift) in ground regolith-simulant site | Dust emission equals 0 (fully sealed process); frozen-block integrity >=90% | Section 4.9.2 |
 | **P2-R9** | Autonomous operation reliability verification for clamp-crush integrated unit | Continuous >=100 h autonomous recognition + clamp/sealed-crush operation under simulated lunar vacuum and 1/6 g | Rock-recognition accuracy >=95%, clamp success >=90%, sealed-crush success >=85%, no dust leakage | Section 4.9.3 |
+| **P2-R10** | Prototype validation of liquefied hydrocarbon gas lunar surface landing vehicle | Scaled vehicle (1-ton payload per mission) undergoes lunar landing and reuse test | >=10 consecutive successful landings, landing accuracy <=50 m | — |
 
 ### 4.13 Parameter Output
 
