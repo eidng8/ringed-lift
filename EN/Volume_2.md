@@ -1,6 +1,6 @@
 # Volume II: Materials Science and Cable Engineering
 
-**Version**: 1.7<br/>
+**Version**: 1.10<br/>
 **Compilation Date**: May 2026<br/>
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
@@ -365,7 +365,13 @@ The elevator cable connects the ground anchor to the main ring and is the vertic
 - Same as the ring cable, made of braided CNT cable.
 - **Tapered Cross-Section**: Maximum cross-section at the ground end (overview ~0.5m diameter), gradually narrows downward. The precise curve needs to be determined in Volume IV based on tension distribution calculations, referencing the classic Bradley-Edwards derivation, with a ground/top cross-section ratio of about 10–20:1.
 - **Redundant Braiding**: ≥1000 strands.
-- **Surface Protection**: LEO segment requires a protective coating resistant to atomic oxygen erosion.
+- **Surface Protection (Against Atomic Oxygen Erosion)**: The elevator cable in the LEO segment (altitude 0–1,000 km) is threatened by atomic oxygen erosion. The protective coating shall be applied to the outermost surface of the track sleeve (i.e., the outer surface of the UHMWPE sacrificial layer); recommended materials are silicon dioxide (SiO₂) or aluminium oxide (Al₂O₃), thickness ≥5 μm, design life ≥10 years (calculated by integrating the equivalent atomic oxygen flux). Once the protective coating fails, the UHMWPE will degrade rapidly, endangering the underlying structure; coating integrity shall therefore be inspected at each annual C-level overhaul (microscopy or spectroscopy), and recoating shall be performed when remaining thickness falls below 2 μm.
+
+  Atomic oxygen flux varies with altitude: at the ~400 km peak it can reach $10^{14}$–$10^{15}$ atoms/cm²/s, dropping to approximately $10^{11}$–$10^{12}$ atoms/cm²/s at 1,000 km.
+
+  **To Be Verified (V2-M9)**: Atomic oxygen exposure experiment. Simulate the LEO orbital atomic oxygen environment in a vacuum chamber (flux $10^{15}$ atoms/cm²/s, equivalent cumulative flux $5 \times 10^{22}$ atoms/cm², corresponding to 10 years of actual exposure), and measure the integrity of the protective coating (SiO₂/Al₂O₃, thickness 5 μm) deposited on UHMWPE coupons and the mechanical performance degradation of the UHMWPE. Success criteria: after 10-year equivalent exposure, no coating peeling, UHMWPE tensile strength degradation ≤20%, wear retention ≥80%.
+
+  **To Be Verified (V2-M10)**: Long-term stability of aluminium alloy (with micro-arc oxidation) under atomic oxygen + periodic friction, simulating LEO atomic oxygen environment combined with mechanical friction cycling tests. Verify the service life of the micro-arc oxidation layer under the combined action of atomic oxygen and friction.
 
 #### (2) Design Conditions
 
@@ -483,7 +489,7 @@ This volume has completed the preliminary demonstration of material selection an
 4. In-situ lunar manufacturing of CNT is the material prerequisite for realizing the ring elevator. JAXA has achieved in-situ CVD growth of CNT on lunar regolith simulant [2.30], and the discovery of natural CNT in Chang'e 6 lunar soil provides an environmental analogy for artificial synthesis on the Moon [2.11].
 5. Carbon source supply adopts a multi-path parallel strategy: C-type asteroid capture as the main path, while systematically exploring and evaluating local lunar carbon sources.
 6. Recommended drive scheme path (Scheme A→Scheme B), track sheath material parameters, and friction coefficient sources have been clearly marked.
-7. Material selection directions and target parameters for key parts of the ring elevator system such as anchor structures, elevator climbers, ring auxiliary facilities, and HAPS have been given one by one.
+7. Material selection directions and target parameters for key parts of the ring elevator system such as anchor structures, elevator climbers, ring auxiliary facilities, and HAPS have been given one by one. **For atomic oxygen erosion, the LEO segment of the elevator cable requires a SiO₂ or Al₂O₃ protective coating on the outer UHMWPE layer, thickness ≥5 μm, design life ≥10 years, pending To Be Verified V2-M9.**
 
 **Current Status**: This volume can be independently concluded at the material demonstration level. To Be Verified-V2-M1 to V2-M10 are the core tasks for the next stage of material experiments and space resource development.
 

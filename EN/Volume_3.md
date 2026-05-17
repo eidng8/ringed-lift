@@ -1,6 +1,6 @@
 # Volume III: Node Siting and Anchorage Engineering
 
-**Version**: 1.9<br/>
+**Version**: 1.10<br/>
 **Compilation Date**: April 2026<br/>
 **Currency Unit**: Renminbi (Yuan), Symbol: ¥<br/>
 
@@ -224,7 +224,7 @@ For Δφ=1° (about 111 km), the horizontal force is about 1.75% of the total te
 
 **Design Principle**: Elevator cable tension is transferred to bedrock via an inverted conical anchorage shaft + vertical prestressed rock anchor group. With Δφ≈0°, there is no horizontal force, so a pure uplift design is used.
 
-**Working Load Derivation**: Derived from the conical section model and tension distribution in the cable design of Volume IV (see Volume IV, Section 4.2.2), the maximum ground-end tension:
+**Working Load Derivation**: Derived from the conical section model and tension distribution in the cable design of Volume IV (see Volume IV, Section 4.3.3), the maximum ground-end tension:
 
 $$
 T_{max} = \frac{\sigma_{allow} \times A_0}{S}
@@ -250,7 +250,7 @@ $$
 
 | Parameter | Design Value/Range | Description |
 |------|------|------|
-| Working Load (Max Tension) | ~1.57×10⁹ N | Max ground-end tension under independent working condition (see Volume IV, Section 4.2.2) |
+| Working Load (Max Tension) | ~1.57×10⁹ N | Max ground-end tension under independent working condition (see Volume IV, Section 4.3.3) |
 | Safety Factor (Uplift/Cable Break) | ≥3.0 / ≥2.5 | Uplift factor higher than ring cable's 2.0 due to rock mechanics uncertainty |
 | Number of Rock Anchors | ≥120 units (each 30–50 MN capacity) | Calculated from design load |
 | Anchorage Shaft Diameter/Concrete Volume | ~25 m / ~8,000 m³ | — |
@@ -271,7 +271,7 @@ $$
 
 | Parameter | Node 2 (Δφ=0°43'S) | Node 3 (Δφ=0°57'S) | Description |
 |------|------|------|------|
-| Working Load (Max Tension) | ~1.57×10⁹ N | Same as left | See Volume IV, Section 4.2.2 |
+| Working Load (Max Tension) | ~1.57×10⁹ N | Same as left | See Volume IV, Section 4.3.3 |
 | Safety Factor (Uplift/Cable Break) | ≥3.0 / ≥2.5 | Same as left | — |
 | Horizontal Force | ~1.10×10⁸ N | ~1.45×10⁸ N | $\sin(Δφ) T_{max}$ |
 | Horizontal Force Ratio | ~1.26% | ~1.66% | $\sin(Δφ)$ |
@@ -337,7 +337,7 @@ The ground-end docking mechanism provides a complete ground interface for the ca
 
 **(1) Interface Functional Requirements**
 
-- **Load Transfer**: Safely transfer the maximum ground-end cable tension ( $T_{max} ≈ 1.57×10^9N$ , see Volume IV, Section 4.2.2) to the prestressed rock anchor group of the anchorage shaft. The ground-end anchorage point is a fixed node, and the cable does not undergo longitudinal displacement adjustment here.
+- **Load Transfer**: Safely transfer the maximum ground-end cable tension ( $T_{max} ≈ 1.57×10^9N$ , see Volume IV, Section 4.3.3) to the prestressed rock anchor group of the anchorage shaft. The ground-end anchorage point is a fixed node, and the cable does not undergo longitudinal displacement adjustment here.
 - **Cable Longitudinal Displacement Compensation**: Fully handled by the counterweight system at the GEO end (see Volume IV, Section 4.5.5). The ground-end anchorage point remains stationary, and all fixed facilities in the terminal building require no displacement compensation.
 - **Car Docking and Fixation**: When the car descends to the designated docking platform in the terminal building, a mechanical mechanism fixes it to the platform structure. The car remains vertical, without tilting.
 - **Car Unloading and Loading**: After the car is stabilized and fixed, the drive wheel and cable disengagement mechanism disconnects the car from the cable, then a lateral transfer mechanism moves the car from the cable running position to the loading/unloading area.
@@ -485,7 +485,7 @@ Cable tension → fixed pulley set → fixed saddle → anchorage shaft top shea
 | $F_{H3}$ | Node 3 horizontal force | ~1.45×10⁸ N (~1.66% $T_{max}$ ) | Latitude 0°57'S |
 | $F_{H4}$ | Node 4 horizontal force | ~3.05×10⁸ N (~3.49% $T_{max}$ ) | Latitude 2°N |
 
-> Note: $T_{max}$ see Volume IV, Section 4.2.2.
+> Note: $T_{max}$ see Volume IV, Section 4.3.3.
 
 ---
 
@@ -494,7 +494,7 @@ Cable tension → fixed pulley set → fixed saddle → anchorage shaft top shea
 This volume completes the siting and anchorage engineering demonstration for the 6 space elevator nodes. Core conclusions:
 
 1. **6 nodes selected**, each with alternative schemes and reasons for rejection, covering four anchorage schemes: pure uplift type, composite type, inclined mooring suction anchor type, and floating platform + tension leg type.
-2. **Key anchorage design parameters provided**, with complete substitution calculation process for working load derivation (Section 3.3.1), derivation basis in Volume IV, Section 4.2.2.
+2. **Key anchorage design parameters provided**, with complete substitution calculation process for working load derivation (Section 3.3.1), derivation basis in Volume IV, Section 4.3.3.
 3. **Arc length distribution passes redundancy verification**, Kiritimati failure does not cause ring collapse.
 4. **Ground terminal building and docking mechanism scheme fully designed**: including car unloading and loading process, fixed support mechanism (bottom support platform with wedge locks + lateral arc-shaped clamping arms + mechanical lock pins, lock pin shear fully checked, margin >12:1), split drive wheel clamping frame (with triple mechanical failure safety mechanism), multi-level boarding bridge personnel access scheme, and five-level functional zoning of the terminal building.
 5. **Complete GEO-end connection facility scheme** is discussed in detail in Volume IV, Section 4.5.5.
