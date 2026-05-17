@@ -1,8 +1,8 @@
 # Appendix I: Lunar Industry
 
-## Volume I: Pioneer Missions and Orbital Validation
+## Volume I: Pioneer Missions and In-Orbit Validation
 
-**Version**: 2.3<br/>
+**Version**: 2.5<br/>
 **Date of Preparation**: May 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
 **Related Main Volumes**: Main Volume II (Material Parameters), Main Volume VII (P0/P1/P2/P3 Verification Framework)
@@ -383,3 +383,184 @@ Key design requirements are as follows:
 - **Autonomy requirement**: The habitation module must be equipped with an autonomous environmental control system capable of maintaining internal temperature, pressure, and atmospheric composition without crew onsite. If anomalies occur, it must autonomously execute preset fault-handling and isolation procedures and send alerts to Earth through the relay network [5].
 
 **Inflatable expansion module** (deployed by the crew)
+
+- Deployed usable volume >= 100 m³
+- Structure uses multi-layer Vectran/Kevlar fabric with multi-layer insulation blankets
+- Deployment is crew-assisted semi-automatic, with deployment time <= 4 h
+- Total mass <= 2,000 kg
+
+**Closed Ecological Life Support System**
+
+- Physical/chemical regenerative: O₂ recovery rate >= 95%, water recovery rate >= 98% (urine plus condensate water)
+- Biological experimental supplement: small algae / higher plant cultivation module with growing area >= 2 m², providing validation data for the CELSS system in subsequent permanent bases
+- **Autonomy requirement**: The life support system must be capable of fully autonomous operation and must prioritize crew life safety without requiring Earth intervention when anomalies occur.
+
+**Lunar Surface EVA System**
+
+- Suit operating pressure >= 30 kPa (pure oxygen)
+- Single EVA duration >= 8 h, including a 30-min emergency reserve
+- Boot soles must incorporate a lunar dust exclusion design
+- The PLSS must support on-orbit replacement of batteries and CO₂ scrubber cartridges
+
+**Lunar Surface Mobility System**
+
+- Unpressurized rovers, 2 units
+- Crew capacity: 2 persons plus cargo bay
+- Range >= 50 km per charge
+- Maximum speed >= 15 km/h
+- Supports both remote teleoperation and autonomous driving modes
+- **Autonomy requirement**: Rovers must be able to autonomously plan the shortest return path within 5 seconds of receiving an emergency EVA distress signal from a crew member.
+
+#### 1.6.4 Four Core Validation Tasks During the Stay
+
+**(a) Engineering validation — final confirmation of industrialization feasibility (P0-level)**
+
+**Lunar water ice collection and liquid water production**
+
+- Implementation: use a mobile drill to carry out sampling at no fewer than 5 locations in the water-rich zones confirmed by Mission Group II, drilling to at least 2 m depth at each location. Samples are heated in a sealed heating chamber using gradient heating to 150-500°C; the released steam is condensed and collected as liquid water.
+- **Autonomy requirement**: The drill must autonomously determine when the bit has entered an ice-bearing layer, and upon entry automatically reduce rotation speed and feed rate to prevent sublimation loss from frictional heating.
+- P0 acceptance criteria: obtain at least 100 kg of liquid water; confirm that the full-process unit extraction energy cost (drill → heat → condense) does not exceed 50 kWh/kg water.
+
+**Lunar in-situ FCCVD-CNT manufacturing**
+
+- Implementation: upgrade the FCCVD apparatus validated in Mission Groups I and II to a lunar-surface operational version. Use locally extracted catalysts from Mission Group II and collected lunar-regolith volatiles, or a simulated asteroid carbon source, as the carbon-source gas.
+- **Autonomy requirement**: The FCCVD reactor must use online Raman spectroscopy to monitor CNT product quality in real time, and autonomously adjust carbon-source flow rate, reaction temperature, and catalyst injection rate. This experiment extends the engineering applicability of existing ground CVD research data on lunar regolith simulants [28].
+- P0 acceptance criterion: successfully produce continuous CNT yarn at least 50 cm in length, demonstrating the full-process feasibility of in-situ lunar manufacturing. This experiment directly corresponds to pending validation item V2-M1 in Main Volume II.
+
+**Bulk production of regolith construction materials**
+
+- Implementation: use a focusing Fresnel-lens solar furnace with power >= 5 kW to 3D-print regolith bricks and simple wall sections in bulk (no fewer than 50 standard bricks). Feedstock must preferably be the high-quality construction-material regolith confirmed by Mission Group II as satisfying the criteria in Section 1.3(b).
+- **Autonomy requirement**: The printing system must be capable of autonomously executing the full-cycle workflow of loading, spreading powder, sintering, and removing parts throughout multi-day bulk production runs.
+- P0 acceptance criteria: printed bricks using high-quality feedstock must achieve compressive strength >= 20 MPa per brick, dimensional deviation <= +/-3 mm, and production rate >= 5 bricks/h; control samples using ordinary regolith must achieve >= 10 MPa.
+
+**Preliminary field exploration of lava-tube skylights**
+
+- Implementation: at the best skylight candidate site from Mission Group II (**the Shackleton periphery and Philolaus crater are tied for highest-priority exploration targets**), the crew remotely operates a hopper probe for one descent exploration, descending at least 50 m from the skylight opening vertically or until reaching the talus at the base. GPR is used to carry out a gridded scan of the area within 50 m radius around the skylight (grid spacing <= 5 m), confirming the roof thickness (target >= 30 m) and lateral extension direction (target width >= 500 m, length >= 1 km) of the underground cavity [21,30].
+- **Autonomy requirement**: The hopper probe must maintain a safe distance from cave walls autonomously under communication-delay conditions. If crew commands conflict with obstacle-avoidance sensors, obstacle-avoidance logic takes the highest priority and may directly override crew commands.
+- P0 acceptance criterion: complete preliminary field exploration of at least one lava-tube skylight and confirm that its interior contains a large, stable space satisfying all core indicators of the criteria in Section 1.3(a): roof thickness >= 30 m, internal width >= 500 m, height >= 30 m, a continuously detectable cavity extending at least 50 m from the opening, a structurally intact upper basalt layer with no evidence of recent collapse, and a skylight entrance slope <= 30°.
+
+**(b) Scientific exploration**
+
+- Perform 5 m-scale deep-hole profile sampling at Mission Group II drill sites (drill depth >= 5 m) to gain a detailed understanding of the vertical distribution of polar volatiles.
+- Conduct geological traverses over a larger rover-accessible area of at least 20 km radius, searching for outcrops of mare basalt, KREEP, and other resource types.
+- Perform a walking-scale survey of the construction-material and catalyst-feedstock candidate zones delineated in Mission Group II, carrying out dense sampling at no fewer than 20 sites using portable XRF and particle-size analyzers.
+- Deploy a precision moonquake seismometer network of at least 2 units spaced no less than 5 km apart, and heat-flow probes drilled to at least 5 m depth, providing detailed geologic data for subsequent large-scale base planning.
+
+**(c) Survival tests**
+
+- **Lunar dust mitigation**: Install a lunar dust cleaning station in the EVA airlock, using a dual-mode approach of electrostatic dust removal plus high-pressure gas purging to clean suit surfaces. At key locations on exterior equipment, use spring-loaded PTFE seals as dust exclusion seals and test their wear after 12 months.
+- **Radiation dose monitoring**: Each crew member wears an active personal dosimeter with a measurement range of 0.1 μSv/h to 10 Sv/h; at least 4 fixed neutron/gamma dose-rate monitors are deployed at different locations inside and outside the module. The goal is to build a radiation dose model for the full mission period, including at least one SPE event.
+
+
+### 1.7 Items to Be Validated and Acceptance Criteria
+
+| ID | Item | Related Volume | P0-Level Acceptance Criteria |
+|:---:|:---|:---|:---|
+| **P0-M1** | Confirmation of extractable polar water ice | Appendix I, Volume IV | Confirm that the water-rich zone (water-equivalent H content > 2 wt%) has an area >= 1 km², with water-content estimation uncertainty <= ±30% (2σ) |
+| **P0-M2** | Lunar in-situ CNT manufacturing | Main Volume II (V2-M1, V2-M4) | Successfully produce continuous CNT yarn >= 50 cm in length on the lunar surface, demonstrating that low gravity and the lunar surface background do not alter the fundamental physical processes of FCCVD |
+| **P0-M3** | Reliability of lunar nuclear power source | Appendix I, Volume II | Nuclear reactor operates continuously on the lunar surface for no less than 12 months, with zero unplanned shutdowns and electric output degradation <= 5% |
+| **P0-M4** | Water-ice extraction energy-cost validation | Appendix I, Volume IV | Full-process unit energy cost for extracting liquid water from ice-bearing regolith is no more than 50 kWh/kg |
+| **P0-M5** | Strength of 3D-printed regolith construction materials | Appendix I, Volume II | Using high-quality construction-material regolith satisfying criteria (b) in Section 1.3, lunar 3D-printed bricks must achieve compressive strength >= 20 MPa, with batch-to-batch coefficient of variation <= 15% |
+| **P0-M6** | Confirmation of one developable lava tube | Appendix I, Volume II | Complete preliminary field exploration of at least one lava-tube skylight and confirm that its interior contains a large, stable space satisfying all core indicators of criteria (a) in Section 1.3. Priority ranking: the polar region around Shackleton (if confirmed by Mission Group II) tied with Philolaus crater at top; Marius Hills second; Mare Tranquillitatis last. If this criterion evaluates to "No," the subsurface base plan in Volume II is fully suspended and all subsequent investment is concentrated on the surface pathway. |
+| **P0-M7** | Construction-material regolith reserve confirmation | Appendix I, Volume II | Within a 10 km radius of the landing zone, confirm extractable reserves of construction-material regolith satisfying criteria (b) in Section 1.3 of at least 10⁶ m³ (approximately 1.5-2 million tonnes) |
+| **P0-M8** | Catalyst-feedstock regolith reserve confirmation | Appendix I, Volume II | Within a 10 km radius of the landing zone, confirm extractable reserves of catalyst-feedstock regolith satisfying criteria (c) in Section 1.3 of at least 10⁵ t |
+| **P0-M9** | Confirmation of extractable carbon reserves from carbonaceous chondrite surface remnants | Appendix I, Volume IV | Within a 20 km radius of the landing zone, confirm at least one carbonaceous-chondrite-impact residue concentration zone with total extractable carbon reserves >= 1,000 tonnes (in methane equivalent), with collection energy cost <= 10 kWh/kg carbon |
+| **P0-M10** | Confirmation of collectable carbon reserves in polar CO₂ cold traps | Appendix I, Volume IV | Confirm that at least one CO₂ cold trap has collectable reserves >= 10,000 tonnes CO₂ (carbon equivalent >= 2,700 tonnes), with collection and compression energy cost <= 5 kWh/kg CO₂ |
+| **P1-M5** | Carbon-source co-production efficiency from carbonaceous chondrite pyrolysis | Appendix I, Volume V | In a lunar vacuum environment, pyrolysis of carbonaceous chondrite simulant (carbon content 3%-5%) at 800-1,000°C achieves carbon recovery >= 70%, with by-product water recoverable for hydrogen production by electrolysis |
+
+
+### 1.8 Parameter Outputs
+
+| Parameter | Value | Status | Receiving Volume |
+|:---|:---|:---|:---|
+| Polar water-rich zone area and water-equivalent H content | To be confirmed by Mission Groups I/II | P0-level pending validation | Appendix I, Volumes II and IV |
+| Full-process unit energy cost for water-ice extraction | To be confirmed by Mission Group III | P0-level pending validation | Appendix I, Volume IV |
+| Feasibility of lunar in-situ CNT production | To be confirmed by Mission Group III | P0-level pending validation | Main Volume II; Appendix I, Volume V |
+| Compressive strength and batch consistency of 3D-printed regolith parts | To be confirmed by Mission Group III | P0-level pending validation | Appendix I, Volume II |
+| Continuous operating reliability of lunar nuclear power source | To be confirmed by Mission Groups II/III | P0-level pending validation | Appendix I, Volume II |
+| Confirmation of developable lava tube (including all criteria indicators and polar priority ranking) | To be confirmed by Mission Group III | P0-level pending validation | Appendix I, Volume II (subsurface pathway decision) |
+| Extractable reserves of construction-material regolith (satisfying criteria b) | To be confirmed by Mission Group III | P0-level pending validation | Appendix I, Volume II |
+| Extractable reserves of catalyst-feedstock regolith (satisfying criteria c) | To be confirmed by Mission Group III | P0-level pending validation | Appendix I, Volume II |
+| Duration of first crewed stay | No less than 30 days (target 60 days) | Baseline | Appendix I, Volume VII |
+| Total duration of pioneer missions | Approximately 8 years | Baseline | Volumes IX and X |
+| Total investment in pioneer missions | Approximately RMB 350-630 billion | Order-of-magnitude estimate | Volumes IX and X |
+
+
+### 1.9 Conclusion
+
+This volume establishes a "validate first, then invest" decision logic. Through the three major steps of satellite survey, robotic deployment, and first crewed stay — spanning approximately 8 years and roughly RMB 350-630 billion of investment — the most critical technologies for lunar industrialization undergo a "survival test": testing not only surface water ice and in-situ manufacturing, but also the viability of underground lava tubes as human settlement sites.
+
+Core conclusions:
+
+1. Lunar industrialization does not begin in an office drawing blueprints; it begins with remote-sensing cameras in orbit and drilling arms on the lunar surface — and with probes hovering at the edge of a skylight. Chang'e-7's (2026) south-pole water-ice detection will provide the first direct ground-truth data for this project [6]; the transportation infrastructure of China's crewed lunar landing program (before 2030) can provide a mature, ready-to-borrow foundation for the "Lunar Sentinel" mission [11]; and Kaguya [19], GRAIL [20], and LRO [21] have already laid a solid scientific foundation for lava-tube exploration.
+
+2. The total cost of the approximately 8-year, three-step pioneer phase is only a fraction of the cost of subsequent permanent base construction, but it determines whether every subsequent construction decision is based on sufficient data or wishful assumptions. This volume places particular emphasis on autonomy requirements for lunar surface equipment: the physical upper bound imposed by Earth-Moon communication delay means that lunar surface equipment must be capable of autonomously completing critical operations under conditions in which Earth cannot exercise real-time remote control.
+
+3. The eight P0-level acceptance criteria are the hard checkpoints that transform "subjective ambition" into "objective engineering." Among them, P0-M6 — confirmation of one developable lava tube — has its strategic priority fully argued in the polar lava-tube priority analysis in Volume II, and is concretely implemented across Mission Groups I through III in this volume. If nature has prepared an ideal underground shelter for us, there is no reason not to find it.
+
+4. When the "Lunar Sentinel" crew safely returns to Earth and presents to the world water samples from the lunar surface, bricks, CNT yarns, and radar images from deep inside a skylight, only then will we have truly obtained the key to opening the lunar age — at that point we will know not only what the Moon can provide, but also which path humanity should choose.
+
+
+### References
+
+[1] China National Space Administration. "Overview of the Chang'e-4 mission." 2019.
+
+[2] China National Space Administration. "Overview of the Chang'e-5 mission." 2020.
+
+[3] Xinhua News Agency. "Chang'e-6 mission planned for launch on May 3." May 1, 2024.
+
+[4] Xinhua News Agency. "Chang'e-6 samples reveal the evolutionary history of the lunar far side and effects of giant impacts for the first time — selected as the top advance among China's Top Ten Scientific Achievements of 2025." March 27, 2026.
+
+[5] China National Space Administration. "Overview of the Queqiao-2 relay satellite mission." 2024.
+
+[6] Science and Technology Daily. "Chang'e-7 probe heads for the lunar south pole this year." March 16, 2026.
+
+[7] The Planetary Society. "Chang'e-7: China's water-hunting lunar south pole mission." March 3, 2026.
+
+[8] Global Times. "Chinese academicians and experts unveil cutting-edge technologies for lunar research station construction." December 25, 2025.
+
+[9] TASS. "Russian lunar station segment creation under project with China greenlighted." April 1, 2026.
+
+[10] The Paper. "Lunar south pole: strategic beacon and resource holy grail in eternal shadow." April 13, 2026.
+
+[11] Xinhua News Agency. "China's goal of achieving a crewed lunar landing before 2030 remains unchanged." October 30, 2025.
+
+[12] China Manned Space Engineering Office. "Progress on the prototype development of Long March 10 launch vehicle, Mengzhou crewed spacecraft, and Lanyue lunar lander." 2025.
+
+[13] CBS News. "NASA unveils ambitious $20 billion plan to build moon base near lunar south pole." March 24, 2026.
+
+[14] Universe Magazine. "Not ready to colonize the Moon: NASA suddenly refused to save the VIPER lunar rover." May 12, 2025.
+
+[15] Fast Technology. "NASA's Artemis program repeatedly delayed: technical hurdles are the main cause." September 15, 2025.
+
+[16] eoPortal. "Intuitive Machines Nova-C (PRIME-1)." July 30, 2025.
+
+[17] Intuitive Machines. "IM-1 Mission: Odysseus Lunar Lander." February 2024.
+
+[18] Intuitive Machines. "IM-2 Mission: Athena Lunar Lander." March 2025.
+
+[19] Kaku, T., et al. "Detection of intact lava tubes at Marius Hills on the Moon by SELENE (Kaguya) Lunar Radar Sounder." *Geophysical Research Letters*, Vol. 44, 2017, pp. 10155–10161.
+
+[20] Andrews-Hanna, J. C., et al. "Ancient igneous intrusions and early expansion of the Moon revealed by GRAIL gravity gradiometry." *Science*, Vol. 339, 2013, pp. 675–678.
+
+[21] Carrer, L., et al. "Radar evidence of an accessible cave conduit on the Moon below the Mare Tranquillitatis pit." *Nature Astronomy*, Vol. 8, 2024, pp. 1119–1126.
+
+[22] Haruyama, J., et al. "Possible lunar lava tube skylight observed by SELENE terrain camera." *Geophysical Research Letters*, Vol. 36, 2009, L21206.
+
+[23] SETI Institute. "LEAPS: Lunar EArth Pole Sitter Mission Concept for Exploring Lunar Pits and Caves." 2022.
+
+[24] Wagner, R. V., & Robinson, M. S. "Lunar pits: Sublunarean voids and skylights." *Icarus*, Vol. 237, 2014, pp. 52–76.
+
+[25] Spudis, P. D., et al. "Geology of the lunar south pole: A synthesis of Clementine and Lunar Prospector data." *Journal of Geophysical Research*, Vol. 107, 2002, 5055.
+
+[26] Paige, D. A., et al. "Diviner Lunar Radiometer observations of cold traps in the Moon's south polar region." *Science*, Vol. 330, 2010, pp. 479–482.
+
+[27] Schörghofer, N., & Williams, J.-P. "Carbon dioxide cold traps on the Moon." *Geophysical Research Letters*, Vol. 48, 2021, e2021GL095533.
+
+[28] JAXA Research Team. "Direct synthesis of carbon nanotubes on lunar regolith simulant particles." *Carbon*, Vol. 231, 2025, 119751.
+
+[29] China News Service. "Natural single-walled carbon nanotubes discovered in Chang'e-6 lunar regolith." January 21, 2026.
+
+[30] Ciarletti, V., et al. "The WISDOM Radar: Unveiling the Subsurface Beneath the ExoMars Rover and the Martian Underground." *Astrobiology*, Vol. 17, 2017, pp. 565–584.
+
+[31] NASA. "Kilopower/KRUSTY Project: Fission Power for Space Exploration." 2018.
