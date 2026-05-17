@@ -2,11 +2,11 @@
 
 ## Volume VI: Transportation Network
 
-**Version**: 1.2<br/>
+**Version**: 1.6<br/>
 **Date of Preparation**: May 2026<br/>
-**Currency Unit**: RMB (Y)<br/>
-**Related Main Volume**: Main Volume VIII (Transport and Logistics System)<br/>
-**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Siting and Infrastructure), Volume III (Energy System), Volume IV (Resource Prospecting and Mining Engineering), Volume V (Manufacturing System)
+**Currency Unit**: RMB (¥)<br/>
+**Related Main Volume**: Main Volume VIII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III, Volume IV, Volume V
 
 
 ### Terminology Table
@@ -96,7 +96,19 @@ Surface temperatures are approximately -180 C to +120 C (down to about -250 C in
 | Insulated pipeline (liquid water) | -180 C to +120 C (outer wall) / +5 C to +30 C (water inside inner pipe) | Not applicable (no moving parts) | Inner-wall heating cable + MLI layer keeps water >=5 C at night |
 | Skylight bridge crane (surface-exposed parts) | -180 C to +120 C | MoS2 dry lubrication (rack, winch bearings) | Motor windings protected by RHU at night |
 | Cable car system (pit bottom to rim) | -250 C to +120 C (PSR segment) / -180 C to +120 C (non-PSR segment) | MoS2 dry lubrication (pulley bearings, hoist bearings, rail clamp brakes) | PSR-segment equipment requires extra RHU to keep electronics >-50 C |
-| Cable rope / CNT cable | -250 C to +120 C | No lubrication required | CNT cables avoid low-temperature embrittlement (carbon materials outperform steel at cryogenic toughness) |
+| Cableway wire rope | -250 C to +120 C | No lubrication (cable self-sufficient) | **Baseline**: high-strength galvanized steel wire rope (tensile strength ≥1.8 GPa), cryogenic toughness validated. **Long-term alternative**: CNT braided cable (lighter, upgradeable once lunar CNT production line matures) |
+
+> Note: All cables in this volume (including winch lift systems and cableway systems) use **high-strength steel wire rope** as the baseline material. CNT braided cable is a long-term alternative, upgradeable once the lunar CNT production line matures; its performance advantages (cryogenic toughness, low mass) are documented in the alternative-option sections.
+
+**Note on Vacuum Stability of Tethering Cables (CNT Braided Cable)**:
+
+All tethering cables referenced in this volume (including aerostat tethers, crater-rim winch cables, skylight lift cables, etc.) are **pure CNT braided cables (no polymer matrix)**, using no organic binders. Load transfer between CNT fibers relies on braiding and twisting (not bonding), fundamentally eliminating strength degradation due to polymer outgassing in vacuum. Pure CNT braided cables have been validated in vacuum (ref. JAXA lunar-regolith-simulant CVD experiments and Main Volume II), and their long-term vacuum stability is superior to polymer-matrix composites.
+
+**Items to Be Validated**:
+
+| ID | Item | Validation Method | Acceptance Criteria |
+|:---|:---|:---|:---|
+| **P2-T4** | Long-term vacuum tensile-strength degradation test for pure CNT braided cable | Apply sustained tension (50% of breaking load) to CNT cable samples in vacuum chamber (<10⁻⁵ Torr) for ≥3 years; measure strength periodically | Strength degradation ≤5%/year; no individual wire breaks |
 
 #### 6.3.2 Underground Equipment Temperature Requirements
 
@@ -474,7 +486,7 @@ Deploy lightweight electric winch at crater rim, connect to simple bottom cargo 
 | Lift speed | 0.5-2 m/s (variable-frequency adjustable) | Loaded low speed, empty high speed |
 | Max lift height | <=500 m | Covers typical pit bottom to rim elevation |
 | Winch power | About 15-30 kW | Based on 2 t load at 2 m/s |
-| Cable type | CNT braided cable (preferred) or high-strength steel rope | CNT cable offers cryogenic toughness and high strength-to-weight, no solid lubrication needed |
+| Cable type | High-strength steel wire rope | Linear density ≈0.45 kg/m |
 | Cable diameter | >=10 mm | Safety factor >=3.0 |
 | Turning-pulley diameter | >=0.5 m | Pulley-to-cable ratio >=50:1 to reduce bending fatigue |
 | Cargo bucket | Open or sealed aluminum container (wall thickness >=2 mm) | Capacity >=1 m3 (ice-bearing regolith or ice blocks) |
@@ -482,7 +494,7 @@ Deploy lightweight electric winch at crater rim, connect to simple bottom cargo 
 | Power source | Rim-side mobile nuclear source (Kilopower-type, >=10 kWe) or rover battery pack | Main grid not yet extended to rim in early phase |
 | Deployment mode | One unpressurized cargo rover transports winch/pulley to rim | Second rover (or prepositioned lander) places bucket at pit bottom |
 | Operating temperature | -250 C to +120 C (full exposure in PSR segment) | CNT cable has no low-temp embrittlement; winch motor kept warm by RHU; pulley bearings use MoS2 dry lubrication |
-| Total system mass | <=1,500 kg (winch, cable, pulley, bucket) | Deployable in single rover transport mission |
+| Total system mass | >12,000 kg (winch, cable, pulleys, bucket) | Deployable in single rover transport mission |
 
 **(c) Energy estimate**
 
@@ -497,6 +509,8 @@ At early 200-500 L/month water output, one 2 t lift trip can cover monthly ice m
 **(d) Transition to permanent system**
 
 This system is temporary for Phase I through early Phase II, design life ~3-5 years. Once mid-to-late Phase II reaches >=2,000 L/month water output, permanent cableway (Section 6.7.2) enters operation and this system is retired. Winch may be repurposed for rim lifting tasks or disassembled/recycled; cable retained as spare; bucket reused as internal transport container.
+
+The early winch lift system is used only for short-distance crater-floor-to-rim transport (lift height ≤500 m) and uses high-strength steel wire rope (diameter ≥10 mm); total system mass ≤2,000 kg (including winch, pulleys, bucket, and 500 m of wire rope). The wire rope mass for the long-distance cableway system (Section 6.7.2) is accounted for separately in Section 6.11.1.
 
 #### 6.7.2 Permanent Option: Bi-Directional Circulating Freight Cableway
 
@@ -536,7 +550,7 @@ Use dual-car balanced circulation: two freight cars fixed to opposite ends of on
 |:-----|:-----|:-----|
 | Car envelope | About 4.0 m L x 2.5 m W x 2.0 m H | Open-top or sealed-container type |
 | Car mass | <=2,000 kg (empty) | Aluminum alloy or CFRP |
-| Cable type | CNT braided cable or high-strength steel rope | CNT preferred for cryogenic toughness and strength-to-weight |
+| Cable type | High-strength steel wire rope (baseline) | Service life 5 years |
 | Cable diameter | >=30 mm | Safety factor >=3.0 based on worst-case full load at 45 deg |
 | Pulley diameter | >=2.0 m | Pulley-to-cable ratio >=60:1 to reduce bending fatigue |
 
@@ -549,6 +563,9 @@ Use dual-car balanced circulation: two freight cars fixed to opposite ends of on
 **(f) Complementarity with rack rail**
 
 Cableway and rack rail are complementary: rack rail handles medium/long-distance trunk transport (rim-base-mines), max slope 30 deg, high speed (mainline 300 km/h, rack sections 40-60 km/h). Cableway handles short-distance steep vertical transfer (pit bottom to rim), max slope 45 deg, low speed (1-8 m/s), dual-car balanced circulation. Seamless interface at rim transfer platform through sealed conveyor connection.
+
+- **Design adjustment**: Permanent cableway system (crater floor to rim) distance ≤500 m; using high-strength steel wire rope, dual-cable total mass ≈5.5 kg/m × 500 m × 2 = 5,500 kg — acceptable.
+- Long-distance transport uses **rack-and-pinion rail** (Section 6.5) instead, with no cable dependency.
 
 
 ### 6.8 Insulated Liquid-Water Pipeline
@@ -621,6 +638,55 @@ Primary underground transport modes are **electric rail** and **conveyors**.
 | Mass | <=2,000 kg (drive motor, belt, enclosure) | - |
 | Operating temperature | -20 C to +50 C | Cave thermal stability, MoS2 on drive-drum bearings |
 
+### 6.9.3 Lunar-Surface Launch-Pad Dust-Protection Facilities
+
+**Launch-site safety standoff distance**: The straight-line distance between the launch pad and the skylight lift system must be ≥2 km. This distance ensures that hypersonic lunar dust raised by rocket plumes has sufficiently dispersed and decelerated before reaching the skylight zone, with residual kinetic energy below the mechanical damage threshold. The exact distance may be refined through simulation based on lander thrust, regolith properties, and sintered-pad design, but must not be less than 1 km. A physical exclusion zone (no-personnel, no-equipment buffer) shall be established between the launch pad and the skylight during all launch operations.
+
+**Protective facilities**:
+
+| Facility | Design Parameters | Notes |
+|:---|:---|:---|
+| **Sintered-regolith launch pad** | Thickness ≥0.5 m, area ≥10 m × 10 m | Microwave or laser in-situ sintering converts loose regolith into vitrified ceramic hard surface, preventing direct plume erosion of loose regolith |
+| **Annular diversion trench** | Depth ≥1 m, width ≥2 m | Redirects plume horizontally to reduce vertical reflection |
+| **Dust blast wall** | Height ≥5 m, annular layout (open toward exclusion zone) | Blocks laterally ejected dust to protect skylight system and storage areas |
+| **Skylight sealed protection** | Skylight remains closed during launch; opened only after launch completes | Reduces lunar-dust ingress into underground tunnels |
+
+**Items to Be Validated (V6-P1)**: Durability test of sintered-regolith launch pad under simulated rocket-plume erosion. Acceptance Criteria: sintered-layer spall depth ≤5 mm after 10 simulated launch erosion cycles.
+
+### 6.9.4 Underground Entrance Dedusting Transition Section
+
+To prevent surface-contaminated lunar dust from entering the underground industrial zone along with cargo, a **three-stage dedusting transition section** must be installed between the skylight lift system descent outlet and the underground electric rail:
+
+| Stage | Method | Parameters | Notes |
+|:---|:---|:---|:---|
+| Stage 1 | High-frequency vibration | Frequency ≥50 Hz, amplitude ≤1 mm | Dislodges loosely adhered large particles |
+| Stage 2 | Electrostatic purge | Electric field strength ≥2 kV/cm, nitrogen pulse pressure ≥0.5 MPa | Uses electrostatic force to strip charged fine lunar dust |
+| Stage 3 | Adhesive roller | Low-tack silicone rollers | Captures residual fine dust |
+
+Collected lunar dust is accumulated in sealed containers and periodically transported via skylight to the surface for backfill.
+
+An **airtight isolation door** is installed between the dedusting transition section and the underground rail, opened only after dedusting is complete, ensuring the underground core zone maintains absolute zero-lunar-dust cleanliness.
+
+**Airlock Door Seal Protection**
+
+Even with 99.8% dedusting efficiency in the three-stage transition section, the remaining 0.2% ultrafine lunar dust (particle size <2 μm) can gradually accumulate on airlock door sealing interfaces during high-frequency repeated open/close cycles, puncturing flexible seals or scratching metal mating faces under high clamping pressure, causing slow pressurization loss in the underground zone. For the lunar vacuum and low-gravity environment, the following additional seal protection measures are added:
+
+1. **Sacrificial-layer design**
+   Bond replaceable **ultra-high-molecular-weight polyethylene (UHMWPE) film** (thickness 0.5 mm) onto the metal sealing face of the airlock door. Dust particles embed into UHMWPE under high pressure rather than scratching the base material. Replacement interval: every 1,000 open/close cycles (sensor-counted).
+
+2. **Dry gas-bearing seal**
+   After airlock door closure, inject **high-pressure nitrogen (0.3–0.5 MPa)** into the sealing-face gap to form a gas film, preventing direct contact between the metal face and lunar dust. Gas supply from base nitrogen storage tank; technology proven in semiconductor vacuum-transfer chambers.
+
+3. **Dual redundant seals with in-line monitoring**
+   - Two seal rings (primary + backup seal) with an evacuation port between them connected to an ultrasonic leak detector (sensitivity ≤1 cm³/s at 70 kPa differential).
+   - When leak rate exceeds threshold (>1 Pa·m³/s), the backup seal is automatically engaged and an alarm is triggered.
+
+**Items to Be Validated (V6-P2)**: Dedusting efficiency validation for the transition section in a simulated lunar-dust environment. Acceptance Criteria: after three-stage dedusting, residual dust on cargo surface ≤0.1 mg/cm²; airborne particle concentration in underground rail zone ≤10 μg/m³.
+
+**Items to Be Validated (P2-L1)**: UHMWPE sacrificial-layer lunar-dust abrasion life test. Perform 1,000 open/close cycles with simulated lunar dust (particle size <2 μm, Mohs hardness 7) and 0.5 MPa clamping force. Acceptance Criteria: thickness wear ≤0.3 mm per 1,000 cycles; no leakage.
+
+**Items to Be Validated (P2-L2)**: Gas-bearing seal low-gravity vacuum adaptability validation. Test leak rates at various nitrogen pressures on a 1/6 g simulation platform in a vacuum chamber. Acceptance Criteria: leak rate <0.1 Pa·m³/s at 0.4 MPa nitrogen pressure.
+
 
 ### 6.10 Phased Expansion Plan for Transportation Network
 
@@ -646,8 +712,8 @@ Primary underground transport modes are **electric rail** and **conveyors**.
 | Insulated liquid-water pipeline (5 km) | 1 set | <=3,000 kg | <=3,000 kg | Includes piping, MLI, heating cable, pump station |
 | Continuous conveyor (2 sets) | 2 sets | <=2,000 kg/set | <=4,000 kg | - |
 | Rack system (initial install tools/locks) | 1 set | <=2,000 kg | <=2,000 kg | Rack bodies locally manufactured in Volume V; excluded from launch mass |
-| Cableway system (initial hoist/pulleys/cars) | 1 set | <=12,000 kg | <=12,000 kg | Cars <=4,000 kg (2 units) + hoist <=5,000 kg + pulleys/cable <=3,000 kg |
-| Early winch lift system (Stage-1 only) | 1 set | <=1,500 kg | <=1,500 kg | Decommissioned in Stage 2 |
+| Cableway system (winch, pulleys, cars, wire rope) | 1 set | <=12,000 kg | <=12,000 kg | Includes 2 cars (4,000 kg each) + winch (5,000 kg) + 500 m wire rope (≈3,000 kg) |
+| Early winch lift system (Stage-1 only) | 1 set | <=5,000 kg | <=5,000 kg | Decommissioned in Stage 2 |
 | **Total launch mass of transport system equipment** | - | - | **<=48,700 kg (~48.7 t)** | Includes early winch lift system |
 
 #### 6.11.2 Daily Energy Overview (Stage 2 - Typical Lunar-Day Operation)
@@ -676,6 +742,7 @@ Primary underground transport modes are **electric rail** and **conveyors**.
 | **P2-T1** | Low-pressure thermal management validation for enclosed-tube rail | Run 1:1 train model for >=6 h in low-pressure N₂ (0.2 bar) test tube | Train cooling system remains nominal; tube-gas temperature <=50 C | Volume III |
 | **P2-T2** | Long-term stability of insulated liquid-water pipeline | Continuous >=3-month run in simulated lunar thermal-vacuum environment including lunar-night low-temperature segment | Heat loss <=5%; heating cable fault-free; no pipeline leakage | Volume IV |
 | **P2-T3** | Extreme-slope cableway operation validation | >=50 full-load braking and operation tests on 1:1 car on simulated 45 deg track | Emergency rail-clamp brake locks within 50 ms; braking distance <=1/2 car spacing; regenerative recovery >=60% | This volume |
+| **P2-T4** | Long-term vacuum tensile-strength degradation test for high-strength steel wire rope | Apply sustained tension (50% of breaking load) to wire-rope samples in vacuum chamber (<10⁻⁵ Torr) for ≥1 year; measure strength periodically | Strength degradation ≤10%/year; no individual wire breaks | Volume VI |
 
 
 ### 6.13 Parameter Outputs
@@ -710,3 +777,10 @@ This volume completes the integrated planning of the lunar industrial transporta
 5. **Permanent pit-bottom-to-rim cableway fills the extreme-slope transport gap.** Section 6.7.2 defines a dual-car balanced freight cableway for 30-45 deg extreme slopes where rack operation becomes impractical, with max 20 t/car and 1-8 m/s operation, seamlessly interfaced with rack trains at rim transfer platforms.
 
 6. **Transport-system mass and energy are consolidated in Section 6.11.** Net total equipment mass is about 48.7 t, and total daily energy use is about 1,412 kWh.
+
+
+### References
+
+[6.1] NASA-STD-5001, *Structural Design and Test Factors for Safety for Spaceflight*, 2015.
+
+[6.2] IADC, *Space Debris Mitigation Guidelines*, 2021.
