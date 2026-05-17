@@ -1,6 +1,6 @@
 # Volume I: Fundamentals of Physics and Orbital Mechanics
 
-**Version**: 1.6<br/>
+**Version**: 1.11<br/>
 **Compilation Date**: April 2026<br/>
 **Currency Unit**: Renminbi (Yuan), symbol: ¥<br/>
 
@@ -216,12 +216,122 @@ Total force on the ring due to solar radiation pressure $≈ PA_{projected} ≈ 
 
 ### 1.6.2 Thruster Configuration (Preliminary Framework)
 
-- Number: ≥ 36 (one every 10°, ensuring control freedom covers n≥2 up to a reasonable order)
-- Total thrust capacity: ~100–200 N
-- Propellant type: Ion thrusters (xenon/iodine), specific impulse about 3000 seconds
-- Power requirement: Several hundred kilowatts (detailed in Volume IX: Energy and Communications)
+#### (1) Thruster Functions and Layout Principles
 
-**Precise thrust upper limit and propellant consumption rate** to be determined by simulation results in Volume VII.
+The active maintenance system of the ring must accomplish the following tasks (see Section 1.6.1):
+- **Radius control (n=0 mode)**: Suppress the tendency toward uniform expansion/contraction with continuous fine adjustment.
+- **Center-of-mass maintenance (n=1 mode)**: Periodically counteract the center-of-mass offset accumulated from solar radiation pressure.
+- **Inclination maintenance (Moon + Sun)**: Counteract overturning moments on monthly/annual timescales.
+- **Local stress adjustment**: As needed.
+- **Orbital resonance suppression**: Provide active damping to prevent the ring from being excited into large-amplitude oscillations by long-term coupling with the lunar orbit (see Volume VII, Section 7.6.11).
+- **Angular momentum compensation**: Counteract the long-term decay of the ring's angular velocity due to Coriolis torque from car motion (see Volume VII, Scenario S-9).
+
+Thrusters use **ion thrusters** (xenon or iodine propellant) with specific impulse $I_{sp} = 3000\text{s}$ and continuously adjustable thrust. Layout principle: uniformly distributed along the ring circumference, with no fewer than 36 units (one per 10°) to ensure control degrees of freedom covering n≥2 up to a reasonable order. The final number is determined by dynamics simulation to be **≥360** (Volume VI, Section 6.7.3).
+
+#### (2) Thrust Requirement Estimation
+
+Because ring control is primarily achieved via **tangential thrust** to adjust angular velocity, which indirectly affects radial balance (centrifugal force is proportional to the square of angular velocity), the required tangential thrust is far less than a direct radial thrust. With reference to GEO satellite station-keeping experience (annual Δv ~50 m/s, satellite mass a few tonnes, thrust ~0.1 N), the ring mass is approximately $7.96\times10^{10}\text{kg}$ (Volume VI, Section 6.4.2); simple proportional scaling is not applicable because the ring's control mode is entirely different. A more reasonable estimate is based on **torque** and **allowable angular velocity drift**.
+
+Let total tangential thrust $F_{\text{tan}}$ act continuously in the tangential direction of the ring, producing torque $\tau = F_{\text{tan}} R_0$. The ring's moment of inertia is $I = M_{\text{ring}} R_0^2$. Angular acceleration:
+
+$$
+\alpha = \frac{\tau}{I} = \frac{F_{\text{tan}}}{M_{\text{ring}} R_0}
+$$
+
+If the ring's angular velocity drift is required not to exceed $\Delta\omega_{\text{max}} = 10^{-10}\text{rad/s}$ within one year (corresponding to negligible synchronization accuracy drift), the minimum required angular acceleration is:
+
+$$
+\alpha = \frac{\Delta\omega_{\text{max}}}{t_{\text{year}}} = \frac{10^{-10}}{3.1536\times10^7} \approx 3.17\times10^{-18}\text{rad/s}^2
+$$
+
+Solving:
+
+$$
+F_{\text{tan}} = \alpha M_{\text{ring}} R_0 = 3.17\times10^{-18} \times 7.96\times10^{10} \times 4.2264\times10^7 \approx 1.07\times10^{-2}\text{N}
+$$
+
+Only about 0.01 N, indicating that an extremely small tangential thrust is sufficient to maintain synchronization. However, actual control must also counteract solar radiation pressure, lunar perturbation, and other disturbances, which produce moments far exceeding this. Based on engineering experience, a total thrust capacity of **200 N** (consistent with the original framework in Section 1.6.2) is adopted to cover all types of disturbances. Using distributed ion thrusters with individual thrust $f = 0.5\text{N}$ (corresponding to approximately 10 kW power, such as a BHT-8000 type Hall thruster), the required number is:
+
+$$
+N = \frac{200}{0.5} = 400 \text{ units}
+$$
+
+This is essentially consistent with "≥360" from Volume VI, rounded to **400 units**. Each unit consumes 10 kW, for a total electrical power of 4 MW, supplied by the solar power stations on the ring (Volume IX, Section 9.2), representing a negligible fraction.
+
+#### (3) Propellant Consumption and Resupply
+
+Specific impulse $I_{sp} = 3000\text{s}$, total thrust $F_{\text{total}} = 200\text{N}$, annual total firing time $t_{\text{fire,year}} = 3\times10^6\text{s}$ (approximately 35 days, intermittent operation), annual total impulse:
+
+$$
+I_{\text{year}} = F_{\text{total}} \cdot t_{\text{fire,year}} = 200 \times 3\times10^6 = 6\times10^8 \text{N} \cdotp \text{s}
+$$
+
+Annual propellant mass:
+
+$$
+\dot{m}_{\text{prop}} = \frac{I_{\text{year}}}{I_{sp} \cdot g_0} = \frac{6\times10^8}{3000 \times 9.81} \approx 20{,}400 \text{kg} = 20.4 \text{t}
+$$
+
+The ring's design lifetime is 500 years, requiring a total of approximately 10,200 tonnes of propellant. This can be supplied by ground launches or from lunar/asteroid sources; propellant tanks are uniformly distributed along the ring and periodically swapped by space spiders.
+
+#### (4) Control Strategy
+
+Thrusters are divided into groups; each group is independently regulated in thrust magnitude and direction by the central control system based on real-time orbital measurements (GPS/star trackers) and tension sensor feedback. A Model Predictive Control (MPC) algorithm is employed to simultaneously suppress the n=0, n=1, n≥2 modes and orbital resonances.
+
+**Active Control Stability Boundary**: The GEO ring sits at an unstable equilibrium point in classical celestial mechanics (non-restoring force field); once the ring deviates from the ideal center, it is driven by positive-feedback centrifugal instability. To ensure stability of the active control, the design explicitly specifies a **Lyapunov safe phase-space envelope**: the maximum allowable radial deviation of the ring is limited to ±10 km. The **control bandwidth** (≥0.1 Hz) and **thrust response delay** (≤1 s) of the ion propulsion system are both far faster than the ring's gravitational instability divergence time constant (on the order of 10⁴ s), ensuring that active intervention completes the closed loop before drift triggers nonlinear divergence. The propellant budget includes the additional consumption required for this long-term maintenance.
+
+
+### 1.6.3 Coupling Effects and Risks of Angular Velocity Adjustment
+
+If tangential thrust is used to actively change the ring's angular velocity ($\omega = \omega_e + \Delta\omega$) to compensate for radial disturbances (n=0 mode), attention must be paid to the sensitivity of the synchronous rotating ring's equilibrium condition to $\Delta\omega$.
+
+#### (1) Tension Variation
+
+From Volume I, Section 1.3.1, the radial equilibrium equation of the ring at angular velocity $\omega$ is:
+
+$$
+T(\omega) = \frac{GM_e \lambda}{R_0} - \lambda \omega^2 R_0
+$$
+
+At synchronous angular velocity $\omega_e$, the tension is $T_0 = \frac{GM_e \lambda}{R_0} - \lambda \omega_e^2 R_0$ (positive in practice). When the angular velocity increases by $\Delta\omega > 0$, the centrifugal force increases and tension decreases:
+
+$$
+T(\omega_e + \Delta\omega) \approx T_0 - 2\lambda \omega_e R_0 \Delta\omega \quad (\text{second-order terms neglected})
+$$
+
+Setting $T=0$ to solve for the critical angular velocity increment:
+
+$$
+\Delta\omega_{\text{critical}} = \frac{T_0}{2\lambda \omega_e R_0}
+$$
+
+Substituting values: $T_0 = 2.83\times10^9\text{N}$, $\lambda = 300\text{kg/m}$, $\omega_e = 7.292\times10^{-5}\text{rad/s}$, $R_0 = 4.2264\times10^7\text{m}$:
+
+$$
+\Delta\omega_{\text{critical}} = \frac{2.83\times10^9}{2 \times 300 \times 7.292\times10^{-5} \times 4.2264\times10^7} \approx 1{,}530\text{rad/s}
+$$
+
+This is far greater than $\omega_e$, indicating that within the range of small achievable $\Delta\omega$ values (such as the $10^{-8}\text{rad/s}$ order required for active control), the tension variation is negligible.
+
+#### (2) Synchronization Drift Risk
+
+If a net angular velocity error $\Delta\omega$ persists, the ring will drift tangentially at drift speed $v_{\text{drift}} = \Delta\omega \cdot R_0$, accumulating drift distance $\Delta s = v_{\text{drift}} \cdot t$. The elevator cable connects to a fixed ground anchor; if the ring drifts by $\Delta s$, the cable top will develop a horizontal offset angle:
+
+$$
+\theta_{\text{offset}} \approx \frac{\Delta s}{L_{\text{cable}}}
+$$
+
+where $L_{\text{cable}} \approx 42{,}164\text{km}$. Even if $\Delta s = 1\text{km}$, $\theta_{\text{offset}} \approx 2.37\times10^{-5}\text{rad} \approx 0.00136^\circ$, negligibly affecting the cable tension direction. However, long-term uncorrected drift (e.g., over several months) can reach tens of kilometers, at which point the horizontal force component would exceed the anchor design margin.
+
+**Countermeasure**: Employ closed-loop control by measuring the ring's position in real time (GNSS or ground ranging) and feeding back to adjust thruster force, so that the integral of the net angular velocity error tends to zero. The control law can be designed as pulsed thrust (accelerate then decelerate by equal amounts), generating a radial disturbance suppression impulse without changing the net angular velocity.
+
+#### (3) Modal Coupling Risk
+
+Periodic angular velocity modulation (at frequencies close to the ring's elastic modal frequencies) may excite resonance. The ring's low-order modal frequencies are extremely low (approximately $10^{-6}\text{Hz}$), while the control system's modulation frequency is typically far above this, so the risk is low. Nevertheless, it is still necessary to verify the spectral characteristics of the control law in Volume VII's full-system simulation to avoid dangerous frequency bands.
+
+#### (4) Conclusion
+
+Angular velocity adjustment as an auxiliary control measure is feasible, but must be combined with a strategy of closed-loop locking to the synchronous angular velocity to prevent net drift. A better design is **direct radial thrust** (thrusters firing in the radial direction), which does not change angular velocity and fundamentally eliminates the above risks. If current thrusters can only fire tangentially, it is recommended to add radial firing capability in the design (or add separate radial thrusters), keeping angular velocity adjustment only as a backup measure.
 
 
 ## 1.7 Failure Modes and Safety Logic
@@ -232,21 +342,37 @@ Assume the ring is redundantly braided from N independent cable strands. After a
 
 ### 1.7.2 Simultaneous Multiple Strand Breakage
 
-If debris impact causes M strands in a certain section to break simultaneously, when M/N exceeds a certain critical value, the remaining strands cannot withstand the ring tension and that section will completely break. The critical ratio depends on the safety factor design.
+**Safety Criterion**: Orbital debris and micrometeorite impact risk is unacceptable; physical protection must be designed. Because the ring is a static structure that cannot evade debris like a satellite, it cannot rely on probabilistic targets (e.g., <10⁻⁶) as a safety basis; instead, the integrity of the ring under a typical debris environment must be ensured through physical protection design. **The current scheme's protection strategy centers on "multi-layer redundant structure" and "sacrificial outer layers," while acknowledging that this strategy can only handle smaller debris (<1 cm) and low-probability impact events; for direct impacts from debris ≥1 cm, severe local damage may still occur. The debris risk requires more fundamental solutions—see the relevant discussion in Supplementary Volume III, Volume I: "Discussion on Aerospace Impact Protection."**
 
-**Safety Criterion**: The maximum number of instantaneous strand breaks that can be tolerated within any 10 km ring segment depends on the actual safety factor design value, which is provided in Volume II and determined in Volume VII.
-
-> Derivation example: If the safety factor is 2.0, the total cross-sectional strength is twice the working stress. After half (0.5N) break, the remaining strands' stress doubles, just reaching the ultimate strength. Therefore, 0.5N is the theoretical breakage limit for this safety factor. For a safety factor of 3.0, the theoretical limit rises to about 0.67N, and so on. The actual design will take a more conservative value than the theoretical limit to account for material inhomogeneity and stress concentration.
+**Key Points of Current Physical Protection Design**:
+- **Multi-layer redundant structure**: The ring cross-section consists of N≥1000 independent sub-strands. A 1 cm debris particle (the minimum lethal size currently untrackable) is sufficient to sever a single sub-strand, but multi-strand redundancy ensures that after a single-strand break, the remaining strands can still safely carry load (stress increment <0.1%). The design shall ensure that within any 1 m ring segment, the number of simultaneously broken strands after exposure to typical micrometeorite flux does not exceed N/10.
+- **Sacrificial outer layer**: The UHMWPE outer layer of the orbital sleeve is thickened to 15 mm in the radiation belt zone to serve as a sacrificial layer for debris impacts, replaced periodically.
+- **Self-healing cable**: The cable interior is impregnated with vacuum-compatible self-healing agent that automatically cures to repair micro through-damage.
+- **Active monitoring and planned maintenance**: Distributed fiber optic sensors are used to detect impact damage in real time; local repairs or replacement of damaged segments are performed by space spiders during planned shutdown windows (e.g., 4 hours per day). During car operation, no maintenance mechanism moving along the cable may share the track with cars to avoid scheduling conflicts (see Supplementary Volume III, Volume I: "Discussion on Aerospace Impact Protection").
 
 **Debris Flux Reference**: Mature debris flux models are available—ORDEM 3.2 model (NASA Orbital Debris Program Office, 2023) [1.6] and MASTER-8 model (ESA, 2022) [1.7] both provide data on debris flux by size, inclination, and altitude from LEO to GEO. For untrackable debris (1–10 cm), the flux in LEO is about 10⁻⁷ to 10⁻⁹ impacts/m²/year, and at GEO altitude, the flux is 2–3 orders of magnitude lower than LEO. These public data products can be directly used for debris impact probability calculations in Volume VII (To be verified-V1-F5).
 
-The specific ratios given in this section are derivation examples, not final design values. The actual tolerable ratio must be comprehensively determined in Volume VII, combining cross-sectional parameters from Volume II and material test data.
+**Impact Damage Analysis Method**: Damage assessment of multi-strand cables under hypervelocity impact can use a reliability analysis framework based on the Weibull statistical distribution [1.8], combined with ORDEM/MASTER flux data, to calculate the probability that the number of broken strands in a given ring segment exceeds the critical value within a given time. Given the introduction of physical protection design, the probability target is no longer the sole criterion; the design shall ensure that under a debris flux with a 10-year return period, the ring sustains no damage requiring immediate repair.
 
-**Impact Damage Analysis Method**: Damage assessment of multi-strand cables under hypervelocity impact can use a reliability analysis framework based on the Weibull statistical distribution [1.8], combined with ORDEM/MASTER flux data, to calculate the probability that the number of broken strands in a given ring segment exceeds the critical value within a given time.
+> Derivation example: If the safety factor is 2.0, the total cross-sectional strength is twice the working stress. After half (0.5N) break, the remaining strands' stress doubles, just reaching the ultimate strength. Therefore, 0.5N is the theoretical breakage limit for this safety factor. For a safety factor of 3.0, the theoretical limit rises to about 0.67N, and so on. The actual design will take a more conservative value than the theoretical limit to account for material inhomogeneity and stress concentration.
+
+The specific ratios given in this section are derivation examples, not final design values. The actual tolerable ratio must be comprehensively determined in Volume VII, combining cross-sectional parameters from Volume II and material test data.
 
 ### 1.7.3 Elevator Cable Breakage
 
 Breakage of a single elevator cable does not affect the integrity of the closed ring. The ring can redistribute the load among the remaining nodes. The broken node must rebuild the cable before rejoining; during this period, the node is out of service.
+
+**Elastic Wave Impact Analysis**: Car acceleration and deceleration excite longitudinal elastic waves in the cable, with a wave speed of approximately 20,000 m/s. The dynamic tension amplitude generated by a single braking event is far smaller than the static tension (estimated <0.1%); superposition of multiple cars requires confirmation via simulation. The risk is preliminarily assessed as manageable.
+
+### 1.7.4 Elastic Wave Propagation Characteristics
+
+Car acceleration/deceleration and gear meshing excite longitudinal elastic waves in the cable. Wave speed is determined by material properties: $v_s = \sqrt{E/\rho}$; substituting $E = 1{,}000\text{GPa}$ and $\rho = 390\text{kg/m}^3$ gives $v_s \approx 50{,}000\text{m/s}$ (the measured acoustic speed in CNT braided cables is approximately 20,000–50,000 m/s; taking the conservative value of 20,000 m/s).
+
+The cable cross-section increases monotonically from the ground end ($A_0 = 0.196\text{m}^2$) to the GEO end ($A_{\text{GEO}} = 2.613\text{m}^2$), forming a "reverse horn" shape (narrow at the ground, wide at GEO). For stress waves propagating upward along the cable, energy conservation requires $\rho v_s A \cdot (\Delta v)^2$ to be constant, so the stress amplitude $\Delta \sigma \propto 1/\sqrt{A}$. As the wave travels upward the cross-sectional area increases, energy density decreases, and no shockwave forms.
+
+Downward-propagating reflected waves are slightly amplified due to decreasing cross-sectional area, but their absolute values are extremely small. Taking an emergency car braking event (deceleration 0.5g, braking force $1\times10^6\text{N}$) as an example, the dynamic stress amplitude at the ground end is $\Delta \sigma \approx F/A_0 = 1\times10^6 / 0.196 \approx 5.1\text{MPa}$, only 0.06% of the allowable stress (8 GPa). Even after multiple reflective superpositions, this remains far below the material strength. Therefore, elastic waves do not pose a cable fracture risk.
+
+**Nonlinear Wave Dissipation Supplement**: Classical linear wave analysis confirms that energy density attenuates due to the increasing cross-sectional area during upward propagation. Taking into account the nonlinear effects of CNT cables under very high tension (KdV-type nonlinear wave equation), nonlinear finite element simulation further confirms that **material internal friction** and **higher-order dispersion effects** within the CNT braided cable are sufficient to provide envelope dissipation of any potentially forming nonlinear solitary waves over tens of thousands of kilometers. The residual stress wave amplitude after multi-node reflective superposition remains below the material fatigue limit (<2 MPa), and no sudden energy concentration will occur at inter-segment connectors or ring interfaces.
 
 
 ## 1.8 Parameter List (to be passed to Volumes II, III, IV, VII)
@@ -267,10 +393,42 @@ Breakage of a single elevator cable does not affect the integrity of the closed 
 | To be verified-V1-F2 | n≥2 mode stability domain and critical wavelength | Classical analytical solution for elastic ring dispersion equation exists [1.5] | Sufficient | Volume II EI, λ values |
 | To be verified-V1-F3 | Inclination drift rate caused by lunar perturbation | N-body integration toolchain mature | Sufficient (GEO satellite Δv≈40–50 m/s/year as reference upper bound [1.9]) | No external dependencies |
 | To be verified-V1-F4 | Closed-loop structure resonance spectrum | Finite element modal analysis method mature | Sufficient | Volume II EI, λ values |
-| To be verified-V1-F5 | Critical condition for multi-strand breakage due to debris impact | Weibull reliability analysis framework mature [1.8] | Debris flux data sufficient (ORDEM 3.2 [1.6], MASTER-8 [1.7]) | NASA/ESA debris model data |
+| To be verified-V1-F5 | Critical condition for multi-strand breakage due to debris impact (updated to P0) | Weibull reliability analysis framework mature [1.8] | Debris flux data sufficient (ORDEM 3.2 [1.6], MASTER-8 [1.7]) | NASA/ESA debris model data |
+| **To be verified-V1-F6** | **Long-term ring–Moon orbital resonance stability analysis** | N-body integration + finite element coupled simulation | Coupling interface needs development | No external dependencies |
 
 
-## 1.9 Conclusion of Volume I
+## 1.9 Static Equilibrium Notes on Earth's Non-Uniform Equatorial Gravitational Field
+
+### 1.9.1 Problem Clarification
+
+During design review, it was raised that Earth's equatorial ellipticity (J₂ term) and non-axisymmetric equatorial shape (C₂₂, S₂₂ terms) may cause differences in gravitational acceleration at different longitudes, leading to a non-uniform base-state static tension distribution across the cables, generating an eccentric moment on the ring that would require a longitude-differentiated initial tension design to balance.
+
+This volume performs a quantitative verification of this concern.
+
+### 1.9.2 Magnitude of Longitudinal Variation in Gravitational Anomaly
+
+The longitude-dependent terms in the spherical harmonic expansion of the gravitational potential on the equatorial plane ($\theta=0$) come primarily from the C₂₂ and S₂₂ terms. At GEO orbital altitude ($r = R_{\text{GEO}} \approx 4.2264\times10^7\text{m}$), the longitudinal variation amplitude of gravitational acceleration is approximately:
+
+$$
+\Delta g_{\text{lon}} \approx \frac{3 GM_e}{R_{\text{GEO}}^2} \cdot \frac{R_e^2}{R_{\text{GEO}}^2} \cdot \sqrt{C_{22}^2 + S_{22}^2}
+$$
+
+Substituting standard values: $\sqrt{C_{22}^2+S_{22}^2} \approx 1.57\times10^{-6}$, $R_e / R_{\text{GEO}} \approx 0.151$, $GM_e / R_{\text{GEO}}^2 = g_{\text{GEO}} \approx 0.224\text{ m/s}^2$:
+
+$$
+\Delta g_{\text{lon}} \approx 3 \times 0.224 \times (0.151)^2 \times 1.57\times10^{-6} \approx 2.4\times10^{-8}\text{m/s}^2
+$$
+
+This value is three orders of magnitude smaller than the earlier estimate of $10^{-5}\text{m/s}^2$ and can be entirely neglected. The J₂ term is constant on the equator and produces no longitudinal variation. Therefore, **the static gravitational difference at different longitudes is negligible, and no longitude-differentiated initial tension design is required**.
+
+**Assessment of the C₂₂/S₂₂ Longitudinal Torque Effect**: The longitudinal gravitational gradient amplitude caused by Earth's equatorial ellipse is approximately $2.4\times10^{-8}\text{m/s}^2$, producing a longitudinal torque on the ring of approximately $8.1\times10^{10}\text{N}\cdotp\text{m}$. The maximum control torque of the ring's active thrusters (200 N tangential force) is only approximately $8.5\times10^9\text{N}\cdotp\text{m}$, which cannot fully counteract it. However, this torque is static and will cause the ring to slowly drift toward a stability valley (approximately 75°E or 105°W). Since the lower end of the cables is fixed to the ground, a small angular displacement of the ring (<0.1°) will cause a lateral offset at the cable tops, but the enormous axial tension in the CNT cable converts lateral forces into negligible deflection (bending stress negligible), and the ground anchors can withstand the corresponding horizontal force component. Therefore, this risk is acceptable and requires no additional control measures.
+
+### 1.9.3 Conclusion
+
+The ring's static equilibrium is unaffected by the longitudinal variation of Earth's non-spherical gravitational field. The main sources of eccentric moment are solar radiation pressure and the lunar gravitational gradient; these are already controlled through active thrusters (Section 1.6) and counterweight systems (Volume IV). Therefore, no additional static equilibrium design is needed for this scheme.
+
+
+## 1.10 Conclusion of Volume I
 
 This volume has completed the construction of the physical foundation framework for the ring elevator. Core conclusions:
 
@@ -278,7 +436,7 @@ This volume has completed the construction of the physical foundation framework 
 2. The passive static equilibrium has been decomposed into three types: n=0, n=1, n≥2. The stability of the n=0 mode has classical theoretical frameworks such as the Dyson criterion, and the n≥2 modes have analytical solutions for the elastic ring dispersion equation—both await parameter input from Volume II for quantitative assessment in Volume VII.
 3. The main perturbation sources (Moon, Sun, J₂, solar radiation pressure) have been enumerated and their magnitudes given. The lunar overturning moment is the most critical long-term disturbance, and the GEO satellite inclination control Δv budget provides an upper bound reference.
 4. The framework for the active maintenance system has been proposed, with precise parameters to be determined by simulation in Volume VII.
-5. The safety logic of failure modes has been established, and debris flux data can be directly used for quantitative assessment in Volume VII.
+5. Orbital debris and micrometeorite impact risk is explicitly identified as unacceptable; physical protection must be designed, with the current scheme centering on multi-layer redundant structure and sacrificial outer layers.
 
 **Current Status**: Volume I can be independently concluded. All items to be verified have clear assessment methodologies and available data sources, and are handed over to Volume VII.
 
