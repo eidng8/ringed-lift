@@ -2,7 +2,7 @@
 
 ## Volume II: Permanent Base Site Selection and Infrastructure Construction
 
-**Version**: 1.7<br/>
+**Version**: 1.8<br/>
 **Date of Preparation**: May 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: Y<br/>
 **Related Main Volumes**: Main Volume III, Main Volume VII
@@ -380,6 +380,51 @@ Skylights are the only physical connection between underground bases and surface
 - **Lift system**: install bridge crane or gantry above skylight with rated lunar lift capacity >=20 t for vertical cargo transfer in/out of underground sections. Cargo and personnel channels must be physically separated.
 - **Solar arrays**: deploy arrays on surrounding surface >=50 m away to avoid shading, sized to meet all underground power demand. Cables are fixed along cave walls and routed underground via skylights.
 - **Communication relay**: deploy Ka-band dish at skylights as relay between underground network and Queqiao-2 [14]. Install backbone fiber along main underground routes.
+
+#### 2.4.5 Lava-Tube Fracture Support and Tidal Stress Management
+
+The Moon is subject to Earth-Moon tidal forces (27.3-day period), generating long-period tectonic stress in lava-tube surrounding rock. Natural lava tubes contain microscale joints and fracture surfaces from thermal contraction during cooling. Under the thermal-pressure gradient formed between the pressurized warm interior (20°C, 70 kPa) and the external vacuum at extreme cold, periodic tidal stress "kneading" may activate existing fractures and cause localized shear displacement. Drawing on deep-buried tunnel support techniques from Earth and adapting them for lunar low-gravity and vacuum conditions, the following engineering measures are adopted.
+
+**(a) Active stress relief**
+
+Pre-drill **stress relief holes** (diameter 50-100 mm, depth 3-5 m, spacing 2 m) in heavily jointed sections to guide tidal stress dissipation at hole bottoms and reduce crown stress concentration. Diamond core drilling is already available on the lunar surface; no flushing fluid is required.
+
+**(b) Flexible bolt support**
+
+- **Bolt material**: Carbon fiber reinforced polymer (CFRP) with atomic layer deposition (ALD) Al₂O₃ or SiO₂ coating (thickness >=100 nm) to resist vacuum UV radiation and atomic oxygen erosion.
+- **Anchoring method**: grouted anchorage using **sulfur mortar** (molten sulfur mixed with fine regolith powder, cooled and solidified); no water required.
+- **Parameters**: bolt length 6-10 m, spacing 1.5 m, constant-resistance yield device allows 50-100 mm plastic displacement.
+- **Reference**: adapted from Earth tunnel pre-stressed anchor technology.
+
+**(c) Steel-fiber sulfur-concrete spray lining**
+
+- **Material**: steel fibers (recovered from lunar-smelted iron scrap, length 20-30 mm, diameter 0.5 mm) mixed with sulfur concrete (Volume V Section 5.5.3).
+- **Process**: sulfur heated to 140°C, mixed with regolith aggregate and steel fibers, then sprayed onto cave walls via insulated spray gun; solidifies immediately upon cooling.
+- **Thickness**: >=10 cm. Steel fibers significantly improve shear toughness (residual strength retention rate >=80%).
+
+**(d) Yielding steel arch sets**
+
+Install **three-piece yielding steel arch sets** (U-section steel, yield strength >=350 MPa) in heavily fractured sections, with sliding joints at arch-piece connections (±20 mm slip allowance), permitting slow rock deformation while maintaining support resistance. No oxidative corrosion of steel in lunar vacuum; service life >=100 years.
+
+**(e) Grouting consolidation**
+
+- **Grouting material**: sulfur-asphalt composite grout (sulfur:asphalt = 7:3, melting point about 120°C, no outgassing under vacuum) or low-melting-point glass grout (lead-borosilicate glass, melting point about 450°C, requiring pre-heated rock wall).
+- **Process**: stage grouting (one stop plug per 2 m), grouting pressure 0.5-1.0 MPa.
+
+**(f) Monitoring and early warning**
+
+- Incorporate distributed fiber-optic strain monitoring from Main Volume VIII Section 8.4.4, supplemented by **microseismic sensors** (sensitivity >=10⁻⁹ m/s²) capable of detecting microscale joint-face slip events (magnitude -2 to 0).
+- Set two-tier strain thresholds:
+  - **Yellow alert** (microstrain >200 με): automatically activates high-pressure grouting system.
+  - **Red alert** (microstrain >500 με): triggers emergency evacuation.
+
+**(g) Items to Be Validated** (added concurrently to Volume II Section 2.8)
+
+| ID | Item | Validation Method | Pass Criterion |
+|:---|:---|:---|:---|
+| **P1-L3** | Long-term strength degradation of coated CFRP bolts under vacuum UV | Apply sustained load (50% of breaking force) to bolts in simulated lunar vacuum UV environment for >=1 year | Strength degradation <=15% |
+| **P1-L4** | Steel-fiber sulfur-concrete spray forming and shear toughness under reduced gravity | Spray-forming trials in 1/6 g simulation platform and vacuum chamber; measure shear strength of standard specimens | Spray layer is uniform in thickness; shear strength >=15 MPa |
+| **P2-L5** | Vacuum curing and rock-wall adhesion of sulfur-asphalt grout | Inject grout into simulated lunar rock fractures in vacuum chamber; splitting tests after curing | Bond strength >=5 MPa; no visible voids after curing |
 
 
 ### 2.5 Long-Term Underground Energy Hub: Thermal-Electric-Light Co-Generation Overview
