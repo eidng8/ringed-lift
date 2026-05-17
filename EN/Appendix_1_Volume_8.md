@@ -2,7 +2,7 @@
 
 ## Volume VIII: Emergency, Protection, and Rescue
 
-**Version**: 1.5<br/>
+**Version**: 1.6<br/>
 **Date of Preparation**: June 2026<br/>
 **Currency Unit**: RMB (Y)<br/>
 **Related Main Volume**: Main Volume XII (Emergency, Redundancy, and Lifeline Engineering)<br/>
@@ -168,7 +168,7 @@ Solar particle events (SPE) are among the most challenging space-environment eme
 
 **(a) Warning intake stage (T-60 min to T-30 min after SPE alert issuance)**
 
-1. Circumlunar space-environment monitoring satellites (or particle detectors on Queqiao-2) detect anomalous high-energy particle flux and automatically send warning signals to base control.
+1. Circumlunar space-environment monitoring satellites (or particle detectors on Queqiao-2) detect anomalous high-energy particle flux and automatically send warning signals to base control. Current SEP prediction models can provide a 30-60 minute warning window based on coronagraph observations and real-time particle flux data [2].
 2. On-duty AI in control center validates source and flux data within <10 s; if Level-I threshold is exceeded, trigger base-wide **I-AS** red alert immediately (audio/visual alarm + all-band broadcast + forced personal-terminal push).
 3. Duty commander confirms alert and issues all-personnel evacuation order within <60 s.
 
