@@ -2,7 +2,7 @@
 
 ## Volume III: Energy System
 
-**Version**: 1.9<br/>
+**Version**: 1.13<br/>
 **Date of Preparation**: June 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
 **Related Main Volumes**: Main Volume IX (Energy and Communication Infrastructure), Main Volume VII (Engineering Validation)<br/>
@@ -383,6 +383,39 @@ While generating power, the s-CO₂ Brayton system and nuclear reactors can form
 
 This cascaded thermal-utilization system raises overall energy-utilization efficiency from about 50% for power-only operation to **above 85%**. After reactor waste heat is connected to low-temperature heating loops, most routine base-heating demand can be covered, with heat pumps retained only for peak regulation and backup. Detailed thermal-demand profiles, insulation standards, and interface designs for industrial subsystems are developed in Volume IV and Volume V.
 
+Smelting plants and CNT factories operating in vacuum environments cannot dissipate waste heat by convection. For 1 GWe smelting energy consumption with low-temperature waste heat (<200°C), conventional aluminum-fin radiative panels alone would require tens of thousands of square meters of surface area.
+
+To address this heat-rejection bottleneck, the following two alternative paths are recommended (may be used complementarily):
+
+**(1) Liquid Droplet Radiator (LDR)**
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Working fluid | Liquid tin or low-melting-point alloy (e.g., Galinstan) | High emissivity, low vapor pressure |
+| Operating temperature | 400-800°C | Matches high-temperature smelting-furnace waste heat |
+| Heat-rejection density | Up to 50-100 kW/m² (droplet curtain) | Far higher than solid panels at 5-10 kW/m² |
+| Fluid circulation | Droplet ejection → free-flight radiative cooling → collector recovery | No solid structure penetration risk from meteoroids |
+
+**LDR potential issues and mitigation**:
+- **Droplet collection efficiency**: design conical collectors with electrostatic-field-assisted recovery, target efficiency ≥99.9%, annual fluid loss ≤0.1%.
+- **Low-gravity impact**: under lunar 1/6 g, droplet flight paths are elongated; ejection velocity and collector spacing must be adjusted.
+- **Low-temperature freezing**: operate LDR only during daytime high-temperature conditions; shut down during cold lunar nights and rely on thermal-storage tanks to maintain heat balance.
+
+**(2) Polar PSR Heat Sink (applicable to Shackleton polar sites only)**
+
+For polar sites (Shackleton rim or Philolaus), the naturally cold permanently shadowed region (PSR) environment (<100 K) can serve as a heat sink. Routing waste heat via heat-pipe networks into radiative panels in PSR zones (embedded in ice-bearing regolith) can reduce rejection temperatures to below 0°C, reducing required radiative area by an order of magnitude compared to equatorial sites.
+
+**(3) Cogeneration Waste-Heat Recovery (recommended as first priority)**
+
+Priority should be given to using low-temperature waste heat (30-50°C) for habitation-zone heating and dome-farm thermal maintenance (see Section 3.5.7), reducing energy waste. Only residual waste heat that cannot be utilized (>200°C) needs to be rejected via LDR or PSR heat sinks.
+
+**Items to Be Validated**:
+
+| ID | Item | Validation Method | Success Standard |
+|:---|:---|:---|:---|
+| **P1-E4** | LDR droplet collection efficiency lunar validation | Test LDR scaled prototype (Galinstan working fluid) on low-gravity simulation platform for continuous operation ≥100 hours | Droplet collection rate ≥99.9%, fluid loss ≤0.1%/year |
+| **P2-E5** | PSR heat-sink heat-pipe network feasibility | Test heat-pipe thermal transfer power and long-term stability in simulated PSR low-temperature environment (<100 K) | Heat-pipe transfer power ≥1 kW/unit, continuous operation ≥1,000 h without failure |
+
 #### 3.5.8 Implementation Notes for Thermal, Electrical, and Optical Transmission
 
 The transmission schemes in Sections 3.5.4-3.5.7 are ideal-condition evaluations based on physical principles. Real engineering deployment faces additional constraints and must be adapted to site geology, equipment availability, and construction capability. Key variation factors and engineering impacts are listed below for downstream detailed design:
@@ -432,6 +465,134 @@ Commercialization timing for D-3He depends on two key factors: first, scaled He-
 Before fusion deployment, base power demand is fully met by the thermal-electric-light hub, heliostat arrays + s-CO₂ Brayton + molten-salt storage. Commercial fusion deployment marks the final transition from solar dependence to autonomous fusion energy and creates a physical basis for large-scale deep-space power export.
 
 
+### 3.5.10 Base Unified Thermal Pipeline Network and Cascaded Heat Utilization
+
+#### (1) Design Principles
+
+Thermal management for the lunar base, including industrial, habitation, and farming zones, should be planned as a unified system through a **main thermal pipeline network** that collects, transfers, distributes, and ultimately rejects heat. Core principles:
+- **Cascaded utilization**: high-temperature heat sources are used first for power generation and industrial processes; medium-temperature sources for water-ice extraction and raw-material preheating; low-temperature sources for space heating and thermal maintenance.
+- **Peak shaving and valley filling**: molten-salt storage tanks (already designed in Section 3.5.3) are used to balance daytime/nighttime thermal load fluctuations.
+- **Unified rejection**: waste heat that cannot be utilized is ultimately rejected to space via lunar surface radiative panels (or LDR).
+
+#### (2) Thermal Network Topology
+
+| Layer | Temperature Range | Heat Sources | Heat Sinks | Working Fluid |
+|:---|:---|:---|:---|:---|
+| **High-temperature loop** | 500-800°C | Nuclear reactors, heliostat molten salt | s-CO₂ turbine, metal smelting | Molten salt (NaK) |
+| **Medium-temperature loop** | 200-500°C | Turbine extraction, smelting-furnace waste heat | Water-ice extraction, regolith sintering, Sabatier reactor | Heat-transfer oil or supercritical CO₂ |
+| **Low-temperature loop** | 30-50°C | Radiative panel waste heat, equipment cooling water | Habitation-zone capillary network, dome-farm thermal maintenance, aquaponics | Water or propylene glycol |
+| **Heat-rejection loop** | Variable (up to 500°C) | Residual waste heat from all loop levels | Lunar surface radiative panels or LDR | Liquid sodium (Na) or NaK |
+
+#### (3) Underground-Surface Vertical Thermal Connection
+
+For heat sources deployed inside underground lava tubes, **vertical heat pipes** are required to extract heat up to the lunar surface.
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Heat-pipe working fluid | Liquid sodium (Na) | High thermal conductivity, wide operating range (97-883°C) |
+| Heat-pipe material | Stainless steel or titanium alloy | Corrosion-resistant, sodium-compatible |
+| Heat-pipe diameter | 50-100 mm | Single-pipe transfer capacity ≥50 kW |
+| Vertical borehole depth | 50-200 m | Drilled upward from lava-tube crown to lunar surface |
+| Number of heat pipes | 20-50 | Parallel redundancy |
+
+Evaporator sections of vertical heat pipes are installed near underground heat sources (electrolytic cells, reactors, nuclear reactors). Condenser sections are connected to lunar surface radiative panels or to the heating section of LDR droplet radiators.
+
+#### (4) Surface Heat-Rejection System
+
+Waste heat that cannot be recovered through cascaded utilization must be rejected to space via the surface heat-rejection system. Deployment siting requirements:
+- **Distance from skylights**: ≥2 km from skylight lift systems, to prevent high-speed lunar dust kicked up by rocket plumes from abrasively damaging rejection equipment.
+- **Away from PV arrays**: avoid shading solar panels or being shaded by them.
+- **Exploit natural terrain**: preferably deployed on crater rims or sun-shaded slopes to minimize thermal-radiation impact on nearby facilities.
+
+**Rejection Method 1: Aluminum-Fin Radiative Panels (Baseline)**
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Panel material | Aluminum alloy (anodized surface, emissivity ε ≥0.85) | Lightweight, manufacturable on lunar surface |
+| Operating temperature | 100-200°C (low-temperature loop) / 300-500°C (medium-temperature loop) | Determined by inlet fluid temperature |
+| Areal heat-rejection power | 5-10 kW/m² @ 200°C (deep-space background 4 K) | Calculated by Stefan-Boltzmann law |
+| Total rejection area | Depends on residual waste-heat power (example: 1 MW residual waste heat requires 100-200 m²) | Scalable as needed |
+| Panel module size | 10 m × 5 m = 50 m² per panel | Modular parallel |
+| Redundancy | n+1 configuration (at least 2 parallel groups) | Reduced-power operation if one group fails |
+
+**Rejection Method 2: Liquid Droplet Radiator (LDR, Long-Term Alternative)**
+
+When residual waste-heat power ≥10 MW or lower mass is required, LDR is used. LDR ejects working fluid (liquid tin or Galinstan) as a droplet curtain into space for free-flight radiative cooling, then recovers it via collector.
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Working fluid | Liquid tin (Sn) or Galinstan alloy | High emissivity, low vapor pressure |
+| Operating temperature | 400-800°C | Matches medium/high-temperature waste heat |
+| Heat-rejection density | 50-100 kW/m² (droplet curtain projected area) | Far higher than solid panels |
+| Fluid circulation | Droplet ejection → free-flight radiative cooling → collector recovery | Collection efficiency ≥99.9% |
+| Deployment area | About 1/5 to 1/10 of solid-panel equivalent | — |
+| Interface with vertical heat pipes | Heat-pipe condenser section heats LDR droplet generator | — |
+
+#### (5) Rock Thermal Protection Measures
+
+Surrounding lava-tube rock (basalt, anorthosite) has very low thermal conductivity ($k \approx 1.2\text{–}2.0\text{ W/m}\cdotp\text{K}$). Even if industrial waste heat is extracted via vertical heat pipes, radiated heat from high-temperature equipment can still warm the cave interior air, causing slow temperature rise in surrounding rock. When rock temperature exceeds 300-400°C, trace bound water and gases inside the rock expand upon heating, potentially causing microcrack propagation and thermal spalling, which in severe cases can lead to tunnel-crown collapse.
+
+To address this, the following rock-protection measures are added to the heat-pipe network:
+
+| Protection Measure | Design Parameters | Notes |
+|:---|:---|:---|
+| **Vacuum insulation enclosure for high-temperature equipment** | Double-layer stainless-steel shell with vacuum gap (<10⁻² Pa) and interior aluminum-foil reflective layer (reflectivity ≥0.95) | Controls radiated heat leakage to ≤5% of rated thermal output, isolating equipment from cave air |
+| **Cave-air to heat-pipe heat exchanger** | Fin-type heat exchanger connected to low-temperature loop heat pipes | Extracts cave-air heat to maintain ambient temperature ≤50°C |
+| **Cave-wall high-reflectance coating** | Aluminum oxide or titanium dioxide coating, thickness ≥0.5 mm, reflectivity ≥0.85 | Sprayed onto lava-tube walls to reduce radiated heat absorption |
+| **Distributed temperature monitoring** | Thermocouples embedded in cave walls every 50 m (accuracy ±1°C) | Real-time rock temperature monitoring with abnormal-rise alerts |
+
+**Emergency measures**:
+- If local rock temperature monitoring detects >150°C, automatically increase heat-exchanger power in that zone.
+- If temperature >250°C, activate emergency mode: ① reduce industrial-zone production load; ② route partial waste heat into thermal-storage tanks; ③ suspend production if necessary and wait for temperature to fall.
+
+**Items to Be Validated**:
+
+| ID | Item | Validation Method | Success Standard |
+|:---|:---|:---|:---|
+| **P1-E9** | Vacuum insulation enclosure radiated heat leakage test | Simulate high-temperature equipment (1,000°C) in vacuum chamber and measure enclosure exterior surface temperature | Exterior surface temperature ≤100°C, radiated heat leakage ≤5% |
+| **P2-E10** | Long-term adhesion of cave-wall high-reflectance coating | Test coating adhesion under simulated lunar thermal cycling (-150°C to +150°C) and UV irradiation | No coating delamination, reflectivity degradation ≤10% per 10 years |
+
+#### (6) Heat-Rejection Circuit Failure Redundancy
+
+The thermal pipeline network (including vertical heat pipes, surface radiative panels, and LDR) is the main artery for base waste-heat rejection. Tiered emergency measures are required for partial or complete failure.
+
+**Failure Mode Classification**:
+- **Level 1 (local heat-pipe failure)**: single or few vertical heat-pipe failures, heat-transfer capacity reduced ≤30%.
+- **Level 2 (panel/LDR failure)**: surface radiative panels or LDR failure, heat-rejection capacity reduced ≥50%.
+- **Level 3 (total failure)**: main thermal-pipeline network rupture or multiple failures, heat-rejection capacity approaches zero.
+
+**Response Measures**:
+
+| Failure Level | Automatic Response | Manual Intervention | Recovery Time Target |
+|:---|:---|:---|:---:|
+| **Level 1** | Automatically switch to redundant heat pipes (n+2 configuration); increase adjacent heat-pipe fluid flow rate | Scheduled maintenance inspection | ≤24 h |
+| **Level 2** | ① Switch to backup panel group (n+1 configuration); ② Reduce industrial-zone production load to 50%; ③ Activate habitation-zone heating loop as temporary heat sink | Emergency repair, procure spares from Earth/ring ladder if necessary | ≤72 h |
+| **Level 3** | ① Full-plant emergency shutdown (<5 min); ② Route remaining waste heat into molten-salt storage tanks (buffer ≥12 h); ③ Initiate emergency ventilation and use natural thermal capacity of cave walls as temporary heat absorber | Full emergency repairs, deploy ground-backup pipeline modules | ≤7 days |
+
+**Design Redundancy**:
+- Vertical heat pipes configured at **n+2** (any 2 failures do not affect system).
+- Surface radiative panels configured at **n+1**, LDR with dual droplet-generator redundancy.
+- Storage-tank capacity must accommodate **12 hours** of full-load waste heat (sized for peak industrial-zone power).
+
+**Items to Be Validated**:
+
+| ID | Item | Validation Method | Success Standard |
+|:---|:---|:---|:---|
+| **P1-E11** | Thermal-network failure emergency-response drill | Inject heat-pipe failure signals into ground-simulated base thermal-management system and test automatic response logic | Level 1 failure: switchover time ≤10 s; Level 3 failure: full-plant shutdown time ≤5 min |
+
+#### (7) Coordination with Habitation-Zone Heating and Farm Thermal Maintenance
+
+The low-temperature loop has already been interfaced with the "capillary radiant terminal network" in Volume II Section 2.4.3 and the "dome-farm thermal control" in Volume VII Section 7.4.2. When industrial waste heat is sufficient, habitation-zone and farm heating demand can be fully met by waste heat, with heat pumps retained only as backup.
+
+#### (8) Items to Be Validated
+
+| ID | Item | Validation Method | Success Standard |
+|:---|:---|:---|:---|
+| **P1-E6** | Vertical heat-pipe thermal dissipation efficiency validation | Continuous heat-transfer test of heat-pipe prototype for ≥1,000 hours in vacuum chamber simulating lunar regolith thermal properties (thermal conductivity 1.2 W/m·K) | Single heat pipe transfer power ≥50 kW, temperature drop ≤50°C, no leaks |
+| **P2-E7** | Cascaded heat-utilization system efficiency validation | Run unified thermal pipeline network model (including industrial, habitation, and farm thermal loads) in base-level simulation to calculate overall heat-utilization efficiency | Overall heat-utilization efficiency ≥85% (i.e., only ≤15% waste heat requires rejection) |
+| **P2-E8** | Long-term performance validation of lunar surface radiative panels | Accelerated aging test of panel prototype for ≥6 months under simulated lunar vacuum, UV, and thermal cycling conditions | Panel emissivity degradation ≤10%, no structural deformation |
+
+
 ### 3.6 Validation Items and Success Criteria
 
 The validation items below are specific to this volume, Volume III. They inherit P0 results from Volume I and provide boundary conditions for subsequent volumes. All are integrated into Main Volume VII P0/P1/P2/P3 framework.
@@ -441,10 +602,18 @@ The validation items below are specific to this volume, Volume III. They inherit
 | **P1-E1** | Heliostat tracking precision and dust-related attenuation | Continuous heliostat-array operation for >=12 months under lunar-vacuum and lunar-dust conditions, including at least 6 daytime months | Tracking precision maintained <=0.5 mrad and mirror reflectivity attenuation from dust <=5% |
 | **P1-E2** | Lunar startup of supercritical CO₂ turbine | Ground vacuum-chamber test of full-power operation >=10 MWe for >=100 h continuous run | Validate startup, acceleration, grid tie, and load regulation in simulated lunar thermal-vacuum conditions, with focus on dry gas bearing load capacity and stability under 1/6 g |
 | **P1-E3** | Cross-lunar-night thermal retention of molten-salt tanks | Simulated 14-day lunar-night heat-loss test in ground vacuum chamber using 1:10 scaled storage tank with MLI insulation and vacuum annulus | Heat loss from 565°C to about 350°C <=2% per day. Full-scale tanks have larger thermal inertia, so actual loss is expected lower than scaled extrapolation |
+| **P1-E4** | LDR droplet collection efficiency lunar validation | Test LDR scaled prototype (Galinstan working fluid) on low-gravity simulation platform for continuous operation ≥100 hours | Droplet collection rate ≥99.9%, fluid loss ≤0.1%/year |
+| **P1-E6** | Vertical heat-pipe thermal dissipation efficiency validation | Continuous heat-transfer test of heat-pipe prototype for ≥1,000 hours in vacuum chamber simulating lunar regolith thermal properties (thermal conductivity 1.2 W/m·K) | Single heat pipe transfer power ≥50 kW, temperature drop ≤50°C, no leaks |
+| **P1-E9** | Vacuum insulation enclosure radiated heat leakage test | Simulate high-temperature equipment (1,000°C) in vacuum chamber and measure enclosure exterior surface temperature | Exterior surface temperature ≤100°C, radiated heat leakage ≤5% |
+| **P1-E11** | Thermal-network failure emergency-response drill | Inject heat-pipe failure signals into ground-simulated base thermal-management system and test automatic response logic | Level 1 failure: switchover time ≤10 s; Level 3 failure: full-plant shutdown time ≤5 min |
 | **P2-E1** | Long-term performance of radiative panels | Accelerated aging test of carbon-carbon composite panels under simulated lunar vacuum, UV, and thermal cycling | Determine ten-year-scale degradation rate of heat-rejection performance |
 | **P2-E2** | Durability of splitter coatings | Accelerated aging of dichroic dielectric coatings under simulated lunar vacuum, UV, and SPE proton irradiation with active cooling, about 100°C-150°C | Determine five-year-scale optical-performance degradation rate |
 | **P2-E3** | Lunar suitability of adaptive optics | Long-term reliability tests, >=10^6 cycles, of adaptive-optics collimation under simulated lunar thermal vacuum and dust | Validate wavefront-correction precision and long-term actuator reliability of deformable mirrors |
 | **P2-E4** | Lunar-vacuum thermal management of solid-state transformers | 1:1 transformer prototype tested in ground vacuum chamber at full power for >=100 h continuous run | Validate heat rejection and insulation reliability under simulated lunar vacuum and low gravity. Confirm SiC junction temperature <=175°C and aging rate of epoxy encapsulation under prolonged partial discharge |
+| **P2-E5** | PSR heat-sink heat-pipe network feasibility | Test heat-pipe thermal transfer power and long-term stability in simulated PSR low-temperature environment (<100 K) | Heat-pipe transfer power ≥1 kW/unit, continuous operation ≥1,000 h without failure |
+| **P2-E7** | Cascaded heat-utilization system efficiency validation | Run unified thermal pipeline network model (including industrial, habitation, and farm thermal loads) in base-level simulation to calculate overall heat-utilization efficiency | Overall heat-utilization efficiency ≥85% (i.e., only ≤15% waste heat requires rejection) |
+| **P2-E8** | Long-term performance validation of lunar surface radiative panels | Accelerated aging test of panel prototype for ≥6 months under simulated lunar vacuum, UV, and thermal cycling conditions | Panel emissivity degradation ≤10%, no structural deformation |
+| **P2-E10** | Long-term adhesion of cave-wall high-reflectance coating | Test coating adhesion under simulated lunar thermal cycling (-150°C to +150°C) and UV irradiation | No coating delamination, reflectivity degradation ≤10% per 10 years |
 
 
 ### 3.7 Parameter Outputs
