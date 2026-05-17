@@ -2,11 +2,11 @@
 
 ## Volume V: Manufacturing System
 
-**Version**: 1.4<br/>
+**Version**: 1.8<br/>
 **Date**: May 2026<br/>
 **Currency Unit**: RMB (Y)<br/>
-**Related Main Volumes**: Main Volume II (Material Parameters), Main Volume VII (Engineering Verification)<br/>
-**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Siting and Infrastructure), Volume III (Energy System), Volume IV (Resource Prospecting and Mining Engineering)
+**Related Main Volumes**: Main Volume II, Main Volume VII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III, Volume IV
 
 
 ### Terminology Table
@@ -141,7 +141,7 @@ Solar-wind H/He/C/N ions are implanted into near-surface regolith grains over lo
 
 **(d) Asteroid-derived carbon capture (long-term main source)**
 
-After capture of C-type asteroids and transfer to cislunar space, in-orbit pyrolysis extracts hydrocarbons that are chemically converted and supplied to lunar CNT plants. This route is handled in Main Volume II Section 2.5.6 and is long-term primary carbon source for large-scale CNT production. In Stages 1-2, carbonaceous residues and polar CO₂ cold traps are supplementary sources.
+After capture of C-type asteroids and transfer to cislunar space, in-orbit pyrolysis extracts hydrocarbons. Engineering path, equipment parameters, and pending validation items are detailed in Appendix I Volume IV Section 4.3.4. In Stages 1–2, only carbonaceous-chondrite surface residues and polar CO₂ cold traps are used as supplementary sources.
 
 #### 5.2.4 Sulfur Sources
 
@@ -373,6 +373,61 @@ For each batch (~1 t), sample compressive strength (target >=20 MPa). After 100 
 - **Initial Al consumption**: aluminothermic step consumes about 10%-20% Al per batch as unrecoverable loss; replenished from electrolysis output.
 - **Electrolysis-cell mass**: <=3,000 kg including vessel, electrodes, electrolyte.
 
+**Long-term alternative: Molten Regolith Electrolysis (MRE)**
+
+To eliminate reagent replenishment entirely, MRE is a long-term option. This process directly electrolyzes molten lunar regolith at 1,600°C without consuming any chemical reagents; products are an Al-Si-Fe-Ti alloy. Engineering challenges include:
+- **High-temperature materials**: anode corrosion resistance and furnace-lining life at 1,600°C; requires development of inert alloy anodes or self-generating oxygen-barrier technologies.
+- **Alloy separation**: cathode product is a mixed alloy requiring secondary refining.
+- **Energy density**: extreme-temperature smelting intensifies heat-rejection burden; co-design with thermal-management system is necessary.
+
+**Pending validation item (V5-F5)**: Cryolite net loss rate verification under lunar conditions. Run continuous >=1,000-hour operation test of aluminum electrolysis cell under simulated lunar vacuum and 1/6 g, measuring cryolite loss rate (volatilization + mechanical entrainment). Success criterion: net loss rate <=2% per batch. If measured loss rate is significantly higher, add cryolite recovery equipment or switch to MRE.
+
+**Low-gravity bubble detachment optimization (MHD circulation and inert anodes)**
+
+Under lunar 1/6 g, buoyancy on electrolysis-generated gas (O2 or CO/CO₂) is greatly reduced. Gas can adhere to anode surfaces and cause "anode effect" (sudden voltage spike, energy converted to Joule heat). The following measures are adopted:
+
+**(1) Magnetohydrodynamic (MHD) circulation**
+
+Install electromagnetic coils on the outside of the electrolysis cell. Apply a magnetic field perpendicular to the electrolysis current direction. Lorentz force drives forced circulation of the molten salt, mechanically stripping adhering bubbles. Design parameters:
+
+| Parameter | Design Value | Notes |
+|:---|:---|:---|
+| Magnetic field strength | 0.1–0.5 T | Controlled by coil current |
+| Circulation velocity | 0.1–0.5 m/s | Sufficient to strip bubbles |
+| Coil power | <=5% of cell power | Additional energy consumption |
+| Coil material | Copper-clad aluminum | Lightweight |
+
+**(2) Inert anodes preferred**
+
+Prefer inert anodes (e.g., NiFe₂O₄ ceramic or nickel stannate). Anode product is pure oxygen (not CO/CO₂). Oxygen bubbles have lower density and detach more easily; no carbon consumption; further reduces anode-effect risk.
+
+**Pending validation items**:
+
+| ID | Item | Validation Method | Success Criterion |
+|:---|:---|:---|:---|
+| **P1-F6** | MHD-assisted bubble detachment in low-gravity electrolysis cell | Apply MHD circulation to a 1:10 scale electrolysis cell on a low-gravity simulation platform (parabolic flight or drop tower); measure bubble detachment frequency and cell voltage qualitatively | Cell voltage fluctuation <=±10% and bubble coverage <=5% compared with 1 g reference |
+| **P2-F7** | Inert anode long-term life validation | Continuous operation >=1,000 hours in simulated lunar electrolysis environment; measure anode corrosion rate | Anode annual corrosion rate <=1 mm |
+
+**(d) Emergency power-off molten-salt drain plan**
+
+When the electrolysis cell experiences a sudden base power outage (e.g., emergency reactor shutdown) and all active heating means (Volume III Section 3.5.3 high-temperature molten-salt thermal storage backup; MHD coil induction heating) fail, a passive physical drain must transfer liquid electrolyte to an external emergency collection tank to prevent in-situ solidification and permanent equipment loss. This plan is adapted for lunar 1/6 g and ultra-high vacuum (~10⁻¹² bar).
+
+1. **Active thermal hold (priority)**
+   - After grid outage, first activate high-temperature molten-salt thermal storage (565°C) circulation through the cell jacket to maintain cell temperature >=500°C.
+   - If thermal storage is unavailable, switch MHD excitation coils to medium-frequency induction heating mode (1–10 kHz) powered by backup batteries.
+
+2. **Passive physical drain (last resort)**
+   - **Drain method**: pressure-assisted drain. High-pressure argon (1.5 bar) is introduced at the cell top to push liquid molten salt out.
+   - **Valve**: install an electromagnetic fuse valve (iron core wrapped with induction coil). When cell temperature drops to 700°C and active heating is confirmed failed, the control system triggers induction heating to melt the iron core, automatically opening the valve.
+   - **Drain pipe**: corundum-mullite ceramic-lined pipe, rated >=1,200°C, inner diameter >=50 mm.
+   - **Emergency collection tank**: located directly below the cell; carbon-steel shell with corundum castable lining; capacity >=1.5× cell volume. Tank maintained at positive argon pressure (0.2–0.5 bar) to suppress electrolyte volatilization.
+
+3. **Operating procedure**
+   - Temperature sensor detects cell temperature <700°C with all active heating failed → control system issues "emergency drain" command.
+   - If the electromagnetic fuse valve does not open as expected, a pre-embedded electric detonator can be remotely triggered to force it open.
+
+**Pending validation item (P0-E12)**: Full-process validation of pressure-assisted drain under low-gravity vacuum. Conduct power-outage drain test on a 1:5 scale electrolysis cell in a 1/6 g simulation platform and vacuum chamber. Success criteria: drain time <=10 min, molten-salt recovery in tank >=95%, electromagnetic fuse valve actuates reliably.
+
 #### 5.6.3 Iron Metallurgy: Ilmenite Hydrogen Reduction (Stages 1-2)
 
 **(a) Feedstocks**
@@ -591,11 +646,13 @@ In strong/high-gradient fields, magnetic particles can form **magnetic agglomera
 | **P1-F1** | Automated sintered-brick line capacity and quality consistency | Continuous operation >=30 days in Stage 2 | >=500 bricks/day, compressive-strength COV <=15%, dimensional tolerance <=3 mm | Volume II P1-M1 |
 | **P1-F2** | Lunar casting performance of regolith concrete | Cast standard sulfur-concrete cubes (150 mm) under lunar-vacuum/low-g conditions | Compressive strength >=20 MPa; <=20% degradation after 100 thermal cycles | Volume II P1-M2 |
 | **P1-F3** | Full-process validation of CNT pre-weaving line | Operate micro FCCVD + pre-weaving with local catalyst and carbon source under lunar conditions | CNT yarn tensile strength >=10 GPa; filament-break density <=1 per km | Volume I P0-M2, Volume II P1-M4 |
+| **P1-F6** | MHD-assisted bubble detachment in low-gravity electrolysis cell | Apply MHD circulation to a 1:10 scale electrolysis cell on a low-gravity simulation platform (parabolic flight or drop tower); measure bubble detachment frequency and cell voltage qualitatively | Cell voltage fluctuation <=±10% and bubble coverage <=5% compared with 1 g reference | — |
 | **P2-F1** | Lunar smelting efficiency of DC arc furnace | Run DC arc furnace (with EMS) using lunar magnetic concentrate (>=30% $FeTiO_3$) under simulated lunar vacuum and 1/6 g | Fe recovery >=80%, Al reduction efficiency >=30%, lining life >=100 batches | Volume II P2-M1 |
 | **P2-F2** | Long-term stability of CNT mass-production line | Continuous operation of Stage 2 industrial FCCVD array >=3 months | >=1,000 kg/month output, >=90% pass rate, <=1 unplanned shutdown/month | Main Volume II |
 | **P2-F3** | Cascaded aggregate-sorting efficiency | Ground simulant testbed with full sorting train (magnetic + electrostatic + machine vision) | Medium-fraction ilmenite recovery >=85%, fine-fraction np-Fe recovery >=80%, no degradation in residual-material construction performance [17] | Volume IV, this volume |
 | **P2-F4** | Closed-loop validation of aluminothermic + molten-salt electrolysis | Ground simulant closed-loop operation >=10 batches (with EMS assistance) | Comprehensive Al recovery >=80%, net Al loss <=15% per batch, anode O2 purity >=90% [10][11][18] | Section 5.6.2 |
 | **P2-F5** | EMS-assisted slag-metal separation efficiency | Run scaled arc-furnace model with EMS on simulated 1/6 g platform | In 1/6 g + EMS, slag-metal separation efficiency improves >=3x over no-stirring baseline; metal-phase inclusion level <=1.2x terrestrial process benchmark | Sections 5.6.2, 5.9.2 |
+| **P2-F7** | Inert anode long-term life validation | Continuous operation >=1,000 hours in simulated lunar electrolysis environment; measure anode corrosion rate | Anode annual corrosion rate <=1 mm | — |
 
 
 ### 5.11 Parameter Outputs
