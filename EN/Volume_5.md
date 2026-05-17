@@ -79,34 +79,34 @@ Substituting representative altitudes:
 z = 0 km (ground):
 
 $$
-g(0) = \frac{3.986\times10^{14}}{(6.371\times10^6)^2} \approx 9.81 \, \text{m/s}^2
+g(0) = \frac{3.986\times10^{14}}{(6.371\times10^6)^2} \approx 9.81  \text{m/s}^2
 $$
 
 z = 5,000 km:
 
 $$
-r = 6.371\times10^6 + 5.0\times10^6 = 1.1371\times10^7 \, \text{m}
+r = 6.371\times10^6 + 5.0\times10^6 = 1.1371\times10^7  \text{m}
 $$
 $$
-g(5,000) = \frac{3.986\times10^{14}}{(1.1371\times10^7)^2} = \frac{3.986\times10^{14}}{1.2930\times10^{14}} \approx 3.08 \, \text{m/s}^2
+g(5,000) = \frac{3.986\times10^{14}}{(1.1371\times10^7)^2} = \frac{3.986\times10^{14}}{1.2930\times10^{14}} \approx 3.08  \text{m/s}^2
 $$
 
 z = 14,000 km:
 
 $$
-r = 6.371\times10^6 + 1.4\times10^7 = 2.0371\times10^7 \, \text{m}
+r = 6.371\times10^6 + 1.4\times10^7 = 2.0371\times10^7  \text{m}
 $$
 $$
-g(14,000) = \frac{3.986\times10^{14}}{(2.0371\times10^7)^2} = \frac{3.986\times10^{14}}{4.1498\times10^{14}} \approx 0.96 \, \text{m/s}^2
+g(14,000) = \frac{3.986\times10^{14}}{(2.0371\times10^7)^2} = \frac{3.986\times10^{14}}{4.1498\times10^{14}} \approx 0.96  \text{m/s}^2
 $$
 
 z = 42,164 km (GEO):
 
 $$
-r = 4.2164\times10^7 \, \text{m}
+r = 4.2164\times10^7  \text{m}
 $$
 $$
-g(42,164) = \frac{3.986\times10^{14}}{(4.2164\times10^7)^2} = \frac{3.986\times10^{14}}{1.7778\times10^{15}} \approx 0.224 \, \text{m/s}^2
+g(42,164) = \frac{3.986\times10^{14}}{(4.2164\times10^7)^2} = \frac{3.986\times10^{14}}{1.7778\times10^{15}} \approx 0.224  \text{m/s}^2
 $$
 
 ### 5.2.4 Shared Physical Parameters
@@ -160,7 +160,7 @@ $$
 V_{\text{mid}} = \pi R^2 H_{\text{mid}} = \pi \times (2.1)^2 \times 37
 $$
 $$
-= 3.14159 \times 4.41 \times 37 \approx 512.6 \, \text{m}^3
+= 3.14159 \times 4.41 \times 37 \approx 512.6  \text{m}^3
 $$
 
 Front half-ellipsoid (major semi-axis a = 10 m along cable, minor semi-axis b = 2.8 m, decoupled from mid-section radius to improve cockpit space):
@@ -169,7 +169,7 @@ $$
 V_{\text{front}} = \frac{2}{3} \pi a b^2 = \frac{2}{3} \times 3.14159 \times 10 \times (2.8)^2
 $$
 $$
-= \frac{2}{3} \times 3.14159 \times 10 \times 7.84 \approx 164.2 \, \text{m}^3
+= \frac{2}{3} \times 3.14159 \times 10 \times 7.84 \approx 164.2  \text{m}^3
 $$
 
 Rear half-ellipsoid is symmetric to the front, also ≈ 164.2 m³.
@@ -177,7 +177,7 @@ Rear half-ellipsoid is symmetric to the front, also ≈ 164.2 m³.
 Total internal volume:
 
 $$
-V_{\text{total}} = 512.6 + 164.2 + 164.2 = 841.0 \, \text{m}^3
+V_{\text{total}} = 512.6 + 164.2 + 164.2 = 841.0  \text{m}^3
 $$
 
 Slightly exceeds the 700 m³ target, retained as equipment reserve space.
@@ -209,16 +209,16 @@ $$
 R_{\text{in}}^2 = \frac{600}{9\pi} = \frac{600}{28.274} \approx 21.22
 $$
 $$
-R_{\text{in}} = \sqrt{21.22} \approx 4.61 \, \text{m}
+R_{\text{in}} = \sqrt{21.22} \approx 4.61  \text{m}
 $$
 
 Take inner diameter $D_{in} = 9.2 m$ ( $R_{in} = 4.6 m$ ). Internal volume check:
 
 $$
-V_{\text{main}} = \pi \times (4.6)^2 \times 9 = 3.14159 \times 21.16 \times 9 \approx 598.5 \, \text{m}^3
+V_{\text{main}} = \pi \times (4.6)^2 \times 9 = 3.14159 \times 21.16 \times 9 \approx 598.5  \text{m}^3
 $$
 $$
-V_{\text{total}} = 598.5 + 100 = 698.5 \, \text{m}^3
+V_{\text{total}} = 598.5 + 100 = 698.5  \text{m}^3
 $$
 
 Consistent with the 700 m³ target.
@@ -283,13 +283,13 @@ $$
 = 3.986\times10^{14} \times (1.5696\times10^{-7} - 2.3717\times10^{-8})
 $$
 $$
-= 3.986\times10^{14} \times 1.3324\times10^{-7} \approx 5.311\times10^7 \, \text{J/kg}
+= 3.986\times10^{14} \times 1.3324\times10^{-7} \approx 5.311\times10^7  \text{J/kg}
 $$
 
 For Hohmann transfer orbit, the potential energy corresponds to:
 
 $$
-\Delta v_{\text{pot}} \approx 10,300 \, \text{m/s}
+\Delta v_{\text{pot}} \approx 10,300  \text{m/s}
 $$
 
 **(2) GEO Orbital Velocity Component**
@@ -297,19 +297,19 @@ $$
 GEO orbital velocity (Earth's synchronous circular velocity):
 
 $$
-v_{\text{GEO}} = \omega_e R_{GEO} = 7.2921\times10^{-5} \times 4.2164\times10^7 \approx 3,075 \, \text{m/s}
+v_{\text{GEO}} = \omega_e R_{GEO} = 7.2921\times10^{-5} \times 4.2164\times10^7 \approx 3,075  \text{m/s}
 $$
 
 Ground equatorial initial rotational velocity:
 
 $$
-v_{\text{ground}} = \omega_e R_e = 7.2921\times10^{-5} \times 6.371\times10^6 \approx 465 \, \text{m/s}
+v_{\text{ground}} = \omega_e R_e = 7.2921\times10^{-5} \times 6.371\times10^6 \approx 465  \text{m/s}
 $$
 
 Velocity increment:
 
 $$
-\Delta v_{\text{orbit}} = 3,075 - 465 = 2,610 \, \text{m/s}
+\Delta v_{\text{orbit}} = 3,075 - 465 = 2,610  \text{m/s}
 $$
 
 **(3) Gravity Loss**
@@ -317,7 +317,7 @@ $$
 Thrust must overcome gravity, loss is proportional to ascent time. For chemical rockets, ascent time is 10 minutes (600 s):
 
 $$
-\Delta v_{\text{gravity}} = g_0 \times t_{\text{ascent}} = 9.81 \times 600 \approx 5,886 \, \text{m/s}
+\Delta v_{\text{gravity}} = g_0 \times t_{\text{ascent}} = 9.81 \times 600 \approx 5,886  \text{m/s}
 $$
 
 **(4) Atmospheric Drag Loss**
@@ -325,7 +325,7 @@ $$
 Empirical value:
 
 $$
-\Delta v_{\text{atm}} \approx 150 \, \text{m/s}
+\Delta v_{\text{atm}} \approx 150  \text{m/s}
 $$
 
 **(5) Total Δv Summary**
@@ -334,7 +334,7 @@ $$
 \Delta v_{\text{total}} = \Delta v_{\text{pot}} + \Delta v_{\text{orbit}} + \Delta v_{\text{gravity}} + \Delta v_{\text{atm}}
 $$
 $$
-= 10,300 + 2,610 + 5,886 + 150 \approx 18,946 \, \text{m/s}
+= 10,300 + 2,610 + 5,886 + 150 \approx 18,946  \text{m/s}
 $$
 
 Rounded to **19,000 m/s**.
@@ -361,7 +361,7 @@ $$
 If burnout mass $m_f = 200 t$ (C2 full load), then initial total mass:
 
 $$
-m_0 = 200 \times 74.1 \approx 14,820 \, \text{t}
+m_0 = 200 \times 74.1 \approx 14,820  \text{t}
 $$
 
 Propellant mass = 14,820 − 200 = **14,620 t**.
@@ -410,7 +410,7 @@ $$
 \text{Required AEPS units} = \frac{1.96\times10^6}{0.6} \approx 3.27\times10^6
 $$
 $$
-\text{Total power} = 3.27\times10^6 \times 13\times10^3 \approx 4.25\times10^{10} \, \text{W} \approx 42.5 \, \text{GW}
+\text{Total power} = 3.27\times10^6 \times 13\times10^3 \approx 4.25\times10^{10}  \text{W} \approx 42.5  \text{GW}
 $$
 
 Even with future fusion power, such a scale of thruster array is not feasible. Moreover, low thrust leads to extremely long ascent times (months or even years), greatly increasing gravity loss and further increasing Δv requirement.
@@ -445,10 +445,10 @@ $$
 v_1^2 = 2 \times 0.4905 \times 5.0\times10^6 = 4.905\times10^6
 $$
 $$
-v_1 = \sqrt{4.905\times10^6} \approx 2,214.7 \, \text{m/s} \approx 7,973 \, \text{km/h}
+v_1 = \sqrt{4.905\times10^6} \approx 2,214.7  \text{m/s} \approx 7,973  \text{km/h}
 $$
 $$
-t_1 = \frac{v_1}{a} = \frac{2,214.7}{0.4905} \approx 4,514 \, \text{s} \approx 1.254 \, \text{h}
+t_1 = \frac{v_1}{a} = \frac{2,214.7}{0.4905} \approx 4,514  \text{s} \approx 1.254  \text{h}
 $$
 
 **Mid Altitude Segment** (initial speed v₁→final speed v₂):
@@ -463,10 +463,10 @@ $$
 = 4.905\times10^6 + 8.829\times10^6 = 1.3734\times10^7
 $$
 $$
-v_2 = \sqrt{1.3734\times10^7} \approx 3,706.1 \, \text{m/s} \approx 13,342 \, \text{km/h}
+v_2 = \sqrt{1.3734\times10^7} \approx 3,706.1  \text{m/s} \approx 13,342  \text{km/h}
 $$
 $$
-t_2 = \frac{v_2 - v_1}{a} = \frac{3,706.1 - 2,214.7}{0.4905} = \frac{1,491.4}{0.4905} \approx 3,041 \, \text{s} \approx 0.845 \, \text{h}
+t_2 = \frac{v_2 - v_1}{a} = \frac{3,706.1 - 2,214.7}{0.4905} = \frac{1,491.4}{0.4905} \approx 3,041  \text{s} \approx 0.845  \text{h}
 $$
 
 **High Altitude Segment** (14,000 km→GEO, initial speed v₂≠0, final speed=0, asymmetric acceleration/deceleration):
@@ -501,16 +501,16 @@ $$
 $$
 
 $$
-\frac{v_2^2}{2a} = \frac{1.3734\times10^7}{0.981} \approx 1.400\times10^7 \, \text{m}
+\frac{v_2^2}{2a} = \frac{1.3734\times10^7}{0.981} \approx 1.400\times10^7  \text{m}
 $$
 $$
 2s_1 = 2.8164\times10^7 - 1.400\times10^7 = 1.4164\times10^7
 $$
 $$
-s_1 = 7.082\times10^6 \, \text{m} \approx 7,082 \, \text{km}
+s_1 = 7.082\times10^6  \text{m} \approx 7,082  \text{km}
 $$
 $$
-s_2 = L_{\text{high}} - s_1 = 28,164 - 7,082 = 21,082 \, \text{km}
+s_2 = L_{\text{high}} - s_1 = 28,164 - 7,082 = 21,082  \text{km}
 $$
 
 $$
@@ -520,17 +520,17 @@ $$
 = 1.3734\times10^7 + 6.947\times10^6 = 2.0681\times10^7
 $$
 $$
-v_{\text{max}} = \sqrt{2.0681\times10^7} \approx 4,548 \, \text{m/s} \approx 16,373 \, \text{km/h}
+v_{\text{max}} = \sqrt{2.0681\times10^7} \approx 4,548  \text{m/s} \approx 16,373  \text{km/h}
 $$
 
 $$
-t_{3a} = \frac{v_{\text{max}} - v_2}{a} = \frac{4,548 - 3,706}{0.4905} \approx 1,717 \, \text{s} \approx 0.477 \, \text{h}
+t_{3a} = \frac{v_{\text{max}} - v_2}{a} = \frac{4,548 - 3,706}{0.4905} \approx 1,717  \text{s} \approx 0.477  \text{h}
 $$
 $$
-t_{3b} = \frac{v_{\text{max}}}{a} = \frac{4,548}{0.4905} \approx 9,272 \, \text{s} \approx 2.576 \, \text{h}
+t_{3b} = \frac{v_{\text{max}}}{a} = \frac{4,548}{0.4905} \approx 9,272  \text{s} \approx 2.576  \text{h}
 $$
 $$
-t_3 = 0.477 + 2.576 = 3.053 \, \text{h}
+t_3 = 0.477 + 2.576 = 3.053  \text{h}
 $$
 
 **Total Ascent Time** = 1.254 + 0.845 + 3.053 = **5.152 h ≈ 0.215 d**.
@@ -604,10 +604,10 @@ Gear parameters: pitch circle diameter 1.0 m, 50 teeth, **40 pairs** (arranged i
 Full load 200 t, including 0.05g₀ acceleration, safety factor S=2.0:
 
 $$
-F_{\text{traction}} = W \times 1.05 = 1.962\times10^6 \times 1.05 \approx 2.060\times10^6 \, \text{N}
+F_{\text{traction}} = W \times 1.05 = 1.962\times10^6 \times 1.05 \approx 2.060\times10^6  \text{N}
 $$
 $$
-F_{\text{design}} = F_{\text{traction}} \times S = 2.060\times10^6 \times 2.0 = 4.12\times10^6 \, \text{N}
+F_{\text{design}} = F_{\text{traction}} \times S = 2.060\times10^6 \times 2.0 = 4.12\times10^6  \text{N}
 $$
 
 **(2) Number of Gear Pairs and Normal Force per Tooth**
@@ -618,7 +618,7 @@ $$
 F_{n,\text{total}} = \frac{F_{\text{design}}}{\cos 20^\circ}
 $$
 $$
-= \frac{4.12\times10^6}{0.9397} \approx 4.384\times10^6 \, \text{N}
+= \frac{4.12\times10^6}{0.9397} \approx 4.384\times10^6  \text{N}
 $$
 
 Overlap ratio ε=2.0, normal force per tooth:
@@ -627,7 +627,7 @@ $$
 F_n = \frac{F_{n,\text{total}}}{N_{\text{pairs}} \times \varepsilon}
 $$
 $$
-= \frac{4.384\times10^6}{40 \times 2} = \frac{4.384\times10^6}{80} \approx 5.48\times10^4 \, \text{N}
+= \frac{4.384\times10^6}{40 \times 2} = \frac{4.384\times10^6}{80} \approx 5.48\times10^4  \text{N}
 $$
 
 **(3) Tooth Surface Contact Stress**
@@ -638,7 +638,7 @@ $$
 \rho_1 = \frac{D_p}{2} \sin\alpha
 $$
 $$
-= 0.5 \times \sin 20^\circ = 0.5 \times 0.3420 \approx 0.171 \, \text{m}
+= 0.5 \times \sin 20^\circ = 0.5 \times 0.3420 \approx 0.171  \text{m}
 $$
 
 Rack tooth profile curvature radius ∞, equivalent curvature radius $ρ_{eq} = 0.171 m$ .
@@ -652,7 +652,7 @@ $$
 = \frac{70\times10^9}{2 \times (1-0.33^2)} = \frac{70\times10^9}{2 \times (1-0.1089)}
 $$
 $$
-= \frac{70\times10^9}{2 \times 0.8911} = \frac{70\times10^9}{1.7822} \approx 3.928\times10^{10} \, \text{Pa}
+= \frac{70\times10^9}{2 \times 0.8911} = \frac{70\times10^9}{1.7822} \approx 3.928\times10^{10}  \text{Pa}
 $$
 
 Contact half-width (tooth width b = 300 mm = 0.30 m):
@@ -664,7 +664,7 @@ $$
 = \sqrt{\frac{4 \times 5.48\times10^4 \times 0.171}{\pi \times 0.30 \times 3.928\times10^{10}}}
 $$
 $$
-= \sqrt{\frac{3.748\times10^4}{3.703\times10^{10}}} \approx \sqrt{1.012\times10^{-6}} \approx 1.006\times10^{-3} \, \text{m} \approx 1.01 \, \text{mm}
+= \sqrt{\frac{3.748\times10^4}{3.703\times10^{10}}} \approx \sqrt{1.012\times10^{-6}} \approx 1.006\times10^{-3}  \text{m} \approx 1.01  \text{mm}
 $$
 
 Maximum contact stress:
@@ -676,13 +676,13 @@ $$
 = \frac{2 \times 5.48\times10^4}{\pi \times 1.006\times10^{-3} \times 0.30}
 $$
 $$
-= \frac{1.096\times10^5}{9.483\times10^{-4}} \approx 1.156\times10^8 \, \text{Pa} \approx 116 \, \text{MPa}
+= \frac{1.096\times10^5}{9.483\times10^{-4}} \approx 1.156\times10^8  \text{Pa} \approx 116  \text{MPa}
 $$
 
 **Contact Stress Check**: Aluminum alloy 7075-T6 after micro-arc oxidation (surface hardness ≥HV1000), contact fatigue limit conservatively 300 MPa. Safety factor $S_H = 1.5$ :
 
 $$
-\sigma_{H,\text{allow}} = \frac{300}{1.5} = 200 \, \text{MPa}
+\sigma_{H,\text{allow}} = \frac{300}{1.5} = 200  \text{MPa}
 $$
 
 Actual 116 MPa < allowable 200 MPa, **margin about 1.72:1, passes**.
@@ -692,13 +692,13 @@ Actual 116 MPa < allowable 200 MPa, **margin about 1.72:1, passes**.
 Total tooth height:
 
 $$
-h_{\text{tooth}} = 2.25 \times m_n = 2.25 \times 20 = 45 \, \text{mm} = 0.045 \, \text{m}
+h_{\text{tooth}} = 2.25 \times m_n = 2.25 \times 20 = 45  \text{mm} = 0.045  \text{m}
 $$
 
 Tooth root thickness (critical section, conservatively use standard trapezoidal tooth geometry):
 
 $$
-t_{\text{root}} \approx 1.5 \times m_n = 1.5 \times 20 = 30 \, \text{mm} = 0.03 \, \text{m}
+t_{\text{root}} \approx 1.5 \times m_n = 1.5 \times 20 = 30  \text{mm} = 0.03  \text{m}
 $$
 
 Section modulus (rectangular section, tooth width b = 300 mm):
@@ -707,7 +707,7 @@ $$
 W = \frac{b \times t_{\text{root}}^2}{6}
 $$
 $$
-= \frac{0.30 \times (0.03)^2}{6} = \frac{0.30 \times 9\times10^{-4}}{6} = 4.50\times10^{-5} \, \text{m}^3
+= \frac{0.30 \times (0.03)^2}{6} = \frac{0.30 \times 9\times10^{-4}}{6} = 4.50\times10^{-5}  \text{m}^3
 $$
 
 Tooth root bending moment (load at tooth tip, worst case):
@@ -716,7 +716,7 @@ $$
 M_{\text{root}} = F_n \times h_{\text{tooth}}
 $$
 $$
-= 5.48\times10^4 \times 0.045 \approx 2,466 \, N \cdotp m
+= 5.48\times10^4 \times 0.045 \approx 2,466  N \cdotp m
 $$
 
 Bending stress:
@@ -725,13 +725,13 @@ $$
 \sigma_F = \frac{M_{\text{root}}}{W}
 $$
 $$
-= \frac{2,466}{4.50\times10^{-5}} \approx 5.48\times10^7 \, \text{Pa} \approx 55 \, \text{MPa}
+= \frac{2,466}{4.50\times10^{-5}} \approx 5.48\times10^7  \text{Pa} \approx 55  \text{MPa}
 $$
 
 **Bending Stress Check**: Aluminum alloy 7075-T6 bending fatigue limit about 115 MPa (10⁷ cycles, conservative, source [5.8]). Safety factor $S_F = 2.0$ :
 
 $$
-\sigma_{F,\text{allow}} = \frac{115}{2.0} = 57.5 \, \text{MPa}
+\sigma_{F,\text{allow}} = \frac{115}{2.0} = 57.5  \text{MPa}
 $$
 
 Actual 55 MPa < allowable 57.5 MPa, **margin about 4.5%, passes in magnitude**.
@@ -748,25 +748,25 @@ $$
 s_{\text{acc,low}} = \frac{v_{\text{low}}^2}{2a}
 $$
 $$
-= \frac{55.56^2}{2 \times 0.4905} = \frac{3,086.4}{0.981} \approx 3,146 \, \text{m} \approx 3.15 \, \text{km}
+= \frac{55.56^2}{2 \times 0.4905} = \frac{3,086.4}{0.981} \approx 3,146  \text{m} \approx 3.15  \text{km}
 $$
 $$
 t_{\text{acc,low}} = \frac{v_{\text{low}}}{a}
 $$
 $$
-= \frac{55.56}{0.4905} \approx 113.3 \, \text{s} \approx 0.0315 \, \text{h}
+= \frac{55.56}{0.4905} \approx 113.3  \text{s} \approx 0.0315  \text{h}
 $$
 
 Constant speed segment:
 
 $$
-s_{\text{const,low}} = 5,000 - 3.15 = 4,996.85 \, \text{km}
+s_{\text{const,low}} = 5,000 - 3.15 = 4,996.85  \text{km}
 $$
 $$
 t_{\text{const,low}} = \frac{s_{\text{const,low}}}{v_{\text{low}}}
 $$
 $$
-= \frac{4,996.85 \times 10^3}{55.56} \approx 89,930 \, \text{s} \approx 24.98 \, \text{h}
+= \frac{4,996.85 \times 10^3}{55.56} \approx 89,930  \text{s} \approx 24.98  \text{h}
 $$
 
 **Low Altitude Ascent Total**: 5,000 km, 0.0315 + 24.98 = **25.01 h**.
@@ -782,25 +782,25 @@ $$
 = \frac{416.67^2 - 55.56^2}{2 \times 0.4905}
 $$
 $$
-= \frac{173,611 - 3,086}{0.981} \approx 173,800 \, \text{m} \approx 173.8 \, \text{km}
+= \frac{173,611 - 3,086}{0.981} \approx 173,800  \text{m} \approx 173.8  \text{km}
 $$
 $$
 t_{\text{acc,mid}} = \frac{v_{\text{high}} - v_{\text{low}}}{a}
 $$
 $$
-= \frac{416.67 - 55.56}{0.4905} = \frac{361.11}{0.4905} \approx 736 \, \text{s} \approx 0.204 \, \text{h}
+= \frac{416.67 - 55.56}{0.4905} = \frac{361.11}{0.4905} \approx 736  \text{s} \approx 0.204  \text{h}
 $$
 
 Constant speed segment:
 
 $$
-s_{\text{const,mid}} = 9,000 - 173.8 = 8,826.2 \, \text{km}
+s_{\text{const,mid}} = 9,000 - 173.8 = 8,826.2  \text{km}
 $$
 $$
 t_{\text{const,mid}} = \frac{s_{\text{const,mid}}}{v_{\text{high}}}
 $$
 $$
-= \frac{8,826.2 \times 10^3}{416.67} \approx 21,183 \, \text{s} \approx 5.88 \, \text{h}
+= \frac{8,826.2 \times 10^3}{416.67} \approx 21,183  \text{s} \approx 5.88  \text{h}
 $$
 
 **Mid Altitude Ascent Total**: 9,000 km, 0.204 + 5.88 = **6.08 h**.
@@ -813,7 +813,7 @@ $$
 s_{\text{brake,high}} = \frac{v_{\text{high}}^2}{2a}
 $$
 $$
-= \frac{416.67^2}{2 \times 0.4905} = \frac{173,611}{0.981} \approx 177,000 \, \text{m} = 177 \, \text{km}
+= \frac{416.67^2}{2 \times 0.4905} = \frac{173,611}{0.981} \approx 177,000  \text{m} = 177  \text{km}
 $$
 
 This braking segment is at the end of the high-altitude segment, 178 km before GEO (rounded). Braking time:
@@ -822,19 +822,19 @@ $$
 t_{\text{brake,high}} = \frac{v_{\text{high}}}{a}
 $$
 $$
-= \frac{416.67}{0.4905} \approx 849 \, \text{s} \approx 0.236 \, \text{h}
+= \frac{416.67}{0.4905} \approx 849  \text{s} \approx 0.236  \text{h}
 $$
 
 Constant speed segment:
 
 $$
-s_{\text{const,high}} = 28,164 - 178 = 27,986 \, \text{km}
+s_{\text{const,high}} = 28,164 - 178 = 27,986  \text{km}
 $$
 $$
 t_{\text{const,high}} = \frac{s_{\text{const,high}}}{v_{\text{high}}}
 $$
 $$
-= \frac{27,986 \times 10^3}{416.67} \approx 67,180 \, \text{s} \approx 18.66 \, \text{h}
+= \frac{27,986 \times 10^3}{416.67} \approx 67,180  \text{s} \approx 18.66  \text{h}
 $$
 
 **High Altitude Ascent Total**: 28,164 km, 18.66 + 0.236 = **18.90 h**.
@@ -855,16 +855,16 @@ $$
 Acceleration segment (0→416.67 m/s):
 
 $$
-s_{\text{acc}} = \frac{416.67^2}{2 \times 0.4905} \approx 177 \, \text{km}, \quad t_{\text{acc}} \approx 0.236 \, \text{h}
+s_{\text{acc}} = \frac{416.67^2}{2 \times 0.4905} \approx 177  \text{km}, \quad t_{\text{acc}} \approx 0.236  \text{h}
 $$
 
 Constant speed segment (**no braking needed**, final speed is initial speed for mid-altitude):
 
 $$
-s_{\text{const}} = 5,000 - 177 = 4,823 \, \text{km}
+s_{\text{const}} = 5,000 - 177 = 4,823  \text{km}
 $$
 $$
-t_{\text{const}} = \frac{4,823 \times 10^3}{416.67} \approx 11,575 \, \text{s} \approx 3.22 \, \text{h}
+t_{\text{const}} = \frac{4,823 \times 10^3}{416.67} \approx 11,575  \text{s} \approx 3.22  \text{h}
 $$
 
 **Low Altitude Ascent Total**: 0.236 + 3.22 = **3.46 h**.
@@ -891,16 +891,16 @@ $$
 Gravity at GEO ~0.224 m/s², gravity assists acceleration. Accelerate to 416.67 m/s:
 
 $$
-s_{\text{acc}} = \frac{416.67^2}{2 \times 0.4905} \approx 177 \, \text{km}, \quad t_{\text{acc}} \approx 0.236 \, \text{h}
+s_{\text{acc}} = \frac{416.67^2}{2 \times 0.4905} \approx 177  \text{km}, \quad t_{\text{acc}} \approx 0.236  \text{h}
 $$
 
 Constant speed segment (at 416.67 m/s, **no braking needed**, directly enters mid-altitude):
 
 $$
-s_{\text{const}} = 28,164 - 177 = 27,987 \, \text{km}
+s_{\text{const}} = 28,164 - 177 = 27,987  \text{km}
 $$
 $$
-t_{\text{const}} = \frac{27,987 \times 10^3}{416.67} \approx 67,180 \, \text{s} \approx 18.66 \, \text{h}
+t_{\text{const}} = \frac{27,987 \times 10^3}{416.67} \approx 67,180  \text{s} \approx 18.66  \text{h}
 $$
 
 **High Altitude Descent Total**: 0.236 + 18.66 = **18.90 h**.
@@ -915,19 +915,19 @@ $$
 s_{\text{dec}} = \frac{416.67^2 - 55.56^2}{2 \times 0.4905}
 $$
 $$
-= \frac{173,611 - 3,086}{0.981} \approx 173,800 \, \text{m} \approx 173.8 \, \text{km}
+= \frac{173,611 - 3,086}{0.981} \approx 173,800  \text{m} \approx 173.8  \text{km}
 $$
 $$
-t_{\text{dec}} = \frac{416.67 - 55.56}{0.4905} \approx 736 \, \text{s} \approx 0.204 \, \text{h}
+t_{\text{dec}} = \frac{416.67 - 55.56}{0.4905} \approx 736  \text{s} \approx 0.204  \text{h}
 $$
 
 Constant speed before braking:
 
 $$
-s_{\text{const}} = 9,000 - 173.8 = 8,826.2 \, \text{km}
+s_{\text{const}} = 9,000 - 173.8 = 8,826.2  \text{km}
 $$
 $$
-t_{\text{const}} = \frac{8,826.2 \times 10^3}{416.67} \approx 21,183 \, \text{s} \approx 5.88 \, \text{h}
+t_{\text{const}} = \frac{8,826.2 \times 10^3}{416.67} \approx 21,183  \text{s} \approx 5.88  \text{h}
 $$
 
 **Mid Altitude Descent Total**: 5.88 + 0.204 = **6.08 h**.
@@ -939,19 +939,19 @@ Entry speed is 55.56 m/s (ensured by mid-altitude end braking), full constant sp
 Constant speed segment:
 
 $$
-s_{\text{const}} = 5,000 - 3.15 = 4,996.85 \, \text{km}
+s_{\text{const}} = 5,000 - 3.15 = 4,996.85  \text{km}
 $$
 $$
-t_{\text{const}} = \frac{4,996.85 \times 10^3}{55.56} \approx 89,930 \, \text{s} \approx 24.98 \, \text{h}
+t_{\text{const}} = \frac{4,996.85 \times 10^3}{55.56} \approx 89,930  \text{s} \approx 24.98  \text{h}
 $$
 
 Terminal braking segment (55.56→0 m/s):
 
 $$
-s_{\text{brake}} = \frac{55.56^2}{2 \times 0.4905} \approx 3,146 \, \text{m} \approx 3.15 \, \text{km}
+s_{\text{brake}} = \frac{55.56^2}{2 \times 0.4905} \approx 3,146  \text{m} \approx 3.15  \text{km}
 $$
 $$
-t_{\text{brake}} \approx 0.0315 \, \text{h}
+t_{\text{brake}} \approx 0.0315  \text{h}
 $$
 
 **Low Altitude Descent Total**: 5,000 km, 24.98 + 0.0315 = **25.01 h**.
@@ -984,46 +984,46 @@ $$
 At ground (z=0):
 
 $$
-F_{\text{traction,max}} = 2\times10^5 \times (9.81 + 0.4905) \approx 2.060\times10^6 \, \text{N}
+F_{\text{traction,max}} = 2\times10^5 \times (9.81 + 0.4905) \approx 2.060\times10^6  \text{N}
 $$
 
 Low altitude cruise at 200 km/h (55.56 m/s), traction power (take ground maximum as conservative design):
 
 $$
-P_{\text{low}} = F_{\text{traction,max}} \times v_{\text{low}} = 2.060\times10^6 \times 55.56 \approx 1.144\times10^8 \, \text{W} \approx 114.4 \, \text{MW}
+P_{\text{low}} = F_{\text{traction,max}} \times v_{\text{low}} = 2.060\times10^6 \times 55.56 \approx 1.144\times10^8  \text{W} \approx 114.4  \text{MW}
 $$
 
 Rack system total efficiency η≈0.93 (gear 98% + motor 95%), heat generation:
 
 $$
-P_{\text{heat,low}} = P_{\text{low}} \times (1 - \eta) = 114.4 \times 0.07 \approx 8.0 \, \text{MW}
+P_{\text{heat,low}} = P_{\text{low}} \times (1 - \eta) = 114.4 \times 0.07 \approx 8.0  \text{MW}
 $$
 
 Mid altitude cruise at 1,500 km/h (416.67 m/s), gravity drops to 3.08–0.96 m/s². At mid altitude start (5,000 km):
 
 $$
-F_{\text{traction,mid}} = 2\times10^5 \times (3.08 + 0.4905) \approx 7.14\times10^5 \, \text{N}
+F_{\text{traction,mid}} = 2\times10^5 \times (3.08 + 0.4905) \approx 7.14\times10^5  \text{N}
 $$
 
 Mid altitude power:
 
 $$
-P_{\text{mid}} = F_{\text{traction,mid}} \times v_{\text{high}} = 7.14\times10^5 \times 416.67 \approx 2.975\times10^8 \, \text{W} \approx 297.5 \, \text{MW}
+P_{\text{mid}} = F_{\text{traction,mid}} \times v_{\text{high}} = 7.14\times10^5 \times 416.67 \approx 2.975\times10^8  \text{W} \approx 297.5  \text{MW}
 $$
 $$
-P_{\text{heat,mid}} = 297.5 \times 0.07 \approx 20.8 \, \text{MW}
+P_{\text{heat,mid}} = 297.5 \times 0.07 \approx 20.8  \text{MW}
 $$
 
 High altitude gravity is even lower (0.96 m/s² at 14,000 km down to 0.224 m/s² at GEO). Take high altitude midpoint (~21,000 km) gravity about 0.59 m/s² as average:
 
 $$
-F_{\text{traction,high}} \approx 2\times10^5 \times (0.59 + 0.4905) \approx 2.16\times10^5 \, \text{N}
+F_{\text{traction,high}} \approx 2\times10^5 \times (0.59 + 0.4905) \approx 2.16\times10^5  \text{N}
 $$
 $$
-P_{\text{high}} = 2.16\times10^5 \times 416.67 \approx 9.00\times10^7 \, \text{W} \approx 90 \, \text{MW}
+P_{\text{high}} = 2.16\times10^5 \times 416.67 \approx 9.00\times10^7  \text{W} \approx 90  \text{MW}
 $$
 $$
-P_{\text{heat,high}} = 90 \times 0.07 \approx 6.3 \, \text{MW}
+P_{\text{heat,high}} = 90 \times 0.07 \approx 6.3  \text{MW}
 $$
 
 **Heat Dissipation Summary**:
@@ -1062,31 +1062,31 @@ Radial envelope (including gears, motors, liquid cooling pipes) about 3.5 m, out
 DM must generate sufficient traction/braking force through 40 pairs of gears. Single gear pair rated tangential force ( $F_{design} =4.12×10⁶ N$ , see 5.8.2):
 
 $$
-F_{\text{single pair}} = \frac{F_{\text{design}}}{N_{\text{pairs}}} = \frac{4.12\times10^6}{40} \approx 1.03\times10^5 \, \text{N}
+F_{\text{single pair}} = \frac{F_{\text{design}}}{N_{\text{pairs}}} = \frac{4.12\times10^6}{40} \approx 1.03\times10^5  \text{N}
 $$
 
 Gear pitch circle diameter 1.0 m, single pair gear torque:
 
 $$
-\tau_{\text{single pair}} = F_{\text{single pair}} \times \frac{D_p}{2} = 1.03\times10^5 \times 0.5 \approx 5.15\times10^4 \, N \cdotp m
+\tau_{\text{single pair}} = F_{\text{single pair}} \times \frac{D_p}{2} = 1.03\times10^5 \times 0.5 \approx 5.15\times10^4  N \cdotp m
 $$
 
 After 5:1 reduction, motor side torque:
 
 $$
-\tau_{\text{motor}} = \frac{\tau_{\text{single pair}}}{i} = \frac{5.15\times10^4}{5} \approx 1.03\times10^4 \, N \cdotp m
+\tau_{\text{motor}} = \frac{\tau_{\text{single pair}}}{i} = \frac{5.15\times10^4}{5} \approx 1.03\times10^4  N \cdotp m
 $$
 
 40 motors total mechanical power (200 km/h low altitude, $P_{low} =114.4 MW$ , see 5.8.7):
 
 $$
-P_{\text{total}} = \frac{P_{\text{low}}}{\eta_{\text{gear}}} = \frac{114.4}{0.98} \approx 116.7 \, \text{MW}
+P_{\text{total}} = \frac{P_{\text{low}}}{\eta_{\text{gear}}} = \frac{114.4}{0.98} \approx 116.7  \text{MW}
 $$
 
 Single motor power:
 
 $$
-P_{\text{single}} = \frac{116.7}{40} \approx 2.92 \, \text{MW}
+P_{\text{single}} = \frac{116.7}{40} \approx 2.92  \text{MW}
 $$
 
 Within the range of large PMSMs. During ascent and descent, gear engagement force direction is symmetric, and DM structural design accounts for this.
@@ -1135,22 +1135,22 @@ Using 200 km/h low altitude as baseline, segment power and time as per 5.8.3 and
 Total ascent energy:
 
 $$
-E_{\text{low}} = P_{\text{low}} \times t_{\text{low}} = 114.4 \times 25.01 \approx 2,861 \, \text{MWh}
+E_{\text{low}} = P_{\text{low}} \times t_{\text{low}} = 114.4 \times 25.01 \approx 2,861  \text{MWh}
 $$
 $$
-E_{\text{mid}} = P_{\text{mid}} \times t_{\text{mid}} = 297.5 \times 6.08 \approx 1,809 \, \text{MWh}
+E_{\text{mid}} = P_{\text{mid}} \times t_{\text{mid}} = 297.5 \times 6.08 \approx 1,809  \text{MWh}
 $$
 $$
-E_{\text{high}} = P_{\text{high}} \times t_{\text{high}} = 90 \times 18.90 \approx 1,701 \, \text{MWh}
+E_{\text{high}} = P_{\text{high}} \times t_{\text{high}} = 90 \times 18.90 \approx 1,701  \text{MWh}
 $$
 $$
-E_{\text{total}} = 2,861 + 1,809 + 1,701 \approx 6,371 \, \text{MWh}
+E_{\text{total}} = 2,861 + 1,809 + 1,701 \approx 6,371  \text{MWh}
 $$
 
 Specific energy requirement:
 
 $$
-k = \frac{E_{\text{total}}}{m_{\text{total}}} = \frac{6,371\times10^6 \times 3,600}{200,000} \approx 1.147\times10^8 \, \text{J/kg} \approx 31,900 \, \text{Wh/kg}
+k = \frac{E_{\text{total}}}{m_{\text{total}}} = \frac{6,371\times10^6 \times 3,600}{200,000} \approx 1.147\times10^8  \text{J/kg} \approx 31,900  \text{Wh/kg}
 $$
 
 Compare battery technology: Li-ion 250 Wh/kg, solid-state 500 Wh/kg, Li-S 800 Wh/kg, Li-air future 2,000 Wh/kg [5.3]. **Specific energy requirement 31,900 Wh/kg far exceeds any foreseeable electrochemical storage system. Pure onboard battery scheme is physically invalid.**
@@ -1193,7 +1193,7 @@ Aluminum alloy 7075-T6 resistivity $ρ_{Al} = 5.2×10⁻⁸ Ω·m$ [4.4].
 Single pole resistance:
 
 $$
-R_{\text{single}} = \rho_{\text{Al}} \frac{L}{A_{\text{single}}} = \frac{5.2\times10^{-8} \times 2\times10^5}{2.505\times10^{-3}} \approx 4.15 \, \Omega
+R_{\text{single}} = \rho_{\text{Al}} \frac{L}{A_{\text{single}}} = \frac{5.2\times10^{-8} \times 2\times10^5}{2.505\times10^{-3}} \approx 4.15  \Omega
 $$
 
 Dual pole series total circuit resistance $R_{circuit} = 2 × 4.15 = 8.30 Ω$ .
@@ -1209,7 +1209,7 @@ Supply voltage U = 25 kV (AC, compatible with railway traction supply). Power fa
 Required current:
 
 $$
-I = \frac{P_{\text{req}}}{U \times \cos\phi} = \frac{114.4\times10^6}{25\times10^3 \times 0.85} = \frac{114.4\times10^6}{21,250} \approx 5,384 \, \text{A}
+I = \frac{P_{\text{req}}}{U \times \cos\phi} = \frac{114.4\times10^6}{25\times10^3 \times 0.85} = \frac{114.4\times10^6}{21,250} \approx 5,384  \text{A}
 $$
 
 (Note: For four-way parallel, each path current about 2,692 A; if voltage raised to 50 kV, current halves to 2,692 A.)
@@ -1217,7 +1217,7 @@ $$
 **(3) Transmission Loss**
 
 $$
-P_{\text{loss}} = I^2 R_{\text{circuit}} = (5,384)^2 \times 8.30 = 2.899\times10^7 \times 8.30 \approx 2.406\times10^8 \, \text{W} \approx 240.6 \, \text{MW}
+P_{\text{loss}} = I^2 R_{\text{circuit}} = (5,384)^2 \times 8.30 = 2.899\times10^7 \times 8.30 \approx 2.406\times10^8  \text{W} \approx 240.6  \text{MW}
 $$
 
 Transmission loss 240.6 MW exceeds cabin power demand 114.4 MW, transmission efficiency only about 32%. **Dual-pole 25 kV scheme is unacceptable due to excessive circuit resistance loss.**
@@ -1229,7 +1229,7 @@ Transmission loss 240.6 MW exceeds cabin power demand 114.4 MW, transmission eff
 Current halves to 2,692 A:
 
 $$
-P_{\text{loss}} = (2,692)^2 \times 8.30 \approx 7.247\times10^6 \times 8.30 \approx 60.2 \, \text{MW}
+P_{\text{loss}} = (2,692)^2 \times 8.30 \approx 7.247\times10^6 \times 8.30 \approx 60.2  \text{MW}
 $$
 
 Transmission efficiency ≈ 114.4/(114.4 + 60.2) ≈ 65.5%, much improved but still low.
@@ -1239,7 +1239,7 @@ Transmission efficiency ≈ 114.4/(114.4 + 60.2) ≈ 65.5%, much improved but st
 Circuit resistance drops to 2.08 Ω, current 2,692 A:
 
 $$
-P_{\text{loss}} = (2,692)^2 \times 2.08 \approx 7.247\times10^6 \times 2.08 \approx 15.1 \, \text{MW}
+P_{\text{loss}} = (2,692)^2 \times 2.08 \approx 7.247\times10^6 \times 2.08 \approx 15.1  \text{MW}
 $$
 
 Transmission efficiency ≈ 114.4/(114.4 + 15.1) ≈ 88.3%, **acceptable**.
@@ -1249,7 +1249,7 @@ Transmission efficiency ≈ 114.4/(114.4 + 15.1) ≈ 88.3%, **acceptable**.
 Current drops to 1,346 A:
 
 $$
-P_{\text{loss}} = (1,346)^2 \times 2.08 \approx 1.812\times10^6 \times 2.08 \approx 3.8 \, \text{MW}
+P_{\text{loss}} = (1,346)^2 \times 2.08 \approx 1.812\times10^6 \times 2.08 \approx 3.8  \text{MW}
 $$
 
 Transmission efficiency ≈ 114.4/(114.4 + 3.8) ≈ 96.8%, **excellent**.
@@ -1261,7 +1261,7 @@ Transmission efficiency ≈ 114.4/(114.4 + 3.8) ≈ 96.8%, **excellent**.
 Transmission loss 15.1 MW over 200 km conductor, per meter heat:
 
 $$
-q' = \frac{P_{\text{loss}}}{L} = \frac{15.1\times10^6}{2\times10^5} \approx 75.5 \, \text{W/m}
+q' = \frac{P_{\text{loss}}}{L} = \frac{15.1\times10^6}{2\times10^5} \approx 75.5  \text{W/m}
 $$
 
 Track sheath circumference about 1.73 m (regular octagon circumscribed circle ø0.552 m). Aluminum surface after anodizing emissivity 0.8 [4.5]. Steady-state temperature $T_s$ for radiative cooling:
@@ -1279,7 +1279,7 @@ $$
 T_s^4 \approx 4.868\times10^9
 $$
 $$
-T_s \approx 264 \, \text{K} \, (-9^\circ\text{C})
+T_s \approx 264  \text{K}  (-9^\circ\text{C})
 $$
 
 Far below aluminum alloy 7075-T6 long-term working limit (~150°C). **Conductive rail heat is fully controllable.**
@@ -1319,7 +1319,7 @@ Efficiency factors:
 Low altitude ascent power required (see 5.8.7): $P_{req} = 114.4 MW$ .
 
 $$
-P_{\text{emit}} = \frac{P_{\text{req}}}{\eta_{\text{atm}} \times \eta_{\text{opt}} \times \eta_{\text{PV}}} = \frac{114.4}{0.85 \times 0.80 \times 0.50} = \frac{114.4}{0.34} \approx 336.5 \, \text{MW}
+P_{\text{emit}} = \frac{P_{\text{req}}}{\eta_{\text{atm}} \times \eta_{\text{opt}} \times \eta_{\text{PV}}} = \frac{114.4}{0.85 \times 0.80 \times 0.50} = \frac{114.4}{0.34} \approx 336.5  \text{MW}
 $$
 
 Round to **350 MW** (with safety margin).
@@ -1343,7 +1343,7 @@ PV cells directly receive laser (not sunlight), calculated by laser irradiance. 
 **(5) Link Power Balance**
 
 $$
-P_{\text{recv}} = 350 \times 10^6 \times 0.85 \times 0.80 \times 0.50 = 350 \times 10^6 \times 0.34 \approx 119 \, \text{MW}
+P_{\text{recv}} = 350 \times 10^6 \times 0.85 \times 0.80 \times 0.50 = 350 \times 10^6 \times 0.34 \approx 119  \text{MW}
 $$
 
 Slightly above cabin power demand 114.4 MW, about 4% margin. **Ground laser power transmission scheme closes.**
@@ -1357,7 +1357,7 @@ Mid altitude power required (see 5.8.7): $P_{req} = 297.5 MW$ .
 Atmospheric attenuation negligible ( $η_{atm} ≈ 1.0$ ), optical and PV efficiency as above.
 
 $$
-P_{\text{emit}} = \frac{297.5}{1.0 \times 0.80 \times 0.50} = \frac{297.5}{0.40} \approx 743.8 \, \text{MW}
+P_{\text{emit}} = \frac{297.5}{1.0 \times 0.80 \times 0.50} = \frac{297.5}{0.40} \approx 743.8  \text{MW}
 $$
 
 Round to **750 MW**.
@@ -1367,7 +1367,7 @@ Round to **750 MW**.
 Laser electrical-optical conversion efficiency $η_{laser} = 0.35$ (fiber laser conservative) [4.9].
 
 $$
-P_{\text{elec}} = \frac{P_{\text{emit}}}{\eta_{\text{laser}}} = \frac{750}{0.35} \approx 2,143 \, \text{MW}
+P_{\text{elec}} = \frac{P_{\text{emit}}}{\eta_{\text{laser}}} = \frac{750}{0.35} \approx 2,143  \text{MW}
 $$
 
 Round to **2,200 MW**.
@@ -1377,13 +1377,13 @@ Round to **2,200 MW**.
 On-orbit AM0 solar irradiance $S_0 = 1,361 W/m²$ . PV efficiency $η_{sun_{PV}} = 0.45$ (future multi-junction GaAs under AM0). Array fill factor 0.85.
 
 $$
-A_{\text{PV}} = \frac{P_{\text{elec}}}{S_0 \times \eta_{{sun_{PV}}} \times \text{FF}} = \frac{2,200\times10^6}{1,361 \times 0.45 \times 0.85} = \frac{2,200\times10^6}{520.4} \approx 4.227\times10^6 \, \text{m}^2 \approx 4.23 \, \text{km}^2
+A_{\text{PV}} = \frac{P_{\text{elec}}}{S_0 \times \eta_{{sun_{PV}}} \times \text{FF}} = \frac{2,200\times10^6}{1,361 \times 0.45 \times 0.85} = \frac{2,200\times10^6}{520.4} \approx 4.227\times10^6  \text{m}^2 \approx 4.23  \text{km}^2
 $$
 
 6 elevators simultaneous coefficient 0.5 (average 3 of 6 at full power), actual deployment area:
 
 $$
-A_{\text{actual}} = 4.23 \times 0.5 \approx 2.12 \, \text{km}^2
+A_{\text{actual}} = 4.23 \times 0.5 \approx 2.12  \text{km}^2
 $$
 
 Distributed along ring circumference 265,458 km, average width only **8.0 m**.
@@ -1402,17 +1402,17 @@ $$
 P_{\text{emit}} = \frac{90}{1.0 \times 0.80 \times 0.50}
 $$
 $$
-= \frac{90}{0.40} \approx 225 \, \text{MW}
+= \frac{90}{0.40} \approx 225  \text{MW}
 $$
 
 $$
-P_{\text{elec}} = \frac{225}{0.35} \approx 643 \, \text{MW}
+P_{\text{elec}} = \frac{225}{0.35} \approx 643  \text{MW}
 $$
 
 PV area:
 
 $$
-A_{\text{PV}} = \frac{643\times10^6}{520.4} \approx 1.236\times10^6 \, \text{m}^2 \approx 1.24 \, \text{km}^2
+A_{\text{PV}} = \frac{643\times10^6}{520.4} \approx 1.236\times10^6  \text{m}^2 \approx 1.24  \text{km}^2
 $$
 
 6 elevators simultaneous coefficient 0.5, about **0.62 km²**, average width along ring about 2.3 m.
@@ -1482,13 +1482,13 @@ $$
 = \frac{1}{2} \times 1.225 \times (30)^2 \times 245 \times 0.5
 $$
 $$
-= 0.6125 \times 900 \times 122.5 \approx 6.75\times10^4 \, \text{N}
+= 0.6125 \times 900 \times 122.5 \approx 6.75\times10^4  \text{N}
 $$
 
 Moment arm is spindle half-length (30 m), overturning moment:
 
 $$
-M_{\text{cross,spindle}} = F_{\text{cross,spindle}} \times 30 = 6.75\times10^4 \times 30 \approx 2.03\times10^6 \, N \cdotp m
+M_{\text{cross,spindle}} = F_{\text{cross,spindle}} \times 30 = 6.75\times10^4 \times 30 \approx 2.03\times10^6  N \cdotp m
 $$
 
 **(2) Disc Crosswind**
@@ -1499,13 +1499,13 @@ $$
 F_{\text{cross,disc}} = \frac{1}{2} \times 1.225 \times (30)^2 \times 80 \times 0.8
 $$
 $$
-= 0.6125 \times 900 \times 64 \approx 3.53\times10^4 \, \text{N}
+= 0.6125 \times 900 \times 64 \approx 3.53\times10^4  \text{N}
 $$
 
 Moment arm is disc half-height (5 m), overturning moment:
 
 $$
-M_{\text{cross,disc}} = F_{\text{cross,disc}} \times 5 = 3.53\times10^4 \times 5 \approx 1.76\times10^5 \, N \cdotp m
+M_{\text{cross,disc}} = F_{\text{cross,disc}} \times 5 = 3.53\times10^4 \times 5 \approx 1.76\times10^5  N \cdotp m
 $$
 
 **(3) Crosswind Condition Check**
@@ -1523,7 +1523,7 @@ Disc's overturning moment (~1.76×10⁵ N·m) is only about 1/12 of spindle's, e
 Headwind refers to wind opposite to the cabin's direction of travel. During **ascent**, headwind relative speed is maximum:
 
 $$
-v_{\text{rel}} = v_{\text{cruise}} + v_{\text{wind}} = 55.56 + 30 = 85.56 \, \text{m/s} \approx 308 \, \text{km/h}
+v_{\text{rel}} = v_{\text{cruise}} + v_{\text{wind}} = 55.56 + 30 = 85.56  \text{m/s} \approx 308  \text{km/h}
 $$
 
 This produces maximum frontal drag, directly affecting drive power demand and clamping force (Scheme B) or gear tangential force (Scheme C).
@@ -1537,7 +1537,7 @@ $$
 = \frac{1}{2} \times 1.225 \times (85.56)^2 \times 19.63 \times 0.05
 $$
 $$
-= 0.6125 \times 7,320.5 \times 0.9815 \approx 4,400 \, \text{N}
+= 0.6125 \times 7,320.5 \times 0.9815 \approx 4,400  \text{N}
 $$
 
 This is only about **0.22%** of full load weight (1.962×10⁶ N).
@@ -1550,7 +1550,7 @@ $$
 F_{\text{drag,disc}} = \frac{1}{2} \times 1.225 \times (85.56)^2 \times 78.54 \times 0.8
 $$
 $$
-= 0.6125 \times 7,320.5 \times 62.83 \approx 2.82\times10^5 \, \text{N}
+= 0.6125 \times 7,320.5 \times 62.83 \approx 2.82\times10^5  \text{N}
 $$
 
 This is about **14.4%** of full load weight.
@@ -1562,12 +1562,12 @@ This is about **14.4%** of full load weight.
 During descent, cabin movement and gravity are in the same direction. If low altitude descent cruise is 200 km/h (55.56 m/s), with 10th-level tailwind (downward, 30 m/s), relative wind speed drops to about 25.56 m/s. Disc aerodynamic drag:
 
 $$
-F_{\text{drag,disc,tail}} = \frac{1}{2} \times 1.225 \times (25.56)^2 \times 78.54 \times 0.8 \approx 2.51 \times 10^4 \, \text{N}
+F_{\text{drag,disc,tail}} = \frac{1}{2} \times 1.225 \times (25.56)^2 \times 78.54 \times 0.8 \approx 2.51 \times 10^4  \text{N}
 $$
 
 With 10th-level headwind (upward), relative wind speed increases to 85.56 m/s, drag about 2.82×10⁵ N.
 
-During descent at constant speed, drive system must provide braking force $F_{\text{brake}} = W = 1.962 \times 10^6 \, \text{N}$ . Under headwind:
+During descent at constant speed, drive system must provide braking force $F_{\text{brake}} = W = 1.962 \times 10^6  \text{N}$ . Under headwind:
 
 $$
 \frac{F_{\text{drag,disc,head}}}{F_{\text{brake}}} = \frac{2.82 \times 10^5}{1.962 \times 10^6} \approx 14.4\%
@@ -1596,7 +1596,7 @@ In supercritical Reynolds number range, vortex shedding irregular, weak periodic
 Vortex shedding frequency (St≈0.2):
 
 $$
-f_{\text{vortex,spindle}} = \frac{0.2 \times 85.56}{5} \approx 3.42 \, \text{Hz}
+f_{\text{vortex,spindle}} = \frac{0.2 \times 85.56}{5} \approx 3.42  \text{Hz}
 $$
 
 Disc (D=10 m):
@@ -1606,7 +1606,7 @@ Re = \frac{85.56 \times 10}{1.5\times10^{-5}} \approx 5.70\times10^7
 $$
 
 $$
-f_{\text{vortex,disc}} = \frac{0.2 \times 85.56}{10} \approx 1.71 \, \text{Hz}
+f_{\text{vortex,disc}} = \frac{0.2 \times 85.56}{10} \approx 1.71  \text{Hz}
 $$
 
 Cabin/DM structure fundamental frequency estimated >10 Hz (spindle slender, lower stiffness; disc higher stiffness). Vortex shedding frequencies are below structure fundamental frequency, **no resonance risk**. But disc's 1.71 Hz low-frequency excitation may couple with cabin rigid body swing mode, to be confirmed in Volume 7 modal analysis.
@@ -1616,7 +1616,7 @@ Cabin/DM structure fundamental frequency estimated >10 Hz (spindle slender, lowe
 During **descent**, wind and movement are in the same direction, relative wind speed decreases:
 
 $$
-v_{\text{rel,desc}} = v_{\text{cruise}} - v_{\text{wind}} = 55.56 - 30 = 25.56 \, \text{m/s}
+v_{\text{rel,desc}} = v_{\text{cruise}} - v_{\text{wind}} = 55.56 - 30 = 25.56  \text{m/s}
 $$
 
 Aerodynamic drag is minimal, beneficial for drive system, not a design constraint.
@@ -1624,13 +1624,13 @@ Aerodynamic drag is minimal, beneficial for drive system, not a design constrain
 Spindle tailwind drag:
 
 $$
-F_{\text{drag,spindle,tail}} = 0.6125 \times (25.56)^2 \times 19.63 \times 0.05 \approx 393 \, \text{N}
+F_{\text{drag,spindle,tail}} = 0.6125 \times (25.56)^2 \times 19.63 \times 0.05 \approx 393  \text{N}
 $$
 
 Disc tailwind drag:
 
 $$
-F_{\text{drag,disc,tail}} = 0.6125 \times (25.56)^2 \times 78.54 \times 0.8 \approx 2.51\times10^4 \, \text{N}
+F_{\text{drag,disc,tail}} = 0.6125 \times (25.56)^2 \times 78.54 \times 0.8 \approx 2.51\times10^4  \text{N}
 $$
 
 Both negligible.
@@ -1670,13 +1670,13 @@ where $m = 200$ t and $\omega = 7.2921 \times 10^{-5}$ rad/s.
 Low-altitude segment (200 km/h = 55.56 m/s):
 
 $$
-F_{c,\text{low}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 55.56 = 1.62 \times 10^3 \, \text{N}
+F_{c,\text{low}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 55.56 = 1.62 \times 10^3  \text{N}
 $$
 
 Mid-altitude and high-altitude segments (1,500 km/h = 416.67 m/s):
 
 $$
-F_{c,\text{high}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 416.67 = 1.22 \times 10^4 \, \text{N}
+F_{c,\text{high}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 416.67 = 1.22 \times 10^4  \text{N}
 $$
 
 The direction lies east-west in the equatorial plane: westward during ascent and eastward during descent.
@@ -1715,7 +1715,7 @@ $$
 $$
 
 $$
-= 1.46 \times 10^8 + 1.10 \times 10^9 = 1.25 \times 10^9 \, \text{N} \cdotp {s}
+= 1.46 \times 10^8 + 1.10 \times 10^9 = 1.25 \times 10^9  \text{N} \cdotp {s}
 $$
 
 This impulse is continuously constrained and absorbed by the guide-wheel assembly within its axial distribution range along the cable. The total Coriolis-related accumulated energy over one trip is:
@@ -1742,7 +1742,7 @@ E_c = (1.80 \times 10^3) \times (9.00 \times 10^4) + (1.02 \times 10^5) \times (
 $$
 
 $$
-= 1.62 \times 10^8 + 9.17 \times 10^9 = 9.33 \times 10^9 \, \text{J}
+= 1.62 \times 10^8 + 9.17 \times 10^9 = 9.33 \times 10^9  \text{J}
 $$
 
 This energy is about 1.4% of the elastic energy in a single cable strand (about $6.75 \times 10^{11}$ J; see Volume 4, Section 4.3 tension-distribution data), and will not cause instantaneous or cumulative damage to the main cable.
@@ -1799,13 +1799,13 @@ $$
 = 3.986\times10^{14} \times (1.5696\times10^{-7} - 2.3717\times10^{-8})
 $$
 $$
-= 3.986\times10^{14} \times 1.3324\times10^{-7} \approx 5.311\times10^7 \, \text{J/kg}
+= 3.986\times10^{14} \times 1.3324\times10^{-7} \approx 5.311\times10^7  \text{J/kg}
 $$
 
 This integral is the gravitational potential energy difference per unit mass, i.e., the energy required to lift 1 kg from ground to GEO. Equivalent integral height:
 
 $$
-H_{\text{eq}} = \frac{1}{g_0} \int_0^{L} g(z) \mathrm{d}z = \frac{5.311\times10^7}{9.81} \approx 5.41\times10^6 \, \text{m}
+H_{\text{eq}} = \frac{1}{g_0} \int_0^{L} g(z) \mathrm{d}z = \frac{5.311\times10^7}{9.81} \approx 5.41\times10^6  \text{m}
 $$
 
 (Note: This $H_{eq}≈5,410 km$ differs from the main cable characteristic height $H≈2,091 km$ in Volume 4. The former is gravitational potential difference divided by surface gravity, used for uniform cross-section self-weight tension; the latter is the characteristic length for tapered cross-section, with different physical meaning.)
@@ -1813,7 +1813,7 @@ $$
 Self-weight stress:
 
 $$
-\sigma_{\text{self}} = \frac{T_{\text{self,max}}}{A} = \rho_{\text{eng}} g_0 H_{\text{eq}} = 390 \times 9.81 \times 5.41\times10^6 \approx 2.070\times10^{10} \, \text{Pa} = 20.70 \, \text{GPa}
+\sigma_{\text{self}} = \frac{T_{\text{self,max}}}{A} = \rho_{\text{eng}} g_0 H_{\text{eq}} = 390 \times 9.81 \times 5.41\times10^6 \approx 2.070\times10^{10}  \text{Pa} = 20.70  \text{GPa}
 $$
 
 Strength condition requires self-weight stress not to exceed allowable stress:
@@ -1825,7 +1825,7 @@ $$
 Where $σ_{allow} = 20 GPa$ (target, see Volume 2, 2.3.4), S = 2.5 (safety factor, see Volume 2, 2.7.1).
 
 $$
-\sigma_{\text{self}} = 20.70 \, \text{GPa} > \frac{20}{2.5} = 8.00 \, \text{GPa}
+\sigma_{\text{self}} = 20.70  \text{GPa} > \frac{20}{2.5} = 8.00  \text{GPa}
 $$
 
 **Self-weight stress exceeds allowable by about 2.6x. Under pure self-weight, uniform cross-section CNT cable cannot survive safely.**
@@ -1833,7 +1833,7 @@ $$
 Even at theoretical strength limit (no safety factor):
 
 $$
-\sigma_{\text{self}} = 20.70 \, \text{GPa} > 20 \, \text{GPa}
+\sigma_{\text{self}} = 20.70  \text{GPa} > 20  \text{GPa}
 $$
 
 Self-weight stress already exceeds CNT target engineering strength, cable would break before bearing any cabin load. Solutions: (1) Increase CNT engineering strength above 20.7 GPa (current lab max ~14 GPa [5.4], 48% shortfall); (2) Abandon uniform cross-section looping. The difficulty and timeline of material breakthrough means Scheme E is currently infeasible.
@@ -1851,16 +1851,16 @@ Restoring moment from leeward index cables' tension increment. Let number of ind
 For n=6 (3 leeward cables, single cable ~6.54×10⁵ N), moment arm spindle radius ~2.5 m (attachment at cabin outer wall):
 
 $$
-F_{\text{single}} = \frac{1.962\times10^6 \times 2.0}{6} \approx 6.54\times10^5 \, \text{N}
+F_{\text{single}} = \frac{1.962\times10^6 \times 2.0}{6} \approx 6.54\times10^5  \text{N}
 $$
 $$
-M_{\text{restore,max}} \approx 3 \times (0.2 \times 6.54\times10^5) \times 2.5 \approx 9.81\times10^5 \, N \cdotp m
+M_{\text{restore,max}} \approx 3 \times (0.2 \times 6.54\times10^5) \times 2.5 \approx 9.81\times10^5  N \cdotp m
 $$
 
 $M_{restore} < M_{wind}$ (9.81×10⁵ < 2.03×10⁶), not sufficient. Increase to 10 cables (5 leeward, single cable ~3.92×10⁵ N):
 
 $$
-M_{\text{restore,max}} \approx 5 \times (0.2 \times 3.92\times10^5) \times 2.5 \approx 9.80\times10^5 \, N \cdotp m
+M_{\text{restore,max}} \approx 5 \times (0.2 \times 3.92\times10^5) \times 2.5 \approx 9.80\times10^5  N \cdotp m
 $$
 
 Still not sufficient. Spindle's long moment arm (30 m) causes huge overturning moment, hard to restore with index cable tension increment alone.
@@ -1872,10 +1872,10 @@ Lateral wind force about 3.53×10⁴ N, overturning moment $M_{wind} ≈ 1.76×1
 n=8 (4 leeward cables, single cable ~4.91×10⁵ N), moment arm disc radius 5 m:
 
 $$
-F_{\text{single}} = \frac{1.962\times10^6 \times 2.0}{8} \approx 4.905\times10^5 \, \text{N}
+F_{\text{single}} = \frac{1.962\times10^6 \times 2.0}{8} \approx 4.905\times10^5  \text{N}
 $$
 $$
-M_{\text{restore,max}} \approx 4 \times (0.2 \times 4.905\times10^5) \times 5 \approx 1.962\times10^6 \, N \cdotp m
+M_{\text{restore,max}} \approx 4 \times (0.2 \times 4.905\times10^5) \times 5 \approx 1.962\times10^6  N \cdotp m
 $$
 
 $M_{restore} > M_{wind}$ (1.962×10⁶ >> 1.76×10⁵), **disc with 8 index cables meets lateral stability with large margin (~11x)**.
@@ -1938,7 +1938,7 @@ LSM replaces the rack with electromagnetic coils (primary windings) along the ca
 LSM must provide required traction for cabin acceleration near GEO. For full load 200 t at GEO, comfort acceleration $a_{comfort} =0.4905 m/s²$ :
 
 $$
-F_{\text{traction}} = m a_{\text{comfort}} = 2\times10^5 \times 0.4905 \approx 9.81\times10^4 \, \text{N}
+F_{\text{traction}} = m a_{\text{comfort}} = 2\times10^5 \times 0.4905 \approx 9.81\times10^4  \text{N}
 $$
 
 (GEO gravity only 0.224 m/s², much less than comfort acceleration, traction mainly for inertia.)
@@ -1979,7 +1979,7 @@ $$
 = 8,960 \times 2\times10^{-2} \times 2.8164\times10^7
 $$
 $$
-= 8,960 \times 5.6328\times10^5 \approx 5.047\times10^9 \, \text{kg} \approx 5.05\times10^6 \, \text{t}
+= 8,960 \times 5.6328\times10^5 \approx 5.047\times10^9  \text{kg} \approx 5.05\times10^6  \text{t}
 $$
 
 **Just the copper conductor mass for the high altitude segment exceeds 5 million tons**, not including insulation (about 10%–15% of conductor mass), coil support structure (about 50%–100% of conductor mass), and cooling pipes. Including three-phase windings and redundancy, total mass could reach **tens of millions of tons**. Even with aluminum (density 2,700 kg/m³), mass is about 1.5 million tons—hundreds of times the total mass of all current spacecraft.
@@ -1991,19 +1991,19 @@ $$
 Copper resistivity $ρ_{Cu} = 1.68×10⁻⁸ Ω·m$ (20°C). 20 parallel, each 28,164 km, single conductor resistance:
 
 $$
-R_{\text{single}} = \rho_{\text{Cu}} \frac{L}{A_{\text{conductor}}} = \frac{1.68\times10^{-8} \times 2.8164\times10^7}{10^{-3}} \approx 473 \, \Omega
+R_{\text{single}} = \rho_{\text{Cu}} \frac{L}{A_{\text{conductor}}} = \frac{1.68\times10^{-8} \times 2.8164\times10^7}{10^{-3}} \approx 473  \Omega
 $$
 
 20 parallel total resistance $R_{parallel} ≈ 23.7 Ω$ . Single phase current $I_{phase} = 20 × 5,000 = 1×10⁵ A$ , ohmic loss:
 
 $$
-P_{\text{loss}} = I_{\text{phase}}^2 R_{\text{parallel}} = (10^5)^2 \times 23.7 \approx 2.37\times10^{11} \, \text{W} \approx 237 \, \text{GW}
+P_{\text{loss}} = I_{\text{phase}}^2 R_{\text{parallel}} = (10^5)^2 \times 23.7 \approx 2.37\times10^{11}  \text{W} \approx 237  \text{GW}
 $$
 
 This is equivalent to about 120 large nuclear power plants, far beyond any space power engineering feasibility, and heat must be radiated to deep space—corresponding radiator area (400 K panel):
 
 $$
-A_{\text{radiator}} = \frac{P_{\text{loss}}}{\varepsilon \sigma T^4} = \frac{2.37\times10^{11}}{0.85 \times 5.67\times10^{-8} \times 400^4} \approx 1.93\times10^8 \, \text{m}^2 \approx 193 \, \text{km}^2
+A_{\text{radiator}} = \frac{P_{\text{loss}}}{\varepsilon \sigma T^4} = \frac{2.37\times10^{11}}{0.85 \times 5.67\times10^{-8} \times 400^4} \approx 1.93\times10^8  \text{m}^2 \approx 193  \text{km}^2
 $$
 
 **Therefore, LSM implementation must rely on superconducting conductors**—zero DC resistance, eliminating ohmic loss. Current high-temperature superconducting tape (e.g., YBCO, critical temp ~92 K, engineering current density up to 10⁸ A/m²) is the technical route, but 28,164 km continuous superconducting wire manufacturing, deployment, and in-orbit cryogenic maintenance (active cooling below liquid nitrogen) are huge engineering challenges.

@@ -54,7 +54,7 @@ This condition is defined as the "independent condition" in Section 4.2.2 of Vol
 From Section 4.2.2 of Volume IV, under the independent condition, the maximum tension at the GEO end of the elevator cable is:
 
 $$
-T_{\text{GEO}} = \frac{\sigma_{\text{allow}} A_{\text{GEO}}}{S} = \frac{20 \times 10^9 \times 2.613}{2.5} \approx 2.09 \times 10^{10} \, \text{N}
+T_{\text{GEO}} = \frac{\sigma_{\text{allow}} A_{\text{GEO}}}{S} = \frac{20 \times 10^9 \times 2.613}{2.5} \approx 2.09 \times 10^{10}  \text{N}
 $$
 
 Where $A_{GEO} ≈ 2.613 m²$ is the cross-sectional area at the GEO end (Section 4.3.3 of Volume IV), $σ_{allow} = 20 GPa$ is the engineering strength target value for the CNT braided cable (Section 2.3.4 of Volume II).
@@ -66,7 +66,7 @@ This tension must be fully borne by the GEO end counterweight system.
 The counterweight is located Δh = 200 km above GEO, with a counterweight orbital radius:
 
 $$
-R_{\text{counterweight}} = R_{\text{GEO}} + \Delta h = 42,164 + 200 = 42,364 \, \text{km} = 4.2364 \times 10^7 \, \text{m}
+R_{\text{counterweight}} = R_{\text{GEO}} + \Delta h = 42,164 + 200 = 42,364  \text{km} = 4.2364 \times 10^7  \text{m}
 $$
 
 Centrifugal and gravitational acceleration at the counterweight:
@@ -75,32 +75,32 @@ $$
 a_c = \omega_e^2 R_{\text{counterweight}} = (7.2921 \times 10^{-5})^2 \times 4.2364 \times 10^7
 $$
 $$
-\omega_e^2 = 5.3171 \times 10^{-9} \, \text{s}^{-2}
+\omega_e^2 = 5.3171 \times 10^{-9}  \text{s}^{-2}
 $$
 $$
-a_c = 5.3171 \times 10^{-9} \times 4.2364 \times 10^7 \approx 0.22525 \, \text{m/s}^2
+a_c = 5.3171 \times 10^{-9} \times 4.2364 \times 10^7 \approx 0.22525  \text{m/s}^2
 $$
 
 $$
-a_g = \frac{GM_e}{R_{\text{counterweight}}^2} = \frac{3.986 \times 10^{14}}{(4.2364 \times 10^7)^2} = \frac{3.986 \times 10^{14}}{1.7947 \times 10^{15}} \approx 0.22210 \, \text{m/s}^2
+a_g = \frac{GM_e}{R_{\text{counterweight}}^2} = \frac{3.986 \times 10^{14}}{(4.2364 \times 10^7)^2} = \frac{3.986 \times 10^{14}}{1.7947 \times 10^{15}} \approx 0.22210  \text{m/s}^2
 $$
 
 Net acceleration:
 
 $$
-\Delta a = a_c - a_g = 0.22525 - 0.22210 = 0.00315 \, \text{m/s}^2
+\Delta a = a_c - a_g = 0.22525 - 0.22210 = 0.00315  \text{m/s}^2
 $$
 
 Required counterweight mass (excluding safety factor):
 
 $$
-M_{\text{counterweight}} = \frac{T_{\text{GEO}}}{\Delta a} = \frac{2.090 \times 10^{10}}{0.00315} \approx 6.635 \times 10^{12} \, \text{kg}
+M_{\text{counterweight}} = \frac{T_{\text{GEO}}}{\Delta a} = \frac{2.090 \times 10^{10}}{0.00315} \approx 6.635 \times 10^{12}  \text{kg}
 $$
 
 With a safety factor of 1.2 (covering counterweight orbital control error and cable self-weight from GEO to counterweight), the designed counterweight mass:
 
 $$
-M_{\text{counterweight,design}} = 6.635 \times 10^{12} \times 1.2 \approx 7.96 \times 10^{12} \, \text{kg} \approx 8.0 \times 10^{12} \, \text{kg}
+M_{\text{counterweight,design}} = 6.635 \times 10^{12} \times 1.2 \approx 7.96 \times 10^{12}  \text{kg} \approx 8.0 \times 10^{12}  \text{kg}
 $$
 
 Capturing 2–3 C-type asteroids with a diameter of about 1.5 km each will suffice (single mass about 3.5 × 10¹² kg, see Section 2.5.6 of Volume II).
@@ -125,7 +125,7 @@ $$
 Substituting values: GMₑ = 3.986 × 10¹⁴ m³/s², λ = 300 kg/m, R₀ = 42,264 km = 4.2264 × 10⁷ m.
 
 $$
-T_{\text{ring}} = \frac{3.986 \times 10^{14} \times 300}{4.2264 \times 10^7} = \frac{1.1958 \times 10^{17}}{4.2264 \times 10^7} \approx 2.83 \times 10^9 \, \text{N}
+T_{\text{ring}} = \frac{3.986 \times 10^{14} \times 300}{4.2264 \times 10^7} = \frac{1.1958 \times 10^{17}}{4.2264 \times 10^7} \approx 2.83 \times 10^9  \text{N}
 $$
 
 Comparing this value with the GEO end tension of a single elevator cable:
@@ -180,7 +180,7 @@ $$
 = \frac{1.846 \times 10^{28}}{2.563 \times 10^{20}}
 $$
 $$
-\approx 7.20 \times 10^7 \, \text{m} = 72,000 \, \text{km}
+\approx 7.20 \times 10^7  \text{m} = 72,000  \text{km}
 $$
 
 The required radial displacement is about 72,000 km, far exceeding the ring radius of 42,264 km. This result shows that under the small deformation assumption, $θ ≈ F/(2T_{ring}) ≈ (2.09 × 10¹⁰)/(5.66 × 10⁹) ≈ 3.69 rad$ , much greater than 1, so the small deformation assumption itself is invalid. This means **the ring will be completely straightened, forming a sharp kink, and cannot provide effective radial support.**
@@ -195,13 +195,13 @@ $$
 I = \frac{\pi d^4}{64} = \frac{\pi \times (0.7)^4}{64}
 $$
 $$
-= \frac{\pi \times 0.2401}{64} \approx 0.0118 \, \text{m}^4
+= \frac{\pi \times 0.2401}{64} \approx 0.0118  \text{m}^4
 $$
 
 CNT braided cable elastic modulus E ≈ 1,000 GPa = 1 × 10¹² Pa (Section 4.7.2 of Volume IV). Bending stiffness:
 
 $$
-EI \approx 1 \times 10^{12} \times 0.0118 \approx 1.18 \times 10^{10} \, N \cdotp m^2
+EI \approx 1 \times 10^{12} \times 0.0118 \approx 1.18 \times 10^{10}  N \cdotp m^2
 $$
 
 For the maximum radial displacement of an elastic ring under a radial concentrated force F (ignoring circumferential tension, pure bending solution), the radial displacement at the loading point is approximately:
@@ -222,7 +222,7 @@ $$
 = \frac{1.578 \times 10^{33}}{1.112 \times 10^{11}}
 $$
 $$
-\approx 1.42 \times 10^{22} \, \text{m}
+\approx 1.42 \times 10^{22}  \text{m}
 $$
 
 This is a physically meaningless huge value—far exceeding the scale of the ring, the GEO orbital radius, and the Earth-Moon distance. The fundamental reason is: the ring’s slenderness ratio (circumference/cross-section diameter) ≈ 2.65 × 10⁸ m / 0.7 m ≈ 3.8 × 10⁸, so the bending stiffness is extremely small relative to its geometric scale. At this slenderness ratio, any concentrated force can easily straighten the ring.

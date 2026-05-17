@@ -161,7 +161,7 @@ Conservative value: **¥2,000/kg** (about $278/kg, at 1 USD = 7.2 CNY).
 - Annual total transportation revenue (conservative pricing ¥2,000/kg):
 
 $$
-34,200 \times 10^3 \times 2,000 + 20,500 \times 10^3 \times 1,000 = 68.4 \times 10^9 + 20.5 \times 10^9 \approx 890 \times 10^8 \, \text{¥/year} \approx 0.089 \, \text{¥ trillion/year}
+34,200 \times 10^3 \times 2,000 + 20,500 \times 10^3 \times 1,000 = 68.4 \times 10^9 + 20.5 \times 10^9 \approx 890 \times 10^8  \text{¥/year} \approx 0.089  \text{¥ trillion/year}
 $$
 
 Transportation revenue alone is about ¥0.089 trillion per year. To cover the total investment of ¥55–58 trillion (undiscounted), and without considering other revenue sources, it would take about 620–650 years. **This means that relying solely on transportation services cannot recover the investment within a reasonable period; other high value-added revenue sources are essential.**

@@ -492,7 +492,7 @@ Using $I_{sp} = 3000$ s and counterweight mass $8.0 \times 10^{12}$ kg as baseli
 $$
 \dot{m}_{\text{prop}} = \frac{M_{\text{cw}} \cdot \Delta v_{\text{yr}}}{I_{sp} \cdot g_0}
 = \frac{8.0 \times 10^{12} \times 10}{3000 \times 9.81}
-\approx 2.72 \times 10^9 \, \text{kg/yr}
+\approx 2.72 \times 10^9  \text{kg/yr}
 $$
 
 This is as high as about 2.72 million tons per year, far beyond feasible on-orbit resupply. This means the counterweight cannot rely on onboard propellant alone for long-term station keeping. Therefore, the station-keeping strategy must have two levels:
@@ -1252,13 +1252,13 @@ where $m = 2 \times 10^5$ kg is the fully loaded car mass, $\omega = 7.2921 \tim
 In the 200 km/h low-altitude scheme of Plan C (Volume 5, Section 5.8.3), the low-altitude cruise speed is $v_{\text{low}} = 55.56$ m/s:
 
 $$
-F_{c,\text{low}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 55.56 = 1.62 \times 10^3 \, \text{N} = 1.62 \, \text{kN}
+F_{c,\text{low}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 55.56 = 1.62 \times 10^3  \text{N} = 1.62  \text{kN}
 $$
 
 In the mid-altitude and high-altitude segments, the car cruises at the rack-limited speed $v_{\text{high}} = 1500$ km/h = 416.67 m/s (Volume 5, Sections 5.8.3–5.8.7), giving:
 
 $$
-F_{c,\text{high}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 416.67 = 1.22 \times 10^4 \, \text{N} = 12.2 \, \text{kN}
+F_{c,\text{high}} = 2 \times (2 \times 10^5) \times (7.2921 \times 10^{-5}) \times 416.67 = 1.22 \times 10^4  \text{N} = 12.2  \text{kN}
 $$
 
 Summary of Coriolis force by speed segment:
@@ -1274,7 +1274,7 @@ Summary of Coriolis force by speed segment:
 The Coriolis force is transferred through the guide wheels to the outer surface of the track sleeve, then through the sleeve’s middle aluminum-alloy layer to the thrust ring, and then from the thrust ring to the CNT-braided surface of the main cable. Because the guide-wheel assembly is distributed along the cable axis (DM total length about 10 m), the unit-length lateral load in the mid/high-altitude segments is:
 
 $$
-f_{c,\text{high}} = \frac{F_{c,\text{high}}}{L_{\text{dist}}} = \frac{1.22 \times 10^4}{10} \approx 1,220 \, \text{N/m}
+f_{c,\text{high}} = \frac{F_{c,\text{high}}}{L_{\text{dist}}} = \frac{1.22 \times 10^4}{10} \approx 1,220  \text{N/m}
 $$
 
 Compared with the GEO-end axial cable tension $T_{\text{GEO}} \approx 2.09 \times 10^{10}$ N:

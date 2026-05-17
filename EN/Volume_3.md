@@ -233,19 +233,19 @@ $$
 Where $σ_{allow}$ is taken as the target value ~20 GPa from Volume II, Section 2.3.4, A₀ is the ground-end cross-sectional area ~0.196 m², S is the independent working condition safety factor ≥2.5 from Volume II, Section 2.7.1.
 
 $$
-T_{max} = \frac{20\times10^9 \times 0.196}{2.5} \approx 1.57\times10^9\,\text{N}
+T_{max} = \frac{20\times10^9 \times 0.196}{2.5} \approx 1.57\times10^9\text{N}
 $$
 
 On this basis, consider anchorage safety factor (uplift) ≥3.0, the design load to be borne by the rock anchor group:
 
 $$
-F_{design} = T_{max} \times 3.0 \approx 4.71\times10^9\,\text{N}
+F_{design} = T_{max} \times 3.0 \approx 4.71\times10^9\text{N}
 $$
 
 Number of rock anchors (each with 30–50 MN capacity):
 
 $$
-n_{anchor} \geq \frac{4.71\times10^9}{40\times10^6} \approx 118 \rightarrow \text{Take}\geq 120\,\text{units}
+n_{anchor} \geq \frac{4.71\times10^9}{40\times10^6} \approx 118 \rightarrow \text{Take}\geq 120\text{units}
 $$
 
 | Parameter | Design Value/Range | Description |
@@ -262,11 +262,11 @@ $$
 **Horizontal Force Derivation**:
 
 $$
-F_{H2} = T_{max} \times \sin(\Delta\phi_2) \approx 1.57\times10^9 \times \sin(0.72°) \approx 1.10\times10^8\,\text{N}
+F_{H2} = T_{max} \times \sin(\Delta\phi_2) \approx 1.57\times10^9 \times \sin(0.72°) \approx 1.10\times10^8\text{N}
 $$
 
 $$
-F_{H3} = T_{max} \times \sin(\Delta\phi_3) \approx 1.57\times10^9 \times \sin(0.95°) \approx 1.45\times10^8\,\text{N}
+F_{H3} = T_{max} \times \sin(\Delta\phi_3) \approx 1.57\times10^9 \times \sin(0.95°) \approx 1.45\times10^8\text{N}
 $$
 
 | Parameter | Node 2 (Δφ=0°43'S) | Node 3 (Δφ=0°57'S) | Description |
@@ -388,19 +388,19 @@ The car remains vertical and is fixed when docked by the following mechanisms:
 **Lock Pin Shear Check**: Lock pin diameter $d_{pin} ≥ 80 mm$ , material is high-strength steel (yield strength ≥1,000 MPa), single pin shear area:
 
 $$
-A_{shear} = \frac{\pi d_{pin}^2}{4} = \frac{\pi \times (0.08)^2}{4} \approx 5.03\times10^{-3}\,\text{m}^2
+A_{shear} = \frac{\pi d_{pin}^2}{4} = \frac{\pi \times (0.08)^2}{4} \approx 5.03\times10^{-3}\text{m}^2
 $$
 
 Allowable shear stress $τ_{allow} ≈0.6 σ_{yield} ≈ 600 MPa$ , single pin shear capacity:
 
 $$
-F_{single} = \tau_{allow} \times A_{shear} \approx 600\times10^6 \times 5.03\times10^{-3} \approx 3.02\times10^6\,\text{N}
+F_{single} = \tau_{allow} \times A_{shear} \approx 600\times10^6 \times 5.03\times10^{-3} \approx 3.02\times10^6\text{N}
 $$
 
 8 sets of lock pins (4 on support platform + 4 on clamping arms) total shear:
 
 $$
-F_{total} = 8 \times 3.02\times10^6 \approx 2.42\times10^7\,\text{N}
+F_{total} = 8 \times 3.02\times10^6 \approx 2.42\times10^7\text{N}
 $$
 
 Much greater than the gravity of a fully loaded 200 t car (about 1.96×10⁶ N), safety margin >12:1. In case of power or hydraulic failure, the lock pins are automatically held in the extended position by a spring accumulator.

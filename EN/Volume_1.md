@@ -89,11 +89,11 @@ This equation shows: for a given linear density λ and radius R₀, there is a u
 At R₀ = 42,264 km:
 
 $$
-a_g = \frac{GM_e}{R_0^2} = \frac{3.986\times10^{14}}{(4.2264\times10^7)^2} \approx 0.2238\,\text{m/s}^2
+a_g = \frac{GM_e}{R_0^2} = \frac{3.986\times10^{14}}{(4.2264\times10^7)^2} \approx 0.2238\text{m/s}^2
 $$
 
 $$
-a_c = \omega_e^2 R_0 = (7.2921\times10^{-5})^2 \times 4.2264\times10^7 \approx 0.2247\,\text{m/s}^2
+a_c = \omega_e^2 R_0 = (7.2921\times10^{-5})^2 \times 4.2264\times10^7 \approx 0.2247\text{m/s}^2
 $$
 
 $a_c > a_g$ , difference ≈ 0.0009 m/s².
@@ -195,7 +195,7 @@ The effective projected area of the ring in the direction of parallel light $≈
 Solar pressure formula derivation: Solar constant S₀ = 1361 W/m², for a perfectly reflecting surface, radiation pressure P = 2S₀/c, where c = 3.0×10⁸ m/s is the speed of light [1.2]:
 
 $$
-P = \frac{2 \times 1361}{3.0\times10^8} \approx 9.07\times10^{-6}\,\text{N/m}^2
+P = \frac{2 \times 1361}{3.0\times10^8} \approx 9.07\times10^{-6}\text{N/m}^2
 $$
 
 Total force on the ring due to solar radiation pressure $≈ PA_{projected} ≈ 9.07×10⁻⁶ × 5.9×10⁷ ≈ 535 N$ . This acts continuously and uniformly on the entire ring, and can accumulate a measurable center-of-mass offset (n=1 mode) within several months, requiring periodic compensation.

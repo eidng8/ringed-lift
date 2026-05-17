@@ -145,7 +145,7 @@ The conservative value of 4.5 GPa is too low to support the ring elevator design
 **Optimistic Value Calculation (Current Reference)**:
 
 $$
-\sigma_{cable} = 80 \times 0.5 \times 0.7 \times 0.7 = 80 \times 0.245 = 19.6\,\text{GPa}
+\sigma_{cable} = 80 \times 0.5 \times 0.7 \times 0.7 = 80 \times 0.245 = 19.6\text{GPa}
 $$
 
 **Comparison with Existing Experimental Data (To Be Verified-V2-M1)**:

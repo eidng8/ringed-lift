@@ -69,13 +69,13 @@ The design linear density of the ring in full cable state λ = 300 kg/m (Volume 
 The solar cell array is in the form of a flexible thin film, with a target areal density ≤ 1.0 kg/m². Distributed evenly along the ring circumference, the deployment width is about w. Let w = 10 m (including maintenance passage and safety spacing), then the additional linear density per unit ring length:
 
 $$
-\Delta \lambda = \rho_A \times w = 1.0 \, \text{kg/m}^2 \times 10 \, \text{m} = 10 \, \text{kg/m}
+\Delta \lambda = \rho_A \times w = 1.0  \text{kg/m}^2 \times 10  \text{m} = 10  \text{kg/m}
 $$
 
 The additional linear density is only about 3.3% of the ring cable's own linear density. According to the ring's static equilibrium equation $T = \frac{λGMₑ}{R_0}$ , the ring tension is proportional to the linear density, so the increase in ring tension after installing the cell array is about:
 
 $$
-\Delta T_{\text{ring}} = \frac{GM_e \Delta \lambda}{R_0} \approx \frac{3.986 \times 10^{14} \times 10}{4.2264 \times 10^7} \approx 9.43 \times 10^7 \, \text{N}
+\Delta T_{\text{ring}} = \frac{GM_e \Delta \lambda}{R_0} \approx \frac{3.986 \times 10^{14} \times 10}{4.2264 \times 10^7} \approx 9.43 \times 10^7  \text{N}
 $$
 
 The allowable tension of the ring cable cross-section can be deduced from the design parameters:
@@ -97,19 +97,19 @@ With **500 GW** as the initial installed target (reference: about 250 times the 
 | Power per unit area | $P_A$ | $S_0 \cdotp FF \cdotp η_{PV}$ | — |
 
 $$
-P_A = 1,361 \times 0.45 \times 0.85 \approx 520.6 \, \text{W/m}^2
+P_A = 1,361 \times 0.45 \times 0.85 \approx 520.6  \text{W/m}^2
 $$
 
 Total area required for 500 GW:
 
 $$
-A_{500\text{GW}} = \frac{500 \times 10^9}{520.6} \approx 9.60 \times 10^8 \, \text{m}^2 = 960 \, \text{km}^2
+A_{500\text{GW}} = \frac{500 \times 10^9}{520.6} \approx 9.60 \times 10^8  \text{m}^2 = 960  \text{km}^2
 $$
 
 Distributed along the ring circumference L = 265,458 km = 2.65458 × 10⁸ m, the average deployment width:
 
 $$
-w_{\text{avg}} = \frac{9.60 \times 10^8}{2.65458 \times 10^8} \approx 3.62 \, \text{m}
+w_{\text{avg}} = \frac{9.60 \times 10^8}{2.65458 \times 10^8} \approx 3.62  \text{m}
 $$
 
 Even considering safety spacing, maintenance passages, and wiring space, increasing the actual width to 10 m, the total area is about 2,650 km², which is fully accommodated on the scale of the ring.
@@ -129,7 +129,7 @@ Substituting $R_e = 6,371 km$ ， $R_{sun} ≈ 696,340 km$ ， $R_{GEO} ≈ 42,1
 When the sun is regarded as a point source, the half-angle of the shadow cone is about 0.0046 rad. At 42,164 km, the shadow cone radius is about:
 
 $$
-r_{\text{shadow}} \approx R_e - (R_{\text{GEO}} - R_e) \times \tan(0.0046) \approx 6,371 - 35,793 \times 0.0046 \approx 6,371 - 165 \approx 6,206 \, \text{km}
+r_{\text{shadow}} \approx R_e - (R_{\text{GEO}} - R_e) \times \tan(0.0046) \approx 6,371 - 35,793 \times 0.0046 \approx 6,371 - 165 \approx 6,206  \text{km}
 $$
 
 This value is about 97% of the Earth's radius, and the cross-sectional diameter of the shadow at GEO is about 12,400 km. However, the GEO orbit is circular, and the ring is only at the outer edge of this orbit. The projection of the shadow cone on the ring plane is a circular area with a diameter of about 300 km (most severe at the vernal equinox, less at the autumnal equinox).
@@ -141,13 +141,13 @@ The ring circumference is about 265,458 km, and the shadow region arc length $l_
 Conservatively taking the shadow region arc length as 1,000 km (including the penumbra), accounting for about 0.38% of the ring circumference. The photovoltaic area and corresponding power generation in this arc segment:
 
 $$
-P_{\text{shadow}} = 500 \, \text{GW} \times 0.0038 \approx 1.88 \, \text{GW}
+P_{\text{shadow}} = 500  \text{GW} \times 0.0038 \approx 1.88  \text{GW}
 $$
 
 Shadow duration is up to 72 min = 1.2 h, so the energy gap during this period:
 
 $$
-E_{\text{gap}} = 1.88 \times 10^9 \times 4,320 \approx 8.12 \times 10^{12} \, \text{J} \approx 2.25 \, \text{GWh}
+E_{\text{gap}} = 1.88 \times 10^9 \times 4,320 \approx 8.12 \times 10^{12}  \text{J} \approx 2.25  \text{GWh}
 $$
 
 ### 9.2.5 Energy Storage Scheme
@@ -209,19 +209,19 @@ Transmitting end DC power $P_{DC_{tx}} = 20 GW$ , after $η_{DC-RF} = 70 \%$ con
 Transmitting antenna area $A_{tx}$ is determined by the power density limit: to avoid ionospheric breakdown and ensure safety, power density $P_{density} ≤ 250 W/m²$ (safety standard).
 
 $$
-A_{\text{tx}} = \frac{P_{\text{RF}}}{P_{\text{density}}} = \frac{14 \times 10^9}{250} = 5.6 \times 10^7 \, \text{m}^2
+A_{\text{tx}} = \frac{P_{\text{RF}}}{P_{\text{density}}} = \frac{14 \times 10^9}{250} = 5.6 \times 10^7  \text{m}^2
 $$
 
 Corresponding circular antenna diameter:
 
 $$
-d_{\text{tx}} = \sqrt{\frac{4 A_{\text{tx}}}{\pi}} = \sqrt{\frac{4 \times 5.6 \times 10^7}{\pi}} \approx 8,440 \, \text{m} \approx 8.4 \, \text{km}
+d_{\text{tx}} = \sqrt{\frac{4 A_{\text{tx}}}{\pi}} = \sqrt{\frac{4 \times 5.6 \times 10^7}{\pi}} \approx 8,440  \text{m} \approx 8.4  \text{km}
 $$
 
 The receiving antenna (ground rectenna) area is deduced from the link efficiency. After atmospheric attenuation, the microwave power reaching the ground is $P_{RF} \cdotp η_{tx} \cdotp η_{atm} = 14 × 0.95 × 0.95 ≈ 12.6 GW$ . The power density at the receiving antenna is about 60%–80% of that at the transmitting antenna (depending on beam spread), taking an effective receiving power density of about 150 W/m²:
 
 $$
-A_{\text{rx}} = \frac{12.6 \times 10^9}{150} \approx 8.4 \times 10^7 \, \text{m}^2
+A_{\text{rx}} = \frac{12.6 \times 10^9}{150} \approx 8.4 \times 10^7  \text{m}^2
 $$
 
 Corresponding diameter is about 10.3 km. The ground rectenna can be built on offshore platforms or desert areas near the anchor nodes, with an area of about 80 km² per node.
@@ -261,7 +261,7 @@ The closed-loop structure of the ring is naturally suitable for a **dual-redunda
 Single bus resistance $R_{line} = 875 Ω$ , current $I = 10 kA$ , full ring transmission loss:
 
 $$
-P_{\text{loss}} = I^2 R_{\text{line}} = (10,000)^2 \times 875 = 8.75 \times 10^{10} \, \text{W} = 87.5 \, \text{GW}
+P_{\text{loss}} = I^2 R_{\text{line}} = (10,000)^2 \times 875 = 8.75 \times 10^{10}  \text{W} = 87.5  \text{GW}
 $$
 
 This value far exceeds the 2 GW transmission capacity—indicating extremely high losses for long-distance HVDC transmission. In actual operation, power is **used locally**, not transmitted long distances from one side of the ring to the other. The solar cell arrays at the 6 nodes each supply power to the local elevator and adjacent ring segments, with only a small amount of power scheduled across hemispheres via HVDC. Under normal circumstances, the transmission distance of a single ring segment does not exceed 1/6 of the ring circumference (about 44,000 km), with losses of about 14.6 GW (still high, further limited to only 1/12 of the circumference, about 22,000 km, losses about 7.3 GW).
@@ -315,7 +315,7 @@ Fiber signals attenuate with distance during transmission and require periodic r
 Single segment fiber loss (including splicing and connectors):
 
 $$
-\alpha = 0.2 \, \text{dB/km} \quad (\text{typical value for radiation-hardened single-mode fiber})
+\alpha = 0.2  \text{dB/km} \quad (\text{typical value for radiation-hardened single-mode fiber})
 $$
 
 The spacing of optical amplifiers must ensure that the received optical signal-to-noise ratio (OSNR) is above the forward error correction (FEC) threshold. For 64-QAM 64 Gbaud signals, the typical FEC threshold OSNR is about 15 dB.
@@ -332,7 +332,7 @@ $$
 \text{OSNR} \approx 20 - 5 - 10 \log_{10}(1.27 \times 10^{-19} \times 12.5 \times 10^9) - 30
 $$
 $$
-= 15 - 10 \log_{10}(1.59 \times 10^{-9}) \approx 15 + 88 \approx 103 \, \text{dB} \, (\text{per span})
+= 15 - 10 \log_{10}(1.59 \times 10^{-9}) \approx 15 + 88 \approx 103  \text{dB}  (\text{per span})
 $$
 
 After N spans, OSNR cumulative degradation is $OSNR_N = OSNR_1 − 10 \log_{10}(N)$ . Let $OSNR_N ≥ 15 dB$ (FEC threshold), then:
