@@ -102,14 +102,11 @@ Lab-measured CNT single filament strength can reach 60–100 GPa [2.6–2.8], bu
 
 ### 2.3.2 Hierarchical Path of Strength Loss
 
-```
-CNT single filament (nm scale)
-    ↓ Twisting/Spinning
-CNT yarn (μm scale, hundreds to thousands of filaments)
-    ↓ Stranding
-CNT strand (mm scale, tens to hundreds of yarns)
-    ↓ Braiding/Twisting
-CNT cable (m scale, hundreds to thousands of strands)
+```mermaid
+flowchart TD
+    A[CNT single filament] -->|Twisting/Spinning| B[CNT yarn]
+    B -->|Stranding| C[CNT strand]
+    C -->|Braiding/Twisting| D[CNT cable]
 ```
 
 The discussion of strength transfer efficiency refers to review studies in the CNT fiber field [2.9].

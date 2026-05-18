@@ -199,20 +199,18 @@
 
 ## Logical Relationship Diagram
 
-```
-Volume I (Physical Feasibility)
-    ↓
-Volume II (Material Feasibility) → Volume III (Node Constructability) → Volume IV (Cable and Track Sleeve Design)
-    ↓
-Volume V (Cabin Design)
-    ↓
-Volume VI (Ring Assembly Feasibility)
-    ↓
-Volume VII (Engineering Verification)
-    ↓
-Volume VIII (Transport & Logistics) + Volume IX (Energy & Communication)
-    ↓
-Volume X (Economic Feasibility) → Volume XI (Governance Feasibility)
-    ↓
-Volume XII (Survival Assurance—Emergency, Redundancy & Lifeline Engineering)
+```mermaid
+flowchart TD
+    V1[Volume I Physical Feasibility] --> V2[Volume II Material Feasibility]
+    V2 --> V3[Volume III Node Constructability]
+    V3 --> V4[Volume IV Cable and Track Sleeve Design]
+    V2 --> V5[Volume V Cabin Design]
+    V5 --> V6[Volume VI Ring Assembly Feasibility]
+    V6 --> V7[Volume VII Engineering Verification]
+    V7 --> V8[Volume VIII Transport & Logistics]
+    V7 --> V9[Volume IX Energy & Communication]
+    V8 --> V10[Volume X Economic Feasibility]
+    V9 --> V10
+    V10 --> V11[Volume XI Governance Feasibility]
+    V11 --> V12[Volume XII Survival Assurance]
 ```

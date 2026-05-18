@@ -17,18 +17,18 @@
 
 ### Logical Structure of the Volumes
 
-```
-Overview (Strategic blueprint: the significance of lunar industrialization for humanity's deep-space civilization)
-    ↓
-Volume I (Pioneer Missions) → Volume II (Site Selection and Infrastructure) → Volume III (Energy)
-    ↓
-Volume IV (Resources) → Volume V (Industrial Manufacturing) → Volume VI (Transport and Logistics)
-    ↓
-Volume VII (Habitation and Cities) → Volume VIII (Emergency Response and Rescue)
-    ↓
-Volume IX (Economics and Earth Linkages)
-    ↓
-Volume X (Coordination, Risks, Outlook, and Civilizational Positioning)
+```mermaid
+flowchart TD
+  O[Overview Strategic blueprint] --> V1[Volume I Pioneer Missions]
+  V1 --> V2[Volume II Site Selection and Infrastructure]
+  V2 --> V3[Volume III Energy]
+  V1 --> V4[Volume IV Resources]
+  V4 --> V5[Volume V Industrial Manufacturing]
+  V5 --> V6[Volume VI Transport and Logistics]
+  V6 --> V7[Volume VII Habitation and Cities]
+  V7 --> V8[Volume VIII Emergency Response and Rescue]
+  V8 --> V9[Volume IX Economics and Earth Linkages]
+  V9 --> V10[Volume X Coordination, Risks, Outlook, and Civilizational Positioning]
 ```
 
 
