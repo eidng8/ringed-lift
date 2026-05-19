@@ -2,11 +2,12 @@
 
 ## Volume VI: Transportation Network
 
-**Version**: 1.2<br/>
+**Version**: 1.6<br/>
 **Date of Preparation**: May 2026<br/>
-**Currency Unit**: RMB (Y)<br/>
-**Related Main Volume**: Main Volume VIII (Transport and Logistics System)<br/>
-**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Siting and Infrastructure), Volume III (Energy System), Volume IV (Resource Prospecting and Mining Engineering), Volume V (Manufacturing System)
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volume**: Main Volume VIII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III, Volume IV, Volume V<br/>
+**Related Reading**: Appendix III Volume II
 
 
 ### Terminology Table

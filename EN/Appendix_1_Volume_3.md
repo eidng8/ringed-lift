@@ -2,11 +2,11 @@
 
 ## Volume III: Energy System
 
-**Version**: 1.9<br/>
+**Version**: 1.13<br/>
 **Date of Preparation**: June 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
-**Related Main Volumes**: Main Volume IX (Energy and Communication Infrastructure), Main Volume VII (Engineering Validation)<br/>
-**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Site Selection and Infrastructure)
+**Related Main Volumes**: Main Volume IX, Main Volume VII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II
 
 
 ### Glossary

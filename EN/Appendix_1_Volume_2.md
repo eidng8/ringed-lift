@@ -2,9 +2,9 @@
 
 ## Volume II: Permanent Base Site Selection and Infrastructure Construction
 
-**Version**: 1.7<br/>
+**Version**: 1.8<br/>
 **Date of Preparation**: May 2026<br/>
-**Currency Unit**: Renminbi (RMB), symbol: Y<br/>
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
 **Related Main Volumes**: Main Volume III, Main Volume VII
 
 

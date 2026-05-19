@@ -2,10 +2,10 @@
 
 ## Volume I: Pioneer Missions and Orbital Validation
 
-**Version**: 2.3<br/>
+**Version**: 2.5<br/>
 **Date of Preparation**: May 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
-**Related Main Volumes**: Main Volume II (Material Parameters), Main Volume VII (P0/P1/P2/P3 Verification Framework)
+**Related Main Volumes**: Main Volume II, Main Volume VII
 
 
 ### Glossary

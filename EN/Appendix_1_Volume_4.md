@@ -1,12 +1,13 @@
 # Appendix I: Lunar Industry
 
-## Volume 4: In-Situ Resource Utilization and Full-Spectrum Resource Development
+## Volume IV: In-Situ Resource Utilization and Full-Spectrum Resource Development
 
-**Version**: 1.6<br/>
-**Date Prepared**: June 2026<br/>
-**Currency Unit**: Chinese Yuan (CNY), symbol: ¥<br/>
-**Related Main Volumes**: Main Volume 2 (Material Parameters), Main Volume 7 (Engineering Verification)<br/>
-**Prerequisites**: Appendix I Volume 1 (Pioneer Missions), Volume 2 (Site Selection and Infrastructure), Volume 3 (Energy System)
+**Version**: 1.8<br/>
+**Date of Preparation**: June 2026<br/>
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volumes**: Main Volume II, Main Volume VII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III
+
 
 ### Terminology Table
 

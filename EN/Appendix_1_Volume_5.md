@@ -2,11 +2,12 @@
 
 ## Volume V: Manufacturing System
 
-**Version**: 1.4<br/>
-**Date**: May 2026<br/>
-**Currency Unit**: RMB (Y)<br/>
-**Related Main Volumes**: Main Volume II (Material Parameters), Main Volume VII (Engineering Verification)<br/>
-**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Siting and Infrastructure), Volume III (Energy System), Volume IV (Resource Prospecting and Mining Engineering)
+**Version**: 1.8<br/>
+**Date of Preparation**: May 2026<br/>
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volumes**: Main Volume II, Main Volume VII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III, Volume IV<br/>
+**Related Reading**: Appendix III Volume III
 
 
 ### Terminology Table

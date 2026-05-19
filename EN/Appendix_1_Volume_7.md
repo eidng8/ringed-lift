@@ -2,11 +2,11 @@
 
 ## Volume VII: Human Habitats and Cities
 
-**Version**: 1.5<br/>
+**Version**: 1.6<br/>
 **Date of Preparation**: June 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
-**Related Main Volumes**: Main Volume XII (Emergency, Redundancy, and Lifeline Engineering)<br/>
-**Prerequisite Reading**: Appendix I, Volume I (Pioneer Missions), Volume II (Site Selection and Infrastructure), Volume III (Energy Systems), Volume V (Manufacturing Systems), Volume VI (Transportation Network)
+**Related Main Volume**: Main Volume XII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III, Volume V, Volume VI
 
 
 ### Glossary

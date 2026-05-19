@@ -2,11 +2,11 @@
 
 ## Volume X: Coordination, Risk, Outlook, and Civilizational Positioning
 
-**Version**: 2.2<br/>
+**Version**: 2.3<br/>
 **Date of Preparation**: June 2026<br/>
-**Currency Unit**: RMB (Y)<br/>
-**Related Main Volumes**: All 12 volumes of the main Ring-Ladder project<br/>
-**Prerequisite Reading**: Appendix I Volumes I-IX, Main Volume VIII (Ring construction timeline), Main Volume X (Ring economic model)
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volumes**: All 12 volumes of the main Ring-Ladder Engineering project<br/>
+**Prerequisite Reading**: Appendix I Volumes I-IX, Main Volume VIII, Main Volume X
 
 
 ### Terminology Table
