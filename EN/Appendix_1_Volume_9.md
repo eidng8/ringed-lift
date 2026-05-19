@@ -2,11 +2,12 @@
 
 ## Volume IX: Economics and Earth Linkages
 
-**Version**: 1.1<br/>
+**Version**: 1.2<br/>
 **Date of Preparation**: June 2026<br/>
 **Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
 **Related Main Volumes**: Main Volume X, Main Volume XI<br/>
-**Prerequisite Reading**: Appendix I Volumes I through VIII
+**Prerequisite Reading**: Appendix I Volumes I through VIII<br/>
+**Related Reading**: Appendix III Volume III
 
 
 ### Glossary

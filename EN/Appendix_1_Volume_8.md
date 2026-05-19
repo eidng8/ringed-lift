@@ -2,11 +2,11 @@
 
 ## Volume VIII: Emergency, Protection, and Rescue
 
-**Version**: 1.5<br/>
+**Version**: 1.6<br/>
 **Date of Preparation**: June 2026<br/>
-**Currency Unit**: RMB (Y)<br/>
-**Related Main Volume**: Main Volume XII (Emergency, Redundancy, and Lifeline Engineering)<br/>
-**Prerequisite Reading**: Appendix I Volume I (Pioneer Missions), Volume II (Siting and Infrastructure), Volume III (Energy System), Volume VII (Habitation and Cities)
+**Currency Unit**: Renminbi (RMB), symbol: ¥<br/>
+**Related Main Volume**: Main Volume XII<br/>
+**Prerequisite Reading**: Appendix I Volume I, Volume II, Volume III, Volume VII
 
 
 ### Terminology Table
